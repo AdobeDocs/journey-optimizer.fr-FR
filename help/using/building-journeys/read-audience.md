@@ -32,10 +32,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: cdd39eeee822908393aa85c3999081de4ca7f2e8
+source-git-commit: 1c2e1cc6c0107416cc8d8180e8850e76c6383b2e
 workflow-type: tm+mt
-source-wordcount: 3767
-ht-degree: 60%
+source-wordcount: 3891
+ht-degree: 56%
 
 ---
 
@@ -48,7 +48,7 @@ Utilisez l’activité Lecture d’audience pour démarrer des parcours avec des
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
 >title="Activité Lecture d’audience"
->abstract="Ajoutez à ce parcours tous les profils qualifiés d’une audience [!DNL Adobe Experience Platform] sélectionnée. Exécutez une fois ou selon un planning."
+>abstract="Ajoute à ce parcours tous les profils qualifiés d’une audience [!DNL Adobe Experience Platform] sélectionnée. S’exécute une fois ou selon un planning."
 
 L’activité **Lecture d’audience** est l’activité de point d’entrée du parcours qui ajoute tous les profils d’une audience [!DNL Adobe Experience Platform] sélectionnée à un parcours. Vous pouvez exécuter l’entrée une fois ou selon une planification récurrente. Dans les API et les références techniques, cette activité est également appelée entrée de parcours déclenchée par un segment ou basée sur une audience.
 
@@ -94,12 +94,12 @@ Vous définissez les éléments suivants : **Audience** (obligatoire), **Espace 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_audience"
 >title="Audience"
->abstract="Sélectionnez l’audience [!DNL Adobe Experience Platform] dont les profils entreront dans ce parcours."
+>abstract="Audience [!DNL Adobe Experience Platform] dont les profils rejoignent ce parcours. Tous les profils qualifiés sont lus dans. Les audiences par lots sont recommandées pour un décompte fiable et cohérent, et une seule audience peut être lue par activité."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_namespace"
 >title="Espace de noms"
->abstract="Choisissez l’identité (e-mail, ECID, etc.) utilisée pour identifier les personnes qui accèdent au parcours. Par défaut, le champ est prérempli avec le dernier espace de noms utilisé."
+>abstract="Identité (e-mail, ECID, par exemple) utilisée pour identifier les personnes qui accèdent au parcours. Seuls les espaces de noms basés sur des personnes sont disponibles et les profils sans cette identité ne peuvent pas être saisis. Par défaut, le champ est prérempli avec le dernier espace de noms utilisé."
 
 1. Développez la catégorie **[!UICONTROL Orchestration]** et déposez une activité **[!UICONTROL Lecture d’audience]** dans votre zone de travail.
 
@@ -177,17 +177,17 @@ Cette valeur est stockée dans la payload de version du parcours. La valeur par 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_start_date"
 >title="Date et heure de début"
->abstract="Définissez le moment où démarrer ce parcours."
+>abstract="Date et heure auxquelles le parcours commence à lire l’audience et les profils commencent à entrer. Combinez-la avec les options de périodicité ci-dessous pour planifier des exécutions récurrentes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_until"
 >title="Répéter jusqu’à"
->abstract="Définissez la date de fin des exécutions récurrentes."
+>abstract="Date d’arrêt des exécutions récurrentes. Passée cette date, le parcours ne lit plus l’audience ou n’accepte plus de nouveaux profils."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_every"
 >title="Fréquence de répétition"
->abstract="Fréquence d’exécution du parcours (par exemple, quotidienne, hebdomadaire)."
+>abstract="Fréquence à laquelle le parcours relit l’audience et s’exécute à nouveau, par exemple tous les jours ou toutes les semaines. Détermine l’intervalle de périodicité entre les exécutions jusqu’à ce que la date « Répéter jusqu’au » soit atteinte."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_incremental_read"
@@ -197,12 +197,12 @@ Cette valeur est stockée dans la payload de version du parcours. La valeur par 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_force_reentrance"
 >title="Forcer une rentrée"
->abstract="Effacez toutes les participantes et tous les participants du parcours avant chaque nouvelle lecture d’audience."
+>abstract="Efface tous les participants du parcours avant chaque nouvelle lecture d’audience afin que chaque exécution démarre à nouveau et que les profils puissent entrer à nouveau à chaque occurrence."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
 >title="Déclencher après l’évaluation de l’audience par lots"
->abstract="Exécutez le parcours uniquement après la nouvelle évaluation de l’audience par lots."
+>abstract="Retarde chaque exécution jusqu’à ce que l’audience par lots ait été récemment évaluée, de sorte que le parcours lise l’instantané d’audience le plus à jour au lieu des données obsolètes. Recommandé pour les parcours récurrents qui dépendent des derniers résultats de segmentation."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
@@ -275,7 +275,7 @@ Par exemple, si un parcours est planifié à 18 h tous les jours, vous pouvez s
 [!CONTEXTUALHELP]
 >id="jo_segment_filters"
 >title="About segment filters"
->abstract="You can choose to target only the individuals who entered or exited a specific segment during a specific time window. For example, you can decide to only retrieve all the customers who entered the VIP segment since last week."
+>abstract="This option targets only the individuals who entered or exited a specific segment during a specific time window. For example, it can retrieve only the customers who entered the VIP segment since last week."
 
 You can choose to target only the individuals who entered or exited a specific segment during a specific time window. For example, you can decide to only retrieve all the customers who entered the VIP segment since last week. Only the new VIP customers will be targeted. All the customers who were already part of the VIP segment before will be excluded.
 

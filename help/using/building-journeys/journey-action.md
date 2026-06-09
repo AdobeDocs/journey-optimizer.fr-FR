@@ -31,9 +31,9 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 84d3c8bd62648c7d1b6cd969ceb7f80329110982
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1736
+source-wordcount: 1734
 ht-degree: 73%
 
 ---
@@ -280,7 +280,7 @@ Pour les messages in-app, vous pouvez utiliser le bouton **[!UICONTROL Modifier 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_action_journey"
 >title="Ajouter plusieurs actions entrantes"
->abstract="Vous pouvez sélectionner plusieurs actions entrantes au sein d’un même parcours. Cette fonctionnalité permet de diffuser plusieurs expériences basées sur du code, messages in-app, cartes de contenu ou actions web à différents emplacements en même temps, chaque action comportant du contenu spécifique."
+>abstract="Un seul parcours peut inclure plusieurs actions entrantes. Cette fonctionnalité permet de diffuser plusieurs expériences basées sur du code, messages in-app, cartes de contenu ou actions web à différents emplacements en même temps, chaque action comportant du contenu spécifique."
 
 Pour simplifier votre orchestration de parcours, vous pouvez définir plusieurs actions entrantes dans une seule action de parcours.
 

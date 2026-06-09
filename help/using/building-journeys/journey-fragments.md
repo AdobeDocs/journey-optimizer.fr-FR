@@ -11,10 +11,10 @@ keywords: fragments, parcours, réutilisation, nœuds, zone de travail, inventai
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1517
-ht-degree: 10%
+source-wordcount: 1516
+ht-degree: 7%
 
 ---
 
@@ -53,7 +53,7 @@ Vous pouvez filtrer la liste par nom de fragment, statut, date de création, cr�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_create_canvas"
 >title="Enregistrer en tant que fragment de parcours"
->abstract="Saisissez un nom unique pour votre fragment et cliquez sur Enregistrer. Les nœuds sélectionnés seront enregistrés en tant que fragment réutilisable disponible dans l’inventaire des fragments."
+>abstract="Un nom de fragment unique est saisi avant l’enregistrement. Les nœuds sélectionnés sont enregistrés en tant que fragment réutilisable disponible dans l’inventaire des fragments."
 
 Vous pouvez créer un fragment de parcours de deux manières : directement à partir de la zone de travail de parcours (recommandé) ou à partir de l’inventaire des fragments.
 
@@ -98,7 +98,7 @@ Pour créer un fragment directement à partir de l’inventaire :
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_properties"
 >title="Propriétés du fragment de parcours"
->abstract="Ouvrez un fragment à partir de l’inventaire pour modifier ses nœuds, propriétés, balises ou libellés. Les fragments actifs doivent être désactivés avant de pouvoir être modifiés."
+>abstract="L’ouverture d’un fragment à partir de l’inventaire permet de modifier ses nœuds, propriétés, balises ou libellés. Les fragments actifs doivent être désactivés avant de pouvoir être modifiés."
 
 Pour modifier un fragment, ouvrez-le dans l’**[!UICONTROL inventaire des fragments]** en cliquant sur son nom. Dans l’interface utilisateur de création de fragments, vous pouvez :
 

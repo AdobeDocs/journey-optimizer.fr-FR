@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1450
-ht-degree: 99%
+source-wordcount: 1395
+ht-degree: 97%
 
 ---
 
@@ -27,12 +27,12 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
 >title="Utiliser un identifiant supplémentaire"
->abstract="L’identifiant supplémentaire est un identifiant secondaire qui fournit un contexte supplémentaire pour l’exécution d’un parcours. Pour le définir, sélectionnez le champ à utiliser comme identifiant supplémentaire et choisissez un espace de noms à lui associer."
+>abstract="L’identifiant supplémentaire est un identifiant secondaire qui fournit un contexte supplémentaire pour l’exécution d’un parcours. Il se compose du champ utilisé comme identifiant supplémentaire et d’un espace de noms qui lui est associé."
 
 <table style="border-collapse: collapse; width: 100%;">
   <tr>
     <td style="vertical-align: top; padding-right: 20px; border: none;">
-      <p>Par défaut, les parcours sont exécutés dans le contexte d’un <b>identifiant de profil</b>. Cela signifie que, tant que le profil est actif dans un parcours donné, il ne pourra pas rejoindre à nouveau un autre parcours. Pour éviter cela, Journey Optimizer vous permet de capturer un <b>identifiant supplémentaire</b>, tel qu’un identifiant de commande, d’abonnement ou d’ordonnance, en plus de l’identifiant de profil.  
+      <p>Par défaut, les parcours sont exécutés dans le cadre d’un <b>identifiant de profil</b>. Cela signifie que, tant que le profil est actif dans un parcours donné, il ne pourra pas rejoindre à nouveau un autre parcours. Pour éviter cela, Journey Optimizer vous permet de capturer un <b>identifiant supplémentaire</b> tel qu’un identifiant de commande, d’abonnement ou de prescription, en plus de l’identifiant de profil.  
       <p>Dans cet exemple, nous avons ajouté un <b>identifiant de réservation</b> en tant qu’identifiant supplémentaire.</p>
       <p>Ce faisant, les parcours sont exécutés dans le contexte de l’identifiant de profil associé à l’identifiant supplémentaire (ici, l’identifiant de réservation). Une instance du parcours est exécutée pour chaque itération de l’identifiant supplémentaire. Cela permet plusieurs entrées du même ID de profil dans les parcours s’ils ont effectué des réservations différentes.</p>
       <p>En outre, Journey Optimizer vous permet d’utiliser les attributs de l’identifiant supplémentaire (par exemple, le numéro de réservation, la date de renouvellement de l’ordonnance, le type de produit) pour personnaliser les messages, ce qui garantit des communications hautement pertinentes.</p>

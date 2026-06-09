@@ -28,10 +28,10 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1633
-ht-degree: 77%
+source-wordcount: 1624
+ht-degree: 74%
 
 ---
 
@@ -45,12 +45,12 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"
 >title="Activer l’optimisation de l’heure d’envoi"
->abstract="Choisissez si vous souhaitez optimiser les ouvertures d&#39;e-mail ou les clics sur e-mail en sélectionnant le bouton radio approprié. Vous pouvez également choisir de mettre entre crochets les heures d&#39;envoi utilisées par le système en saisissant une valeur pour l&#39;option Envoyer pendant."
+>abstract="Un bouton radio détermine s’il faut optimiser les ouvertures d’e-mail ou les clics sur e-mail. Les heures d’envoi utilisées par le système peuvent également être mises entre crochets avec une valeur pour l’option Envoyer pendant ."
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_push"
 >title="Activer l’optimisation de l’heure d’envoi"
->abstract="Les messages push sont définis par défaut sur l&#39;option d&#39;ouverture, car les clics ne s&#39;appliquent pas à la messagerie push. Vous pouvez également choisir de mettre entre crochets les heures d&#39;envoi utilisées par le système en saisissant une valeur pour l&#39;option Envoyer pendant."
+>abstract="Les messages push sont définis par défaut sur l&#39;option d&#39;ouverture, car les clics ne s&#39;appliquent pas à la messagerie push. Les heures d’envoi utilisées par le système peuvent également être mises entre crochets avec une valeur pour l’option Envoyer pendant ."
 
 La fonctionnalité d’optimisation de l’heure d’envoi d’[!DNL Adobe Journey Optimizer], optimisée par les services d’IA dédiée aux Parcours d’Adobe, choisit l’heure d’envoi optimale pour les e-mails et les messages push afin d’optimiser l’engagement du client, en fonction du comportement historique d’ouverture et de clic de vos clients.
 

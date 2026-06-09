@@ -29,10 +29,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 2585
-ht-degree: 92%
+source-wordcount: 2581
+ht-degree: 91%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_pause"
 >title="Mettre en pause votre parcours"
->abstract="Mettez en pause un parcours actif pour empêcher de nouveaux profils de le rejoindre. Choisissez de supprimer ou de conserver les profils actuellement dans le parcours. S’ils sont conservés, ils reprendront l’exécution à l’activité d’action suivante lors de la reprise du parcours. Idéal pour les mises à jour ou les arrêts d’urgence, sans perte de la progression."
+>abstract="La suspension d’un parcours dynamique empêche l’entrée de nouveaux profils. Les profils actuellement dans le parcours peuvent être ignorés ou conservés. S’ils sont conservés, ils reprendront l’exécution à l’activité d’action suivante lors de la reprise du parcours. Idéal pour les mises à jour ou les arrêts d’urgence, sans perte de la progression."
 
 Vous pouvez suspendre vos parcours en direct, effectuer toutes les modifications nécessaires et les reprendre à tout moment.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Pendant la pause, vous pouvez [appliquer des critères de sortie d’attribut de profil](#journey-exit-criteria) pour exclure des profils en fonction de leurs attributs. Le parcours est automatiquement repris à l’issue de la période de pause. Vous pouvez également le [reprendre manuellement](#journey-resume-steps).
 
@@ -120,7 +120,7 @@ Découvrez comment résoudre les problèmes liés aux rejets dans [cette section
 >[!CONTEXTUALHELP]
 >id="ajo_journey_resume"
 >title="Reprendre votre parcours"
->abstract="Reprenez un parcours en pause pour permettre à de nouveaux profils de rejoindre le parcours. Si des profils étaient en attente pendant la pause, ils continueront leur parcours. Idéal pour redémarrer des parcours en toute sécurité après des mises à jour ou des pauses."
+>abstract="La reprise d’un parcours en pause permet à de nouveaux profils de saisir à nouveau. Si des profils étaient en attente pendant la pause, ils continueront leur parcours. Idéal pour redémarrer des parcours en toute sécurité après des mises à jour ou des pauses."
 
 Les parcours en pause sont automatiquement repris à l’issue d’une période de pause maximale de 14 jours. Ils peuvent être repris manuellement à tout moment. Reprenez un parcours en pause pour permettre à de nouveaux profils de rejoindre à nouveau le parcours. Si des profils étaient en attente pendant la pause, ils continueront leur parcours. Idéal pour redémarrer des parcours en toute sécurité après des mises à jour ou des pauses.
 

@@ -23,10 +23,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 378
-ht-degree: 78%
+source-wordcount: 380
+ht-degree: 72%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 78%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_time_zone"
 >title="Fuseau horaire du parcours"
->abstract="Sélectionnez le fuseau horaire du parcours. Si vous utilisez un fuseau horaire fixe, il est identique pour toutes les personnes qui entrent dans le parcours."
+>abstract="Le paramètre de fuseau horaire définit le fuseau horaire du parcours. Si vous utilisez un fuseau horaire fixe, il est identique pour toutes les personnes qui entrent dans le parcours."
 
 
 Vous pouvez définir un fuseau horaire dans les [propriétés](../building-journeys/journey-properties.md#timezone) de votre parcours.
@@ -67,7 +67,7 @@ Pour cela, dans le volet **[!UICONTROL Propriétés du parcours]**, sélectionne
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_profile_time_zone"
 >title="Utiliser le fuseau horaire du profil"
->abstract="Cochez cette option pour utiliser le fuseau horaire de profil en temps réel dans les activités **Attente** et **Condition**. Si un fuseau horaire a été défini pour un profil, il est récupéré et utilisé dans le parcours. Dans le cas contraire, le fuseau horaire utilisé est celui défini dans le champ du fuseau horaire du dessus."
+>abstract="Cette option utilise le fuseau horaire du profil en temps réel dans les activités **Attente** et **Condition**. Si un fuseau horaire a été défini pour un profil, il est récupéré et utilisé dans le parcours. Dans le cas contraire, le fuseau horaire utilisé est celui défini dans le champ du fuseau horaire du dessus."
 
 Si l’événement d’entrée du parcours comporte un espace de noms, ce qui signifie que le parcours peut accéder au service de profil client en temps réel de [!DNL Adobe Experience Platform], vous pouvez utiliser le fuseau horaire défini au niveau du profil. Pour cela, dans **Propriétés**, cochez la case **Utiliser le fuseau horaire du profil dans les attentes et conditions**. Cette option n’est pas cochée par défaut.
 

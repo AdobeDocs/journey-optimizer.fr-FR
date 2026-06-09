@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 2307
-ht-degree: 74%
+source-wordcount: 2308
+ht-degree: 72%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
 >title="Tester votre parcours"
->abstract="Utilisez des profils de test pour tester votre parcours avant de le publier. Vous pouvez ainsi analyser le flux des individus dans le parcours et résoudre les problèmes avant la publication."
+>abstract="Les profils de test vous permettent de tester votre parcours avant de le publier. Vous pouvez ainsi analyser le flux des individus dans le parcours et résoudre les problèmes avant la publication."
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-dry-run" text="Test à blanc du parcours"
 
 Une fois que vous avez créé votre parcours, vous pouvez le tester avant de le publier. [!DNL Adobe Journey Optimizer] propose un « mode test » pour afficher les profils de test lorsqu’ils se déplacent sur le parcours, détectant les erreurs potentielles avant l’activation. L’exécution de tests rapides vous permet de vérifier que les parcours fonctionnent correctement afin de pouvoir les publier en toute confiance.
@@ -148,7 +148,7 @@ Pour valider le parcours de bout en bout :
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_configuration"
 >title="Configuration du mode test"
->abstract="Si votre parcours contient plusieurs événements, sélectionnez-les dans la liste déroulante. Ensuite, pour chaque événement, configurez les champs transmis et l&#39;exécution de l&#39;envoi de l’événement."
+>abstract="Si un parcours contient plusieurs événements, la liste déroulante permet de sélectionner un événement. Pour chaque événement, les champs transmis et l’exécution de l’envoi de l’événement sont configurés."
 
 Utilisez le bouton **[!UICONTROL Déclencher un événement]** pour configurer un événement qui fera qu’un individu rejoint le parcours.
 

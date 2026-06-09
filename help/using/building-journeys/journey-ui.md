@@ -12,10 +12,10 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1485
-ht-degree: 96%
+source-wordcount: 1482
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_view"
 >title="Vues Liste et Calendrier des parcours"
->abstract="Outre la liste des parcours, [!DNL Journey Optimizer] fournit une vue de calendrier de vos parcours, ce qui apporte une représentation visuelle claire de leurs plannings. Vous pouvez basculer entre les vues Liste et Calendrier à tout moment à l’aide de ces boutons."
+>abstract="Outre la liste des parcours, [!DNL Journey Optimizer] fournit une vue de calendrier de vos parcours, ce qui apporte une représentation visuelle claire de leurs plannings. Ces boutons permettent de basculer entre les vues Liste et Calendrier à tout moment."
 
 ## Tableau de bord des parcours {#dashboard-jo}
 

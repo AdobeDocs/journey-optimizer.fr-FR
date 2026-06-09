@@ -32,10 +32,10 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1082
-ht-degree: 90%
+source-wordcount: 1080
+ht-degree: 89%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run_start"
 >title="Publier un parcours en mode Test à blanc"
->abstract="Le test à blanc de parcours est un mode de publication de parcours spécial dans [!DNL Adobe Journey Optimizer] qui permet aux utilisateurs et utilisatrices du parcours de tester un parcours à l’aide de données de production réelles. Une fois que vous avez conçu votre parcours, effectuez un test à blanc pour confirmer qu’il est fonctionnel et vous assurer que les étapes sont correctes. Ce mode de publication vous permet de tester un parcours sans envoyer de communication à un profil."
+>abstract="Le test à blanc de parcours est un mode de publication de parcours spécial dans [!DNL Adobe Journey Optimizer] qui permet aux utilisateurs et utilisatrices du parcours de tester un parcours à l’aide de données de production réelles. Une fois qu&#39;un parcours est conçu, un essai confirme qu&#39;il est fonctionnel et s&#39;assure que les étapes sont correctes. Ce mode de publication vous permet de tester un parcours sans envoyer de communication à un profil."
 
 Le test à blanc de parcours est un mode de publication de parcours spécial dans [!DNL Adobe Journey Optimizer] qui permet aux utilisateurs et utilisatrices du parcours de tester un parcours à l’aide de données de production réelles sans contacter de véritables clientes et clients ou mettre à jour les informations de profil.  Cette fonctionnalité permet aux concepteurs et conceptrices du parcours de valider leur conception et leur ciblage d’audience avant de publier le parcours.
 
