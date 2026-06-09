@@ -27,7 +27,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
+source-git-commit: 14e6ebce6a8cecdf672526daabf3f7202f5755a4
 workflow-type: tm+mt
 source-wordcount: 382
 ht-degree: 88%
@@ -44,13 +44,6 @@ ht-degree: 88%
 
 Un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs e-mails dans des campagnes et des parcours [!DNL Journey Optimizer]. Cette fonctionnalité vous permet de créer en avance plusieurs blocs de contenu personnalisés qui peuvent être utilisés par des personnes chargées du marketing pour assembler rapidement des contenus d’e-mails avec un processus de conception amélioré.
 
->[!NOTE]
->
->Les **[!UICONTROL fragments]** décrits sur cette page sont des composants **contenu** réutilisables. Elles sont différentes de :
->
->* **[Fragments de Parcours](../building-journeys/journey-fragments.md)** — ensembles réutilisables de nœuds de parcours insérés dans des parcours.
->* **[Fragments de contenu AEM](../integrations/aem-fragments.md)** — contenu créé dans Adobe Experience Manager et utilisé dans [!DNL Journey Optimizer].
-
 ![](../rn/assets/do-not-localize/fragments.gif)
 
 ➡️ [Découvrez comment gérer, créer et utiliser des fragments dans ces vidéos.](#video-fragments)
@@ -59,6 +52,15 @@ Pour optimiser l’utilisation des fragments, procédez comme suit :
 
 * **Créer vos propres fragments** : créez des fragments visuels ou des fragments d’expression, à partir de zéro ou en enregistrant du contenu en tant que fragment. [Découvrez comment créer un fragment](create-fragments.md). En outre, vous pouvez tirer parti de l’**API REST Content** Journey Optimizer pour gérer les fragments de contenu. Pour plus d’informations à ce sujet, consultez la [documentation relative aux API Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"}.
 * **Réutilisez vos fragments :** utilisez-les autant de fois que nécessaire dans votre contenu. Voir [Ajouter des fragments visuels](../email/use-visual-fragments.md) et [Utiliser des fragments d’expression](../personalization/use-expression-fragments.md)
+
+
+>[!NOTE]
+>
+>Les **[!UICONTROL fragments]** décrits sur cette page sont des composants **contenu** réutilisables. Elles sont différentes de :
+>
+>* **[Fragments de Parcours](../building-journeys/journey-fragments.md)** — ensembles réutilisables de nœuds de parcours insérés dans des parcours.
+>* **[Fragments de contenu AEM](../integrations/aem-fragments.md)** — contenu créé dans Adobe Experience Manager et utilisé dans [!DNL Journey Optimizer].
+
 
 ## Avant de commencer {#fragment-prerequisites}
 

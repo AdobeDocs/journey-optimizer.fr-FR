@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 7f1e16e7700a5b381893a79b2ce57b14fb17cd4a
+source-git-commit: 199f9b1a152ab9bd0c2a31145c03666bcf698123
 workflow-type: tm+mt
-source-wordcount: 8153
-ht-degree: 88%
+source-wordcount: 8367
+ht-degree: 86%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 88%
 Cette page répertorie toutes les dernières modifications apportées à la documentation [!DNL Journey Optimizer], en plus des mises à jour liées aux fonctionnalités et améliorations de la version mensuelle.
 
 ## Juin 2026 {#june-2026}
+
+* **Experience Decisioning est désormais disponible pour le canal courrier.** Une nouvelle page **Prise de décision par lots dans le publipostage direct** décrit comment utiliser le moteur de prise de décision pour personnaliser les fichiers d’extraction de publipostage direct ou pour exporter des profils et leurs résultats de prise de décision en vue de les utiliser dans des systèmes en aval. Le **publipostage direct** a été ajouté en tant que canal pris en charge dans la documentation de prise de décision (Prise en main, Création d’une politique de décision, Utilisation des politiques de décision dans les messages, Prise en main des politiques de décision), y compris la possibilité de renvoyer plusieurs éléments de décision par profil via le champ **[!UICONTROL Nombre d’éléments]**. [En savoir plus](../experience-decisioning/batch-decisioning-direct-mail.md)
+
+* La documentation **Fragments de Parcours** n&#39;est plus marquée comme Disponibilité limitée. La page comprend désormais une note désambiguïsant les fragments de Parcours des fragments de contenu **[!UICONTROL fragments]** et **fragments de contenu AEM** (lien croisé à partir des trois pages), et documente la prise en charge des **outils de sandbox**, **journaux d’audit** et **balisage**. Des fragments de parcours ont également été ajoutés à la page **Prise en main des parcours**. [En savoir plus](../building-journeys/journey-fragments.md)
+
+* Mise à jour de la documentation **Sources de données externes** et **Action personnalisée** pour une authentification personnalisée. Le champ `tokenInResponse` vous permet désormais de spécifier si le `access_token` ou le `id_token` est utilisé comme informations d’authentification lorsqu’un point d’entrée renvoie les deux. Pour l’authentification personnalisée basée sur certificat, les champs `subType` et `aud` sont désormais obligatoires, l’`method` du point d’entrée du jeton doit être `POST` et les références à « Azure Entra ID » ont été remplacées par « Microsoft Entra ID ». [En savoir plus](../datasource/external-data-sources.md#certificate-credential)
 
 * La page **Prise en main de Decisioning** a été mise à jour avec un graphique de processus qui résume le workflow de prise de décision de bout en bout, de la gestion des éléments de décision et de la configuration des stratégies de sélection à l&#39;incorporation de politiques de décision dans un parcours ou une campagne. [En savoir plus](../experience-decisioning/gs-experience-decisioning.md#process)
 
