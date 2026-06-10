@@ -7,17 +7,12 @@ feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 09c00832ec61f9b5a4c03867ddb227abb079afe1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 51d356bfab2f989422d43c5e6582901519f5ebf1
 workflow-type: tm+mt
-source-wordcount: 1945
+source-wordcount: 1851
 ht-degree: 10%
 
 ---
@@ -60,7 +55,7 @@ Les fonctionnalités et améliorations suivantes seront bientôt disponibles dan
 * **Augmentation du nombre maximal de parcours actifs et nouveaux mécanismes de sécurisation** - Vous pouvez désormais disposer de **200 parcours actifs**, contre 100 auparavant.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14826">Lien vers la tâche DOCAC JIRA</a>
 
-* **Dates de début et de fin dans l’en-tête du parcours** - Lorsque les dates de début et/ou de fin sont configurées sur un parcours dynamique, elles sont désormais affichées dans l’en-tête du parcours **&#x200B;**&#x200B;à côté du badge de statut dynamique. Le libellé affiché s’adapte selon que chaque date est à venir ou est déjà dépassée.
+* **Dates de début et de fin dans l’en-tête du parcours** - Lorsque les dates de début et/ou de fin sont configurées sur un parcours dynamique, elles sont désormais affichées dans l’en-tête du parcours **** à côté du badge de statut dynamique. Le libellé affiché s’adapte selon que chaque date est à venir ou est déjà dépassée.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14702">Lien vers la tâche DOCAC JIRA</a>
 
 * **Arrêter ou fermer un parcours en pause directement** - Vous pouvez désormais **arrêter un parcours ou le fermer aux nouvelles entrées** directement à partir de l’état **En pause**. Auparavant, un parcours en pause devait reprendre pour passer en ligne avant de pouvoir être arrêté ou fermé.
@@ -90,30 +85,11 @@ Les fonctionnalités et améliorations suivantes seront bientôt disponibles pou
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Prise en charge des heures creuses pour les campagnes orchestrées</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Vous pouvez désormais appliquer des <strong>heures creuses</strong> aux campagnes orchestrées. Les heures calmes vous permettent de définir des <strong>exclusions temporelles</strong> pour empêcher l’envoi de messages pendant des périodes spécifiques, ce qui vous aide à respecter les préférences des clients et les exigences de conformité dans les cas d’utilisation de l’orchestration des campagnes.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14054">Lien vers la tâche JIRA DOCAC</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
 * **Personnalisation en boucle des données relationnelles dans les campagnes orchestrées** - L’éditeur de personnalisation prend désormais en charge un **bloc de boucle** qui effectue une itération sur les collections relationnelles, telles que les commandes, les comptes ou les réservations, et effectue le rendu d’un bloc de contenu par enregistrement dans un seul e-mail ou SMS. Les collections sont configurées par le biais du sélecteur de données à l’aide de jetons de personnalisation, sans écriture d’expression requise.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14703">Lien vers la tâche DOCAC JIRA</a>
 
 * **Personnaliser les détails de l’expéditeur de l’e-mail par destinataire et campagne** - Les campagnes orchestrées prennent désormais en charge la personnalisation des **champs d’en-tête des e-mails**, y compris le nom de l’expéditeur, l’adresse de l’expéditeur et la réponse, à l’aide d’attributs de profil ou de données relationnelles. Cela permet aux détails de l’expéditeur de refléter le conseiller, l’emplacement ou la filiale approprié(e) pour chaque destinataire, plutôt que de router tous les envois via une seule adresse d’entreprise. Les valeurs d’en-tête peuvent être définies au niveau du canal et remplacées par campagne à l’aide de données contextuelles pour un contrôle plus précis.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13761">Lien vers la tâche DOCAC JIRA</a>
-
-* **Simplification de la dimension de cible dans les campagnes orchestrées** - La **dimension de ciblage** active s’affiche désormais sur la zone de travail du workflow, de sorte que vous pouvez voir quelle dimension est utilisée par une activité de canal. Le flux de segmentation d’entités multiples est plus simple, car vous n’avez plus besoin d’une activité « Changement de dimension » distincte. De plus, vous pouvez désormais choisir explicitement si les messages sont envoyés au niveau du profil ou au niveau d’une dimension secondaire.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13554">Lien vers la tâche DOCAC JIRA</a>
 
 * **Remplacer le champ d’exécution par défaut dans les campagnes** - Auparavant disponible au niveau du parcours, vous pouvez désormais remplacer le champ par défaut **champ d’exécution** défini globalement pour vos diffusions e-mail, SMS et WhatsApp dans les paramètres de la campagne.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14718">Lien vers la tâche DOCAC JIRA</a>
