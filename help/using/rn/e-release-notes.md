@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 1f3adcb8c636ccd1a354af910441f4bda57015d7
+source-git-commit: c59ff3fc53db9654789dbb1b1be0baf04937d64a
 workflow-type: tm+mt
-source-wordcount: 1809
+source-wordcount: 1842
 ht-degree: 10%
 
 ---
@@ -174,6 +174,9 @@ Les fonctionnalités et améliorations suivantes seront apportées au canal e-ma
 </tr>
 </tbody>
 </table>
+
+* **Texte enrichi dans les champs modifiables pour les fragments** - Vous pouvez désormais ajouter du texte enrichi aux fragments personnalisables utilisés dans le contenu de vos e-mails. Par exemple, lorsque vous utilisez le composant Texte comme champ modifiable dans le Designer d’e-mail, vous pouvez directement mettre en forme le contenu (en gras et en italique, par exemple) et insérer des liens hypertexte.
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-14715">Lien vers la tâche DOCAC JIRA</a>
 
 * **Prise en charge du mode texte dans les fragments** - Pour prendre en charge les workflows d’e-mail basés sur du texte, vous pouvez désormais créer et gérer des versions textuelles de vos fragments visuels pour une utilisation optimale dans la version en texte brut des e-mails qui incluent ce fragment. Lors de l’utilisation d’un fragment créé avant la version actuelle, le rendu de la version texte du fragment peut être incorrect, à la fois dans le Designer d’e-mail et dans l’e-mail final envoyé à vos destinataires. Pour de meilleurs résultats avec des fragments plus anciens, modifiez, enregistrez et republiez chaque fragment.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14204">Lien vers la tâche DOCAC JIRA</a>
