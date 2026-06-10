@@ -37,7 +37,7 @@ ht-degree: 85%
 >id="ajo_journey_action_line"
 >title="Action LINE"
 >abstract="Une action de canal LINE envoie un message LINE aux profils lorsqu&#39;ils atteignent cette étape du parcours. Le libellé identifie l’activité dans la zone de travail de parcours et l’action fait référence à une configuration LINE qui définit le contenu diffusé. La section **Optimisation** peut inclure des expériences de contenu ou des règles de ciblage, la section **Multilingue** peut diffuser du contenu dans plusieurs langues et la section **Temporisation ou erreur** peut définir un autre chemin en cas d’échec de l’action."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Prise en main des actions de canal"
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Prise en main des actions de canal"
 
 Accédez aux onglets ci-dessous pour savoir comment ajouter un message LINE dans une campagne ou un parcours.
 
