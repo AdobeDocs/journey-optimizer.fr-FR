@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 51d356bfab2f989422d43c5e6582901519f5ebf1
+source-git-commit: 1f3adcb8c636ccd1a354af910441f4bda57015d7
 workflow-type: tm+mt
-source-wordcount: 1851
+source-wordcount: 1809
 ht-degree: 10%
 
 ---
@@ -96,8 +96,8 @@ Les fonctionnalités et améliorations suivantes seront bientôt disponibles pou
 * **Personnaliser les détails de l’expéditeur de l’e-mail par destinataire et campagne** - Les campagnes orchestrées prennent désormais en charge la personnalisation des **champs d’en-tête des e-mails**, y compris le nom de l’expéditeur, l’adresse de l’expéditeur et la réponse, à l’aide d’attributs de profil ou de données relationnelles. Cela permet aux détails de l’expéditeur de refléter le conseiller, l’emplacement ou la filiale approprié(e) pour chaque destinataire, plutôt que de router tous les envois via une seule adresse d’entreprise. Les valeurs d’en-tête peuvent être définies au niveau du canal et remplacées par campagne à l’aide de données contextuelles pour un contrôle plus précis.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13761">Lien vers la tâche DOCAC JIRA</a>
 
-* **Remplacer le champ d’exécution par défaut dans les campagnes** - Auparavant disponible au niveau du parcours, vous pouvez désormais remplacer le champ par défaut **champ d’exécution** défini globalement pour vos diffusions e-mail, SMS et WhatsApp dans les paramètres de la campagne.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14718">Lien vers la tâche DOCAC JIRA</a>
+* **Simplification de la dimension de cible dans les campagnes orchestrées** - La **dimension de ciblage** active s’affiche désormais sur la zone de travail du workflow, de sorte que vous pouvez voir quelle dimension est utilisée par une activité de canal. Le flux de segmentation d’entités multiples est plus simple, car vous n’avez plus besoin d’une activité « Changement de dimension » distincte. De plus, vous pouvez désormais choisir explicitement si les messages sont envoyés au niveau du profil ou au niveau d’une dimension secondaire.
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-13554">Lien vers la tâche DOCAC JIRA</a>
 
 ### Prise de décision {#june-26-decisioning}
 
@@ -124,26 +124,28 @@ La fonctionnalité suivante est proposée dans Prise de décision dans cette ver
 
 Les fonctionnalités et améliorations suivantes seront apportées au canal e-mail dans cette version.
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Composants Avancés - Mises En Page (Super Composants)</strong><br/></th>
+<th><strong>Advanced Components</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Le Designer d’e-mail comprend désormais une <strong>bibliothèque de composants de disposition prêts à l’emploi</strong> tels que des en-têtes, des cartes de produits (1, 2 ou 3 colonnes), des blocs d’informations et des pieds de page, que vous pouvez faire glisser directement dans la zone de travail de votre e-mail. Chaque composant est préconfiguré avec des propriétés modifiables (image, titre, texte, bouton, liens) et peut être entièrement personnalisé via l’interface de WYSIWYG, ce qui accélère la création d’e-mails sans que vous ayez à créer des structures à partir de zéro.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14877">Lien vers la tâche JIRA DOCAC</a></p>
+<p>The Email Designer now includes a library of ready-to-use layout components — such as Headers, Product Cards (1, 2, or 3 columns), Information blocks, and Footers — that you can drag and drop directly into your email canvas. Each component comes pre-configured with editable properties (image, title, text, button, links) and can be fully customized through the WYSIWYG interface, speeding up email creation without requiring you to build structures from scratch.</p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14877">Link to DOCAC JIRA task</a></p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
 <table>
 <thead>
 <tr>
-<th><strong>Vérification de contenu dans Email Designer</strong><br/></th>
+<th><strong>Vérification de contenu dans le Designer Email</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -173,10 +175,10 @@ Les fonctionnalités et améliorations suivantes seront apportées au canal e-ma
 </tbody>
 </table>
 
-* **Prise en charge du mode texte dans les fragments** - Pour prendre en charge les workflows d’e-mail textuels, vous pouvez désormais créer et gérer des **versions textuelles** de vos fragments visuels pour une utilisation optimale dans la version en texte brut des e-mails qui incluent ce fragment. Lors de l’utilisation d’un fragment créé avant la version actuelle, le rendu de la version texte du fragment peut être incorrect, à la fois dans le Designer d’e-mail et dans l’e-mail final envoyé à vos destinataires. Pour de meilleurs résultats avec des fragments plus anciens, modifiez, enregistrez et republiez chaque fragment.
+* **Prise en charge du mode texte dans les fragments** - Pour prendre en charge les workflows d’e-mail basés sur du texte, vous pouvez désormais créer et gérer des versions textuelles de vos fragments visuels pour une utilisation optimale dans la version en texte brut des e-mails qui incluent ce fragment. Lors de l’utilisation d’un fragment créé avant la version actuelle, le rendu de la version texte du fragment peut être incorrect, à la fois dans le Designer d’e-mail et dans l’e-mail final envoyé à vos destinataires. Pour de meilleurs résultats avec des fragments plus anciens, modifiez, enregistrez et republiez chaque fragment.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14204">Lien vers la tâche DOCAC JIRA</a>
 
-* **Mise à jour des références de débit d’envoi par lots avec les scénarios destinés aux clients** - Adobe Journey Optimizer **références de débit d’envoi par lots** ont été mises à jour pour refléter les performances de niveau production dans plusieurs scénarios de personnalisation, des envois de base au contenu dynamique complexe avec une logique conditionnelle. Les mesures actualisées sont désormais disponibles dans la documentation du produit pour aider les clients à planifier avec précision leurs volumes de messagerie.
+* **Mise à jour des références de débit d’envoi par lots avec des scénarios orientés client** - Les références de débit d’envoi par lots de Adobe Journey Optimizer ont été mises à jour pour refléter les performances de niveau production dans plusieurs scénarios de personnalisation, des envois de base au contenu dynamique complexe avec logique conditionnelle. Les mesures actualisées sont désormais disponibles dans la documentation du produit pour aider les clients à planifier avec précision leurs volumes de messagerie.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14816">Lien vers la tâche DOCAC JIRA</a>
 
 * **Processus OTP de boucle de retour pour les sous-domaines personnalisés** - Le processus de configuration des sous-domaines personnalisés de boucle de retour (FBL) a été amélioré en faisant apparaître le hub d&#39;expéditeur Yahoo **mot de passe à usage unique (OTP)** directement dans l&#39;interface utilisateur du produit. Les utilisateurs peuvent désormais récupérer et afficher automatiquement le mot de passe à usage unique généré lors de la vérification de la propriété du domaine du hub d’expéditeur Yahoo.
@@ -254,13 +256,21 @@ La fonctionnalité suivante est proposée aux canaux dans cette version.
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer introduit désormais <strong>Canaux personnalisés</strong>, une nouvelle fonctionnalité qui permet aux administrateurs d’importer n’importe quel canal de messagerie HTTP sortant (tel que WeChat, Kakao Talk, Messenger ou un fournisseur propriétaire) directement dans AJO par le biais d’un <strong>créateur de canaux sans code</strong>. Une fois configurés, les canaux personnalisés sont disponibles dans les campagnes, les Parcours et les campagnes orchestrées, avec le même ensemble complet de fonctionnalités que les canaux natifs : personnalisation avec l’éditeur d’expression, expérimentation de contenu, prévisualisation et BAT, rapports d’usine, et application du consentement et de la gouvernance. Cela comble le vide précédemment comblé par les actions personnalisées, qui se limitaient aux Parcours et manquaient de création de contenu dédiée.</p>
+<p>Journey Optimizer introduit désormais <strong>Canaux personnalisés</strong>, une nouvelle fonctionnalité qui permet aux administrateurs d’importer n’importe quel canal de messagerie HTTP sortant (tel que WeChat, Kakao Talk, Messenger ou un fournisseur propriétaire) directement dans Journey Optimizer par le biais d’un créateur de canaux sans code.</p>
+<p>Une fois configurés, les canaux personnalisés sont disponibles dans les campagnes, les parcours et les campagnes orchestrées, avec le même ensemble complet de fonctionnalités que les canaux natifs : personnalisation avec l’éditeur d’expression, expérimentation de contenu, prévisualisation et BAT, rapports d’usine, et application du consentement et de la gouvernance. Cela permet de combler le vide précédemment comblé par des actions personnalisées, qui se limitaient aux parcours et manquaient de création de contenu dédiée.</p>
 <p>Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-11381">Lien vers la tâche JIRA DOCAC</a></p>
 </td>
 </tr>
 </tbody>
 </table>
+
+### Campagnes {#june-26-campaigns}
+
+Dans cette version, les campagnes bénéficient de l’amélioration suivante.
+
+* **Remplacer le champ d’exécution par défaut dans les campagnes** - Auparavant disponible au niveau du parcours, vous pouvez désormais remplacer le champ par défaut **champ d’exécution** défini globalement pour vos diffusions e-mail, SMS et WhatsApp dans les paramètres de la campagne.
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-14718">Lien vers la tâche DOCAC JIRA</a>
 
 ### Création de rapports {#june-26-reporting}
 
@@ -277,7 +287,7 @@ Les améliorations suivantes ont été apportées aux rapports dans cette versio
 
 Dans cette version, les améliorations suivantes ont été apportées à la configuration et à l’administration.
 
-* **Whitelistage d’adresses IP du pare-feu d’applications web (WAF) pour les pages de destination d’AJO** - Adobe Journey Optimizer prend désormais en charge le **whitelistage d’adresses IP du pare-feu d’applications web (WAF)** pour les pages de destination, ce qui permet aux entreprises de s’assurer que toutes les requêtes entrantes sont acheminées exclusivement via leur infrastructure WAF configurée. Grâce à cette amélioration, les clients peuvent configurer AJO pour rejeter toute demande directe qui contourne la couche WAF, en s’assurant que les politiques de sécurité définies dans des outils tels que Imperva sont appliquées de manière cohérente. Cette fonctionnalité renforce la position de sécurité des entreprises ayant des exigences strictes en matière d’accès au réseau, leur permettant de contrôler entièrement le flux de trafic vers leurs pages de destination hébergées dans AJO.
+* **whitelistages d’adresses IP du pare-feu d’applications web (WAF)** - Adobe Journey Optimizer prend désormais en charge le whitelistage d’adresses IP WAF pour les pages de destination, ce qui permet aux entreprises d’exiger que toutes les requêtes entrantes soient acheminées exclusivement via leur infrastructure WAF configurée. Grâce à cette amélioration, les clients peuvent configurer Journey Optimizer pour rejeter toute demande directe qui contourne la couche WAF, en s’assurant que les politiques de sécurité définies dans des outils tels qu’Imperva sont appliquées de manière cohérente. Cette fonctionnalité renforce la position de sécurité des entreprises ayant des exigences strictes en matière d’accès au réseau, leur permettant ainsi de contrôler entièrement le flux de trafic vers leurs pages de destination hébergées sur Journey Optimizer.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14814">Lien vers la tâche DOCAC JIRA</a>
 
 * **Jeu de données passant de la diffusion en continu au mode par lots** - Le jeu de données d’événement de retour de message AJO passe de la diffusion en continu au **mode d’ingestion par lots**. Cette modification garantit que l’ingestion de données ne dépasse pas les limites d’ingestion en flux continu. Si vous utilisez ce jeu de données dans des rapports Customer Journey Analytics ou si vous exécutez des requêtes sur celui-ci, attendez-vous à une augmentation de la latence des données allant jusqu’à 2 heures.
