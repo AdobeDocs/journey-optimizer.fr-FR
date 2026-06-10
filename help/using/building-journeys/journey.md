@@ -10,30 +10,12 @@ keywords: parcours, découverte, commencer, unitaire, lecture d’audience, qual
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/FsZLMlzVj6CcTqVp9BPUmiCf2piZL8zaj2WfWv8FMSQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: fa683eda-48de-4558-af32-2673edcd44feid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 9372a9bed5c6da5db33567557944d69af9d56913
 workflow-type: tm+mt
 source-wordcount: 1614
@@ -47,7 +29,7 @@ ht-degree: 97%
 >id="ajo_journey_canvas"
 >title="Créer un parcours"
 >abstract="La zone de travail de glisser-déposer orchestre les messages et les actions sur plusieurs canaux, en exploitant les données contextuelles et le ciblage des audiences pour un impact maximal."
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="Créer votre premier parcours"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="Créer votre premier parcours"
 
 
 [!DNL Adobe Journey Optimizer] vous permet de créer des parcours clients personnalisés et à plusieurs étapes qui s’adaptent en temps réel au comportement et aux besoins de votre audience. Grâce à une zone de travail intuitive par glisser-déposer, vous pouvez orchestrer des messages et des actions sur plusieurs canaux, en exploitant les données contextuelles et le ciblage des audiences pour un impact maximal.
@@ -108,7 +90,7 @@ Le **[concepteur de parcours](using-the-journey-designer.md)** est votre zone de
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Définir des points d’entrée**
 
@@ -118,7 +100,7 @@ Choisissez le mode d’entrée des clientes et clients : par le biais d’un é
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Envoyer des messages**
 
@@ -128,7 +110,7 @@ Utilisez des actions de canal intégrées pour les e-mails, les notifications pu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **Ajouter une logique et des conditions**
 
@@ -138,7 +120,7 @@ Créez des branches pour votre parcours en fonction des attributs de profil, de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Utiliser des données**
 
@@ -148,7 +130,7 @@ Utilisez des données contextuelles issues d’événements, d’[!DNL Adobe Exp
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Connecter des systèmes externes**
 
@@ -158,7 +140,7 @@ Créez des actions personnalisées pour intégrer des systèmes tiers afin d’e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Ajouter des activités d’orchestration**
 
@@ -227,7 +209,7 @@ Suivez les performances réelles de votre parcours :
 * Surveillez les taux d’entrée, d’achèvement et d’erreur.
 * Configurez des alertes pour les problèmes critiques.
 
-[Surveiller et établir des rapports → &#x200B;](report-journey.md) | [Configurer les alertes →](../reports/alerts.md)
+[Surveiller et établir des rapports → ](report-journey.md) | [Configurer les alertes →](../reports/alerts.md)
 
 ### &#x200B;6. Optimiser et itérer {#optimize}
 
@@ -240,7 +222,7 @@ Utilisez les informations pour apporter des améliorations :
 
 [Optimiser vos parcours →](optimize.md) | [→ Optimisation de l’heure d’envoi](send-time-optimization.md)
 
-➡️ **Vous voulez démarrer ?** [&#x200B; Créez votre premier parcours maintenant →](journey-gs.md)
+➡️ **Vous voulez démarrer ?** [ Créez votre premier parcours maintenant →](journey-gs.md)
 
 ## Cas d’utilisation réels {#use-cases}
 
@@ -249,7 +231,7 @@ Découvrez des exemples pratiques qui montrent comment appliquer des concepts de
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Bienvenue aux nouvelles personnes abonnées**
 
@@ -259,7 +241,7 @@ Lorsqu’un client ou une cliente s’abonne à votre service, déclenchez un pa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Optimisation de l’heure d’envoi**
 
@@ -269,7 +251,7 @@ Utilisez l’IA pour diffuser des e-mails lorsque chaque personne cliente est la
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Accélérer les diffusions**
 
@@ -279,7 +261,7 @@ Augmentez progressivement le volume des messages pour améliorer votre réputati
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Ciblage par jour de la semaine**
 
@@ -289,7 +271,7 @@ Envoyez du contenu différent en fonction du jour de la semaine où les clientes
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Campagnes multicanaux**
 
@@ -299,7 +281,7 @@ Orchestrez des expériences optimales sur les canaux e-mail, push, SMS et web da
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Tous les cas d’utilisation**
 
@@ -317,7 +299,7 @@ Explorez la bibliothèque complète des cas d’utilisation de parcours avec des
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Expressions avancées**
 
@@ -327,7 +309,7 @@ Créez des conditions dynamiques et une personnalisation à l’aide de l’édi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Gestion des fuseaux horaires**
 
@@ -337,7 +319,7 @@ Gérez les audiences globales avec des ajustements de fuseau horaire automatique
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Mode test et test à blanc**
 
@@ -347,7 +329,7 @@ Validez les parcours avec des profils de test avant la mise en ligne et prévisu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Copier dans le sandbox**
 
@@ -357,7 +339,7 @@ Dupliquez des parcours dans les sandbox pour rationaliser les workflows de test 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Balises et organisation**
 
@@ -367,7 +349,7 @@ Utilisez des balises pour classer et filtrer les parcours afin d’améliorer la
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Contrôle de débit**
 
@@ -384,7 +366,7 @@ Limitez le débit des messages pour gérer la réputation des envois et éviter 
 
 Obtenez une présentation visuelle des composants de parcours et découvrez les principes de base de la création de parcours dans la zone de travail :
 
->[!VIDEO](https://video.tv.adobe.com/v/3430351?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ➡️ **Vous voulez plus de vidéos ?** [Découvrez les tutoriels vidéo sur les parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
