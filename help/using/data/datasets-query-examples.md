@@ -27,10 +27,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
 workflow-type: tm+mt
-source-wordcount: 1094
-ht-degree: 93%
+source-wordcount: 1118
+ht-degree: 91%
 
 ---
 
@@ -98,6 +98,10 @@ _Nom dans l’interface : Jeu de données d’événement de retour de message 
 Jeu de données pour l’ingestion d’événements de retour d’application push et d’e-mail à partir de Journey Optimizer.
 
 Le schéma associé est celui d’événement de retour de message AJO.
+
+>[!NOTE]
+>
+>Ce jeu de données utilise l’ingestion par lots. Attendez-vous à une latence des données allant jusqu’à 2 heures lors de l’interrogation de ce jeu de données ou de son utilisation à des fins de création de rapports.
 
 Cette requête affiche le nombre de différents statuts de retour par e-mail (envoyés, rebonds, etc.) pour un message donné :
 

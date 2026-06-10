@@ -24,10 +24,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
 workflow-type: tm+mt
-source-wordcount: 488
-ht-degree: 91%
+source-wordcount: 475
+ht-degree: 84%
 
 ---
 
@@ -54,7 +54,7 @@ Avant d’utiliser [!DNL Customer Journey Analytics] pour vos parcours, vous dev
 
    [!DNL Journey Optimizer] peuvent être configurés :
    * [Événement d’étape de parcours](../data/datasets-query-examples.md#journey-step-event) : permet d’afficher qui entre dans vos parcours et jusqu’où ils vont.
-   * [Jeux de données de retour/tracking de message](../data/datasets-query-examples.md#message-feedback-event-dataset) : permet d’afficher les informations de diffusion sur vos messages envoyés par le biais de [!DNL Journey Optimizer].
+   * [Jeux de données de retour/tracking de message](../data/datasets-query-examples.md#message-feedback-event-dataset) : permet d’afficher les informations de diffusion sur vos messages envoyés par le biais de [!DNL Journey Optimizer]. Notez que le jeu de données d’événement de retour de message utilise l’ingestion par lots. Attendez-vous à une latence des données allant jusqu’à 2 heures dans vos rapports CJA.
    * [Jeux de données d’entité et de parcours](../data/datasets-query-examples.md#entity-dataset) : permet de rechercher des noms conviviaux et de les utiliser dans vos rapports.
 
 1. [Créez une vue de données](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=fr){target="_blank"} pour configurer les dimensions et mesures à utiliser dans votre rapport.
@@ -73,7 +73,7 @@ L’utilisation de [!DNL Journey Optimizer] avec [!DNL Customer Journey Analytic
 
 * **Dans les rapports [!DNL Journey Optimizer], la mesure Envoyé comprend également la mesure Reprise.**
 
-  **[!UICONTROL Les Reprises]** ne seront pas incluses dans la mesure **[!UICONTROL Envoyé]** dans [!DNL Customer Journey Analytics]. Par conséquent, les mesures **[!UICONTROL Envoyé]** de [!DNL Customer Journey Analytics] afficheront des valeurs inférieures à [!DNL Journey Optimizer]. Toutefois, les données de reprise convergent vers la mesure **[!UICONTROL Messages envoyés avec succès]** ou **[!UICONTROL Rebonds.]**
+  **[!UICONTROL Reprises]** ne sera pas inclus dans la mesure **[!UICONTROL Envoyé]** dans [!DNL Customer Journey Analytics]. Par conséquent, les mesures [!DNL Customer Journey Analytics] **[!UICONTROL Envoyé]** afficheront des valeurs inférieures à [!DNL Journey Optimizer]. Toutefois, les données de reprise convergent vers la mesure **[!UICONTROL Messages envoyés avec succès]** ou **[!UICONTROL Rebonds]**.
 Pour réduire les incohérences, utilisez des périodes qui datent d’une semaine ou même d’avant.
 
 * **Les rapports sont alimentés à partir d’une autre source de données.**

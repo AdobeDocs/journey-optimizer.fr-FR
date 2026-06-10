@@ -27,10 +27,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
 workflow-type: tm+mt
-source-wordcount: 1114
-ht-degree: 87%
+source-wordcount: 1128
+ht-degree: 86%
 
 ---
 
@@ -112,7 +112,7 @@ Découvrez dans le tableau ci-dessous les jeux de données Journey Optimizer qu
 | Jeu de données d’entité AJO | Jeu de données permettant de stocker les métadonnées des entités pour les messages envoyés à l’utilisateur final ou à l’utilisatrice finale.  |
 | Jeu de données d’événement d’activité entrante AJO | Jeu de données pour les canaux web et in-app Journey Optimizer pour les événements de diffusion et d’interaction. |
 | Jeu de données de profil de messagerie interactive AJO | Stocke les profils créés pour prendre en charge les campagnes déclenchées par API |
-| Jeu de données d’événement de retour sur les messages AJO | Logs de diffusion des messages : Informations sur toutes les diffusions de messages à partir de Journey Optimizer à des fins de création de rapports et d’audiences. Les commentaires des FAI de messagerie sur les rebonds sont également enregistrés dans ce jeu de données. Ce jeu de données comprend des événements pour tous les canaux : e-mail, SMS/RCS/MMS, publipostage direct, etc. |
+| Jeu de données d’événement de retour sur les messages AJO | Logs de diffusion des messages : Informations sur toutes les diffusions de messages à partir de Journey Optimizer à des fins de création de rapports et d’audiences. Les commentaires des FAI de messagerie sur les rebonds sont également enregistrés dans ce jeu de données. Ce jeu de données comprend des événements pour tous les canaux : e-mail, SMS/RCS/MMS, publipostage direct, etc. **Ce jeu de données utilise l’ingestion par lots - attendez-vous à une latence des données allant jusqu’à 2 heures.** |
 | Jeu De Données D’Exportation De Messages AJO | Stocke le contenu des e-mails et des SMS envoyés qui a été marqué pour l’exportation. Les données sont conservées pendant sept jours calendaires à compter de l’ingestion. |
 | Extension de compteurs de profils AJO | Contient un mappage d’objets contenant counter_value et expiryDate, saisi par counter_id. |
 | Jeu de données de profil push AJO | Stocke les jetons de notifications push d’un profil. |

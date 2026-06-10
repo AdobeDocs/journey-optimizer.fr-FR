@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a6ea8da3868e235ccd19e66426cb77b8e5300ac2
+source-git-commit: 43a3411731e99e1b1eac318a7a3c9bcd93de8de9
 workflow-type: tm+mt
-source-wordcount: 2783
+source-wordcount: 2850
 ht-degree: 21%
 
 ---
@@ -148,6 +148,10 @@ ht-degree: 21%
 </tr>
 </tbody>
 </table>
+
+* **Jeu de données d’événement de retour de message AJO déplacé vers l’ingestion par lots** - Le **jeu de données d’événement de retour de message AJO** passe de l’ingestion par flux à l’ingestion par lots. Par conséquent, attendez-vous à une latence des données allant jusqu’à 2 heures pour ce jeu de données. Si vous avez créé des rapports dans Customer Journey Analytics ou exécuté des requêtes à l’aide de ce jeu de données, tenez compte de cette latence accrue à l’avenir. [En savoir plus](../data/get-started-datasets.md)
+
+  Date de disponibilité : 10 juin 2026
 
 * **Arrêt automatique pour les parcours de lecture d’audience non récurrents** - Les parcours non récurrents **lecture d’audience** passent désormais automatiquement au statut **Arrêté** une fois le dernier profil actif quitté. Auparavant, ces parcours restaient **en ligne** jusqu’à l’expiration du délai d’expiration global de 91 jours, même lorsqu’aucun profil n’y circulait plus. Grâce à cette amélioration, le statut du parcours reflète le statut d’exécution réel dès qu’il est terminé, ce qui permet de conserver un inventaire précis de vos parcours sans intervention manuelle.
 
