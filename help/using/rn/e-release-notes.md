@@ -7,17 +7,12 @@ feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: ea1a283aacceafad32bd26560941a1bf613f3fea
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: d7d879286ccb9c2e4567bb70a8f78d34bd663c54
 workflow-type: tm+mt
-source-wordcount: 2002
+source-wordcount: 2035
 ht-degree: 10%
 
 ---
@@ -78,7 +73,7 @@ Les fonctionnalités et améliorations suivantes seront bientôt disponibles dan
 * **Augmentation du nombre maximal de parcours actifs et nouveaux mécanismes de sécurisation** - Vous pouvez désormais disposer de **200 parcours actifs**, contre 100 auparavant.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14826">Lien vers la tâche DOCAC JIRA</a>
 
-* **Dates de début et de fin dans l’en-tête du parcours** - Lorsque les dates de début et/ou de fin sont configurées sur un parcours dynamique, elles sont désormais affichées dans l’en-tête du parcours **&#x200B;**&#x200B;à côté du badge de statut dynamique. Le libellé affiché s’adapte selon que chaque date est à venir ou est déjà dépassée.
+* **Dates de début et de fin dans l’en-tête du parcours** - Lorsque les dates de début et/ou de fin sont configurées sur un parcours dynamique, elles sont désormais affichées dans l’en-tête du parcours **** à côté du badge de statut dynamique. Le libellé affiché s’adapte selon que chaque date est à venir ou est déjà dépassée.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14702">Lien vers la tâche DOCAC JIRA</a>
 
 * **Arrêter ou fermer un parcours en pause directement** - Vous pouvez désormais **arrêter un parcours ou le fermer aux nouvelles entrées** directement à partir de l’état **En pause**. Auparavant, un parcours en pause devait reprendre pour passer en ligne avant de pouvoir être arrêté ou fermé.
@@ -239,7 +234,7 @@ Les fonctionnalités et améliorations suivantes vont être apportées à la ges
 <table>
 <thead>
 <tr>
-<th><strong>Fragments de contenu avec Adobe Experience Manager</strong><br/></th>
+<th><strong>Améliorations apportées aux fragments de contenu Adobe Experience Manager dans Journey Optimizer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -251,8 +246,12 @@ Les fonctionnalités et améliorations suivantes vont être apportées à la ges
 <li>Une fois qu’un fragment est sélectionné, son contexte est conservé tout au long du message, ce qui permet aux auteurs de réutiliser les champs de fragment sur les blocs de contenu sans avoir à les sélectionner de nouveau.</li>
 <li>Une nouvelle page de liste dédiée aux fragments de contenu a été introduite dans Journey Optimizer pour une meilleure gestion du cycle de vie. Les utilisateurs et utilisatrices peuvent identifier les fragments non synchronisés et déclencher des synchronisations manuelles pour rester à jour.</li>
 <li>La prise en charge des paramètres régionaux et des variations permet désormais aux marketeurs de travailler plus délibérément avec d’autres versions du même fragment de contenu.</li>
+<li>Vous disposez désormais d’une certaine flexibilité quant à la manière dont Adobe Journey Optimizer accède à votre contenu Adobe Experience Manager. Cette version offre la possibilité de <strong>changer de référentiel source</strong> pour les fragments de contenu utilisés dans vos parcours et campagnes.</li>
+<li>Désormais compatible avec <b></b>, vous pouvez afficher des fragments de contenu Adobe Experience Manager, y accéder et les utiliser directement dans Journey Optimizer à des fins de personnalisation. Il vous suffit d’ajouter votre URL de référentiel Adobe Experience Manager Managed Services dans les paramètres de configuration pour une configuration ponctuelle.</li>
 </ul>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-14686">Lien vers la tâche JIRA DOCAC</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14821">Lien vers la tâche JIRA DOCAC</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14684">Lien vers la tâche JIRA DOCAC</a></p>
 </td>
 </tr>
 </tbody>
@@ -261,24 +260,18 @@ Les fonctionnalités et améliorations suivantes vont être apportées à la ges
 <table>
 <thead>
 <tr>
-<th><strong>Configuration du référentiel Adobe Experience Manager</strong><br/></th>
+<th><strong>Intégration de l’assistant AI à Adobe Experience Manager Asset Essentials</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Vous disposez désormais d’une certaine flexibilité quant à la manière dont Adobe Journey Optimizer accède à votre contenu Adobe Experience Manager. Cette version offre la possibilité de <strong>changer de référentiel source</strong> pour les fragments de contenu utilisés dans vos parcours et campagnes.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14684">Lien vers la tâche JIRA DOCAC</a></p>
+<p>L’assistant AI récupère désormais automatiquement les <b>images approuvées par la marque</b> directement depuis votre Adobe Experience Manager Assets lors de la génération d’e-mails, de pages web et de notifications push. Cela élimine la nécessité de rechercher manuellement dans Assets ou de recourir à des solutions de secours d’IA génériques, en s’assurant que chaque élément visuel est parfaitement précis et conforme à la marque.</p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14761">Lien vers la tâche JIRA DOCAC</a></p>
 </td>
 </tr>
 </tbody>
 </table>
-
-* **Intégration native des fragments de contenu Adobe Experience Manager (Managed Services)** - Désormais compatible avec **Managed Services**, vous pouvez afficher les fragments de contenu Adobe Experience Manager, y accéder et les utiliser directement dans Journey Optimizer à des fins de personnalisation. Il vous suffit d’ajouter votre URL de référentiel Adobe Experience Manager Managed Services dans les paramètres de configuration pour une configuration ponctuelle.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14821">Lien vers la tâche DOCAC JIRA</a>
-
-* **Intégration de l’assistant AI à Adobe Experience Manager Asset Essentials** - L’assistant AI récupère désormais automatiquement les **images approuvées par la marque** directement depuis votre Adobe Experience Manager Assets lors de la génération d’e-mails, de pages web et de notifications push. Cela élimine la nécessité de rechercher manuellement dans Assets ou de recourir à des solutions de secours d’IA génériques, en s’assurant que chaque élément visuel est parfaitement précis et conforme à la marque.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14761">Lien vers la tâche DOCAC JIRA</a>
 
 ### Canaux personnalisés {#june-26-channels}
 
