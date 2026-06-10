@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: e04a4e5ae5fb69494b46f7ae25095c637bb19842
+source-git-commit: 5e5a00be28f5b7bcae1fd3810f64302a0248799c
 workflow-type: tm+mt
-source-wordcount: 1791
-ht-degree: 10%
+source-wordcount: 1737
+ht-degree: 9%
 
 ---
 
@@ -39,23 +39,6 @@ Voir également les [Notes de mise à jour préliminaires d’Adobe Experience�
 ### Parcours {#june-26-journeys}
 
 Les fonctionnalités et améliorations suivantes seront bientôt disponibles dans les parcours de cette version.
-
-<table>
-<thead>
-<tr>
-<th><strong>Arbitrage de parcours - Formules</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Vous pouvez désormais utiliser des <strong>formules</strong> pour <strong>hiérarchiser et arbitrer automatiquement les parcours </strong> en fonction des attributs de profil client et des facteurs contextuels, en vous assurant que les clients saisissent les parcours les plus pertinents.</p>
-<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14719">Lien vers la tâche JIRA DOCAC</a></p>
-</td>
-</tr>
-</tbody>
-</table>
 
 * **Augmentation du nombre maximal de parcours actifs et nouveaux mécanismes de sécurisation** - Vous pouvez désormais disposer de **200 parcours actifs**, contre 100 auparavant.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14826">Lien vers la tâche DOCAC JIRA</a>
