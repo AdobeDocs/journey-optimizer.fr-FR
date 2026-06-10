@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43a3411731e99e1b1eac318a7a3c9bcd93de8de9
+source-git-commit: 09c00832ec61f9b5a4c03867ddb227abb079afe1
 workflow-type: tm+mt
-source-wordcount: 2850
+source-wordcount: 2942
 ht-degree: 21%
 
 ---
@@ -65,6 +65,26 @@ ht-degree: 21%
 <p><img src="assets/do-not-localize/journey-simulation.gif"></p>
 <p>Pour plus d'informations, consultez la <a href="../building-journeys/simulate-journey-gs.md">documentation détaillée</a>.</p>
 <p>Date de disponibilité : 9 juin 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Optimisation du chemin de parcours - Ciblage</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>L’activité <strong>Optimiser</strong> prend désormais en charge <strong>les règles de ciblage</strong> qui permettent de définir des critères spécifiques que les clients et clientes doivent remplir pour être qualifiés pour un chemin de parcours particulier, en fonction des segments d’audience ou des attributs de profil.</p>
+<p>Contrairement à l’expérimentation, où les clients sont affectés à des chemins de manière aléatoire, le ciblage utilise une logique déterministe pour s’assurer que l’audience ou le profil client approprié est acheminé vers le chemin prévu.</p>
+<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).</p>
+<p><img src="assets/do-not-localize/optimize.gif"></p>
+<p>Pour plus d'informations, consultez la <a href="../building-journeys/path-targeting.md">documentation détaillée</a>.</p>
+<p>Date de disponibilité : 8 juin 2026</p>
 </td>
 </tr>
 </tbody>
