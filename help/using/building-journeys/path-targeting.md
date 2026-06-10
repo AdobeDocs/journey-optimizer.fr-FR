@@ -12,9 +12,9 @@ exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
 badge: label="Disponibilité limitée" type="Informative"
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: 09c00832ec61f9b5a4c03867ddb227abb079afe1
 workflow-type: tm+mt
-source-wordcount: 811
+source-wordcount: 797
 ht-degree: 89%
 
 ---
@@ -25,10 +25,6 @@ ht-degree: 89%
 >id="ajo_path_targeting_fallback"
 >title="Qu’est-ce que le chemin de remplacement ?"
 >abstract="Le chemin de remplacement permet à une audience de rejoindre un chemin alternatif lorsqu’aucune règle de ciblage ne s’applique. </br>Si cette option n’est pas sélectionnée, toute audience qui ne remplit pas les critères d’une règle de ciblage ne peut pas accéder au chemin de secours et quitter le parcours."
-
->[!AVAILABILITY]
->
->Cette fonctionnalité est actuellement en disponibilité limitée. Pour obtenir l’accès, contactez votre représentant ou représentante Adobe.
 
 Le ciblage vous permet de déterminer les règles ou qualifications qu’un client ou une cliente doit remplir pour pouvoir suivre l’un des chemins de parcours, en fonction de segments d’audience spécifiques<!-- depending on profile attributes or contextual attributes-->.
 
