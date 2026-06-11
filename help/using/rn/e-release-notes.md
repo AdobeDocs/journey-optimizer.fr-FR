@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: abc97745136ffe596325df644831a346e2bb5dcc
+source-git-commit: 47a043097e938fbbd4c991d708a678f46fe63b9c
 workflow-type: tm+mt
-source-wordcount: 1660
+source-wordcount: 1815
 ht-degree: 6%
 
 ---
@@ -96,6 +96,13 @@ La fonctionnalité suivante est proposée dans Prise de décision dans cette ver
 </tbody>
 </table>
 
+* **Attributs d’offre dynamiques** - Les attributs d’offre dans Decisioning peuvent désormais être personnalisés au moment de la diffusion à l’aide des données de profil, contextuelles et d’audience. Cela supprime la nécessité de conserver des offres en double pour les variations de contenu mineures, ce qui permet aux spécialistes marketing de gérer moins d’éléments de décision et plus flexibles.
+
+* **Capping de la fréquence au niveau des emplacements dans Decisioning** - Les règles de limitation de la fréquence dans Decisioning peuvent désormais être étendues à des emplacements individuels, ce qui vous permet de contrôler plus précisément la fréquence d’affichage d’une offre dans une surface donnée. Deux modes sont disponibles :
+
+   * Limitation spécifique à l’emplacement : définissez une limite qui s’applique uniquement lorsque l’offre est affichée à un emplacement sélectionné.
+   * Limitation par emplacement : appliquez une limite indépendamment à chaque emplacement où l’offre apparaît, de sorte que chaque emplacement conserve son propre compteur de limitation.
+
 ### Email {#june-26-email}
 
 Les fonctionnalités et améliorations suivantes seront apportées au canal e-mail dans cette version.
@@ -145,6 +152,8 @@ Les fonctionnalités et améliorations suivantes seront apportées au canal e-ma
 </tbody>
 </table>
 
+* **Convertisseur Image vers HTML amélioré** - Une nouvelle version de la fonctionnalité de convertisseur Image vers HTML est désormais disponible, offrant une précision améliorée pour la génération HTML. Cette mise à jour exploite des modèles LLM de niveau supérieur pour fournir une sortie HTML plus précise et plus fiable à partir des entrées d’image.
+
 +++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications.**
 
 <table>
@@ -156,7 +165,8 @@ Les fonctionnalités et améliorations suivantes seront apportées au canal e-ma
 <tbody>
 <tr>
 <td>
-<p>Le Designer d’e-mail comprend désormais une bibliothèque de composants de disposition prêts à l’emploi, tels que des en-têtes, des cartes de produits (1, 2 ou 3 colonnes), des blocs d’informations et des pieds de page, que vous pouvez faire glisser directement dans la zone de travail de votre e-mail. Chaque composant est préconfiguré avec des propriétés modifiables (image, titre, texte, bouton, liens) et peut être entièrement personnalisé via l’interface de WYSIWYG, ce qui accélère la création d’e-mails sans que vous ayez à créer des structures à partir de zéro.</p>
+<p>Le Designer d’e-mail comprend désormais une bibliothèque de modules de disposition prêts à l’emploi, tels que des en-têtes, des cartes de produits, des blocs d’informations et des pieds de page, que vous pouvez faire glisser directement dans la zone de travail de votre e-mail.</p>
+<p>Chaque module est préconfiguré avec des propriétés modifiables (image, titre, texte, bouton, liens) et peut être entièrement personnalisé via l’interface de WYSIWYG, ce qui accélère la création d’e-mails sans que vous ayez à créer des structures à partir de zéro.</p>
 <p>Date de disponibilité : 22 juin 2026</p>
 </td>
 </tr>
