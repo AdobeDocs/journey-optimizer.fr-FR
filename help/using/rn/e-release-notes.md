@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 677ecfacfbe12250fef9e28b685dfe1e173d08dc
+source-git-commit: 9915d814778a8d18cf4a691e8e2d351c2ac7c405
 workflow-type: tm+mt
-source-wordcount: 1557
-ht-degree: 8%
+source-wordcount: 1599
+ht-degree: 7%
 
 ---
 
@@ -237,10 +237,18 @@ Dans cette version, les campagnes bénéficient de l’amélioration suivante.
 
 Les améliorations suivantes ont été apportées aux rapports dans cette version.
 
+* **Mesures de clics estimées pour les rapports d’e-mails et de SMS** - **Clics estimés** est désormais disponible dans les Parcours, les campagnes et les rapports de canal. Cette mesure reflète le nombre total de clics après l’exclusion du trafic non humain (NHI) et de robots identifiés, ce qui vous donne une idée plus claire de l’engagement réel des clients.
+
++++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications.**
+
 * **Nouvelles mesures de clic estimées pour les rapports par e-mail et SMS** - Afin de fournir une vue plus précise de l’engagement réel des clients, de nouvelles mesures estimées sont désormais disponibles dans les Parcours, les campagnes et les rapports de canal. Ces mesures permettent de filtrer les interactions non humaines (NHI) et les clics de robots à partir des données de rapport :
-   * Estimation des clics : nombre total de clics comptabilisés après suppression du trafic non humain et robots identifié.
+
    * CTR estimé : nombre estimé de clics par rapport au total des diffusions.
    * Taux de clics estimé pour les e-mails uniquement : estimations des clics par rapport aux ouvertures estimées.
+
+  Date de disponibilité : Fin juin 2026
+
++++
 
 ### Configuration {#june-26-configuration}
 
