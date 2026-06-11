@@ -6,18 +6,13 @@ description: Notes de mise à jour préliminaires pour Adobe Journey Optimizer
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 47a043097e938fbbd4c991d708a678f46fe63b9c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 047bf4bee4fafe720cb301a979428bdf0c039027
 workflow-type: tm+mt
-source-wordcount: 1815
-ht-degree: 6%
+source-wordcount: 1921
+ht-degree: 5%
 
 ---
 
@@ -40,7 +35,7 @@ Les fonctionnalités et améliorations suivantes seront bientôt disponibles dan
 
 * **Augmentation du nombre maximal de parcours actifs et nouveaux mécanismes de sécurisation** - Vous pouvez désormais disposer de **200 parcours actifs**, contre 100 auparavant.
 
-* **Dates de début et de fin dans l’en-tête du parcours** - Lorsque les dates de début et/ou de fin sont configurées sur un parcours dynamique, elles sont désormais affichées dans l’en-tête du parcours **&#x200B;**&#x200B;à côté du badge de statut dynamique. Le libellé affiché s’adapte selon que chaque date est à venir ou est déjà dépassée.
+* **Dates de début et de fin dans l’en-tête du parcours** - Lorsque les dates de début et/ou de fin sont configurées sur un parcours dynamique, elles sont désormais affichées dans l’en-tête du parcours **** à côté du badge de statut dynamique. Le libellé affiché s’adapte selon que chaque date est à venir ou est déjà dépassée.
 
 * **Arrêter ou fermer un parcours en pause directement** - Vous pouvez désormais **arrêter un parcours ou le fermer aux nouvelles entrées** directement à partir de l’état **En pause**. Auparavant, un parcours en pause devait reprendre pour passer en ligne avant de pouvoir être arrêté ou fermé.
 
@@ -55,20 +50,20 @@ Les fonctionnalités et améliorations suivantes seront bientôt disponibles pou
 <table>
 <thead>
 <tr>
-<th><strong>Activité Chargement de fichier dans les campagnes orchestrées</strong><br/></th>
+<th><strong>Ciblage basé sur des fichiers dans des campagnes orchestrées</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Les campagnes orchestrées prennent désormais en charge le chargement d’un fichier <strong>CSV ou TXT</strong> directement dans la zone de travail de campagne en tant qu’audience de ciblage, sans avoir à ingérer le fichier dans Adobe Experience Platform au préalable. Les données du fichier sont utilisées au moment de l’exécution et ne sont pas conservées en tant que jeu de données Adobe Experience Platform. Lors de la configuration de fichiers, vous pouvez définir des mappages de colonnes, des types de données, une gestion des NULL et des politiques d’erreur par colonne. Cela prend en charge les campagnes de listes de partenaires ou d’envois ad hoc pour lesquelles la création d’un pipeline d’ingestion complet n’est pas pratique.</p>
+<p>Les campagnes orchestrées prennent désormais en charge le chargement d’un fichier <strong>CSV ou TXT</strong> directement dans la zone de travail de campagne en tant qu’audience de ciblage, sans avoir à ingérer le fichier dans Adobe Experience Platform au préalable. Les données du fichier sont utilisées au moment de l’exécution et ne sont pas conservées en tant que jeu de données Adobe Experience Platform. Lors de la configuration de fichiers, vous pouvez définir des mappages de colonnes, des types de données, une gestion des NULL et des politiques d’erreur par colonne. Les lignes dont la validation a échoué sont rejetées et consignées avant l’exécution de la campagne, ce qui permet de garder l’audience propre sans pré-traitement manuel. Cela est particulièrement adapté aux envois ad hoc ou aux campagnes de liste de partenaires pour lesquelles la création d’un pipeline d’ingestion complet n’est pas pratique.</p>
 <p>Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-* **Personnalisation en boucle des données relationnelles dans les campagnes orchestrées** - L’éditeur de personnalisation prend désormais en charge un **bloc de boucle** qui effectue une itération sur les collections relationnelles, telles que les commandes, les comptes ou les réservations, et effectue le rendu d’un bloc de contenu par enregistrement dans un seul e-mail ou SMS. Les collections sont configurées par le biais du sélecteur de données à l’aide de jetons de personnalisation, sans écriture d’expression requise.
+* **Personnalisation en boucle des données relationnelles dans les campagnes orchestrées** - L’éditeur de personnalisation prend désormais en charge un **bloc de boucle** qui effectue une itération sur les collections relationnelles, telles que les commandes, les comptes ou les réservations, et effectue le rendu d’un bloc de contenu par enregistrement dans un seul e-mail ou SMS. Les collections sont configurées par le biais du sélecteur de données à l’aide de jetons de personnalisation, sans écriture d’expression requise. Vous pouvez prévisualiser la manière dont les blocs en boucle s’affichent par rapport aux exemples de données avant que la campagne ne soit activée, y compris la gestion des collections vides.
 
 * **Personnaliser les détails de l’expéditeur de l’e-mail par destinataire et campagne** - Les campagnes orchestrées prennent désormais en charge la personnalisation des **champs d’en-tête des e-mails**, y compris le nom de l’expéditeur, l’adresse de l’expéditeur et la réponse, à l’aide d’attributs de profil ou de données relationnelles. Cela permet aux détails de l’expéditeur de refléter le conseiller, l’emplacement ou la filiale approprié(e) pour chaque destinataire, plutôt que de router tous les envois via une seule adresse d’entreprise. Les valeurs d’en-tête peuvent être définies au niveau du canal et remplacées par campagne à l’aide de données contextuelles pour un contrôle plus précis.
 
@@ -110,13 +105,13 @@ Les fonctionnalités et améliorations suivantes seront apportées au canal e-ma
 <table>
 <thead>
 <tr>
-<th><strong>Vérification de contenu dans le Designer Email</strong><br/></th>
+<th><strong>Contrôles de qualité du contenu dans le Designer Email</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer permet désormais aux utilisateurs de valider leur <strong>qualité du contenu des e-mails</strong> (notamment la lisibilité, l’efficacité et la cohésion du contenu) directement dans l’interface de Designer d’e-mail.</p>
+<p>Journey Optimizer comprend désormais un score de qualité du contenu directement dans le Designer d’e-mail qui analyse votre e-mail en trois dimensions avant le lancement : orthographe, grammaire et ponctuation ; lisibilité et ton, y compris les indicateurs pour les phrases longues, la voix passive et le jargon ; et efficacité de la ligne d’objet et du CTA, notées par souci de clarté, d’urgence et de structure. Chaque vérification fait apparaître des suggestions exploitables, ce qui permet aux équipes d’identifier et de résoudre les problèmes sans quitter l’interface de création.</p>
 </td>
 </tr>
 </tbody>
@@ -131,7 +126,7 @@ Les fonctionnalités et améliorations suivantes seront apportées au canal e-ma
 <tbody>
 <tr>
 <td>
-<p>Cette nouvelle option permet de <strong>réduire la taille de l’HTML</strong> dans un e-mail en supprimant les espaces blancs, les commentaires et le code redondant inutiles, sans modifier l’aspect de l’e-mail. Cela permet d’améliorer la délivrabilité (certains fournisseurs de messagerie rejettent ou signalent les e-mails surdimensionnés) et d’accélérer le temps de chargement des destinataires.</p>
+<p>Journey Optimizer comprend désormais une option permettant de réduire la taille de l’HTML de votre e-mail en supprimant les espaces blancs, les commentaires et le code redondant inutiles, sans affecter le rendu de l’e-mail. Cela peut améliorer la délivrabilité en évitant les seuils de taille que certains fournisseurs de messagerie utilisent pour marquer ou rejeter les messages et peut réduire le temps de chargement des destinataires.</p>
 </td>
 </tr>
 </tbody>
@@ -237,7 +232,7 @@ Dans cette version, les campagnes bénéficient de l’amélioration suivante.
 
 Les améliorations suivantes ont été apportées aux rapports dans cette version.
 
-* **Mesures de clics estimées pour les rapports d’e-mails et de SMS** - **Clics estimés** est désormais disponible dans les Parcours, les campagnes et les rapports de canal. Cette mesure reflète le nombre total de clics après l’exclusion du trafic non humain (NHI) et de robots identifiés, ce qui vous donne une idée plus claire de l’engagement réel des clients.
+* **Estimation des clics pour la création de rapports par e-mail et SMS** — Une nouvelle mesure **Estimation des clics** est désormais disponible dans les Parcours, les campagnes et les rapports de canal pour les e-mails et les SMS. Cette mesure exclut le trafic d’interactions non humaines (NHI) et identifiées afin de fournir une vue plus claire de l’engagement réel des clients. La mesure Clics existante reste disponible et continue de signaler le nombre total de clics.
 
 +++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications.**
 
