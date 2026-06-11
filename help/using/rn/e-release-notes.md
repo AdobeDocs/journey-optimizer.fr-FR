@@ -6,18 +6,13 @@ description: Notes de mise à jour préliminaires pour Adobe Journey Optimizer
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 365ea2d23b1a660f2481004ac0fdd53948cff437
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 677ecfacfbe12250fef9e28b685dfe1e173d08dc
 workflow-type: tm+mt
-source-wordcount: 1756
-ht-degree: 7%
+source-wordcount: 1557
+ht-degree: 8%
 
 ---
 
@@ -40,7 +35,7 @@ Les fonctionnalités et améliorations suivantes seront bientôt disponibles dan
 
 * **Augmentation du nombre maximal de parcours actifs et nouveaux mécanismes de sécurisation** - Vous pouvez désormais disposer de **200 parcours actifs**, contre 100 auparavant.
 
-* **Dates de début et de fin dans l’en-tête du parcours** - Lorsque les dates de début et/ou de fin sont configurées sur un parcours dynamique, elles sont désormais affichées dans l’en-tête du parcours **&#x200B;**&#x200B;à côté du badge de statut dynamique. Le libellé affiché s’adapte selon que chaque date est à venir ou est déjà dépassée.
+* **Dates de début et de fin dans l’en-tête du parcours** - Lorsque les dates de début et/ou de fin sont configurées sur un parcours dynamique, elles sont désormais affichées dans l’en-tête du parcours **** à côté du badge de statut dynamique. Le libellé affiché s’adapte selon que chaque date est à venir ou est déjà dépassée.
 
 * **Arrêter ou fermer un parcours en pause directement** - Vous pouvez désormais **arrêter un parcours ou le fermer aux nouvelles entrées** directement à partir de l’état **En pause**. Auparavant, un parcours en pause devait reprendre pour passer en ligne avant de pouvoir être arrêté ou fermé.
 
@@ -245,12 +240,6 @@ Les améliorations suivantes ont été apportées aux rapports dans cette versio
 ### Configuration {#june-26-configuration}
 
 Dans cette version, les améliorations suivantes ont été apportées à la configuration et à l’administration.
-
-* **whitelistages d’adresses IP du pare-feu d’applications web (WAF)** - Adobe Journey Optimizer prend désormais en charge le whitelistage d’adresses IP WAF pour les pages de destination, ce qui permet aux entreprises d’exiger que toutes les requêtes entrantes soient acheminées exclusivement via leur infrastructure WAF configurée. Grâce à cette amélioration, les clients peuvent configurer Journey Optimizer pour rejeter toute demande directe qui contourne la couche WAF, en s’assurant que les politiques de sécurité définies dans des outils tels qu’Imperva sont appliquées de manière cohérente. Cette fonctionnalité renforce la position de sécurité des entreprises ayant des exigences strictes en matière d’accès au réseau, leur permettant ainsi de contrôler entièrement le flux de trafic vers leurs pages de destination hébergées sur Journey Optimizer.
-
-* **Processus OTP de boucle de retour pour les sous-domaines personnalisés** - Le processus de configuration des sous-domaines personnalisés de boucle de retour (FBL) a été amélioré en faisant apparaître le hub d&#39;expéditeur Yahoo **mot de passe à usage unique (OTP)** directement dans l&#39;interface utilisateur du produit. Les utilisateurs peuvent désormais récupérer et afficher automatiquement le mot de passe à usage unique généré lors de la vérification de la propriété du domaine du hub d’expéditeur Yahoo.
-
-* **Mise à jour des références de débit d’envoi par lots avec des scénarios orientés client** - Les références de débit d’envoi par lots de Adobe Journey Optimizer ont été mises à jour pour refléter les performances de niveau production dans plusieurs scénarios de personnalisation, des envois de base au contenu dynamique complexe avec logique conditionnelle. Les mesures actualisées sont désormais disponibles dans la description du produit pour aider les clients à planifier avec précision leurs volumes de messagerie.
 
 * **Jeu de données passant de la diffusion en continu au mode par lots** - Le jeu de données d’événement de retour de message AJO passe de la diffusion en continu au **mode d’ingestion par lots**. Cette modification garantit que l’ingestion de données ne dépasse pas les limites d’ingestion en flux continu. Si vous utilisez ce jeu de données dans des rapports Customer Journey Analytics ou si vous exécutez des requêtes sur celui-ci, attendez-vous à une augmentation de la latence des données allant jusqu’à 2 heures.
 
