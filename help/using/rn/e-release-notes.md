@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 9915d814778a8d18cf4a691e8e2d351c2ac7c405
+source-git-commit: 351bb6d71cebf09d0bb378653d4e97edb2a8cffc
 workflow-type: tm+mt
-source-wordcount: 1599
+source-wordcount: 1706
 ht-degree: 7%
 
 ---
@@ -256,8 +256,17 @@ Dans cette version, les améliorations suivantes ont été apportées à la conf
 
 * **Jeu de données passant de la diffusion en continu au mode par lots** - Le jeu de données d’événement de retour de message AJO passe de la diffusion en continu au **mode d’ingestion par lots**. Cette modification garantit que l’ingestion de données ne dépasse pas les limites d’ingestion en flux continu. Si vous utilisez ce jeu de données dans des rapports Customer Journey Analytics ou si vous exécutez des requêtes sur celui-ci, attendez-vous à une augmentation de la latence des données allant jusqu’à 2 heures.
 
++++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications.**
+
+* **whitelistage d’adresses IP de Web Application Firewall (WAF)** - Adobe Journey Optimizer prend désormais en charge le whitelistage d’adresses IP de Web Application Firewall (WAF) pour les pages de destination, ce qui permet aux entreprises de s’assurer que toutes les requêtes entrantes sont acheminées exclusivement via leur infrastructure WAF configurée. Grâce à cette amélioration, les clients peuvent configurer Journey Optimizer pour rejeter toute demande directe qui contourne la couche WAF, en s’assurant que les politiques de sécurité définies dans des outils tels qu’Imperva sont appliquées de manière cohérente. Cette fonctionnalité renforce la position de sécurité des entreprises ayant des exigences strictes en matière d’accès au réseau, leur permettant de contrôler entièrement le flux de trafic vers leurs pages de destination hébergées dans AJO.
+
+  Date de disponibilité : Fin juin 2026
+
++++
+
 ### Améliorations de la convivialité {#june-26-usability}
 
 L’amélioration de la convivialité suivante est apportée à cette version.
 
 * **Dossiers pour les Parcours et les campagnes** - Vous pouvez désormais organiser vos parcours et campagnes en **dossiers** pour améliorer la navigation et la gestion dans l’interface.
+
