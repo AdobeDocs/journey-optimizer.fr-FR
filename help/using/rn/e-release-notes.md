@@ -14,7 +14,7 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: dccfb51bd565718dce4e3b926c22af2067d7c9f1
+source-git-commit: 365ea2d23b1a660f2481004ac0fdd53948cff437
 workflow-type: tm+mt
 source-wordcount: 1756
 ht-degree: 7%
@@ -33,7 +33,6 @@ Adobe Journey Optimizer offre en permanence de nouvelles fonctionnalités, des a
 Voir également les [Notes de mise à jour préliminaires d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Date de publication** : 16 et 17 juin 2026
-
 
 ### Parcours {#june-26-journeys}
 
