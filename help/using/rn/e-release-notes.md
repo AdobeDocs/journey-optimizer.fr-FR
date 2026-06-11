@@ -14,7 +14,7 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 351bb6d71cebf09d0bb378653d4e97edb2a8cffc
+source-git-commit: a144c1518f1835495eaf27fa055b89a3bf8d5559
 workflow-type: tm+mt
 source-wordcount: 1706
 ht-degree: 7%
@@ -269,4 +269,3 @@ Dans cette version, les améliorations suivantes ont été apportées à la conf
 L’amélioration de la convivialité suivante est apportée à cette version.
 
 * **Dossiers pour les Parcours et les campagnes** - Vous pouvez désormais organiser vos parcours et campagnes en **dossiers** pour améliorer la navigation et la gestion dans l’interface.
-
