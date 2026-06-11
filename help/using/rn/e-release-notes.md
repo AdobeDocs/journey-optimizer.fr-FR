@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 5e5a00be28f5b7bcae1fd3810f64302a0248799c
+source-git-commit: 3f38c4a48bc1ae55e285209ce33a0ebc9ecc4dcb
 workflow-type: tm+mt
-source-wordcount: 1737
-ht-degree: 9%
+source-wordcount: 1658
+ht-degree: 10%
 
 ---
 
@@ -49,8 +49,10 @@ Les fonctionnalités et améliorations suivantes seront bientôt disponibles dan
 * **Arrêter ou fermer un parcours en pause directement** - Vous pouvez désormais **arrêter un parcours ou le fermer aux nouvelles entrées** directement à partir de l’état **En pause**. Auparavant, un parcours en pause devait reprendre pour passer en ligne avant de pouvoir être arrêté ou fermé.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14229">Lien vers la tâche DOCAC JIRA</a>
 
-* **Prise en charge des identifiants supplémentaires pour les audiences externes** - Les identifiants supplémentaires dans les parcours sont désormais pris en charge pour les audiences externes, y compris les audiences importées d’un fichier CSV et les audiences créées avec la composition d’audience fédérée. Vous pouvez désigner n’importe quel attribut de non-identité ou attribut d’identité non-personne de l’audience comme ID supplémentaire. Aucun étiquetage de schéma n’est nécessaire.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14541">Lien vers la tâche DOCAC JIRA</a>
+<!--
+* **Supplemental identifier support for external audiences** - Supplemental identifiers in journeys are now supported for external audiences, including audiences imported from a CSV file and audiences created with Federated Audience Composition. You can designate any non-identity attribute or non-person identity attribute from the audience as the supplemental ID, no schema labeling is required.
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-14541">Link to DOCAC JIRA task</a>
+-->
 
 ### Campagnes orchestrées {#june-26-oc}
 
@@ -79,8 +81,10 @@ Les fonctionnalités et améliorations suivantes seront bientôt disponibles pou
 * **Personnaliser les détails de l’expéditeur de l’e-mail par destinataire et campagne** - Les campagnes orchestrées prennent désormais en charge la personnalisation des **champs d’en-tête des e-mails**, y compris le nom de l’expéditeur, l’adresse de l’expéditeur et la réponse, à l’aide d’attributs de profil ou de données relationnelles. Cela permet aux détails de l’expéditeur de refléter le conseiller, l’emplacement ou la filiale approprié(e) pour chaque destinataire, plutôt que de router tous les envois via une seule adresse d’entreprise. Les valeurs d’en-tête peuvent être définies au niveau du canal et remplacées par campagne à l’aide de données contextuelles pour un contrôle plus précis.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13761">Lien vers la tâche DOCAC JIRA</a>
 
-* **Simplification de la dimension de cible dans les campagnes orchestrées** - La **dimension de ciblage** active s’affiche désormais sur la zone de travail du workflow, de sorte que vous pouvez voir quelle dimension est utilisée par une activité de canal. Le flux de segmentation d’entités multiples est plus simple, car vous n’avez plus besoin d’une activité « Changement de dimension » distincte. De plus, vous pouvez désormais choisir explicitement si les messages sont envoyés au niveau du profil ou au niveau d’une dimension secondaire.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13554">Lien vers la tâche DOCAC JIRA</a>
+<!--
+* **Target dimension simplification in Orchestrated campaigns** - The active **targeting dimension** is now shown on the workflow canvas, so you can see which dimension is used by a channel activity. The multi-entity segmentation flow is simpler as you no longer need a separate "Change dimension" activity. Moreover, you can now choose explicitly whether messages are sent at the profile level or at a secondary dimension level.
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-13554">Link to DOCAC JIRA task</a>
+-->
 
 ### Prise de décision {#june-26-decisioning}
 
