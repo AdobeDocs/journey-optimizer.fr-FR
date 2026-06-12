@@ -11,9 +11,9 @@ keywords: fragments, parcours, réutilisation, nœuds, zone de travail, inventai
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
 workflow-type: tm+mt
-source-wordcount: 1516
+source-wordcount: 1644
 ht-degree: 7%
 
 ---
@@ -24,13 +24,6 @@ ht-degree: 7%
 Les fragments de parcours sont des ensembles réutilisables de nœuds de parcours que vous pouvez créer une fois et déposer dans n’importe quel parcours de votre sandbox. Qu’il s’agisse d’une vérification d’éligibilité, d’une logique de routage de canal préférée ou d’une séquence de bienvenue, les fragments aident les équipes à se déplacer plus rapidement et à rester cohérentes, sans avoir à reconstruire la même logique à chaque fois. [Voir les exemples de cas d’utilisation.](#examples)
 
 Une fois créés, les fragments sont stockés dans un **[!UICONTROL inventaire des fragments]** dédié et peuvent être insérés dans n’importe quel parcours à l’aide de l’activité **[!UICONTROL Fragments de Parcours]**.
-
->[!NOTE]
->
->**Les fragments de Parcours** sont des ensembles réutilisables de nœuds de parcours. Elles sont différentes de :
->
->* **[Fragments](../content-management/fragments.md)** — Composants de contenu réutilisables utilisés dans les e-mails dans les campagnes et les parcours.
->* **[Fragments de contenu AEM](../integrations/aem-fragments.md)** — contenu créé dans Adobe Experience Manager et utilisé dans [!DNL Journey Optimizer].
 
 >[!NOTE]
 >Les fragments de parcours utilisent un comportement de **copie** : l’insertion d’un fragment dans un parcours crée une copie statique des nœuds d’origine. Les mises à jour apportées au fragment d’origine ne sont pas répercutées dans les parcours qui l’ont déjà utilisé.
@@ -219,3 +212,17 @@ Une séquence de bienvenue programmée, telle qu’une série de trois messages 
 Un fragment peut encapsuler une activité E-mail suivie d’une [Réaction](reaction-events.md), en attendant que le profil ouvre l’e-mail dans un nombre de jours défini et en envoyant un rappel si ce n’est pas le cas. Cette logique est généralement réutilisée pour alimenter les parcours et tester les flux de conversion. Le fragment peut inclure les activités E-mail et Réaction .
 
 ![Exemple de fragment de rappel basé sur une réaction](assets/journey-fragments-uc-reminder.png)
+
+## Questions fréquentes {#faq}
+
+**En quoi un fragment de Parcours est-il différent d’un fragment (fragment de contenu) ?**
+
+Les **fragments de Parcours** sont des ensembles de nœuds de parcours réutilisables, tels que des contrôles d’éligibilité ou une logique de routage de canal, que vous insérez dans un parcours à l’aide de l’activité **[!UICONTROL fragments de Parcours]**. Les **[fragments](../content-management/fragments.md)** sont des composants de contenu réutilisables (par exemple, un en-tête ou un pied de page) utilisés dans les e-mails des campagnes et des parcours. En résumé, les fragments de Parcours sont réutilisables *logique*, tandis que les fragments de contenu sont réutilisables *contenu*.
+
+**En quoi un fragment de Parcours est-il différent d’un fragment de contenu AEM ?**
+
+Les **[fragments de contenu](../integrations/aem-fragments.md)** sont du contenu créé dans Adobe Experience Manager et réutilisé dans les messages [!DNL Journey Optimizer]. Ce n&#39;est pas une logique de parcours. Les fragments de parcours, en revanche, sont créés et stockés dans [!DNL Journey Optimizer] et représentent des ensembles de nœuds de parcours connectés.
+
+**Si je mets à jour un fragment de Parcours, les parcours existants sont-ils également mis à jour ?**
+
+Non. Les fragments de parcours utilisent un comportement de **copie** : l’insertion d’un fragment crée une copie statique de ses nœuds. Les mises à jour apportées au fragment d’origine ne sont pas répercutées dans les parcours qui l’ont déjà utilisé.

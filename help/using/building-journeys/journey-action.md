@@ -31,10 +31,10 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
 workflow-type: tm+mt
-source-wordcount: 1734
-ht-degree: 73%
+source-wordcount: 1775
+ht-degree: 71%
 
 ---
 
@@ -45,15 +45,15 @@ ht-degree: 73%
 >title="Activité Action"
 >abstract="L’activité **Action** vous permet de configurer une action de canal native unique et plusieurs activités entrantes, tout en optimisant toute action de canal intégrée."
 
-L’activité **Action** est le point d’entrée unique pour toutes les actions de canal dans la zone de travail de parcours.
+L’activité **Action** est le point d’entrée unique pour diffuser du contenu à vos clients à partir de la zone de travail de parcours. Au lieu de choisir parmi une activité distincte pour chaque canal, vous faites glisser une seule activité **[!UICONTROL Action]** sur la zone de travail et sélectionnez le canal à utiliser.
 
-Il remplace les activités de canal intégrées individuelles précédentes et consolide les activités E-mail, Push, SMS, In-app, Web, Expérience basée sur le code et Carte de contenu en un type d’activité unifié.
+Il regroupe tous les canaux intégrés (e-mail, notification push, SMS, in-app, web, expérience basée sur le code et carte de contenu) en un seul type d’activité unifié, remplaçant les activités de canal individuelles utilisées précédemment.
 
-Utilisez-le pour :
+Utilisez l’activité **Action** pour :
 
 * Configurez n’importe quelle action de canal intégrée à partir d’une interface unique et rationalisée.
-* Créez des groupes d’actions entrants multiactions.
-* Appliquez l’optimisation à n’importe quelle action de canal.
+* Combinez plusieurs expériences entrantes en un [groupe multi-action](#multi-action).
+* Appliquez [optimisation](../content-management/gs-message-optimization.md), [contenu multilingue](../content-management/multilingual-gs.md) et des paramètres spécifiques aux canaux à toute action.
 
 >[!NOTE]
 >

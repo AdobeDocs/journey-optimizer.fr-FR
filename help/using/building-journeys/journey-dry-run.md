@@ -32,10 +32,10 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
 workflow-type: tm+mt
-source-wordcount: 1080
-ht-degree: 89%
+source-wordcount: 1377
+ht-degree: 70%
 
 ---
 
@@ -168,6 +168,40 @@ Le test à blanc de parcours génère des **événements d’étape**. Ces évé
 Si vous exportez des données d’événement d’étape vers des **systèmes externes**, vous pouvez filtrer les exécutions de test à blanc à l’aide de l’indicateur `inDryRun`.
 
 Lors de l’analyse de **mesures de rapports de parcours** à l’aide de [!DNL Adobe Experience Platform] Query Service, les événements d’étape générés par l’exécution d’essai doivent être exclus. Pour ce faire, excluez les événements d’étape où `inDryRun` est `true` (c’est-à-dire incluez uniquement les événements où `inDryRun` est `null` ou `false`).
+
+## Questions fréquentes {#faq}
+
+**Une exécution d’essai envoie-t-elle des messages à des clients réels ?**
+
+Non. L’exécution d’essai utilise des données de production réelles, mais ne contacte pas les profils ni ne met à jour les informations de profil. Les actions de canal (e-mail, SMS, notification push) ne sont pas exécutées et les actions personnalisées sont désactivées avec leurs réponses définies sur `null`.
+
+**De quelles autorisations ai-je besoin pour démarrer ou arrêter une Exécution d’essai ?**
+
+Le démarrage d’une exécution d’essai nécessite l’autorisation de haut niveau **[!DNL Publish journeys]**. L’arrêt d’une exécution d’essai nécessite l’autorisation de haut niveau **[!DNL Manage journeys]**. Pour en savoir plus, consultez la section [autorisations](../administration/permissions-overview.md).
+
+**Sur quels parcours puis-je exécuter une Exécution d’essai ?**
+
+Vous pouvez utiliser l’exécution d’essai sur n’importe quel parcours **[!UICONTROL Brouillon]** sans erreur.
+
+**Combien de temps dure une exécution d’essai ?**
+
+Après 14 jours, les parcours d’exécution d’essai repassent automatiquement au statut **[!UICONTROL Brouillon]**. Vous pouvez également arrêter manuellement une exécution d’essai à tout moment.
+
+**Les activités d’attente et les sources de données externes sont-elles exécutées pendant une exécution d’essai ?**
+
+Par défaut, les activités **Attente** et **Sources de données** (y compris les sources de données externes) sont désactivées lors d’une exécution d’essai. Vous pouvez modifier ce comportement lors de l’[activation du mode Exécution d’essai](#journey-dry-run-start).
+
+**Les profils et parcours d’essai sont-ils pris en compte dans mes quotas ?**
+
+Oui. Les profils en mode d’exécution d’essai sont comptabilisés dans le nombre de [Profils engageables](../audience/license-usage.md), et les parcours en mode d’exécution d’essai sont comptabilisés dans le quota de parcours en direct. Toutefois, les parcours d’exécution d’essai n’ont aucune incidence sur les règles métier.
+
+**Puis-je toujours accéder aux rapports d’essai après l’arrêt du test ?**
+
+Non. Les données de rapport ne sont disponibles que lorsque l’Exécution d’essai est **active**. Une fois arrêtés, les données ne sont plus accessibles : utilisez le bouton **Exporter** situé au-dessus des rapports pour les télécharger à l’avance, si nécessaire.
+
+**Comment exclure les données d’essai de mes rapports ?**
+
+L’exécution d’essai génère **stepEvents** marqué d’un `inDryRun` et d’un `dryRunID`. Lors de l’analyse des mesures de rapports de parcours avec [!DNL Adobe Experience Platform] Query Service, excluez les événements d’étape où `inDryRun` est `true` (incluez uniquement les événements où `inDryRun` est `null` ou `false`).
 
 ## Vidéo pratique {#dry-run-video}
 

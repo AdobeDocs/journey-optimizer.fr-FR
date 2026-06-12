@@ -28,10 +28,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
 workflow-type: tm+mt
-source-wordcount: 3657
-ht-degree: 71%
+source-wordcount: 4152
+ht-degree: 63%
 
 ---
 
@@ -454,6 +454,36 @@ La section **[!UICONTROL Gestion des conflits]** dans les propriétés du parcou
   Dans les cas où cette même configuration de canal entrant est utilisée dans d’autres campagnes ou parcours, l’action entrante ayant le score de priorité le plus élevé est présentée aux destinataires. Si plusieurs parcours ou campagnes ont le même score, l’élément qui a été modifié le plus récemment est choisi.
 
 * **Affichez les conflits** avec d’autres configuration de parcours, de campagnes, ou de canaux. Si vous souhaitez identifier un chevauchement concernant l’audience, la date de début et de fin, la configuration des canaux, le canal ou le jeu de règles, vous pouvez afficher les conflits potentiels ici. [Découvrir comment identifier les conflits potentiels dans un parcours](../conflict-prioritization/conflicts.md)
+
+## Questions fréquentes {#faq}
+
+**Où puis-je trouver les propriétés d’un parcours ?**
+
+Les propriétés se trouvent dans le rail droit de la zone de travail du parcours. Ils apparaissent par défaut lors de la création d’un parcours. Pour un parcours existant, cliquez sur l’icône en forme de crayon en regard du nom du parcours pour l’ouvrir. Pour les parcours en direct, le panneau affiche uniquement la date de publication et le nom de l’utilisateur ou de l’utilisatrice qui a publié le parcours. Voir [Accès aux propriétés d’un parcours &#x200B;](#access-properties).
+
+**Puis-je modifier les propriétés d’un parcours en direct ?**
+
+La plupart des propriétés sont en lecture seule une fois qu’un parcours est actif. Pour les modifier, créez une nouvelle version du parcours ou dupliquez le parcours, apportez vos modifications dans le brouillon, puis [publiez](publish-journey.md) à nouveau.
+
+**Quelle est la différence entre le paramètre de reprise et la période d’attente de reprise ?**
+
+**[Autoriser une reprise](#allow-reentrance)** contrôle si un profil peut entrer dans le parcours plusieurs fois. La **[Période d’attente de reprise](#reentrance-wait)** (affichée uniquement lorsque la reprise est autorisée) définit la durée d’attente avant que le même profil puisse rejoindre à nouveau un parcours unitaire. La valeur par défaut est de 5 minutes et la valeur maximale est de 90 jours. Pour plus d’informations, voir [Gestion des entrées de profil](entry-management.md).
+
+**Combien de temps un profil peut-il rester dans un parcours ?**
+
+Un [délai d’expiration global du parcours &#x200B;](#global_timeout) arrête un profil **91 jours** après son entrée ; le parcours d’un individu ne peut pas durer plus longtemps. Ce délai d’expiration ne s’affiche pas dans l’interface et ne peut pas être modifié. Les données de profil étant supprimées après 91 jours, le blocage de reprise ne peut pas être garanti au-delà de cette période. Consultez également la section [Comment les parcours se terminent](end-journey.md#journey-finished-definition).
+
+**Pourquoi la publication de mon parcours échoue-t-elle en raison de la taille de la payload ?**
+
+L’indicateur **[!UICONTROL Taille actuelle de la payload du parcours]** affiche la payload de votre parcours par rapport à la limite configurée (4 Mo par défaut). Si la payload approche ou dépasse la limite, la publication échoue. Réduisez la taille en simplifiant la logique du parcours ou en réduisant le nombre d’activités, ou contactez l’assistance clientèle d’Adobe pour demander une limite plus élevée. Voir les sections [Taille de la payload de Parcours &#x200B;](#journey-payload-size) [Validation de la taille de la payload de Parcours &#x200B;](../start/guardrails.md#journey-payload-size) et [Mécanismes de sécurisation généraux du parcours &#x200B;](../start/guardrails.md#journeys-guardrails-journeys).
+
+**Quelle politique de fusion mon parcours utilise-t-il ?**
+
+Cela dépend du type de parcours : [Lecture d’audience](read-audience.md) et [Qualification de l’audience](audience-qualification-events.md) les parcours utilisent la politique de fusion de l’audience, [événement unitaire](../event/about-events.md) les parcours utilisent la politique de fusion par défaut et [événement métier](../event/about-creating-business.md) les parcours utilisent la politique de fusion de l’audience ciblée dans l’activité Lecture d’audience suivante. La même politique de fusion s’applique à l’ensemble du parcours. Si une politique de fusion d’audience est mise à jour, tout parcours actif référençant cette audience doit être republié ou dupliqué. Voir [&#x200B; Politique de fusion &#x200B;](#merge-policies).
+
+**Quelle est la différence entre le délai d’expiration de parcours de 91 jours et le créneau de rapport de 91 jours ?**
+
+Il s’agit de concepts distincts. La temporisation globale de **[parcours](#global_timeout)** (91 jours) est la durée maximale pendant laquelle un profil individuel peut rester actif dans un parcours, après laquelle le profil se ferme et ses données sont supprimées. La **fenêtre de création de rapports** (environ 91 jours) est une limite d’affichage de l’interface utilisateur : les données de performances datant de plus de 91 jours ne sont plus visibles, mais le parcours continue de fonctionner et de nouveaux profils continuent de s’afficher. Pour plus d’informations sur la durée de vie et la conservation des données, consultez la [FAQ sur la durée de vie (TTL) et la conservation des données](#timeout-faq).
 
 ## Rubriques connexes {#related-topics}
 
