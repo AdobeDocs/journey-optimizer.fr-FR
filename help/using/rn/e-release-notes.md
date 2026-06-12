@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 02ce60020012083981c5599789b9e86804190627
+source-git-commit: a2257f19ea46aaf4bcf45580a0e6cf0d207be355
 workflow-type: tm+mt
-source-wordcount: 1921
+source-wordcount: 1876
 ht-degree: 5%
 
 ---
@@ -223,11 +223,13 @@ Les fonctionnalités et améliorations suivantes vont être apportées à la ges
 </tbody>
 </table>
 
-### Campagnes {#june-26-campaigns}
+<!--
+### Campaigns {#june-26-campaigns}
 
-Dans cette version, les campagnes bénéficient de l’amélioration suivante.
+The following improvement is coming to campaigns in this release.
 
-* **Remplacer le champ d’exécution par défaut dans les campagnes** - Auparavant disponible au niveau du parcours, vous pouvez désormais remplacer le champ par défaut **champ d’exécution** défini globalement pour vos diffusions e-mail, SMS et WhatsApp dans les paramètres de la campagne.
+* **Override the default execution field in campaigns** - Previously available at the journey level, you can now override the default **execution field** set globally for your Email, SMS and WhatsApp deliveries in the campaign parameters.
+-->
 
 ### Création de rapports {#june-26-reporting}
 
