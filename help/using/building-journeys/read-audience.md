@@ -32,9 +32,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 8a60b2d54073f30628f1939839faf992fcfd151b
+source-git-commit: 02ce60020012083981c5599789b9e86804190627
 workflow-type: tm+mt
-source-wordcount: 3917
+source-wordcount: 3958
 ht-degree: 55%
 
 ---
@@ -139,7 +139,7 @@ Vous définissez les éléments suivants : **Audience** (obligatoire), **Espace 
 
 Vous pouvez éventuellement activer l’option **Utiliser un identifiant supplémentaire** pour exécuter le parcours dans le cadre d’un identifiant secondaire (par exemple, un identifiant de commande ou d’enregistrement) en plus de l’identifiant de profil. Cela permet plusieurs entrées du même profil lorsque l’identifiant supplémentaire diffère.
 
-[Découvrez comment utiliser des identifiants supplémentaires dans parcours](supplemental-identifier.md). Pour les parcours Lecture d’audience , l’identifiant supplémentaire doit être un attribut de profil ; le taux de lecture est limité à 500 profils par seconde lorsque l’identifiant supplémentaire est utilisé.
+[Découvrez comment utiliser des identifiants supplémentaires dans parcours](supplemental-identifier.md). Pour les parcours Lecture d’audience, l’identifiant supplémentaire est préparé à partir du schéma **union/profil** pour les audiences **Service de profil unifié** ou sélectionné parmi les attributs éligibles sur les audiences **externes** (par exemple, les audiences [importées depuis un fichier CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience){target="_blank"} ou issues des [workflows de composition](../audience/get-started-audience-orchestration.md)). Le taux de lecture est limité à 500 profils par seconde par instance de parcours lorsque l’ID supplémentaire est utilisé.
 
 ### Mécanismes de sécurisation et recommandations {#must-read}
 
