@@ -27,7 +27,7 @@ subfeature_v2:
 source-git-commit: cf1c53fc42cbe0eb019b1733091c5f22021767bb
 workflow-type: tm+mt
 source-wordcount: 1050
-ht-degree: 71%
+ht-degree: 78%
 
 ---
 
@@ -46,12 +46,12 @@ ht-degree: 71%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_payload"
 >title="Payload du fournisseur"
->abstract="Fournissez le payload de la requête pour vous assurer que les bonnes données sont envoyées pour le traitement et la génération de la réponse."
+>abstract="Fournissez le payload de la demande pour vous assurer que les données correctes sont envoyées pour le traitement et la génération de la réponse."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_response_msg_id_extractor"
 >title="Payload du fournisseur"
->abstract="Indique comment Journey Optimizer extrait un identifiant de message unique à partir de la réponse d’envoi de votre fournisseur. </br>Correspondance du champ : saisissez le nom du champ (par exemple, messageId). AJO analyse la réponse et renvoie la première valeur correspondante. </br>Notation par points : saisissez le chemin d’accès au champ (par exemple messages.0.id). Utilisez des segments numériques pour les tableaux. Pas de préfixe $.</br> Laissez vide si votre fournisseur prend en charge la transmission d’un champ de données de rappel à la place."
+>abstract="Indique comment Journey Optimizer extrait un ID de message unique à partir de la réponse d’envoi de votre fournisseur. </br>Correspondance du champ : saisissez le nom du champ (par exemple, messageId). AJO analyse la réponse et renvoie la première valeur correspondante. </br>Notation par points : saisissez le chemin d’accès au champ (par exemple, messages.0.id). Utilisez des segments numériques pour les tableaux. Pas de préfixe $.</br> Laissez vide si votre fournisseur prend en charge la transmission d’un champ de données de rappel à la place."
 
 Cette fonctionnalité vous permet d’intégrer et de configurer vos propres fournisseurs de messagerie, offrant ainsi une flexibilité qui va au-delà des options disponibles par défaut (Sinch, Twilio et Infobip). Cela permet une création, une diffusion, un reporting et une gestion du consentement transparents pour les messages mobiles.
 

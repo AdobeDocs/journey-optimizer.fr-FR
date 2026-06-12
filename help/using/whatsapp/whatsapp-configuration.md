@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: baa650e637ea818fd8e9e17fc06ee8472f4fafe1
 workflow-type: tm+mt
 source-wordcount: 1327
-ht-degree: 82%
+ht-degree: 89%
 
 ---
 
@@ -48,17 +48,17 @@ Ces étapes doivent être exécutées par un [Administrateur ou une Administratr
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_config_name"
 >title="Nom"
->abstract="Saisissez un nom unique pour ce jeu d’informations d’identification API. Vous le sélectionnerez lorsque vous configurerez les Webhooks WhatsApp et les configurations de canaux."
+>abstract="Saisissez un nom unique pour ce jeu d’informations d’identification d’API. Vous le sélectionnerez lorsque vous configurerez les webhooks WhatsApp et les configurations de canaux."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_config_api_token"
 >title="Jeton API"
->abstract="Utilisez un jeton d&#39;accès Meta d&#39;un utilisateur système dans le même Business Manager que vos ressources WhatsApp. Cet utilisateur a besoin des autorisations whatsapp_business_management, whatsapp_business_messaging et business_management, ainsi que d’un accès au niveau des ressources à votre compte professionnel WhatsApp. Les jetons Meta expirent au bout d’environ 60 jours. Renouvelez le jeton avant qu’il n’expire."
+>abstract="Utilisez un jeton d’accès Meta d’un utilisateur ou d’une utilisatrice système dans le même Business Manager que vos ressources WhatsApp. Cet utilisateur ou cette utilisatrice a besoin des autorisations whatsapp_business_management, whatsapp_business_messaging et business_management, ainsi que d’un accès au niveau des ressources à votre compte professionnel WhatsApp. Les jetons Meta expirent au bout de 60 jours environ. Renouvelez le jeton avant qu’il n’expire."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_config_business_account_id"
->title="ID du compte professionnel"
->abstract="Saisissez votre identifiant de portfolio d’entreprise Meta, également appelé identifiant de gestionnaire d’entreprise. N&#39;entrez pas votre numéro de compte professionnel WhatsApp dans ce champ."
+>title="ID de compte professionnel"
+>abstract="Saisissez votre ID de portefeuille professionnel Meta, également appelé Business Manager ID. Ne saisissez pas votre ID de compte professionnel WhatsApp dans ce champ."
 
 1. Dans le rail de gauche, accédez à **[!UICONTROL Administration]** `>` **[!UICONTROL Canaux]** et sélectionnez le menu **[!UICONTROL Informations d’identification de l’API]**. Cliquez sur le bouton **[!UICONTROL Créer des informations d’identification de l’API]**.
 
