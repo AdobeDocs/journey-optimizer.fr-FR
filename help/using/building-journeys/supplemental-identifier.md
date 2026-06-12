@@ -4,21 +4,14 @@ description: Découvrez comment utiliser des identifiants supplémentaires dans 
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ABOlJ-ZF0a3xLNY-hH6jjFqu53ph4PynNalGkgQ6P8k
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 02ce60020012083981c5599789b9e86804190627
 workflow-type: tm+mt
-source-wordcount: 1395
-ht-degree: 97%
+source-wordcount: 2009
+ht-degree: 47%
 
 ---
 
@@ -27,7 +20,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
 >title="Utiliser un identifiant supplémentaire"
->abstract="L’identifiant supplémentaire est un identifiant secondaire qui fournit un contexte supplémentaire pour l’exécution d’un parcours. Il se compose du champ utilisé comme identifiant supplémentaire et d’un espace de noms qui lui est associé."
+>abstract="L’identifiant supplémentaire est un identifiant secondaire qui fournit un contexte supplémentaire pour l’exécution d’un parcours. Pour le définir, sélectionnez n’importe quel attribut non-identité (ou identité non-personne) de l’audience ou de l’événement à utiliser comme identifiant supplémentaire."
 
 <table style="border-collapse: collapse; width: 100%;">
   <tr>
@@ -49,9 +42,9 @@ ht-degree: 97%
 
 * **Parcours pris en charge** : des identifiants supplémentaires sont pris en charge pour les parcours **déclenchés par un événement** et de **lecture d’audience**. Ils ne sont **pas pris en charge** pour les parcours de qualification d’audience (c’est-à-dire les parcours commençant par une activité de qualification d’audience).
 
-* **Limites d’instances simultanées** : les profils ne peuvent pas avoir plus de 10 instances de parcours simultanées.
+* **Actions entrantes** : les identifiants supplémentaires ne sont actuellement pas pris en charge pour les actions entrantes, telles que les actions in-app et web.
 
-* **Règles de fréquence** : chaque instance de parcours créée à partir de l’utilisation d’identifiants supplémentaires est comptabilisée dans le capping de la fréquence, même si l’utilisation d’identifiants supplémentaires entraîne plusieurs instances de parcours.
+* **Limites d’instances simultanées** : les profils ne peuvent pas avoir plus de 10 instances de parcours simultanées.
 
 * **Type de données et structure du schéma** : l’identifiant supplémentaire doit être de type `string`. Il peut s’agir d’un attribut de chaîne indépendant ou d’un attribut de chaîne dans un tableau d’objets. L’attribut de chaîne indépendant entraîne une instance de parcours unique, tandis que l’attribut de chaîne dans un tableau d’objets entraîne une instance de parcours unique par itération du tableau d’objets. Les tableaux et mappages de chaînes ne sont pas pris en charge.
 
@@ -70,10 +63,10 @@ ht-degree: 97%
 
 * **Parcours de lecture d’audience**
 
-   * L’ID supplémentaire est désactivé si vous utilisez un événement métier.
-   * L’ID supplémentaire doit être un champ du profil (c’est-à-dire, pas un champ d’événement/de contexte).
-   * Pour les parcours de lecture d’audience qui utilisent des ID supplémentaires, le taux de lecture de l’activité Lecture d’audience pour chaque instance de parcours est limité à un maximum de 500 profils par seconde.
-   * Seules les audiences du service de profil unifié sont prises en charge lors de l’utilisation de parcours Lecture d’audience avec des ID supplémentaires.
+   * **Événements métier** : l’ID supplémentaire est désactivé si vous utilisez un événement métier.
+   * **Champs d’événement et de contexte** : l’identifiant supplémentaire ne doit pas provenir d’un champ de contexte d’événement ou de parcours.
+   * **Sélection d’attributs** : tout attribut non identitaire (ou identité non personnelle) peut être utilisé comme ID supplémentaire, pour tous les types d’audience (service de profil unifié, importation de fichier CSV et composition d’audience fédérée). Les attributs d’identité basés sur une personne ne sont pas autorisés. Pour les audiences externes, voir [Identifiants supplémentaires avec audiences externes](#external-audiences) pour les modèles de données pris en charge et les exigences de configuration.
+   * **Taux de lecture** : pour les parcours d’audience lue à l’aide d’un champ d’ID supplémentaire de type tableau, le taux de lecture de l’activité Lecture d’audience est limité à un maximum de 500 profils par seconde.
 
 ## Comportement des critères de sortie avec des ID supplémentaires {#exit-criteria}
 
@@ -95,37 +88,19 @@ Le tableau ci-dessous explique le comportement des profils dans un parcours acti
 
 Pour utiliser un identifiant supplémentaire dans un parcours déclenché par un événement, procédez comme suit :
 
-1. **Marquez l’attribut comme identifiant dans le schéma d’événement.**
-
-   1. Accédez au schéma d’événement et localisez l’attribut que vous souhaitez utiliser comme identifiant supplémentaire (par exemple, identifiant de réservation, identifiant d’abonnement) et marquez-le comme identifiant. [Découvrez comment utiliser les schémas.](../data/get-started-schemas.md)
-
-   1. Marquez l’identifiant comme une **[!UICONTROL identité]**.
-
-      ![Configuration du schéma avec un groupe de champs d’identifiant supplémentaire](assets/supplemental-ID-schema.png)
-
-      >[!IMPORTANT]
-      >
-      >Veillez à ne pas marquer l’attribut comme **identité principale**.
-
-   1. Sélectionnez l’espace de noms à associer à l’identifiant supplémentaire. Il doit s’agir d’un espace de noms d’identifiant qui ne porte pas sur une personne.
-
-      Après avoir appliqué à un schéma l’espace de noms d’identité qui ne porte pas sur une personne, vous devez créer un événement pour utiliser l’identifiant supplémentaire. Les entités existantes ne peuvent pas être actualisées pour reconnaître le nouvel identifiant.
-
 1. **Ajoutez l’ID supplémentaire à l’événement.**
 
    1. Créez ou modifiez l’événement souhaité. [Découvrez comment configurer un événement unitaire.](../event/about-creating.md)
 
    1. Dans l’écran de configuration des événements, cochez l’option **[!UICONTROL Utiliser un identifiant supplémentaire]**.
 
-      ![Configuration d’événement avec sélection d’espace de noms d’identifiant supplémentaire](assets/supplemental-ID-event.png)
+      ![Configuration de l’événement avec l’option d’identifiant supplémentaire](assets/supplemental-ID-event.png)
 
-   1. Utilisez l’éditeur d’expression pour sélectionner l’attribut que vous avez marqué comme ID supplémentaire.
+   1. Utilisez l’éditeur d’expression pour sélectionner le champ à utiliser comme ID supplémentaire (par exemple, ID de réservation, ID d’abonnement).
 
       >[!NOTE]
       >
       >Veillez à utiliser l’éditeur d’expression en **[!UICONTROL mode avancé]** pour sélectionner l’attribut.
-
-   1. Après avoir sélectionné l’ID supplémentaire, l’espace de noms associé s’affiche en lecture seule dans l’écran de configuration de l’événement.
 
 1. **Ajoutez l’événement au parcours.**
 
@@ -137,32 +112,6 @@ Pour utiliser un identifiant supplémentaire dans un parcours déclenché par un
 
 Pour utiliser un identifiant supplémentaire dans un parcours de lecture d’audience, procédez comme suit :
 
-1. **Marquer l’attribut comme identifiant dans le schéma d’union ou de profil**
-
-   1. Accédez au schéma d’union ou de profil et localisez l’attribut que vous souhaitez utiliser comme identifiant supplémentaire (par exemple, identifiant de réservation, identifiant d’abonnement) et marquez-le comme identifiant. [Découvrez comment utiliser les schémas.](../data/get-started-schemas.md)
-
-   1. Marquez l’identifiant comme une **[!UICONTROL identité]**.
-
-      ![Schéma de profil avec le champ d’identifiant supplémentaire configuré](assets/supplemental-ID-schema-profile.png)
-
-      >[!IMPORTANT]
-      >
-      >Veillez à ne pas marquer l’attribut comme **identité principale**.
-
-   1. Sélectionnez l’espace de noms à associer à l’identifiant supplémentaire. Il doit s’agir d’un espace de noms d’identifiant qui ne porte pas sur une personne.
-
-      Une fois que l’espace de noms d’identité qui ne porte pas sur une personne a été attribué à un schéma, vous devez créer un nouveau groupe de champs pour utiliser l’identifiant supplémentaire. Les entités existantes ne peuvent pas être actualisées pour reconnaître le nouvel identifiant.
-
-<!--
-1. **Add the supplemental ID field to the data source**
-
-    1. Navigate to the **[!UICONTROL Configuration]** / **[!UICONTROL Data Sources]** menu, then locate the "ExperiencePlatformDataSource" data source.
-
-        ![Data source configuration with supplemental identifier mapping](assets/supplemental-ID-data-source.png)
-
-    1. Open the field selector then select the attribute you want to use as a supplemental identifier (e.g., booking ID, subscription ID).
--->
-
 1. **Ajouter et configurer une activité Lecture d’audience dans le parcours**
 
    1. Placez une activité **[!UICONTROL Lecture d’audience]** dans votre parcours.
@@ -171,14 +120,14 @@ Pour utiliser un identifiant supplémentaire dans un parcours de lecture d’aud
 
       ![Activité Lecture d’audience avec configuration d’un identifiant supplémentaire](assets/supplemental-ID-read-audience.png)
 
-   1. Dans le champ **[!UICONTROL Identifiant supplémentaire]**, utilisez l’éditeur d’expression pour sélectionner l’attribut que vous avez marqué comme ID supplémentaire.
+   1. Dans le champ **[!UICONTROL Identifiant supplémentaire]**, utilisez l’éditeur d’expression pour sélectionner l’attribut d’identifiant supplémentaire.
 
-      >[!NOTE]
-      >
-      >Veillez à utiliser l’éditeur d’expression en **[!UICONTROL mode avancé]** pour sélectionner l’attribut.
+   Pour les audiences [importées à partir d’un fichier CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience){target="_blank"}, si votre audience CSV contient plusieurs lignes par identifiant de profil, assurez-vous d’abord que l’activation express est activée ; voir [Identifiants supplémentaires avec audiences externes](#external-audiences).
 
-   1. Après avoir sélectionné l’ID supplémentaire, l’espace de noms associé s’affiche en lecture seule dans le champs **[!UICONTROL Espace de noms supplémentaire]**.
-
+       >[!REMARQUE]
+     >
+     >Vérifiez que vous utilisez l’éditeur d’expression en **[!UICONTROL mode avancé]** pour sélectionner l’attribut.
+   
 >[!ENDTABS]
 
 ## Utiliser des attributs d’ID supplémentaires
@@ -230,6 +179,113 @@ Dans un tableau d’objets avec l’ID supplémentaire comme `bookingNum` et un 
 
 +++
 
+## Arbitrage des pièces d&#39;identité supplémentaires et des parcours {#arbitration}
+
+L’arbitrage des parcours (y compris les limites de simultanéité et le comptage des entrées dans les ensembles de règles) fonctionne au niveau de l’ID de profil, et non au niveau de la paire (ID de profil, ID supplémentaire). Cela signifie qu’une limite d’accès simultané de 1 peut bloquer une seconde instance de parcours pour le même profil, même si elle comporte une valeur d’identifiant supplémentaire différente.
+
+Contactez votre représentant Adobe pour obtenir des conseils sur le comportement d’arbitrage avant de vous fier à des paramètres d’arbitrage spécifiques en production.
+
+**Documentation connexe :**
+
+* [Limitation et arbitrage des parcours](../conflict-prioritization/journey-capping.md)
+* [Utiliser des jeux de règles](../conflict-prioritization/rule-sets.md)
+* [Gestion des conflits et hiérarchisation](../conflict-prioritization/gs-conflict-prioritization.md)
+
+## Identifiants supplémentaires avec audiences externes {#external-audiences}
+
+Les ID supplémentaires sont pris en charge pour les audiences externes, y compris les audiences [importées à partir d’un fichier CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience){target="_blank"} et les audiences créées avec [Composition d’audience fédérée](../audience/get-started-audience-orchestration.md). Lors de la configuration d’un parcours qui lit à partir d’une audience CSV ou de composition d’audience fédérée, vous pouvez désigner n’importe quel attribut non identitaire de cette audience comme ID supplémentaire. Journey Optimizer crée ensuite une instance de parcours distincte par combinaison profil unique + ID supplémentaire.
+
+* Cas d’utilisation 1 : une ligne par paire profil unique + ID supplémentaire
+
+  Il s’agit du principal cas d’utilisation des audiences CSV et de composition d’audiences fédérées. L’audience contient plusieurs lignes, chacune d’elles représentant une combinaison unique d’un profil (par exemple, un client) et d’un identifiant supplémentaire (par exemple, un identifiant de compte ou de commande). Chaque ligne est traitée comme un enregistrement d’activation indépendant.
+
+  | profile_id | account_id *(ID supplémentaire)* | other_attributes |
+  | --- | --- | --- |
+  | customer_001 | ACC-1001 | ... |
+  | customer_001 | ACC-1002 | ... |
+  | customer_002 | ACC-2001 | ... |
+
+  Dans cet exemple, `customer_001` possède deux comptes. Journey Optimizer crée une instance de parcours distincte pour chaque paire profil + `account_id` unique.
+
+* Cas d’utilisation 2 : une ligne par profil avec un tableau d’ID supplémentaires
+
+  Ce cas d’utilisation est disponible pour les types d’audience qui prennent en charge les tableaux. Une seule ligne de l’audience contient un profil avec un attribut de tableau contenant plusieurs valeurs d’ID supplémentaires. Journey Optimizer crée une instance de parcours par valeur dans le tableau .
+
+  | profile_id | account_ids *(tableau, ID supplémentaire)* | other_attributes |
+  | --- | --- | --- |
+  | customer_001 | [ACC-1001, ACC-1002] | ... |
+  | customer_002 | [ACC-2001] | ... |
+
+  Dans cet exemple, Journey Optimizer génère deux instances de parcours pour `customer_001` (une par ID de compte) et une instance pour `customer_002`. Cela se comporte de manière cohérente avec le fonctionnement de l’ID supplémentaire pour les audiences du service de profil unifié.
+
+### Configuration {#external-configuration}
+
+Pour les audiences CSV qui utilisent le cas d’utilisation 1 (où l’audience contient intentionnellement plusieurs lignes pour le même ID de profil), vous devez activer l’activation rapide avant de configurer le parcours. Voir les conditions préalables ci-dessous. Pour tous les autres cas, configurez directement le parcours.
+
++++ Condition préalable : activer l’activation express sur les audiences CSV via l’API
+
+>[!IMPORTANT]
+>
+>Cette condition préalable s’applique uniquement aux audiences CSV où l’audience contient intentionnellement plusieurs lignes pour le même identifiant de profil (cas d’utilisation 1). L’activation express des audiences de composition d’audiences fédérées est activée par défaut et ne nécessite pas cette étape. L’interface utilisateur d’Audience Portal ne prend pas en charge le paramètre `expressActivation` - vous devez utiliser l’API d’audience externe.
+
+Vous devez activer le `expressActivation` sur l’audience au moment de la création. Journey Optimizer doit alors activer chaque enregistrement indépendamment, sans déduplication par identifiant de profil. Cet indicateur ne peut pas être modifié une fois l’audience créée.
+
+Utilisez l’appel API suivant lors de la création de l’audience :
+
+Point d’entrée :
+
+```http
+POST https://platform.adobe.io/data/core/ais/external-audience
+```
+
+En-têtes requis :
+
+```http
+Authorization: Bearer {ACCESS_TOKEN}
+Content-Type: application/json
+x-api-key: {API_KEY}
+x-gw-ims-org-id: {IMS_ORG}
+x-sandbox-name: {SANDBOX_NAME}
+```
+
+Corps de la requête (défini sur `expressActivation: true`) :
+
+```json
+{
+  "name": "my_audience_name",
+  "fields": [ ... ],
+  "sourceSpec": { ... },
+  "audienceType": "people",
+  "namespace": "CustomerAudienceUpload",
+  "expressActivation": true
+}
+```
+
+>[!NOTE]
+>
+>`expressActivation` valeur par défaut est `false`. Elle doit être définie au moment de la création de l’audience et ne peut pas être modifiée après la création. L’activation express est activée par défaut pour toutes les audiences de composition d’audiences fédérées et ne nécessite pas cet indicateur.
+
+Pour en savoir plus, consultez la [documentation sur la création d’une API d’audience externe](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"}.
+
++++
+
+Pour configurer le parcours :
+
+1. Ouvrez ou créez un parcours avec un nœud **[!UICONTROL Lecture d’audience]**.
+1. Dans les paramètres du nœud **[!UICONTROL Lecture d’audience]**, sélectionnez votre audience CSV ou composition d’audience fédérée.
+1. Activez l’option **[!UICONTROL Utiliser un identifiant supplémentaire]** puis, dans le champ **[!UICONTROL Identifiant supplémentaire]**, utilisez l’éditeur d’expression en **[!UICONTROL mode avancé]** pour choisir l’attribut que vous souhaitez utiliser comme identifiant secondaire (par exemple, `account_id`, `order_number`).
+1. L’attribut sélectionné est traité comme l’ID supplémentaire pour le parcours ; aucun enregistrement d’identité n’est requis.
+
+### Comportement de la déduplication {#external-dedup}
+
+Lorsque l’activation express est activée pour une audience (ce qui est toujours vrai pour la composition d’une audience fédérée, mais doit être défini explicitement pour CSV), Journey Optimizer gère la déduplication en fonction de la configuration du parcours :
+
+| Scénario | Exemples de lignes d’audience | Comportement |
+| --- | --- | --- |
+| **Parcours avec ID supplémentaire — pas de paires en double (ID de profil, ID supplémentaire)** | (P1, S1), (P1, S2) | Cas d’utilisation prévu. Journey Optimizer crée une instance de parcours distincte par combinaison profil unique + ID supplémentaire. Toutes les lignes sont admises. |
+| **Parcours avec ID supplémentaire — il existe des paires en double (ID de profil, ID supplémentaire)** | (P1, S1), (P1, S1), (P1, S2) | Les lignes partageant la même combinaison (ID de profil, ID supplémentaire) sont filtrées par la logique de reprise de parcours normale. Seule la première ligne correspondante par combinaison unique est admise. |
+| **Parcours sans ID supplémentaire configuré** | (P1, S1), (P1, S2) | Sans ID supplémentaire, Journey Optimizer traite toutes les lignes du même ID de profil comme s’il s’agissait du même profil. Une seule instance de parcours par ID de profil est admise. Les lignes supplémentaires pour le même profil sont ignorées. |
+
 ## Exemples de cas d’utilisation
 
 Ces exemples montrent comment les identifiants supplémentaires prennent en charge plusieurs enregistrements associés.
@@ -262,4 +318,4 @@ Ces exemples montrent comment les identifiants supplémentaires prennent en char
 
 Découvrez comment activer et appliquer un identifiant supplémentaire dans [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464794?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
