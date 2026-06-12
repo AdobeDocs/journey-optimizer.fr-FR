@@ -18,9 +18,9 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: ac47bdffab45e4b7645430a4dab687a47844c140
 workflow-type: tm+mt
-source-wordcount: 1143
+source-wordcount: 1177
 ht-degree: 21%
 
 ---
@@ -163,6 +163,8 @@ Avant d’utiliser des fragments de contenu AEM dans une politique de décision,
 
 Dans l’éditeur de personnalisation, tous les fragments de contenu AEM associés aux éléments de décision sélectionnés par la politique sont disponibles. Un dossier s’affiche par nom de clé de fragment.
 
+➡️ [Découvrez en vidéo comment utiliser les fragments de contenu d’AEM avec Journey Optimizer Decisioning](#video)
+
 Dans cet exemple, la politique de décision comprend deux éléments de décision auxquels des fragments AEM sont liés par leur nom de référence.
 
 ![](assets/aem-fragment-select.png)
@@ -176,3 +178,9 @@ Dans cet exemple, la politique de décision comprend deux éléments de décisio
    ![](assets/aem-fragment-attribute.png)
 
 1. Avant d’activer votre campagne ou votre parcours, utilisez une méthode de simulation pour prévisualiser le rendu des valeurs de champ Fragment de contenu d’AEM : cliquez sur **[!UICONTROL Simuler du contenu]** pour tester les variations de contenu avec des exemples de données d’entrée ou la génération automatique d’IA, ou cliquez sur **[!UICONTROL Simuler du contenu]**, puis sélectionnez **[!UICONTROL Simuler du contenu (profils AEP)]** dans la liste déroulante pour obtenir un aperçu avec un profil de test spécifique. [En savoir plus sur la simulation de contenu](../content-management/preview-test.md)
+
+## Vidéo pratique {#video}
+
+Découvrez comment utiliser les fragments de contenu Adobe Experience Manager avec Journey Optimizer Decisioning pour personnaliser et optimiser le contenu.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3492217/?captions=fre_fr&learn=on&enablevpops)
