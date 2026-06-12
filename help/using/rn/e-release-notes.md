@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a2257f19ea46aaf4bcf45580a0e6cf0d207be355
+source-git-commit: b7088f7f9a21839bde56b71ccacd6c62d4e004ff
 workflow-type: tm+mt
-source-wordcount: 1876
+source-wordcount: 2008
 ht-degree: 5%
 
 ---
@@ -218,6 +218,27 @@ Les fonctionnalités et améliorations suivantes vont être apportées à la ges
 <tr>
 <td>
 <p>L’assistant AI récupère désormais automatiquement les <b>images approuvées par la marque</b> directement depuis votre Adobe Experience Manager Assets lors de la génération d’e-mails, de pages web et de notifications push. Cela élimine la nécessité de rechercher manuellement dans Assets ou de recourir à des solutions de secours d’IA génériques, en s’assurant que chaque élément visuel est parfaitement précis et conforme à la marque.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Assistant d’IA pour les améliorations de la génération de contenu</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Cette version améliore l’expérience de génération de contenu de l’<strong>assistant AI</strong> avec une modification d’image plus puissante, une extraction de marque plus fiable et une prise en charge de l’authenticité du contenu dans le flux d’image :</p>
+<ul>
+<li>La <strong>modification d’image par l’IA</strong> est désormais disponible dans le flux de génération d’images, y compris la prise en charge des modèles tiers Firefly, afin que vous puissiez affiner les images sources sans quitter l’assistant.</li>
+<li><strong>extraction du signal de marque</strong> offre des résultats de meilleure qualité. Lorsque les pages sélectionnées ne reçoivent pas suffisamment de signal, les basculements améliorés renseignent désormais les couleurs, la typographie, les directives d’écriture et d’autres attributs de marque.</li>
+<li><strong>l’extraction de marque web</strong> est plus fiable. L’amélioration de la gestion du délai d’expiration empêche les pages lentes, les fenêtres contextuelles et les bannières de cookies de bloquer l’extraction.</li>
+<li><strong> L’authenticité du contenu (CAI)</strong> est désormais prise en charge dans le flux d’images. Cette version corrige également les problèmes de chargement d’images de référence et améliore la gestion des images sans manifeste C2PA existant.</li>
+</ul>
 </td>
 </tr>
 </tbody>
