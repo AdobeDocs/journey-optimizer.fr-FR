@@ -10,32 +10,16 @@ keywords: publication, parcours, actif, validité, vérification
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/a7qFw84obtkCRDmiqMxQNgvqhI4b6t5suROeF7ZPh1I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
 workflow-type: tm+mt
-source-wordcount: 1080
-ht-degree: 89%
+source-wordcount: 1377
+ht-degree: 70%
 
 ---
 
@@ -169,8 +153,42 @@ Si vous exportez des données d’événement d’étape vers des **systèmes ex
 
 Lors de l’analyse de **mesures de rapports de parcours** à l’aide de [!DNL Adobe Experience Platform] Query Service, les événements d’étape générés par l’exécution d’essai doivent être exclus. Pour ce faire, excluez les événements d’étape où `inDryRun` est `true` (c’est-à-dire incluez uniquement les événements où `inDryRun` est `null` ou `false`).
 
+## Questions fréquentes {#faq}
+
+**Une exécution d’essai envoie-t-elle des messages à des clients réels ?**
+
+Non. L’exécution d’essai utilise des données de production réelles, mais ne contacte pas les profils ni ne met à jour les informations de profil. Les actions de canal (e-mail, SMS, notification push) ne sont pas exécutées et les actions personnalisées sont désactivées avec leurs réponses définies sur `null`.
+
+**De quelles autorisations ai-je besoin pour démarrer ou arrêter une Exécution d’essai ?**
+
+Le démarrage d’une exécution d’essai nécessite l’autorisation de haut niveau **[!DNL Publish journeys]**. L’arrêt d’une exécution d’essai nécessite l’autorisation de haut niveau **[!DNL Manage journeys]**. Pour en savoir plus, consultez la section [autorisations](../administration/permissions-overview.md).
+
+**Sur quels parcours puis-je exécuter une Exécution d’essai ?**
+
+Vous pouvez utiliser l’exécution d’essai sur n’importe quel parcours **[!UICONTROL Brouillon]** sans erreur.
+
+**Combien de temps dure une exécution d’essai ?**
+
+Après 14 jours, les parcours d’exécution d’essai repassent automatiquement au statut **[!UICONTROL Brouillon]**. Vous pouvez également arrêter manuellement une exécution d’essai à tout moment.
+
+**Les activités d’attente et les sources de données externes sont-elles exécutées pendant une exécution d’essai ?**
+
+Par défaut, les activités **Attente** et **Sources de données** (y compris les sources de données externes) sont désactivées lors d’une exécution d’essai. Vous pouvez modifier ce comportement lors de l’[activation du mode Exécution d’essai](#journey-dry-run-start).
+
+**Les profils et parcours d’essai sont-ils pris en compte dans mes quotas ?**
+
+Oui. Les profils en mode d’exécution d’essai sont comptabilisés dans le nombre de [Profils engageables](../audience/license-usage.md), et les parcours en mode d’exécution d’essai sont comptabilisés dans le quota de parcours en direct. Toutefois, les parcours d’exécution d’essai n’ont aucune incidence sur les règles métier.
+
+**Puis-je toujours accéder aux rapports d’essai après l’arrêt du test ?**
+
+Non. Les données de rapport ne sont disponibles que lorsque l’Exécution d’essai est **active**. Une fois arrêtés, les données ne sont plus accessibles : utilisez le bouton **Exporter** situé au-dessus des rapports pour les télécharger à l’avance, si nécessaire.
+
+**Comment exclure les données d’essai de mes rapports ?**
+
+L’exécution d’essai génère **stepEvents** marqué d’un `inDryRun` et d’un `dryRunID`. Lors de l’analyse des mesures de rapports de parcours avec [!DNL Adobe Experience Platform] Query Service, excluez les événements d’étape où `inDryRun` est `true` (incluez uniquement les événements où `inDryRun` est `null` ou `false`).
+
 ## Vidéo pratique {#dry-run-video}
 
 Découvrez comment exécuter un test à blanc de vos parcours dans cette vidéo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464684/?captions=fre_fr&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
