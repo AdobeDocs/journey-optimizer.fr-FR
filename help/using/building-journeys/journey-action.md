@@ -31,9 +31,9 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
+source-git-commit: 49b3594b414b03a4a184830435a843103b517c1a
 workflow-type: tm+mt
-source-wordcount: 1775
+source-wordcount: 1777
 ht-degree: 71%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 71%
 
 L’activité **Action** est le point d’entrée unique pour diffuser du contenu à vos clients à partir de la zone de travail de parcours. Au lieu de choisir parmi une activité distincte pour chaque canal, vous faites glisser une seule activité **[!UICONTROL Action]** sur la zone de travail et sélectionnez le canal à utiliser.
 
-Il regroupe tous les canaux intégrés (e-mail, notification push, SMS, in-app, web, expérience basée sur le code et carte de contenu) en un seul type d’activité unifié, remplaçant les activités de canal individuelles utilisées précédemment.
+Il regroupe tous les canaux natifs hérités (e-mail, notification push, SMS, in-app, web, expérience basée sur le code et carte de contenu) en un seul type d’activité unifié, remplaçant les activités de canal individuelles utilisées précédemment.
 
 Utilisez l’activité **Action** pour :
 
