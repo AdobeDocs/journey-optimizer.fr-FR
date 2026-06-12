@@ -6,17 +6,12 @@ description: Notes de mise à jour préliminaires pour Adobe Journey Optimizer
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a2257f19ea46aaf4bcf45580a0e6cf0d207be355
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: b7088f7f9a21839bde56b71ccacd6c62d4e004ff
 workflow-type: tm+mt
-source-wordcount: 1876
+source-wordcount: 2008
 ht-degree: 5%
 
 ---
@@ -40,7 +35,7 @@ Les fonctionnalités et améliorations suivantes seront bientôt disponibles dan
 
 * **Augmentation du nombre maximal de parcours actifs et nouveaux mécanismes de sécurisation** - Vous pouvez désormais disposer de **200 parcours actifs**, contre 100 auparavant.
 
-* **Dates de début et de fin dans l’en-tête du parcours** - Lorsque les dates de début et/ou de fin sont configurées sur un parcours dynamique, elles sont désormais affichées dans l’en-tête du parcours **&#x200B;**&#x200B;à côté du badge de statut dynamique. Le libellé affiché s’adapte selon que chaque date est à venir ou est déjà dépassée.
+* **Dates de début et de fin dans l’en-tête du parcours** - Lorsque les dates de début et/ou de fin sont configurées sur un parcours dynamique, elles sont désormais affichées dans l’en-tête du parcours **** à côté du badge de statut dynamique. Le libellé affiché s’adapte selon que chaque date est à venir ou est déjà dépassée.
 
 * **Arrêter ou fermer un parcours en pause directement** - Vous pouvez désormais **arrêter un parcours ou le fermer aux nouvelles entrées** directement à partir de l’état **En pause**. Auparavant, un parcours en pause devait reprendre pour passer en ligne avant de pouvoir être arrêté ou fermé.
 
@@ -218,6 +213,27 @@ Les fonctionnalités et améliorations suivantes vont être apportées à la ges
 <tr>
 <td>
 <p>L’assistant AI récupère désormais automatiquement les <b>images approuvées par la marque</b> directement depuis votre Adobe Experience Manager Assets lors de la génération d’e-mails, de pages web et de notifications push. Cela élimine la nécessité de rechercher manuellement dans Assets ou de recourir à des solutions de secours d’IA génériques, en s’assurant que chaque élément visuel est parfaitement précis et conforme à la marque.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Assistant d’IA pour les améliorations de la génération de contenu</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Cette version améliore l’expérience de génération de contenu de l’<strong>assistant AI</strong> avec une modification d’image plus puissante, une extraction de marque plus fiable et une prise en charge de l’authenticité du contenu dans le flux d’image :</p>
+<ul>
+<li>La <strong>modification d’image par l’IA</strong> est désormais disponible dans le flux de génération d’images, y compris la prise en charge des modèles tiers Firefly, afin que vous puissiez affiner les images sources sans quitter l’assistant.</li>
+<li><strong>extraction du signal de marque</strong> offre des résultats de meilleure qualité. Lorsque les pages sélectionnées ne reçoivent pas suffisamment de signal, les basculements améliorés renseignent désormais les couleurs, la typographie, les directives d’écriture et d’autres attributs de marque.</li>
+<li><strong>l’extraction de marque web</strong> est plus fiable. L’amélioration de la gestion du délai d’expiration empêche les pages lentes, les fenêtres contextuelles et les bannières de cookies de bloquer l’extraction.</li>
+<li><strong> L’authenticité du contenu (CAI)</strong> est désormais prise en charge dans le flux d’images. Cette version corrige également les problèmes de chargement d’images de référence et améliore la gestion des images sans manifeste C2PA existant.</li>
+</ul>
 </td>
 </tr>
 </tbody>
