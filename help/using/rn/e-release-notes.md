@@ -6,17 +6,12 @@ description: Notes de mise à jour préliminaires pour Adobe Journey Optimizer
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: b7088f7f9a21839bde56b71ccacd6c62d4e004ff
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 140204b92956663f75893c09a61c6b2bfa97a2b1
 workflow-type: tm+mt
-source-wordcount: 2008
+source-wordcount: 2036
 ht-degree: 5%
 
 ---
@@ -40,7 +35,7 @@ Les fonctionnalités et améliorations suivantes seront bientôt disponibles dan
 
 * **Augmentation du nombre maximal de parcours actifs et nouveaux mécanismes de sécurisation** - Vous pouvez désormais disposer de **200 parcours actifs**, contre 100 auparavant.
 
-* **Dates de début et de fin dans l’en-tête du parcours** - Lorsque les dates de début et/ou de fin sont configurées sur un parcours dynamique, elles sont désormais affichées dans l’en-tête du parcours **&#x200B;**&#x200B;à côté du badge de statut dynamique. Le libellé affiché s’adapte selon que chaque date est à venir ou est déjà dépassée.
+* **Dates de début et de fin dans l’en-tête du parcours** - Lorsque les dates de début et/ou de fin sont configurées sur un parcours dynamique, elles sont désormais affichées dans l’en-tête du parcours **** à côté du badge de statut dynamique. Le libellé affiché s’adapte selon que chaque date est à venir ou est déjà dépassée.
 
 * **Arrêter ou fermer un parcours en pause directement** - Vous pouvez désormais **arrêter un parcours ou le fermer aux nouvelles entrées** directement à partir de l’état **En pause**. Auparavant, un parcours en pause devait reprendre pour passer en ligne avant de pouvoir être arrêté ou fermé.
 
@@ -112,7 +107,10 @@ Les fonctionnalités et améliorations suivantes seront apportées au canal e-ma
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer comprend désormais un score de qualité du contenu directement dans le Designer d’e-mail qui analyse votre e-mail en trois dimensions avant le lancement : orthographe, grammaire et ponctuation ; lisibilité et ton, y compris les indicateurs pour les phrases longues, la voix passive et le jargon ; et efficacité de la ligne d’objet et du CTA, notées par souci de clarté, d’urgence et de structure. Chaque vérification fait apparaître des suggestions exploitables, ce qui permet aux équipes d’identifier et de résoudre les problèmes sans quitter l’interface de création.</p>
+<p>Journey Optimizer inclut désormais une validation technique automatisée directement dans le Designer d’e-mail, ce qui vous permet de détecter les problèmes HTML et CSS avant l’envoi.</p>
+<p>Les contrôles couvrent les éléments non pris en charge, tels que les balises <code>&lt;script&gt;</code> et <code>&lt;base&gt;</code>, les balises div vides qui peuvent rompre la disposition dans Microsoft Outlook, les balises de méta-actualisation HTML et les seuils de taille CSS ou HTML qui déclenchent des échecs de rendu dans Gmail.</p>
+<p>Les résultats sont affichés sous la forme d’erreurs, d’avertissements ou d’informations directement dans le panneau de création, avec des détails contextuels et des correctifs en un clic le cas échéant, afin que les problèmes puissent être résolus sans quitter l’éditeur.</p>
+<p>Pour plus d'informations, consultez la <a href="../email/content-check.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -127,7 +125,8 @@ Les fonctionnalités et améliorations suivantes seront apportées au canal e-ma
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer comprend désormais une option permettant de réduire la taille de l’HTML de votre e-mail en supprimant les espaces blancs, les commentaires et le code redondant inutiles, sans affecter le rendu de l’e-mail. Cela peut améliorer la délivrabilité en évitant les seuils de taille que certains fournisseurs de messagerie utilisent pour marquer ou rejeter les messages et peut réduire le temps de chargement des destinataires.</p>
+<p>Journey Optimizer comprend désormais une option permettant de réduire la taille de l’HTML de votre e-mail en supprimant les espaces blancs, les commentaires et le code redondant inutiles, sans affecter le rendu de l’e-mail.</p>
+<p>Cela peut améliorer la délivrabilité en évitant les seuils de taille que certains fournisseurs de messagerie utilisent pour marquer ou rejeter les messages et peut réduire le temps de chargement des destinataires.</p>
 </td>
 </tr>
 </tbody>
@@ -142,7 +141,8 @@ Les fonctionnalités et améliorations suivantes seront apportées au canal e-ma
 <tbody>
 <tr>
 <td>
-<p>Vous pouvez désormais ajouter du texte enrichi aux fragments personnalisables utilisés dans le contenu de vos e-mails. Par exemple, lorsque vous utilisez le composant Texte comme champ modifiable dans le Designer d’e-mail, vous pouvez directement mettre en forme le contenu (en gras et en italique, par exemple) et insérer des liens hypertexte.</p>
+<p>Vous pouvez désormais ajouter du texte enrichi aux fragments personnalisables utilisés dans le contenu de vos e-mails.</p>
+<p>Par exemple, lorsque vous utilisez le composant Texte comme champ modifiable dans le Designer d’e-mail, vous pouvez directement mettre en forme le contenu (en gras et en italique, par exemple) et insérer des liens hypertexte.</p>
 </td>
 </tr>
 </tbody>
