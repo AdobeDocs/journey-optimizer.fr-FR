@@ -4,17 +4,10 @@ description: Découvrez comment utiliser des identifiants supplémentaires dans 
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ABOlJ-ZF0a3xLNY-hH6jjFqu53ph4PynNalGkgQ6P8k
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 02ce60020012083981c5599789b9e86804190627
 workflow-type: tm+mt
 source-wordcount: 2009
@@ -131,9 +124,9 @@ Pour utiliser un identifiant supplémentaire dans un parcours de lecture d’aud
 
    Pour les audiences [importées à partir d’un fichier CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr#import-audience){target="_blank"}, si votre audience CSV contient plusieurs lignes par identifiant de profil, assurez-vous d’abord que l’activation express est activée ; voir [Identifiants supplémentaires avec audiences externes](#external-audiences).
 
-       >[ !REMARQUE]
-       >
-       >Vérifiez que vous utilisez l’éditeur d’expression en **[!UICONTROL mode avancé]** pour sélectionner l’attribut.
+       >[!REMARQUE]
+     >
+     >Vérifiez que vous utilisez l’éditeur d’expression en **[!UICONTROL mode avancé]** pour sélectionner l’attribut.
    
 >[!ENDTABS]
 
@@ -272,7 +265,7 @@ Corps de la requête (défini sur `expressActivation: true`) :
 >
 >`expressActivation` valeur par défaut est `false`. Elle doit être définie au moment de la création de l’audience et ne peut pas être modifiée après la création. L’activation express est activée par défaut pour toutes les audiences de composition d’audiences fédérées et ne nécessite pas cet indicateur.
 
-Pour en savoir plus, consultez la [documentation sur la création d’une API d’audience externe](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"}.
+Pour en savoir plus, consultez la [documentation sur la création d’une API d’audience externe](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"}.
 
 +++
 
@@ -325,4 +318,4 @@ Ces exemples montrent comment les identifiants supplémentaires prennent en char
 
 Découvrez comment activer et appliquer un identifiant supplémentaire dans [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464794?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
