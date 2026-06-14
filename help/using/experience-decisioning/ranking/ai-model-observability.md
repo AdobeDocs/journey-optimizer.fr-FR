@@ -9,19 +9,22 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: 90e71c42-94f3-4cc5-bd6e-1df29def4d39
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1437
+source-wordcount: 1468
 ht-degree: 2%
 
 ---
 
 # Surveiller vos modèles d’IA {#ai-model-observability}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Surveillez l’intégrité, l’état de la formation et les performances de vos modèles de classement par l’IA afin de confirmer qu’ils améliorent les résultats commerciaux et de résoudre les problèmes lorsque ce n’est pas le cas.
+
+>[!ENDSHADEBOX]
 
 Que vous soyez spécialiste du marketing, spécialiste des données ou administrateur de prise de décision, comprendre les performances et le comportement de vos modèles d’optimisation personnalisés vous permet de sélectionner les meilleures offres pour chaque client à l’aide de l’IA.
 
@@ -125,7 +128,7 @@ Les tâches de formation échouent souvent lorsque le jeu de données sélection
 
 +++ En quoi la surveillance des modèles d’IA est-elle liée aux rapports de campagne et de parcours ?
 
-La surveillance des modèles d’IA diffère des rapports de campagne ou de parcours. Un seul modèle d’IA peut être utilisé dans plusieurs campagnes ou plusieurs parcours. En outre, les rapports de campagne ou de parcours n’indiquent pas quel modèle a été utilisé pour une diffusion donnée. Utilisez la surveillance de l’état du modèle d’IA pour comprendre et surveiller le modèle lui-même ; utilisez [rapports de campagne](../../reports/campaign-global-report-cja.md) et [rapports de parcours &#x200B;](../../reports/journey-global-report-cja.md) pour les mesures au niveau de la diffusion.
+La surveillance des modèles d’IA diffère des rapports de campagne ou de parcours. Un seul modèle d’IA peut être utilisé dans plusieurs campagnes ou plusieurs parcours. En outre, les rapports de campagne ou de parcours n’indiquent pas quel modèle a été utilisé pour une diffusion donnée. Utilisez la surveillance de l’état du modèle d’IA pour comprendre et surveiller le modèle lui-même ; utilisez [rapports de campagne](../../reports/campaign-global-report-cja.md) et [rapports de parcours ](../../reports/journey-global-report-cja.md) pour les mesures au niveau de la diffusion.
 +++
 
 +++ Ma mesure d’optimisation est une mesure continue telle que le chiffre d’affaires ou la valeur de commande, et non une mesure binaire telle que les clics ou les conversions. Comment interpréter les valeurs de taux de conversion et de conversions signalées ?
@@ -172,7 +175,7 @@ If no model has been successfully deployed yet, the "currently deployed model" s
 
 Découvrez comment surveiller vos modèles de classement par l’IA et interpréter le statut et les performances de la formation dans [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3479851?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479849?quality=12)
 
 ## Documentation connexe {#related}
 

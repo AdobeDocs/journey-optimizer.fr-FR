@@ -6,15 +6,21 @@ topic: Integrations
 role: User
 level: Intermediate
 keywords: prise de décision par lots, publipostage direct, prise de décision
-source-git-commit: 3c50b7886c95a45f60f7ebd92dd7ea28bd128b77
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '886'
 ht-degree: 0%
 
 ---
 
 
 # Diffusion de décisions par lots dans le publipostage direct {#batch-decisioning-direct-mail}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Utiliser la diffusion de décisions par lots dans le canal courrier afin de personnaliser le fichier d’extraction de chaque destinataire avec les meilleurs éléments de décision ou d’exporter les données de profil et de prise de décision vers des systèmes en aval.
+
+>[!ENDSHADEBOX]
 
 Avec la diffusion de décisions par lots, la diffusion de décisions sélectionne le ou les meilleurs éléments de décision pour chaque profil et inclut ces résultats dans le fichier d’extraction du courrier. Vous pouvez renvoyer plusieurs éléments par profil en définissant **[!UICONTROL Nombre d’éléments]** lors de la configuration de la politique de décision. Le fichier exporté peut être utilisé pour la personnalisation du publipostage direct ou pour des cas d’utilisation par lots dans lesquels vous exportez des profils et des attributs de décision vers un autre système.
 
@@ -60,7 +66,7 @@ La diffusion de décisions par lots dans le publipostage direct prend en charge 
 
 1. Activez la campagne ou publiez le parcours pour générer et exporter le fichier (délimité par un fichier CSV ou texte) vers votre serveur configuré.
 
-   ➡️ [Découvrez comment vérifier et activer une campagne](../campaigns/review-activate-campaign.md) | [Découvrez comment publier un parcours &#x200B;](../building-journeys/publish-journey.md)
+   ➡️ [Découvrez comment vérifier et activer une campagne](../campaigns/review-activate-campaign.md) | [Découvrez comment publier un parcours ](../building-journeys/publish-journey.md)
 
 ## Exemple de publipostage direct + prise de décision {#example-direct-mail}
 
