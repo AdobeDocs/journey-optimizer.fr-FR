@@ -9,29 +9,26 @@ role: User
 level: Intermediate
 exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
 TQID: https://experienceleague.adobe.com/kinrsOdqHviDBSmjv1waCA-XUQmHd4jFTCXAMRH3R1Y
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 648
-ht-degree: 100%
+source-wordcount: 684
+ht-degree: 94%
 
 ---
 
 # Prise en main des rapports sur les canaux {#channel-report-gs}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Commencez avec les rapports de canal personnalisables qui unifient les mesures de trafic et d’engagement sur vos campagnes et parcours, et apprenez à gérer vos widgets de tableau de bord et à exporter des rapports vers PDF ou CSV.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -91,7 +88,7 @@ Pour accéder aux rapports sur les canaux et les gérer, procédez comme suit :
 
    ![](assets/channel_report_3.png)
 
-1. Une fois que l’ordre d’affichage et la taille des widgets vous conviennent, cliquez sur **[!UICONTROL Enregistrer]**.
+1. Une fois satisfait de l&#39;ordre d&#39;affichage et de la taille de vos widgets, cliquez sur **[!UICONTROL Enregistrer]**.
 
 1. Selon le widget, vous pouvez choisir de basculer d’un tableau, d’un graphique en barres ou d’un anneau à l’autre.
 
@@ -105,7 +102,7 @@ Vous pouvez facilement exporter vos différents rapports au format PDF ou CSV,
 
 >[!BEGINTABS]
 
->[!TAB Exporter votre rapport sous la forme d’un fichier PDF]
+>[!TAB Exporter votre rapport au format PDF]
 
 1. Dans votre rapport, cliquez sur **[!UICONTROL Exporter]** et sélectionnez **[!UICONTROL Fichier PDF]**.
 

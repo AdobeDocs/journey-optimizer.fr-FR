@@ -9,32 +9,26 @@ role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 TQID: https://experienceleague.adobe.com/W7M7wDP69oM-fT5nbS2YqVIK9QhBgJhNGy-G0ontmQ4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1315e30c843f37083346d0289a00f9abdcaca472
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 3128
+source-wordcount: 3161
 ht-degree: 46%
 
 ---
 
 # Accéder et s’abonner aux alertes système {#alerts}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment accéder aux alertes système dans Adobe Journey Optimizer, vous y abonner et les gérer pour surveiller de manière proactive les événements de cycle de vie des parcours et des campagnes, les erreurs d’action personnalisée, les problèmes de profil et la délivrabilité des e-mails.
+
+>[!ENDSHADEBOX]
 
 ## Vue d’ensemble
 
@@ -42,7 +36,7 @@ Les alertes sont des notifications automatisées qui vous permettent de surveill
 
 Adobe Journey Optimizer propose deux types d’alertes :
 
-* **Alertes de validation dans la zone de travail** : lors de la création de parcours et de campagnes, utilisez le bouton **Alertes** dans la zone de travail pour identifier et résoudre les erreurs de configuration avant la publication. Découvrez comment [résoudre les problèmes liés aux parcours &#x200B;](../building-journeys/troubleshooting.md) et passer en revue vos campagnes : [Campagnes d’action](../campaigns/review-activate-campaign.md) | [Campagnes déclenchées par l’API](../campaigns/review-activate-api-triggered-campaign.md) | [Campagnes orchestrées](../orchestrated/start-monitor-campaigns.md).
+* **Alertes de validation dans la zone de travail** : lors de la création de parcours et de campagnes, utilisez le bouton **Alertes** dans la zone de travail pour identifier et résoudre les erreurs de configuration avant la publication. Découvrez comment [résoudre les problèmes liés aux parcours ](../building-journeys/troubleshooting.md) et passer en revue vos campagnes : [Campagnes d’action](../campaigns/review-activate-campaign.md) | [Campagnes déclenchées par l’API](../campaigns/review-activate-api-triggered-campaign.md) | [Campagnes orchestrées](../orchestrated/start-monitor-campaigns.md).
 
 * **Alertes de surveillance du système** (présentées dans cette page) : recevez des notifications proactives lorsque les seuils opérationnels sont dépassés ou que des problèmes sont détectés dans les parcours en direct et les configurations de canal, ainsi que lorsque des événements importants du cycle de vie de la campagne se produisent (activation, diffusion, arrêt et échecs associés). Outre ces événements de campagne, les alertes système surveillent des mesures telles que les taux d’erreur, les abandons de profil et les problèmes de délivrabilité des e-mails.
 
@@ -59,7 +53,7 @@ Les alertes système sont disponibles à partir du menu **[!UICONTROL Alertes]**
 
 Avant d’utiliser des alertes :
 
-* **Autorisations** : vous avez besoin d’autorisations spécifiques pour afficher et gérer les alertes. Voir [autorisations requises dans Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=fr#permissions){target="_blank"}.
+* **Autorisations** : vous avez besoin d’autorisations spécifiques pour afficher et gérer les alertes. Voir [autorisations requises dans Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}.
 
 * **Sensibilité aux sandbox** : les abonnements aux alertes sont spécifiques aux sandbox. Lorsque vous vous abonnez à des alertes, elles s’appliquent uniquement au sandbox actuel. Lorsqu’un sandbox est réinitialisé, tous les abonnements aux alertes sont également réinitialisés.
 
@@ -120,7 +114,7 @@ Il existe plusieurs raisons pour lesquelles un profil peut être rejeté, ce qui
 * L’identité n’est pas définie pour le profil ou l’espace de noms utilisé par le parcours Lecture d’audience n’est pas utilisé dans ce profil. Pour résoudre ce problème, assurez-vous que l’espace de noms du parcours correspond à l’espace de noms d’identité utilisé par les profils.
 * Le taux de débit d’événement est dépassé. Pour résoudre ce problème, assurez-vous que les événements qui entrent dans le système ne dépassent pas ces limites.
 
-➡️ [Résolution des problèmes de parcours &#x200B;](../building-journeys/troubleshooting.md)
+➡️ [Résolution des problèmes de parcours ](../building-journeys/troubleshooting.md)
 
 ➡️ [Définir un seuil d’alerte personnalisé](#custom-threshold)
 
@@ -147,7 +141,7 @@ Les erreurs d’actions personnalisées peuvent se produire pour diverses raison
 
 ➡️ [valider en mode test](../building-journeys/testing-the-journey.md)
 
-➡️ [Inspectez le rapport dynamique de parcours &#x200B;](../reports/journey-live-report.md)
+➡️ [Inspectez le rapport dynamique de parcours ](../reports/journey-live-report.md)
 
 ➡️ [Configurer des actions personnalisées](../action/about-custom-action-configuration.md)
 
@@ -163,9 +157,9 @@ Cliquez sur le nom de l’alerte pour vérifier ses détails et sa configuration
 
 Pour résoudre les erreurs de profil, vous pouvez interroger les données des événements d’étape afin de déterminer où et pourquoi le profil a échoué dans le parcours.
 
-➡️ [Utilisation d’événements d’étape de parcours &#x200B;](../reports/journey-step-events-overview.md)
+➡️ [Utilisation d’événements d’étape de parcours ](../reports/journey-step-events-overview.md)
 
-➡️ [Inspectez le rapport dynamique de parcours &#x200B;](../reports/journey-live-report.md)
+➡️ [Inspectez le rapport dynamique de parcours ](../reports/journey-live-report.md)
 
 ➡️ [Définir un seuil d’alerte personnalisé](#custom-threshold)
 
@@ -177,7 +171,7 @@ Cette alerte vous avertit lorsqu’un parcours a été publié par un utilisateu
 
 Il s’agit d’une alerte informative qui vous permet de suivre les événements de cycle de vie du parcours dans votre organisation. Il n’existe aucun critère de résolution, car il s’agit d’une notification ponctuelle.
 
-➡️ [Publication d’un parcours &#x200B;](../building-journeys/publish-journey.md)
+➡️ [Publication d’un parcours ](../building-journeys/publish-journey.md)
 
 ➡️ [valider en mode test](../building-journeys/testing-the-journey.md)
 
@@ -283,7 +277,7 @@ Vous avertit lorsque la **diffusion de messages** d’une campagne est **termin�
 
 +++ Échec de diffusion de la campagne
 
-Vous avertit lorsque **diffusion de messages** échoue pour une campagne **&#x200B;**. Consultez les rapports de campagne, les journaux d’exécution et la configuration des canaux pour résoudre les problèmes.
+Vous avertit lorsque **diffusion de messages** échoue pour une campagne ****. Consultez les rapports de campagne, les journaux d’exécution et la configuration des canaux pour résoudre les problèmes.
 
 ➡️ [Consulter le rapport de campagne (CJA)](../reports/campaign-global-report-cja.md)
 
@@ -400,7 +394,7 @@ Si cette alerte est déclenchée, suivez les étapes ci-dessous pour examiner et
 
 >[!NOTE]
 >
->Pour les alertes provenant d’autres services Adobe Experience Platform (ingestion de données, résolution d’identité, segmentation, etc.), consultez la [documentation sur les règles d’alerte standard](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=fr){target="_blank"}.
+>Pour les alertes provenant d’autres services Adobe Experience Platform (ingestion de données, résolution d’identité, segmentation, etc.), consultez la [documentation sur les règles d’alerte standard](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}.
 
 ## S’abonner aux alertes {#subscribe-alerts}
 
@@ -417,7 +411,7 @@ Les abonnements aux alertes déterminent quels utilisateurs reçoivent des notif
 
 **Diffusion de notification :**
 
-* **Canaux de diffusion** : les alertes sont envoyées par e-mail et/ou notifications in-app dans le centre de notification Journey Optimizer (icône représentant une cloche dans le coin supérieur droit). Configurez vos canaux de diffusion préférés dans vos [Préférences &#x200B;](../start/user-interface.md#in-product-uc).
+* **Canaux de diffusion** : les alertes sont envoyées par e-mail et/ou notifications in-app dans le centre de notification Journey Optimizer (icône représentant une cloche dans le coin supérieur droit). Configurez vos canaux de diffusion préférés dans vos [ Préférences Adobe Experience Cloud ](../start/user-interface.md#in-product-uc).
 
 * **Types d’alerte** : Journey Optimizer fournit des alertes ponctuelles (événements informatifs tels que « parcours publié ») et des alertes répétées (seuils de surveillance). Les alertes répétées continuent l’évaluation et la notification jusqu’à ce que la condition soit résolue.
 
@@ -461,7 +455,7 @@ Cliquez sur **[!UICONTROL Se désabonner]** en regard de l’alerte.
 
 **Autre méthode d’abonnement :**
 
-Vous pouvez également vous abonner via les notifications d’événement [I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=fr){target="_blank"}, qui permettent l’intégration à des systèmes externes. Les noms des abonnements aux E/S d’alertes de parcours sont indiqués dans l’onglet [Alertes de Parcours &#x200B;](#available-alerts) sous **Alertes disponibles** le cas échéant. Les alertes de cycle de vie de Campaign suivent le même modèle d’abonnement à Platform. Consultez cette documentation pour l’intégration par programmation.
+Vous pouvez également vous abonner via les notifications d’événement [I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=fr){target="_blank"}, qui permettent l’intégration à des systèmes externes. Les noms des abonnements aux E/S d’alertes de parcours sont indiqués dans l’onglet [Alertes de Parcours ](#available-alerts) sous **Alertes disponibles** le cas échéant. Les alertes de cycle de vie de Campaign suivent le même modèle d’abonnement à Platform. Consultez cette documentation pour l’intégration par programmation.
 
 >[!TAB Abonnement spécifique au Parcours ]
 
@@ -519,7 +513,7 @@ Open the same dialog, deselect the alert(s), and click **[!UICONTROL Save]**.
 You can combine **sandbox-level** subscription (from the Alerts **[!UICONTROL Browse]** tab) with **campaign-specific** subscriptions. Use sandbox-level coverage for everything in the sandbox, and add per-campaign subscriptions only for campaigns you want to track separately.
 -->
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=fr#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Gérer les alertes {#manage-alerts}
 
@@ -572,15 +566,15 @@ Pour supprimer des personnes abonnées, supprimez leurs adresses e-mail de la li
 
 **Gestion des Parcours et des campagnes :**
 
-* [Résolution des problèmes liés aux parcours &#x200B;](../building-journeys/troubleshooting.md) - Identifiez et résolvez les problèmes et erreurs de parcours courants
-* [Tester et publier des parcours &#x200B;](../building-journeys/publish-journey.md) - Valider la configuration du parcours avant la publication
+* [Résolution des problèmes liés aux parcours ](../building-journeys/troubleshooting.md) - Identifiez et résolvez les problèmes et erreurs de parcours courants
+* [Tester et publier des parcours ](../building-journeys/publish-journey.md) - Valider la configuration du parcours avant la publication
 * [Vérifier et activer les campagnes d’action](../campaigns/review-activate-campaign.md) - Validation de la prépublication pour les campagnes planifiées et ponctuelles
 * [Vérification et activation des campagnes déclenchées par API](../campaigns/review-activate-api-triggered-campaign.md) - Validation des campagnes déclenchées par API
 * [Surveiller les campagnes orchestrées](../orchestrated/start-monitor-campaigns.md) - Suivre et gérer l’exécution des campagnes orchestrées
 
 **Framework d’alerte :**
 
-* [Présentation des alertes &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=fr){target="_blank"} - Présentation du cadre des alertes
+* [Présentation des alertes ](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=fr){target="_blank"} - Présentation du cadre des alertes
 * [Gérer les alertes dans l’interface utilisateur](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=fr){target="_blank"} - Afficher, s’abonner et gérer les alertes
 * [Abonnement aux alertes par le biais d’événements I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=fr){target="_blank"} - Options d’intégration avancées
-* [Règles d’alerte standard](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=fr){target="_blank"} - Liste complète des alertes Platform disponibles
+* [Règles d’alerte standard](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"} - Liste complète des alertes Platform disponibles

@@ -9,30 +9,26 @@ role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
 TQID: https://experienceleague.adobe.com/OJek9bJ53fdDbGpGNpbRR9X-kD9zkQnDRvppsevqO44
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 1102
-ht-degree: 61%
+source-wordcount: 1139
+ht-degree: 59%
 
 ---
 
 # Rapport d’aperçu {#channel-report-cja}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment utiliser le rapport de présentation pour analyser le trafic unifié et les mesures d’engagement sur toutes vos campagnes et tous vos parcours, avec des onglets dédiés pour les parcours, les campagnes, les canaux, les ensembles de règles de limitation de parcours et les modèles d’optimisation.
+
+>[!ENDSHADEBOX]
 
 Les utilisateurs et les utilisatrices peuvent consulter un résumé exhaustif des mesures de trafic et d’engagement pour l’ensemble des campagnes et des parcours de votre environnement grâce au rapport de vue d’ensemble. Les actions provenant de différents canaux sont combinées dans ces mesures pour présenter des valeurs unifiées, englobant diverses campagnes et différents parcours.
 
@@ -160,7 +156,7 @@ Le tableau **[!UICONTROL Limitation et conflits de Parcours]** fournit des infor
 
 La colonne **[!UICONTROL Entrées de Parcours par jeu de règles]** indique le nombre de profils entrés dans le parcours. Il existe trois types d&#39;entrées :
 
-* **&#x200B;**&#x200B;[!UICONTROL Aucun conflit]&#x200B;**&#x200B;** : le profil est entré dans le parcours sans conflit d’ensemble de règles. Aucun jeu de règles actif n&#39;a empêché cette saisie, et la saisie de parcours s&#39;est produite indépendamment des règles d&#39;arbitrage.
+* ****[!UICONTROL Aucun conflit]**** : le profil est entré dans le parcours sans conflit d’ensemble de règles. Aucun jeu de règles actif n&#39;a empêché cette saisie, et la saisie de parcours s&#39;est produite indépendamment des règles d&#39;arbitrage.
 
 * **Priorité plus élevée** : le profil est entré sur le parcours en raison de sa priorité plus élevée que les autres parcours concurrents. Malgré un conflit (le profil était qualifié pour plusieurs parcours), ce parcours a été sélectionné en raison de son score de priorité plus élevé.
 
@@ -176,7 +172,7 @@ La colonne **[!UICONTROL Exclusions]** indique le nombre de profils qui ont ét�
 
 Pour en savoir plus sur ces exclusions au niveau du lac de données à l’aide de Adobe Experience Platform Query Service, consultez [Requêtes relatives aux règles métier](query-examples.md#business-rules-queries).
 
-➡️ [En savoir plus sur la limitation et l’arbitrage des parcours &#x200B;](../conflict-prioritization/journey-capping.md)
+➡️ [En savoir plus sur la limitation et l’arbitrage des parcours ](../conflict-prioritization/journey-capping.md)
 
 ## Modèles d’optimisation {#optimization-models}
 
