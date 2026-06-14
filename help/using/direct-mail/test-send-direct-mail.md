@@ -10,29 +10,26 @@ level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
 TQID: https://experienceleague.adobe.com/4GZKFKOx-D-RT1mssiV5vpmZQSJGVbGMro8Q-suhtPE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
-source-wordcount: 578
-ht-degree: 63%
+source-wordcount: 605
+ht-degree: 60%
 
 ---
 
 # Vérifier et envoyer un message de publipostage direct {#direct-mail-test-send}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** prévisualisez le fichier d’extraction, validez et activez votre campagne ou votre parcours, et gérez le consentement postal afin que votre publipostage atteigne précisément les destinataires appropriés.
+
+>[!ENDSHADEBOX]
 
 Découvrez comment prévisualiser le fichier d’extraction, valider et activer votre campagne ou votre parcours de publipostage direct et gérer le consentement du courrier postal dans Journey Optimizer.
 
@@ -67,7 +64,7 @@ Avant d’activer la campagne de publipostage direct, assurez-vous que la campag
 
 ![Examinez et activez l’écran affichant les alertes de validation des campagnes de publipostage direct](assets/direct-mail-review.png){width="800" align="center"}
 
-Lorsque votre campagne de publipostage direct est prête, effectuez la configuration de votre [parcours &#x200B;](../building-journeys/journey-gs.md) ou [campagne](../campaigns/create-campaign.md) pour l’envoyer.
+Lorsque votre campagne de publipostage direct est prête, effectuez la configuration de votre [parcours ](../building-journeys/journey-gs.md) ou [campagne](../campaigns/create-campaign.md) pour l’envoyer.
 
 >[!NOTE]
 >
