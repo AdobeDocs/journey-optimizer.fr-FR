@@ -28,14 +28,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1363
-ht-degree: 88%
+source-wordcount: 1398
+ht-degree: 86%
 
 ---
 
 # Prise en charge de l’archivage {#archiving-support}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment archiver les messages que vous envoyez avec Adobe Journey Optimizer à des fins de conformité, y compris la fonctionnalité de messagerie en Cci intégrée pour le canal e-mail et les options basées sur les jeux de données pour d’autres canaux.
+
+>[!ENDSHADEBOX]
 
 ## Comment archiver des messages {#about-archiving}
 

@@ -30,14 +30,20 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1112
-ht-degree: 100%
+source-wordcount: 1139
+ht-degree: 97%
 
 ---
 
 # Guide de délivrabilité du préchauffage des adresses IP {#ip-warmup-deliverability-guide}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez les principes de base de la délivrabilité, la création de réputation, les vérifications avant vol, les exemples de calendriers de préchauffage et les mesures de surveillance pour réussir le préchauffage d’une adresse IP dans Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Lors du lancement de campagnes par e-mail avec de nouvelles adresses IP ou de nouveaux domaines dans Adobe Journey Optimizer, il est essentiel de comprendre les principes de base de la délivrabilité pour bâtir une réputation solide en tant qu’expéditeur. Ce guide aborde les concepts clés, les étapes de préparation et les bonnes pratiques pour vous aider à passer d’une réputation inexistante à un placement optimal en boîte de réception.
 

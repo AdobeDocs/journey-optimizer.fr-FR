@@ -25,14 +25,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1341
-ht-degree: 73%
+source-wordcount: 1371
+ht-degree: 71%
 
 ---
 
 # Configurer une liste autorisée {#allow-list}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment activer, remplir et gérer une liste autorisée dans Adobe Journey Optimizer pour limiter l’envoi d’e-mails à des adresses et domaines de confiance au niveau du sandbox.
+
+>[!ENDSHADEBOX]
 
 La liste autorisée est une liste d’envoi sécurisé que vous pouvez définir au niveau du [sandbox](../administration/sandboxes.md). Il limite l’envoi d’e-mails à des adresses ou domaines spécifiques, en veillant à ce que seuls les destinataires explicitement répertoriés puissent recevoir des messages d’un sandbox donné.
 

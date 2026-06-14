@@ -24,14 +24,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 858
-ht-degree: 100%
+source-wordcount: 889
+ht-degree: 96%
 
 ---
 
 # Commencer la configuration guidée des canaux {#set-mobile-config}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez comment le workflow de configuration de canal guidé crée automatiquement les propriétés de balise, les flux de données et les configurations de canal nécessaires pour configurer les canaux mobiles et web dans Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_name"
@@ -207,7 +213,7 @@ Pour la **configuration initiale**, vous trouverez ci-dessous une liste complèt
   </tr>
   <tr>
   <td>
-  <p>Trains de données</p>
+  <p>Flux de données</p>
   </td>
   <td>
   <p>Train de données avec services</p>
@@ -302,7 +308,7 @@ Pour la **configuration initiale**, vous trouverez ci-dessous une liste complèt
   </tr>
   <tr>
   <td>
-  <p>Trains de données</p>
+  <p>Flux de données</p>
   </td>
   <td>
   <p>Train de données avec services</p>
@@ -397,7 +403,7 @@ Pour la **configuration initiale**, vous trouverez ci-dessous une liste complèt
   </tr>
   <tr>
   <td>
-  <p>Trains de données</p>
+  <p>Flux de données</p>
   </td>
   <td>
   <p>Train de données avec services</p>

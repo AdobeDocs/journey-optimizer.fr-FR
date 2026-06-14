@@ -27,14 +27,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 997
-ht-degree: 96%
+source-wordcount: 1028
+ht-degree: 93%
 
 ---
 
 # Utiliser des listes de contrôle {#seed-lists}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment créer et utiliser des listes de contrôle dans Adobe Journey Optimizer pour inclure automatiquement des adresses de contrôle internes dans vos diffusions e-mail à des fins de surveillance et de protection des listes de diffusion.
+
+>[!ENDSHADEBOX]
 
 Les listes de contrôle dans [!DNL Journey Optimizer] vous permettent d’inclure automatiquement des adresses de contrôle spécifiques dans vos diffusions.
 

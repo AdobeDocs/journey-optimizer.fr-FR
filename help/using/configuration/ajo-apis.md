@@ -24,14 +24,20 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 582
-ht-degree: 87%
+source-wordcount: 611
+ht-degree: 83%
 
 ---
 
 # Utiliser des API [!DNL Journey Optimizer] {#apis-gs}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment accéder aux API RESTful Adobe Journey Optimizer, y compris les API Decision Management et Experience Decisioning, les authentifier et les utiliser pour effectuer des opérations essentielles par programmation.
+
+>[!ENDSHADEBOX]
 
 ## Accès rapide {#quick-access}
 

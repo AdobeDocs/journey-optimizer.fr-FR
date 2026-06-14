@@ -33,14 +33,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: bd17716b18efd2a9043bcfd7389e6a4082f56bcc
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 2447
-ht-degree: 66%
+source-wordcount: 2475
+ht-degree: 65%
 
 ---
 
 # Exporter des objets vers un autre sandbox {#copy-to-sandbox}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment copier des objets Adobe Journey Optimizer tels que des parcours, des campagnes, des actions personnalisées, des modèles de contenu et des fragments entre des sandbox à l’aide de l’exportation et de l’importation de packages.
+
+>[!ENDSHADEBOX]
 
 Vous pouvez copier des objets tels que des parcours, des campagnes, des actions personnalisées, des modèles de contenu ou des fragments sur plusieurs sandbox à l’aide des fonctionnalités d’exportation et d’importation de packages. Un package peut se composer d’un ou de plusieurs objets. Tous les objets inclus dans un package doivent provenir du même sandbox.
 

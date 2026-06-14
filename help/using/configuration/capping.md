@@ -20,14 +20,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 761
-ht-degree: 98%
+source-wordcount: 773
+ht-degree: 91%
 
 ---
 
 # Utiliser l’API Capping {#work}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez comment utiliser l’API de limitation de Adobe Journey Optimizer pour créer, configurer, déployer et surveiller les configurations de limitation des points d’entrée qui limitent les appels aux systèmes externes.
+
+>[!ENDSHADEBOX]
 
 L’API Capping vous permet de créer, configurer et surveiller vos configurations de limitation.
 

@@ -13,14 +13,20 @@ exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
 feature_v2: []
 subfeature_v2:
   - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1258
-ht-degree: 20%
+source-wordcount: 1301
+ht-degree: 19%
 
 ---
 
 # Migration d’un sous-domaine de messagerie de CNAME vers la délégation personnalisée {#migrate-cname-to-custom}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment migrer un sous-domaine d’e-mail ou de page de destination de la délégation CNAME vers la délégation personnalisée dans Adobe Journey Optimizer en supprimant les enregistrements DNS existants, en chargeant votre certificat SSL, en achevant la boucle des commentaires et en créant les enregistrements DNS.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

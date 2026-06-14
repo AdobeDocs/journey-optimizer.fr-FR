@@ -27,14 +27,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 459
-ht-degree: 100%
+source-wordcount: 489
+ht-degree: 93%
 
 ---
 
 # Commencer avec les plans de préchauffage d’adresses IP {#ip-warmup-gs}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez comment les plans de préchauffage d’adresses IP vous aident à augmenter progressivement le volume d’envoi pour établir la réputation de l’expéditeur et découvrez les étapes essentielles pour en implémenter un dans Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Avec [!DNL Journey Optimizer], vous pouvez facilement exécuter des workflows de préchauffage d’adresses IP directement à partir de l’interface d’utilisation, et ce d’une manière normalisée et efficace qui respecte les bonnes pratiques pour une délivrabilité optimale. Lorsque vous envoyez des e-mails à l’aide d’une nouvelle plateforme, rien n’est plus suspect pour un FAI (fournisseur d’accès internet) que les adresses IP qui ne sont pas reconnues. Si des e-mails sont subitement envoyés en masse, le FAI les range souvent dans le courrier indésirable.
 

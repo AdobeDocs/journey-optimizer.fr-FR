@@ -29,14 +29,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1898
-ht-degree: 94%
+source-wordcount: 1925
+ht-degree: 92%
 
 ---
 
 # Paramétrer des configurations de canal {#set-up-channel-surfaces}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment créer, surveiller, modifier et désactiver des configurations de canal dans Adobe Journey Optimizer pour définir les paramètres techniques utilisés pour envoyer vos messages.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_channel_surfaces"
@@ -83,7 +89,7 @@ Vous pouvez également utiliser la configuration de canal guidée pour automatis
 
 Pour créer une configuration des canaux, procédez comme suit :
 
-1. Accédez au menu **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Configurations des canaux]**, puis cliquez sur **[!UICONTROL Créer une configuration des canaux]**.
+1. Accédez au menu **[!UICONTROL Canaux]** > **[!UICONTROL Paramètres généraux]** > **[!UICONTROL Configurations des canaux]**, puis cliquez sur **[!UICONTROL Créer une configuration de canal]**.
 
    ![](assets/preset-create.png)
 

@@ -24,14 +24,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1611
-ht-degree: 99%
+source-wordcount: 1643
+ht-degree: 97%
 
 ---
 
 # Gérer la liste de suppression {#manage-suppression-list}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment accéder, filtrer, ajouter, supprimer et télécharger des entrées de la liste de suppression de Adobe Journey Optimizer pour contrôler les adresses e-mail et domaines exclus de votre envoi.
+
+>[!ENDSHADEBOX]
 
 Avec [!DNL Journey Optimizer], vous pouvez surveiller toutes les adresses e-mail qui sont automatiquement exclues de l’envoi dans un parcours ou une campagne, telles que les rebonds définitifs, les rebonds temporaires et les réclamations relatives au spam.
 

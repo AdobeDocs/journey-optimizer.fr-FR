@@ -24,14 +24,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1834
-ht-degree: 97%
+source-wordcount: 1860
+ht-degree: 95%
 
 ---
 
 # Intégration avec des systèmes externes {#external-systems}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez les mécanismes de sécurisation et les bonnes pratiques pour intégrer Adobe Journey Optimizer aux systèmes externes, notamment les API de plafonnement et de limitation, les délais d’expiration des parcours et les reprises.
+
+>[!ENDSHADEBOX]
 
 Cette page présente les différents mécanismes de sécurisation fournis par Journey Optimizer lors de l’intégration d’un système externe, ainsi que les bonnes pratiques : comment optimiser la protection de votre système externe à l’aide de l’API de limitation, comment configurer le délai d’expiration du parcours et comment les reprises fonctionnent.
 
@@ -65,7 +71,7 @@ Supposons, par exemple, que vous ayez défini une règle de plafonnement ou de l
 
 >[!IMPORTANT]
 >
->Les **Règles de limitation** sont configurées au niveau de la sandbox, pour un point d’entrée spécifique (l’URL appelée), mais elles s’appliquent à tous les parcours de cette sandbox. La limitation est disponible à la fois sur les sources de données et les actions personnalisées.
+>Les **Règles de limitation** sont configurées au niveau du sandbox, pour un point d’entrée spécifique (l’URL appelée), mais elles s’appliquent à tous les parcours de ce sandbox. La limitation est disponible à la fois sur les sources de données et les actions personnalisées.
 >
 >Les **Règles de limitation** sont configurées dans les sandbox de production uniquement, pour un point d’entrée spécifique, mais elles s’appliquent à tous les parcours sur l’ensemble des sandbox. Une seule configuration de limitation est autorisée par organisation. La limitation n’est disponible que pour les actions personnalisées.
 >
