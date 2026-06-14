@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
-source-wordcount: 458
-ht-degree: 79%
+source-wordcount: 487
+ht-degree: 74%
 
 ---
 
 # Commencer à utiliser le courrier {#create-direct}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez comment fonctionne le canal courrier afin de générer les fichiers d’extraction que les fournisseurs tiers utilisent pour envoyer du courrier physique à vos clients.
+
+>[!ENDSHADEBOX]
 
 Le courrier est un canal hors ligne qui vous permet de personnaliser et de générer les fichiers d’extraction requis par les fournisseurs de courrier tiers pour envoyer du courrier à votre clientèle.
 

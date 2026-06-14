@@ -27,14 +27,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 450
-ht-degree: 100%
+source-wordcount: 475
+ht-degree: 94%
 
 ---
 
 # Intégration à Adobe Campaign Standard {#using_adobe_campaign_standard}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Connectez Journey Optimizer à Adobe Campaign Standard afin que vos parcours puissent envoyer des e-mails, des notifications push et des SMS par le biais de ses fonctionnalités de messagerie transactionnelle.
+
+>[!ENDSHADEBOX]
 
 Si vous disposez d’Adobe Campaign Standard, une action intégrée est disponible pour permettre la connexion à Adobe Campaign Standard. Vous pouvez envoyer des e-mails, des notifications push et des SMS à l’aide des fonctionnalités de messagerie transactionnelle d’Adobe Campaign Standard.
 
@@ -60,7 +66,7 @@ Pour configurer une action Campaign Standard, procédez comme suit :
 
 1. Dans la section **[!UICONTROL Actions]**, cliquez sur **[!UICONTROL Gérer]**. La liste des actions s&#39;affiche.
 
-1. Sélectionnez l’action **[!UICONTROL AdobeCampaignStandard]** intégrée. Le volet de configuration des actions s&#39;ouvre dans la droite de l&#39;écran.
+1. Sélectionnez l’action **[!UICONTROL AdobeCampaignStandard]** intégrée. Le volet de configuration des actions s’ouvre sur le côté droit de l’écran.
 
    ![](assets/actioncampaign.png)
 

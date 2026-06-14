@@ -27,14 +27,20 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 326
-ht-degree: 100%
+source-wordcount: 352
+ht-degree: 92%
 
 ---
 
 # Intégration à Marketo Engage {#integrating-with-marketo-engage}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Configurer et utiliser l’action personnalisée Marketo Engage afin de synchroniser les données de personne et d’objet personnalisé de vos parcours dans Marketo Engage.
+
+>[!ENDSHADEBOX]
 
 Optez pour une intégration transparente des données avec Marketo Engage. Une action personnalisée spécifique est disponible dans vos parcours pour intégrer Adobe Journey Optimizer et Marketo Engage. Cette action personnalisée prend en charge l’ingestion de deux types de données clés :
 

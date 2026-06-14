@@ -21,14 +21,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 659
-ht-degree: 64%
+source-wordcount: 689
+ht-degree: 62%
 
 ---
 
 # Surveiller vos actions personnalisées {#reporting}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Surveillez la fiabilité et les performances des appels d’API que vos parcours effectuent à des systèmes tiers afin de repérer rapidement les problèmes d’intégration, la latence et les limites de limitation.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_custom_actions_monitor"

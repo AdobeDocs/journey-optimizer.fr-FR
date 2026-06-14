@@ -28,14 +28,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 716
-ht-degree: 100%
+source-wordcount: 742
+ht-degree: 96%
 
 ---
 
 # Intégration à Adobe Campaign v7/v8 {#integrating-with-adobe-campaign-v7-v8}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Connectez Journey Optimizer à Adobe Campaign v7 ou v8 pour que vos parcours puissent envoyer des e-mails, des notifications push et des SMS par le biais des messages transactionnels de Campaign.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_acc"
@@ -80,7 +86,7 @@ En cas de demande, la connexion entre les environnements Journey Optimizer et A
 
 ## Conditions préalables {#prerequisites}
 
-Dans Adobe Campaign, vous devez créer et publier un message transactionnel ainsi que l’événement associé. Reportez-vous à la [documentation d’Adobe Campaign ](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
+Dans Adobe Campaign, vous devez créer et publier un message transactionnel ainsi que l’événement associé. Reportez-vous à la [documentation d’Adobe Campaign &#x200B;](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
 
 Vous pouvez créer la payload JSON correspondant à chaque message selon le modèle ci-dessous. Vous devrez ensuite coller cette payload lors de la configuration de l’action dans Journey Optimizer (voir ci-dessous).
 

@@ -28,14 +28,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 941
-ht-degree: 86%
+source-wordcount: 911
+ht-degree: 87%
 
 ---
 
 # Gérer les préférences de votre clientèle {#preference-center}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Enregistrez et respectez les préférences de canal et de sujet de vos clients par le biais de politiques de consentement afin de ne cibler que les personnes qui souhaitent recevoir des communications de votre part.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -43,7 +49,7 @@ ht-degree: 86%
 
 Dans un écosystème moderne d’automatisation du marketing, les marques interagissent avec la clientèle via différents points de contact, au risque de communiquer de façon non pertinente ou excessive, entraînant ainsi un désengagement, des plaintes pour spam et des risques de non-conformité. C’est pourquoi elles doivent gérer les préférences de leur clientèle afin d’obtenir des informations en temps réel sur leur audience et de diffuser une communication personnalisée et respectueuse.
 
-Avec [!DNL Adobe Journey Optimizer], en utilisant des [politiques de consentement](consent.md), vous pouvez respecter les préférences de votre clientèle<!-- in terms of **channels** and **topics**-->. Cela permet de s’assurer que [!DNL Journey Optimizer] ne cible que les clients et clientes en fonction de leurs choix, tout en respectant leur consentement.
+Avec [!DNL Adobe Journey Optimizer], en utilisant des [politiques de consentement](consent.md), vous pouvez respecter les préférences de vos clients<!-- in terms of **channels** and **topics**-->. Cela permet de s’assurer que [!DNL Journey Optimizer] ne cible que les clients et clientes en fonction de leurs choix, tout en respectant leur consentement.
 <!-- their preferred channels and on the subscription topics-->
 
 Pour gérer les préférences des utilisateurs et utilisatrices avec [!DNL Journey Optimizer], vous pouvez :
@@ -119,7 +125,7 @@ The corresponding profile dataset is updated as follows:
 
    >[!AVAILABILITY]
    >
-   >Les politiques de consentement ne sont actuellement disponibles que pour les organisations qui ont acheté les offres complémentaires Adobe **Healthcare Shield** et **Privacy and Security Shield**. [En savoir plus sur les politiques de consentement](consent.md).
+   >Les politiques de consentement ne sont actuellement disponibles que pour les organisations qui ont acheté les offres de modules complémentaires Adobe **Healthcare Shield** et **Privacy and Security Shield**. [En savoir plus sur les politiques de consentement](consent.md).
 
    Pour utiliser des politiques de consentement, les attributs de préférence doivent être présents dans les données de profil. C’est pourquoi vous devez définir ces attributs au niveau du profil (comme décrit à l’étape 1).
 

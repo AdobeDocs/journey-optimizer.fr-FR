@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
-source-wordcount: 578
-ht-degree: 63%
+source-wordcount: 605
+ht-degree: 60%
 
 ---
 
 # Vérifier et envoyer un message de publipostage direct {#direct-mail-test-send}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** prévisualisez le fichier d’extraction, validez et activez votre campagne ou votre parcours, et gérez le consentement postal afin que votre publipostage atteigne précisément les destinataires appropriés.
+
+>[!ENDSHADEBOX]
 
 Découvrez comment prévisualiser le fichier d’extraction, valider et activer votre campagne ou votre parcours de publipostage direct et gérer le consentement du courrier postal dans Journey Optimizer.
 

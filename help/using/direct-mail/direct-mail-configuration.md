@@ -22,14 +22,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
-source-wordcount: 1964
-ht-degree: 92%
+source-wordcount: 1994
+ht-degree: 90%
 
 ---
 
 # Configuration du publipostage direct {#direct-mail-configuration}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Configurez le routage des fichiers et une configuration du canal courrier afin que vos fichiers d’extraction soient exportés vers le serveur approprié pour que votre fournisseur de publipostage direct les récupère.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] vous permet de personnaliser et de générer les fichiers requis par les fournisseurs de publipostage direct pour envoyer du courrier à vos clients.
 

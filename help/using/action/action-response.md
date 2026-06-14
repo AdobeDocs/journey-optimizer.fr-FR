@@ -25,14 +25,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 843
-ht-degree: 75%
+source-wordcount: 874
+ht-degree: 72%
 
 ---
 
 # Utiliser des réponses d’appel API dans des actions personnalisées {#custom-action-enhancements}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** capturez la payload de réponse renvoyée par l’appel API d’une action personnalisée afin de pouvoir orchestrer des parcours, personnaliser des messages et gérer des erreurs en fonction des données du système externe.
+
+>[!ENDSHADEBOX]
 
 Vous pouvez utiliser les réponses d’appel API dans des actions personnalisées et orchestrer vos parcours en fonction de ces réponses.
 
