@@ -21,14 +21,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
 workflow-type: tm+mt
-source-wordcount: 414
-ht-degree: 45%
+source-wordcount: 448
+ht-degree: 42%
 
 ---
 
 # Vérifier et envoyer vos messages WhatsApp {#send-whatsapp}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Prévisualisez, validez et envoyez votre message WhatsApp, puis analysez les données d’interaction qu’il renvoie, afin de pouvoir confirmer que votre message est correct avant la diffusion et de mesurer la manière dont les destinataires interagissent avec celui-ci.
+
+>[!ENDSHADEBOX]
 
 ## Prévisualiser votre messages WhatsApp {#preview-whatsapp}
 
