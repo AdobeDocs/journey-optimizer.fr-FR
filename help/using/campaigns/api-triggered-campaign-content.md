@@ -22,14 +22,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 450
-ht-degree: 88%
+source-wordcount: 480
+ht-degree: 82%
 
 ---
 
 # Modifier le contenu d’une campagne déclenchée par API {#api-content}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** concevez et personnalisez le contenu de campagne déclenché par l’API avec des données contextuelles transmises dans la payload de l’API afin que chaque message soit adapté en temps réel pour chaque destinataire.
+
+>[!ENDSHADEBOX]
 
 Pour configurer le contenu du message, accédez à l’onglet **[!UICONTROL Contenu]** ou cliquez sur le bouton **[!UICONTROL Modifier le contenu]**.
 

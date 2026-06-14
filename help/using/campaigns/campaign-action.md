@@ -28,14 +28,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 856
-ht-degree: 97%
+source-wordcount: 890
+ht-degree: 93%
 
 ---
 
 # Configurer l’action de campagne {#action-campaign-action}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Configurez l’action de campagne en sélectionnant une configuration de canal et de canal ainsi qu’une optimisation et du contenu multilingue, et ajoutez plusieurs actions entrantes afin que votre campagne offre des expériences adaptées sur l’ensemble des canaux.
+
+>[!ENDSHADEBOX]
 
 Utilisez l’onglet **[!UICONTROL Actions]** afin de sélectionner une configuration de canal pour votre message et configurer des paramètres supplémentaires, tels que le suivi, l’expérience de contenu ou le contenu multilingue.
 

@@ -22,14 +22,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: c998adc41e5696cc24bb7c640ec330ccfefa139a
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 314
-ht-degree: 92%
+source-wordcount: 345
+ht-degree: 84%
 
 ---
 
 # Vérifier et activer la campagne déclenchée par API {#api-review}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** passez en revue la configuration et le contenu de votre campagne déclenchée par l’API afin de détecter les erreurs avant de l’activer, de sorte que vous puissiez activer la campagne en toute confiance et la préparer à se déclencher via les API.
+
+>[!ENDSHADEBOX]
 
 Une fois votre campagne déclenchée par API configurée, vous devez vérifier ses paramètres et son contenu avant de l’activer. Pour ce faire, procédez comme suit :
 

@@ -23,14 +23,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 821
-ht-degree: 60%
+source-wordcount: 857
+ht-degree: 57%
 
 ---
 
 # Planifier la campagne d’action {#action-campaign-schedule}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** planifiez votre campagne d’action en définissant les dates de début et de fin, la diffusion par fuseau horaire du destinataire, la fréquence d’exécution et le contrôle de débit afin que vos messages atteignent la bonne audience au bon moment sans surcharger les systèmes en aval.
+
+>[!ENDSHADEBOX]
 
 Utilisez l’onglet **[!UICONTROL Planifier]** pour définir le planning de la campagne.
 

@@ -22,14 +22,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 633
-ht-degree: 100%
+source-wordcount: 666
+ht-degree: 95%
 
 ---
 
 # Activer le mode de débit élevé pour les campagnes déclenchées par API {#high-throughput}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Activez le mode à débit élevé pour les campagnes déclenchées par l’API afin de pouvoir envoyer des e-mails transactionnels en temps réel à très grande échelle jusqu’à 5 000 transactions par seconde sans dépendre des profils.
+
+>[!ENDSHADEBOX]
 
 Le mode de débit élevé est conçu pour les organisations qui ont besoin de **messages transactionnels en temps réel à très grande échelle** (jusqu’à 5 000 transactions par seconde). Contrairement aux campagnes standard déclenchées par API, les campagnes à débit élevé fonctionnent indépendamment des profils Adobe et nécessitent un modèle de configuration différent.
 

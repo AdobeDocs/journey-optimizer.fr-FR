@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 165
-ht-degree: 100%
+source-wordcount: 200
+ht-degree: 82%
 
 ---
 
 # Définir les propriétés de la campagne d’action {#action-campaign-properties}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Créez une campagne Action et définissez ses propriétés principales, telles que le nom, la description, les balises et les libellés d’accès, afin que vous puissiez identifier, organiser et contrôler l’accès à votre campagne avant de configurer son action.
+
+>[!ENDSHADEBOX]
 
 Pour créer une campagne d’action et définir ses propriétés, procédez comme suit :
 

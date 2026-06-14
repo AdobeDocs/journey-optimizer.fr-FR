@@ -20,14 +20,20 @@ subfeature_v2:
   - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 316
-ht-degree: 100%
+source-wordcount: 345
+ht-degree: 91%
 
 ---
 
 # Planifier la campagne déclenchée par API {#api-schedule}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** définissez les dates de début et de fin, ainsi que le contrôle du taux dans l’onglet Planning afin que votre campagne déclenchée par API s’envoie au bon moment sans surcharger les systèmes en aval.
+
+>[!ENDSHADEBOX]
 
 Utilisez l’onglet **[!UICONTROL Planifier]** pour définir le planning de la campagne.
 
@@ -41,7 +47,7 @@ L’option **[!UICONTROL Fin de la campagne]** vous permet de spécifier le mome
 
 >[!NOTE]
 >
->Lors de la planification de campagnes dans [!DNL Adobe Journey Optimizer], assurez-vous que la date/l’heure de début correspond à la première diffusion souhaitée.
+>Lors de la planification de campagnes dans [!DNL Adobe Journey Optimizer], vérifiez que la date/l’heure de début correspond à la première diffusion souhaitée.
 
 ## Définir le contrôle du débit
 

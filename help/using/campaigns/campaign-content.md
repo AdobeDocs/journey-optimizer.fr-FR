@@ -15,14 +15,20 @@ feature_v2:
 subfeature_v2:
   - id: f7479fa1-474b-479d-8c98-f6cee5865a38
   - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 192
-ht-degree: 68%
+source-wordcount: 216
+ht-degree: 60%
 
 ---
 
 # Modifier le contenu d’une campagne d’action {#action-campaign-content}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** concevez et testez le contenu de votre campagne pour le canal que vous avez sélectionné afin que chaque message soit prêt avant d’activer la campagne.
+
+>[!ENDSHADEBOX]
 
 Pour configurer le contenu du message, accédez à l’onglet **[!UICONTROL Contenu]** ou cliquez sur le bouton **[!UICONTROL Modifier le contenu]**.
 
