@@ -21,14 +21,20 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 2765
+source-wordcount: 2785
 ht-degree: 63%
 
 ---
 
 # Questions fréquentes {#faq-oc}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** trouvez des réponses aux questions fréquentes sur les campagnes orchestrées, y compris les modèles de données, les canaux, les activités, la publication et le consentement.
+
+>[!ENDSHADEBOX]
 
 Vous trouverez ci-dessous les questions fréquentes sur les campagnes orchestrées Adobe Journey Optimizer.
 

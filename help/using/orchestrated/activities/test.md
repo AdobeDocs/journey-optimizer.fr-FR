@@ -14,14 +14,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 412
-ht-degree: 28%
+source-wordcount: 439
+ht-degree: 26%
 
 ---
 
 # Test {#test}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment utiliser l’activité Contrôle de flux de test pour créer des branches d’une campagne orchestrée en activant différentes transitions en fonction des conditions que vous définissez.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_test"

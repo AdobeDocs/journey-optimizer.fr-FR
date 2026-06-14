@@ -12,14 +12,20 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 801
-ht-degree: 100%
+source-wordcount: 832
+ht-degree: 96%
 
 ---
 
 # Partage {#split}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez comment utiliser l&#39;activité de ciblage Partage pour segmenter la population entrante d&#39;une campagne orchestrée en plusieurs sous-ensembles en fonction des règles de filtrage, des limites ou de la taille de la population.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split"

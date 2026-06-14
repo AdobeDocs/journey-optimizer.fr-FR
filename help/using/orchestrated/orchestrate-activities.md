@@ -12,14 +12,20 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 937
-ht-degree: 94%
+source-wordcount: 957
+ht-degree: 92%
 
 ---
 
 # Activités de campagne orchestrée {#orchestrate}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment créer une campagne orchestrée en ajoutant, en configurant et en connectant des activités sur la zone de travail visuelle.
+
+>[!ENDSHADEBOX]
 
 Une fois que vous avez [créé une campagne orchestrée](gs-campaign-creation.md), vous pouvez commencer à orchestrer les différentes tâches qu’elle exécutera. Pour ce faire, une zone de travail visuelle dédiée vous permet de créer une zone de travail de campagne orchestrée. Dans cette zone de travail, vous pouvez ajouter différentes activités et les relier dans un ordre séquentiel.
 

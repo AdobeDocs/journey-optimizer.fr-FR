@@ -16,14 +16,20 @@ topic_v2:
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 306
-ht-degree: 100%
+source-wordcount: 337
+ht-degree: 90%
 
 ---
 
 # Étapes clés pour créer une campagne orchestrée {#orchestrated-campaign-creation}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez les principales étapes de création et de lancement d’une campagne orchestrée dans Adobe Journey Optimizer, depuis sa création et sa planification jusqu’à l’orchestration des activités, la surveillance de l’exécution et l’analyse des résultats.
+
+>[!ENDSHADEBOX]
 
 Cette page vous guide tout au long des étapes essentielles pour créer et lancer une campagne orchestrée, de la configuration et la conception à la surveillance et le reporting.
 

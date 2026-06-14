@@ -13,14 +13,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 466
-ht-degree: 85%
+source-wordcount: 497
+ht-degree: 80%
 
 ---
 
 # Configurer une dimension de ciblage {#configuration}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment configurer une dimension de ciblage pour les campagnes orchestrées en mappant un schéma relationnel au profil client afin de diffuser des messages au niveau de l’entité.
+
+>[!ENDSHADEBOX]
 
 Grâce aux **[!UICONTROL campagnes orchestrées]**, vous pouvez concevoir et diffuser des communications ciblées au niveau de l’entité, en exploitant les fonctionnalités du schéma relationnel de Adobe Experience Platform. Experience Platform utilise des schémas pour décrire la structure des données de manière cohérente et réutilisable. Lorsque des données sont ingérées dans Experience Platform, elles sont structurées en fonction d’un schéma XDM.
 

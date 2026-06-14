@@ -17,14 +17,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 734
+source-wordcount: 756
 ht-degree: 12%
 
 ---
 
 # Mécanismes de sécurisation et limitations {#guardrails}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** passez en revue les mécanismes de sécurisation et les limitations qui s’appliquent au stockage des données, à l’ingestion, à la modélisation des données, aux activités et aux canaux dans les campagnes orchestrées.
+
+>[!ENDSHADEBOX]
 
 Vous trouverez ci-dessous les mécanismes de sécurisation et les limitations lors de l’utilisation de campagnes orchestrées.
 

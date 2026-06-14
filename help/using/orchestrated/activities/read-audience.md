@@ -15,14 +15,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 669
-ht-degree: 100%
+source-wordcount: 706
+ht-degree: 94%
 
 ---
 
 # Lecture d’audience {#read-audience}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment utiliser l’activité Lecture d’audience pour récupérer une audience existante enregistrée ou importée et la réutiliser dans une campagne orchestrée, en l’enrichissant éventuellement d’attributs de profil pour le ciblage, la personnalisation ou le compte rendu des performances.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_read_audience"

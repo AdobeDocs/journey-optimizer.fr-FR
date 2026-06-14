@@ -11,14 +11,20 @@ product_v2:
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 329
-ht-degree: 93%
+source-wordcount: 364
+ht-degree: 84%
 
 ---
 
 # Utiliser le créateur de règles {#orchestrated-rule-builder}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez comment utiliser le créateur de règles pour filtrer les données et créer les requêtes qui ciblent les audiences dans vos campagnes orchestrées.
+
+>[!ENDSHADEBOX]
 
 Les campagnes orchestrées s’accompagnent d’un créateur de règles qui simplifie le processus de filtrage de la base de données en fonction de divers critères. Le créateur de règles gère efficacement des requêtes très complexes et longues, offrant une flexibilité et une précision optimisées.
 

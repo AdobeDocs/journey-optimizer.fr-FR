@@ -13,14 +13,20 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 1912
-ht-degree: 93%
+source-wordcount: 1947
+ht-degree: 92%
 
 ---
 
 # Créer votre première règle {#build-query}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment utiliser le créateur de règles pour créer des requêtes ciblées pour vos campagnes orchestrées en ajoutant des conditions à partir d’attributs et d’expressions de base de données, en les combinant avec des opérateurs logiques et en validant les résultats.
+
+>[!ENDSHADEBOX]
 
 Les principales étapes pour créer des règles pour vos campagnes orchestrées sont les suivantes :
 

@@ -11,14 +11,20 @@ product_v2:
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 815
-ht-degree: 95%
+source-wordcount: 838
+ht-degree: 92%
 
 ---
 
 # Ingérer des données {#ingest-data}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment ingérer des données dans Adobe Experience Platform à partir de sources prises en charge et configurer un flux de données pour vos campagnes orchestrées.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

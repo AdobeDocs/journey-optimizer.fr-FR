@@ -9,15 +9,21 @@ version: Campaign Orchestration
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 909
-ht-degree: 68%
+source-wordcount: 938
+ht-degree: 66%
 
 ---
 
 
 # Créer des requêtes de reciblage {#retarget}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment créer des règles de reciblage basées sur les commentaires et le tracking qui assurent le suivi auprès des destinataires en fonction de leur réponse à une campagne orchestrée précédente.
+
+>[!ENDSHADEBOX]
 
 Le reciblage permet de relancer les destinataires en fonction de leur réaction à une campagne orchestrée précédente. Par exemple, il est possible d’envoyer un deuxième e-mail aux destinataires qui ont reçu, mais n’ont pas cliqué sur le premier.
 

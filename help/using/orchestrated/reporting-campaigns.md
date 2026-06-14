@@ -14,14 +14,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 151
-ht-degree: 67%
+source-wordcount: 185
+ht-degree: 55%
 
 ---
 
 # Rapports de campagnes orchestrées {#report-campaigns}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez les rapports en direct et en continu disponibles pour les campagnes orchestrées dans Adobe Journey Optimizer, et apprenez à mesurer l’engagement et les performances des canaux par e-mail, SMS, notification push et courrier.
+
+>[!ENDSHADEBOX]
 
 Une campagne orchestrée vous fournit des informations exploitables grâce à ses puissantes fonctionnalités de reporting. Ces informations vous aident à mieux comprendre le comportement de l’audience, à mesurer les performances de chaque étape de votre parcours client et à prendre des décisions basées sur les données afin d’optimiser les campagnes futures. Grâce aux mesures et visualisations détaillées, vous pouvez suivre l’engagement et affiner vos stratégies de ciblage pour un impact maximal.
 
