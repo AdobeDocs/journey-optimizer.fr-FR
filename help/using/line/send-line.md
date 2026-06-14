@@ -21,14 +21,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 8f016fe08e76f896eeb71b96e582e4e7e8fc3c9f
 workflow-type: tm+mt
-source-wordcount: 236
-ht-degree: 79%
+source-wordcount: 263
+ht-degree: 71%
 
 ---
 
 # Vérifier et envoyer votre message LINE {#send-line}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** prévisualisez, simulez et validez votre message LINE afin de résoudre les avertissements ou les erreurs et de l’envoyer en toute confiance via votre parcours ou campagne.
+
+>[!ENDSHADEBOX]
 
 ## Prévisualiser votre message texte {#preview-line}
 

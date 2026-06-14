@@ -20,14 +20,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 8f016fe08e76f896eeb71b96e582e4e7e8fc3c9f
 workflow-type: tm+mt
-source-wordcount: 164
-ht-degree: 100%
+source-wordcount: 188
+ht-degree: 87%
 
 ---
 
 # Commencer avec LINE {#get-started-line}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez comment fonctionne la messagerie LINE dans Journey Optimizer afin de pouvoir atteindre les clients sur leur application LINE par le biais de parcours et de campagnes.
+
+>[!ENDSHADEBOX]
 
 Utilisez [!DNL Journey Optimizer] pour envoyer des messages LINE à vos clients et clientes sur leur application LINE. Vous pouvez créer, personnaliser et prévisualiser des messages dans l’éditeur LINE.
 
