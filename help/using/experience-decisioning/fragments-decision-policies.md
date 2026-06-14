@@ -189,4 +189,4 @@ Dans cet exemple, la politique de décision comprend deux éléments de décisio
 
 Découvrez comment utiliser les fragments de contenu Adobe Experience Manager avec Journey Optimizer Decisioning pour personnaliser et optimiser le contenu.
 
->[!VIDEO](https://video.tv.adobe.com/v/3492215/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3492217/?captions=fre_fr&learn=on&enablevpops)
