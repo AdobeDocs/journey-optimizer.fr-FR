@@ -42,7 +42,7 @@ ht-degree: 70%
 
 Vous trouverez ci-dessous des mécanismes de sécurisation et des limitations lors de l’utilisation d’[!DNL Adobe Journey Optimizer].
 
-Les droits, les limitations de produit et les mécanismes de sécurisation des performances sont répertoriés dans la [page de description du produit Adobe Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Les droits, les limitations de produit et les mécanismes de sécurisation des performances sont répertoriés dans la [page de description du produit Adobe Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 >[!CAUTION]
 >
