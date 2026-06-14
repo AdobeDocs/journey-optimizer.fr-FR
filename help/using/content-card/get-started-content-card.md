@@ -7,29 +7,25 @@ role: User
 level: Beginner
 exl-id: 64f6bd0e-f910-469b-b089-570668d4c4f2
 TQID: https://experienceleague.adobe.com/z3r5z9-AxswpuG4whRbbpkyvqONUyuyU3xOsY81p5Cw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: bc543dba-f0db-4234-b5da-877a5c1664e2
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: bc543dba-f0db-4234-b5da-877a5c1664e2id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 220cd161bdc125459ccf17fb7414ba4b4c6360bb
 workflow-type: tm+mt
-source-wordcount: 168
-ht-degree: 100%
+source-wordcount: 196
+ht-degree: 85%
 
 ---
 
 # Commencer avec les cartes de contenu {#get-started-content-card}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** les cartes de contenu diffusent des messages personnalisés et non intrusifs directement dans vos applications mobiles et sites web, en engageant les utilisateurs dans le contexte sans interrompre ce qu’ils sont venus faire.
+
+>[!ENDSHADEBOX]
 
 Les cartes de contenu sont une nouvelle fonctionnalité de messagerie numérique d’Adobe Journey Optimizer qui fournit du contenu personnalisé et attrayant, directement dans les applications mobiles et les sites web. Contrairement aux notifications push traditionnelles, les cartes de contenu s’intègrent de manière transparente à l’interface d’utilisation, en offrant des mises à jour persistantes et non intrusives qui améliorent l’interaction et l’expérience des utilisateurs et utilisatrices.
 

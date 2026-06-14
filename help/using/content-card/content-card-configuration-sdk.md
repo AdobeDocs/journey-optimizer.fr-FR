@@ -7,29 +7,25 @@ role: Admin
 level: Experienced
 exl-id: bb67b55f-2eac-4775-a9f5-78288009477e
 TQID: https://experienceleague.adobe.com/g6SvbQdYTKgvcbEggw4RmjGY-25x7Abm-byZ4UqT4NE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: bc543dba-f0db-4234-b5da-877a5c1664e2
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: bc543dba-f0db-4234-b5da-877a5c1664e2id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 509
-ht-degree: 100%
+source-wordcount: 543
+ht-degree: 93%
 
 ---
 
 # Configurer la prise en charge des cartes de contenu dans le SDK web {#content-card-configuration-sdk}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** configurez et exécutez l’exemple qui récupère et effectue le rendu des cartes de contenu avec Adobe Experience Platform Web SDK afin de pouvoir diffuser du contenu personnalisé côté client sur vos pages web.
+
+>[!ENDSHADEBOX]
 
 Cet exemple explique comment récupérer les cartes de contenu depuis Adobe Journey Optimizer (AJO) à l’aide d’Adobe Experience Platform. En utilisant le [SDK web d’Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/home), le contenu de personnalisation est récupéré et rendu entièrement du côté client.
 
