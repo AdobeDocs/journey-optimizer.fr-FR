@@ -8,30 +8,26 @@ role: User
 level: Beginner, Intermediate
 exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
 TQID: https://experienceleague.adobe.com/Prpr3jo8SYkY7dI-eXrN9ZBm4SdjePKJY7i0ze2Xu5M
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1285
-ht-degree: 100%
+source-wordcount: 1319
+ht-degree: 97%
 
 ---
 
 # Verrouiller le contenu dans les modèles d’e-mail {#lock-content-email-templates}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment verrouiller le contenu dans les modèles d’e-mail, au niveau de la structure ou du composant ou en lecture seule, afin d’éviter des modifications inattendues lorsque les spécialistes marketing réutilisent vos modèles dans Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_governance"
@@ -204,8 +200,8 @@ Voici quelques exemples de modifications d’e-mails et de configurations de ver
 | Type de verrouillage de contenu | Configuration des modèles | Modification d’e-mails |
 | ------- | ------- | ------- |
 | Modèle de contenu en lecture seule | ![](assets/locking-sample-read-only-conf.png){zoomable="yes"} | ![](assets/locking-sample-read-only.png){zoomable="yes"} |
-| L’intégralité du contenu est modifiable, mais les utilisateurs et les utilisatrices ne peuvent pas ajouter de structure ni de composant. | ![](assets/locking-sample-no-addition-conf.png){zoomable="yes"} | ![](assets/locking-sample-no-addition.png){zoomable="yes"} |
-| Structure verrouillée ne pouvant pas être supprimée. | ![](assets/locking-sample-structure-locked-conf.png){zoomable="yes"} | ![](assets/locking-sample-structure-locked.png){zoomable="yes"} |
+| Le contenu complet est modifiable, mais les personnes ne peuvent pas ajouter de structure ou de composant. | ![](assets/locking-sample-no-addition-conf.png){zoomable="yes"} | ![](assets/locking-sample-no-addition.png){zoomable="yes"} |
+| Structure verrouillée qui ne peut pas être supprimée. | ![](assets/locking-sample-structure-locked-conf.png){zoomable="yes"} | ![](assets/locking-sample-structure-locked.png){zoomable="yes"} |
 | Composant avec des styles verrouillés et qui ne peut pas être supprimé. Les personnes peuvent uniquement modifier le contenu. | ![](assets/locking-sample-content-only-conf.png){zoomable="yes"} | ![](assets/locking-sample-content-only.png){zoomable="yes"} |
 | Composant modifiable dans une structure verrouillée. | ![](assets/locking-sample-editable-component-conf.png){zoomable="yes"} | ![](assets/locking-sample-editable-component.png){zoomable="yes"} |
 
@@ -213,4 +209,4 @@ Voici quelques exemples de modifications d’e-mails et de configurations de ver
 
 Découvrez comment verrouiller le contenu dans vos modèles d’e-mail.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451609?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)
