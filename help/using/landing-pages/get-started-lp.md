@@ -10,29 +10,26 @@ level: Beginner
 keywords: destination, page de destination, commencer, prise en main
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 TQID: https://experienceleague.adobe.com/wr4XGNostKoN8jZ50VRAQPoGg9tsNhMOyJGEt1mASso
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 2956c3df01f4b2e753111ecf54163ec4084fecf2
 workflow-type: tm+mt
-source-wordcount: 735
-ht-degree: 96%
+source-wordcount: 781
+ht-degree: 91%
 
 ---
 
 # Prise en main des pages de destination {#get-started-lp}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** les pages de destination transforment un clic d’un e-mail, d’une publicité ou d’une campagne en une destination web dédiée où les clients s’inscrivent ou se désinscrivent, gèrent leurs préférences et partagent des données de profil - ce qui vous permet d’augmenter les audiences consentantes et de capturer les données propriétaires qui alimentent la personnalisation.
+
+>[!ENDSHADEBOX]
 
 Une page de destination est une page web autonome sur laquelle l’utilisateur arrive après avoir cliqué sur un lien présent dans un e-mail, un site Web, une publicité ou tout autre emplacement numérique.
 
@@ -75,7 +72,7 @@ Voici des exemples de cas d’utilisation :
 <a href="create-lp.md">
 <img alt="Lead" src="../assets/do-not-localize/lp-subscription.jpeg">
 </a>
-<div><a href="create-lp.md"><strong>Créer des landing pages</strong>
+<div><a href="create-lp.md"><strong>Créer des pages de destination</strong>
 </div>
 <p>
 </td>
@@ -129,6 +126,6 @@ La création et le déploiement d’une page de destination s’effectuent comme
 
 La vidéo ci-dessous montre comment créer une liste d’abonnements, configurer des pages de destination permettant de s’abonner à un service ou de s’en désabonner, intégrer l’option d’abonnement ou de désabonnement à un message et configurer les parcours pertinents.
 
->[!VIDEO](https://video.tv.adobe.com/v/344398?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
 
 ➡️ **Consultez-le en pratique :** Explorer [cas d’utilisation de la page de destination](lp-use-cases.md) pour obtenir des exemples détaillés sur la gestion des abonnements, les e-mails de confirmation et les scénarios de capture de données.

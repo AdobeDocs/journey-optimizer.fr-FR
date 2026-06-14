@@ -10,25 +10,24 @@ level: Experienced
 keywords: destination, page de destination, javascript, code
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
 TQID: https://experienceleague.adobe.com/h-F683Mfa0y21OXjFHlow5FHQA-EOgFanOyMP7R7jug
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: d595a60b-bcf5-4a63-a189-66a0be755cc7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
 workflow-type: tm+mt
-source-wordcount: 568
-ht-degree: 100%
+source-wordcount: 596
+ht-degree: 95%
 
 ---
 
 # Utilisation de code JavaScript personnalisé dans une page de destination {#lp-custom-js}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** étendez vos pages de destination avec du code JavaScript personnalisé pour valider les entrées, exécuter des envois de formulaires personnalisés, déclencher des événements d’analyse ou créer des comportements dynamiques au-delà de l’éditeur standard.
+
+>[!ENDSHADEBOX]
 
 Vous pouvez définir le contenu de votre page de destination à l&#39;aide d&#39;un code JavaScript personnalisé. Par exemple, si vous devez appliquer un style avancé ou si vous souhaitez ajouter des comportements personnalisés à vos pages de destination, vous pouvez créer vos propres contrôles et les exécuter dans [!DNL Journey Optimizer].
 
