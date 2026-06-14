@@ -12,14 +12,20 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 759
-ht-degree: 100%
+source-wordcount: 792
+ht-degree: 95%
 
 ---
 
 # Créer des stratégies de sélection {#selection-strategies}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** créez des stratégies de sélection réutilisables qui associent une collection à une contrainte d’éligibilité et une méthode de classement, afin qu’une politique de décision puisse déterminer les meilleures offres à présenter à chaque profil.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_strategies"

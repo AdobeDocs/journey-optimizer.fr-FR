@@ -11,14 +11,20 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1175
+source-wordcount: 1210
 ht-degree: 5%
 
 ---
 
 # API de migration vers la prise de décision {#decisioning-migration-api}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** utilisez l’API du service de migration de prise de décision pour déplacer les objets de gestion des décisions entre les sandbox avec une analyse des dépendances automatisée et la prise en charge de la restauration, afin que vous puissiez transférer le contenu de prise de décision entre les environnements tout en préservant l’intégrité des données.
+
+>[!ENDSHADEBOX]
 
 L’API Decisioning Migration Service vous permet de migrer des objets Decision Management d’un sandbox à un autre. Le processus de migration s’exécute sous la forme de workflows asynchrones qui incluent l’analyse des dépendances, l’exécution et des fonctionnalités de restauration facultatives.
 

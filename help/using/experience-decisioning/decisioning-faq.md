@@ -23,14 +23,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 858
-ht-degree: 98%
+source-wordcount: 887
+ht-degree: 95%
 
 ---
 
 # Questions fréquentes sur Decisioning {#decisioning-faq}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** trouvez des réponses aux questions courantes sur les fonctionnalités de prise de décision, y compris les règles de limitation, les formules de classement et le comportement du modèle d’IA, afin que vous puissiez configurer et résoudre les problèmes de prise de décision en toute confiance.
+
+>[!ENDSHADEBOX]
 
 Cette page fournit des réponses aux questions fréquentes sur les fonctionnalités de prise de décision dans Adobe Journey Optimizer.
 

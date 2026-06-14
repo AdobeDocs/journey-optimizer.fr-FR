@@ -22,14 +22,20 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 893
-ht-degree: 96%
+source-wordcount: 938
+ht-degree: 91%
 
 ---
 
 # Modèle d’optimisation personnalisé {#personalized-optimization-model}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** comprenez comment le modèle d’optimisation personnalisée utilise le machine learning pour apprendre des données client, d’offre et contextuelles, y compris ses exigences du jeu de données, ses hypothèses et son comportement de démarrage à froid, afin que vous puissiez décider quand l’utiliser pour diffuser des offres personnalisées et optimiser vos KPI.
+
+>[!ENDSHADEBOX]
 
 ## Vue d’ensemble {#overview}
 

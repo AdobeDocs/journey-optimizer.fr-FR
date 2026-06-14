@@ -22,14 +22,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1731
-ht-degree: 64%
+source-wordcount: 1775
+ht-degree: 63%
 
 ---
 
 # Créer des formules de classement {#create-ranking-formulas}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** créez des formules de classement avec le créateur de formules d’IA qui combinent les scores du modèle d’IA, les priorités des offres, les attributs de profil et les signaux contextuels, afin que vous puissiez contrôler quelle offre est présentée en premier et aligner la prise de décision à la fois sur les objectifs de votre entreprise et les besoins de vos clients.
+
+>[!ENDSHADEBOX]
 
 Les **formules de classement** vous permettent de définir des règles déterminant quelle offre doit être présentée en premier, plutôt que de prendre en compte les scores de priorité.
 

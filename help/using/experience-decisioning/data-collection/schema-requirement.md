@@ -23,14 +23,20 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 291
-ht-degree: 100%
+source-wordcount: 323
+ht-degree: 90%
 
 ---
 
 # Configurer la collecte de données {#schema-requirements}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Configurez les exigences du schéma d’événement d’expérience et d’interaction de proposition pour les événements d’impression, de clic et personnalisés, afin que la prise de décision puisse attribuer précisément les commentaires pour le compte rendu des performances et l’optimisation du classement basé sur l’IA.
+
+>[!ENDSHADEBOX]
 
 Pour obtenir des commentaires sur des types d’événement autres que les événements de décision, vous devez définir la valeur correcte de chaque type d’événement présent dans un **événement d’expérience** envoyé à Adobe Experience Platform.
 

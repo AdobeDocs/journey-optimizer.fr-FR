@@ -23,14 +23,20 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 328
-ht-degree: 89%
+source-wordcount: 355
+ht-degree: 83%
 
 ---
 
 # Commencer avec les fonctionnalités de décision dans [!DNL Journey Optimizer] {#gs-decision}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** comparez les fonctionnalités de prise de décision et de gestion des décisions de Journey Optimizer afin de choisir l’approche appropriée pour la diffusion d’offres personnalisées sur vos canaux.
+
+>[!ENDSHADEBOX]
 
 Les fonctionnalités de décision dans [!DNL Journey Optimizer] vous permettent de proposer les meilleures offres et expériences personnalisées à vos clientes et vos clients sur tous les points de contact, et ce, exactement au bon moment. Ces fonctionnalités simplifient la personnalisation grâce à un catalogue centralisé d’offres marketing et à un moteur de décision avancé, qui utilise des règles et des critères de classement pour diffuser le contenu le plus pertinent pour chaque personne.
 

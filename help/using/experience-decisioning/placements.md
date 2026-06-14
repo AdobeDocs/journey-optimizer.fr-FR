@@ -12,14 +12,20 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 302
-ht-degree: 100%
+source-wordcount: 332
+ht-degree: 90%
 
 ---
 
 # Utiliser des placements {#create-decision}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** créez des emplacements et associez-les à des politiques de décision dans vos e-mails afin que les bons éléments de décision apparaissent au bon emplacement et que vous puissiez suivre leurs performances.
+
+>[!ENDSHADEBOX]
 
 ## À propos des emplacements {#about}
 

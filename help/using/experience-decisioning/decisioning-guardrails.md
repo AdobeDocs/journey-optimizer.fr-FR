@@ -19,14 +19,20 @@ level_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 281
-ht-degree: 79%
+source-wordcount: 314
+ht-degree: 71%
 
 ---
 
 # Mécanismes de sécurisation et limitations de la prise de décisions {#decisioning-guardrails}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** passez en revue les mécanismes de sécurisation et les limites qui s&#39;appliquent à Decisioning sur les demandes de décision, les éléments, les politiques, les règles d&#39;éligibilité et les formules de classement, afin que vous puissiez concevoir des configurations de prise de décision qui respectent les seuils pris en charge.
+
+>[!ENDSHADEBOX]
 
 Pour garantir une utilisation optimale de la prise de décision, gardez à l’esprit les mécanismes de sécurisation et les limitations suivants.
 

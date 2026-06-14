@@ -25,14 +25,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1215
-ht-degree: 95%
+source-wordcount: 1251
+ht-degree: 93%
 
 ---
 
 # Utiliser des données Adobe Experience Platform à des fins de prise de décision {#aep-data}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** utilisez les attributs du jeu de données Adobe Experience Platform dans vos règles de décision, formules de classement et règles de limitation afin d’enrichir la logique de décision avec des données externes dynamiques qui changent fréquemment, telles que l’inventaire ou la tarification.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset"

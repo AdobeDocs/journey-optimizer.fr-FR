@@ -25,14 +25,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 771
-ht-degree: 92%
+source-wordcount: 806
+ht-degree: 88%
 
 ---
 
 # Créer des modèles d’IA {#create-ai-models}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Créez des modèles d’IA d’optimisation automatique ou d’optimisation personnalisée et connectez-les à vos jeux de données de conversion, de sorte que le moteur de décision puisse automatiquement classer les offres et proposer la valeur de conversion la plus élevée à chaque profil.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] permet de créer des **modèles &#39;’IA** pour classer les offres en fonction des objectifs de votre entreprise.
 

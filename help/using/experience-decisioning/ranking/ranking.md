@@ -19,14 +19,20 @@ level_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 205
-ht-degree: 100%
+source-wordcount: 237
+ht-degree: 86%
 
 ---
 
 # Méthodes de classement {#rankings}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** créez des méthodes de classement, qu’il s’agisse de formules ou de modèles d’IA, et affectez-les à une stratégie de sélection, de sorte que le moteur de décision sache quels éléments éligibles présenter en premier pour chaque profil.
+
+>[!ENDSHADEBOX]
 
 Les méthodes de classement vous permettent de classer les éléments à afficher pour un profil donné. Une fois qu’une méthode de classement a été créée, vous pouvez l’affecter à une stratégie de sélection afin de définir les éléments à sélectionner en premier.
 

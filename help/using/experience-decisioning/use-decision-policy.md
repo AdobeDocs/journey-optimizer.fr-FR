@@ -23,14 +23,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1230
+source-wordcount: 1262
 ht-degree: 7%
 
 ---
 
 # Utiliser des politiques de décision dans les messages {#create-decision}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Insérez le code de la politique de décision dans votre expérience basée sur le code, votre e-mail, votre SMS, votre notification push et votre contenu de publipostage direct, afin de personnaliser les messages avec des attributs des éléments de décision renvoyés.
+
+>[!ENDSHADEBOX]
 
 Une fois que vous avez ajouté une politique de décision à votre contenu, vous pouvez utiliser les attributs des éléments de décision renvoyés pour la personnalisation. Pour ce faire, insérez d’abord le code de la politique de décision dans votre contenu.
 
