@@ -11,14 +11,20 @@ keywords: test, parcours, vérification, erreur, dépannage
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a61f805d573f11f255e386c35a5d79ab6650bcc5
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1452
+source-wordcount: 1479
 ht-degree: 3%
 
 ---
 
 # Prise en main de la simulation de Parcours {#simulate-journey-gs}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment la simulation de parcours vous permet de tester avec des utilisateurs simulés et comment l’expérience de la simulation varie en fonction du type de parcours que vous utilisez avant de procéder à la publication.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
@@ -38,7 +44,7 @@ Adobe Journey Optimizer propose deux méthodes pour tester et valider votre parc
 
 Le panneau **[!UICONTROL Simulation]** affiche uniquement les étapes dont votre parcours a besoin. Cela dépend de la manière dont les profils entrent dans le parcours. À partir de ces facteurs, Adobe Journey Optimizer fait apparaître différentes expériences de simulation. Développez chaque type ci-dessous pour voir en quoi l’exécution diffère et quels panneaux vous utilisez.
 
-Pour plus d’informations, voir [&#x200B; Simuler votre parcours &#x200B;](simulate-journey.md).
+Pour plus d’informations, voir [ Simuler votre parcours ](simulate-journey.md).
 
 +++ Parcours par lots avec une audience de lecture
 
@@ -70,7 +76,7 @@ Les utilisateurs simulés sélectionnés pour la simulation et les événements 
 
 ## Lancer la simulation {#launch}
 
-Passez le parcours à **[!UICONTROL Simulation]** pour le tester avec des utilisateurs et utilisatrices simulés. Les tâches détaillées sont présentées dans la section [&#x200B; Simuler votre parcours &#x200B;](simulate-journey.md).
+Passez le parcours à **[!UICONTROL Simulation]** pour le tester avec des utilisateurs et utilisatrices simulés. Les tâches détaillées sont présentées dans la section [ Simuler votre parcours ](simulate-journey.md).
 
 1. Dans le parcours, cliquez sur **[!UICONTROL Simuler]** et choisissez **[!UICONTROL Simuler]**.
 
@@ -94,7 +100,7 @@ Certains nœuds empêchent le démarrage de la **[!UICONTROL Simulation]**. D’
 | ID supplémentaire (plusieurs reprises) | La **[!UICONTROL simulation]** ne démarre pas lorsque plusieurs reprises sont activées et qu’un même utilisateur simulé peut avoir plusieurs instances actives à la fois. |
 | Nœud de décision de contenu | Supprimez ou modifiez cette activité avant de simuler le parcours. |
 | Recherche de jeu de données | **[!UICONTROL Simulation]** ne prend pas en charge les recherches de jeux de données client par clé. Supprimez ou modifiez cette activité avant d&#39;exécuter une simulation. |
-| Activité **[!UICONTROL Optimiser]** | **[!UICONTROL Expérience]** et **[!UICONTROL Règle de ciblage]** ne sont pas pris en charge. Supprimez ou modifiez le nœud avant de procéder à la simulation.<br><br>Les autres méthodes **[!UICONTROL Optimize]** se comportent comme suit :<br><br>**[!UICONTROL Partage en pourcentage &#x200B;]**: le Journey Agent crée un utilisateur simulé par branche, et non en fonction des pourcentages de branche. Au moment de l’exécution, l’évaluation en direct sélectionne la branche qui peut différer du chemin généré. Vous ne pouvez pas simuler un choix de branche. Pour diriger les utilisateurs, utilisez l’ordre des branches sur la zone de travail. La branche supérieure est toujours choisie.<br><br>**[!UICONTROL Condition de temps]** : les conditions s’appliquent au moment de l’exécution comme dans un parcours dynamique. Par exemple, une fenêtre de 8 :00 à 20 :00 permet uniquement aux utilisateurs de passer pendant que la simulation s’exécute à l’intérieur de cette fenêtre. Vous ne pouvez pas simuler l’heure d’exécution. Définissez la condition pour qu’elle corresponde à l’heure actuelle lors du test.<br><br>**[!UICONTROL Condition de date &#x200B;]**: les conditions s’appliquent au moment de l’exécution comme dans un parcours dynamique. Par exemple, la date du 8 juin 2026 permet uniquement aux utilisateurs de passer lorsque la simulation s’exécute à cette date. Vous ne pouvez pas simuler la date d’exécution. Définissez la condition sur la date actuelle lors du test.<br><br>**[!UICONTROL Limite de profil]** : les limites ne sont pas appliquées pendant la simulation. Le Journey Agent crée un utilisateur simulé par branche. Vous ne pouvez pas simuler un choix de branche. Pour diriger les utilisateurs, utilisez l’ordre des branches sur la zone de travail. La branche supérieure est toujours choisie. |
+| Activité **[!UICONTROL Optimiser]** | **[!UICONTROL Expérience]** et **[!UICONTROL Règle de ciblage]** ne sont pas pris en charge. Supprimez ou modifiez le nœud avant de procéder à la simulation.<br><br>Les autres méthodes **[!UICONTROL Optimize]** se comportent comme suit :<br><br>**[!UICONTROL Partage en pourcentage ]**: le Journey Agent crée un utilisateur simulé par branche, et non en fonction des pourcentages de branche. Au moment de l’exécution, l’évaluation en direct sélectionne la branche qui peut différer du chemin généré. Vous ne pouvez pas simuler un choix de branche. Pour diriger les utilisateurs, utilisez l’ordre des branches sur la zone de travail. La branche supérieure est toujours choisie.<br><br>**[!UICONTROL Condition de temps]** : les conditions s’appliquent au moment de l’exécution comme dans un parcours dynamique. Par exemple, une fenêtre de 8 :00 à 20 :00 permet uniquement aux utilisateurs de passer pendant que la simulation s’exécute à l’intérieur de cette fenêtre. Vous ne pouvez pas simuler l’heure d’exécution. Définissez la condition pour qu’elle corresponde à l’heure actuelle lors du test.<br><br>**[!UICONTROL Condition de date ]**: les conditions s’appliquent au moment de l’exécution comme dans un parcours dynamique. Par exemple, la date du 8 juin 2026 permet uniquement aux utilisateurs de passer lorsque la simulation s’exécute à cette date. Vous ne pouvez pas simuler la date d’exécution. Définissez la condition sur la date actuelle lors du test.<br><br>**[!UICONTROL Limite de profil]** : les limites ne sont pas appliquées pendant la simulation. Le Journey Agent crée un utilisateur simulé par branche. Vous ne pouvez pas simuler un choix de branche. Pour diriger les utilisateurs, utilisez l’ordre des branches sur la zone de travail. La branche supérieure est toujours choisie. |
 | Branchements Temporisation et Erreur | Le Journey Agent ne génère pas d’utilisateurs pour les branches temporisation ou erreur de l’activité. Les utilisateurs ne saisissent ces chemins que si une temporisation ou une erreur réelle se produit lors de la simulation. |
 | Branche Temporisation (activités d’événement) | Les utilisateurs simulés sont créés, mais dans la **[!UICONTROL simulation manuelle]** le Journey Agent ne décide pas qui accède à une branche de temporisation d’événement. Contrôlez le chemin en envoyant ou non l’événement . Par exemple, pour tester une branche de temporisation, attendez la temporisation configurée et n’envoyez pas l’événement. La **[!UICONTROL simulation rapide]** peut envoyer ou différer automatiquement des événements pour couvrir les branches de temporisation. |
 | Événements de réaction | Les événements de réaction s’exécutent en simulation, mais l’action doit se produire dans la vie réelle. Par exemple, une réaction **ouverture** d’e-mail nécessite l’ouverture du message de l’épreuve. Vous ne pouvez pas simuler des réactions dans l’interface utilisateur de la simulation. |
@@ -137,8 +143,8 @@ Ces mécanismes de sécurisation s’appliquent à **[!UICONTROL Simulation]**. 
 | Mécanisme de sécurisation | Limite | Notes |
 | --- | --- | --- |
 | Nombre maximal d’utilisateurs simulés pouvant être sélectionnés et déclenchés dans un lot (parcours par lots, flux déclenchés par un événement et flux de qualification d’audience) | 20 | Comptabilisé pour chaque **[!UICONTROL Envoyer tout]** ou **[!UICONTROL Déclencher les événements sélectionnés]**, et non une limite cumulée pour l’ensemble du parcours. |
-| Nombre maximal d’utilisateurs simulés par requête de génération | 50 | Nombre maximal d’utilisateurs simulés généré par Journey Agent en une seule demande par le biais de **[!UICONTROL Simulation rapide]** ou **[!UICONTROL Générer avec l’IA]** en **[!UICONTROL Simulation manuelle]**. Si le parcours comporte plus de 50 chemins d’accès **50**, le Journey Agent sélectionne de manière aléatoire les chemins d’accès pour générer ces utilisateurs simulés de 50 **&#x200B;**. |
-| Nombre maximal d’utilisateurs simulés uniques testés au cours d’une seule exécution de simulation | 100 | Atteindre **100** utilisateurs uniques en un seul bloc d’exécution **[!UICONTROL Sélectionner des utilisateurs simulés]** pour les nouveaux utilisateurs simulés. Si vous êtes à **90**, vous pouvez ajouter au plus 10 **&#x200B;**&#x200B;avant le même bloc. |
+| Nombre maximal d’utilisateurs simulés par requête de génération | 50 | Nombre maximal d’utilisateurs simulés généré par Journey Agent en une seule demande par le biais de **[!UICONTROL Simulation rapide]** ou **[!UICONTROL Générer avec l’IA]** en **[!UICONTROL Simulation manuelle]**. Si le parcours comporte plus de 50 chemins d’accès **50**, le Journey Agent sélectionne de manière aléatoire les chemins d’accès pour générer ces utilisateurs simulés de 50 ****. |
+| Nombre maximal d’utilisateurs simulés uniques testés au cours d’une seule exécution de simulation | 100 | Atteindre **100** utilisateurs uniques en un seul bloc d’exécution **[!UICONTROL Sélectionner des utilisateurs simulés]** pour les nouveaux utilisateurs simulés. Si vous êtes à **90**, vous pouvez ajouter au plus 10 **** avant le même bloc. |
 | Nombre maximal de parcours pouvant être exécutés en même temps dans un sandbox **[!UICONTROL Simulation]** | 20 | La limite est partagée par chaque parcours **[!UICONTROL Simulation]** à la fois dans ce sandbox. |
 | Nombre maximal d’utilisateurs actifs simulés dans un sandbox | 2,000 | Nombre maximal d’utilisateurs simulés pouvant exister simultanément dans le sandbox. Adobe peut ajuster cette limite en fonction des commentaires des clients. |
 | Préremplissage De L’Événement (Navigateur Uniquement) | — | Vous pouvez préremplir les champs de payload d’événement uniquement dans l’interface utilisateur de la simulation basée sur un navigateur. Les valeurs préremplies restent dans ce navigateur et ne sont pas synchronisées avec d’autres navigateurs, appareils ou sessions, de sorte que vous pouvez voir différentes données de préremplissage à chaque emplacement que vous testez. |

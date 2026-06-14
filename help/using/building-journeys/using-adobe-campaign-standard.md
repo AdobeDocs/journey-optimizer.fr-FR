@@ -11,31 +11,26 @@ keywords: parcours, intégration, standard, campagne, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/spxxZT-JH5yzziL8-oSkJdBcKEppm-4ZzeLC2-laCaM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 981
-ht-degree: 78%
+source-wordcount: 953
+ht-degree: 80%
 
 ---
 
 # Actions [!DNL Adobe Campaign] Standard {#using_campaign_action}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment utiliser les activités d’action Adobe Campaign Standard intégrées E-mail, Push et SMS dans vos parcours en vous appuyant sur les modèles de messagerie transactionnelle Campaign Standard.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_acs"
@@ -54,7 +49,7 @@ Pour chacun de ces canaux, vous sélectionnez un modèle de message transactionn
 >
 >Le message transactionnel Campaign Standard et son événement associé doivent être publiés pour être utilisés dans Journey Optimizer. Si l’événement est publié mais que le message ne l’est pas, il ne sera pas visible dans l’interface de Journey Optimizer. Si le message est publié mais que son événement associé ne l’est pas, il sera visible dans l’interface de Journey Optimizer, mais il ne sera pas utilisable.
 
-Configuration de l’action ![[!DNL Adobe Campaign] Standard dans le parcours &#x200B;](assets/journey59.png)
+Configuration de l’action ![[!DNL Adobe Campaign] Standard dans le parcours ](assets/journey59.png)
 
 Vous pouvez utiliser un modèle de message transactionnel basé sur un événement (appelé également en temps réel) ou sur un profil.
 
@@ -73,8 +68,8 @@ Les paramètres sont identiques pour **[!UICONTROL E-mail]** et **[!UICONTROL SM
 >[!NOTE]
 >
 >Lors de l’utilisation du modèle transactionnel d’un profil pour l’e-mail, le mécanisme de désabonnement est automatiquement géré par [!DNL Adobe Campaign] Standard.
->Incluez un bloc de contenu **[!UICONTROL Lien de désinscription]** dans [modèle d’e-mail transactionnel](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=fr).
->Si vous utilisez un modèle basé sur un événement (rtEvent), incorporez dans le message un lien qui transmet l’e-mail du destinataire comme paramètre d’URL et le dirige vers une page de destination de désinscription.
+>Incluez un bloc de contenu **[!UICONTROL Lien de désinscription]** dans [le modèle d’e-mail transactionnel](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=fr).
+>Si vous utilisez un modèle basé sur un événement (rtEvent), incorporez dans le message un lien qui transmet l’e-mail du destinataire sous forme de paramètre d’URL et le dirige vers une page de destination de désinscription.
 >Créez la page de destination et assurez-vous que la décision de désabonnement du destinataire est transmise à Adobe.
 
 Vous devez, tout d’abord, choisir un modèle de message transactionnel.

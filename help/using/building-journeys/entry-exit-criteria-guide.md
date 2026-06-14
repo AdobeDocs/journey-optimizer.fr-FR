@@ -10,35 +10,26 @@ keywords: entrée, sortie, critères, parcours, profil, reprise, bonnes pratique
 version: Journey Orchestration
 exl-id: e879a0f6-b969-4de0-a733-f2880d58d59b
 TQID: https://experienceleague.adobe.com/6OJQsorJ9p7gtO1ep-rIss60J2TmKzqiNS3Btfhh8Gs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1670
-ht-degree: 92%
+source-wordcount: 1700
+ht-degree: 91%
 
 ---
 
 # Utiliser les critères d’entrée et de sortie d’un parcours {#entry-exit-criteria-guide}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment définir et configurer des critères d’entrée et de sortie de parcours, avec des exemples réels et des bonnes pratiques pour contrôler le moment où les profils entrent et sortent de vos parcours.
+
+>[!ENDSHADEBOX]
 
 Dans l’orchestration de l’expérience client, diffuser le bon message au bon moment nécessite un contrôle précis des moments où les personnes rejoignent vos parcours et en sortent. Comprendre et configurer correctement les critères d’entrée et de sortie peut faire la différence entre une campagne réussie et attrayante et les opportunités manquées ou la lassitude face aux messages.
 
@@ -114,7 +105,7 @@ Collectez des informations sur la satisfaction client et les performances des pr
 
 * **Entrée** : les personnes rejoignent le parcours après réception d’un événement de confirmation de diffusion du produit.
 * **Sortie** : les profils quittent le parcours une fois les commentaires envoyés ou après 10 jours en l’absence de réponse.
-* **Avantage &#x200B;** : capture rapidement des commentaires utiles sans importuner la clientèle par des demandes persistantes.
+* **Avantage ** : capture rapidement des commentaires utiles sans importuner la clientèle par des demandes persistantes.
 
 ## Configurer les critères d’entrée de parcours {#configure-entry}
 
@@ -122,7 +113,7 @@ Collectez des informations sur la satisfaction client et les performances des pr
 
 **Découvrez ici tout ce que vous devez savoir sur les critères d’entrée :**
 
-* **[Déclencheurs basés sur un événement](../event/about-events.md)** : utilisez des événements tels que « création de profil », « transaction terminée » ou des événements personnalisés pour lancer un parcours. [Configurez les événements](../event/about-creating.md) dans **[!UICONTROL Administration]** > **[!UICONTROL Événements]** et définissez [le schéma et les champs d’événement](../event/experience-event-schema.md). Ajoutez ensuite l’événement à partir de la palette **[!UICONTROL Événements]** dans le concepteur de parcours [&#128279;](using-the-journey-designer.md).
+* **[Déclencheurs basés sur un événement](../event/about-events.md)** : utilisez des événements tels que « création de profil », « transaction terminée » ou des événements personnalisés pour lancer un parcours. [Configurez les événements](../event/about-creating.md) dans **[!UICONTROL Administration]** > **[!UICONTROL Événements]** et définissez [le schéma et les champs d’événement](../event/experience-event-schema.md). Ajoutez ensuite l’événement à partir de la palette **[!UICONTROL Événements]** dans le concepteur de parcours [](using-the-journey-designer.md).
 
 * **[Entrée basée sur l’audience](read-audience.md)** : les parcours cibles sont destinés aux profils qui appartiennent à des audiences spécifiques, sous la forme d’un lot unique ou selon un planning récurrent. [Créez des audiences](../audience/creating-a-segment-definition.md) dans le menu **[!UICONTROL Audiences]**, puis ajoutez une activité **[!UICONTROL Lecture d’audience]** et [configurez le planning](journey-properties.md#schedule). Après l’entrée, utilisez des conditions pour [segmenter, exclure ou fusionner des branches](read-audience.md#audience-targeting-in-journeys).
 
@@ -168,7 +159,7 @@ Pour obtenir des conseils de mise en œuvre détaillés avec des détails techni
 
 >[!TIP]
 >
->Parcourez tous les cas d’utilisation disponibles dans la bibliothèque de cas d’utilisation de Parcours [&#128279;](jo-use-cases.md) pour plus de modèles et d’implémentations. Par exemple, [améliorez les diffusions](ramp-up-deliveries-uc.md), [modèles d’événement d’expérience](exp-event-lookup.md) et [supprimez des profils des parcours en direct](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey).
+>Parcourez tous les cas d’utilisation disponibles dans la bibliothèque de cas d’utilisation de Parcours [](jo-use-cases.md) pour plus de modèles et d’implémentations. Par exemple, [améliorez les diffusions](ramp-up-deliveries-uc.md), [modèles d’événement d’expérience](exp-event-lookup.md) et [supprimez des profils des parcours en direct](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey).
 
 ## Bonnes pratiques de gestion des entrées et des sorties {#best-practices}
 
@@ -230,7 +221,7 @@ Commencez par mapper clairement les déclencheurs et les points de sortie de vos
 
 **Tutoriels et exemples**
 
-[Cas d’utilisation des parcours](jo-use-cases.md) | [Vidéo sur l’intégration des clients et des clientes](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Vidéo sur les paniers abandonnés](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog de la communauté : critères d’entrée et de sortie](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=fr)
+[Cas d’utilisation des parcours](jo-use-cases.md) | [Vidéo sur l’intégration des clients et des clientes](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Vidéo sur les paniers abandonnés](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog de la communauté : critères d’entrée et de sortie](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **Fonctionnalités associées**
 

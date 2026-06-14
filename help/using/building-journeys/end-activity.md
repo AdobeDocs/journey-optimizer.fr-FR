@@ -12,14 +12,20 @@ exl-id: 76c74ca3-edaa-48c5-8d6a-0906120e31a1
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 115
-ht-degree: 100%
+source-wordcount: 144
+ht-degree: 79%
 
 ---
 
 # Activité de fin{#end-activity}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez comment utiliser l’activité Fin pour marquer la fin de chaque chemin de parcours et ajouter des libellés qui facilitent la lecture de vos rapports de parcours.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_end"

@@ -11,26 +11,26 @@ keywords: parcours, balises
 exl-id: 44c255d1-121c-47d4-b407-161626ca3cb4
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/O8Igbj-JJGr0aej8xbSvZ51xkcJq8LeJ9JiveyBjBqQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 642
-ht-degree: 41%
+source-wordcount: 670
+ht-degree: 39%
 
 ---
 
 # Gérer les balises dans les parcours {#journey_tags}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment organiser les parcours avec des balises et des catégories de balises afin de classer, filtrer et retrouver vos parcours plus facilement qu’avec des conventions de nommage.
+
+>[!ENDSHADEBOX]
 
 En tant qu’utilisateur ou utilisatrice de Journey Optimizer, vous pouvez identifier vos parcours à l’aide de balises. Les balises constituent un moyen simple et rapide de classer des objets afin de faciliter leur recherche.
 
@@ -47,7 +47,7 @@ Avantages des catégories de balises par rapport aux conventions de nommage :
 * **Clarté** — Les noms de parcours restent courts et axés sur les jalons.
 * **Évolutivité** : l’ajout d’une nouvelle dimension de métadonnées implique la création d’une catégorie de balises, et non la réécriture d’une convention de nommage.
 
-Pour obtenir un workflow de configuration recommandé, voir [Configurer des catégories de balises pour la gestion des parcours &#x200B;](#tags-setup) ci-dessous.
+Pour obtenir un workflow de configuration recommandé, voir [Configurer des catégories de balises pour la gestion des parcours ](#tags-setup) ci-dessous.
 
 ## Ajouter des balises à un parcours
 
@@ -105,4 +105,4 @@ Veillez à ce que le nom du parcours reste axé sur le jalon client qu’il fran
 
 >[!TIP]
 >
->Pour une discussion plus large sur cette approche et ses avantages à grande échelle, consultez [Bonnes pratiques pour les parcours avancés dans Journey Optimizer](https://experienceleague.adobe.com/fr/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+>Pour une discussion plus large sur cette approche et ses avantages à grande échelle, consultez [Bonnes pratiques pour les parcours avancés dans Journey Optimizer](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.

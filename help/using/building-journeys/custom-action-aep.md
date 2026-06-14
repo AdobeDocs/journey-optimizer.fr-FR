@@ -10,26 +10,25 @@ level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/TbX3usHKfEM6WQPjFRjo2jCSb78rcbYEWWmV0tpGdj4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 418
-ht-degree: 85%
+source-wordcount: 442
+ht-degree: 81%
 
 ---
 
 # Utiliser des actions personnalisées pour écrire des événements de parcours dans Experience Platform {#custom-action-aep}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez comment écrire des événements de parcours personnalisés dans Adobe Experience Platform à partir de vos parcours à l’aide d’actions personnalisées et d’appels d’API authentifiés.
+
+>[!ENDSHADEBOX]
 
 Ce cas d’utilisation explique comment écrire des événements personnalisés dans des [!DNL Adobe Experience Platform] à partir de Parcours à l’aide d’actions personnalisées et d’appels authentifiés.
 

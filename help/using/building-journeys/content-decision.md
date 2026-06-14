@@ -11,30 +11,26 @@ keywords: activité, prise de décision, décision de contenu, politique de déc
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/1tZd4-NYBxu1iuUZGMKQ6DIXFxRpX0FARTEPpWqxzjY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1262
-ht-degree: 74%
+source-wordcount: 1286
+ht-degree: 73%
 
 ---
 
 # Activité Décision de contenu {#content-decision}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment utiliser l’activité de décision de contenu pour inclure des offres personnalisées dans vos parcours et les diffuser aux profils éligibles.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] vous permet d’inclure des offres dans vos parcours par le biais de l’activité dédiée **Décision de contenu** dans la zone de travail du parcours. Vous pouvez ensuite ajouter d’autres activités (telles que des [actions personnalisées](../action/about-custom-action-configuration.md)) à vos parcours pour cibler vos audiences avec ces offres personnalisées.
 
@@ -46,7 +42,7 @@ Pour tirer parti de cette fonctionnalité, créez un parcours dans lequel vous a
 
 Vous pouvez ensuite utiliser la sortie de l’activité Décision de contenu dans :
 
-* une activité [&#x200B; Optimiser avec une condition &#x200B;](#add-condition-activity) pour déplacer les profils vers des chemins spécifiques en fonction des offres récupérées ;
+* une activité [ Optimiser avec une condition ](#add-condition-activity) pour déplacer les profils vers des chemins spécifiques en fonction des offres récupérées ;
 
 * une [action personnalisée](#add-custom-action), via laquelle vous pouvez envoyer ces offres à des systèmes externes.
 
@@ -60,7 +56,7 @@ Pour configurer l’activité **[!UICONTROL Décision de contenu]**, suivez les 
 
 1. Développez la catégorie **[!UICONTROL Orchestration]** et déposez une activité **[!UICONTROL Décision de contenu]** dans votre zone de travail.
 
-   ![Ajouter une décision de contenu au parcours &#x200B;](assets/journey-content-decision.png){width=100%}
+   ![Ajouter une décision de contenu au parcours ](assets/journey-content-decision.png){width=100%}
 
 1. Vous pouvez, si vous le souhaitez, ajouter un libellé et une description à l’activité.
 
