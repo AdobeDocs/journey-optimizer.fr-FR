@@ -9,11 +9,19 @@ level: Experienced
 exl-id: 8a8b66cb-dd96-4373-bbe0-a67e0dc0b2c0
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/HC3N8cjiZQQTfyt2Z0hKU3M-OUTw4y9REDnBIBXsJ9Q
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+feature_v2:
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2:
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
 source-wordcount: 1795
@@ -62,9 +70,9 @@ Les offres d’une stratégie de sélection qui utilisent un modèle d’optimis
 
 ## Trouver le juste équilibre entre l’optimisation et l’apprentissage {#balancing-optimization-learning}
 
-L’optimisation automatique est un modèle d’[apprentissage par renforcement](https://en.wikipedia.org/wiki/Reinforcement_learning){target="_blank"} qui s’informe sur les performances de clic publicitaire des offres en fonction du comportement réel des clients. Les modèles d’apprentissage renforcés visent à maximiser un objectif en choisissant des actions dont les résultats sont mieux prédits. Cependant, un modèle qui présente toujours à chaque client l’élément ou les éléments présentant les meilleurs résultats prédits ne connaîtrait jamais les performances des nouveaux éléments introduits au fil du temps (ce qu’on appelle le « problème de démarrage à froid »), ni ne connaîtrait les changements dans les performances d’autres éléments existants résultant de changements dans le comportement des clients au fil du temps. Les modèles d&#39;apprentissage par renforcement doivent donc gérer ce que l&#39;on appelle communément le [ compromis exploration-exploitation ](https://en.wikipedia.org/wiki/Exploration%E2%80%93exploitation_dilemma){target="_blank"}, c&#39;est-à-dire l&#39;optimisation de l&#39;équilibre avec l&#39;apprentissage.
+L’optimisation automatique est un modèle d’[apprentissage par renforcement](https://en.wikipedia.org/wiki/Reinforcement_learning){target="_blank"} qui s’informe sur les performances de clic publicitaire des offres en fonction du comportement réel des clients. Les modèles d’apprentissage renforcés visent à maximiser un objectif en choisissant des actions dont les résultats sont mieux prédits. Cependant, un modèle qui présente toujours à chaque client l’élément ou les éléments présentant les meilleurs résultats prédits ne connaîtrait jamais les performances des nouveaux éléments introduits au fil du temps (ce qu’on appelle le « problème de démarrage à froid »), ni ne connaîtrait les changements dans les performances d’autres éléments existants résultant de changements dans le comportement des clients au fil du temps. Les modèles d&#39;apprentissage par renforcement doivent donc gérer ce que l&#39;on appelle communément le [&#x200B; compromis exploration-exploitation &#x200B;](https://en.wikipedia.org/wiki/Exploration%E2%80%93exploitation_dilemma){target="_blank"}, c&#39;est-à-dire l&#39;optimisation de l&#39;équilibre avec l&#39;apprentissage.
 
-L’optimisation automatique utilise une approche courante appelée [ bandit manchot ](https://fr.wikipedia.org/wiki/Bandit_manchot_(mathématiques)){target="_blank"} pour gérer le compromis. Le bandit manchot prend des décisions de classement en fonction de :
+L’optimisation automatique utilise une approche courante appelée [&#x200B; bandit manchot &#x200B;](https://fr.wikipedia.org/wiki/Bandit_manchot_(mathématiques)){target="_blank"} pour gérer le compromis. Le bandit manchot prend des décisions de classement en fonction de :
 
 * taux de clic publicitaire prévu pour chaque élément
 * différences dans le taux de clic publicitaire prévu pour chaque élément
@@ -79,7 +87,7 @@ La deuxième couche de classement est effectuée par l’un des deux bandits [é
 * 10 % du trafic est alloué à un bandit axé sur l’exploration qui est plus susceptible de recommander de nouvelles offres ou des offres contenant des données limitées, en supposant que le modèle bénéficierait d’une meilleure connaissance du comportement des clients en réponse à ces offres.
 * 90 % du trafic est alloué à un bandit axé sur l’exploitation qui est plus susceptible de recommander de manière cohérente des offres à hautes performances au fil du temps, en supposant que les offres nouvelles ou à faibles données sont plus susceptibles de ne pas être performantes jusqu’à preuve du contraire.
 
-Techniquement parlant, ces hypothèses sont des paramètres de la loi de probabilité a priori, également appelée [ a priori](https://en.wikipedia.org/wiki/Prior_probability){target="_blank"}. À mesure que les offres rassemblent davantage de données d’affichage et de clic, l’influence des priorités sélectionnées diminue et les prédictions faites par les deux bandits ont tendance à converger au fil du temps.
+Techniquement parlant, ces hypothèses sont des paramètres de la loi de probabilité a priori, également appelée [&#x200B; a priori](https://en.wikipedia.org/wiki/Prior_probability){target="_blank"}. À mesure que les offres rassemblent davantage de données d’affichage et de clic, l’influence des priorités sélectionnées diminue et les prédictions faites par les deux bandits ont tendance à converger au fil du temps.
 
 Notre approche consistant à combiner plusieurs bandits et à allouer un certain trafic dédié à l’exploration présente plusieurs avantages :
 
@@ -104,7 +112,7 @@ Finalement, si une offre (par exemple l’offre 1) est un gagnant définitif, s
 
 +++ Détails du calcul
 
-Pour calculer/mettre à jour des lois, nous utilisons **le théorème de Bayes**. Pour chaque offre ***i***, nous voulons calculer sa ***P(𝛍i | données)***, c’est-à-dire la probabilité d’une valeur de récompense**𝛍i** pour chaque offre*** i***, compte tenu des données que nous avons collectées jusqu’à présent pour cette offre.
+Pour calculer/mettre à jour des lois, nous utilisons **le théorème de Bayes**. Pour chaque offre ***i***, nous voulons calculer sa ***P(𝛍i | données)***, c’est-à-dire la probabilité d’une valeur de récompense&#x200B;**𝛍i** pour chaque offre&#x200B;*** i***, compte tenu des données que nous avons collectées jusqu’à présent pour cette offre.
 
 D’après le théorème de Bayes :
 
@@ -112,7 +120,7 @@ D’après le théorème de Bayes :
 
 La **probabilité a priori** est l’estimation initiale de la probabilité de produire une sortie. Une fois qu’une preuve a été collectée, la probabilité est connue sous le nom de **probabilité a posteriori**.
 
-L’optimisation automatique est conçue pour prendre en compte les récompenses binaires (clic/pas de clic). Dans ce cas, la vraisemblance représente le nombre de succès provenant de N essais et est modélisée par une loi binomiale. Pour certaines fonctions de vraisemblance, si vous choisissez une certaine loi a priori, la loi a posteriori se retrouve dans la même loi que la loi a priori. Une telle loi a priori est alors appelée une **loi a priori conjuguée**. Ce genre de loi a priori rend le calcul de la loi a posteriori très simple. La loi [](https://fr.wikipedia.org/wiki/Loi_bêta){target="_blank"} est une loi a priori conjuguée à la vraisemblance binomiale (récompenses binaires). Il s’agit donc d’un choix pratique et judicieux pour les lois de probabilité a priori et a posteriori. La distribution Beta utilise deux paramètres : ***α*** et ***β***. Ces paramètres peuvent être considérés comme le nombre de succès et d’échecs, et la valeur moyenne donnée par :
+L’optimisation automatique est conçue pour prendre en compte les récompenses binaires (clic/pas de clic). Dans ce cas, la vraisemblance représente le nombre de succès provenant de N essais et est modélisée par une loi binomiale. Pour certaines fonctions de vraisemblance, si vous choisissez une certaine loi a priori, la loi a posteriori se retrouve dans la même loi que la loi a priori. Une telle loi a priori est alors appelée une **loi a priori conjuguée**. Ce genre de loi a priori rend le calcul de la loi a posteriori très simple. La loi [&#128279;](https://fr.wikipedia.org/wiki/Loi_bêta){target="_blank"} est une loi a priori conjuguée à la vraisemblance binomiale (récompenses binaires). Il s’agit donc d’un choix pratique et judicieux pour les lois de probabilité a priori et a posteriori. La distribution Beta utilise deux paramètres : ***α*** et ***β***. Ces paramètres peuvent être considérés comme le nombre de succès et d’échecs, et la valeur moyenne donnée par :
 
 ![](../assets/ai-ranking-beta-distribution.png)
 

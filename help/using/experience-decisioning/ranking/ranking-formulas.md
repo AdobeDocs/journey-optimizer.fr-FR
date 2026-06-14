@@ -8,12 +8,20 @@ level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/WycI0aO1o4KFH1gNieayuhpyNZuoVxL6zhGJBNOht8g
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+subfeature_v2:
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
 source-wordcount: 1775
@@ -44,7 +52,7 @@ Après avoir créé une formule de classement, vous pouvez l’affecter à une [
 Avant de créer des formules de classement, tenez compte des contraintes suivantes :
 
 * Le créateur de formules d’IA ne prend pas en charge les [modèles d’optimisation personnalisés](personalized-optimization-model.md) qui utilisent des mesures continues.
-* Lorsqu’un modèle d’IA est utilisé dans une formule de classement, les données ne sont pas reflétées dans le rapport [ Taux de conversion du trafic d’exclusion et piloté par le modèle ](../../reports/campaign-global-report-cja-code.md#conversion-rate).
+* Lorsqu’un modèle d’IA est utilisé dans une formule de classement, les données ne sont pas reflétées dans le rapport [&#x200B; Taux de conversion du trafic d’exclusion et piloté par le modèle &#x200B;](../../reports/campaign-global-report-cja-code.md#conversion-rate).
 * La profondeur d’imbrication dans une formule de classement est limitée à 30 niveaux, mesurés par le comptage des `)` dans la chaîne PQL.
 * Une chaîne de formule de classement peut contenir jusqu’à 8 Ko pour les caractères codés au format UTF-8 (8 000 caractères ASCII ou 2 000 à 4 000 caractères non-ASCII).
 * Les périodes de recherche en amont ne sont pas prises en charge dans les formules de classement (par exemple, les événements d’expérience du mois dernier). Les tentatives d’enregistrement de telles formules déclenchent une erreur.
@@ -94,7 +102,7 @@ Grâce à une interface intuitive, vous pouvez affiner la prise de décisions en
 
 <!--![](../assets/ranking-formula-criteria.png){width="80%"}-->
 
-1. Si nécessaire, cliquez sur **[!UICONTROL Basculer vers l’éditeur de code]** pour ajouter une expression qui utilise la syntaxe **PQL** avec le créateur de formules. Cette option complète les champs de l’interface utilisateur dans les étapes ci-dessous, afin que vous puissiez combiner les deux approches dans la même formule de classement. Pour plus d’informations sur l’utilisation de la syntaxe PQL, consultez la [documentation dédiée](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=fr). La syntaxe des attributs d’élément de décision et des exemples de copier-coller sont fournis dans la section [ Utiliser l’éditeur de code ](#ranking-code-editor).
+1. Si nécessaire, cliquez sur **[!UICONTROL Basculer vers l’éditeur de code]** pour ajouter une expression qui utilise la syntaxe **PQL** avec le créateur de formules. Cette option complète les champs de l’interface utilisateur dans les étapes ci-dessous, afin que vous puissiez combiner les deux approches dans la même formule de classement. Pour plus d’informations sur l’utilisation de la syntaxe PQL, consultez la [documentation dédiée](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=fr). La syntaxe des attributs d’élément de décision et des exemples de copier-coller sont fournis dans la section [&#x200B; Utiliser l’éditeur de code &#x200B;](#ranking-code-editor).
 
    ![](../assets/ranking-formula-code-editor-button.png)
 
