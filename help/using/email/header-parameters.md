@@ -24,14 +24,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4ec62b4411a46304364ca1f122e9745b143bcaa1
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1137
-ht-degree: 61%
+source-wordcount: 1172
+ht-degree: 60%
 
 ---
 
 # Paramètres d’en-tête {#email-header}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment configurer les paramètres d’en-tête d’e-mail dans une configuration de canal, y compris les champs De, Répondre à, Erreur et Expéditeur facultatif, ainsi que comment gérer la gestion des réponses et le transfert des e-mails.
+
+>[!ENDSHADEBOX]
 
 Lors de la configuration d’une nouvelle [configuration du canal e-mail](email-settings.md), dans la section **[!UICONTROL Paramètres d’en-tête]**, saisissez les noms d’expéditeur ou d’expéditrice et les adresses e-mail associées au type d’e-mails envoyés à l’aide de cette configuration.
 

@@ -30,14 +30,20 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 738
-ht-degree: 100%
+source-wordcount: 776
+ht-degree: 95%
 
 ---
 
 # Commencer la conception d’e-mails {#get-started-content-design}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment concevoir le contenu de votre e-mail dans le Designer d’e-mail, les étapes clés pour le créer à partir de zéro, de code ou d’HTML importé, ainsi que les bonnes pratiques qui assurent le bon rendu de vos e-mails entre les clients.
+
+>[!ENDSHADEBOX]
 
 Pour accéder au Concepteur d’e-mail et commencer à concevoir le contenu de votre e-mail, vous devez d’abord [créer un e-mail](create-email.md) dans un parcours ou une campagne.
 

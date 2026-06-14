@@ -26,14 +26,20 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 333
-ht-degree: 100%
+source-wordcount: 364
+ht-degree: 91%
 
 ---
 
 # Ajouter des métadonnées au contenu de votre e-mail {#email-metadata}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment définir les métadonnées de l’e-mail dans le Designer d’e-mail, y compris le pré-titre, le titre du document et la langue du document, afin d’améliorer la lisibilité et l’accessibilité du contenu de votre e-mail.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"

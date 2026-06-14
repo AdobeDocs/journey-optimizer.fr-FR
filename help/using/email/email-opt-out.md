@@ -31,14 +31,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1220
-ht-degree: 100%
+source-wordcount: 1259
+ht-degree: 96%
 
 ---
 
 # Gestion du processus de désinscription aux e-mails {#email-opt-out}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment ajouter des options de désabonnement à vos e-mails, y compris les liens d&#39;opt-out en un clic dans l&#39;en-tête ou le corps de l&#39;e-mail et l&#39;opt-out en deux étapes via une page de destination, afin que les destinataires puissent arrêter les communications futures.
+
+>[!ENDSHADEBOX]
 
 Lors de l’envoi de messages à partir des parcours ou des campagnes, vous devez toujours vous assurer que les clientes et clients peuvent se désabonner des futures communications. Une fois désinscrits, les profils sont automatiquement supprimés de l’audience des futurs messages marketing.  [En savoir plus sur la gestion de la confidentialité et du processus d’opt-out](../privacy/opt-out.md)
 

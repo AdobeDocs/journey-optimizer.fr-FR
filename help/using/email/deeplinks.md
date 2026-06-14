@@ -10,15 +10,21 @@ level: Intermediate
 keywords: lien profond, lien profond, liens universels, liens d’application, e-mail, sms
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1327
+source-wordcount: 1367
 ht-degree: 1%
 
 ---
 
 
 # Utiliser et configurer des liens profonds dans les e-mails et les SMS {#deeplinks}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment créer des liens profonds dans du contenu d’e-mail et de SMS, les configurer dans Adobe Journey Optimizer et gérer les liens suivis dans vos applications iOS et Android afin que les destinataires arrivent sur l’écran in-app droit.
+
+>[!ENDSHADEBOX]
 
 Les liens profonds vous permettent d’orienter les destinataires d’un e-mail ou d’un SMS vers un écran ou un contenu spécifique dans votre application mobile. Cela permet d’amener les personnes directement à l’expérience in-app prévue, sans les acheminer via un navigateur web ou une boutique d’applications, de sorte que le parcours reste pertinent et intégré à la marque.
 
@@ -174,7 +180,7 @@ Cette section fournit des modèles d’implémentation courants pour les liens p
 
 >[!IMPORTANT]
 >
->L’application doit effectuer une **&#x200B;**&#x200B;sur l’URL `mclick` et lire l’en-tête **`Location`**, puis effectuer le routage en fonction de l’URL **finale**.
+>L’application doit effectuer une **GET** sur l’URL `mclick` et lire l’en-tête **`Location`**, puis acheminer le contenu en fonction de l’URL **finale**.
 >
 >N’ouvrez pas simplement l’URL `mclick` dans Safari, car cela va à l’encontre de l’objectif des liens profonds.
 
@@ -336,7 +342,7 @@ Vous pouvez utiliser un modèle d’URL personnalisé (par exemple, `appname://p
 
 +++ Les paramètres UTM sur l’URL seront-ils disponibles dans l’application mobile pour Analytics ?
 
-Oui. Les paramètres UTM que vous configurez dans [!DNL Journey Optimizer] sont inclus dans l’URL finale renvoyée dans l’en-tête `Location` lorsque votre application effectue un GET sur l’URL `mclick`. Vous pouvez donc les utiliser pour les analyses in-app.
+Oui. Les paramètres UTM que vous configurez dans [!DNL Journey Optimizer] sont inclus dans l’URL finale renvoyée dans l’en-tête `Location` lorsque votre application effectue une GET sur l’URL `mclick`. Vous pouvez donc les utiliser pour les analyses in-app.
 
 +++
 

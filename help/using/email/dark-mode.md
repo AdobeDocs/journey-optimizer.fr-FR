@@ -26,14 +26,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1553
-ht-degree: 95%
+source-wordcount: 1584
+ht-degree: 93%
 
 ---
 
 # Gérer le contenu en mode sombre {#dark-mode}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez comment les clients de messagerie gèrent le mode sombre et comment prévisualiser et définir les paramètres personnalisés du mode sombre dans le Designer de messagerie, ainsi que les bonnes pratiques pour un rendu cohérent.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"

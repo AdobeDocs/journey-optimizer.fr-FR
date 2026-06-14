@@ -27,14 +27,20 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1468
-ht-degree: 92%
+source-wordcount: 1498
+ht-degree: 90%
 
 ---
 
 # Utiliser les composants de contenu du concepteur d’e-mail {#content-components}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment ajouter et configurer des composants de contenu Designer d’e-mail tels que des boutons, du texte, des images, des séparateurs, HTML, des liens de réseaux sociaux et des décisions d’offre pour créer le contenu de votre e-mail.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"

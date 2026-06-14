@@ -10,14 +10,20 @@ level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 567
-ht-degree: 7%
+source-wordcount: 614
+ht-degree: 6%
 
 ---
 
 # Modifier le contenu d’un e-mail avec l’éditeur HTML avancé {#email-expert-mode}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment utiliser l’éditeur HTML avancé dans le Designer d’email pour afficher et modifier la source HTML brute du contenu de votre email, y compris les mécanismes de sécurisation à garder à l’esprit et comment revenir à la vue visuelle pour la prévisualisation et l’enregistrement.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

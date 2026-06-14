@@ -25,14 +25,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 652
-ht-degree: 93%
+source-wordcount: 678
+ht-degree: 89%
 
 ---
 
 # Ajouter des offres personnalisées {#deliver-personalized-offers}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment insérer et prévisualiser des décisions d’offre dans vos e-mails afin que Adobe Journey Optimizer diffuse la meilleure offre personnalisée à chaque destinataire.
+
+>[!ENDSHADEBOX]
 
 Dans les e-mails [!DNL Journey Optimizer], vous pouvez insérer des décisions qui utiliseront le moteur de gestion des décisions afin de sélectionner la meilleure offre à proposer à votre clientèle.
 

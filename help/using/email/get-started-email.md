@@ -30,14 +30,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 312
-ht-degree: 100%
+source-wordcount: 344
+ht-degree: 90%
 
 ---
 
 # Commencer avec les e-mails {#get-started-email}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Commencez à utiliser le canal e-mail dans Adobe Journey Optimizer et découvrez comment créer, concevoir, personnaliser et prévisualiser des e-mails dans les parcours et les campagnes à l’aide du Designer d’e-mail.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card4"
@@ -79,7 +85,7 @@ Les diffusions d’e-mail peuvent être créées :
 <img alt="Désinscription (opt-out)" src="../assets/do-not-localize/email-opt-out.jpg">
 </a>
 <div>
-<a href="email-opt-out.md"><strong>Gestion du processus d’opt-out des e-mails</strong></a>
+<a href="email-opt-out.md"><strong>Gestion du processus de désinscription aux e-mails</strong></a>
 </div>
 <p>
 </td>

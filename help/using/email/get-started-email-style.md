@@ -26,14 +26,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 306
-ht-degree: 100%
+source-wordcount: 342
+ht-degree: 89%
 
 ---
 
 # Prise en main du style des e-mails {#get-started-email-style}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment ajuster le style du contenu de votre e-mail à partir du volet Styles de Designer d’e-mail, en appliquant des paramètres tels que des couleurs, des polices, des bordures, des marges et une marge intérieure aux composants de corps, de structure ou de contenu.
+
+>[!ENDSHADEBOX]
 
 Une fois que vous avez commencé à créer le contenu de votre e-mail dans [!DNL Journey Optimizer], vous pouvez ajuster un certain nombre de paramètres et d’attributs de style dans le volet **[!UICONTROL Styles]** du concepteur d’e-mail.
 

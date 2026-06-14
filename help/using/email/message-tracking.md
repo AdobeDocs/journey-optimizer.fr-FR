@@ -32,14 +32,20 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1464
-ht-degree: 82%
+source-wordcount: 1491
+ht-degree: 80%
 
 ---
 
 # Ajouter des liens et suivre les messages {#tracking}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment insérer et gérer des liens, ajouter une page miroir et activer le suivi des ouvertures et des clics pour surveiller l’engagement des destinataires avec vos e-mails.
+
+>[!ENDSHADEBOX]
 
 Utilisez [!DNL Journey Optimizer] pour ajouter des liens à votre contenu et suivre les messages envoyés afin de surveiller le comportement de vos destinataires.
 

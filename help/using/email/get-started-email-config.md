@@ -23,14 +23,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 531
-ht-degree: 78%
+source-wordcount: 563
+ht-degree: 73%
 
 ---
 
 # Commencer la configuration du canal e-mail {#get-starte-email-config}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez les étapes essentielles pour configurer le canal e-mail dans Adobe Journey Optimizer, de la délégation de sous-domaines à la création de pools d&#39;adresses IP, en passant par la configuration des canaux, les champs d&#39;exécution et les reprises.
+
+>[!ENDSHADEBOX]
 
 La configuration du canal e-mail dans Adobe Journey Optimizer est la clé pour créer des expériences d’e-mail personnalisées et percutantes qui impliquent efficacement votre audience.
 

@@ -27,14 +27,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1696
-ht-degree: 96%
+source-wordcount: 1731
+ht-degree: 94%
 
 ---
 
 # Concevoir du contenu accessible {#accessible-content}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez les bonnes pratiques pour la conception d’e-mails et de landing pages accessibles dans Adobe Journey Optimizer, concernant la lisibilité du texte, le texte secondaire, le mode sombre, les attributs d’accessibilité et les tests conformément au WCAG 2.1 niveau AA.
+
+>[!ENDSHADEBOX]
 
 L’[Acte législatif européen sur l’accessibilité](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32019L0882){target="_blank"} est une directive visant à renforcer le marché intérieur des produits et services accessibles en éliminant les obstacles dus aux divergences entre les règles nationales des États membres.
 

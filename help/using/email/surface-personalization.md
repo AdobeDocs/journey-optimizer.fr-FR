@@ -25,14 +25,20 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1191
-ht-degree: 89%
+source-wordcount: 1215
+ht-degree: 88%
 
 ---
 
 # Personnaliser les paramètres de configuration du canal e-mail {#surface-personalization}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment définir des valeurs personnalisées pour les sous-domaines dynamiques, les paramètres d’en-tête et les paramètres de tracking d’URL au niveau de la configuration du canal e-mail.
+
+>[!ENDSHADEBOX]
 
 Pour plus de flexibilité et de contrôle sur vos paramètres d’e-mail, [!DNL Journey Optimizer] permet de définir des valeurs personnalisées pour les sous-domaines, les en-têtes et les paramètres de tracking des URL lors de la création de configurations d’e-mail.
 

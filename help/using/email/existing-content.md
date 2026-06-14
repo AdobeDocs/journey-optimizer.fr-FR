@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 260
-ht-degree: 100%
+source-wordcount: 293
+ht-degree: 88%
 
 ---
 
 # Importer le contenu de vos e-mails {#existing-content}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment importer du contenu HTML existant, sous la forme d’un fichier HTML ou d’un dossier .zip, et le convertir afin de pouvoir le modifier et le personnaliser avec le Designer de messagerie.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] vous permet d&#39;importer du contenu HTML existant pour concevoir vos e-mails. Ce contenu peut être :
 

@@ -11,14 +11,20 @@ keywords: url, lien, personnalisation, tracking, codage, accolades
 feature_v2: []
 subfeature_v2:
   - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 402
-ht-degree: 24%
+source-wordcount: 430
+ht-degree: 23%
 
 ---
 
 # Personnaliser les URL dans les e-mails {#url-personalization}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment personnaliser les URL d’e-mail avec des attributs de profil, y compris les URL complètes ou de base et les paramètres de suivi par lien, tout en conservant les liens valides et traçables.
+
+>[!ENDSHADEBOX]
 
 Les URL personnalisées vous permettent de diffuser des expériences contextuelles par le biais de vos e-mails [!DNL Journey Optimizer], comme la génération de liens spécifiques aux destinataires ou l’ajout de paramètres dynamiques.
 
