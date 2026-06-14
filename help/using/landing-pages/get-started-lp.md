@@ -25,14 +25,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 2956c3df01f4b2e753111ecf54163ec4084fecf2
 workflow-type: tm+mt
-source-wordcount: 735
-ht-degree: 96%
+source-wordcount: 781
+ht-degree: 91%
 
 ---
 
 # Prise en main des pages de destination {#get-started-lp}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** les pages de destination transforment un clic d’un e-mail, d’une publicité ou d’une campagne en une destination web dédiée où les clients s’inscrivent ou se désinscrivent, gèrent leurs préférences et partagent des données de profil - ce qui vous permet d’augmenter les audiences consentantes et de capturer les données propriétaires qui alimentent la personnalisation.
+
+>[!ENDSHADEBOX]
 
 Une page de destination est une page web autonome sur laquelle l’utilisateur arrive après avoir cliqué sur un lien présent dans un e-mail, un site Web, une publicité ou tout autre emplacement numérique.
 
@@ -75,7 +81,7 @@ Voici des exemples de cas d’utilisation :
 <a href="create-lp.md">
 <img alt="Lead" src="../assets/do-not-localize/lp-subscription.jpeg">
 </a>
-<div><a href="create-lp.md"><strong>Créer des landing pages</strong>
+<div><a href="create-lp.md"><strong>Créer des pages de destination</strong>
 </div>
 <p>
 </td>

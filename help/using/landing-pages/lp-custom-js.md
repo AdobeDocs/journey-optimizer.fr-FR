@@ -21,14 +21,20 @@ subfeature_v2:
   - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
 workflow-type: tm+mt
-source-wordcount: 568
-ht-degree: 100%
+source-wordcount: 596
+ht-degree: 95%
 
 ---
 
 # Utilisation de code JavaScript personnalisé dans une page de destination {#lp-custom-js}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** étendez vos pages de destination avec du code JavaScript personnalisé pour valider les entrées, exécuter des envois de formulaires personnalisés, déclencher des événements d’analyse ou créer des comportements dynamiques au-delà de l’éditeur standard.
+
+>[!ENDSHADEBOX]
 
 Vous pouvez définir le contenu de votre page de destination à l&#39;aide d&#39;un code JavaScript personnalisé. Par exemple, si vous devez appliquer un style avancé ou si vous souhaitez ajouter des comportements personnalisés à vos pages de destination, vous pouvez créer vos propres contrôles et les exécuter dans [!DNL Journey Optimizer].
 

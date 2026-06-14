@@ -30,14 +30,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 1716
-ht-degree: 93%
+source-wordcount: 1750
+ht-degree: 91%
 
 ---
 
 # Créer et publier des pages de destination {#create-lp}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment configurer, tester et publier une page de destination afin que les clients qui cliquent sur un message accèdent à une page dédiée où ils peuvent s’abonner, partager des données ou se désabonner.
+
+>[!ENDSHADEBOX]
 
 Pour rediriger vos clientes et clients vers une page web définie que vous souhaitez afficher lorsqu’ils cliquent sur un lien spécifique, créez une page de destination dans [!DNL Journey Optimizer], configurez la page principale et les sous-pages, puis testez-la et publiez-la.
 
@@ -138,7 +144,7 @@ Pour définir les paramètres de la page principale, procédez comme suit.
    >
    >LʼURL de la page de destination doit être unique.
    >
-   >Vous ne pouvez pas accéder à votre page de destination en copiant-collant cette URL dans un navigateur web, même si elle est publiée. Vous pouvez plutôt la tester à l’aide de la fonction de prévisualisation, comme décrit dans [cette section](#test-landing-page).
+   >Vous ne pouvez pas accéder à votre page de destination en copiant-collant cette URL dans un navigateur web, même si elle est publiée. Vous pouvez plutôt la tester à l’aide de la fonction d’aperçu, comme décrit dans [cette section](#test-landing-page).
 
    ![](assets/lp_access-url.png)
 

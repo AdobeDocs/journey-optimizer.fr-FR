@@ -25,14 +25,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 245
-ht-degree: 88%
+source-wordcount: 280
+ht-degree: 77%
 
 ---
 
 # Concevoir le contenu de la page de destination {#design-lp}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment concevoir le contenu de votre page de destination dans le concepteur de contenu (en partant de zéro, avec l’assistant AI, avec votre propre HTML ou à partir d’un modèle enregistré) pour une expérience client sur la marque.
+
+>[!ENDSHADEBOX]
 
 Pour commencer à créer du contenu pour la [page principale](create-lp.md#configure-primary-page) ou [sous-page](create-lp.md#configure-subpages) de votre page de destination, placez le pointeur de la souris sur le contenu de votre page, puis cliquez sur **[!UICONTROL Ouvrir le concepteur]**. Vous pouvez également cliquer sur le bouton correspondant dans la palette de droite.
 

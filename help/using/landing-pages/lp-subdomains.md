@@ -21,14 +21,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
 workflow-type: tm+mt
-source-wordcount: 1013
-ht-degree: 100%
+source-wordcount: 1039
+ht-degree: 97%
 
 ---
 
 # Configurer les sous-domaines des pages de destination {#lp-subdomains}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** configurez les sous-domaines qui définissent vos URL de page de destination, en réutilisant un domaine déjà délégué à Adobe ou en configurant un nouveau.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp_header"
@@ -65,7 +71,7 @@ Pour utiliser un sous-domaine déjà délégué à Adobe, procédez comme suit 
 
 1. Accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**, puis sélectionnez **[!UICONTROL Paramètres de la page de destination]** > **[!UICONTROL Sous-domaines de page de destination]**.
 
-1. Cliquez sur **[!UICONTROL Configurer un sous-domaine]**.
+1. Cliquez sur **[!UICONTROL Configurer le sous-domaine]**.
 
    ![](assets/lp_set-up-subdomain.png)
 

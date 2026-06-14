@@ -26,14 +26,20 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: c9b1b332102b782fa7ddb5a7796da7961de09b9e
 workflow-type: tm+mt
-source-wordcount: 1630
-ht-degree: 82%
+source-wordcount: 1668
+ht-degree: 80%
 
 ---
 
 # Définir le contenu spécifique aux pages de destination {#lp-content}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** le composant Formulaire transforme une page de destination statique en une expérience interactive — ajoutez-la afin que les visiteurs puissent opt-in ou opt-out, gérer leurs abonnements ou envoyer des données qui circulent directement dans vos jeux de données Experience Platform.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"

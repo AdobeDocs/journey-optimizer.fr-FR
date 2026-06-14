@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
 workflow-type: tm+mt
-source-wordcount: 748
-ht-degree: 95%
+source-wordcount: 775
+ht-degree: 92%
 
 ---
 
 # Listes d’abonnements {#create-subscription-list}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page** les listes d’abonnements rassemblent les profils qui s’inscrivent à une newsletter, un événement ou un centre d’intérêt, ce qui vous permet d’avoir une audience à cibler, pour envoyer des messages et créer des rapports sur.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_list"

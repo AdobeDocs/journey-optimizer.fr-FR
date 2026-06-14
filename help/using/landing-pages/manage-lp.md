@@ -23,14 +23,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 442
-ht-degree: 100%
+source-wordcount: 469
+ht-degree: 94%
 
 ---
 
 # Gérer vos pages de destination {#manage-lp}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment rechercher, filtrer et organiser vos pages de destination existantes en dossiers et en balises afin que votre travail reste structuré à mesure que vos projets se développent.
+
+>[!ENDSHADEBOX]
 
 ## Accéder aux pages de destination {#access-landing-pages}
 

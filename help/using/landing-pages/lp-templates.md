@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
 workflow-type: tm+mt
-source-wordcount: 198
-ht-degree: 100%
+source-wordcount: 222
+ht-degree: 89%
 
 ---
 
 # Utilisation des modèles de page de destination {#work-with-templates}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** enregistrez une page de destination terminée en tant que modèle de contenu réutilisable, puis appliquez-la pour accélérer la conception des pages futures.
+
+>[!ENDSHADEBOX]
 
 ## Enregistrement d’une page en tant que modèle {#save-as-template}
 

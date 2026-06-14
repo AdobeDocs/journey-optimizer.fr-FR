@@ -24,14 +24,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 2080
-ht-degree: 78%
+source-wordcount: 2111
+ht-degree: 77%
 
 ---
 
 # Utiliser des formulaires dans vos pages de destination {#lp-forms}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment créer des formulaires et les incorporer dans des pages de destination de capture de données pour collecter les attributs de profil des visiteurs et écrire les envois dans vos jeux de données Experience Platform.
+
+>[!ENDSHADEBOX]
 
 Pour capturer des données de profil avec vos pages de destination [!DNL Journey Optimizer] et enrichir vos jeux de données [!DNL Experience Platform], vous pouvez utiliser des formulaires dans vos pages de destination. Pour obtenir un aperçu des scénarios et des exigences de capture de données, consultez [Capture de données avec des pages de destination](get-started-lp.md#data-capture-lp).
 
