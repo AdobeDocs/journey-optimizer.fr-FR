@@ -22,14 +22,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 1134
-ht-degree: 95%
+source-wordcount: 1160
+ht-degree: 93%
 
 ---
 
 # Utilisation de Dynamic Media {#aem-dynamic}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment insérer, ajuster et personnaliser les médias dynamiques Adobe Experience Manager, y compris les superpositions de texte et les modèles de médias dynamiques, dans le contenu de Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 ## Prise en main de Dynamic Media {#gs-aem-dynamic}
 

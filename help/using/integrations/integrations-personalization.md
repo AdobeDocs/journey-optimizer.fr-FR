@@ -12,15 +12,21 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 809
-ht-degree: 22%
+source-wordcount: 836
+ht-degree: 21%
 
 ---
 
 
 # Utiliser des intégrations externes pour la personnalisation {#integrations-personalization}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment les marketeurs appliquent des intégrations configurées pour personnaliser le contenu des e-mails, des SMS et des notifications push et enchaîner un appel API à un autre pour obtenir une messagerie plus riche et plus dynamique.
+
+>[!ENDSHADEBOX]
 
 Avant d’utiliser des intégrations externes dans votre contenu, vérifiez qu’un administrateur a **configuré et activé** chaque intégration (point d’entrée, authentification, politiques, payload de réponse et activation), comme décrit dans la section [&#x200B; Utiliser les intégrations &#x200B;](integrations.md).
 

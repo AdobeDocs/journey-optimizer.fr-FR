@@ -11,14 +11,20 @@ exl-id: 4c1d39c4-3154-4bec-ac3c-c2ead7164d69
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: 391
 ht-degree: 2%
 
 ---
 
 # Insérer le compteur de décompte {#countdown}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment insérer un compte à rebours Dynamic Media dans vos e-mails Journey Optimizer pour rendre urgentes les ventes flash et les promotions sensibles à l’heure.
+
+>[!ENDSHADEBOX]
 
 Créez une urgence et optimisez les conversions avec les compteurs de compte à rebours Dynamic Media qui se mettent à jour en temps réel lorsque les destinataires ouvrent vos e-mails. Cette fonctionnalité est idéale pour les ventes flash, les offres à durée limitée et les promotions sensibles au facteur temps.
 

@@ -20,14 +20,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 subfeature_v2:
   - id: c08fcc42-2918-421a-a25e-e1bd9464c290
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 597
-ht-degree: 100%
+source-wordcount: 622
+ht-degree: 95%
 
 ---
 
 # Utiliser des images [!DNL Adobe Stock] {#stock}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment rechercher, obtenir une licence et insérer des images Adobe Stock, y compris des photos similaires, directement depuis Email Designer dans Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 ## Prise en main d’[!DNL Adobe Stock] {#get-started-stock}
 

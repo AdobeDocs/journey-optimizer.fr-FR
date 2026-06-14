@@ -11,15 +11,21 @@ keywords: intégration, fournisseur, tiers
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 375
+source-wordcount: 401
 ht-degree: 0%
 
 ---
 
 
 # Intégration des fournisseurs {#vendor-integration}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Parcourez des exemples de configurations testées par Adobe pour connecter les intégrations Adobe Journey Optimizer à des fournisseurs tiers sur des plateformes de contenu, de fidélité, de recommandation, de données et de consentement.
+
+>[!ENDSHADEBOX]
 
 Vous pouvez utiliser **Integrations** dans Adobe Journey Optimizer pour appeler des **systèmes externes via HTTP** lorsque chaque système expose un point d’entrée **API** qui convient à votre cas d’utilisation et est compatible avec la manière dont Integrations émet des requêtes et consomme des réponses. Pour connaître le workflow complet, voir [Utilisation des intégrations](integrations.md).
 

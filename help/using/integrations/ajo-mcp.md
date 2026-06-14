@@ -11,14 +11,20 @@ level: Beginner, Intermediate
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 1445
-ht-degree: 5%
+source-wordcount: 1478
+ht-degree: 4%
 
 ---
 
 # Utiliser les clients MCP {#ajo-mcp}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez comment le serveur MCP Adobe Journey Optimizer vous permet d’interroger les campagnes et les offres à l’aide d’invites en langage clair provenant des clients MCP pris en charge. Passez en revue ses fonctionnalités, ses outils, ses conditions préalables et ses limites.
+
+>[!ENDSHADEBOX]
 
 L’intégration MCP [!DNL Adobe Journey Optimizer] vous permet d’interroger des campagnes et des offres à l’aide d’invites en langage clair, sans écrire d’appels API ni parcourir les écrans de produit. Cette page explique le fonctionnement de l’intégration, ce que vous pouvez en faire et comment commencer.
 
