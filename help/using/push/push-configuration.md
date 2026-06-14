@@ -27,14 +27,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 2189
-ht-degree: 91%
+source-wordcount: 2210
+ht-degree: 89%
 
 ---
 
 # Configuration du canal de notification push des applications mobiles {#push-notification-configuration}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment configurer le canal de notification push de l’application mobile dans Adobe Journey Optimizer, y compris les autorisations, les informations d’identification push, la configuration du canal et l’intégration de votre application au SDK mobile Adobe Experience Platform.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] vous permet de créer vos parcours et d&#39;envoyer des messages à une audience ciblée. Avant de commencer à envoyer des notifications push avec [!DNL Journey Optimizer], vous devez vous assurer que les configurations et les intégrations sont en place sur lʼapplication mobile et pour les balises dʼAdobe Experience Platform. Pour comprendre le flux de données des notifications push dans [!DNL Adobe Journey Optimizer], reportez-vous à [cette page](push-gs.md).
 
@@ -114,7 +120,7 @@ Pour attribuer ce **[!UICONTROL profil de produit]** aux utilisateurs, procédez
 
    >[!NOTE]
    >
-   >Si la personne n’a pas été créée auparavant dans Admin Console, reportez-vous à la [documentation Ajouter des utilisateurs et des utilisatrices](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html?lang=fr#add-users).
+   >Si l&#39;utilisateur n&#39;a pas été créé auparavant dans Admin Console, consultez la [documentation relative à l&#39;ajout d&#39;utilisateurs](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html?lang=fr#add-users).
 
    ![](assets/push_product_7.png)
 
@@ -182,7 +188,7 @@ L&#39;enregistrement des informations d&#39;identification push de l&#39;applica
 
          >[!NOTE]
          >
-         > Seules les clés de notification push Apple .p8 sont prises en charge. Utilisez un autre compte Apple Developer si vous avez atteint la limite de clés .p8.
+         > Seules les clés de notification push Apple .p8 sont prises en charge. Utilisez un autre compte de développeur Apple si vous avez atteint la limite de clés .p8.
          >Pour plus d’informations sur les limites de clés d’Apple, consultez la [documentation Apple Developer](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns).
 
 

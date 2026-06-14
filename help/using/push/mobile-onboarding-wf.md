@@ -24,14 +24,20 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 subfeature_v2:
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 369
-ht-degree: 98%
+source-wordcount: 401
+ht-degree: 90%
 
 ---
 
 # Workflow de démarrage rapide de l’intégration mobile {#mobile-wf}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment utiliser le workflow de démarrage rapide de l’intégration mobile pour configurer rapidement le SDK mobile Adobe Experience Platform, collecter et valider les données d’événement mobile et envoyer des notifications push.
+
+>[!ENDSHADEBOX]
 
 Le nouveau **workflow de démarrage rapide de l’intégration mobile** est une nouvelle fonctionnalité de produit qui permet de configurer rapidement le SDK mobile d’Adobe Experience Platform, de commencer à collecter et valider les données d’événement mobile et d’envoyer des notifications push avec [!DNL Journey Optimizer].
 

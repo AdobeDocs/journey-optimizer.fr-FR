@@ -24,14 +24,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 829
-ht-degree: 92%
+source-wordcount: 856
+ht-degree: 89%
 
 ---
 
 # Flux de données et composants des notifications push {#get-started-push}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez le flux de données des notifications push, les services et composants clés impliqués et la manière dont les notifications sont diffusées de bout en bout avec Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Cette page vous aidera à configurer et à comprendre les services et les workflows clés impliqués dans les notifications push dans [!DNL Journey Optimizer].
 

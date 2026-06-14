@@ -22,14 +22,20 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 2199
+source-wordcount: 2183
 ht-degree: 61%
 
 ---
 
 # Concevoir une notification push {#design-push-notification}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment concevoir le contenu des notifications push pour iOS, Android et le web, y compris le titre et le corps, le comportement en cas de clic, les médias, les boutons et les options avancées.
+
+>[!ENDSHADEBOX]
 
 Une fois que vous avez créé une notification push, vous pouvez concevoir son contenu pour les plateformes iOS, Android et web. Cette page vous guide tout au long de la composition de votre message, de la configuration du comportement en cas de clic, de l’ajout de médias et de boutons et de la définition d’options avancées pour créer des notifications push attrayantes qui résonnent avec votre audience.
 
