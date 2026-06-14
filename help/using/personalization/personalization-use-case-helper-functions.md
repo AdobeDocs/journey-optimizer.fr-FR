@@ -10,12 +10,19 @@ level: Intermediate
 keywords: expression, éditeur, assistants, cas d’utilisation, personnalisation
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 TQID: https://experienceleague.adobe.com/93bIkfyck5u-tQNGr7jGRORQiTa3gaMHn4H5RP-dpYo
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2:
+  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
 source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
 source-wordcount: 1289
@@ -89,7 +96,7 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
 1. Sur la page d’accueil du concepteur d’e-mail, cliquez sur le composant HTML dans lequel vous souhaitez ajouter le prénom du client.
 1. Dans la barre d’outils contextuelle, cliquez sur **[!UICONTROL Afficher le code source]**.
 
-   ![Barre d’outils contextuelle avec l’option Afficher le code source ](assets/personalization-uc-helpers-3.png)
+   ![Barre d’outils contextuelle avec l’option Afficher le code source &#x200B;](assets/personalization-uc-helpers-3.png)
 
 1. Dans la fenêtre **[!UICONTROL Modifier le code HTML]**, ajoutez la fonction de chaîne `upperCase` :
    1. Dans le menu de gauche, sélectionnez **[!UICONTROL Fonctions d’assistance]**.
@@ -135,7 +142,7 @@ Cette étape illustre l’itération sur les données d’événement. Pour obte
 1. Sur la page d&#39;accueil du concepteur d’e-mail, cliquez sur le composant HTML dans lequel vous souhaitez répertorier le contenu du panier.
 1. Dans la barre d’outils contextuelle, cliquez sur **[!UICONTROL Afficher le code source]**.
 
-   ![Barre d’outils contextuelle avec l’option Afficher le code source ](assets/personalization-uc-helpers-3.png)
+   ![Barre d’outils contextuelle avec l’option Afficher le code source &#x200B;](assets/personalization-uc-helpers-3.png)
 
 1. Dans la fenêtre **[!UICONTROL Modifier le code HTML]**, ajoutez la fonction helper `each` :
    1. Dans le menu de gauche, sélectionnez **[!UICONTROL Fonctions d’assistance]**.
@@ -232,7 +239,7 @@ Cette étape illustre l’itération sur les données d’événement. Pour obte
 1. Sur la page d&#39;accueil du concepteur d’e-mail, cliquez sur le composant HTML dans lequel vous souhaitez insérer la note.
 1. Dans la barre d’outils contextuelle, cliquez sur **[!UICONTROL Afficher le code source]**.
 
-   ![Barre d’outils contextuelle avec l’option Afficher le code source ](assets/personalization-uc-helpers-3.png)
+   ![Barre d’outils contextuelle avec l’option Afficher le code source &#x200B;](assets/personalization-uc-helpers-3.png)
 
 1. Dans la fenêtre **[!UICONTROL Modifier le code HTML]**, ajoutez la fonction helper `if` :
    1. Dans le menu de gauche, sélectionnez **[!UICONTROL Fonctions d’assistance]**.
@@ -248,7 +255,7 @@ Cette étape illustre l’itération sur les données d’événement. Pour obte
       {%/if%}
       ```
 
-      ![ Éditeur d’expression avec le modèle d’assistance if ](assets/personalization-uc-helpers-12.png)
+      ![&#x200B; Éditeur d’expression avec le modèle d’assistance if &#x200B;](assets/personalization-uc-helpers-12.png)
 
 1. Supprimez cette condition de l’expression :
 
@@ -282,7 +289,7 @@ Cette étape illustre l’itération sur les données d’événement. Pour obte
       {%/if%}
       ```
 
-      ![ Éditeur d’expression avec jeton de nom productListItems dans la condition if ](assets/personalization-uc-helpers-13.png)
+      ![&#x200B; Éditeur d’expression avec jeton de nom productListItems dans la condition if &#x200B;](assets/personalization-uc-helpers-13.png)
 
 1. Modifiez l’expression :
    1. Dans l&#39;éditeur d&#39;expression, indiquez le nom du produit après le jeton `name`.
