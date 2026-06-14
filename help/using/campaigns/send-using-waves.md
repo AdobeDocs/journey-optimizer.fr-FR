@@ -9,19 +9,22 @@ role: User
 level: Intermediate
 keywords: vagues, lots, planning, campagne, parcours, délivrabilité
 exl-id: 6d53d817-78f6-4d00-8ff0-8a848c618435
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 786
+source-wordcount: 813
 ht-degree: 2%
 
 ---
 
 # Envoi par vagues dans les campagnes {#send-using-waves}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** divisez la diffusion de la campagne sortante en lots planifiés, appelés vagues, afin de pouvoir équilibrer la charge, protéger la réputation de l’expéditeur et améliorer la délivrabilité des envois volumineux.
+
+>[!ENDSHADEBOX]
 
 Vous pouvez diviser la diffusion des messages de campagne sortants en plusieurs lots (vagues) et les planifier au fil du temps. L’envoi de vagues permet d’équilibrer la charge, d’éviter de surcharger les systèmes en aval (tels que les centres d’appels ou les landing pages) et de prendre en charge la délivrabilité et la réputation des expéditeurs, en particulier pour les envois de gros volumes.
 
@@ -36,7 +39,7 @@ Journey Optimizer vous permet de définir le nombre de vagues, leur taille (en p
 ## Limites et mécanismes de sécurisation {#limitations-guardrails}
 
 * L’envoi de vagues s’applique uniquement aux actions **sortantes** (e-mail, SMS, notification push, courrier).
-* Vous devez définir au moins 2 vagues de **2** et vous pouvez ajouter jusqu’à 10 vagues de **&#x200B;**.
+* Vous devez définir au moins 2 vagues de **2** et vous pouvez ajouter jusqu’à 10 vagues de ****.
 * L’intervalle minimum entre le début de deux vagues est de **30 minutes**.
 * Un début de vague ne peut pas être antérieur au début de la campagne ou antérieur.
 
