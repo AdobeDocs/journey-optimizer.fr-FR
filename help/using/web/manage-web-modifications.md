@@ -7,12 +7,22 @@ role: User
 level: Beginner, Intermediate
 exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
 TQID: https://experienceleague.adobe.com/8T04E9mgfsmZxHAv0lSgWd9owrKjxW9xWRE76iYMvz8
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2: id: c618a0dc-1818-4c6d-9916-0d92e6796f24id: d056adbe-402d-4f42-9746-f3d424e598b1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072f
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2:
+  - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
+  - id: d056adbe-402d-4f42-9746-f3d424e598b1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
 source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
 source-wordcount: 1009
@@ -194,7 +204,7 @@ Chaque modification crée un nouvel élément dans le panneau **[!UICONTROL Modi
 
 +++
 
-+++ **Faites preuve de prudence lors de l’utilisation du type de modification**[!UICONTROL  Page `<head>`]**pour deux campagnes ayant un impact sur la même URL.**
++++ **Faites preuve de prudence lors de l’utilisation du type de modification**&#x200B;[!UICONTROL &#x200B; Page `<head>`]&#x200B;**pour deux campagnes ayant un impact sur la même URL.**
 
 Si vous utilisez le type de modification **[!UICONTROL Page`<head>`]** pour deux campagnes ayant un impact sur la même URL, le code JavaScript est injecté dans la page à partir des deux campagnes. [!DNL Journey Optimizer] détermine automatiquement l’ordre du contenu diffusé. Assurez-vous que le code ne dépend pas de l’emplacement. C’est à vous de vous assurer qu’il n’y a aucun conflit dans le code.
 
