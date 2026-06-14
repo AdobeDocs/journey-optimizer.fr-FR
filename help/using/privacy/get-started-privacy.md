@@ -25,14 +25,20 @@ subfeature_v2:
   - id: f365ec33-2b99-4b7f-b4ee-c743dd7f615f
   - id: c8d5f2ce-ba44-43e9-a2bf-94a3d7d85ec3
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
 workflow-type: tm+mt
-source-wordcount: 241
-ht-degree: 100%
+source-wordcount: 278
+ht-degree: 86%
 
 ---
 
 # Commencer avec la confidentialité {#privacy}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez les outils Adobe Journey Optimizer et Adobe Experience Platform de gestion des demandes de données, des journaux d’audit, du consentement et des politiques de gouvernance afin de gérer les données personnelles de manière responsable et de vous conformer aux réglementations telles que le RGPD.
+
+>[!ENDSHADEBOX]
 
 Journey Optimizer est un puissant outil servant à collecter et à traiter de très grands volumes de données, notamment des informations personnelles et des données sensibles. La confidentialité doit donc être gérée avec soin.
 

@@ -26,14 +26,20 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
 workflow-type: tm+mt
-source-wordcount: 1291
-ht-degree: 99%
+source-wordcount: 1320
+ht-degree: 97%
 
 ---
 
 # Gérer le processus d’opt-out {#consent}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** gérer la manière dont les destinataires se désabonnent des communications et refusent la personnalisation, afin que vous puissiez honorer leurs choix de consentement et respecter vos obligations légales et de réputation de marque.
+
+>[!ENDSHADEBOX]
 
 La possibilité pour les destinataires de se désabonner de la réception des communications d’une marque est une exigence légale, ainsi que de veiller au respect de leur choix. Le non-respect de ces réglementations entraîne des risques juridiques pour votre marque. Cela vous aide à éviter d’envoyer des communications non sollicitées à vos personnes destinataires, ce qui pourrait les faire marquer vos messages comme des courriers indésirables et nuire à votre réputation.
 

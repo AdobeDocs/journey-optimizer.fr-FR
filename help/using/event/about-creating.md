@@ -26,14 +26,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
 workflow-type: tm+mt
-source-wordcount: 1729
-ht-degree: 96%
+source-wordcount: 1688
+ht-degree: 93%
 
 ---
 
 # Configurer un événement unitaire {#configure-an-event}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Configurer un événement unitaire afin de pouvoir déclencher un parcours en temps réel pour une personne spécifique en fonction de son comportement, tel qu’un jalon d’achat ou de fidélité.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_unitary"
@@ -138,7 +144,7 @@ Vous pouvez soit créer un type d’identité existant, soit en créer un nouvea
 
 Si vous sélectionnez un schéma doté d’une identité principale, alors les champs **[!UICONTROL Identifiant du profil]** et **[!UICONTROL Type d’identité]** sont déjà renseignés. Si aucune identité n’est définie, _identityMap > id_ est sélectionné comme clé primaire. Vous devez ensuite sélectionner un type d’identité et la clé sera déjà renseignée (sous le champ **[!UICONTROL Type d’identité]**) à l’aide de _identityMap > id_.
 
-Lors de la sélection de champs, les champs d&#39;identité principale sont balisés.
+Lors de la sélection de champs, les champs de l’identité principale sont balisés.
 
 ![](assets/primary-identity.png)
 
@@ -160,7 +166,7 @@ Pour utiliser les données stockées dans la base de données de profil client e
 
 Le système peut ainsi effectuer la réconciliation entre l’événement et le profil de la personne. Si vous sélectionnez un schéma doté d’une identité principale, alors les champs **[!UICONTROL Identifiant du profil]** et **[!UICONTROL Type d’identité]** sont déjà renseignés. Si aucune identité n’est définie, _identityMap > id_ est la clé primaire. Vous devez ensuite sélectionner un type d’identité et la clé est automatiquement renseignée à l’aide de la fonction _identityMap > id_.
 
-Lors de la sélection de champs, les champs d&#39;identité principale sont balisés.
+Lors de la sélection de champs, les champs de l’identité principale sont balisés.
 
 ![](assets/primary-identity.png)
 
@@ -172,8 +178,8 @@ Si vous devez utiliser une autre clé, telle qu&#39;un ID CRM ou une adresse e-
 
 1. Sélectionnez le champ choisi comme clé dans la liste des champs de payload.
 
-Lorsque l’événement est reçu, la valeur de la clé permet au système d’identifier la personne qui y est associée. Associée à un [type d’identité](../event/about-creating.md#select-the-namespace), la clé peut être utilisée pour exécuter des requêtes vers Adobe Experience Platform. Voir [cette page](../building-journeys/about-journey-activities.md#orchestration-activities).
-La clé sert également à vérifier qu&#39;une personne se trouve dans un parcours. En effet, une personne ne peut se trouver à deux endroits différents dans le même parcours. Par conséquent, le système n&#39;autorise pas qu&#39;une même clé (CRMID=3224, par exemple) se trouve à des endroits différents dans un même parcours.
+Lorsque l&#39;événement est reçu, la valeur de la clé permet au système d&#39;identifier la personne associée à l&#39;événement. Associée à un [type d’identité](../event/about-creating.md#select-the-namespace), la clé peut être utilisée pour exécuter des requêtes sur Adobe Experience Platform. Voir [cette page](../building-journeys/about-journey-activities.md#orchestration-activities).
+La clé permet également de vérifier qu’une personne se trouve dans un parcours. En effet, une personne ne peut pas se trouver à deux endroits différents dans le même parcours. Par conséquent, le système ne permet pas qu&#39;une même touche, par example la touche CRMID=3224, soit à différents endroits dans un même parcours.
 
 ## Éditeur d’expression avancé {#adv-exp-editor}
 

@@ -26,14 +26,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
 workflow-type: tm+mt
-source-wordcount: 318
-ht-degree: 95%
+source-wordcount: 347
+ht-degree: 87%
 
 ---
 
 # Étapes supplémentaires pour l’envoi d’événements {#additional-steps-to-send-events}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Configurez votre système de données pour pousser les événements vers les API d’ingestion en flux continu afin que les événements que vous avez configurés atteignent Journey Optimizer et déclenchent vos parcours.
+
+>[!ENDSHADEBOX]
 
 Pour configurer les événements qui doivent être envoyés aux **[!UICONTROL API d’ingestion en flux continu]** et utilisés dans [!DNL Journey Optimizer], procédez comme suit :
 

@@ -27,14 +27,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
 workflow-type: tm+mt
-source-wordcount: 1160
-ht-degree: 100%
+source-wordcount: 1191
+ht-degree: 97%
 
 ---
 
 # Configuration d’un événement métier {#configure-a-business-event}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Configurez un événement métier afin de pouvoir déclencher un parcours pour un ensemble de profils chaque fois qu’une occurrence globale se produit, comme un produit qui revient en stock.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_business"
