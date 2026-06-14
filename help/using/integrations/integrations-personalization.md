@@ -141,4 +141,4 @@ Lors de la **[!UICONTROL Simulation]** ou de l’envoi, Journey Optimizer exécu
 
 Cette vidéo montre comment **Intégrations** connecter Adobe Journey Optimizer à des API externes afin d’extraire des données et du contenu en direct dans des canaux **sortants**, des e-mails, des SMS et des notifications push, pour une personnalisation plus pertinente.
 
->[!VIDEO](https://video.tv.adobe.com/v/3484118/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3484120/?captions=fre_fr&learn=on)
