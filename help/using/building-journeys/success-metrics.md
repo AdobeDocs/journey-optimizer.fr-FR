@@ -28,14 +28,20 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 595
-ht-degree: 96%
+source-wordcount: 623
+ht-degree: 92%
 
 ---
 
 # Configurer et suivre les mesures de votre parcours {#success-metrics}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment configurer et affecter des mesures de parcours pour effectuer le suivi des performances par rapport à vos KPI et mesurer l’efficacité de vos parcours client en temps réel.
+
+>[!ENDSHADEBOX]
 
 Bénéficiez d’une visibilité claire sur l’efficacité de vos parcours client avec les mesures de parcours. Cette fonctionnalité vous permet de suivre les performances par rapport aux KPI définis, de découvrir des informations sur ce qui fonctionne et d’identifier les domaines à optimiser. En mesurant l’impact en temps réel, vous pouvez favoriser l’amélioration continue et prendre des décisions informées qui augmentent l’engagement des clientes et clients.
 

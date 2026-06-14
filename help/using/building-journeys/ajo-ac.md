@@ -27,14 +27,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 472
-ht-degree: 85%
+source-wordcount: 501
+ht-degree: 80%
 
 ---
 
 # Envoyer un message avec Campaign v7/v8 {#campaign-v7-v8-use-case}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment envoyer un e-mail à partir d’un parcours à l’aide de l’intégration à Adobe Campaign v7 et v8, y compris la création du modèle transactionnel, de l’événement et de l’action.
+
+>[!ENDSHADEBOX]
 
 Ce cas pratique décrit toutes les étapes requises pour envoyer un e-mail à l’aide de l’intégration à [!DNL Adobe Campaign] v7 et [!DNL Adobe Campaign] v8.
 

@@ -24,14 +24,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 8a60b2d54073f30628f1939839faf992fcfd151b
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1171
-ht-degree: 76%
+source-wordcount: 1203
+ht-degree: 74%
 
 ---
 
 # Terminer un parcours {#journey-ending}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment les parcours se terminent à la fois pour les profils individuels et globalement, et comment fermer ou arrêter un parcours dynamique lorsque vous devez arrêter de nouvelles entrées ou tout traitement.
+
+>[!ENDSHADEBOX]
 
 >[!TIP]
 >

@@ -28,14 +28,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1078
-ht-degree: 89%
+source-wordcount: 1109
+ht-degree: 87%
 
 ---
 
 # Envoyer des e-mails uniquement les jours de la semaine {#send-emails-only-on-weekdays}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment configurer un parcours qui envoie des e-mails uniquement les jours de la semaine, en mettant en file d’attente les entrées de week-end pour la diffusion du lundi à l’aide d’une activité de condition et les activités d’attente avec des formules personnalisées.
+
+>[!ENDSHADEBOX]
 
 Ce cas pratique montre comment configurer un parcours dans [!DNL Adobe Journey Optimizer] qui envoie des e-mails uniquement les jours de la semaine (du lundi au vendredi). Pour les profils qui rejoignent le parcours le week-end (samedi ou dimanche), les e-mails sont automatiquement mis en file d’attente et envoyés le lundi à une heure spécifiée. Cela garantit un engagement optimal en diffusant des messages pendant la semaine de travail.
 

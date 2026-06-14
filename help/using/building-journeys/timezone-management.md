@@ -23,14 +23,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 380
-ht-degree: 72%
+source-wordcount: 418
+ht-degree: 66%
 
 ---
 
 # Gestion des fuseaux horaires {#timezone_management}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez comment définir le fuseau horaire d’un parcours (un fuseau horaire fixe ou un fuseau horaire issu de chaque profil) pour contrôler le moment où les activités basées sur l’heure, telles que les conditions horaires, les conditions de date et les attentes personnalisées, s’exécutent.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_time_zone"

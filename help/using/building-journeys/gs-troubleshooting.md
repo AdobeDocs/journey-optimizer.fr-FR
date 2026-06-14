@@ -28,14 +28,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 245
-ht-degree: 92%
+source-wordcount: 255
+ht-degree: 89%
 
 ---
 
 # Résoudre les problèmes liés à vos parcours {#troubleshooting}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Recherchez des ressources de dépannage organisées par zone de problème commune pour vous aider à diagnostiquer et à résoudre les erreurs de parcours, les incohérences d’exécution, les problèmes d’action entrante et les problèmes d’action personnalisée.
+
+>[!ENDSHADEBOX]
 
 Lorsqu’un parcours client ne se comporte pas comme prévu, l’identification de la cause première peut s’avérer difficile. Pour vous permettre de résoudre les problèmes efficacement, vous trouverez ci-dessous des ressources concernant les problèmes les plus courants. Que vous constatiez des échecs de parcours, des incohérences dans l’exécution ou des problèmes au niveau des actions, chaque section vous propose des conseils ciblés pour examiner ces problèmes et les résoudre.
 
@@ -76,8 +82,8 @@ Consultez les pages ci-dessous pour explorer les rubriques spécifiques de réso
   <td>
     <div>
     <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=fr">
-    <img alt="Comprendre les codes d’erreur courants" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
-    <br>Consultez également <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=fr" target="_blank">cet article de blog de la communauté Adobe</a> pour en savoir plus sur les <strong>codes d’erreur courants</strong> et sur la manière de les résoudre efficacement.
+<img alt="Comprendre les codes d’erreur courants" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
+<br>Consultez également <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=fr" target="_blank">cet article de blog de la communauté Adobe</a> pour en savoir plus sur les <strong>codes d’erreur courants</strong> et sur la manière de les résoudre efficacement.
     </div>
   </td>
 </tr>

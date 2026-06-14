@@ -11,14 +11,20 @@ keywords: erreur, codes, dépannage, parcours, campagne, messages
 exl-id: 84924153-1bb5-465a-b91c-797628fc816c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 2351
+source-wordcount: 2358
 ht-degree: 84%
 
 ---
 
 # Référence des codes d’erreur {#error-codes}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez la structure des codes d’erreur Adobe Journey Optimizer, où les trouver et comment résoudre les erreurs courantes dans les parcours, les campagnes et les configurations de messages.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] utilise des codes d’erreur normalisés pour vous aider à identifier et à résoudre rapidement les problèmes liés aux parcours, aux campagnes et aux configurations de messages. La compréhension de ces codes d’erreur peut réduire considérablement le temps de dépannage et vous aider à maintenir des performances de campagne optimales.
 

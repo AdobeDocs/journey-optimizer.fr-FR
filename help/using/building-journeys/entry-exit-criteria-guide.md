@@ -31,14 +31,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1670
-ht-degree: 92%
+source-wordcount: 1700
+ht-degree: 91%
 
 ---
 
 # Utiliser les critères d’entrée et de sortie d’un parcours {#entry-exit-criteria-guide}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment définir et configurer des critères d’entrée et de sortie de parcours, avec des exemples réels et des bonnes pratiques pour contrôler le moment où les profils entrent et sortent de vos parcours.
+
+>[!ENDSHADEBOX]
 
 Dans l’orchestration de l’expérience client, diffuser le bon message au bon moment nécessite un contrôle précis des moments où les personnes rejoignent vos parcours et en sortent. Comprendre et configurer correctement les critères d’entrée et de sortie peut faire la différence entre une campagne réussie et attrayante et les opportunités manquées ou la lassitude face aux messages.
 

@@ -11,15 +11,21 @@ keywords: fragments, parcours, réutilisation, nœuds, zone de travail, inventai
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1644
+source-wordcount: 1671
 ht-degree: 7%
 
 ---
 
 
 # Fragments de parcours {#journey-fragments}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment créer, gérer et réutiliser des fragments de parcours (des ensembles réutilisables de nœuds de parcours) pour créer des parcours plus rapidement et rester cohérents sur l’ensemble de votre sandbox.
+
+>[!ENDSHADEBOX]
 
 Les fragments de parcours sont des ensembles réutilisables de nœuds de parcours que vous pouvez créer une fois et déposer dans n’importe quel parcours de votre sandbox. Qu’il s’agisse d’une vérification d’éligibilité, d’une logique de routage de canal préférée ou d’une séquence de bienvenue, les fragments aident les équipes à se déplacer plus rapidement et à rester cohérentes, sans avoir à reconstruire la même logique à chaque fois. [Voir les exemples de cas d’utilisation.](#examples)
 

@@ -12,14 +12,20 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 564
-ht-degree: 92%
+source-wordcount: 584
+ht-degree: 86%
 
 ---
 
 # Limites {#journey-limitations}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** passez en revue les limitations et les mécanismes de sécurisation qui s’appliquent aux parcours, y compris les actions, les versions, les actions personnalisées, les événements et les sources de données.
+
+>[!ENDSHADEBOX]
 
 Voici les limitations liées à l&#39;utilisation des parcours.
 
@@ -43,7 +49,7 @@ Voici les limitations liées à l&#39;utilisation des parcours.
 
 * L’URL de l’action personnalisée ne prend pas en charge les paramètres dynamiques. 
 * Seules les méthodes d’appel POST et PUT sont prises en charge. 
-* Le nom du paramètre de la requête ou de l’en-tête ne doit pas commencer par « . » ou « $ ». 
+* Le nom du paramètre de requête ou de l’en-tête ne doit pas commencer par « . » ou « $ ». 
 * Les adresses IP ne sont pas autorisées. 
 * Les adresses Adobe internes (.adobe.) ne sont pas autorisées.
 

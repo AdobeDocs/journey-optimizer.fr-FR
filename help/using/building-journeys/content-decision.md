@@ -27,14 +27,20 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1262
-ht-degree: 74%
+source-wordcount: 1286
+ht-degree: 73%
 
 ---
 
 # Activité Décision de contenu {#content-decision}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment utiliser l’activité de décision de contenu pour inclure des offres personnalisées dans vos parcours et les diffuser aux profils éligibles.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] vous permet d’inclure des offres dans vos parcours par le biais de l’activité dédiée **Décision de contenu** dans la zone de travail du parcours. Vous pouvez ensuite ajouter d’autres activités (telles que des [actions personnalisées](../action/about-custom-action-configuration.md)) à vos parcours pour cibler vos audiences avec ces offres personnalisées.
 

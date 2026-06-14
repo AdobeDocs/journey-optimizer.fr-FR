@@ -12,14 +12,20 @@ keywords: vagues, lots, planning, parcours, lecture d’audience, délivrabilit�
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 868
+source-wordcount: 896
 ht-degree: 2%
 
 ---
 
 # Utiliser l’envoi par vagues dans les parcours {#send-using-waves-journeys}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment diffuser des messages sortants à partir d’un parcours d’audience lue par lots planifiés, appelés vagues, pour équilibrer la charge, protéger les systèmes en aval et prendre en charge la délivrabilité.
+
+>[!ENDSHADEBOX]
 
 Vous pouvez diffuser des messages sortants à partir d’un parcours par lots (vagues) au fil du temps, au lieu de les diffuser tous en même temps. L’envoi de vagues permet d’équilibrer la charge, d’éviter de surcharger les systèmes en aval (tels que les centres d’appels ou les landing pages) et de prendre en charge la délivrabilité et la réputation de l’expéditeur, en particulier pour les parcours de lecture d’audience à volume élevé.
 

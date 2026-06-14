@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 522
-ht-degree: 92%
+source-wordcount: 548
+ht-degree: 87%
 
 ---
 
 # Résoudre les erreurs avant de tester votre parcours {#troubleshooting}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment rechercher et corriger les erreurs de configuration d’activité et de parcours avant de tester ou de publier, afin que votre parcours puisse s’exécuter sans problème.
+
+>[!ENDSHADEBOX]
 
 Cette section décrit comment résoudre les problèmes liés aux parcours avant de les tester ou de les publier. Il est possible d&#39;effectuer les vérifications répertoriées ci-dessous lorsque le parcours est en mode test ou actif. Il est recommandé de les réaliser en mode test, puis d&#39;effectuer la publication. En savoir plus sur le mode test sur [cette page](../building-journeys/testing-the-journey.md).
 

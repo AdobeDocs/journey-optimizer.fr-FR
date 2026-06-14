@@ -26,14 +26,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1405
-ht-degree: 60%
+source-wordcount: 1358
+ht-degree: 56%
 
 ---
 
 # Sauter d’un parcours à un autre {#jump}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez comment utiliser l’activité Saut pour pousser des individus d’un parcours à un autre, en simplifiant les conceptions complexes et en créant des modèles de parcours communs et réutilisables.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_jump"
@@ -136,8 +142,8 @@ Créez chaque phase sous la forme d’un parcours distinct dans Journey Optimize
 
    ![Liste déroulante de sélection du parcours cible dans la configuration de l’activité Saut](assets/jump2.png)
 
-1. Cliquez dans le champ **Parcours cible**.
-La liste contient toutes les versions de parcours en version brouillon, version active ou en mode test. Les parcours qui utilisent un autre espace de noms ou commençant par un événement **Qualification d’audience** ne sont pas disponibles. Les parcours cible qui créeraient un schéma de boucle sont également filtrés.
+1. Cliquez dans le champ parcours cible **.
+La liste affiche toutes les versions de parcours en mode brouillon, actif ou test. Les parcours qui utilisent un autre espace de noms ou commençant par un événement **&#x200B; Qualification d’audience &#x200B;** ne sont pas disponibles. Les parcours cibles qui créent un motif de boucle sont également exclus.**
 
    ![Activité Saut présentant le parcours cible et les paramètres d’action](assets/jump3.png)
 
@@ -146,7 +152,7 @@ La liste contient toutes les versions de parcours en version brouillon, version 
    >Vous pouvez cliquer sur l’icône **Ouvrir le parcours cible**, sur le côté droit, pour ouvrir le parcours cible dans un nouvel onglet.
 
 1. Sélectionnez le parcours cible auquel vous souhaitez accéder.
-Le champ **Premier événement** est prérenseigné avec le nom du premier événement du parcours cible. Si votre parcours cible comporte plusieurs événements, le **[!UICONTROL saut]** n’est autorisé que pour le premier.
+Le champ **Premier événement** est prérempli avec le nom du premier événement du parcours cible. Si votre parcours cible comprend plusieurs événements, le **[!UICONTROL Saut]** n’est autorisé que sur le premier événement.
 
    ![Configuration du mapping des paramètres pour l’activité Saut avec l’éditeur d’expression](assets/jump4.png)
 

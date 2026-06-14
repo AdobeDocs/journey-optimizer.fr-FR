@@ -30,14 +30,20 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1134
-ht-degree: 73%
+source-wordcount: 1054
+ht-degree: 76%
 
 ---
 
 # Apprendre avec des cas d’utilisation {#jo-uc-gs}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** explorez une bibliothèque de cas d’utilisation pratiques et de scénarios de bout en bout de Adobe Journey Optimizer pour vous aider à concevoir des parcours, à modéliser des données et à créer une logique d’activation.
+
+>[!ENDSHADEBOX]
 
 Cette section rassemble un ensemble de cas d’utilisation pratiques pour vous aider à tirer le meilleur parti de [!DNL Adobe Journey Optimizer]. Que vous recherchiez des modèles tactiques, tels qu’une logique de suppression, des techniques de personnalisation, des stratégies de sortie de parcours, ou des scénarios complets de bout en bout couvrant les workflows marketing et techniques, vous trouverez des liens vers des exemples pertinents ci-dessous.
 
@@ -56,7 +62,7 @@ Utilisez cette bibliothèque comme point de référence lors de la conception de
     <div>
     <a href="exp-event-lookup.md">
     <img alt="bonnes pratiques en matière de recherche d’événements d’expérience" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
-    <br>Découvrez les modèles courants et les approches évolutives pour vous aider à tirer le meilleur parti des événements d’expérience dans [!DNL Adobe Journey Optimizer]. Ces cas d’utilisation ont été conçus pour vous aider à résoudre les défis courants tels que la gestion des opt-outs, le contrôle de la fréquence des messages, la personnalisation du contenu en fonction du comportement des utilisateurs et des utilisatrices et la réaction aux signaux en temps réel.
+    <br>Découvrez les modèles courants et les approches évolutives pour vous aider à tirer le meilleur parti des événements d’expérience dans [!DNL Adobe Journey Optimizer]. Ces cas d’utilisation sont conçus pour vous aider à résoudre des défis fréquents tels que la gestion des désinscriptions, le contrôle de la fréquence des messages, la personnalisation du contenu en fonction du comportement de l’utilisateur et la réaction aux signaux en temps réel.
     </div>
       <div>
      <a href="exp-event-lookup.md">En savoir plus</a></div>
@@ -169,35 +175,35 @@ Parcourez les tutoriels vidéo pour découvrir les étapes clés permettant de c
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px">
-    <br/>
-      <strong>Intégration des clients</strong><br/><p>Découvrez comment mettre en œuvre un parcours d’intégration des clientes et clients dans Journey Optimizer.</p> - <a href="https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank">Regarder la vidéo du cas d’utilisation</a>
+<br/>
+<strong>Intégration des clientes et clients</strong><br/><p>Découvrez comment mettre en œuvre un parcours d’intégration des clientes et clients dans Journey Optimizer.</p> - <a href="https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank">Regarder la vidéo du cas d’utilisation</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-campaign.svg" width="35px">
-    <br/>
-      <strong>Panier abandonné</strong><br/><p>Découvrez comment mettre en œuvre le cas d’utilisation de panier abandonné à l’aide de la fonctionnalité Playbook dans [!DNL Adobe Journey Optimizer].</p><a href="https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank">Regarder la vidéo du cas d’utilisation </a>
+<br/>
+<strong>Panier abandonné</strong><br/><p>Découvrez comment mettre en œuvre le cas d’utilisation de panier abandonné à l’aide de la fonctionnalité Playbook dans [!DNL Adobe Journey Optimizer].</p><a href="https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank">Regarder la vidéo du cas d’utilisation </a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-content.svg" width="35px">
-    <br/>
-      <strong>Réengagement</strong><br/><p>Découvrez comment Adobe a adapté le cas d’utilisation Réengagement intelligent pour qu’il fonctionne avec le site de démonstration Luma, en s’appuyant sur l’implémentation de base décrite dans les tutoriels sur l’architecture et l’ingénierie des données et sur le SDK Web Experience Platform.</p><a href="https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma" target="_blank">Regarder les vidéos de cas d’utilisation</a> 
+<br/>
+<strong>Réengagement</strong><br/><p>Découvrez comment Adobe a adapté le cas d’utilisation Réengagement intelligent pour qu’il fonctionne avec le site de démonstration Luma, en s’appuyant sur l’implémentation de base décrite dans les tutoriels sur l’architecture et l’ingénierie des données et sur le SDK Web Experience Platform.</p><a href="https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma" target="_blank">Regarder les vidéos de cas d’utilisation</a> 
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-experience.svg" width="35px">
-    <br/>
-      <strong> Personnalisation des offres en temps réel </strong><br/><p>L’utilisation de données météorologiques dans [!DNL Adobe Journey Optimizer] pour diffuser des offres permet aux entreprises de personnaliser les expériences client en fonction des conditions environnementales en temps réel.</p><a href="https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction" target="_blank">Suivre le tutoriel détaillé</a>
+<br/>
+<strong>Personnalisation des offres en temps réel</strong><br/><p>L’utilisation de données météorologiques dans [!DNL Adobe Journey Optimizer] pour diffuser des offres permet aux entreprises de personnaliser les expériences client en fonction des conditions environnementales en temps réel.</p><a href="https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction" target="_blank">Suivre le tutoriel détaillé</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-configure.svg" width="35px">
-    <br/>
-      <strong>Suivre et générer des rapports sur les offres diffusées par le biais de la prise de décision</strong><br/><p>Activez les rapports et l’analyse des performances pour les offres diffusées par l’intermédiaire de [!DNL Adobe Journey Optimizer] : lorsque les offres sont personnalisées et diffusées en fonction des signaux contextuels, il est essentiel de suivre les impressions et les interactions utilisateur pour évaluer leur efficacité.</p><a href="https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/reporting-on-ajo-od/introduction" target="_blank">Suivre le tutoriel détaillé</a> 
+<br/>
+<strong>Suivre et générer des rapports sur les offres diffusées par le biais de la prise de décision</strong><br/><p>Activez les rapports et l’analyse des performances pour les offres diffusées par l’intermédiaire de [!DNL Adobe Journey Optimizer] : lorsque les offres sont personnalisées et diffusées en fonction des signaux contextuels, il est essentiel de suivre les impressions et les interactions utilisateur pour évaluer leur efficacité.</p><a href="https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/reporting-on-ajo-od/introduction" target="_blank">Suivre le tutoriel détaillé</a> 
     </td>
     <td>
       <img src="../assets/do-not-localize/icon_profile-audience.svg" width="35px">
-    <br/>
-      <strong>Personnaliser les offres avec des formules de classement</strong><br/><p>Découvrez comment diffuser des offres financières personnalisées en exploitant des attributs utilisateur tels que le code postal et le revenu annuel dans [!DNL Adobe Journey Optimizer]. En utilisant des formules de classement, les offres sont notées et hiérarchisées intelligemment en fonction de promotions spécifiques à l’emplacement et de l’éligibilité basée sur les revenus.</p><a href="https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/personalizing-offers-with-ranking-formulas-based-on-user-zip-code-and-income/introduction" target="_blank">Suivre le tutoriel détaillé</a> 
+<br/>
+<strong>Personnaliser les offres avec des formules de classement</strong><br/><p>Découvrez comment diffuser des offres financières personnalisées en exploitant des attributs utilisateur tels que le code postal et le revenu annuel dans [!DNL Adobe Journey Optimizer]. En utilisant des formules de classement, les offres sont notées et hiérarchisées intelligemment en fonction de promotions spécifiques à l’emplacement et de l’éligibilité basée sur les revenus.</p><a href="https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/personalizing-offers-with-ranking-formulas-based-on-user-zip-code-and-income/introduction" target="_blank">Suivre le tutoriel détaillé</a> 
     </td>
   </tr>
 </table>

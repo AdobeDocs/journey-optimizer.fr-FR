@@ -30,14 +30,20 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 979
-ht-degree: 82%
+source-wordcount: 1009
+ht-degree: 80%
 
 ---
 
 # orchestration des parcours - guide complet{#journey-orchestration-guide}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** obtenez un guide complet sur l’orchestration des parcours dans Adobe Journey Optimizer, qui explique comment concevoir, gérer et affiner des parcours clients multicanaux et à plusieurs étapes qui s’adaptent en temps réel.
+
+>[!ENDSHADEBOX]
 
 Les parcours dans [!DNL Adobe Journey Optimizer] vous permettent de créer des parcours clients personnalisés et à plusieurs étapes qui s’adaptent en temps réel au comportement et aux besoins de votre audience. Grâce à une zone de travail intuitive par glisser-déposer, vous pouvez orchestrer des messages et des actions sur plusieurs canaux, en exploitant les données contextuelles et le ciblage des audiences pour un impact maximal.
 

@@ -22,14 +22,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 418
-ht-degree: 85%
+source-wordcount: 442
+ht-degree: 81%
 
 ---
 
 # Utiliser des actions personnalisées pour écrire des événements de parcours dans Experience Platform {#custom-action-aep}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez comment écrire des événements de parcours personnalisés dans Adobe Experience Platform à partir de vos parcours à l’aide d’actions personnalisées et d’appels d’API authentifiés.
+
+>[!ENDSHADEBOX]
 
 Ce cas d’utilisation explique comment écrire des événements personnalisés dans des [!DNL Adobe Experience Platform] à partir de Parcours à l’aide d’actions personnalisées et d’appels authentifiés.
 

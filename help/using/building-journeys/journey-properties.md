@@ -28,14 +28,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 4152
-ht-degree: 63%
+source-wordcount: 4186
+ht-degree: 62%
 
 ---
 
 # Définir les propriétés de votre parcours {#jo-properties}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment définir les propriétés globales d’un parcours (nom, règles d’entrée, fuseau horaire, dates de début et de fin, délai d’expiration, critères de sortie et gestion des conflits) à partir du rail de droite lors de la création.
+
+>[!ENDSHADEBOX]
 
 Utilisez les propriétés du parcours pour configurer les paramètres globaux de votre parcours, notamment son nom, les règles d’entrée, son fuseau horaire, ses dates de début et de fin, sa durée de temporisation, ses critères de sortie et la gestion des conflits. Les propriétés sont accessibles à partir du rail de droite à n’importe quelle étape de la création de parcours.
 

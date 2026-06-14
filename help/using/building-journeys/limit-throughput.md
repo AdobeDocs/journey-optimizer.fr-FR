@@ -22,14 +22,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 798
-ht-degree: 93%
+source-wordcount: 829
+ht-degree: 90%
 
 ---
 
 # Cas d’utilisation : limiter le débit avec les sources de données externes et les actions personnalisées{#limit-throughput}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment ralentir le traitement des parcours avec des actions personnalisées et des sources de données externes afin que les systèmes externes ne soient pas submergés par un nombre de requêtes par seconde supérieur à celui pris en charge.
+
+>[!ENDSHADEBOX]
 
 Utilisez ce cas d’utilisation pour ralentir le traitement du parcours lorsque des systèmes externes doivent gérer un nombre limité de requêtes par seconde.
 

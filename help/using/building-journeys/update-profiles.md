@@ -23,14 +23,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 909
-ht-degree: 35%
+source-wordcount: 938
+ht-degree: 34%
 
 ---
 
 # Mettre à jour le profil {#update-profile}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez comment utiliser l’activité d’action Mettre à jour le profil pour enrichir ou corriger un profil Adobe Experience Platform existant au fur et à mesure qu’un client ou une cliente passe par un parcours.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_update_profiles"

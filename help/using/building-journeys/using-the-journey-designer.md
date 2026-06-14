@@ -32,15 +32,20 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1675
-ht-degree: 90%
+source-wordcount: 1705
+ht-degree: 89%
 
 ---
 
 # Concevoir votre parcours {#design-your-journey}
 
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment utiliser la zone de travail et la palette du concepteur de parcours pour faire glisser et déposer des activités d’événement, d’orchestration et d’action dans un flux séquentiel qui crée votre parcours.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] comprend une zone de travail d’orchestration omnicanal qui permet aux marketeurs d’harmoniser la portée marketing avec l’engagement client individuel. L’interface utilisateur vous permet de faire glisser facilement des activités de la palette vers la zone de travail pour créer votre parcours. Vous pouvez également double-cliquer sur une activité pour l’ajouter à la zone de travail à la prochaine étape disponible.
 

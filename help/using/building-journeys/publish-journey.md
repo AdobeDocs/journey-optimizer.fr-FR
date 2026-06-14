@@ -22,14 +22,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: cec8851784af46ce97f5bce843e970c82b4aa3ed
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1272
+source-wordcount: 1295
 ht-degree: 48%
 
 ---
 
 # Publier votre parcours {#publishing-the-journey}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment publier un parcours pour le mettre en ligne, y compris les conditions préalables, le processus de publication, la gestion des versions et les exigences de republication.
+
+>[!ENDSHADEBOX]
 
 La publication d&#39;un parcours l&#39;active : elle passe au statut **[!UICONTROL En ligne]**, devient disponible pour les nouveaux profils et passe en mode lecture seule. Vous ne pouvez pas publier un parcours contenant des erreurs.
 

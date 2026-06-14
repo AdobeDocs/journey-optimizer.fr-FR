@@ -27,14 +27,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 993
-ht-degree: 96%
+source-wordcount: 1030
+ht-degree: 93%
 
 ---
 
 # Types de parcours et guide de sélection {#journey-types-selection}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment comparer les quatre types de parcours (unitaire, lecture d’audience, qualification de l’audience et événement métier) et utiliser le guide de décision et la matrice de compatibilité des fonctionnalités pour choisir le bon type d’audience pour votre cas d’utilisation.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] prend en charge quatre types de parcours, chacun conçu pour différents mécanismes d’entrée et scénarios métier. Ce guide vous aide à comprendre les différences entre les types et à choisir celui qui convient à votre cas d’utilisation.
 

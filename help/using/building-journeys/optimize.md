@@ -29,14 +29,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 470
-ht-degree: 47%
+source-wordcount: 496
+ht-degree: 44%
 
 ---
 
 # Prise en main de l’activité Optimisation {#journey-path-optimization}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment utiliser l’activité Optimiser pour créer plusieurs chemins de parcours en fonction de l’expérimentation, du ciblage et des conditions, en remplaçant l’ancienne activité de condition.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_optimize"

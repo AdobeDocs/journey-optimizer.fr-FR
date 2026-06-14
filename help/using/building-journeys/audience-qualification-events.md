@@ -27,14 +27,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 1c2e1cc6c0107416cc8d8180e8850e76c6383b2e
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1825
-ht-degree: 63%
+source-wordcount: 1854
+ht-degree: 62%
 
 ---
 
 # Événements de qualification d’audience {#segment-qualification}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment utiliser et configurer les événements de qualification d’audience pour déclencher une entrée ou une progression de parcours lorsque des profils remplissent les critères d’une audience Adobe Experience Platform ou en sortent.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"

@@ -27,14 +27,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: dba48e1d1e3e000a251db3082f6d98efdde5cdb5
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1199
-ht-degree: 85%
+source-wordcount: 1226
+ht-degree: 83%
 
 ---
 
 # Gestion des entrées de profil {#entry-management}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez le fonctionnement de l’entrée et de la reprise de profil pour chaque type de parcours afin que vous puissiez contrôler quand et à quelle fréquence les profils rejoignent vos parcours.
+
+>[!ENDSHADEBOX]
 
 La gestion des entrées de profil dépend du type de parcours.
 

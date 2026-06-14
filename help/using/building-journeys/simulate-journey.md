@@ -11,14 +11,20 @@ keywords: test, parcours, vérification, erreur, dépannage
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: c2c8b1a64e79482fcc9340950209579cf74c50b3
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1891
+source-wordcount: 1916
 ht-degree: 1%
 
 ---
 
 # Simuler votre parcours {#simulate-journey}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment exécuter une simulation rapide et une simulation manuelle avec des utilisateurs simulés afin de valider les chemins de parcours et de passer en revue les résultats avant la publication.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

@@ -32,14 +32,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 02ce60020012083981c5599789b9e86804190627
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 3958
+source-wordcount: 3992
 ht-degree: 55%
 
 ---
 
 # Utilisation d’une audience dans un parcours {#segment-trigger-activity}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment configurer l’activité Lecture d’audience pour importer les profils d’une audience Adobe Experience Platform dans un parcours, à la demande ou selon un planning, et personnaliser le chemin d’accès de chaque profil.
+
+>[!ENDSHADEBOX]
 
 Utilisez l’activité Lecture d’audience pour démarrer des parcours avec des audiences définies. Vous choisissez l’audience et le moment de son exécution, puis vous utilisez des [conditions](#audience-targeting-in-journeys), des minuteurs et des actions pour personnaliser le chemin d’accès de chaque profil.
 

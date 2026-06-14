@@ -11,14 +11,20 @@ keywords: ciblage, règles, parcours, chemin, optimisation, personnalisation
 exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
 feature_v2: []
 subfeature_v2: []
-source-git-commit: eb72b6c86793153cbbdb330427cc1f663705072e
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 795
-ht-degree: 89%
+source-wordcount: 823
+ht-degree: 86%
 
 ---
 
 # Tirer profit du ciblage par chemin {#targeting}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment utiliser les règles de ciblage dans l’activité Optimiser pour acheminer de manière déterministe des audiences spécifiques vers les chemins de parcours appropriés, avec un chemin de secours facultatif.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
