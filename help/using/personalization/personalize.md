@@ -9,19 +9,22 @@ role: Developer
 level: Beginner
 keywords: expression, éditeur, commencer, personnalisation
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: a757b957-83f3-4a4d-9775-a93854f84f77
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: a757b957-83f3-4a4d-9775-a93854f84f77id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 681
-ht-degree: 82%
+source-wordcount: 710
+ht-degree: 78%
 
 ---
 
 # Prise en main de la personnalisation{#add-personalization}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Prise en main de la personnalisation dans Adobe Journey Optimizer, y compris le fonctionnement de l’éditeur de personnalisation, les données de profil que vous pouvez utiliser, le terrain de jeu d’apprentissage et la modification en ligne.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card5"
@@ -126,16 +129,16 @@ Maintenant que vous savez comment effectuer des personnalisations dans **[!DNL J
 
 ## Vidéos pratiques{#video-perso}
 
-Découvrez comment utiliser des informations d’événement contextuelles dans un parcours pour personnaliser un message.
+Découvrez comment utiliser les informations d’événement contextuelles d’un parcours pour personnaliser un message.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448131?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 Découvrez comment ajouter une personnalisation basée sur un profil à un message et comment utiliser l’appartenance à une audience comme condition préalable à un bloc de personnalisation.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416270?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
 
 Découvrez comment tirer parti du terrain de jeu de l’éditeur de personnalisation pour écrire et tester du code de personnalisation à l’aide de données d’exemple.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475954?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
 
 Découvrez d’autres tutoriels vidéo sur les fonctionnalités de personnalisation et les bonnes pratiques dans les [tutoriels sur la personnalisation](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/personalize-content/personalization-editor-overview){target="_blank"}.

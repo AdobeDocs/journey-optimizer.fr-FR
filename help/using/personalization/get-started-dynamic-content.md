@@ -9,19 +9,22 @@ role: Developer
 level: Intermediate
 keywords: expression, éditeur, prise en main, conditions, commencer
 exl-id: be9a3f83-8e22-4efa-9d48-37bf554018fa
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: a757b957-83f3-4a4d-9775-a93854f84f77
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: a757b957-83f3-4a4d-9775-a93854f84f77id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 149
-ht-degree: 100%
+source-wordcount: 174
+ht-degree: 85%
 
 ---
 
 # Commencer avec le contenu dynamique {#start-dynamic-content}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez comment le contenu dynamique utilise des règles conditionnelles créées à partir d’attributs de profil, d’événements contextuels et d’audiences pour adapter vos messages aux profils ciblés.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_conditions_list"
@@ -41,4 +44,4 @@ Les règles conditionnelles peuvent être utilisées dans le concepteur d’e-ma
 
 Découvrez comment créer du contenu dynamique à l’aide du créateur de règles de condition.
 
->[!VIDEO](https://video.tv.adobe.com/v/3413671?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3409815?quality=12)

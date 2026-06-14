@@ -9,18 +9,22 @@ role: Developer
 level: Intermediate
 keywords: expression, éditeur, condition, règles
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: a757b957-83f3-4a4d-9775-a93854f84f77
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 635
-ht-degree: 94%
+source-wordcount: 666
+ht-degree: 89%
 
 ---
 
 # Utiliser des règles conditionnelles {#conditions}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment créer des règles conditionnelles à partir d’attributs de profil, d’événements contextuels et d’audiences dans l’éditeur de personnalisation, et les enregistrer dans la bibliothèque pour les réutiliser dans votre contenu.
+
+>[!ENDSHADEBOX]
 
 Les règles conditionnelles sont des ensembles de règles qui définissent le contenu à afficher dans vos messages, suivant différents critères tels que les attributs des profils, l’appartenance à une audience ou les événements contextuels.
 
