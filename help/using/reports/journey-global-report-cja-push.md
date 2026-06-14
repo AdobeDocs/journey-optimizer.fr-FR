@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 562
-ht-degree: 94%
+source-wordcount: 593
+ht-degree: 89%
 
 ---
 
 # Rapport de parcours des notifications push {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez les mesures de notification push dans le rapport de parcours Adobe Journey Optimizer, notamment les statistiques d&#39;envoi et de tracking, les libellés des liens suivis et les URL, ainsi que les raisons de rebond, d&#39;erreur et d&#39;exclusion.
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

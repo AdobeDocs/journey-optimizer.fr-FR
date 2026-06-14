@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 1033
-ht-degree: 96%
+source-wordcount: 1061
+ht-degree: 94%
 
 ---
 
 # Rapport de parcours {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** explorez le rapport de parcours Adobe Journey Optimizer dans Customer Journey Analytics pour analyser les KPI de parcours, les statistiques, les exclusions, les performances des actions et des événements, ainsi que la zone de travail de parcours.
+
+>[!ENDSHADEBOX]
 
 Le **rapport de parcours** fonctionne comme un tableau de bord global, fournissant une analyse des mesures essentielles associées à votre parcours. Cela inclut des détails tels que le nombre de profils entrés et les instances de parcours individuels ayant échoué, ce qui vous permet d’avoir un aperçu complet de l’efficacité et du niveau d’engagement de votre parcours.
 

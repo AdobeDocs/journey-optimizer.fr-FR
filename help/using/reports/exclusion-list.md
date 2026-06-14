@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 892
-ht-degree: 96%
+source-wordcount: 920
+ht-degree: 93%
 
 ---
 
 # Causes d’exclusion {#exclusion-list}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez les raisons d’exclusion, les codes d’erreur et les canaux affectés qui empêchent l’envoi de messages, et comment les exclusions sont comptabilisées dans vos rapports de campagne.
+
+>[!ENDSHADEBOX]
 
 ## Comptage des exclusions dans les rapports de campagne
 

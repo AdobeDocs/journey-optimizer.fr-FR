@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 648
-ht-degree: 100%
+source-wordcount: 684
+ht-degree: 94%
 
 ---
 
 # Prise en main des rapports sur les canaux {#channel-report-gs}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Commencez avec les rapports de canal personnalisables qui unifient les mesures de trafic et d’engagement sur vos campagnes et parcours, et apprenez à gérer vos widgets de tableau de bord et à exporter des rapports vers PDF ou CSV.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -91,7 +97,7 @@ Pour accéder aux rapports sur les canaux et les gérer, procédez comme suit :
 
    ![](assets/channel_report_3.png)
 
-1. Une fois que l’ordre d’affichage et la taille des widgets vous conviennent, cliquez sur **[!UICONTROL Enregistrer]**.
+1. Une fois satisfait de l&#39;ordre d&#39;affichage et de la taille de vos widgets, cliquez sur **[!UICONTROL Enregistrer]**.
 
 1. Selon le widget, vous pouvez choisir de basculer d’un tableau, d’un graphique en barres ou d’un anneau à l’autre.
 
@@ -105,7 +111,7 @@ Vous pouvez facilement exporter vos différents rapports au format PDF ou CSV,
 
 >[!BEGINTABS]
 
->[!TAB Exporter votre rapport sous la forme d’un fichier PDF]
+>[!TAB Exporter votre rapport au format PDF]
 
 1. Dans votre rapport, cliquez sur **[!UICONTROL Exporter]** et sélectionnez **[!UICONTROL Fichier PDF]**.
 

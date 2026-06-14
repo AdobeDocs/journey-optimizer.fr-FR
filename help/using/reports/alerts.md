@@ -27,14 +27,20 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1315e30c843f37083346d0289a00f9abdcaca472
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 3128
+source-wordcount: 3161
 ht-degree: 46%
 
 ---
 
 # Accéder et s’abonner aux alertes système {#alerts}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment accéder aux alertes système dans Adobe Journey Optimizer, vous y abonner et les gérer pour surveiller de manière proactive les événements de cycle de vie des parcours et des campagnes, les erreurs d’action personnalisée, les problèmes de profil et la délivrabilité des e-mails.
+
+>[!ENDSHADEBOX]
 
 ## Vue d’ensemble
 
@@ -417,7 +423,7 @@ Les abonnements aux alertes déterminent quels utilisateurs reçoivent des notif
 
 **Diffusion de notification :**
 
-* **Canaux de diffusion** : les alertes sont envoyées par e-mail et/ou notifications in-app dans le centre de notification Journey Optimizer (icône représentant une cloche dans le coin supérieur droit). Configurez vos canaux de diffusion préférés dans vos [Préférences &#x200B;](../start/user-interface.md#in-product-uc).
+* **Canaux de diffusion** : les alertes sont envoyées par e-mail et/ou notifications in-app dans le centre de notification Journey Optimizer (icône représentant une cloche dans le coin supérieur droit). Configurez vos canaux de diffusion préférés dans vos [&#x200B; Préférences Adobe Experience Cloud &#x200B;](../start/user-interface.md#in-product-uc).
 
 * **Types d’alerte** : Journey Optimizer fournit des alertes ponctuelles (événements informatifs tels que « parcours publié ») et des alertes répétées (seuils de surveillance). Les alertes répétées continuent l’évaluation et la notification jusqu’à ce que la condition soit résolue.
 

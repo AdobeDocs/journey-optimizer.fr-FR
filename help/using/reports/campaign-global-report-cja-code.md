@@ -27,14 +27,20 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 945
-ht-degree: 99%
+source-wordcount: 980
+ht-degree: 95%
 
 ---
 
 # Rapport de campagne basée sur du code {#campaign-global-report-cja-code}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment lire le rapport de campagne basé sur le code dans Adobe Journey Optimizer pour analyser l’affichage et le clic sur l’engagement, les données de tracking, les libellés de lien suivi et les performances de prise de décision pour vos expériences basées sur le code.
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

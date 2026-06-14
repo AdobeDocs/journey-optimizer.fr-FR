@@ -28,14 +28,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 2213
-ht-degree: 95%
+source-wordcount: 2249
+ht-degree: 94%
 
 ---
 
 # Liste de mesures {#list-of-components-global}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** recherchez des définitions pour les mesures utilisées dans les rapports Adobe Journey Optimizer sur les types de diffusion, y compris les mesures de parcours, d’e-mail, de SMS, de notification push, in-app, de page de destination, de publipostage direct, de carte de contenu, web et d’expérience basée sur du code.
+
+>[!ENDSHADEBOX]
 
 Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les différents rapports et leur définition en fonction du type de diffusion.
 

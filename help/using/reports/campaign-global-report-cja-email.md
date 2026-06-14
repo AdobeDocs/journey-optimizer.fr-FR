@@ -30,18 +30,24 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 2241
-ht-degree: 96%
+source-wordcount: 2249
+ht-degree: 93%
 
 ---
 
 # Rapport de campagne par e-mail {#campaign-global-report-cja-email}
 
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment lire le rapport de campagne par e-mail dans Adobe Journey Optimizer pour analyser les KPI des e-mails, les entonnoirs de clics et de diffusion, les statistiques de tracking, les raisons des bounces et des erreurs, ainsi que l&#39;engagement par domaine, objet et lien.
+
+>[!ENDSHADEBOX]
+
 >[!INFO]
 >
->Depuis qu’Apple a introduit de nouvelles fonctionnalités de protection de la confidentialité pour son application Mail native, notamment la protection de la confidentialité dans Mail, les expéditeurs et expéditrices ne sont plus en mesure d’utiliser les pixels de suivi pour collecter des données sur les profils qui ont activé la protection de la confidentialité dans l’application Mail d’Apple. Par conséquent, la capacité d’Adobe Journey Optimizer à suivre les ouvertures d’e-mail à l’aide de pixels de suivi peut être affectée.
+>Depuis qu’Apple a introduit de nouvelles fonctionnalités de protection de la confidentialité pour son application Mail native, y compris la protection de la confidentialité dans Mail, les expéditeurs ne sont plus en mesure d’utiliser les pixels de tracking pour collecter des données sur les profils qui ont activé la protection de la confidentialité dans Mail d’Apple. Par conséquent, la capacité de Adobe Journey Optimizer à suivre les ouvertures d’e-mail à l’aide de pixels de suivi peut être affectée.
 > [En savoir plus](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780?profile.language=fr) sur l’impact des modifications apportées à la confidentialité d’Apple iOS sur le marketing par e-mail.
 > 
 > Nous vous recommandons de vous concentrer sur les clics et les mesures de conversion plutôt que sur les taux d’ouverture pour obtenir des informations plus précises.

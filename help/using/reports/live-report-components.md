@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 730
-ht-degree: 100%
+source-wordcount: 753
+ht-degree: 96%
 
 ---
 
 # Liste des composants {#list-of-components-live}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** référencez les définitions des mesures parcours, e-mail, SMS, page de destination et notification push utilisées dans les rapports Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les différents rapports et leur définition en fonction du type de diffusion.
 

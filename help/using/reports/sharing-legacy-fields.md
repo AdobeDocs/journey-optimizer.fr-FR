@@ -23,14 +23,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 46
-ht-degree: 100%
+source-wordcount: 73
+ht-degree: 63%
 
 ---
 
 # À propos des champs anciens {#sharing-legacy-fields}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** référencez les champs hérités qui constituent les groupes de champs d’événement d’étape de parcours d’origine, y compris les champs communs, d’exécution d’action, de récupération de données, d’identité et de parcours.
+
+>[!ENDSHADEBOX]
 
 Cette catégorie contient les champs d’événement d’étape d’origine. Ces champs font partie des groupes de champs suivants :
 

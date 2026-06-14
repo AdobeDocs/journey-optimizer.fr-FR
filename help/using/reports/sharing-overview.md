@@ -25,14 +25,20 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 643
-ht-degree: 100%
+source-wordcount: 676
+ht-degree: 95%
 
 ---
 
 # Créer des rapports de parcours {#design-jo-reports}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez comment Journey Optimizer diffuse automatiquement les données d’événement d’étape de parcours vers Adobe Experience Platform afin de les combiner à d’autres données et d’analyser les performances du parcours dans Customer Journey Analytics.
+
+>[!ENDSHADEBOX]
 
 Outre les [rapports en temps réel](live-report.md) et les [fonctionnalités de reporting](report-gs-cja.md) intégrées, [!DNL Journey Optimizer] peut automatiquement envoyer des données de performances de parcours à Adobe Experience Platform afin qu’elles soient combinées à d’autres données à des fins d’analyse.
 

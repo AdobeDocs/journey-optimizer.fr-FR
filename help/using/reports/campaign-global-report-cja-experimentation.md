@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 339
-ht-degree: 100%
+source-wordcount: 356
+ht-degree: 84%
 
 ---
 
 # Rapport de campagne d’expérimentation {#campaign-global-report-cja-experimentation}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez comment lire le rapport de campagne d’expérimentation dans Adobe Journey Optimizer pour comparer les performances des variantes à l’aide de mesures telles que l’effet élévateur, le degré de confiance et le taux de conversion pour la mesure de succès de votre choix.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_click"
@@ -66,8 +72,8 @@ Les indicateurs clés de performance (KPI) d’**[!UICONTROL expérimentation]*
 
 ![](assets/cja-experimentation-variants.png)
 
-Le tableau **Variante par mesure de succès** indique les performances de chaque variante en fonction de la mesure de succès sélectionnée lors de la configuration de l’expérience.
-Pour un examen approfondi de ces résultats et de leur interprétation, reportez-vous à [cette page](../content-management/get-started-experiment.md#interpret-results).
+Le tableau **Variante par mesures de succès** indique les performances de chaque variante en fonction de la mesure de succès sélectionnée lors de la configuration de l’expérience.
+Pour un examen approfondi de ces résultats et de leur interprétation, consultez [cette page](../content-management/get-started-experiment.md#interpret-results).
 
 +++ En savoir plus sur le tableau Variante par mesure de succès
 

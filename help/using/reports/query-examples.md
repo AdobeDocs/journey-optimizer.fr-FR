@@ -25,14 +25,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 3739
-ht-degree: 71%
+source-wordcount: 3763
+ht-degree: 70%
 
 ---
 
 # Exemples de requêtes{#query-examples}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** recherchez des exemples de requête SQL prêts à l’emploi pour analyser et résoudre les problèmes liés aux événements d’étape de parcours dans le lac de données Adobe Experience Platform.
+
+>[!ENDSHADEBOX]
 
 Cette section fournit des exemples couramment utilisés pour interroger les événements d’étape du parcours dans le lac de données. Avant de s’intéresser à des cas d’utilisation spécifiques, il est important de comprendre les identifiants clés utilisés dans les données d’événement de parcours.
 

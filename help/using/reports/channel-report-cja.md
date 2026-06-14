@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 1102
-ht-degree: 61%
+source-wordcount: 1139
+ht-degree: 59%
 
 ---
 
 # Rapport d’aperçu {#channel-report-cja}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment utiliser le rapport de présentation pour analyser le trafic unifié et les mesures d’engagement sur toutes vos campagnes et tous vos parcours, avec des onglets dédiés pour les parcours, les campagnes, les canaux, les ensembles de règles de limitation de parcours et les modèles d’optimisation.
+
+>[!ENDSHADEBOX]
 
 Les utilisateurs et les utilisatrices peuvent consulter un résumé exhaustif des mesures de trafic et d’engagement pour l’ensemble des campagnes et des parcours de votre environnement grâce au rapport de vue d’ensemble. Les actions provenant de différents canaux sont combinées dans ces mesures pour présenter des valeurs unifiées, englobant diverses campagnes et différents parcours.
 

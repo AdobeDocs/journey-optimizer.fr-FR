@@ -24,14 +24,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 634
-ht-degree: 100%
+source-wordcount: 659
+ht-degree: 96%
 
 ---
 
 # Champs communs des événements journeysteps {#sharing-common-fields}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** référencez les champs d’événement d’étape de parcours communs que Journey Optimizer envoie à Adobe Experience Platform pour chaque étape traitée dans un parcours.
+
+>[!ENDSHADEBOX]
 
 Ce groupe de champs sera partagé par les événements suivants : **journeyStepEvent** et **journeyStepProfileEvent**.
 
@@ -129,7 +135,7 @@ Type : chaîne
 
 Identifiant de la version du parcours. Cet identifiant représente la référence d’identité du parcours, dans le cas du journeyStepEvent.
 
-Type : Chaîne
+Type : chaîne
 
 >[!NOTE]
 >
@@ -139,7 +145,7 @@ Type : Chaîne
 
 Nom de la version du parcours.
 
-Type : Chaîne
+Type : chaîne
 
 >[!NOTE]
 >

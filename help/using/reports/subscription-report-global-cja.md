@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 441
-ht-degree: 100%
+source-wordcount: 466
+ht-degree: 94%
 
 ---
 
 # Rapport dʼabonnement {#subscription-report-global-cja}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment utiliser le rapport d’abonnement pour analyser les abonnements et désabonnements aux profils sur les listes, les parcours, les campagnes et les canaux afin de mesurer l’engagement.
+
+>[!ENDSHADEBOX]
 
 Le **Rapport d’abonnement** offre des informations essentielles sur les abonnements et désabonnements des profils associés à des listes spécifiques, vous aidant à comprendre l’efficacité des différentes campagnes et initiatives d’abonnement pour stimuler l’engagement et les conversions.
 

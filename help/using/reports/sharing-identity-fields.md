@@ -23,14 +23,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 60
-ht-degree: 100%
+source-wordcount: 84
+ht-degree: 71%
 
 ---
 
 # Champs d’identité des événements journeyStep {#sharing-identity-fields}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** référencez les champs d’identité que les événements d’étape de parcours utilisent pour décrire l’identité du profil, y compris l’identifiant du profil et son espace de noms.
+
+>[!ENDSHADEBOX]
 
 Ce groupe de champs est spécifique à journeyStepEvent : cet événement est en relation avec le parcours, et ne dispose pas de l&#39;identityMap décrivant l&#39;identité du profil, le cas échéant.
 

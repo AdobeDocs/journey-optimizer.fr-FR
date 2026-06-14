@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 388
-ht-degree: 92%
+source-wordcount: 420
+ht-degree: 85%
 
 ---
 
 # Rapport de campagne par courrier {#campaign-global-report-cja-direct}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez comment lire le rapport de campagne Courrier dans Adobe Journey Optimizer pour consulter les statistiques d’envoi, le statut de la diffusion, les raisons de l’erreur et les raisons d’exclusion de vos messages de publipostage direct.
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

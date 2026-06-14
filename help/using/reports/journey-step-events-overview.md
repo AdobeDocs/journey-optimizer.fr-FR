@@ -38,14 +38,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 937
-ht-degree: 98%
+source-wordcount: 967
+ht-degree: 95%
 
 ---
 
 # Utiliser des événements d’étape de parcours {#work-with-journey-step-events}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez les événements d’étape de parcours dans Adobe Journey Optimizer, leur importance et comment les utiliser à des fins d’analyse, de surveillance et d’optimisation via Adobe Experience Platform.
+
+>[!ENDSHADEBOX]
 
 Les événements d’étape de parcours sont des événements générés automatiquement qui capturent des informations détaillées sur chaque étape qu’un [profil](../audience/get-started-profiles.md) suit au fur et à mesure de sa progression dans un [parcours](../building-journeys/journey.md) dans Adobe Journey Optimizer. Ces événements offrent une visibilité complète sur les [performances du parcours](../building-journeys/report-journey.md) et permettent de puissantes fonctionnalités d’analyse.
 

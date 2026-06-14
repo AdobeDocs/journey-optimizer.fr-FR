@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 599
-ht-degree: 100%
+source-wordcount: 628
+ht-degree: 95%
 
 ---
 
 # Rapport de parcours web {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez les mesures du canal web dans le rapport de parcours Adobe Journey Optimizer, notamment les tendances en matière d’impressions et de clics, les affichages, les données de suivi, ainsi que les libellés et URL des liens suivis.
+
+>[!ENDSHADEBOX]
 
 >[!INFO]
 >

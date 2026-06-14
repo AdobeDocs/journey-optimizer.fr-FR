@@ -24,14 +24,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 475
-ht-degree: 84%
+source-wordcount: 507
+ht-degree: 79%
 
 ---
 
 # Configuration manuelle de [!DNL Customer Journey Analytics] {#cja-ajo}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment configurer manuellement l’intégration entre Adobe Journey Optimizer et Customer Journey Analytics en créant une connexion et une vue de données pour analyser les données de vos parcours et messages.
+
+>[!ENDSHADEBOX]
 
 L’intégration de [!DNL Journey Optimizer] à [!DNL Customer Journey Analytics] offre une vue holistique de tous vos parcours avec une distribution de rapports automatisée et des visualisations personnalisées des données.
 

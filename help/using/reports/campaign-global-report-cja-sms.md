@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 663
-ht-degree: 100%
+source-wordcount: 700
+ht-degree: 94%
 
 ---
 
 # Rapport de campagne par SMS {#campaign-global-report-cja-sms}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment lire le rapport de campagne par SMS dans Adobe Journey Optimizer pour analyser les tendances de diffusion et les clics, l’état de la diffusion, les liens suivis, les messages entrants, ainsi que les raisons de bounces, d’erreurs et d’exclusions de vos SMS.
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
@@ -42,11 +48,11 @@ Vous pouvez accéder au rapport de campagne par SMS en cliquant sur le bouton **
 
 >[!ENDSHADEBOX]
 
-## Tendance des diffusions et clics {#delivered-click-sms}
+## Tendance diffusés et clics {#delivered-click-sms}
 
 ![](assets/cja-campaign-sms-delivered.png)
 
-Le graphique **[!UICONTROL Tendance des diffusions et clics]** présente une analyse détaillée de l’engagement de vos profils avec vos e-mails, offrant des informations précieuses sur la manière dont les profils interagissent avec votre contenu.
+Le graphe **[!UICONTROL Tendance diffusés et clics]** présente une analyse détaillée de l’engagement de vos profils avec vos e-mails, fournissant des informations précieuses sur la manière dont les profils interagissent avec votre contenu.
 
 +++ En savoir plus sur les mesures de tendance Diffusés et clics
 

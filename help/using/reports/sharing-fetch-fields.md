@@ -23,14 +23,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 377
-ht-degree: 100%
+source-wordcount: 405
+ht-degree: 93%
 
 ---
 
 # Champs de récupération des données des événements journeyStep {#sharing-fetch-fields}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Référencez les champs de récupération de données ajoutés aux événements d’étape de parcours lorsque les données sont enrichies à partir de Adobe Experience Platform ou d’une source personnalisée lors du traitement de l’étape.
+
+>[!ENDSHADEBOX]
 
 Ce groupe de champs sera partagé par les variables journeyStepEvent et journeyStepProfileEvent.
 

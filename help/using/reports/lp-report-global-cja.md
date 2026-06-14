@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 796
-ht-degree: 100%
+source-wordcount: 824
+ht-degree: 96%
 
 ---
 
 # Rapport sur les pages de destination {#lp-report-global-cja}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Analysez les performances des pages de destination dans Adobe Journey Optimizer à l’aide de Customer Journey Analytics, y compris les taux de conversion et de bounce, les vues et le trafic par parcours, campagne et canal.
+
+>[!ENDSHADEBOX]
 
 Le rapport **Page de destination** offre des informations précieuses sur le comportement des utilisateurs et des utilisatrices, les modèles d’engagement, les taux de conversion et d’autres mesures essentielles, vous aidant à prendre des décisions éclairées et à optimiser les performances de votre page de destination.
 

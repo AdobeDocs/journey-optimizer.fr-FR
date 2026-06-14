@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 518
-ht-degree: 99%
+source-wordcount: 546
+ht-degree: 93%
 
 ---
 
 # Prise en main du rapport dynamique {#live-report}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Commencez avec le rapport dynamique Adobe Journey Optimizer pour visualiser les performances du parcours et de la campagne en temps réel, personnaliser les widgets du tableau de bord et exporter vos rapports.
+
+>[!ENDSHADEBOX]
 
 Utilisez le **[!UICONTROL rapport dynamique]** pour mesurer et visualiser en temps réel l’impact et les performances de vos parcours et de vos messages dans un tableau de bord intégré. Les données sont disponibles dans le **[!UICONTROL rapport dynamique]** aussitôt que votre diffusion est envoyée ou que votre parcours est exécuté dans l’onglet **[!UICONTROL Dernières 24 heures]**.
 

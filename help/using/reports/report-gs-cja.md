@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 445
-ht-degree: 100%
+source-wordcount: 475
+ht-degree: 93%
 
 ---
 
 # Commencer avec le rapport complet {#channel-report-gs-cja}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Commencez avec l’expérience de création de rapports en tout temps qui intègre Journey Optimizer à Customer Journey Analytics pour afficher les mesures de performances des parcours, des campagnes et de votre environnement global.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="cja_connections_enable_cja"
