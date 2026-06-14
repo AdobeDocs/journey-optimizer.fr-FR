@@ -12,14 +12,20 @@ exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
 feature_v2: []
 subfeature_v2:
   - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 2097
+source-wordcount: 2126
 ht-degree: 22%
 
 ---
 
 # Convertir des images en modèles de contenu d’e-mail {#image-to-html}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment utiliser le convertisseur Image vers HTML optimisé par l’IA dans Adobe Journey Optimizer pour transformer des conceptions d’images statiques en modèles de contenu d’e-mail modifiables et réutilisables.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] vous permet d’accélérer considérablement la création d’e-mails en convertissant des conceptions d’image statiques en modèles de contenu d’e-mail entièrement personnalisables et modulaires.
 
@@ -75,7 +81,7 @@ Pour accéder à cette fonctionnalité, votre entreprise doit avoir signé l’a
 
 **Accord**
 
-Avant de pouvoir utiliser cette fonctionnalité, vous devez accepter un contrat d’utilisation qui s’affiche la première fois que vous utilisez l’IA générative dans [!DNL Journey Optimizer]. Pour plus d’informations, consultez les [instructions d’utilisation de Adobe Experience Cloud Generative AI](https://www.adobe.com/fr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}.
+Avant de pouvoir utiliser cette fonctionnalité, vous devez accepter un contrat d’utilisation qui s’affiche la première fois que vous utilisez l’IA générative dans [!DNL Journey Optimizer]. Pour plus d’informations, consultez les [Directives d’utilisation d’Adobe Experience Cloud Generative AI](https://www.adobe.com/fr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}.
 
 ## Mécanismes de sécurisation et recommandations {#limitations}
 

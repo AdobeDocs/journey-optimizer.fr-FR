@@ -31,14 +31,20 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 2117
-ht-degree: 99%
+source-wordcount: 1988
+ht-degree: 95%
 
 ---
 
 # Prise en main des expériences de contenu {#get-started-experiment}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez comment les expériences de contenu dans Adobe Journey Optimizer utilisent des essais randomisés pour tester les variations de message, comment les résultats sont calculés et comment interpréter les rapports afin d’optimiser vos campagnes.
+
+>[!ENDSHADEBOX]
 
 ## Qu’est-ce qu’une expérience de contenu ?
 
@@ -114,13 +120,13 @@ Par exemple, il est peu probable que la modification du contenu du corps du mess
 +++Effectuez votre test sur la bonne taille d’audience ou pour une durée suffisante.
 
 Si vous exécutez vos tests plus longtemps, vous pourrez détecter de plus petites différences dans la mesure d’objectif entre les traitements. Cependant, si la valeur de base de votre mesure d’objectif est faible, vous aurez besoin de tailles d’échantillon plus grandes.
-Le nombre d’utilisateurs qui doivent être inclus dans votre expérience dépend de la taille de l’effet que vous souhaitez détecter, de l&#39;écart ou de la propagation de votre mesure d’objectif, ainsi que de votre tolérance pour les erreurs Faux positifs et Faux négatifs. Dans les expériences classiques, vous pouvez utiliser une [calculatrice de taille d’échantillons](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=fr){_blank} pour déterminer la durée pendant laquelle vous devez exécuter votre test.
+Le nombre d’utilisateurs qui doivent être inclus dans votre expérience dépend de la taille de l’effet que vous souhaitez détecter, de l’écart ou de la propagation de votre mesure d’objectif, ainsi que de votre tolérance pour les erreurs Faux positifs et Faux négatifs. Dans les expériences classiques, vous pouvez utiliser une [calculatrice de taille d’échantillons](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=fr){_blank} pour déterminer la durée pendant laquelle vous devez exécuter votre test.
 +++ 
 
 +++Comprendre l’incertitude statistique
 
-Si vous exécutez une expérience dans laquelle 1 000 utilisateurs ont vu un traitement et que le taux de conversion est défini à 5 %. S’agirait-il du taux de conversion réel si tous vos utilisateurs étaient inclus ? Quel serait le véritable taux de conversion ?
-Les méthodes statistiques nous permettent de formaliser cette incertitude. L’un des concepts les plus importants à comprendre lors de l’exécution d’expériences en ligne est que les taux de conversion observés soient cohérents avec une plage de taux de conversion réels sous-jacents, ce qui signifie que vous devez attendre que ces estimations soient suffisamment précises, avant d’essayer de tirer une conclusion. Les intervalles de confiance et le degré de confiance nous aident à quantifier cette incertitude.
+Si vous exécutez une expérience dans laquelle 1 000 utilisateurs ont vu un traitement et que le taux de conversion est défini sur 5 %. S’agirait-il du taux de conversion réel si tous vos utilisateurs étaient inclus ? Quel serait le véritable taux de conversion ?
+Les méthodes statistiques nous permettent de formaliser cette incertitude. L’un des concepts les plus importants à comprendre lors de l’exécution d’expériences en ligne est que les taux de conversion observés sont cohérents avec une plage de taux de conversion réels sous-jacents, ce qui signifie que vous devez attendre que ces estimations soient suffisamment précises, avant d’essayer de tirer une conclusion. Les intervalles de confiance et le degré de confiance nous aident à quantifier cette incertitude.
 +++
 
 +++Formuler de nouvelles hypothèses et effectuer des tests en continu

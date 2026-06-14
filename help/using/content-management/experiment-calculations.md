@@ -21,14 +21,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1073
-ht-degree: 98%
+source-wordcount: 1080
+ht-degree: 93%
 
 ---
 
 # Présentation des calculs statistiques {#experiment-calculations}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez la méthodologie statistique sous-jacente aux expériences dans Adobe Journey Optimizer, y compris les séquences de confiance et les degrés de confiance valides à tout moment qui vous permettent de surveiller en permanence les résultats et de déterminer quand une expérience est concluante.
+
+>[!ENDSHADEBOX]
 
 Cet article décrit les calculs statistiques utilisés lors de l’exécution d’expériences dans Adobe Journey Optimizer.
 
@@ -55,7 +61,7 @@ Une expérimentation efficace nécessite de prendre en compte différents types 
 
 Le tableau ci-dessus illustre les différents types d’erreurs :
 
-* **Faux positifs (erreurs de type I)** : sont un rejet incorrect de l’hypothèse nulle, alors qu’en fait elle est vraie. Dans le contexte des expériences en ligne, cela signifie que nous concluons à tort que la mesure des résultats est différente entre chaque traitement, alors qu’elle est en réalité la même.
+* **Faux positifs (erreurs de type I)** : sont un rejet incorrect de l’hypothèse nulle, alors qu’en fait elle est vraie. Dans le contexte des expériences en ligne, cela signifie que nous concluons faussement que la mesure des résultats est différente entre chaque traitement, bien qu’elle ait été la même.
   </br>Nous sélectionnons généralement un seuil avant de lancer l’expérience`\alpha`. Une fois l’expérience terminée, la valeur `p-value` est calculée et nous rejetons la valeur `null if p < \alpha`. Le choix d’une valeur `/alpha` est basé sur les conséquences liées à l’obtention de la mauvaise réponse. Par exemple, dans un essai clinique où la vie d’une personne pourrait être affectée, vous pourriez choisir la valeur `\alpha = 0.005`. Le seuil `\alpha = 0.05` est couramment utilisé dans l’expérimentation en ligne. Cela signifie qu’à long terme, nous nous attendons à ce que 5 expériences sur 100 soient des faux positifs.
 
 * **Faux négatifs (erreurs de type II)** : signifie que nous ne parvenons pas à rejeter l’hypothèse nulle bien qu’elle soit fausse. Pour les expériences, cela signifie que nous ne rejetons pas l’hypothèse nulle, alors qu’en fait elle est différente. Pour contrôler ce type d’erreur, nous avons généralement besoin d’un nombre suffisant d’utilisateurs dans notre expérience pour garantir une certaine force, définie comme `1 - \beta`(soit 1 moins la probabilité d’erreur de type II).

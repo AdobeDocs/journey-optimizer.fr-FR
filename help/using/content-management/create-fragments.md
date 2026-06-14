@@ -26,14 +26,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 980
-ht-degree: 80%
+source-wordcount: 1008
+ht-degree: 78%
 
 ---
 
 # Créer un fragment {#create-fragments}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment créer, concevoir, verrouiller, prévisualiser et publier des fragments visuels et d’expression afin de réutiliser du contenu dans les campagnes et parcours Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_visual_fragment"
@@ -73,7 +79,7 @@ Pour créer un fragment, suivez les étapes présentées ci-dessous.
 
    ![](assets/fragment-expression-type.png)
 
-1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base au fragment, cliquez sur le bouton **[!UICONTROL Gérer l’accès]** dans la partie supérieure de l’écran. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md)
+1. Pour attribuer des libellés d’utilisation des données personnalisés ou de base au fragment, cliquez sur le bouton **[!UICONTROL Gérer l’accès]** en haut de l’écran. [En savoir plus sur le contrôle d’accès au niveau de l’objet (OLAC)](../administration/object-based-access.md)
 
 1. Cliquez sur le bouton **[!UICONTROL Créer]** pour concevoir le contenu de votre fragment.
 

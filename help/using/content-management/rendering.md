@@ -8,14 +8,20 @@ exl-id: fe077a8b-9788-4723-a1e7-32816a879af9
 feature_v2: []
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 166
-ht-degree: 84%
+source-wordcount: 192
+ht-degree: 73%
 
 ---
 
 # Tester le rendu des e-mails {#email-rendering}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment connecter votre compte Litmus à Adobe Journey Optimizer pour tester le rendu des e-mails sur les clients de bureau, mobiles et web les plus courants.
+
+>[!ENDSHADEBOX]
 
 Vous pouvez exploiter votre compte **Litmus** dans [!DNL Journey Optimizer] pour prévisualiser instantanément le **rendu de vos e-mails** dans les clients de messagerie populaires. Vous pouvez ensuite vous assurer que le contenu de votre e-mail s&#39;affiche correctement et fonctionne correctement dans chaque boîte de réception.
 

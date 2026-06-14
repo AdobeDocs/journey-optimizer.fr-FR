@@ -10,14 +10,20 @@ exl-id: 9ef6b02c-0a17-4b46-bcd3-8e922eef059a
 feature_v2: []
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 565
+source-wordcount: 593
 ht-degree: 2%
 
 ---
 
 # Créer et gérer des modèles génératifs {#generative-models}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment ajouter, configurer et gérer les modèles intégrés, partenaires et génératifs Firefly personnalisés utilisés pour la génération d’images par l’IA dans Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Développez vos fonctionnalités de création d’images par l’IA avec des modèles intégrés, des modèles Firefly personnalisés et des fournisseurs de génération d’images tiers pour répondre à vos besoins spécifiques et améliorer l’alignement de la marque.
 

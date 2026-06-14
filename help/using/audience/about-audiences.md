@@ -25,14 +25,20 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 629
-ht-degree: 96%
+source-wordcount: 654
+ht-degree: 92%
 
 ---
 
 # Commencer avec les audiences {#about-segments}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment parcourir, créer et gérer des audiences Adobe Experience Platform et les cibler dans vos parcours et campagnes Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_segment"

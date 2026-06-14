@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 1066
-ht-degree: 96%
+source-wordcount: 1092
+ht-degree: 91%
 
 ---
 
 # Commencer avec la composition d’audiences {#get-start-audience-composition}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment utiliser la composition de l’audience pour combiner les audiences Adobe Experience Platform existantes dans une zone de travail visuelle et appliquer des activités telles que le partage, l’exclusion, l’enrichissement et le classement afin de créer de nouvelles audiences.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
@@ -124,7 +130,7 @@ Cette documentation fournit des informations détaillées sur l’utilisation de
 
 La composition de l’audience vous permet de créer des **workflows de composition**, où vous pouvez regrouper des audiences Adobe Experience Platform existantes en une zone de travail visuelle et exploiter diverses activités (telles que le partage, l’exclusion...) pour créer de nouvelles audiences.
 
-Une fois cette opération terminée, les **audiences obtenues** sont enregistrées dans Adobe Experience Platform avec les audiences existantes et peuvent être utilisées dans des campagnes et parcours Journey Optimizer pour cibler des clientes et des clients. Découvrez comment cibler des audiences dans Journey Optimizer
+Une fois cette opération terminée, les **audiences obtenues** sont réenregistrées dans Adobe Experience Platform avec les audiences existantes et peuvent être utilisées dans les campagnes et parcours Journey Optimizer pour cibler les clients. Découvrez comment cibler des audiences dans Journey Optimizer
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]

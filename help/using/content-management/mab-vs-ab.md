@@ -19,14 +19,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: f29a52db-c90c-4345-902e-b586d1406d8d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 629
-ht-degree: 100%
+source-wordcount: 658
+ht-degree: 95%
 
 ---
 
 # Expériences A/B et bandit manchot {#mab-vs-ab}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** comparez des expériences A/B et de bandit manchot dans Adobe Journey Optimizer, y compris leurs forces, leurs limites et les scénarios où chaque méthode d’affectation du trafic fonctionne le mieux.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_ab_test_mab"

@@ -25,14 +25,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 510
-ht-degree: 100%
+source-wordcount: 541
+ht-degree: 94%
 
 ---
 
 # Enregistrer du contenu en tant que fragment {#save-as-fragment}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment enregistrer tout ou partie de votre contenu en tant que fragments visuels ou d’expression dans Adobe Journey Optimizer afin de le réutiliser dans les parcours et les campagnes.
+
+>[!ENDSHADEBOX]
 
 Lors de la modification de contenu dans [!DNL Journey Optimizer], vous pouvez enregistrer tout ou une partie de votre contenu en tant que fragment pour une réutilisation ultérieure. Vous pouvez enregistrer du contenu en tant que fragment soit [depuis le concepteur d’e-mail](#save-as-visual-fragment), soit [depuis l’éditeur d’expression](#save-as-expression-fragment).
 
@@ -54,7 +60,7 @@ Pour enregistrer le contenu du concepteur d’e-mail en tant que fragment, proc�
 
    >[!NOTE]
    >
-   >Les fragments visuels ne doivent pas dépasser 100 Ko.
+   >Les fragments visuels ne peuvent pas dépasser 100 Ko.
 
 1. L’écran **[!UICONTROL Enregistrer en tant que fragment]** s’affiche. Sélectionnez ensuite les éléments à inclure dans votre fragment, notamment les champs de personnalisation et le contenu dynamique.
 

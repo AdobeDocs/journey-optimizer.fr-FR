@@ -25,14 +25,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1735
-ht-degree: 92%
+source-wordcount: 1771
+ht-degree: 90%
 
 ---
 
 # Fragments personnalisables {#customizable-fragments}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment rendre modifiables des champs spécifiques dans des fragments visuels et d’expression afin que les utilisateurs puissent les personnaliser lors de l’ajout du fragment à une campagne ou un parcours, sans rompre l’héritage du fragment d’origine.
+
+>[!ENDSHADEBOX]
 
 Lorsque des fragments sont utilisés dans une action de campagne ou de parcours, ils sont verrouillés par défaut en raison de l’héritage. Cela signifie que toutes les modifications apportées à un fragment sont automatiquement propagées à tous les parcours et à toutes les campagnes où le fragment est utilisé.
 

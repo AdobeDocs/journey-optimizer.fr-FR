@@ -28,14 +28,20 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1663
-ht-degree: 93%
+source-wordcount: 1694
+ht-degree: 91%
 
 ---
 
 # Générer du texte avec l’assistant IA {#generative-text}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment générer, affiner et finaliser le contenu textuel de la marque avec l’assistant AI pour les canaux e-mail, web, de page de destination, de notification push et de SMS dans Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

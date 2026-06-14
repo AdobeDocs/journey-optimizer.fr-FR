@@ -21,14 +21,20 @@ subfeature_v2:
   - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
   - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 228
-ht-degree: 98%
+source-wordcount: 256
+ht-degree: 87%
 
 ---
 
 # Prise en main des identités {#identities-gs}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment parcourir les identifiants de client et explorer les graphiques d’identités dans Adobe Journey Optimizer, y compris la manière dont les espaces de noms d’identité et les valeurs se combinent pour identifier chaque client.
+
+>[!ENDSHADEBOX]
 
 Une identité est une donnée propre à une entité, généralement un objet réel, tel qu’une personne, un appareil ou un navigateur web. Une identité complète se compose de deux éléments :
 

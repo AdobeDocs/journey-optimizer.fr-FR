@@ -20,14 +20,20 @@ topic_v2:
 feature_v2: []
 subfeature_v2:
   - id: f29a52db-c90c-4345-902e-b586d1406d8d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 306
-ht-degree: 92%
+source-wordcount: 331
+ht-degree: 85%
 
 ---
 
 # Combiner ciblage et expérimentation {#combination}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment combiner le ciblage et l’expérimentation dans un seul parcours ou une seule campagne afin que les expériences restent spécifiques à chaque règle de ciblage.
+
+>[!ENDSHADEBOX]
 
 Journey Optimizer permet également de combiner le ciblage et les expériences au sein d’un seul parcours ou d’une seule campagne afin de créer des stratégies plus sophistiquées.
 

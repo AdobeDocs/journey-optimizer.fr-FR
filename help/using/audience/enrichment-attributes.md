@@ -24,14 +24,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 565
-ht-degree: 95%
+source-wordcount: 595
+ht-degree: 90%
 
 ---
 
 # Utiliser les attributs d’enrichissement d’audiences {#enrichment}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment utiliser les attributs d’enrichissement d’audience des workflows de composition, des chargements personnalisés et de la composition d’audiences fédérées pour créer des chemins de parcours et personnaliser les messages dans Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Lors du ciblage d’une audience générée à l’aide de workflows de composition, d’une audience personnalisée (fichier CSV) ou d’une composition d’audiences fédérées, vous pouvez utiliser les attributs d’enrichissement de ces audiences pour créer votre parcours et personnaliser vos messages.
 

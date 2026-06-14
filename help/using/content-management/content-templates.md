@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 232
-ht-degree: 96%
+source-wordcount: 268
+ht-degree: 83%
 
 ---
 
 # Commencer avec les modèles de contenu {#content-templates}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Commencez avec des modèles de contenu pour créer du contenu autonome et réutilisable pour les canaux E-mail, Push, In-App, SMS et Courrier, que les marketeurs peuvent réutiliser dans les campagnes et les parcours dans Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 >[!NOTE]
 >

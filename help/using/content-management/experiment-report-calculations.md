@@ -16,14 +16,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
 subfeature_v2:
   - id: f29a52db-c90c-4345-902e-b586d1406d8d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 942
-ht-degree: 94%
+source-wordcount: 977
+ht-degree: 91%
 
 ---
 
 # Comprendre les calculs statistiques dans le rapport d’expérience {#experiment-report-calculations}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** explorez les calculs statistiques détaillés utilisés dans le rapport d’expérience pour les campagnes dans Adobe Journey Optimizer, y compris le taux de conversion, l’effet élévateur, les séquences de confiance valides à tout moment et la manière dont le bras le plus performant est déterminé.
+
+>[!ENDSHADEBOX]
 
 Cette page présente les calculs statistiques détaillés utilisés dans le rapport d’expérience pour les campagnes dans Adobe Journey Optimizer.
 

@@ -23,14 +23,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 80e67d5a60b6427ff87e106e37bf6794ac76a210
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 927
-ht-degree: 56%
+source-wordcount: 956
+ht-degree: 54%
 
 ---
 
 # Utiliser des attributs calculés {#computed-attributes}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez comment créer des attributs calculés qui agrègent les événements comportementaux en attributs de profil et les utiliser pour la segmentation, la personnalisation et la logique de parcours dans Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Les attributs calculés résument les événements comportementaux individuels en attributs de profil calculés disponibles dans Adobe Experience Platform. Ces attributs sont basés sur des jeux de données d’événements d’expérience compatibles avec les profils, ingérés dans Adobe Experience Platform, et servent de points de données agrégés stockés dans les profils clients.
 

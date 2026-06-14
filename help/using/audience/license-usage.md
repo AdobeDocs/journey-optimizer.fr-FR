@@ -27,14 +27,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 868
-ht-degree: 23%
+source-wordcount: 894
+ht-degree: 22%
 
 ---
 
 # Tableau de bord d’utilisation des licences {#license-usage}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment utiliser le tableau de bord d’utilisation de la licence Adobe Journey Optimizer pour surveiller les profils engageables et résoudre les problèmes liés aux augmentations inattendues du nombre de profils.
+
+>[!ENDSHADEBOX]
 
 L’[interface d’utilisation](../start/user-interface.md) d’[!DNL Adobe Journey Optimizer] fournit un tableau de bord qui affiche des informations importantes sur l’utilisation des licences de votre entreprise, telles qu’elles sont capturées lors d’un instantané quotidien.
 

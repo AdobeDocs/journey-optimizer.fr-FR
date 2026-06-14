@@ -22,14 +22,20 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 990
-ht-degree: 97%
+source-wordcount: 1014
+ht-degree: 94%
 
 ---
 
 # Personnaliser votre marque {#brands-personalize}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment personnaliser vos directives de marque en définissant l’identité de la marque, le style d’écriture et les règles de contenu visuel dans Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 ## À propos de la marque {#about-brand}
 
@@ -191,7 +197,7 @@ Pour personnaliser votre **[!UICONTROL style d’écriture]** :
 
    ![](assets/brands-11.png)
 
-Vous pouvez maintenant [publier votre marque](#create-brand-kit) ou continuer à la personnaliser.
+Vous pouvez désormais personnaliser davantage votre marque ou [la publier](#create-brand-kit).
 
 ## Contenu visuel {#visual-content}
 

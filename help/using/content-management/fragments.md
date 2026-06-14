@@ -27,14 +27,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 14e6ebce6a8cecdf672526daabf3f7202f5755a4
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 382
-ht-degree: 88%
+source-wordcount: 412
+ht-degree: 82%
 
 ---
 
 # Commencer avec les fragments {#fragments}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Prise en main des fragments de contenu visuels et d’expression dans Adobe Journey Optimizer, composants réutilisables que vous pouvez créer une fois et référencer dans les e-mails de plusieurs campagnes et parcours.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_fragment"

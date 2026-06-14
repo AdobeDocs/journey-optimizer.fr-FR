@@ -25,14 +25,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 537
-ht-degree: 77%
+source-wordcount: 527
+ht-degree: 78%
 
 ---
 
 # Prise en main des profils {#profiles-gs}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment le profil client en temps réel dans Adobe Journey Optimizer unifie les données client provenant de sources en ligne, hors ligne et tierces en une seule vue et comment accéder au tableau de bord des profils.
+
+>[!ENDSHADEBOX]
 
 ## À propos des profils
 
@@ -48,9 +54,9 @@ Tirez profit du profil client en temps réel dans [!DNL Adobe Journey Optimizer]
 >
 >Lors de l’ingestion de données, les e-mails sont sensibles à la casse. Cela signifie que des profils peuvent être créés en double (par exemple, un profil pour John.Greene@luma.com, un autre pour john.greene@luma.com) et utilisés lors du ciblage du destinataire correspondant dans vos parcours et campagnes [!DNL Journey Optimizer].
 
-**Graphique d’identités** - Combinez des données provenant de différentes sources à l’aide des identités du client, telles que les identifiants de fidélité ou les identifiants système CRM. &#x200B;Créer une vue d’ensemble complète du client en mappant les relations entre les différentes identités dans les jeux de données d’une marque. &#x200B;
+**Graphique d’identités** - Combinez des données provenant de différentes sources à l’aide des identités du client, telles que les identifiants de fidélité ou les identifiants système CRM. &#x200B;Créez une vue d’ensemble complète du client en mappant les relations entre les différentes identités dans les jeux de données d’une marque. &#x200B;
 
-**Engagement client** - Utilisez le profil client en temps réel pour offrir des expériences contextuelles personnalisées, telles que des offres et des messages ciblés. &#x200B;Faites participer les clients sur divers canaux, notamment les campagnes marketing, le service clientèle et les mises à jour transactionnelles. &#x200B;
+**Engagement client** - Utilisez le profil client en temps réel pour offrir des expériences contextuelles personnalisées, telles que des offres et des messages ciblés. &#x200B;Impliquez les clients sur différents canaux, notamment les campagnes marketing, le service clientèle et les mises à jour transactionnelles. &#x200B;
 
 **Partage de données** : partagez des profils clients avec les principaux fournisseurs d’espace de stockage dans le cloud tels qu’Amazon Web Services, Microsoft Azure et Google Cloud. Utilisez des profils partagés pour la création de rapports, l’archivage données ou une analyse plus approfondie avec des outils de Business Intelligence.
 

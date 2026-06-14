@@ -8,14 +8,20 @@ exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
 feature_v2: []
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 279
-ht-degree: 91%
+source-wordcount: 308
+ht-degree: 82%
 
 ---
 
 # Sélectionner des profils de test {#select-test-profiles}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez comment sélectionner des profils de test par espace de noms d’identité dans Adobe Journey Optimizer afin de prévisualiser et tester votre contenu par rapport à différentes variantes de données de profil.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_preview_test_profiles"

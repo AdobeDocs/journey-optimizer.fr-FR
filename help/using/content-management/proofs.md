@@ -8,14 +8,20 @@ exl-id: e742c04e-2987-4466-84af-bdaf4d714552
 feature_v2: []
 subfeature_v2:
   - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 479
-ht-degree: 89%
+source-wordcount: 508
+ht-degree: 84%
 
 ---
 
 # Envoyer des BAT en utilisant des données de profil de test {#send-proofs}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment envoyer des BAT par e-mail à l’aide des données de profil de test afin que les destinataires puissent consulter le rendu, le contenu et la personnalisation avant que le message ne soit envoyé à votre audience principale.
+
+>[!ENDSHADEBOX]
 
 Un BAT est un message spécifique qui permet de tester un message avant son envoi à l&#39;audience principale. Les destinataires du BAT sont chargés d&#39;approuver le message : rendu, contenu, paramètres de personnalisation, configuration.
 

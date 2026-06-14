@@ -30,14 +30,20 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 742
-ht-degree: 16%
+source-wordcount: 770
+ht-degree: 15%
 
 ---
 
 # Commencer avec l’optimisation de contenu {#message-optimization}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment l’optimisation du contenu dans Adobe Journey Optimizer utilise le ciblage, l’expérimentation ou les deux pour diffuser le contenu personnalisé le plus performant sur l’ensemble de vos campagnes et parcours.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_optimization"
@@ -130,7 +136,7 @@ Une fois votre parcours ou campagne actif, les profils sont évalués en fonctio
 
 ## Vidéo pratique {#video}
 
-Découvrez comment tirer parti de l’optimisation du contenu dans les campagnes déclenchées par l’API ou l’action. Vous découvrirez comment cibler des sous-audiences, créer des variations de messages en fonction de la localisation, activer un contenu de secours et mener plusieurs expériences au sein d’une même campagne. Ce tutoriel explique également comment gérer des campagnes multicanales, tout en maintenant la cohérence du message.
+Découvrez comment tirer parti de l’optimisation du contenu dans les campagnes déclenchées par l’API ou l’action. Vous découvrirez comment cibler des sous-audiences, créer des variations de messages en fonction de la localisation, activer un contenu de secours et mener plusieurs expériences au sein d’une même campagne. Ce tutoriel explique également comment gérer des campagnes à plusieurs canaux, tout en maintenant la cohérence du message.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3470370?captions=fre_fr&quality=12)
 
