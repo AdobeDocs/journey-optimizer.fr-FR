@@ -6,19 +6,22 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
-  - id: d056adbe-402d-4f42-9746-f3d424e598b1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c618a0dc-1818-4c6d-9916-0d92e6796f24id: d056adbe-402d-4f42-9746-f3d424e598b1
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 1096
-ht-degree: 95%
+source-wordcount: 1128
+ht-degree: 93%
 
 ---
 
 # Modifier un contenu web {#edit-web-content}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment modifier votre contenu web avec le concepteur web de Adobe Journey Optimizer, y compris l’ajout de composants, la personnalisation, la navigation avec les chemins de navigation et le mode de navigation, ainsi que l’ajustement de la taille de l’appareil.
+
+>[!ENDSHADEBOX]
 
 Après l’[ajout d’une expérience web](create-web.md#create-web-experience) dans un parcours ou une campagne, vous pouvez modifier le contenu de votre site à l’aide du concepteur web.
 

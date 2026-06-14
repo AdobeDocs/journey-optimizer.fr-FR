@@ -7,26 +7,25 @@ role: User
 level: Experienced
 exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
 TQID: https://experienceleague.adobe.com/4VLqDy1BM5TnpvvuQb-fmATJ35hMzTjPCOwtiIIXir0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: a984631b-2bae-4860-9b15-69c41a799dcb
-subfeature_v2:
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: f88eedcc-cf3e-46b8-9e94-0293589325f3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcb
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: f88eedcc-cf3e-46b8-9e94-0293589325f3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 1245
-ht-degree: 100%
+source-wordcount: 1273
+ht-degree: 97%
 
 ---
 
 # Utiliser des champs de formulaire modifiables dans des expériences basées sur du code {#code-based-form-fields}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment ajouter des champs de formulaire modifiables aux modèles de contenu d’expérience basés sur du code afin que les marketeurs puissent personnaliser le contenu des campagnes et des parcours sans modifier le code.
+
+>[!ENDSHADEBOX]
 
 Pour plus de flexibilité et de contrôle sur les expériences basées sur du code, [!DNL Journey Optimizer] permet à votre équipe de développement de créer des modèles de contenu JSON ou HTML contenant des champs modifiables prédéfinis spécifiques.
 
@@ -259,4 +258,4 @@ Vous pourrez facilement modifier les champs de formulaire d’un parcours ou d�
 
 Découvrez comment ajouter des champs modifiables aux modèles de contenu de canal d’expérience basée sur du code.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463993/?captions=fre_fr&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)
