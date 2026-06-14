@@ -8,28 +8,26 @@ role: User
 level: Beginner
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
 TQID: https://experienceleague.adobe.com/orXAhry8onHXUejP5pzOyHdKbAcD8fiDmvRk-s74xLo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 421
-ht-degree: 69%
+source-wordcount: 447
+ht-degree: 65%
 
 ---
 
 # Créer une activité en direct {#create-mobile-live}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Créez une campagne déclenchée par une API dans Journey Optimizer afin de démarrer, mettre à jour et terminer à distance des activités en direct pour des utilisateurs ou des audiences individuels.
+
+>[!ENDSHADEBOX]
 
 Après avoir effectué la configuration mobile et implémenté le SDK mobile Adobe Experience Platform, vous pouvez créer une activité en direct dans Journey Optimizer :
 
@@ -176,4 +174,4 @@ Après avoir créé votre activité en direct, vous pouvez suivre son impact à 
 
 Découvrez comment configurer les activités en direct iOS avec Adobe Journey Optimizer pour afficher des mises à jour détaillées et en temps réel sur l’écran verrouillé et la Dynamic Island d’un iPhone.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479866?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)

@@ -6,20 +6,22 @@ description: Découvrez comment résoudre les problèmes liés aux activités en
 role: User
 level: Intermediate
 exl-id: f0f83bd2-7c2b-4d9b-b455-e1df12dfa175
-feature_v2:
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714d
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 4607
+source-wordcount: 4641
 ht-degree: 1%
 
 ---
 
 # Résoudre les problèmes liés aux activités en direct {#troubleshoot-mobile-live}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Diagnostiquez systématiquement pourquoi vos activités Live ne s’affichent pas, ne se mettent pas à jour ou ne se terminent pas afin de pouvoir résoudre les problèmes de jeton de profil, de configuration de campagne, de payload et de diffusion dans les cas d’utilisation unitaires et de diffusion.
+
+>[!ENDSHADEBOX]
 
 Les activités en direct dans Adobe Journey Optimizer permettent des mises à jour dynamiques en temps réel sur les écrans de verrouillage iOS et les îles dynamiques. Ils ne peuvent être déclenchés et gérés que par le biais de campagnes déclenchées par API.
 
@@ -43,7 +45,7 @@ Configurez une **session** pour capturer des événements SDK et inspecter le pi
 * Enregistrement du jeton push
 * Événements du cycle de vie d’une activité en direct
 
-Découvrez comment configurer Assurance dans la [documentation d’Adobe Experience Platform Assurance](https://experienceleague.adobe.com/fr/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
+Découvrez comment configurer Assurance dans la [documentation d’Adobe Experience Platform Assurance](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
 
 **Remarque** : pour l’activité iOS Live, assurez-vous que votre application s’exécute sur un appareil iOS physique (iOS 16.1 ou version ultérieure) ou sur un simulateur Xcode (iOS 16.1 ou version ultérieure).
 
@@ -374,7 +376,7 @@ Dans ce scénario, toutes les vérifications précédentes ont réussi :
 
 * Le profil existe avec des [jetons push d’activité actifs valides](#profile-issue).
 * Campaign est correctement [configuré avec la payload appropriée](#payload-issues)
-* [&#x200B; Les jetons de mise à jour sont synchronisés &#x200B;](#token-not-synced) (pour les événements de mise à jour/de fin, cas d’utilisation unitaire uniquement)
+* [ Les jetons de mise à jour sont synchronisés ](#token-not-synced) (pour les événements de mise à jour/de fin, cas d’utilisation unitaire uniquement)
 
 Mais l’activité Live ne s’affiche toujours pas, ne se met pas à jour ou ne se termine pas comme prévu. Le problème peut concerner le système de diffusion Adobe ou le fournisseur de services de notification push (APNs).
 
@@ -429,7 +431,7 @@ Mais l’activité Live ne s’affiche toujours pas, ne se met pas à jour ou ne
       | Jeton placé sur la liste bloquée | Jeton marqué comme non valide | Réenregistrer le jeton ou vérifier le statut de la liste bloquée |
       | Profil non éligible | Le profil ne répond pas aux critères de la campagne. | Vérifier les règles d’audience de campagne |
 
-Pour en savoir plus, consultez la page [&#x200B; Rapport de campagne d’activité dynamique &#x200B;](../reports/campaign-global-report-cja-activity.md).
+Pour en savoir plus, consultez la page [ Rapport de campagne d’activité dynamique ](../reports/campaign-global-report-cja-activity.md).
 
 +++
 
@@ -720,7 +722,7 @@ La structure de la payload de diffusion diffère des campagnes unitaires. Vérif
 * `dismissal-date` : époque Unix pour le rejet automatique (pertinent uniquement pour les événements `end`)
 * `alert` : objet avec `title` et `body` pour la notification
 
-Consultez la documentation de l’API de messagerie Adobe Journey Optimizer [&#128279;](https://developer.adobe.com/journey-optimizer-apis/references/messaging) pour obtenir des spécifications d’API complètes.
+Consultez la documentation de l’API de messagerie Adobe Journey Optimizer [](https://developer.adobe.com/journey-optimizer-apis/references/messaging) pour obtenir des spécifications d’API complètes.
 
 +++
 
@@ -874,7 +876,7 @@ Déterminez si l’audience utilise une évaluation par lots ou par flux, car ce
 1. Sur la page **Détails de l’audience**, vérifiez la méthode **Évaluation** :
    * **Lot** : évalué une fois par jour selon un planning.
    * **Streaming** : évalué en temps réel lorsque des mises à jour de profil se produisent.
-   * **&#x200B;**&#x200B;: évalué aux emplacements Edge en temps réel.
+   * **** : évalué aux emplacements Edge en temps réel.
 
 Suivez les étapes de dépannage appropriées en fonction de la méthode d’évaluation :
 
