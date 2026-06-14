@@ -24,14 +24,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 1313
-ht-degree: 98%
+source-wordcount: 1346
+ht-degree: 95%
 
 ---
 
 # Utiliser des fragments d’expression {#use-expression-fragments}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment insérer et réutiliser des fragments d’expression dans l’éditeur de personnalisation, utiliser des variables implicites, utiliser des fragments dans des boucles, personnaliser des champs modifiables et rompre l’héritage dans Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Lorsque vous utilisez l’**éditeur de personnalisation**, vous pouvez utiliser tous les fragments d’expression qui ont été créés ou enregistrés dans le sandbox actuel.
 

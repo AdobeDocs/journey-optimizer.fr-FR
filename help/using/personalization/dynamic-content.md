@@ -23,14 +23,20 @@ topic_v2:
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
   - id: e51e8901-97d9-4f7d-a835-503025a90e32
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 686
-ht-degree: 93%
+source-wordcount: 715
+ht-degree: 89%
 
 ---
 
 # Créer du contenu dynamique {#dynamic-content}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment utiliser des règles conditionnelles pour ajouter du contenu dynamique à vos messages, à la fois dans les expressions de personnalisation et en tant que variantes de composant de contenu dans le Designer d’e-mail.
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer vous permet d’utiliser des règles conditionnelles créées dans la bibliothèque pour ajouter du contenu dynamique à vos messages.
 

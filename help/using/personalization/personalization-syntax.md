@@ -23,14 +23,20 @@ topic_v2:
 subfeature_v2:
   - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
   - id: e51e8901-97d9-4f7d-a835-503025a90e32
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 1299
-ht-degree: 48%
+source-wordcount: 1325
+ht-degree: 47%
 
 ---
 
 # Syntaxe de personnalisation {#personalization-syntax}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez la syntaxe de personnalisation Handlebars et PQL dans Adobe Journey Optimizer, y compris les règles générales, les mots-clés réservés, la coercition de type, les espaces de noms disponibles et les bonnes pratiques.
+
+>[!ENDSHADEBOX]
 
 Dans [!DNL Journey Optimizer], Personalization utilise deux syntaxes complémentaires qui fonctionnent ensemble dans la même expression :
 

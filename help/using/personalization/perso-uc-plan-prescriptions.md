@@ -19,14 +19,20 @@ topic_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 116
-ht-degree: 100%
+source-wordcount: 148
+ht-degree: 78%
 
 ---
 
 # E-mail d’ordonnances de programmes de santé {#plan-prescription}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Suivez un cas d’utilisation de personnalisation qui effectue une itération sur des tableaux de profils imbriqués avec des règles conditionnelles pour créer un plan d’intégrité en répertoriant les ordonnances qui sont prêtes à être récupérées ou rappelées.
+
+>[!ENDSHADEBOX]
 
 Un profil contient des programmes de santé, et chaque programme inclut des ordonnances. Les ordonnances comportent différents états, tels que « prêt », « rappel » ou « récupéré ».
 

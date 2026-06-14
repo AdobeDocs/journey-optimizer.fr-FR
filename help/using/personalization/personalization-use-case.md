@@ -24,14 +24,20 @@ topic_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 532
-ht-degree: 98%
+source-wordcount: 559
+ht-degree: 93%
 
 ---
 
 # Cas d’utilisation de la personnalisation : notification du statut de la commande {#personalization-use-case}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** suivez un cas d’utilisation de statut de commande qui combine des données de profil, de décision d’offre et de parcours contextuel pour personnaliser une notification push dans Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Dans ce cas d&#39;utilisation, vous verrez comment utiliser plusieurs types de personnalisations dans un seul message de notification push. Trois types de personnalisations seront utilisés :
 

@@ -23,14 +23,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 1263
-ht-degree: 83%
+source-wordcount: 1289
+ht-degree: 81%
 
 ---
 
 # Cas d’utilisation de la personnalisation : e-mail d’abandon de panier {#personalization-use-case-helper-functions}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** suivez un cas d’abandon de panier qui personnalise le corps d’un e-mail à l’aide des fonctions upperCase, each et if helper dans Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Dans cet exemple, vous allez personnaliser le corps d’un e-mail. Ce message cible les clients qui ont laissé des articles dans leur panier mais n’ont pas effectué leur achat.
 

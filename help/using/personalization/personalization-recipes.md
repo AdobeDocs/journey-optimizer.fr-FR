@@ -10,14 +10,20 @@ feature_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 815
+source-wordcount: 845
 ht-degree: 0%
 
 ---
 
 # Recettes Personalization {#personalization-recipes}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** recherchez des recettes de personnalisation prêtes à l’emploi pour les dates, les tableaux, les chaînes, la logique conditionnelle et les cas Edge de PQL que vous pouvez copier directement dans votre contenu Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Cette page fournit des modèles de personnalisation prêts à l’emploi pour les cas d’utilisation les plus courants dans Adobe Journey Optimizer. Tous les exemples utilisent la syntaxe de l’éditeur de personnalisation et peuvent être copiés directement dans un contenu d’e-mail, de SMS ou de notification push.
 

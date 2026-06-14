@@ -14,14 +14,20 @@ feature_v2:
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 681
-ht-degree: 82%
+source-wordcount: 710
+ht-degree: 78%
 
 ---
 
 # Prise en main de la personnalisation{#add-personalization}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Prise en main de la personnalisation dans Adobe Journey Optimizer, y compris le fonctionnement de l’éditeur de personnalisation, les données de profil que vous pouvez utiliser, le terrain de jeu d’apprentissage et la modification en ligne.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card5"
@@ -126,7 +132,7 @@ Maintenant que vous savez comment effectuer des personnalisations dans **[!DNL J
 
 ## Vidéos pratiques{#video-perso}
 
-Découvrez comment utiliser des informations d’événement contextuelles dans un parcours pour personnaliser un message.
+Découvrez comment utiliser les informations d’événement contextuelles d’un parcours pour personnaliser un message.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3448131?captions=fre_fr&quality=12)
 
