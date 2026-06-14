@@ -1,7 +1,7 @@
 ---
-source-git-commit: a4123db7ae90552a15e6f425bce0037426053a78
+source-git-commit: f59dc265b0de732b52e9d26b6ee510733d0d760e
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,10 @@ Exécutez à partir de la racine du référentiel (`journey-optimizer.en/`).
    Prévisualisez d’abord avec `--dry-run`.
 
 2. **Affiner le libellé.** L’adresse est un point de départ : modifiez chaque phrase pour qu’elle
-se lit comme une déclaration d’objectif (une phrase, texte brut, anglais américain). Si vous
+se lit comme une déclaration d’objectif (une phrase, texte brut, anglais américain). **Lead
+avec le pourquoi** : indiquez le résultat/avantage pour le lecteur (« ... afin que vous puissiez : <outcome> »), non
+juste une liste de ce que couvre la page. Faire correspondre les noms des caractéristiques de style maison (p. ex.
+« Campagne orchestrée », « In-app »). Voir `.cursor/rules/on-this-page-box.mdc`. Si vous
 passez `--seed-from-description`, un espace réservé `{{TODO...}}` est inséré à la place et
 le programme de validation signale les éléments restants.
 
