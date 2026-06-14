@@ -11,14 +11,20 @@ feature_v2:
 subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 643
-ht-degree: 78%
+source-wordcount: 671
+ht-degree: 74%
 
 ---
 
 # Concevoir le contenu des cartes de contenu {#design-content-card}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** concevez et personnalisez la disposition, le texte, les médias, les boutons et le comportement de votre carte de contenu afin de diffuser un message attrayant et intégré à la marque à votre audience.
+
+>[!ENDSHADEBOX]
 
 Le concept de création de cartes offre une expérience de création basée sur des formulaires qui fournit aux responsables marketing des entrées de base qui peuvent être utilisées pour le rendu par l’équipe de développement.
 

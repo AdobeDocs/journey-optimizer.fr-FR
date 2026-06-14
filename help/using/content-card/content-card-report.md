@@ -11,14 +11,20 @@ feature_v2:
 subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 480
-ht-degree: 100%
+source-wordcount: 504
+ht-degree: 95%
 
 ---
 
 # Rapport sur les cartes de contenu {#content-card-report}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Analysez les mesures des cartes de contenu telles que les affichages, les clics et les liens suivis afin de mesurer l’engagement et d’améliorer l’efficacité de votre campagne.
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
