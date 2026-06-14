@@ -7,34 +7,26 @@ level: Intermediate
 keywords: in-app, message, configuration, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 TQID: https://experienceleague.adobe.com/GWlxb1IJ5oZue5m0s4nN7iOa1S-IfHEFNuU7Lcj0H2s
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5deeid: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 1113
-ht-degree: 97%
+source-wordcount: 1117
+ht-degree: 93%
 
 ---
 
 # Conditions préalables et configuration {#inapp-configuration}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment configurer les conditions préalables à la diffusion et créer une configuration de canal in-app pour envoyer des messages in-app avec Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 ## Étapes de configuration {#inapp-steps}
 
@@ -107,7 +99,7 @@ Pour créer une configuration in-app dans Journey Optimizer, procédez comme su
 
    >[!NOTE]
    >
-   >Pour les plateformes iOS et Android, la diffusion se base uniquement sur l’ID d’application. Si les deux applications possèdent le même ID d’application, le contenu sera diffusé sur les deux, quelle que soit la plateforme sélectionnée dans la **[!UICONTROL configuration des canaux]**.
+   >Pour les plateformes iOS et Android, la diffusion se base uniquement sur l&#39;identifiant de l&#39;application. Si les deux applications partagent le même ID d’application, le contenu sera diffusé aux deux, quelle que soit la plateforme sélectionnée dans la **[!UICONTROL configuration du canal]**.
    >Pour restreindre la diffusion des messages in-app à une plateforme spécifique, vous devez implémenter des règles spécifiques à l’appareil dans la logique de votre parcours ou de votre campagne.
 
    ![](assets/inapp_config_10.png)

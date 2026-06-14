@@ -8,29 +8,26 @@ level: Beginner
 keywords: in-app, message, conception, mise en forme
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 TQID: https://experienceleague.adobe.com/DBRGZUXPBo-2-EX0i3RSGQc4G1-zbsee4u3oF1cU-ng
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 1273
-ht-degree: 98%
+source-wordcount: 1284
+ht-degree: 94%
 
 ---
 
 # Concevoir votre contenu in-app {#design-content}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment concevoir le contenu de votre message in-app dans Adobe Journey Optimizer, y compris la disposition du message, le média, le texte, les boutons et les options de formatage avancé.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_content"
@@ -120,7 +117,7 @@ Le champ **[!UICONTROL Média]** permet d’ajouter des médias à votre message
 
 ![](assets/in_app_web_design_3.png)
 
-Saisissez votre URL de média ou cliquez sur l’icône **[!UICONTROL Sélectionner les ressources]** pour ajouter directement des ressources stockées dans votre bibliothèque de ressources à votre message in-app. [En savoir plus sur la gestion des ressources](../integrations/assets.md).
+Saisissez votre URL de média ou cliquez sur l’icône **[!UICONTROL Sélectionner Assets]** pour ajouter directement des ressources stockées dans votre bibliothèque Assets à votre message in-app. [En savoir plus sur la gestion des ressources](../integrations/assets.md).
 Vous pouvez également ajouter un **[!UICONTROL Texte secondaire]** pour les applications de lecture d’écran.
 
 +++Plus d’options avec le formatage avancé
@@ -282,4 +279,4 @@ Pour plus d’informations, consultez la [documentation de développement](https
 
 La vidéo ci-dessous montre comment créer et tester vos messages in-app.
 
->[!VIDEO](https://video.tv.adobe.com/v/3422077?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)
