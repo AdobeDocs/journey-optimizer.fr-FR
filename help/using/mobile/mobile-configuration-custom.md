@@ -8,30 +8,26 @@ role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
 TQID: https://experienceleague.adobe.com/v5gRCHjcQjn0kXPdtakSZRNlRIA-PVyGpctdn7zwXSI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: cf1c53fc42cbe0eb019b1733091c5f22021767bb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 1050
-ht-degree: 78%
+source-wordcount: 1086
+ht-degree: 75%
 
 ---
 
 # Configurer un fournisseur personnalisé {#sms-configuration-custom}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment intégrer un fournisseur de messagerie personnalisé dans Adobe Journey Optimizer en créant des informations d’identification d’API, en choisissant une méthode d’authentification et en configurant des en-têtes, des payloads et des paramètres entrants pour envoyer des SMS et des messages RCS.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_url"
@@ -96,7 +92,7 @@ Pour envoyer des messages mobiles dans Journey Optimizer à l&#39;aide d&#39;un 
 
    >[!IMPORTANT]
    >
-   >Configurez votre point d’entrée d’envoi SMS pour approuver la chaîne d’autorité de certification Adobe Experience Platform en téléchargeant le certificat public à partir de l’[API de certificat public MTLS](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint) et en l’ajoutant à votre Trust Store serveur (CN client attendu : `ajo-sms.aep-mtls.adobe.com`), sinon Journey Optimizer omet le certificat client et la diffusion SMS échoue.
+   >Configurez votre point d’entrée d’envoi SMS pour approuver la chaîne d’autorité de certification Adobe Experience Platform en téléchargeant le certificat public à partir de l’[API de certificat public MTLS](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint) et en l’ajoutant à votre Trust Store serveur (CN client attendu : `ajo-sms.aep-mtls.adobe.com`), sinon Journey Optimizer omet le certificat client et la diffusion SMS échoue.
 
 1. Dans la section **[!UICONTROL En-têtes]**, cliquez sur **[!UICONTROL Ajouter un nouveau paramètre]** pour définir les en-têtes HTTP du message de requête à envoyer au service externe.
 
