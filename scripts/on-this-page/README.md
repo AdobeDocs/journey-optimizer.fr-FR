@@ -38,7 +38,7 @@ Exécutez à partir de la racine du référentiel (`journey-optimizer.en/`).
 
 2. **Affiner le libellé.** L’adresse est un point de départ : modifiez chaque phrase pour qu’elle
 se lit comme une déclaration d’objectif (une phrase, texte brut, anglais américain). **Lead
-avec le pourquoi** : indiquez le résultat/avantage pour le lecteur (« ... afin que vous puissiez : <outcome> »), non
+avec le pourquoi** : indiquez le résultat/avantage pour le lecteur (« ... afin que vous puissiez : &lt;outcome> »), non
 juste une liste de ce que couvre la page. Faire correspondre les noms des caractéristiques de style maison (p. ex.
 « Campagne orchestrée », « In-app »). Voir `.cursor/rules/on-this-page-box.mdc`. Si vous
 passez `--seed-from-description`, un espace réservé `{{TODO...}}` est inséré à la place et
