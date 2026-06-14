@@ -9,7 +9,8 @@ role: User
 level: Intermediate, Experienced
 keywords: url, lien, personnalisation, tracking, codage, accolades
 feature_v2: []
-subfeature_v2: id: c41e8697-e629-4c38-96b3-564faaa17acf
+subfeature_v2:
+  - id: c41e8697-e629-4c38-96b3-564faaa17acf
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
 source-wordcount: 430
