@@ -10,30 +10,31 @@ level: Beginner
 keywords: stock, images, intégration, photos
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
 TQID: https://experienceleague.adobe.com/vTlX-g-0KOflNFEE82-eaivCmII6bqdYyGHtzDvYylc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-subfeature_v2:
-  - id: c08fcc42-2918-421a-a25e-e1bd9464c290
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+subfeature_v2: id: c08fcc42-2918-421a-a25e-e1bd9464c290
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 597
-ht-degree: 100%
+source-wordcount: 622
+ht-degree: 95%
 
 ---
 
 # Utiliser des images [!DNL Adobe Stock] {#stock}
 
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment rechercher, obtenir une licence et insérer des images Adobe Stock, y compris des photos similaires, directement depuis Email Designer dans Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
+
 ## Prise en main d’[!DNL Adobe Stock] {#get-started-stock}
 
 Le plug-in d’intégration d’[!DNL Adobe Stock] et du concepteur d’e-mail [!DNL Adobe Journey Optimizer] fournit aux clients une façon simple de naviguer, d’acquérir des produits sous licence et d’enregistrer des images en vue de les utiliser dans la création de messages.
 
-[Adobe Stock](https://helpx.adobe.com/fr/stock/get-started.html){target="_blank"} permet d’accéder à des millions de photos, vidéos, illustrations et graphiques vectoriels de qualité supérieure, organisés et libres de droits. Vous pouvez choisir d’acheter un pack de crédits pour acquérir des ressources sous licence ou d’acheter uniquement une licence Standard ou Étendue pour la ressource nécessaire. Adobe Stock fournit également une collection gratuite de ressources.
+[Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target="_blank"} permet d’accéder à des millions de photos, vidéos, illustrations et graphiques vectoriels de qualité supérieure, organisés et libres de droits. Vous pouvez choisir d’acheter un pack de crédits pour acquérir des ressources sous licence ou d’acheter uniquement une licence Standard ou Étendue pour la ressource nécessaire. Adobe Stock fournit également une collection gratuite de ressources.
 
 Avec [!DNL Adobe Journey Optimizer], vous pouvez charger des images dans vos e-mails directement depuis [!DNL Adobe Stock] et les ajouter à votre dossier **[!UICONTROL Ressources]** à l’aide de l’option **[!UICONTROL Trouver des photos Adobe Stock]**. En outre, l’option **[!UICONTROL Trouver des photos Stock similaires]** vous permet de trouver les images correspondant au contenu, à la couleur et à la composition de la ressource utilisée dans votre diffusion.
 
@@ -113,5 +114,5 @@ Pour acquérir votre image sous licence et la télécharger, procédez comme sui
 
 * [Conception d’e-mails dans Journey Optimizer](../email/get-started-email-design.md)
 * [Paramètres des composants pour la conception d’un e-mail](../email/content-components.md)
-* [Commencer avec Adobe Stock](https://helpx.adobe.com/fr/stock/get-started.html){target="_blank"}.
+* [Commencer avec Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target="_blank"}.
 
