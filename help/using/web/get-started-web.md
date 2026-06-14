@@ -23,14 +23,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 293
-ht-degree: 100%
+source-wordcount: 320
+ht-degree: 91%
 
 ---
 
 # Prise en main du canal web {#get-started-web}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Prise en main du canal web dans Adobe Journey Optimizer pour créer et diffuser visuellement des expériences web personnalisées sur vos parcours et campagnes client.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] vous permet de créer et de diffuser visuellement des expériences web personnalisées à vos clients et clientes.
 

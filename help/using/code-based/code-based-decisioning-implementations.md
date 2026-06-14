@@ -20,14 +20,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 549
-ht-degree: 93%
+source-wordcount: 573
+ht-degree: 90%
 
 ---
 
 # Prise de décision dans les implémentations d’expérience basées sur du code {#code-based-decisioning-implementations}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez comment appliquer la déduplication et utiliser l’indicateur d’exécution d’essai lors de l’envoi de requêtes de prise de décision dans votre implémentation d’expérience basée sur le code.
+
+>[!ENDSHADEBOX]
 
 Lors de l’utilisation de prises de décisions dans des expériences basées sur du code, pensez à ajouter les indicateurs suivants à votre implémentation client dans les cas décrits ci-dessous.
 

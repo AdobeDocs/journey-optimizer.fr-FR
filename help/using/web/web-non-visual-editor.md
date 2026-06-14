@@ -19,14 +19,20 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 427
-ht-degree: 100%
+source-wordcount: 462
+ht-degree: 92%
 
 ---
 
 # Utiliser l’éditeur non visuel web {#web-non-visual-editor}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment ajouter des modifications au sélecteur CSS et à l’en-tête de page à vos pages web avec l’éditeur non visuel de Adobe Journey Optimizer, sans installer d’extension de navigateur ou charger le concepteur web de .
+
+>[!ENDSHADEBOX]
 
 En plus du [concepteur web](web-visual-editor.md) [!DNL Journey Optimizer] visuel, vous pouvez également ajouter des modifications à vos pages web à l’aide d’un **éditeur non visuel**.
 

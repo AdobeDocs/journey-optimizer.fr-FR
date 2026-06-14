@@ -20,14 +20,20 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 522
-ht-degree: 100%
+source-wordcount: 540
+ht-degree: 96%
 
 ---
 
 # Gérer des expériences basées sur du code {#publish-code-based}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment publier, activer et arrêter les expériences basées sur du code dans vos parcours et campagnes.
+
+>[!ENDSHADEBOX]
 
 ## Mettre en ligne votre expérience basée sur du code {#code-based-experience-live}
 
@@ -59,7 +65,7 @@ Pour mettre en ligne votre expérience basée sur du code à partir d’un parco
 
    >[!NOTE]
    >
-   >Découvrez la publication des parcours dans [cette section](../building-journeys/publish-journey.md).
+   >En savoir plus sur la publication des parcours dans [cette section](../building-journeys/publish-journey.md).
 
 Le statut de votre parcours basé sur du code passe à **[!UICONTROL Actif]** et l’audience sélectionnée peut voir votre parcours. Chaque destinataire de votre campagne peut voir vos modifications.
 

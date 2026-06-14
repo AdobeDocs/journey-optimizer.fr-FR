@@ -22,14 +22,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 1114
-ht-degree: 82%
+source-wordcount: 1138
+ht-degree: 81%
 
 ---
 
 # Exemples de méthodes de mise en œuvre basées sur le code {#implementation-samples}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** explorez des exemples d’implémentation côté client, côté serveur et hybrides pour récupérer, afficher et suivre le contenu d’expérience basé sur le code dans votre application.
+
+>[!ENDSHADEBOX]
 
 L’expérience basée sur le code est compatible avec n’importe quelle mise en œuvre du client ou de la cliente. Sur cette page, vous trouverez des exemples pour chaque méthode de mise en œuvre :
 

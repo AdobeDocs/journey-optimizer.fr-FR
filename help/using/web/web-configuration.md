@@ -20,14 +20,20 @@ role_v2:
 topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 943
-ht-degree: 96%
+source-wordcount: 955
+ht-degree: 93%
 
 ---
 
 # Configuration des expériences web {#web-configuration}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment créer une configuration de canal web dans Adobe Journey Optimizer, en ciblant une URL d’une seule page ou plusieurs pages avec une règle de correspondance de pages et ses opérateurs disponibles.
+
+>[!ENDSHADEBOX]
 
 ## Création d’une configuration de canal web {#create-web-configuration}
 
@@ -116,7 +122,7 @@ Lors de la création d’une [règle correspondant à plusieurs pages](#web-page
   | Correspond à  | Correspondance exacte du domaine.  | |
   | Commence par  | Correspond à tous les domaines (y compris les sous-domaines) commençant par la chaîne saisie.  | Exemple : « Commence par : dev » -> correspond à tous les domaines et sous-domaines commençant par « dev », comme : dev.exemple.com, dev.produits.exemple.com, developper.exemple.com.  |
   | Se termine par  | Correspond à tous les domaines (y compris les sous-domaines) qui se terminent par la chaîne saisie.  | Exemple : « Se termine par : exemple.com » -> correspond à tous les domaines et sous-domaines qui se terminent par « exemple.com », par exemple : stage.exemple.com, prod.exemple.com, monexemple.com.  |
-  | Correspondance des caractères génériques  | L’opérateur « Correspondance de caractères génériques » permet à l’utilisateur ou à l’utilisatrice de définir une correspondance de caractères génériques au milieu de la chaîne, comme « dev.*.example.com ». Les règles de validation sont telles que la valeur doit contenir un seul caractère générique (astérisque) lorsque l’opérateur est « correspondance des caractères génériques ».  | Par exemple : « Correspondance de caractères génériques : dev.*.example.com » -> correspond à des domaines tels que : dev.products.example.com, dev.mytest.products.example.com, dev.blog.example.com  |
+  | Correspondance des caractères génériques  | L’opérateur « Correspondance de caractères génériques » permet à l’utilisateur ou à l’utilisatrice de définir une correspondance de caractères génériques au milieu de la chaîne, comme « dev.*.example.com ». Les règles de validation sont les suivantes : la valeur doit contenir un et un seul caractère générique (astérisque) lorsque l’opérateur est « correspondance de caractères génériques ».  | Par exemple : « Correspondance de caractères génériques : dev.*.example.com » -> correspond à des domaines tels que : dev.products.example.com, dev.mytest.products.example.com, dev.blog.example.com  |
   | N’importe lequel  | Correspond à tous les domaines. Cela se révèle utile lors du test d’un chemin spécifique sur plusieurs domaines.  |  |
 
 

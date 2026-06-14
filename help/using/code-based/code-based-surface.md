@@ -19,14 +19,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 828
-ht-degree: 99%
+source-wordcount: 853
+ht-degree: 96%
 
 ---
 
 # Surfaces d’expérience basée sur du code {#code-based-surface}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** comprenez ce qu’sont une surface d’expérience et un URI de surface basés sur du code, et comment ils identifient les emplacements où votre contenu est diffusé.
+
+>[!ENDSHADEBOX]
 
 ## Qu’est-ce qu’une surface ? {#surface-definition}
 

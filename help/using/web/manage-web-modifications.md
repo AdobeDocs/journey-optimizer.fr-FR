@@ -23,14 +23,20 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 973
-ht-degree: 100%
+source-wordcount: 1009
+ht-degree: 96%
 
 ---
 
 # Gérer les modifications web {#manage-web-modifications}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment réviser, supprimer et annuler les modifications apportées à votre page web à partir du volet Modifications. Apprenez également comment ajouter des modifications au sélecteur CSS et à l’en-tête de page directement dans Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications"
@@ -198,7 +204,7 @@ Chaque modification crée un nouvel élément dans le panneau **[!UICONTROL Modi
 
 +++
 
-+++ **Faites preuve de prudence lors de l’utilisation du type de modification**[!UICONTROL  Page `<head>`]**pour deux campagnes ayant un impact sur la même URL.**
++++ **Faites preuve de prudence lors de l’utilisation du type de modification**&#x200B;[!UICONTROL &#x200B; Page `<head>`]&#x200B;**pour deux campagnes ayant un impact sur la même URL.**
 
 Si vous utilisez le type de modification **[!UICONTROL Page`<head>`]** pour deux campagnes ayant un impact sur la même URL, le code JavaScript est injecté dans la page à partir des deux campagnes. [!DNL Journey Optimizer] détermine automatiquement l’ordre du contenu diffusé. Assurez-vous que le code ne dépend pas de l’emplacement. C’est à vous de vous assurer qu’il n’y a aucun conflit dans le code.
 
