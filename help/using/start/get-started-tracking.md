@@ -10,38 +10,26 @@ level: Beginner
 keywords: suivi, surveillance, analyse, création de rapports, délivrabilité
 exl-id: d5e7adb7-8473-4c29-8ae6-ba979aef97f3
 TQID: https://experienceleague.adobe.com/jLHTNJlUPQm39EZvTLLBvYT92eGlCBoHpTKBfJ1Zxlk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 1964
-ht-degree: 95%
+source-wordcount: 1995
+ht-degree: 93%
 
 ---
 
 # Commencer avec le suivi dans Journey Optimizer {#get-started-tracking}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment effectuer le suivi des interactions client sur l’ensemble des canaux et surveiller la délivrabilité et l’intégrité du système dans Journey Optimizer, afin que vous puissiez mesurer l’efficacité des campagnes et prendre des décisions basées sur les données.
+
+>[!ENDSHADEBOX]
 
 Le suivi vous permet de mesurer l’efficacité de la campagne, d’optimiser les expériences client et de vous assurer que les messages atteignent leurs destinataires. Journey Optimizer offre un suivi complet des interactions client, des performances des diffusions et de l’intégrité du système, ce qui vous permet de prendre des décisions tout en respectant la confidentialité et la conformité.
 
@@ -276,7 +264,7 @@ Journey Optimizer effectue automatiquement le suivi des expériences d’optimis
 
 * **Optimisation des chemins de parcours** : ajoutez une activité **Optimiser** à votre parcours et configurez plusieurs chemins d’accès. Journey Optimizer suit automatiquement les chemins empruntés par les profils et mesure les performances. [En savoir plus](../building-journeys/optimize.md)
 
-Pour analyser les résultats : affichez les taux de conversion, la signification statistique et l’effet élévateur entre les traitements dans les rapports d’expérimentation, ou comparez les mesures d’engagement des différents segments ciblés. [Rapport de campagne d’expérimentation](../reports/campaign-global-report-cja-experimentation.md) | [Rapport de parcours d’expérimentation](../reports/journey-global-report-cja-experimentation.md) | [Rapport de ciblage de parcours &#x200B;](../reports/journey-global-report-cja.md#targeting)
+Pour analyser les résultats : affichez les taux de conversion, la signification statistique et l’effet élévateur entre les traitements dans les rapports d’expérimentation, ou comparez les mesures d’engagement des différents segments ciblés. [Rapport de campagne d’expérimentation](../reports/campaign-global-report-cja-experimentation.md) | [Rapport de parcours d’expérimentation](../reports/journey-global-report-cja-experimentation.md) | [Rapport de ciblage de parcours ](../reports/journey-global-report-cja.md#targeting)
 
 ### Suivre les performances de la prise de décision {#decisioning-tracking}
 

@@ -10,42 +10,26 @@ level: Beginner
 keywords: parcours optimizer, fonctionnement, architecture, experience platform, domaines fonctionnels
 exl-id: 9df179a0-a5f6-4dbd-a9db-a103731b1854
 TQID: https://experienceleague.adobe.com/E2ksPVFZBggv1RgEri7jx30G2oSanpmNs77vH9Yuq78
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 957
-ht-degree: 60%
+source-wordcount: 986
+ht-degree: 58%
 
 ---
 
 # Présentation de Journey Optimizer {#understanding-ajo}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment Adobe Journey Optimizer fonctionne avec Adobe Experience Platform afin de mieux comprendre le cycle de conversion des données en expériences, les domaines fonctionnels et l’architecture sous-jacents aux parcours personnalisés.
+
+>[!ENDSHADEBOX]
 
 Cette page explique comment Adobe Experience Platform et Journey Optimizer fonctionnent ensemble, en couvrant le cycle continu données-expérience, les domaines fonctionnels clés, les détails de l’architecture et les points d’intégration.
 
@@ -74,7 +58,7 @@ Adobe Journey Optimizer applique les données et les informations d’Adobe Ex
 
 * **Compréhension de la clientèle** : les profils clients en temps réel permettent la segmentation en audiences pour la messagerie ciblée. [Créer des audiences](../audience/about-audiences.md)
 * **Contenu et offres** - Un concepteur visuel intégré, des modèles réutilisables et une bibliothèque de ressources centralisée permettent aux équipes de créer et de personnaliser des messages pour n’importe quel canal, sans quitter la plateforme. La personnalisation dynamique adapte le contenu en fonction des attributs, du comportement et du contexte du client. La logique de prise de décision en temps réel sélectionne ensuite la meilleure offre pour chaque individu. [Conception de contenu](../../rp_landing_pages/content-management-landing-page.md) | [Gestion des ressources](../integrations/assets.md) | [Gestion des offres](../offers/get-started/starting-offer-decisioning.md)
-* **Gestion des parcours et des campagnes** : automatise les séquences d’interactions (parcours) ou planifie des messages ciblés uniques (campagnes). [Créer des parcours &#x200B;](../building-journeys/journey-gs.md) | [Créer des campagnes](../campaigns/get-started-with-campaigns.md)
+* **Gestion des parcours et des campagnes** : automatise les séquences d’interactions (parcours) ou planifie des messages ciblés uniques (campagnes). [Créer des parcours ](../building-journeys/journey-gs.md) | [Créer des campagnes](../campaigns/get-started-with-campaigns.md)
 * **Diffusion (connexions)** : diffuse les messages par le biais de canaux (e-mail, SMS, notifications push et courrier) ; exporte les données vers des systèmes externes. [Configurer des canaux](../configuration/get-started-configuration.md)
 * **Mesures et analyses** : effectue le suivi de l’engagement de la clientèle et des performances des campagnes avec des rapports pour une amélioration continue. [Afficher les rapports](../reports/campaign-global-report-cja.md)
 
@@ -114,7 +98,7 @@ Ces domaines fonctionnels fonctionnent selon un cycle continu :
 
 Journey Optimizer est l’une des quatre applications créées en mode natif sur Adobe Experience Platform, aux côtés de Real-Time CDP, Customer Journey Analytics et Adobe Mix Modeler. Il partage les services principaux d’AEP (profil client en temps réel, graphique d’identités, gouvernance des données et services de requête) afin d’accéder à une base de données client unifiée sans nécessiter d’intégrations distinctes. Journey Optimizer peut fonctionner en tant qu’application autonome ou interagir avec d’autres applications natives AEP.
 
-Pour une exploration approfondie de l’architecture technique (y compris les modèles d’intégration, les conditions préalables et les flux de données système), consultez les [Plans directeurs de &#x200B;](https://experienceleague.adobe.com/fr/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}. Pour des considérations d’implémentation, [consultez les mécanismes de sécurisation et les limitations](guardrails.md).
+Pour une exploration approfondie de l’architecture technique (y compris les modèles d’intégration, les conditions préalables et les flux de données système), consultez les [Plans directeurs de ](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}. Pour des considérations d’implémentation, [consultez les mécanismes de sécurisation et les limitations](guardrails.md).
 
 ## Confidentialité et sécurité {#privacy-security}
 
