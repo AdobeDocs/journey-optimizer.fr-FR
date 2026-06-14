@@ -11,14 +11,20 @@ keywords: données, gouvernance, DULE, libellés, étiqueter, platform, politiqu
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 1314
-ht-degree: 100%
+source-wordcount: 1337
+ht-degree: 96%
 
 ---
 
 # Gouvernance des données {#restrict-fields}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** protégez les données sensibles en créant des politiques de gouvernance qui lient les libellés aux actions marketing, puis en les appliquant aux parcours, aux campagnes et aux actions personnalisées afin que les champs restreints ne puissent pas être partagés en externe.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_data_governance_policy_violation"
@@ -31,8 +37,8 @@ Avec son cadre de [gouvernance Data Usage Labelling and Enforcement(DULE)](https
 
 Une fois les actions marketing et les libellés définis, vous pouvez créer des **politiques de gouvernance des données** qui lient ces deux éléments. Par exemple, vous pouvez configurer une politique qui associe un libellé « ePHI » à une action marketing de « ciblage e-mail », en veillant à ce que les champs étiquetés « ePHI » ne soient pas utilisés pour personnaliser les e-mails. [Découvrir comment créer des politiques de gouvernance des données](#policy)
 
-Après avoir créé les politiques de gouvernance, vous pouvez appliquer les actions marketing à vos actions parcours/campagnes actions personnalisées sur les parcours.
-[Découvrir comment appliquer des actions marketing dans Journey Optimizer](#apply-marketing-actions)
+Après avoir créé les politiques de gouvernance, vous pouvez appliquer les actions marketing à vos parcours/campagnes et actions personnalisées de parcours.
+[Découvrez comment appliquer des actions marketing dans Journey Optimizer](#apply-marketing-actions)
 
 Lors de la création d’un parcours ou d’une campagne, après avoir sélectionné une configuration de canal ou ajouté une action personnalisée, le système vérifie si l’action marketing dans la configuration du canal de message ou l’action personnalisée fait partie d’une politique de gouvernance des données. Si tel est le cas, le système vérifie si les champs de l’audience ciblée ou de la personnalisation des messages sont libellés et restreints par la politique. Si un libellé est détecté, la publication du parcours ou de la campagne est bloquée. [Découvrir comment détecter une violation de politique de gouvernance des données](#violation)
 
