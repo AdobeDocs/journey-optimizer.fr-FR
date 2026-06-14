@@ -10,26 +10,25 @@ level: Experienced
 keywords: sandbox, virtuels, environnements, organisation, platform
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
 TQID: https://experienceleague.adobe.com/8vcaHkqHeyoP-TZltCkjpBhvZIifuiPbKy-Whoj74Z8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 434
-ht-degree: 79%
+source-wordcount: 464
+ht-degree: 74%
 
 ---
 
 # Utiliser et attribuer des sandbox {#sandboxes}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** utilisez et affectez des sandbox pour partitionner votre instance Adobe Journey Optimizer en environnements isolés, afin de pouvoir développer, tester et exécuter en production sans affecter les autres tâches.
+
+>[!ENDSHADEBOX]
 
 Les **sandbox** sont des environnements virtuels qui divisent votre instance Adobe Journey Optimizer en espaces de travail distincts et isolés, à des fins de développement, de test ou de production. Vous trouverez la gestion des sandbox sous **Administration** > **Canaux** > **Connecter vos systèmes et environnements** (ou via le sélecteur de sandbox en haut à droite de l’interface). Les sandbox vous permettent de tester en toute sécurité, d’attribuer des accès différents par rôle et de maintenir le contenu organisé. Cette page explique comment utiliser et affecter des sandbox, configurer l’accès au contenu et, dans l’article [Exporter des objets vers un autre sandbox](../configuration/copy-objects-to-sandbox.md), comment copier des parcours et des modèles entre des sandbox.
 
@@ -85,4 +84,4 @@ Remarque : pour que votre contenu soit synchronisé avec le sandbox approprié,
 
 Découvrez ce que sont les sandbox et comment faire la distinction entre les sandbox de développement et de production. Découvrez comment créer, réinitialiser et supprimer des sandbox.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416655?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334355?quality=12)

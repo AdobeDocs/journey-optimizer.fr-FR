@@ -9,17 +9,22 @@ role: Admin, Developer
 level: Experienced
 keywords: objet, niveau, accès, contrôle, libellés, olac, autorisation
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-feature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+feature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 514
-ht-degree: 100%
+source-wordcount: 548
+ht-degree: 93%
 
 ---
 
 # Contrôle d’accès au niveau des objets {#object-level-access}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** utilisez le contrôle d’accès au niveau de l’objet pour restreindre les objets individuels tels que les parcours, les campagnes et les offres avec des libellés d’accès, afin que vous puissiez limiter le contenu sensible et les données personnelles aux utilisateurs autorisés.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
