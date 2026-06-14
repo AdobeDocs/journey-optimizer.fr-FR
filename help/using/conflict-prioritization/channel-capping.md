@@ -23,14 +23,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 1318
-ht-degree: 92%
+source-wordcount: 1346
+ht-degree: 90%
 
 ---
 
 # Capping de la fréquence par canal et type de communication {#rule-sets}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** définissez des limites de fréquence par canal et type de communication afin de limiter le nombre de messages reçus par un profil et d’éviter de submerger des clients avec des communications similaires.
+
+>[!ENDSHADEBOX]
 
 Les jeux de règles de **Canal** appliquent des règles de limitation aux canaux de communication. Par exemple, ne pas envoyer plus d’un e-mail ou d’un SMS par jour.
 

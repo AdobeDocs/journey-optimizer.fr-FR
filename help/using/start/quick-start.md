@@ -40,14 +40,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 2269
-ht-degree: 100%
+source-wordcount: 2300
+ht-degree: 98%
 
 ---
 
 # Rôles et responsabilités
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez les rôles essentiels dans une implémentation de Adobe Journey Optimizer et leurs responsabilités afin que vous puissiez trouver le bon point de départ et les tâches de démarrage rapide pour votre équipe.
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer (AJO) permet aux marques de proposer des expériences connectées, contextualisées et personnalisées tout au long du parcours client. Conçu dans une optique d’évolutivité, de vitesse et de flexibilité de bout en bout, Journey Optimizer combine trois principaux facteurs de valeur dans une application unifiée :
 
@@ -285,7 +291,7 @@ Pour des mises à jour et des formations plus approfondies, consultez les ressou
 
 >[!TAB Communauté et assistance]
 
-* [Communauté Experience League ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"} - Communiquez avec d’autres utilisateurs, utilisatrices, experts et expertes.
+* [Communauté Experience League &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"} - Communiquez avec d’autres utilisateurs, utilisatrices, experts et expertes.
 * [Forum de produits](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"} - Posez des questions et partagez vos connaissances.
 
 >[!ENDTABS]

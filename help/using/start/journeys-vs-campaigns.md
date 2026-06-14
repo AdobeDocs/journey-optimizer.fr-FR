@@ -27,14 +27,20 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 1816
-ht-degree: 59%
+source-wordcount: 1832
+ht-degree: 58%
 
 ---
 
 # Parcours ou campagnes : choisissez la bonne approche {#journeys-vs-campaigns}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Comparer des parcours avec des campagnes d’action, déclenchées par une API et orchestrées afin de pouvoir choisir l’approche appropriée pour chaque cas d’utilisation marketing dans Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] offre deux méthodes principales pour atteindre et impliquer vos clients : **Parcours** et **Campagnes**. Les parcours sont conçus pour une orchestration en temps réel et à plusieurs étapes basée sur le comportement du client. Les campagnes sont mieux adaptées aux diffusions ponctuelles ou planifiées vers une audience définie. Une fois que vous avez choisi une campagne, vous pouvez choisir le type de campagne qui correspond le mieux à votre cas d’utilisation.
 
@@ -80,7 +86,7 @@ Suivez cet arbre de décision pour choisir la bonne approche. De nombreuses marq
 
 ### Étape 1 : quelle est votre exigence d’exécution ?
 
-**Réactions individuelles en temps réel au comportement de la clientèle ?**
+**Réponses individuelles en temps réel au comportement des clients ?**
 → **Utiliser des Parcours**
 * Les profils doivent progresser à leur propre rythme.
 * Logique conditionnelle basée sur le comportement
@@ -98,7 +104,7 @@ Suivez cet arbre de décision pour choisir la bonne approche. De nombreuses marq
 * Personnalisation basée sur la payload
 * Aucune logique complexe à plusieurs étapes n’est nécessaire.
 
-**Workflow par lots complexe avec segmentation avancée ?**
+**Workflow par lots complexe avec segmentation avancée ?**
 → **Utiliser des campagnes orchestrées**
 * Données multi-entités nécessaires (produits, magasins, réservations)
 * Exiger des nombres exacts de pré-envois

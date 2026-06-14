@@ -26,14 +26,20 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 440
-ht-degree: 100%
+source-wordcount: 477
+ht-degree: 92%
 
 ---
 
 # Commencer avec les schémas {#schemas-gs}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez comment les schémas standard et relationnels de Adobe Experience Platform définissent la structure de vos données afin que vous puissiez modéliser des profils, des événements comportementaux et des entités relationnelles pour les campagnes de personnalisation et orchestrées dans Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] s’appuie sur les schémas **Adobe Experience Platform** pour décrire la structure des données de manière cohérente et réutilisable. Un schéma fournit une définition abstraite d’un objet du monde réel (une personne, par exemple) et décri les données à inclure dans chaque instance de cet objet (comme le nom, la date de naissance, etc.). Lorsque des données sont ingérées dans Experience Platform, elles sont toujours structurées en fonction d’un **schéma XDM**.
 

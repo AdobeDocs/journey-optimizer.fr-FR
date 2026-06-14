@@ -19,14 +19,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 964
-ht-degree: 98%
+source-wordcount: 993
+ht-degree: 95%
 
 ---
 
 # Limitation et arbitrage des parcours {#journey-capping}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Limitez le nombre de parcours qu’un profil peut rejoindre ou dans lesquels il peut s’inscrire en même temps afin d’éviter une surcharge de communication et de donner la priorité aux parcours les plus importants.
+
+>[!ENDSHADEBOX]
 
 La limitation des parcours permet de limiter le nombre de parcours dans lesquels un profil peut être inscrit, ce qui évite la surcharge de communication. Dans Journey Optimizer, vous pouvez définir deux types de règles de limitation :
 

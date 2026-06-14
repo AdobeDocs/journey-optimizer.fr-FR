@@ -27,14 +27,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: e366af78935405cd5acb15269194875098b20914
 workflow-type: tm+mt
-source-wordcount: 917
-ht-degree: 43%
+source-wordcount: 948
+ht-degree: 42%
 
 ---
 
 # Commencer avec les sources de données {#about-data-sources}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez ce que sont les sources de données et comment choisir la bonne stratégie d’accès aux données afin de pouvoir importer des données supplémentaires dans vos parcours pour les conditions, la personnalisation et le timing.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_list"

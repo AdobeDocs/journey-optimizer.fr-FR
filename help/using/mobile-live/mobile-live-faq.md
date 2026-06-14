@@ -26,14 +26,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 1824
+source-wordcount: 1851
 ht-degree: 44%
 
 ---
 
 # Questions fréquentes {#mobile-live-faq}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** trouvez des réponses aux questions courantes sur les activités en direct afin de les implémenter, de les diffuser et de les résoudre plus facilement dans vos applications et campagnes iOS.
+
+>[!ENDSHADEBOX]
 
 ## Questions générales
 

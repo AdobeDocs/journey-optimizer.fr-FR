@@ -21,14 +21,20 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 869
-ht-degree: 98%
+source-wordcount: 896
+ht-degree: 95%
 
 ---
 
 # Gestion des conflits et hiérarchisation {#conflict-prioritization}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez comment la détection des conflits, les scores de priorité et les ensembles de règles fonctionnent ensemble afin d’éviter les communications qui se chevauchent et de contrôler la fréquence des messages envoyés aux clients.
+
+>[!ENDSHADEBOX]
 
 Dans Journey Optimizer, la gestion du volume et du calendrier des campagnes et des parcours est essentielle pour éviter de submerger les clientes et clients avec un trop grand nombre d’interactions. Les outils de gestion des conflits et de hiérarchisation vous permettent de diffuser des communications réfléchies et opportunes en prévenant la lassitude des clients et clientes et en veillant à ce que les bons messages atteignent votre audience. Grâce à la détection des conflits, les scores de priorité et les jeux de règles, vous pouvez rationaliser les campagnes et les parcours afin d’éviter les chevauchements et équilibrer la fréquence sur l’ensemble des canaux.
 

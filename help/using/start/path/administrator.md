@@ -28,14 +28,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 1076
-ht-degree: 100%
+source-wordcount: 1099
+ht-degree: 97%
 
 ---
 
 # Commencer en tant qu’administrateurs et administratrices système {#get-started-sys-admins}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Configurez les utilisateurs, les autorisations, les sandbox et les configurations de canal afin que vos équipes puissent travailler dans Adobe Journey Optimizer de manière sécurisée et efficace.
+
+>[!ENDSHADEBOX]
 
 En tant qu’**administrateur ou administratrice système**, vous pouvez configurer l’environnement Journey Optimizer et gérer les accès pour permettre à vos équipes de travailler efficacement et en toute sécurité. Vous effectuez les étapes de configuration essentielles pour que les [ingénieurs et ingénieures de données](data-engineer.md), les [développeurs et développeuses](developer.md) et les [responsables marketing](marketer.md) puissent commencer à utiliser [!DNL Adobe Journey Optimizer].
 

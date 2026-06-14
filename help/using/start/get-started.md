@@ -33,14 +33,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 1296
-ht-degree: 100%
+source-wordcount: 1323
+ht-degree: 97%
 
 ---
 
 # Prise en main de Journey Optimizer {#ajo-gs}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez Adobe Journey Optimizer, ses fonctionnalités principales et des cas d’utilisation concrets afin de pouvoir décider comment il correspond à vos objectifs d’engagement client.
+
+>[!ENDSHADEBOX]
 
 Cette page présente Adobe Journey Optimizer : son fonctionnement, ses utilisateurs et utilisatrices cibles, ses principales fonctionnalités et sa compatibilité avec l’architecture d’Adobe Experience Platform. Il s’agit du point de départ recommandé pour les nouveaux utilisateurs et utilisatrices.
 
@@ -170,5 +176,5 @@ Journey Optimizer est conçu de manière native sur Adobe Experience Platform
 * [Concevoir des parcours et envoyer des messages](../building-journeys/journey-gs.md) : créez votre premier parcours client et configurez les actions de canal.
 * [Rapports dynamiques](../reports/live-report.md) : surveillez les performances des campagnes et des parcours en temps réel.
 * [Présentation du tutoriel Journey Optimizer](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"} : présentation vidéo guidée des concepts de base de Journey Optimizer.
-* [Vue d’ensemble de la sécurité de Journey Optimizer ](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF) : architecture de sécurité, protection des données et détails de conformité.
-* [Description du produit Journey Optimizer ](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} : conditions de licence officielles et présentation des fonctionnalités par édition.
+* [Vue d’ensemble de la sécurité de Journey Optimizer &#x200B;](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF) : architecture de sécurité, protection des données et détails de conformité.
+* [Description du produit Journey Optimizer &#x200B;](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} : conditions de licence officielles et présentation des fonctionnalités par édition.

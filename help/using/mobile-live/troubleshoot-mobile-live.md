@@ -12,14 +12,20 @@ feature_v2:
 subfeature_v2:
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
   - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 4607
+source-wordcount: 4641
 ht-degree: 1%
 
 ---
 
 # Résoudre les problèmes liés aux activités en direct {#troubleshoot-mobile-live}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Diagnostiquez systématiquement pourquoi vos activités Live ne s’affichent pas, ne se mettent pas à jour ou ne se terminent pas afin de pouvoir résoudre les problèmes de jeton de profil, de configuration de campagne, de payload et de diffusion dans les cas d’utilisation unitaires et de diffusion.
+
+>[!ENDSHADEBOX]
 
 Les activités en direct dans Adobe Journey Optimizer permettent des mises à jour dynamiques en temps réel sur les écrans de verrouillage iOS et les îles dynamiques. Ils ne peuvent être déclenchés et gérés que par le biais de campagnes déclenchées par API.
 

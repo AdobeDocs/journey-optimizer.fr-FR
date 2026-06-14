@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 762
-ht-degree: 100%
+source-wordcount: 792
+ht-degree: 96%
 
 ---
 
 # Gérer les utilisateurs et utilisatrices et les rôles {#manage-permissions}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Attribuez, modifiez et créez des rôles dans le produit Autorisations afin de pouvoir donner à chaque utilisateur l’accès exact dont il a besoin pour effectuer son travail dans Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Les **[!UICONTROL rôles]** se rapportent à un ensemble d’utilisateurs et d’utilisatrices qui partagent les mêmes autorisations et sandbox. Ces rôles vous permettent de gérer facilement les accès et les autorisations pour différents groupes d’utilisateurs et d’utilisatrices au sein de votre organisation.
 

@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 453
-ht-degree: 100%
+source-wordcount: 416
+ht-degree: 87%
 
 ---
 
 # Commencer le contrôle d’accès {#permissions-overview}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Familiarisez-vous avec les concepts de base du contrôle d’accès dans Journey Optimizer, notamment les rôles, les autorisations, les sandbox et le contrôle d’accès basé sur les objets et les attributs, afin de pouvoir planifier comment accorder aux utilisateurs le droit d’accès.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] vous permet de définir et de gérer les autorisations attribuées à différents utilisateurs. Les autorisations sont un ensemble de droits et de restrictions qui autorisent ou refusent l’accès aux fonctionnalités du produit.
 
@@ -54,8 +60,8 @@ Pour configurer le contrôle d’accès pour Journey Optimizer, vous devez disp
 
 La gestion des utilisateurs et des utilisatrices dans [!DNL Journey Optimizer] repose sur les concepts clés suivants :
 
-* **[!UICONTROL Rôles]** : les rôles désignent un ensemble d’utilisateurs et d’utilisatrices partageant les mêmes autorisations et les mêmes sandbox. Ces rôles vous permettent de gérer facilement les accès et les autorisations pour différents groupes d’utilisateurs et d’utilisatrices au sein de votre organisation. Un rôle est associé à un ensemble de droits unitaires (autorisations) permettant aux utilisateurs et aux utilisatrices d’accéder à certaines fonctionnalités ou à certains objets de l’interface.
-Avec [!DNL Journey Optimizer], vous pouvez effectuer un choix parmi une gamme de **[!UICONTROL rôles]** préexistants, chacun comportant différents niveaux d’autorisations, à attribuer à vos utilisateurs et utilisatrices. Pour en savoir plus sur les **rôles intégrés**, consultez [cette page](ootb-product-profiles.md).
+* **[!UICONTROL Rôles]** : les rôles font référence à un ensemble d’utilisateurs qui partagent les mêmes autorisations et sandbox. Ces rôles vous permettent de gérer facilement l’accès et les autorisations pour différents groupes d’utilisateurs et d’utilisatrices au sein de votre organisation. Un rôle s’accompagne d’un ensemble de droits unitaires (autorisations) qui permettent aux utilisateurs et utilisatrices d’accéder à certaines fonctionnalités ou à certains objets de l’interface.
+Avec [!DNL Journey Optimizer], vous pouvez choisir parmi un éventail de **[!UICONTROL rôles]** préexistants, chacun avec différents niveaux d’autorisations, à affecter à vos utilisateurs et utilisatrices. En savoir plus sur les **rôles intégrés** disponibles sur [cette page](ootb-product-profiles.md).
 
 * **[!UICONTROL Autorisations]** : les autorisations sont des droits unitaires qui permettent de définir les privilèges attribués aux **[!UICONTROL rôles]**. Chaque autorisation est regroupée sous des ressources, par exemple Parcours ou Offres, ce qui représente les différentes fonctionnalités ou objets dans [!DNL Journey Optimizer]. Pour en savoir plus, consultez la section [Niveaux d’autorisation](high-low-permissions.md).
 

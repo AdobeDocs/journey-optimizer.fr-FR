@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 528
-ht-degree: 84%
+source-wordcount: 557
+ht-degree: 80%
 
 ---
 
 # Commencer la configuration des activités en direct {#mobile-live-config}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Configurez vos informations d’identification push et la configuration du canal d’activité dynamique afin de permettre à Adobe Journey Optimizer de diffuser des mises à jour en temps réel sur votre application iOS.
+
+>[!ENDSHADEBOX]
 
 Avant d’envoyer des activités dynamiques, vous devez configurer votre environnement Adobe Journey Optimizer. Pour ce faire, procédez comme suit :
 

@@ -24,15 +24,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 404
-ht-degree: 94%
+source-wordcount: 449
+ht-degree: 84%
 
 ---
 
 # Prise en main des activités en direct {#get-started-mobile-live}
 
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment les activités en direct fournissent des mises à jour persistantes et en temps réel sur l’écran de verrouillage d’iPhone et l’île dynamique afin que vous puissiez maintenir l’engagement des utilisateurs pendant les événements en cours et planifier la configuration et les campagnes déclenchées par l’API nécessaires pour les envoyer avec Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Les activités en direct sont des éléments d’interface d’utilisation persistants et modifiables qui s’affichent sur l’écran de verrouillage de l’appareil. Elles permettent à votre application d’afficher des informations actualisées en temps réel pour les utilisateurs et utilisatrices tout au long d’un événement. Ils restent donc informés sans avoir à ouvrir l’application et sans recevoir des notifications push intempestives.
 

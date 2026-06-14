@@ -25,14 +25,20 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 691
-ht-degree: 100%
+source-wordcount: 724
+ht-degree: 95%
 
 ---
 
 # Prise en main des connecteurs source {#sources-gs}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez ce que sont les connecteurs source et comment ils apportent des données de votre CRM, du stockage dans le cloud et des bases de données dans Adobe Journey Optimizer, afin que vous puissiez alimenter des parcours clients personnalisés et axés sur les données.
+
+>[!ENDSHADEBOX]
 
 ## Qu’est-ce qu’une source ? {#what-is-source}
 

@@ -25,14 +25,20 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0047bf4386b33c99fded37750e24ed9fbf4188f6
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 1569
-ht-degree: 33%
+source-wordcount: 1595
+ht-degree: 32%
 
 ---
 
 # Terminologie clé {#key-terminology}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** recherchez les termes et concepts Adobe Journey Optimizer essentiels pour naviguer sur la plateforme en toute confiance et collaborer efficacement avec votre équipe.
+
+>[!ENDSHADEBOX]
 
 Ce guide de référence définit les termes essentiels que vous rencontrerez lorsque vous utiliserez Adobe Journey Optimizer. La compréhension de ces concepts vous permet de naviguer sur la plateforme en toute confiance et de collaborer efficacement avec votre équipe.
 

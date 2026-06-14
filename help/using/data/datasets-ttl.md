@@ -26,14 +26,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 1126
-ht-degree: 93%
+source-wordcount: 1162
+ht-degree: 90%
 
 ---
 
 # Mécanismes de sécurisation de la durée de vie (TTL) des jeux de données {#ttl-guardrail}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez les limites de durée de conservation des jeux de données générés par le système Journey Optimizer afin de pouvoir planifier la durée de disponibilité des données de suivi, de commentaires et de parcours, ainsi que de conserver les données critiques avant leur expiration.
+
+>[!ENDSHADEBOX]
 
 À compter de février 2025, un mécanisme de sécurisation de la durée de vie (TTL) sera déployé dans les jeux de données générés par le système Journey Optimizer dans **les nouveaux sandbox et les nouvelles organisations** comme suit :
 

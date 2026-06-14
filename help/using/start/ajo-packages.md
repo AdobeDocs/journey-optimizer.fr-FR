@@ -9,15 +9,21 @@ role: Admin, User
 level: Beginner
 keywords: parcours optimizer, package, licence, select, prime, ultimate, fonctionnalités, fonctionnalités, modulaire, canaux
 hide: true
-source-git-commit: 5e9ffb790127aae281dd15ad0eac03dbe0bb05e2
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '1007'
 ht-degree: 6%
 
 ---
 
 
 # Que trouve-t-on dans mon [!DNL Adobe Journey Optimizer] ? {#ajo-packages}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez les fonctionnalités Adobe Journey Optimizer déverrouillées par votre package, que vous utilisiez le modèle Campagnes et Parcours actuel ou les anciennes licences Select, Prime et Ultimate, afin de confirmer les fonctionnalités disponibles et d’accéder à chaque fonctionnalité.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] fonctionnalités varient en fonction de votre contrat de licence, des canaux activés et des autorisations utilisateur. Utilisez ce guide pour comprendre les fonctionnalités généralement disponibles dans votre package et accédez directement à la documentation du produit pour chaque fonctionnalité.
 

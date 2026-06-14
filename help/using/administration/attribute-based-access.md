@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 1074
-ht-degree: 100%
+source-wordcount: 1112
+ht-degree: 96%
 
 ---
 
 # Contrôle d’accès basé sur les attributs {#attribute-based-access}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** utilisez le contrôle d’accès basé sur les attributs dans Adobe Journey Optimizer pour limiter les champs de schéma sensibles, les attributs de profil et les audiences aux rôles autorisés, afin que vous puissiez protéger les données personnelles et empêcher des utilisateurs non autorisés d’agir dessus.
+
+>[!ENDSHADEBOX]
 
 La fonctionnalité de contrôle d’accès basé sur les attributs permet de définir des autorisations pour gérer l’accès aux données pour des équipes ou groupes d’utilisateurs et d’utilisatrices spécifiques. Elle a pour objectif de protéger les ressources numériques sensibles des utilisateurs et utilisatrices non autorisés, renforçant ainsi la protection des données personnelles.
 
@@ -54,7 +60,7 @@ Remarque : les **[!UICONTROL Rôles]**, les **[!UICONTROL Politiques]** et les 
 
 >[!IMPORTANT]
 >
->>Avant de gérer les autorisations pour un rôle, créez une politique. Pour plus d’informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=fr){target="_blank"}.
+>&#x200B;>Avant de gérer les autorisations pour un rôle, créez une politique. Pour plus d’informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=fr){target="_blank"}.
 
 Les **[!UICONTROL rôles]** représentent un ensemble d’utilisateurs ou d’utilisatrices partageant les mêmes autorisations, libellés et sandbox au sein de votre organisation. Chaque utilisateur ou utilisatrice appartenant à un **[!UICONTROL rôle]** bénéficie des applications et services Adobe associés au produit concerné. Vous pouvez également créer vos propres **[!UICONTROL rôles]** afin d’affiner l’accès des utilisateurs ou utilisatrices à certaines fonctionnalités ou à certains objets dans l’interface.
 

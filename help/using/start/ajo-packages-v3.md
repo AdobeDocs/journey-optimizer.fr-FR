@@ -9,15 +9,21 @@ role: Admin, User
 level: Beginner
 keywords: parcours optimizer, package, licence, campagnes, parcours, canaux, prise de décision, sortant, mobile, web, modulaire
 hide: true
-source-git-commit: a3301bfc25f76ba0f74622fd1f169585c2d96ebd
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1082'
 ht-degree: 4%
 
 ---
 
 
 # Packages et fonctionnalités Adobe Journey Optimizer {#ajo-packages}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez pas à pas le packaging modulaire de Adobe Journey Optimizer, le choix d’une offre de base, l’ajout de canaux et l’ajout de fonctionnalités avancées, afin de faire correspondre la configuration appropriée à la manière dont vous interagissez avec les clients.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] utilise un modèle d’emballage modulaire. Commencez par l’offre de base qui correspond à votre cas d’utilisation principal d’orchestration, puis ajoutez le canal et les fonctionnalités avancées dont vous avez besoin.
 
@@ -188,7 +194,7 @@ Le module complémentaire **Decisioning** vous permet de définir, de gérer et 
 
 | Fonctionnalité | Disponibilité | En savoir plus |
 |-----------|-------------|-----------|
-| E-mail | Disponible avec le module complémentaire de canal sous licence | [Prise en main des e-mails](../email/get-started-email.md) |
+| Email | Disponible avec le module complémentaire de canal sous licence | [Prise en main des e-mails](../email/get-started-email.md) |
 | Canal Courrier | Disponible avec le module complémentaire de canal sous licence | [Prise en main du courrier](../direct-mail/get-started-direct-mail.md) |
 | Notifications push | Disponible avec le module complémentaire de canal sous licence | [Prise en main des notifications push](../push/get-started-push.md) |
 | SMS/MMS | Disponible en fonction de la configuration sous licence | [Prise en main de la messagerie mobile](../mobile/get-started-mobile.md) |

@@ -23,15 +23,20 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 1516
-ht-degree: 96%
+source-wordcount: 1545
+ht-degree: 94%
 
 ---
 
 # Niveaux d’autorisation {#high-low-permissions}
 
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** comprenez comment les autorisations de haut niveau regroupent les autorisations de bas niveau sous-jacentes pour chaque ressource, afin que vous puissiez accorder aux rôles l’accès à la fonctionnalité dont vos utilisateurs ont besoin.
+
+>[!ENDSHADEBOX]
 
 Chaque rôle comprend des autorisations permettant aux utilisateurs et aux utilisatrices d’accéder aux différentes fonctionnalités.
 

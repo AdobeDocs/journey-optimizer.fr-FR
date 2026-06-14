@@ -9,15 +9,21 @@ role: Admin, User
 level: Beginner
 keywords: parcours optimizer, package, licence, campagnes, parcours, canaux, prise de décision, sortant, mobile, web, modulaire
 hide: true
-source-git-commit: d0e43b37ab759fde2794e2bf981e233875ba620a
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '974'
 ht-degree: 3%
 
 ---
 
 
 # Packages et fonctionnalités Adobe Journey Optimizer {#ajo-packages-v2}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez le fonctionnement du package Adobe Journey Optimizer modulaire sur les offres de base, les modules complémentaires de canal et le module complémentaire Decisioning, afin que vous puissiez choisir la combinaison qui correspond à vos cas d’utilisation d’engagement et à votre budget.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] utilise un modèle d’emballage modulaire. Commencez par l’offre de base qui correspond à votre cas d’utilisation principal, puis ajoutez les canaux et les fonctionnalités avancées dont vous avez besoin.
 
@@ -119,7 +125,7 @@ Le module complémentaire **Decisioning** vous permet de définir, de gérer et 
 | Campagnes orchestrées _(e-mail, SMS, notification push, publipostage direct uniquement)_ | ✓ | — | ✓ | — |
 | Parcours automatisés | — | ✓ | ✓ | — |
 | Déclencheurs d’événement en temps réel | — | ✓ | ✓ | — |
-| E-mail | ✓ | ✓ | ✓ | Diffusion sortante |
+| Email | ✓ | ✓ | ✓ | Diffusion sortante |
 | Notifications push | ✓ | ✓ | ✓ | Diffusion sortante |
 | Canal Courrier | ✓ | ✓ | ✓ | Diffusion sortante |
 | SMS/MMS | ✓ | ✓ | ✓ | Diffusion sortante |

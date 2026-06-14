@@ -28,14 +28,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 2612
-ht-degree: 100%
+source-wordcount: 2652
+ht-degree: 98%
 
 ---
 
 # Commencer avec la gestion des données {#about-data}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** obtenez un aperçu pratique du flux de données vers et depuis Adobe Journey Optimizer, couvrant les schémas, les jeux de données, les identités, les profils et les sources de données, afin que votre équipe puisse terminer les étapes de préparation des données avant de créer des parcours et des campagnes.
+
+>[!ENDSHADEBOX]
 
 Les données sont la base de chaque parcours, décision et message que vous diffusez avec [!DNL Adobe Journey Optimizer].
 
@@ -224,7 +230,7 @@ L’exemple suivant montre le fonctionnement conjoint des concepts de cette page
 
 1. Un ou une spécialiste de l’ingénierie de données crée un [schéma de profil individuel XDM](get-started-schemas.md) pour les attributs clientèle (nom, e-mail, niveau de fidélité, consentement) et un schéma XDM ExperienceEvent pour les événements d’inscription web.
 1. Des [jeux de données activés pour le profil](get-started-datasets.md) sont créés pour chaque schéma : un pour les attributs CRM et un pour les événements d’inscription.
-1. Les équipes web et mobiles diffusent les événements d’inscription via le SDK Web Adobe Experience Platform. Les données de CRM sont ingérées via un [ connecteur source](../start/get-started-sources.md).
+1. Les équipes web et mobiles diffusent les événements d’inscription via le SDK Web Adobe Experience Platform. Les données de CRM sont ingérées via un [&#x200B; connecteur source](../start/get-started-sources.md).
 1. Un administrateur ou une administratrice configure la [source de données Adobe Experience Platform](../datasource/adobe-experience-platform-data-source.md) dans Journey Optimizer et expose les champs tels que `profile.person.name.firstName`, `profile.personalEmail.address` et `profile.loyaltyTier`.
 1. Un ou une spécialiste marketing [crée un parcours de bienvenue](../building-journeys/journey-gs.md) qui écoute un événement d’inscription et utilise ces attributs de profil pour [personnaliser l’e-mail de bienvenue](../personalization/personalize.md). Journey Optimizer écrit des événements d’envoi et d’ouverture dans les jeux de données de tracking et consigne la progression du parcours dans les jeux de données d’événement d’étape de parcours.
 1. Un développeur ou une développeuse utilise le [requêteur](get-started-queries.md) pour vérifier que les événements se suivent correctement et analyse les performances (ouvertures, clics, délai d’envoi). L’équipe ajuste le parcours et le contenu en fonction de ces informations.

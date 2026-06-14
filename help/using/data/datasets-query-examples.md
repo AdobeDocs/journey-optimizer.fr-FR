@@ -27,14 +27,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 1118
-ht-degree: 91%
+source-wordcount: 1152
+ht-degree: 89%
 
 ---
 
 # Exemples de requêtes {#query-examples}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** explorez des exemples de requête SQL prêts à l’emploi pour les jeux de données du système Journey Optimizer afin d’analyser le suivi des e-mails et des notifications push, les commentaires des messages, l’étape de parcours et les données de prise de décision pour la création de rapports et la résolution des problèmes.
+
+>[!ENDSHADEBOX]
 
 Dans cette page, vous trouverez la liste des jeux de données Adobe Journey Optimizer et des cas d’utilisation associés :
 

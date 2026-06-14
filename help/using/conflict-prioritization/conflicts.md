@@ -18,14 +18,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 757
-ht-degree: 100%
+source-wordcount: 781
+ht-degree: 96%
 
 ---
 
 # Détecter les conflits potentiels dans les parcours et les campagnes {#conflict}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** repérez les parcours et les campagnes qui se chevauchent avant qu’ils ne soient mis en ligne afin d’éviter de bombarder les clients avec trop de communications à la fois.
+
+>[!ENDSHADEBOX]
 
 À mesure que les spécialistes marketing augmentent le volume des campagnes et des parcours dans Journey Optimizer, il devient de plus en plus difficile pour ceux-ci de savoir si leurs clientes et clients sont submergés par un trop grand nombre d’interactions marketing. Il est donc essentiel d’identifier facilement lorsque des campagnes et des parcours se chevauchent pour s’assurer d’un bon équilibre dans les communications marketing tout en atténuant le risque de lassitude des clientes et des clients.
 

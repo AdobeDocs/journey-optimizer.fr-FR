@@ -28,14 +28,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 618
-ht-degree: 96%
+source-wordcount: 647
+ht-degree: 92%
 
 ---
 
 # Concevoir le contenu d’un message{#section-overview}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** explorez les outils et les bonnes pratiques pour concevoir des contenus d’e-mail, de notification push, de SMS et in-app personnalisés afin de diffuser des messages sur la marque qui stimulent l’engagement.
+
+>[!ENDSHADEBOX]
 
 La conception du contenu des messages dans Adobe Journey Optimizer vous permet de créer des communications attrayantes et personnalisées sur tous les canaux. Que vous créiez des e-mails avec des dispositions visuelles riches, des notifications push optimisées pour les appareils mobiles, des expériences in-app interactives ou des SMS, cette section fournit des conseils complets sur les bonnes pratiques de création de contenu. Découvrez comment utiliser les modèles et les fragments pour obtenir du contenu réutilisable, appliquer une personnalisation et du contenu dynamique afin d’adapter les messages à chaque destinataire et garantir la conformité en matière d’accessibilité. De la compréhension des principes de conception à l’implémentation d’options de formatage avancées, vous maîtriserez les outils nécessaires pour offrir des expériences attrayantes conformes à la marque, qui stimulent l’engagement et les conversions.
 

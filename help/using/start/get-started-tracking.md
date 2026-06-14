@@ -34,14 +34,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 1964
-ht-degree: 95%
+source-wordcount: 1995
+ht-degree: 93%
 
 ---
 
 # Commencer avec le suivi dans Journey Optimizer {#get-started-tracking}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment effectuer le suivi des interactions client sur l’ensemble des canaux et surveiller la délivrabilité et l’intégrité du système dans Journey Optimizer, afin que vous puissiez mesurer l’efficacité des campagnes et prendre des décisions basées sur les données.
+
+>[!ENDSHADEBOX]
 
 Le suivi vous permet de mesurer l’efficacité de la campagne, d’optimiser les expériences client et de vous assurer que les messages atteignent leurs destinataires. Journey Optimizer offre un suivi complet des interactions client, des performances des diffusions et de l’intégrité du système, ce qui vous permet de prendre des décisions tout en respectant la confidentialité et la conformité.
 

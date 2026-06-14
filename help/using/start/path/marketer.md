@@ -27,14 +27,20 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 1721
-ht-degree: 100%
+source-wordcount: 1751
+ht-degree: 98%
 
 ---
 
 # Prise en main pour les responsables marketing {#get-started-marketers}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** suivez un chemin de prise en main pour les professionnels du marketing afin de créer des audiences, de concevoir du contenu et d’orchestrer des parcours et des campagnes qui offrent des expériences client personnalisées dans Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 En tant que **responsable marketing** ou qu’**utilisateur ou utilisatrice professionnel**, vous concevez des parcours client pour offrir à votre clientèle des expériences personnelles et contextuelles. Vous créez et gérez tous les différents composants de ces parcours personnalisés, notamment les e-mails et les messages push, les offres et les composants de décision, afin de personnaliser intelligemment le contenu des messages. Journey Optimizer offre une expérience client unifiée où vous pouvez mettre en œuvre des cas d’utilisation de bout en bout de manière centralisée. Vous pouvez commencer à utiliser [!DNL Adobe Journey Optimizer] une fois que l’[administrateur ou l’administratrice système](administrator.md) et l’[ingénieur ou l’ingénieure de données](data-engineer.md) vous ont accordé l’accès et ont préparé votre environnement.
 
@@ -91,7 +97,7 @@ Pour commencer à créer des expériences, suivez les étapes essentielles suiva
 
    ![](../assets/journey-design.png)
 
-   Découvrez comment [concevoir et exécuter des parcours](../../building-journeys/journey-gs.md) et explorez des [cas d’utilisation de parcours](../../building-journeys/jo-use-cases.md). Découvrez les [critères d’entrée/de sortie ](../../building-journeys/entry-exit-criteria-guide.md) pour contrôler les flux des profils.
+   Découvrez comment [concevoir et exécuter des parcours](../../building-journeys/journey-gs.md) et explorez des [cas d’utilisation de parcours](../../building-journeys/jo-use-cases.md). Découvrez les [critères d’entrée/de sortie &#x200B;](../../building-journeys/entry-exit-criteria-guide.md) pour contrôler les flux des profils.
 
 1. **Lancer des campagnes orchestrées** Concevez des campagnes par lots complexes et en plusieurs étapes à grande échelle à l’aide d’une zone de travail visuelle :
 
