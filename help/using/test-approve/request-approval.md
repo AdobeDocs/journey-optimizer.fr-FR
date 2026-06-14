@@ -15,14 +15,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ad8f6662e1f2358071ae923d88630d5f34d9ccf3
 workflow-type: tm+mt
-source-wordcount: 431
-ht-degree: 77%
+source-wordcount: 476
+ht-degree: 70%
 
 ---
 
 # Demander l’approbation {#request-approval}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** faites basculer votre parcours ou campagne vers une mise en ligne en toute confiance en l’envoyant aux validants appropriés et gardez le contrôle pendant la révision. Annulez, modifiez et soumettez à nouveau, si nécessaire, pour que seul le contenu approuvé et en marque atteigne vos clients.
+
+>[!ENDSHADEBOX]
 
 L’accès au workflow d’approbation est déterminé par votre cas pratique spécifique :
 

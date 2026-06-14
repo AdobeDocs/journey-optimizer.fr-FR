@@ -16,14 +16,20 @@ level_v2:
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
 workflow-type: tm+mt
-source-wordcount: 1006
-ht-degree: 96%
+source-wordcount: 1037
+ht-degree: 93%
 
 ---
 
 # Commencer avec l’approbation des parcours et des campagnes {#send-proofs}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** un processus d’approbation incorporé verrouille les parcours et les campagnes lors de la révision afin que les bonnes parties prenantes les approuvent avant que tout ne soit mis en ligne, chaque demande étant gérée et suivie de manière centralisée.
+
+>[!ENDSHADEBOX]
 
 ## Commencer avec les politiques d’approbation {#gs}
 

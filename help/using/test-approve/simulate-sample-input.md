@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
 workflow-type: tm+mt
-source-wordcount: 1362
-ht-degree: 36%
+source-wordcount: 1399
+ht-degree: 37%
 
 ---
 
 # Simuler des variations de contenu {#custom-profiles}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Confirmez que votre contenu personnalisé s’affiche correctement pour chaque type de destinataire en testant les variantes générées avec l’IA, saisies manuellement, importées depuis un fichier ou basées sur des utilisateurs simulés, puis en les prévisualisant et en envoyant des BAT.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"

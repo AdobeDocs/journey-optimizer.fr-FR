@@ -18,14 +18,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
 workflow-type: tm+mt
-source-wordcount: 731
-ht-degree: 96%
+source-wordcount: 760
+ht-degree: 93%
 
 ---
 
 # Créer et gérer des politiques d’approbation {#approval-policies}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** les politiques de validation déterminent les parcours et campagnes qui nécessitent une validation avant leur activation, ce qui permet aux administrateurs et administratrices de définir les conditions, les critères de ciblage et les réviseurs et réviseuses qui régissent chaque demande.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_approval_policy_request_approval"

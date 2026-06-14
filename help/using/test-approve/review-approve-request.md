@@ -17,14 +17,20 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
 workflow-type: tm+mt
-source-wordcount: 345
-ht-degree: 58%
+source-wordcount: 376
+ht-degree: 53%
 
 ---
 
 # Examiner et approuver une demande {#approve-requests}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** en tant qu’approbateur désigné, passez en revue un parcours ou une campagne envoyé(e) et approuvez-le et publiez-le ou renvoyez les demandes de modification au créateur ou à la créatrice avant qu’il ne soit mis en ligne.
+
+>[!ENDSHADEBOX]
 
 Un élément (parcours ou campagne) auquel une politique d’approbation est appliquée doit être soumis pour approbation afin d’être publié. Pour ce faire, le créateur du parcours/de la campagne envoie une demande aux approbateurs définis dans la politique de validation et le parcours/la campagne obtient le statut **[!UICONTROL En révision]**.
 
