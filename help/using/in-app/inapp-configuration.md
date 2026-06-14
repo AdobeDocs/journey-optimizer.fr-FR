@@ -27,14 +27,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 1113
-ht-degree: 97%
+source-wordcount: 1117
+ht-degree: 93%
 
 ---
 
 # Conditions préalables et configuration {#inapp-configuration}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment configurer les conditions préalables à la diffusion et créer une configuration de canal in-app pour envoyer des messages in-app avec Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 ## Étapes de configuration {#inapp-steps}
 
@@ -107,7 +113,7 @@ Pour créer une configuration in-app dans Journey Optimizer, procédez comme su
 
    >[!NOTE]
    >
-   >Pour les plateformes iOS et Android, la diffusion se base uniquement sur l’ID d’application. Si les deux applications possèdent le même ID d’application, le contenu sera diffusé sur les deux, quelle que soit la plateforme sélectionnée dans la **[!UICONTROL configuration des canaux]**.
+   >Pour les plateformes iOS et Android, la diffusion se base uniquement sur l&#39;identifiant de l&#39;application. Si les deux applications partagent le même ID d’application, le contenu sera diffusé aux deux, quelle que soit la plateforme sélectionnée dans la **[!UICONTROL configuration du canal]**.
    >Pour restreindre la diffusion des messages in-app à une plateforme spécifique, vous devez implémenter des règles spécifiques à l’appareil dans la logique de votre parcours ou de votre campagne.
 
    ![](assets/inapp_config_10.png)

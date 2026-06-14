@@ -22,14 +22,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 675606750af67b398f18646dddf901778625fb30
+source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 2405
-ht-degree: 87%
+source-wordcount: 2435
+ht-degree: 86%
 
 ---
 
 # Créer un message in-app {#create-in-app}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment créer un message in-app dans Adobe Journey Optimizer et l’ajouter à un parcours ou à une campagne, y compris comment configurer des déclencheurs et la fréquence d’affichage.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_triggers"
