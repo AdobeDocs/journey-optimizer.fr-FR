@@ -9,12 +9,23 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 TQID: https://experienceleague.adobe.com/Ev0xJ86fpweQxgf-VjGUEl4ebk6BdzhVof2BgiMR9EM
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c13ff12d-60f1-49cd-833a-d43359628223id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2:
+  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c13ff12d-60f1-49cd-833a-d43359628223
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
 source-wordcount: 1040
@@ -42,7 +53,7 @@ Utilisez [!DNL Journey Optimizer] pour envoyer des messages mobiles à vos clien
 
 Les messages mobiles peuvent être créés et envoyés dans un parcours ou dans une campagne à l’aide de l’action Message mobile :
 
-* Dans un Parcours **** : ajoutez une action Message mobile à votre parcours, définissez les paramètres de base, puis composez votre contenu dans le volet Actions de message mobile à droite. [Découvrez comment créer un parcours.](../building-journeys/journey-gs.md)
+* Dans un Parcours **&#x200B;**&#x200B;: ajoutez une action Message mobile à votre parcours, définissez les paramètres de base, puis composez votre contenu dans le volet Actions de message mobile à droite. [Découvrez comment créer un parcours.](../building-journeys/journey-gs.md)
 
 * Dans une **campagne**:Create une campagne, sélectionnez Message mobile comme action, définissez les paramètres de base, puis modifiez le contenu du message. Découvrez comment créer une [campagne d’action](../campaigns/campaign-action.md#action-campaign-action), une [campagne déclenchée par API](../campaigns/api-triggered-campaigns.md) ou une [campagne orchestrée](../orchestrated/create-orchestrated-campaign.md#create).
 
@@ -147,7 +158,7 @@ Découvrez comment incorporer des SMS dans vos parcours et campagnes client :
 
 **La messagerie RCS native est-elle disponible avec Twilio ou Infobip ?**
 
-Non. Le concepteur RCS natif de Journey Optimizer n’est pas disponible lors de l’utilisation de fournisseurs SMS tiers tels que Twilio ou Infobip. Les messages RCS peuvent toutefois être envoyés via une [ intégration de fournisseur personnalisé ](mobile-configuration-custom.md).
+Non. Le concepteur RCS natif de Journey Optimizer n’est pas disponible lors de l’utilisation de fournisseurs SMS tiers tels que Twilio ou Infobip. Les messages RCS peuvent toutefois être envoyés via une [&#x200B; intégration de fournisseur personnalisé &#x200B;](mobile-configuration-custom.md).
 
 **Pourquoi acheter des SMS avec RCS ?**
 
