@@ -140,4 +140,4 @@ Pour en savoir plus, consultez la documentation Adobe Experience Platform :
 * [Présentation du tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=fr){target="_blank"}
 * [Exploration du tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=fr#exploring-the-license-usage-dashboard){target="_blank"}
 * [Mesures disponibles](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=fr#available-metrics){target="_blank"}
-* [Expiration des données de profils pseudonymes](https://experienceleague.adobe.com/docs/experience-platform/profile/pseudonymous-profiles.html){target="_blank"}
+* [Expiration des données de profils pseudonymes](https://experienceleague.adobe.com/docs/experience-platform/profile/pseudonymous-profiles.html?lang=fr){target="_blank"}
