@@ -10,7 +10,8 @@ level: Beginner
 keywords: e-mail, modèle, image, HTML, IA, conception, convertisseur
 exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
 feature_v2: []
-subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7
+subfeature_v2:
+  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
 source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
 source-wordcount: 2126
@@ -169,7 +170,7 @@ Pour convertir une conception d’image en modèle de contenu d’e-mail entièr
 1. Utilisez la section **[!UICONTROL Image vers commentaires du convertisseur de modèles]** pour partager vos idées et suggestions avec Adobe afin de nous aider à améliorer la fonctionnalité.
    ![Section Commentaires dans Journey Optimizer avec une zone de texte pour partager vos pensées et suggestions](../email/assets/email_designer_converter_feedback.png){width=70%}
 
-1. Cliquez sur **[!UICONTROL Modifier le corps de l’e-mail]**. Le modèle converti s’ouvre dans le Designer d’e-mail](../email/get-started-email-design.md) avec des fonctionnalités de modification complètes. [Vous pouvez maintenant :
+1. Cliquez sur **[!UICONTROL Modifier le corps de l’e-mail]**. Le modèle converti s’ouvre dans le Designer d’e-mail[&#128279;](../email/get-started-email-design.md) avec des fonctionnalités de modification complètes. Vous pouvez maintenant :
 
    * Vérifier, modifier le contenu textuel et appliquer une personnalisation
    * modifier des images et ajouter des liens ;
@@ -177,7 +178,7 @@ Pour convertir une conception d’image en modèle de contenu d’e-mail entièr
    * ajouter, supprimer ou réorganiser des composants de contenu.
    * tirer profit de toutes les fonctionnalités du concepteur d’e-mail comme pour tout autre modèle.
 
-   Designer d’e-mail dans Journey Optimizer affichant le modèle converti en tant que composants de contenu modulaires à modifier](../email/assets/email_designer_html_components.png)![
+   Designer d’e-mail dans Journey Optimizer affichant le modèle converti en tant que composants de contenu modulaires à modifier![&#128279;](../email/assets/email_designer_html_components.png)
 
    Effectuez les ajustements nécessaires pour affiner le modèle et respecter les directives de votre marque.
 
@@ -223,7 +224,7 @@ Pour obtenir des résultats optimaux lors de la conversion d’images en modèle
 * **Tester minutieusement** : tester l’e-mail sur différents clients de messagerie et appareils. [Découvrez comment prévisualiser et tester du contenu](preview-test.md).
 * **Affiner manuellement** : effectuez les ajustements nécessaires en utilisant les fonctionnalités d’édition complètes du [Designer d’e-mail](../email/get-started-email-design.md).
 * **Alignement des marques** : vérifiez que les couleurs, les polices et le style correspondent à vos directives de marque, en utilisant les thèmes, le cas échéant. [En savoir plus sur les thèmes des emails](../email/apply-email-themes.md).
-* **** : ajoutez du contenu dynamique et des jetons de personnalisation selon les besoins. [En savoir plus sur la personnalisation](../personalization/personalize.md).
+* **&#x200B;**&#x200B;: ajoutez du contenu dynamique et des jetons de personnalisation selon les besoins. [En savoir plus sur la personnalisation](../personalization/personalize.md).
 * **Accessibilité** : passez en revue et améliorez les fonctionnalités d’accessibilité si nécessaire. [En savoir plus sur le contenu d’e-mail accessible](../email/accessible-content.md).
 
 +++

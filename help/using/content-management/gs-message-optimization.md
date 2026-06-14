@@ -10,12 +10,26 @@ level: Beginner
 keywords: optimisation, ciblage, expérimentation, tests A/B, campagnes, parcours, personnalisation
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
 TQID: https://experienceleague.adobe.com/zJTy0y-AhGMaFPzA379m4D9RxyzUfzCLZkr1B1ffuZM
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2: id: ea4139d9-3405-4b34-ad6e-c3ca120cc269id: fb9a80eb-bebc-492f-a0e9-584595621ebbid: f29a52db-c90c-4345-902e-b586d1406d8did: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: ea4139d9-3405-4b34-ad6e-c3ca120cc269
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+  - id: f29a52db-c90c-4345-902e-b586d1406d8d
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
 source-wordcount: 770
@@ -38,7 +52,7 @@ ht-degree: 15%
 
 L’optimisation du contenu vous fournit les outils nécessaires pour transmettre le message approprié à la bonne audience au bon moment. En associant des informations basées sur les données à de puissantes fonctionnalités de personnalisation, vous pouvez optimiser l’engagement et les conversions dans vos campagnes et parcours.
 
-L’optimisation du contenu est disponible dans les deux parcours [campagnes](../campaigns/create-campaign.md) et [](../building-journeys/journey-gs.md), ce qui vous permet d’appliquer les mêmes stratégies d’optimisation à tous les points de contact de vos clients.
+L’optimisation du contenu est disponible dans les deux parcours [campagnes](../campaigns/create-campaign.md) et [&#128279;](../building-journeys/journey-gs.md), ce qui vous permet d’appliquer les mêmes stratégies d’optimisation à tous les points de contact de vos clients.
 
 ➡️ [Découvrez comment exploiter l’optimisation du contenu dans une campagne dans cette vidéo](#video)
 
@@ -96,7 +110,7 @@ Combinaison :
 
 Pour commencer à optimiser votre contenu :
 
-1. **Création d’une campagne ou d’un parcours** : configurez votre [campagne](../campaigns/create-campaign.md) ou [parcours ](../building-journeys/journey-gs.md) et ajoutez au moins une action.
+1. **Création d’une campagne ou d’un parcours** : configurez votre [campagne](../campaigns/create-campaign.md) ou [parcours &#x200B;](../building-journeys/journey-gs.md) et ajoutez au moins une action.
 
 1. **Choisissez votre approche d’optimisation** :
    * [Utilisez le ciblage](optimization-targeting.md) pour personnaliser le contenu pour des segments spécifiques.
