@@ -9,30 +9,26 @@ role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 TQID: https://experienceleague.adobe.com/vQ5RWPuVasXeyWXqU0OZzARI0rAtj-a1wVZ5z2mDY6o
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7did: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 1066
-ht-degree: 96%
+source-wordcount: 1092
+ht-degree: 91%
 
 ---
 
 # Commencer avec la composition d’audiences {#get-start-audience-composition}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment utiliser la composition de l’audience pour combiner les audiences Adobe Experience Platform existantes dans une zone de travail visuelle et appliquer des activités telles que le partage, l’exclusion, l’enrichissement et le classement afin de créer de nouvelles audiences.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
@@ -124,7 +120,7 @@ Cette documentation fournit des informations détaillées sur l’utilisation de
 
 La composition de l’audience vous permet de créer des **workflows de composition**, où vous pouvez regrouper des audiences Adobe Experience Platform existantes en une zone de travail visuelle et exploiter diverses activités (telles que le partage, l’exclusion...) pour créer de nouvelles audiences.
 
-Une fois cette opération terminée, les **audiences obtenues** sont enregistrées dans Adobe Experience Platform avec les audiences existantes et peuvent être utilisées dans des campagnes et parcours Journey Optimizer pour cibler des clientes et des clients. Découvrez comment cibler des audiences dans Journey Optimizer
+Une fois cette opération terminée, les **audiences obtenues** sont réenregistrées dans Adobe Experience Platform avec les audiences existantes et peuvent être utilisées dans les campagnes et parcours Journey Optimizer pour cibler les clients. Découvrez comment cibler des audiences dans Journey Optimizer
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]

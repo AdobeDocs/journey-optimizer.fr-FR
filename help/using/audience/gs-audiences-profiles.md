@@ -7,22 +7,23 @@ feature: Audiences, Profiles
 topic: Content Management
 role: User
 level: Beginner
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7did: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 161
-ht-degree: 31%
+source-wordcount: 187
+ht-degree: 26%
 
 ---
 
 
 # Commencer avec les profils et les audiences {#gs-profiles-audiences}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment utiliser les profils client en temps réel et les audiences dans Adobe Journey Optimizer pour offrir des expériences client personnalisées.
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer permet aux marques de créer et de gérer des profils client en temps réel et des audiences pour offrir des expériences client personnalisées. &#x200B; Cette présentation donne une compréhension générale de l’utilisation des profils et des audiences dans Journey Optimizer. Pour plus d’informations, reportez-vous aux sections spécifiques sur les profils et les audiences.
 

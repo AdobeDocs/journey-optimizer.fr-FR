@@ -8,20 +8,22 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 90328ba9-e6b0-4105-abcf-3e3a9ed41aa6
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 237
-ht-degree: 59%
+source-wordcount: 267
+ht-degree: 52%
 
 ---
 
 # Composition d’audiences fédérées {#fac}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment utiliser la composition d’audiences fédérées dans Adobe Journey Optimizer pour interroger votre entrepôt de données d’entreprise et enrichir les audiences Adobe Experience Platform sans dupliquer les données sensibles.
+
+>[!ENDSHADEBOX]
 
 Bien que vous puissiez utiliser les fonctionnalités de composition d’audiences pour créer des audiences précieuses et hautement affinées pour le ciblage, vous pouvez enrichir davantage les audiences pour une personnalisation plus approfondie à l’aide des données de votre entrepôt de données d’entreprise et de partenaires de confiance.
 
@@ -38,4 +40,4 @@ Pour plus d’informations, veuillez lire le guide sur la [composition d’audie
 
 Découvrez la composition d’audiences fédérées dans cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/3450882?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3432261?quality=12)
