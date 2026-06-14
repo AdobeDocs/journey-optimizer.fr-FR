@@ -6,20 +6,23 @@ description: Découvrez comment utiliser l’activité Créer une audience dans 
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/9hEr5kAHco1iq8arv-FddaG3vm54CS-cPFUA63soeAg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cd1eb9b21a3201c2a01c1781220570236977a736
 workflow-type: tm+mt
-source-wordcount: 338
-ht-degree: 78%
+source-wordcount: 367
+ht-degree: 72%
 
 ---
 
 # Créer une audience {#build-audience}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez comment utiliser l’activité de ciblage Créer une audience pour définir l’audience qui entre dans une campagne orchestrée, à l’aide d’une audience existante ou du créateur de règles.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience"

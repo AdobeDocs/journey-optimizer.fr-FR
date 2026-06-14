@@ -6,23 +6,24 @@ description: Découvrez comment créer des schémas relationnels directement via
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/vSXJMXYZECaVuB8PkrEB4Y9AXgJBHMq0bGd8Nb-BGh4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 932
-ht-degree: 89%
+source-wordcount: 960
+ht-degree: 86%
 
 ---
 
 # Configurer un schéma relationnel manuel {#manual-schema}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment créer manuellement un schéma relationnel dans l’interface utilisateur, ajouter des attributs, lier des schémas, et créer et activer un jeu de données pour les campagnes orchestrées.
+
+>[!ENDSHADEBOX]
 
 Les schémas relationnels peuvent être créés directement via l’interface utilisateur, ce qui permet une configuration détaillée des attributs, des clés primaires, des champs de contrôle de version et des relations.
 
@@ -38,7 +39,7 @@ L’exemple suivant définit manuellement le schéma **Membres du programme de f
 
 1. [Ingérez des données](ingest-data.md) dans votre jeu de données à partir de sources prises en charge.
 
-➡️ [Pour en savoir plus sur les schémas relationnels, consultez la documentation d’Adobe Experience Platform.](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [Pour en savoir plus sur les schémas relationnels, consultez la documentation d’Adobe Experience Platform.](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## Créer votre schéma {#schema}
 

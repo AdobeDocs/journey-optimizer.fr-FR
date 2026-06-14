@@ -6,22 +6,24 @@ description: Découvrez comment créer un schéma relationnel dans Adobe Experie
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/tNL6BkFKuOWMyEnR-FWc38mYrcA15wAdsHzZntCEwVw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 485
-ht-degree: 81%
+source-wordcount: 508
+ht-degree: 77%
 
 ---
 
 # Prise en main des schémas relationnels et des jeux de données{#gs-schemas}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez les concepts et étapes clés de la création de schémas et de jeux de données relationnels, de leur liaison et de l’ingestion de données pour les campagnes orchestrées.
+
+>[!ENDSHADEBOX]
 
 Ce guide explique le processus de création d’un schéma relationnel, de configuration d’un jeu de données pour les campagnes orchestrées et d’ingestion de données.
 
@@ -60,7 +62,7 @@ Il précise :
 
 L’organisation des schémas ou des tables dans un modèle de données relationnel consiste à structurer vos données en plusieurs tables. Assurez-vous que chaque table stocke un type d’entité/des schémas.
 
-➡️ [Pour en savoir plus sur les schémas, consultez la documentation d’Adobe Experience Platform.](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
+➡️ [Pour en savoir plus sur les schémas, consultez la documentation d’Adobe Experience Platform.](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
 
 ## Étapes dʼimplémentation {#implementation}
 

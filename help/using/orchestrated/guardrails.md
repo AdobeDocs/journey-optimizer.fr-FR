@@ -6,25 +6,24 @@ description: En savoir plus sur les mécanismes de sécurisation et les limitati
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ViPJaOPo-AT-naQqq-PaPw-BI5YupYuYAEy56AUEp2A
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 734
+source-wordcount: 756
 ht-degree: 12%
 
 ---
 
 # Mécanismes de sécurisation et limitations {#guardrails}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** passez en revue les mécanismes de sécurisation et les limitations qui s’appliquent au stockage des données, à l’ingestion, à la modélisation des données, aux activités et aux canaux dans les campagnes orchestrées.
+
+>[!ENDSHADEBOX]
 
 Vous trouverez ci-dessous les mécanismes de sécurisation et les limitations lors de l’utilisation de campagnes orchestrées.
 

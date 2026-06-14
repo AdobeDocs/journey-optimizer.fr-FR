@@ -6,19 +6,23 @@ description: Découvrez comment créer des règles pour vos campagnes orchestré
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/-qNlZ2dLqShJwhcIlEe3a9W8eJ-JCoTt8AzT-DU-vJA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 329
-ht-degree: 93%
+source-wordcount: 364
+ht-degree: 84%
 
 ---
 
 # Utiliser le créateur de règles {#orchestrated-rule-builder}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez comment utiliser le créateur de règles pour filtrer les données et créer les requêtes qui ciblent les audiences dans vos campagnes orchestrées.
+
+>[!ENDSHADEBOX]
 
 Les campagnes orchestrées s’accompagnent d’un créateur de règles qui simplifie le processus de filtrage de la base de données en fonction de divers critères. Le créateur de règles gère efficacement des requêtes très complexes et longues, offrant une flexibilité et une précision optimisées.
 
@@ -48,4 +52,4 @@ Le créateur de règles fournit une zone de travail centrale où vous pouvez cr�
 
 ## Utiliser des filtres prédéfinis
 
-Les filtres prédéfinis vous permettent de réutiliser des requêtes enregistrées dans le créateur de règles, y compris des versions avec des paramètres. Pour une présentation complète de l’enregistrement, de l’application et de la gestion des filtres prédéfinis, voir [&#x200B; Utilisation de filtres prédéfinis](predefined-filters.md).
+Les filtres prédéfinis vous permettent de réutiliser des requêtes enregistrées dans le créateur de règles, y compris des versions avec des paramètres. Pour une présentation complète de l’enregistrement, de l’application et de la gestion des filtres prédéfinis, voir [ Utilisation de filtres prédéfinis](predefined-filters.md).

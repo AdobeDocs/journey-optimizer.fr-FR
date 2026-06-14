@@ -10,17 +10,22 @@ level: Intermediate
 version: Campaign Orchestration
 exl-id: 7a4e8f2c-91d3-4b65-8e10-2c9f4a6b8d1e
 feature_v2: 
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 189
+source-wordcount: 222
 ht-degree: 0%
 
 ---
 
 
 # Définition de variables globales dans des campagnes orchestrées {#define-global-variables}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment ajouter et gérer des variables globales sur une campagne orchestrée afin de pouvoir réutiliser des paires nom-valeur partagées dans le créateur de règles, les conditions de test et d’autres logiques de zone de travail.
+
+>[!ENDSHADEBOX]
 
 Les **variables globales** sont des paires nom-valeur que vous définissez sur une seule campagne orchestrée et réutilisez à chaque exécution. Vous pouvez ainsi orienter les conditions **[!UICONTROL Test]**, le créateur de règles et d’autres logiques de zone de travail avec des valeurs partagées (par exemple, un canal par défaut ou un e-mail de test) sans coller la même valeur dans chaque activité.
 
@@ -38,4 +43,4 @@ Pour ajouter ou modifier une variable globale dans une campagne orchestrée, pro
 
    ![Panneau Variables pour ajouter ou modifier des variables](assets/variables-edit.png){zoomable="yes"}
 
-Pour savoir comment utiliser des variables globales dans des règles et des conditions **[!UICONTROL Test]** une fois qu’elles ont été définies, consultez la section [&#x200B; Utilisation de variables dans des campagnes orchestrées](variables-orchestrated-campaigns.md#use).
+Pour savoir comment utiliser des variables globales dans des règles et des conditions **[!UICONTROL Test]** une fois qu’elles ont été définies, consultez la section [ Utilisation de variables dans des campagnes orchestrées](variables-orchestrated-campaigns.md#use).

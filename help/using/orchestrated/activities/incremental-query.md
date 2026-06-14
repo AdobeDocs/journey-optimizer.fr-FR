@@ -9,17 +9,22 @@ role: User
 level: Intermediate
 version: Campaign Orchestration
 feature_v2: 
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 518
-ht-degree: 23%
+source-wordcount: 547
+ht-degree: 22%
 
 ---
 
 
 # Requête incrémentale {#incremental-query}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez comment utiliser l&#39;activité de ciblage de requête incrémentale pour renvoyer uniquement les nouveaux enregistrements sur chaque exécution de campagne orchestrée, à l&#39;exclusion des profils déjà ciblés dans les exécutions précédentes.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_incrementalquery"

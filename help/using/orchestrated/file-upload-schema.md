@@ -6,22 +6,24 @@ description: Découvrez comment créer un schéma relationnel dans Adobe Experie
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/0ffs03Mz3RCUtHmd66tQxonSm-P7tB5WMmKjVXsAi0g
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 1222
-ht-degree: 86%
+source-wordcount: 1255
+ht-degree: 83%
 
 ---
 
 # Créer des schémas relationnels à l’aide d’un fichier DDL {#file-upload-schema}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment créer des schémas relationnels dans Adobe Experience Platform en chargeant un fichier DDL, en définissant les relations entre les tables et en liant les schémas à des entités existantes en vue de les utiliser dans des campagnes orchestrées.
+
+>[!ENDSHADEBOX]
 
 Définissez le modèle de données relationnelles requis pour les campagnes orchestrées en créant des schémas tels que **Membres du programme de fidélité**, **Transactions de fidélité** et **Récompenses de fidélité**. Chaque schéma doit inclure une clé primaire, un attribut de contrôle de version et des relations appropriées pour référencer des entités telles que les **Destinataires** ou les **Marques**.
 

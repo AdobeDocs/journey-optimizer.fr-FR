@@ -6,20 +6,23 @@ description: Découvrir comment utiliser l’activité Enrichissement
 exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/Q7lT1NR61ALn475i9akX7z80pybh93kbx06Gc8TcCuI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 77cddc86596959e06b20154c1e51c6b84375b39b
 workflow-type: tm+mt
-source-wordcount: 844
-ht-degree: 64%
+source-wordcount: 877
+ht-degree: 62%
 
 ---
 
 # Enrichissement {#enrichment}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez comment utiliser l’activité de ciblage Enrichissement dans une campagne orchestrée pour améliorer votre audience avec des attributs supplémentaires, des données de table liée et des offres pour un ciblage et une personnalisation plus précis.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment"
