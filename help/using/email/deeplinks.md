@@ -10,9 +10,9 @@ level: Intermediate
 keywords: lien profond, lien profond, liens universels, liens d’application, e-mail, sms
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1327
+source-wordcount: 1367
 ht-degree: 1%
 
 ---
@@ -20,11 +20,17 @@ ht-degree: 1%
 
 # Utiliser et configurer des liens profonds dans les e-mails et les SMS {#deeplinks}
 
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment créer des liens profonds dans du contenu d’e-mail et de SMS, les configurer dans Adobe Journey Optimizer et gérer les liens suivis dans vos applications iOS et Android afin que les destinataires arrivent sur l’écran in-app droit.
+
+>[!ENDSHADEBOX]
+
 Les liens profonds vous permettent d’orienter les destinataires d’un e-mail ou d’un SMS vers un écran ou un contenu spécifique dans votre application mobile. Cela permet d’amener les personnes directement à l’expérience in-app prévue, sans les acheminer via un navigateur web ou une boutique d’applications, de sorte que le parcours reste pertinent et intégré à la marque.
 
 Lorsque vos destinataires cliquent sur le lien profond, ils sont redirigés directement vers le contenu in-app prévu, **à condition que vous ayez terminé** :
 
-* les [&#x200B; étapes de configuration &#x200B;](#configuration) dans Journey Optimizer ;
+* les [ étapes de configuration ](#configuration) dans Journey Optimizer ;
 
 * les étapes [mise en œuvre de l’application mobile](#mobile-implementation) pour iOS et Android dans votre application mobile.
 
@@ -91,7 +97,7 @@ Pour pouvoir utiliser des liens profonds dans les e-mails et les SMS pour vos ap
 
 >[!IMPORTANT]
 >
->Les liens profonds via l’infrastructure Adobe s’appliquent lorsque le suivi des liens est activé pour votre message, dans les paramètres [&#x200B; suivi des e-mails &#x200B;](message-tracking.md#enable-tracking) ou dans la section **[!UICONTROL Suivi des actions]** pour les campagnes par SMS. Les clics sur les liens profonds suivis utilisent des URL sous `/ee/v1/mclick/*`, qu’Adobe héberge et résout.
+>Les liens profonds via l’infrastructure Adobe s’appliquent lorsque le suivi des liens est activé pour votre message, dans les paramètres [ suivi des e-mails ](message-tracking.md#enable-tracking) ou dans la section **[!UICONTROL Suivi des actions]** pour les campagnes par SMS. Les clics sur les liens profonds suivis utilisent des URL sous `/ee/v1/mclick/*`, qu’Adobe héberge et résout.
 >
 >Pour les liens **non suivis**, l’URL n’est pas réécrite via les systèmes Adobe. Vous devez configurer des liens universels ou des liens d’application sur vos propres domaines et hébergement afin que ces liens ouvrent votre application comme prévu.
 
@@ -174,7 +180,7 @@ Cette section fournit des modèles d’implémentation courants pour les liens p
 
 >[!IMPORTANT]
 >
->L’application doit effectuer une **&#x200B;**&#x200B;sur l’URL `mclick` et lire l’en-tête **`Location`**, puis effectuer le routage en fonction de l’URL **finale**.
+>L’application doit effectuer une **GET** sur l’URL `mclick` et lire l’en-tête **`Location`**, puis acheminer le contenu en fonction de l’URL **finale**.
 >
 >N’ouvrez pas simplement l’URL `mclick` dans Safari, car cela va à l’encontre de l’objectif des liens profonds.
 
@@ -336,7 +342,7 @@ Vous pouvez utiliser un modèle d’URL personnalisé (par exemple, `appname://p
 
 +++ Les paramètres UTM sur l’URL seront-ils disponibles dans l’application mobile pour Analytics ?
 
-Oui. Les paramètres UTM que vous configurez dans [!DNL Journey Optimizer] sont inclus dans l’URL finale renvoyée dans l’en-tête `Location` lorsque votre application effectue un GET sur l’URL `mclick`. Vous pouvez donc les utiliser pour les analyses in-app.
+Oui. Les paramètres UTM que vous configurez dans [!DNL Journey Optimizer] sont inclus dans l’URL finale renvoyée dans l’en-tête `Location` lorsque votre application effectue une GET sur l’URL `mclick`. Vous pouvez donc les utiliser pour les analyses in-app.
 
 +++
 

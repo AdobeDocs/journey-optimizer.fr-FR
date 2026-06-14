@@ -11,14 +11,20 @@ keywords: texte, e-mail, version, brut, éditeur
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1171
+source-wordcount: 1199
 ht-degree: 12%
 
 ---
 
 # Gestion de la version texte d’un e-mail {#text-version-email}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez comment utiliser la version en texte brut par défaut synchronisée automatiquement d’un e-mail ou en créer une personnalisée, et quand chaque approche fonctionne le mieux.
+
+>[!ENDSHADEBOX]
 
 Il est recommandé de créer une version texte du corps de votre email, qui est utilisée lorsque le contenu HTML ne peut pas être affiché.
 

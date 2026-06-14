@@ -8,14 +8,20 @@ level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1115
+source-wordcount: 1151
 ht-degree: 3%
 
 ---
 
 # Optimiser les e-mails pour les boîtes de réception d’IA {#email-text-optimizer}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment générer et affiner une version dédiée de votre e-mail dans le Designer d’e-mail afin que les clients de boîte de réception assistés par l’IA fondent leurs résumés et leurs réponses dans vos offres et appels à l’action.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] est fourni avec une fonctionnalité de canal e-mail qui vous permet de structurer une version spécifique de vos messages pour améliorer les expériences de boîte de réception assistée par l’IA, telles que les [!DNL Apple Intelligence] et les [!DNL Google Gemini] dans [!DNL Gmail], afin qu’ils puissent répondre aux questions et résumer les e-mails en fonction de votre contenu plus précisément, avec de meilleurs résultats.
 
@@ -61,11 +67,11 @@ L’objectif est que l’IA dédiée aux boîtes de réception puisse ancrer les
 >
 >Avant d’utiliser cette fonctionnalité, lisez les [Risques et limites](#inbox-ai-risks) associés.
 >
->Pour accéder à cette fonctionnalité, vous devez accepter un contrat d’utilisation qui s’affiche la première fois que vous utilisez Generative AI dans [!DNL Journey Optimizer]. Pour plus d’informations, consultez les [instructions d’utilisation de Adobe Experience Cloud Generative AI](https://www.adobe.com/fr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}.
+>Pour accéder à cette fonctionnalité, vous devez accepter un contrat d’utilisation qui s’affiche la première fois que vous utilisez Generative AI dans [!DNL Journey Optimizer]. Pour plus d’informations, consultez les [Directives d’utilisation d’Adobe Experience Cloud Generative AI](https://www.adobe.com/fr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}.
 
 Pour optimiser le contenu de votre e-mail pour les expériences de boîte de réception IA avec [!DNL Journey Optimizer], procédez comme suit.
 
-1. Ouvrez l’e-mail dans le Designer d’e-mail[&#128279;](content-from-scratch.md) (à partir d’une campagne, d’un parcours ou d’un modèle, selon votre workflow).
+1. Ouvrez l’e-mail dans le Designer d’e-mail](content-from-scratch.md) (à partir d’une campagne, d’un parcours ou d’un modèle, selon votre workflow).[
 
 1. Cliquez sur le bouton **[!UICONTROL Optimiser pour la boîte de réception IA]** pour générer une version améliorée qui met en surbrillance les informations clés pour la lecture et la synthèse assistées par IA.
 
@@ -89,7 +95,7 @@ Pour optimiser le contenu de votre e-mail pour les expériences de boîte de ré
 
 1. Une fois la version créée, cliquez sur le bouton **[!UICONTROL Optimiser l’e-mail]** pour confirmer. Vous pouvez également utiliser le bouton **[!UICONTROL Réoptimiser]** pour générer une nouvelle version.
 
-1. Vous êtes redirigé vers la vue **&#x200B;**&#x200B;et votre e-mail est maintenant optimisé pour les boîtes de réception d’IA. Pour accéder à nouveau à la version optimisée ou la modifier, cliquez sur le bouton **[!UICONTROL Boîte de réception optimisée pour l’IA]**.
+1. Vous êtes redirigé vers la vue **** et votre e-mail est maintenant optimisé pour les boîtes de réception d’IA. Pour accéder à nouveau à la version optimisée ou la modifier, cliquez sur le bouton **[!UICONTROL Boîte de réception optimisée pour l’IA]**.
 
    ![Bouton Réoptimiser dans le Designer Email](assets/optimize-ai-inbox-optimized-button.png){zoomable="yes" width="80%"}
 
