@@ -26,14 +26,20 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 1006
+source-wordcount: 1040
 ht-degree: 24%
 
 ---
 
 # Prise en main des messages mobiles {#get-started-sms}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Prise en main de la messagerie mobile dans Adobe Journey Optimizer pour créer, personnaliser et envoyer des SMS, des MMS et des messages RCS dans les parcours et les campagnes, y compris la prise en charge du fournisseur, les exigences de configuration et les conditions préalables RCS.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

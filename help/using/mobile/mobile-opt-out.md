@@ -22,14 +22,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 673
-ht-degree: 80%
+source-wordcount: 701
+ht-degree: 77%
 
 ---
 
 # Gestion du processus d’opt-out pour les messages mobiles {#sms-opt-out}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment Adobe Journey Optimizer gère le processus d’opt-out des SMS, MMS et RCS par le biais de mots-clés entrants natifs, de listes bloquées, de codes courts et d’identifiants d’expéditeur alphanumériques.
+
+>[!ENDSHADEBOX]
 
 Conformément aux normes et réglementations du secteur, tous les messages SMS de marketing doivent contenir un moyen permettant aux destinataires de se désabonner facilement. [En savoir plus sur la gestion de la confidentialité et du processus d’opt-out](../privacy/opt-out.md)
 

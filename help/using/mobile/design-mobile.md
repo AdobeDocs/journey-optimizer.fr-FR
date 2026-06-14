@@ -11,14 +11,20 @@ feature_v2:
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 1456
+source-wordcount: 1488
 ht-degree: 25%
 
 ---
 
 # Concevoir un message mobile {#design-mobile}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment concevoir et personnaliser le contenu des messages SMS, RCS et MMS dans Adobe Journey Optimizer, y compris les médias riches RCS, le texte de remplacement, les actions suggérées, les URL suivies et les médias ajoutés.
+
+>[!ENDSHADEBOX]
 
 Vous pouvez concevoir et envoyer des messages texte (SMS), de communication enrichie (RCS) et multimédia (MMS) avec Adobe Journey Optimizer. Vous devez d’abord ajouter une action Message mobile dans un parcours ou une campagne, puis définir le contenu du Message mobile, comme décrit ci-dessous. Adobe Journey Optimizer offre également des fonctionnalités permettant de tester vos messages mobiles avant l’envoi afin que vous puissiez vérifier le rendu, les attributs de personnalisation et tous les autres paramètres.
 

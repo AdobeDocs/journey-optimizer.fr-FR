@@ -21,14 +21,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 607
-ht-degree: 78%
+source-wordcount: 640
+ht-degree: 74%
 
 ---
 
 # Configurer le fournisseur Twilio {#sms-configuration-twilio}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez comment intégrer Twilio à Adobe Journey Optimizer en créant des informations d’identification d’API pour les SMS, les MMS et les messages RCS afin de diffuser des messages mobiles dans vos parcours et campagnes.
+
+>[!ENDSHADEBOX]
 
 En intégrant Twilio à Adobe Journey Optimizer, vous pouvez diffuser des messages mobiles à vos profils dans le cadre de vos parcours et campagnes.
 
