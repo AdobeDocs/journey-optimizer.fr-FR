@@ -26,14 +26,20 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6a3cd911b8a89d83cab49eb88b05bf18616377e7
 workflow-type: tm+mt
-source-wordcount: 676
-ht-degree: 100%
+source-wordcount: 722
+ht-degree: 93%
 
 ---
 
 # Commencer avec les canaux [!DNL Adobe Journey Optimizer] {#get-started-email}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** les canaux natifs de Adobe Journey Optimizer vous permettent d’atteindre les clients par le biais d’une diffusion sortante et d’expériences entrantes. Comparez les e-mails, SMS, notifications push, Activités en direct, publipostage direct, WhatsApp, LINE, in-app, web, basés sur le code et cartes de contenu pour déterminer où chacun est pris en charge dans les parcours et les campagnes.
+
+>[!ENDSHADEBOX]
 
 Dans le paysage marketing dynamique actuel, il est essentiel d’atteindre efficacement votre audience sur différentes plateformes pour établir des relations durables et stimuler l’engagement. Cette section présente les différents canaux de communication disponibles dans [!DNL Adobe Journey Optimizer] pour vous aider à comprendre comment utiliser efficacement chaque canal dans vos stratégies marketing.
 
