@@ -9,26 +9,25 @@ role: Admin
 level: Experienced
 exl-id: a46f29a4-5115-4feb-8b2c-751765be2b36
 TQID: https://experienceleague.adobe.com/RPopgwZfOcaw-uHvqVnforixMTAH57urwF2ViaZQemQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 302
-ht-degree: 100%
+source-wordcount: 332
+ht-degree: 90%
 
 ---
 
 # Créer des webhooks de commentaires pour les campagnes déclenchées par API {#webhooks}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** découvrez comment créer et configurer des webhooks de commentaires qui diffusent des mises à jour du statut des messages en temps réel à vos systèmes pour les campagnes déclenchées par l’API transactionnelle dans Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Les webhooks de commentaires vous permettent de recevoir des mises à jour de statut en temps réel pour les messages envoyés via des campagnes transactionnelles déclenchées par API. En configurant un webhook, vous recevez automatiquement les résultats des diffusions directement dans vos systèmes, ce qui facilite la surveillance, la journalisation et le traitement automatisé.
 

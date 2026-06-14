@@ -10,16 +10,21 @@ level: Experienced
 keywords: CC, copie carbone, e-mail, configuration du canal, en-têtes d’e-mail, Cci
 exl-id: 9649cc07-3183-4510-b5d9-b1e33eff43e9
 feature_v2: []
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 906
-ht-degree: 12%
+source-wordcount: 937
+ht-degree: 11%
 
 ---
 
 # Ajouter un champ CC aux e-mails {#cc-email-field}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez comment ajouter un champ CC visible aux e-mails dans une configuration de canal Adobe Journey Optimizer, en quoi il diffère du Cci, ainsi que les recommandations et limitations associées.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_cc"
@@ -92,7 +97,7 @@ Si vous [modifiez une configuration d’e-mail](channel-surfaces.md#edit-channel
 
 * **Gestion de la boîte de réception :** votre boîte de réception utilisée pour la fonctionnalité CC doit être correctement gérée pour l’espace et la diffusion. Si la boîte de réception renvoie des bounces, certains e-mails peuvent ne pas être reçus.
 
-* **Délai de diffusion :** les messages peuvent être diffusés à l’adresse e-mail en copie (CC) avant les destinataires cibles. Les messages CC peuvent également être envoyés même si les messages d’origine peuvent avoir fait l’objet de [&#x200B; bounces](../reports/suppression-list.md#delivery-failures).
+* **Délai de diffusion :** les messages peuvent être diffusés à l’adresse e-mail en copie (CC) avant les destinataires cibles. Les messages CC peuvent également être envoyés même si les messages d’origine peuvent avoir fait l’objet de [ bounces](../reports/suppression-list.md#delivery-failures).
 
 * **Consentement et suppression :** l’adresse e-mail en copie (CC) n’est pas comparée au consentement ou à la suppression.
 
