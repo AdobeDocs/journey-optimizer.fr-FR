@@ -6,18 +6,22 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 0c30d994a1ba0b4b5ef3ee1c34d836ce7887cc19
 workflow-type: tm+mt
-source-wordcount: 2537
-ht-degree: 97%
+source-wordcount: 2566
+ht-degree: 96%
 
 ---
 
 # Prise en main des fonctions d’assistance{#functions}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** fonctions d’assistance vous permettent de transformer, de mettre en forme et d’appliquer des conditions aux données directement dans votre contenu personnalisé, afin que vous puissiez créer des expériences dynamiques personnalisées pour chaque client.
+
+>[!ENDSHADEBOX]
 
 Les fonctions d’assistance vous permettent de transformer et de manipuler des données dans votre contenu personnalisé. Utilisez-les pour effectuer des calculs, mettre en forme des données, appliquer des conditions et effectuer diverses opérations afin de créer des expériences dynamiques personnalisées pour votre clientèle.
 
@@ -540,4 +544,4 @@ Les fonctions de comparaison sont utilisées pour comparer les différentes expr
 
 Découvrez comment transformer des valeurs de personnalisation à l&#39;aide de fonctions d&#39;assistance à la personnalisation et comprendre différents cas d&#39;utilisation des fonctions d&#39;assistance.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416644?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
