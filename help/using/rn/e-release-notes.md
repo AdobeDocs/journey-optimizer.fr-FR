@@ -6,17 +6,12 @@ description: Notes de mise à jour préliminaires pour Adobe Journey Optimizer
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 140204b92956663f75893c09a61c6b2bfa97a2b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 53618e9d511215ed90b7666fe161edf9fd72c42b
 workflow-type: tm+mt
-source-wordcount: 2036
+source-wordcount: 1951
 ht-degree: 5%
 
 ---
@@ -40,7 +35,7 @@ Les fonctionnalités et améliorations suivantes seront bientôt disponibles dan
 
 * **Augmentation du nombre maximal de parcours actifs et nouveaux mécanismes de sécurisation** - Vous pouvez désormais disposer de **200 parcours actifs**, contre 100 auparavant.
 
-* **Dates de début et de fin dans l’en-tête du parcours** - Lorsque les dates de début et/ou de fin sont configurées sur un parcours dynamique, elles sont désormais affichées dans l’en-tête du parcours **&#x200B;**&#x200B;à côté du badge de statut dynamique. Le libellé affiché s’adapte selon que chaque date est à venir ou est déjà dépassée.
+* **Dates de début et de fin dans l’en-tête du parcours** - Lorsque les dates de début et/ou de fin sont configurées sur un parcours dynamique, elles sont désormais affichées dans l’en-tête du parcours **** à côté du badge de statut dynamique. Le libellé affiché s’adapte selon que chaque date est à venir ou est déjà dépassée.
 
 * **Arrêter ou fermer un parcours en pause directement** - Vous pouvez désormais **arrêter un parcours ou le fermer aux nouvelles entrées** directement à partir de l’état **En pause**. Auparavant, un parcours en pause devait reprendre pour passer en ligne avant de pouvoir être arrêté ou fermé.
 
@@ -92,12 +87,7 @@ La fonctionnalité suivante est proposée dans Prise de décision dans cette ver
 </tbody>
 </table>
 
-* **Attributs d’offre dynamiques** - Les attributs d’offre dans Decisioning peuvent désormais être personnalisés au moment de la diffusion à l’aide des données de profil, contextuelles et d’audience. Cela supprime la nécessité de conserver des offres en double pour les variations de contenu mineures, ce qui permet aux spécialistes marketing de gérer moins d’éléments de décision et plus flexibles.
-
-* **Capping de la fréquence au niveau des emplacements dans Decisioning** - Les règles de limitation de la fréquence dans Decisioning peuvent désormais être étendues à des emplacements individuels, ce qui vous permet de contrôler plus précisément la fréquence d’affichage d’une offre dans une surface donnée. Deux modes sont disponibles :
-
-   * Limitation spécifique à l’emplacement : définissez une limite qui s’applique uniquement lorsque l’offre est affichée à un emplacement sélectionné.
-   * Limitation par emplacement : appliquez une limite indépendamment à chaque emplacement où l’offre apparaît, de sorte que chaque emplacement conserve son propre compteur de limitation.
+* **Attributs d’élément dynamiques** - Les attributs personnalisés d’élément de décision peuvent désormais être personnalisés au moment de la diffusion à l’aide des données de profil, contextuelles et d’audience. Cela supprime la nécessité de conserver des offres en double pour les variations de contenu mineures, ce qui permet aux spécialistes marketing de gérer moins d’éléments de décision et plus flexibles.
 
 ### Email {#june-26-email}
 
@@ -115,7 +105,6 @@ Les fonctionnalités et améliorations suivantes seront apportées au canal e-ma
 <p>Journey Optimizer inclut désormais une validation technique automatisée directement dans le Designer d’e-mail, ce qui vous permet de détecter les problèmes HTML et CSS avant l’envoi.</p>
 <p>Les contrôles couvrent les éléments non pris en charge, tels que les balises <code>&lt;script&gt;</code> et <code>&lt;base&gt;</code>, les balises div vides qui peuvent rompre la disposition dans Microsoft Outlook, les balises de méta-actualisation HTML et les seuils de taille CSS ou HTML qui déclenchent des échecs de rendu dans Gmail.</p>
 <p>Les résultats sont affichés sous la forme d’erreurs, d’avertissements ou d’informations directement dans le panneau de création, avec des détails contextuels et des correctifs en un clic le cas échéant, afin que les problèmes puissent être résolus sans quitter l’éditeur.</p>
-<p>Pour plus d'informations, consultez la <a href="../email/content-check.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
