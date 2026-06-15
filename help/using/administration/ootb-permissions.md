@@ -32,10 +32,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+source-git-commit: 9335f9e54aec56236693afe23996f80bf6e389ce
 workflow-type: tm+mt
-source-wordcount: 1238
-ht-degree: 25%
+source-wordcount: 1258
+ht-degree: 24%
 
 ---
 
@@ -76,6 +76,7 @@ Les autorisations intégrées représentent les différentes autorisations pouva
 | Rapports | **[!DNL View channel reports]** : lecture et modification des rapports de canal. |
 | Administration des sandbox | **[!DNL Export sandboxes]** : possibilité d’exporter un sandbox.</br>**[!DNL Manage packages]**: lecture, création, modification et suppression de packages.</br>**[!DNL Manage sandboxes]** : lecture, création, modification et suppression de sandbox.</br>**[!DNL Reset sandboxes]**: possibilité de réinitialiser un sandbox.</br>**[!DNL Share sandboxes]** : possibilité de partager un sandbox.</br>**[!DNL View sandboxes]**: accès en lecture seule aux sandbox appartenant à votre organisation. |
 | Administration des sandbox | **[!DNL Export sandboxes]** : possibilité d’exporter un sandbox.</br>**[!DNL Manage packages]**: lecture, création, modification et suppression de packages.</br>**[!DNL Manage sandboxes]** : lecture, création, modification et suppression de sandbox.</br>**[!DNL View sandboxes]**: accès en lecture seule aux sandbox appartenant à votre organisation.</br>**[!DNL Reset sandboxes]** : possibilité de réinitialiser un sandbox. |
+| Utilisateurs simulés | **[!DNL Manage Simulated Users]** : la lecture, la création et la modification des utilisateurs et utilisatrices simulés utilisés pour tester les parcours dans Simulation.</br>**[!DNL View Simulated Users]**: accès en lecture seule aux utilisateurs et utilisatrices simulés. |
 | Service de traduction | **[!DNL Manage translation in house]** : la lecture, la création, la modification et la suppression de la traduction en interne.</br>**[!DNL Manage translation projects]**: la lecture, la création, la modification et la suppression des projets de traduction.</br> **[!DNL Manage translation reviews]** : lire, créer, modifier et supprimer des révisions de traduction.</br>**[!DNL Manage translation settings]**: lire, créer, modifier et supprimer des paramètres de traduction.</br>**[!DNL Manage translation tasks]** : lire, créer, modifier et supprimer des tâches de traduction.</br>**[!DNL View translation in house]**: accès en lecture seule à la traduction en interne.</br>**[!DNL View translation projects]** : accès en lecture seule aux projets de traduction.</br>**[!DNL View translation reviews]**: accès en lecture seule aux révisions de traduction.</br>**[!DNL View translation tasks]** : accès en lecture seule aux tâches de traduction. |
 
 {style="table-layout:fixed"}

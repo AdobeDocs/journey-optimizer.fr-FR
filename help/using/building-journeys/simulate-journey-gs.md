@@ -11,9 +11,9 @@ keywords: test, parcours, vérification, erreur, dépannage
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: df6d5f7137a3914daf545746aff559ca0d04539d
 workflow-type: tm+mt
-source-wordcount: 1479
+source-wordcount: 1507
 ht-degree: 3%
 
 ---
@@ -28,9 +28,11 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Vous avez besoin d’au moins de l’une des autorisations suivantes pour accéder à la fonction **[!UICONTROL Simulation]** : **Simuler des parcours**, **Publier des parcours** ou **Approuver et publier des parcours**. [En savoir plus](../administration/permissions.md)
+>* Pour utiliser **[!UICONTROL Simulation]**, attribuez au moins une autorisation de la fonctionnalité **[!UICONTROL Parcours]** : **Simuler des parcours**, **Publier des parcours** ou **Approuver et publier des parcours**. Les mêmes autorisations vous permettent de créer et de gérer des utilisateurs simulés. Les autorisations **[!UICONTROL Utilisateurs simulés]** ne sont pas requises. [En savoir plus](../administration/permissions.md)
 >
->Pour utiliser l’IA dans **[!UICONTROL Simulation]** (**[!UICONTROL Simulation rapide]**, génération d’utilisateurs simulés avec l’IA **[!UICONTROL Générer des valeurs d’événement]**), les utilisateurs doivent disposer de l’autorisation **[!UICONTROL Générer le contenu]** de la fonctionnalité **[!UICONTROL Assistant IA]**.
+>* Pour gérer les utilisateurs simulés sans **[!UICONTROL Simulation]**, affectez **Gérer les utilisateurs simulés** ou **Afficher les utilisateurs simulés** à partir de la fonctionnalité **[!UICONTROL Utilisateurs simulés]**.
+>
+>* Pour l’IA dans la simulation (**[!UICONTROL simulation rapide]**, utilisateurs générés par l’IA, **[!UICONTROL Générer des valeurs d’événement]**), affectez **[!UICONTROL Générer du contenu]** à partir de la fonctionnalité **[!UICONTROL Assistant IA]**.
 
 Vous pouvez définir le parcours sur **[!UICONTROL Simulation]** en plus de **Brouillon**, **Mode test** et **En direct**. Dans la simulation, vous testez avec des **utilisateurs simulés** : entités temporaires de type profil que vous ajoutez, sans utiliser de profils de test persistants dans Adobe Experience Platform.
 
