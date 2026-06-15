@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 140204b92956663f75893c09a61c6b2bfa97a2b1
+source-git-commit: 53618e9d511215ed90b7666fe161edf9fd72c42b
 workflow-type: tm+mt
-source-wordcount: 2036
+source-wordcount: 1951
 ht-degree: 5%
 
 ---
@@ -92,12 +92,7 @@ La fonctionnalité suivante est proposée dans Prise de décision dans cette ver
 </tbody>
 </table>
 
-* **Attributs d’offre dynamiques** - Les attributs d’offre dans Decisioning peuvent désormais être personnalisés au moment de la diffusion à l’aide des données de profil, contextuelles et d’audience. Cela supprime la nécessité de conserver des offres en double pour les variations de contenu mineures, ce qui permet aux spécialistes marketing de gérer moins d’éléments de décision et plus flexibles.
-
-* **Capping de la fréquence au niveau des emplacements dans Decisioning** - Les règles de limitation de la fréquence dans Decisioning peuvent désormais être étendues à des emplacements individuels, ce qui vous permet de contrôler plus précisément la fréquence d’affichage d’une offre dans une surface donnée. Deux modes sont disponibles :
-
-   * Limitation spécifique à l’emplacement : définissez une limite qui s’applique uniquement lorsque l’offre est affichée à un emplacement sélectionné.
-   * Limitation par emplacement : appliquez une limite indépendamment à chaque emplacement où l’offre apparaît, de sorte que chaque emplacement conserve son propre compteur de limitation.
+* **Attributs d’élément dynamiques** - Les attributs personnalisés d’élément de décision peuvent désormais être personnalisés au moment de la diffusion à l’aide des données de profil, contextuelles et d’audience. Cela supprime la nécessité de conserver des offres en double pour les variations de contenu mineures, ce qui permet aux spécialistes marketing de gérer moins d’éléments de décision et plus flexibles.
 
 ### Email {#june-26-email}
 
@@ -115,7 +110,6 @@ Les fonctionnalités et améliorations suivantes seront apportées au canal e-ma
 <p>Journey Optimizer inclut désormais une validation technique automatisée directement dans le Designer d’e-mail, ce qui vous permet de détecter les problèmes HTML et CSS avant l’envoi.</p>
 <p>Les contrôles couvrent les éléments non pris en charge, tels que les balises <code>&lt;script&gt;</code> et <code>&lt;base&gt;</code>, les balises div vides qui peuvent rompre la disposition dans Microsoft Outlook, les balises de méta-actualisation HTML et les seuils de taille CSS ou HTML qui déclenchent des échecs de rendu dans Gmail.</p>
 <p>Les résultats sont affichés sous la forme d’erreurs, d’avertissements ou d’informations directement dans le panneau de création, avec des détails contextuels et des correctifs en un clic le cas échéant, afin que les problèmes puissent être résolus sans quitter l’éditeur.</p>
-<p>Pour plus d'informations, consultez la <a href="../email/content-check.md">documentation détaillée</a>.</p>
 </td>
 </tr>
 </tbody>
