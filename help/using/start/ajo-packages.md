@@ -9,9 +9,9 @@ role: Admin, User
 level: Beginner
 keywords: parcours optimizer, package, licence, campagnes, parcours, canaux, prise de décision, sortant, mobile, web, modulaire, sms, mms, whatsapp, modules complémentaires, select, prime, ultimate, hérité
 hide: true
-source-git-commit: ac42eeb00129bd77963676302578aadc8d7051df
+source-git-commit: c0bfb3ea92ea1375fa6bdd2bdffc836c0046db7a
 workflow-type: tm+mt
-source-wordcount: '1972'
+source-wordcount: '1992'
 ht-degree: 3%
 
 ---
@@ -101,7 +101,7 @@ Touchez des audiences par le biais des canaux de messagerie sortants.
 
 **Surfaces prises en charge :** boîte de réception, écran de verrouillage de l’appareil mobile/plateau de notification, adresse postale
 
-Inclut les principes de délivrabilité pour la prise en charge du réchauffement des adresses IP sur les nouvelles instances. Pour une surveillance continue et une assistance gérée par des consultants, trois **packages de délivrabilité** (Essentials, Enhanced et Plus) sont disponibles sous la forme de modules complémentaires distincts. [En savoir plus sur la délivrabilité &#x200B;](../reports/deliverability.md)
+Inclut les principes de délivrabilité pour la prise en charge du réchauffement des adresses IP sur les nouvelles instances. Pour une surveillance continue et une assistance gérée par des consultants, trois **packages de délivrabilité** (Essentials, Enhanced et Plus) sont disponibles sous la forme de modules complémentaires distincts. [En savoir plus sur la délivrabilité ](../reports/deliverability.md)
 
 >[!TAB 📱 Mobile]
 
@@ -243,7 +243,7 @@ Les sections ci-dessus décrivent le modèle de conditionnement modulaire actuel
 - Canaux entrants : web, messagerie in-app, expériences basées sur du code, cartes de contenu et courrier
 - Segmentation et ciblage avancés des audiences
 
-**&#x200B;**&#x200B;— Inclut tout dans Prime, ainsi que la prise de décision et l&#39;optimisation avancée :
+**** — Inclut tout dans Prime, ainsi que la prise de décision et l&#39;optimisation avancée :
 
 - Prise de décision et personnalisation des offres en temps réel
 - Modèles de classement et d’optimisation optimisés par l’IA
@@ -257,15 +257,15 @@ Les sections ci-dessus décrivent le modèle de conditionnement modulaire actuel
 | **SMS/MMS** | Envoi de messages texte et multimédia | ✓ | ✓ | ✓ | [Découvrez comment envoyer des messages mobiles](../mobile/get-started-mobile.md) |
 | **Notifications push** | Envoi d&#39;alertes push mobiles | ✓ | ✓ | ✓ | [Découvrez comment envoyer des notifications push](../push/get-started-push.md) |
 | **Campagnes par lots** | Planifier des messages pour une audience | ✓ | ✓ | ✓ | [Découvrez comment créer des campagnes](../campaigns/get-started-with-campaigns.md) |
-| parcours automatisés **&#x200B;**&#x200B;| Concevoir des parcours client déclenchés par un événement | ✓ | ✓ | ✓ | [Découvrez comment créer des parcours &#x200B;](../building-journeys/journey-gs.md) |
-| **Déclencheurs de parcours en temps réel** | Réagissez au comportement du client dès que cela se produit. | — | ✓ | ✓ | [En savoir plus sur les événements de parcours &#x200B;](../event/about-events.md) |
+| parcours automatisés **** | Concevoir des parcours client déclenchés par un événement | ✓ | ✓ | ✓ | [Découvrez comment créer des parcours ](../building-journeys/journey-gs.md) |
+| **Déclencheurs de parcours en temps réel** | Réagissez au comportement du client dès que cela se produit. | — | ✓ | ✓ | [En savoir plus sur les événements de parcours ](../event/about-events.md) |
 | **Messagerie in-app** | Afficher des messages dans votre application mobile | — | ✓ | ✓ | [Découvrez comment utiliser la messagerie in-app](../in-app/get-started-in-app.md) |
 | **Canal web** | Personnaliser des pages web en temps réel | — | ✓ | ✓ | [Découvrez comment utiliser le canal web](../web/get-started-web.md) |
 | **Expériences basées sur du code** | Personnaliser n’importe quelle surface via l’API ou SDK | — | ✓ | ✓ | [Découvrez comment utiliser des expériences basées sur du code](../code-based/get-started-code-based.md) |
 | **Cartes de contenu** | Diffuser des messages intégrés au produit persistants et non intrusifs | — | ✓ | ✓ | [Découvrez comment utiliser les cartes de contenu](../content-card/get-started-content-card.md) |
 | **Courrier (publipostage direct)** | Création et envoi d’éléments de courrier physique | — | Disponible avec Prime et versions ultérieures | ✓ | [Découvrez comment utiliser le courrier](../direct-mail/get-started-direct-mail.md) |
 | **Prise de décision** | Sélectionnez la meilleure offre pour chaque client en temps réel | — | — | ✓ | [Découvrez comment utiliser la prise de décision](../experience-decisioning/gs-experience-decisioning.md) |
-| **Classement optimisé par l’IA** | Optimiser la sélection des offres et des contenus à l’aide du machine learning | — | — | ✓ | [En savoir plus sur les modèles d’IA &#x200B;](../offers/ranking/ai-models.md) |
+| **Classement optimisé par l’IA** | Optimiser la sélection des offres et des contenus à l’aide du machine learning | — | — | ✓ | [En savoir plus sur les modèles d’IA ](../offers/ranking/ai-models.md) |
 | **WhatsApp** | Envoyer des messages via WhatsApp Business | Dépend de votre licence et de la configuration du canal | Dépend de votre licence et de la configuration du canal | Dépend de votre licence et de la configuration du canal | [Découvrez comment utiliser WhatsApp](../whatsapp/get-started-whatsapp.md) |
 
 +++
@@ -275,6 +275,7 @@ Les sections ci-dessus décrivent le modèle de conditionnement modulaire actuel
 Maintenant que vous comprenez comment le [!DNL Adobe Journey Optimizer] est compilé, voici où aller :
 
 - **Prise en main du produit** — Configurez votre environnement et découvrez les concepts de base. [Prise en main de Journey Optimizer](get-started.md)
-- **Planifier la mise en œuvre** — Suivez le chemin d’intégration structuré de votre projet. [&#x200B; Guide de projet d’intégration &#x200B;](onboarding-hub.md)
+- **Planifier la mise en œuvre** — Suivez le chemin d’intégration structuré de votre projet. [ Guide de projet d’intégration ](onboarding-hub.md)
+- **Vérifier la disponibilité des fonctionnalités** — Vérifiez quelles fonctionnalités sont actives, leur statut de cycle de vie (GA / LA / Beta) et leur date d&#39;expédition. [Disponibilité des fonctionnalités](ajo-features-availability.md)
 - **Trouver le cas d’utilisation approprié** — Mappez vos objectifs d’engagement aux fonctionnalités qui les prennent en charge. [Guide d’utilisation](ajo-use-case-guide.md)
 - **Configurez vos canaux** — Une fois que vous savez quels modules complémentaires vous avez, configurez les canaux dont vous avez besoin : [e-mail](../email/get-started-email.md), [notifications push](../push/get-started-push.md), [SMS/MMS](../mobile/get-started-mobile.md), [messagerie intégrée](../in-app/get-started-in-app.md), [cartes de contenu](../content-card/get-started-content-card.md), [le canal web](../web/get-started-web.md) et [expériences basées sur le code](../code-based/get-started-code-based.md).
