@@ -9,7 +9,7 @@ role: User
 level: Beginner
 hide: true
 keywords: parcours optimizer, intégration, hub d’intégration, cas d’utilisation, vidéos, tutoriels, prise en main, préparation, premier parcours
-source-git-commit: 727d99f93d3fc19848f00ab423ec320a092b357c
+source-git-commit: 7af5076bb9a394110de6400991285ab2be86962d
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 12%
@@ -18,11 +18,16 @@ ht-degree: 12%
 
 # hub d’intégration de Journey Optimizer {#onboarding-hub}
 
+
 >[!BEGINSHADEBOX]
 
 **Sur cette page :** Accélérez votre navigation sur Adobe Journey Optimizer : regardez une courte orientation, suivez les instructions étape par étape pour livrer votre première expérience, parcourez les cas d’utilisation réels et explorez le contenu vidéo traité.
 
 >[!ENDSHADEBOX]
+
+<!-- 
+rebuild
+-->
 
 Vous découvrez [!DNL Adobe Journey Optimizer] ? Ce hub rassemble les ressources qui vous aident à passer de zéro à votre première expérience client en direct, avec des instructions étape par étape pour des objectifs communs, des cas d’utilisation réels qui montrent ce qui est possible et du contenu vidéo traité (tutoriels, présentations et pratiques).
 
