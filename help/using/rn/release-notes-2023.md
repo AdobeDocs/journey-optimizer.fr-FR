@@ -9,16 +9,12 @@ hide: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: 9372a9bed5c6da5db33567557944d69af9d56913
 workflow-type: tm+mt
 source-wordcount: 4372
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -125,8 +121,8 @@ Cette version apporte les nouvelles fonctionnalités répertoriées ci-dessous.
 <tbody>
 <tr>
 <td>
-<p>Les attributs calculés permettent de résumer facilement les données d’événement en attributs de profil via une interface utilisateur intuitive pour une segmentation, une personnalisation et une activation améliorées basées sur le comportement. Grâce à cette fonctionnalité, vous pouvez créer des attributs calculés en libre-service, les gérer et les utiliser dans la segmentation, les destinations du profil client en temps réel ou Journey Optimizer.<br/><br/>
-En outre, les attributs calculés simplifient les workflows de segmentation et de parcours afin de vous aider à offrir des expériences pertinentes en toute transparence. En savoir plus dans la <a href="../audience/computed-attributes.md">documentation détaillée</a>.</p>
+<p>Les attributs calculés permettent de résumer facilement les données d’événement en attributs de profil via une interface d’utilisation intuitive pour une segmentation, une personnalisation et une activation améliorées basées sur le comportement. Grâce à cette fonctionnalité, vous pouvez créer des attributs calculés en libre-service, les gérer et les utiliser dans la segmentation, les destinations du profil client en temps réel ou Journey Optimizer.<br/><br/>
+En outre, les attributs calculés simplifient les workflows de segmentation et de parcours afin de vous permettre d’offrir des expériences pertinentes et fluides. Pour en savoir plus, consultez la <a href="../audience/computed-attributes.md">documentation détaillée</a>.</p>
 <img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
@@ -324,7 +320,7 @@ A new option is available in the email surface settings to include email address
 **Parcours**
 
 * Vous pouvez désormais utiliser les réponses d’appel API dans des actions personnalisées et orchestrer votre parcours en fonction de ces réponses. Cette fonctionnalité est actuellement disponible en version Beta. [En savoir plus](../action/action-response.md).
-* Un nouveau type d’alerte système a été introduit. Vous pouvez désormais être averti en cas d’échec d’une action personnalisée. [En savoir plus](../reports/alerts.md).
+* Un nouveau type d’alerte système a été ajouté. Vous pouvez désormais recevoir une alerte en cas d’échec d’une action personnalisée. [En savoir plus](../reports/alerts.md).
   <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
 

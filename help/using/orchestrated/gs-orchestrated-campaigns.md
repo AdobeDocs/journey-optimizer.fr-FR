@@ -7,22 +7,14 @@ short-description: Découvrez les fonctionnalités clés et les cas d’utilisat
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ePbw3PWwBuZl5A3bdBzM0gb4koCEH09WUX0P-g8z3VM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
 source-wordcount: 940
-ht-degree: 88%
+ht-degree: 96%
 
 ---
 
@@ -59,8 +51,8 @@ L’orchestration de campagne repose sur quatre piliers principaux :
 <tr style="border: 0;">
 <td><img alt="Audiences à la demande" src="assets/do-not-localize/icon-audience.svg" width="150px"></a></td><td><b>Audiences à la demande</b><br/>Interrogez instantanément les jeux de données pour créer des segments d’audience à l’aide de n’importe quelle combinaison de types et de dimensions de données.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Segmentation et envoi de plusieurs entités" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>Segmentation et envoi d’entités multiples</b><br/>allez au-delà des campagnes basées sur les personnes : utilisez des entités telles que des catalogues de produits, des emplacements de magasin ou des données de service pour cibler avec précision.<br/><br/>
-Prise en charge de l’envoi à plusieurs niveaux, où un message est envoyé par profil et par entité secondaire associée. Ces entités secondaires peuvent inclure des adresses de contact, des réservations, des abonnements, des contrats ou d’autres données liées. Cela permet, par exemple, d’envoyer les campagnes à toutes les adresses connues d’un profil ou pour chaque réservation associée à ce profil.</td></tr>
+<td><img alt="Segmentation et envoi de plusieurs entités" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>Segmentation et envoi multi-entités</b><br/>Allez au-delà des campagnes basées sur les personnes : utilisez des entités telles que des catalogues de produits, des emplacements de magasin ou des données de service pour un ciblage précis.<br/><br/>
+Prenez en charge l’envoi à plusieurs niveaux, où un message est envoyé par profil et par entité secondaire associée. Ces entités secondaires peuvent inclure des adresses de contact, des réservations, des abonnements, des contrats ou d’autres données liées. Cela permet, par exemple, d’envoyer les campagnes à toutes les adresses connues d’un profil ou pour chaque réservation associée à ce profil.</td></tr>
 <tr style="border: 0;">
 <td><img alt="Visibilité et précision avant l’envoi" src="assets/do-not-localize/icon-visibility.svg" width="150px"></a></td><td><b>Visibilité et précision avant l’envoi</b><br/>Obtenez un nombre exact de segmentations et une portée complète des campagnes avant leur lancement, afin de garantir la précision et la confiance.</td></tr>
 <tr style="border: 0;">
@@ -156,6 +148,6 @@ Maintenant que vous avez appris les principes de base des campagnes orchestrées
 * **[Mécanismes de sécurisation et limitations](guardrails.md)** ; passez en revue les mécanismes de sécurisation, les limitations et les bonnes pratiques pour garantir des performances optimales des campagnes.
 * **[Questions fréquentes](orchestrated-campaigns-faq.md)** ; trouvez des réponses aux questions fréquentes sur les fonctionnalités, les capacités et les cas d’usage des campagnes orchestrées.
 * **[Tutoriels sur les campagnes orchestrées](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** ; explorez des tutoriels vidéo détaillés présentant les fonctionnalités et les meilleures pratiques.
-* **[Impliquer les clients en parcourant l’activité](engage-customers-uc.md)** - Réengagez les profils qui ont parcouru mais n’ont pas effectué d’achat, à l’aide d’une campagne orchestrée en plusieurs étapes.
-* **[Informer les utilisateurs de la disponibilité du produit](product-availability-uc.md)** - Avertir les clients lorsqu’un produit qui les intéresse est de nouveau en stock.
-* **[Envoyer des mises à jour d’éléments de liste de souhaits](wishlist-uc.md)** - Déclenchez des messages personnalisés lorsque des éléments de liste de souhaits sont mis en vente ou deviennent disponibles.
+* **[Impliquer les clientes et clients en parcourant l’activité](engage-customers-uc.md)** : réengagez les profils qui ont parcouru le site sans effectuer d’achat, à l’aide d’une campagne orchestrée en plusieurs étapes.
+* **[Informer les utilisateurs et utilisatrices de la disponibilité du produit](product-availability-uc.md)** : avertissez les clientes et clients lorsqu’un produit qui les intéresse est de nouveau en stock.
+* **[Envoyer des mises à jour sur les articles de la liste de souhaits](wishlist-uc.md)** : déclenchez des messages personnalisés lorsque des articles de la liste de souhaits sont mis en vente ou deviennent disponibles.

@@ -6,8 +6,7 @@ role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
 source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
 source-wordcount: 606
@@ -81,4 +80,4 @@ Journey Optimizer propose deux expériences pour tester votre contenu :
 
 Découvrez comment utiliser des profils de test pour tester le rendu des e-mails dans différentes boîtes de réception, prévisualiser vos e-mails personnalisés avec des profils de test et envoyer des BAT.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430344?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)

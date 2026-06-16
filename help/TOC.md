@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 727d99f93d3fc19848f00ab423ec320a092b357c
 workflow-type: tm+mt
 source-wordcount: '3362'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 95%
    + Travailler efficacement {#work-efficiently}
       + [Naviguer dans l’interface](using/start/user-interface.md)
       + [Rechercher, filtrer, organiser](using/start/search-filter-categorize.md)
-      + [Questions fréquentes sur la résolution des problèmes](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [Questions fréquentes sur la résolution des problèmes](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Accessibilité](using/start/accessibility.md)
       + {hide-from-toc}[Parcours et campagnes](using/start/journeys-vs-campaigns.md)
 + Parcours {#orchestrate-journeys}
@@ -68,8 +68,8 @@ ht-degree: 95%
       + [Configurer et suivre les mesures de votre parcours](using/building-journeys/success-metrics.md)
       + [Concevoir le parcours](using/building-journeys/using-the-journey-designer.md)
       + Simulation {#simulate-journey}
-         + [Prise en main de la simulation de parcours &#x200B;](using/building-journeys/simulate-journey-gs.md)
-         + [Simuler votre parcours &#x200B;](using/building-journeys/simulate-journey.md)
+         + [Prise en main de la simulation de parcours ](using/building-journeys/simulate-journey-gs.md)
+         + [Simuler votre parcours](using/building-journeys/simulate-journey.md)
       + [Tester votre parcours](using/building-journeys/testing-the-journey.md)
       + [Test à blanc du parcours](using/building-journeys/journey-dry-run.md)
       + [Publier votre parcours](using/building-journeys/publish-journey.md)
@@ -148,7 +148,7 @@ ht-degree: 95%
    + {hide-from-toc}[Accéder aux défis et aux tâches et les gérer](using/loyalty-challenges/access-loyalty-challenges.md)
    + {hide-from-toc}[Créer des défis](using/loyalty-challenges/create-challenges.md)
    + {hide-from-toc}[Créer des tâches](using/loyalty-challenges/create-tasks.md)
-   + {hide-from-toc}[Surveillance des performances des défis de fidélité](using/loyalty-challenges/loyalty-reporting.md)
+   + {hide-from-toc}[Surveiller les performances des défis de fidélité](using/loyalty-challenges/loyalty-reporting.md)
    + {hide-from-toc}[Configurer les défis de fidélité](using/loyalty-challenges/loyalty-admin.md)
    + {hide-from-toc}[Données et jeux de données de fidélité](using/loyalty-challenges/loyalty-data-and-datasets.md)
    + {hide-from-toc}[Référence de l’API Loyalty Challenges](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges)
@@ -218,7 +218,7 @@ ht-degree: 95%
          + [Enrichissement](using/orchestrated/activities/enrichment.md)
          + [Branchement](using/orchestrated/activities/fork.md)
          + [Requête incrémentale](using/orchestrated/activities/incremental-query.md)
-         + {hide-from-toc}[Charger un fichier](using/orchestrated/activities/load-file.md)
+         + {hide-from-toc}[Charger le fichier](using/orchestrated/activities/load-file.md)
          + [Lecture d’audience](using/orchestrated/activities/read-audience.md)
          + [Réconciliation](using/orchestrated/activities/reconciliation.md)
          + [Enregistrer l’audience](using/orchestrated/activities/save-audience.md)
@@ -230,8 +230,8 @@ ht-degree: 95%
          + [Interagir avec les clientes et clients en fonction de leur activité de navigation](using/orchestrated/engage-customers-uc.md)
          + [Informer les utilisateurs et les utilisatrices de la disponibilité d’un produit](using/orchestrated/product-availability-uc.md)
       + Opérations avancées {#orchestrated-advanced}
-         + [Utilisation de variables dans des campagnes orchestrées](using/orchestrated/variables-orchestrated-campaigns.md)
-         + [Définition de variables globales dans des campagnes orchestrées](using/orchestrated/global-variables.md)
+         + [Utiliser des variables dans des campagnes orchestrées](using/orchestrated/variables-orchestrated-campaigns.md)
+         + [Définir des variables globales dans des campagnes orchestrées](using/orchestrated/global-variables.md)
          + [Déclencher des campagnes orchestrées à l’aide d’un signal](using/orchestrated/trigger-orchestrated-campaign.md)
 + Conflit et hiérarchisation {#conflict-prioritization}
    + [Gestion des conflits et hiérarchisation](using/conflict-prioritization/gs-conflict-prioritization.md)
@@ -245,7 +245,7 @@ ht-degree: 95%
       + [Définir des heures creuses](using/conflict-prioritization/quiet-hours.md)
    + Arbitrage des parcours {#journey-arbitration}
       + [Utiliser des formules pour classer les parcours](using/conflict-prioritization/journey-ranking-formulas.md)
-      + [Utilisation des modèles d’IA pour classer les parcours](using/conflict-prioritization/journey-ai-models.md)
+      + [Utiliser les modèles d’IA pour classer les parcours](using/conflict-prioritization/journey-ai-models.md)
 + Tester et approuver {#test}
    + [Tester, valider et approuver](/help/rp_landing_pages/test-landing-page.md)
    + Prévisualiser et tester du contenu {#preview-test}
@@ -287,7 +287,7 @@ ht-degree: 95%
       + [Prise en main des e-mails](using/email/get-started-email.md)
       + [Créer un e-mail](using/email/create-email.md)
       + Concevoir le contenu de vos e-mails {#design-email}
-         + {hide-from-toc}[Concevoir le contenu de votre e-mail](/help/rp_landing_pages/design-email-landing-page.md)
+         + {hide-from-toc}[Concevoir le contenu de vos e-mails](/help/rp_landing_pages/design-email-landing-page.md)
          + {hide-from-toc}[Concevoir le contenu des messages](using/start/message-content-design.md)
          + [Commencer la conception d’e-mails](using/email/get-started-email-design.md)
          + Commencer à créer du contenu {#start-creating-content}
@@ -299,7 +299,7 @@ ht-degree: 95%
             + [Utiliser les thèmes d’e-mail](using/email/apply-email-themes.md)
             + [Joindre des fichiers PDF à vos e-mails](using/email/pdf-attachments.md)
          + Créer votre contenu {#add-content}
-            + {hide-from-toc}[Concevoir le contenu](/help/rp_landing_pages/add-content-landing-page.md)
+            + {hide-from-toc}[Concevoir votre contenu](/help/rp_landing_pages/add-content-landing-page.md)
             + [Utiliser des composants de contenu](using/email/content-components.md)
             + [Utiliser des fragments visuels](using/email/use-visual-fragments.md)
             + [Ajouter des liens et suivre les messages](using/email/message-tracking.md)
@@ -310,7 +310,7 @@ ht-degree: 95%
             + [Ajouter des métadonnées](using/email/email-metadata.md)
             + [Modifier avec l’éditeur HTML avancé](using/email/email-expert-mode.md)
          + Modifier le style {#edit-style}
-            + {hide-from-toc}[Modifier le style &#x200B;](/help/rp_landing_pages/edit-style-landing-page.md)
+            + {hide-from-toc}[Modifier le style](/help/rp_landing_pages/edit-style-landing-page.md)
             + [Prise en main du style des e-mails](using/email/get-started-email-style.md)
             + [Modifier les paramètres d’arrière-plan](using/email/backgrounds.md)
             + [Ajuster l’alignement vertical et la marge intérieure](using/email/alignment-and-padding.md)
@@ -326,7 +326,7 @@ ht-degree: 95%
          + [Paramètres d’en-tête](using/email/header-parameters.md)
          + [Tracking d’URL](using/email/url-tracking.md)
          + [Personnaliser la configuration du canal e-mail](using/email/surface-personalization.md)
-      + [Utilisation et configuration des liens profonds](using/email/deeplinks.md)
+      + [Utiliser et configurer des liens profonds](using/email/deeplinks.md)
       + [Gérer les opt-out pour les e-mails](using/email/email-opt-out.md)
    + Canal in-app {#in-app}
       + [Canal in-app](/help/rp_landing_pages/in-app-landing-page.md)
@@ -349,11 +349,11 @@ ht-degree: 95%
          + [Configurer le canal de notification push web](using/push/push-configuration-web.md)
          + [Workflow de démarrage rapide de l’intégration mobile](using/push/mobile-onboarding-wf.md)
    + Canal SMS/MMS/RCS {#mobile}
-      + [Prise en main de la messagerie mobile](using/mobile/get-started-mobile.md)
+      + [Commencer avec les messages mobiles](using/mobile/get-started-mobile.md)
       + [Créer un message mobile](using/mobile/create-mobile-message.md)
-      + [Concevoir un message mobile](using/mobile/design-mobile.md)
+      + [Créer un message mobile](using/mobile/design-mobile.md)
       + [Vérifier et envoyer vos messages mobiles](using/mobile/send-mobile-message.md)
-      + [Gérer le processus d&#39;opt-out des messages mobiles](using/mobile/mobile-opt-out.md)
+      + [Gérer les opt-out pour les messages mobiles](using/mobile/mobile-opt-out.md)
       + [Configurer des sous-domaines SMS](using/mobile/mobile-subdomains.md)
       + [Bonnes pratiques pour l’optimisation des coûts des SMS](using/mobile/mobile-cost-optimization.md)
       + Configurer le canal mobile {#configure-mobile}
@@ -363,7 +363,7 @@ ht-degree: 95%
          + [Configurer le fournisseur Twilio](using/mobile/mobile-configuration-twilio.md)
          + [Configurer un fournisseur personnalisé](using/mobile/mobile-configuration-custom.md)
          + [Créer un webhook](using/mobile/mobile-webhook.md)
-         + [Création d’une configuration mobile](using/mobile/mobile-configuration-surface.md)
+         + [Créer une configuration mobile](using/mobile/mobile-configuration-surface.md)
          + [Utiliser un jeu de données personnalisé pour les mots-clés entrants](using/mobile/custom-dataset-inbound-keywords.md)
    + Courrier {#direct-mail}
       + [Courrier](/help/rp_landing_pages/direct-mail-landing-page.md)
@@ -465,7 +465,7 @@ ht-degree: 95%
          + [Fonctions de chaîne](using/personalization/functions/string.md)
       + Cas d’utilisation de personnalisation {#personalization-use-cases}
          + [Cas d’utilisation de personnalisation](/help/rp_landing_pages/personalization-use-cases-landing-page.md)
-         + [Recettes Personalization](using/personalization/personalization-recipes.md)
+         + [Recettes de personnalisation](using/personalization/personalization-recipes.md)
          + [Notification de statut de la commande](using/personalization/personalization-use-case.md)
          + [E-mail d’abandon de panier](using/personalization/personalization-use-case-helper-functions.md)
          + [E-mail d’ordonnances de programmes de santé](using/personalization/perso-uc-plan-prescriptions.md)
@@ -520,7 +520,7 @@ ht-degree: 95%
          + {hide-from-toc}[Configurer le référentiel pour les fragments de contenu](using/integrations/aem-admin-settings.md)
          + [Utiliser les fragments de contenu Experience Manager](using/integrations/aem-fragments.md)
          + [Considérations et résolution des problèmes](using/integrations/aem-fragments-limitations.md)
-      + [Utilisation du gestionnaire de contenu Experience Manager](using/integrations/aem-content-advisor.md)
+      + [Collaborer avec un conseiller ou une conseillère en contenu Experience Manager](using/integrations/aem-content-advisor.md)
       + [Utiliser Dynamic Media](using/integrations/aem-dynamic.md)
       + {hide-from-toc}[Insérer un compte à rebours](using/integrations/countdown.md)
       + [Utiliser GenStudio for Performance Marketing](using/integrations/genstudio.md)
@@ -530,9 +530,9 @@ ht-degree: 95%
          + [Utiliser des intégrations externes pour la personnalisation](using/integrations/integrations-personalization.md)
          + [Questions fréquentes](using/integrations/vendor-integration-faq.md)
          + Exemples de fournisseurs {#vendors}
-            + [Prise en main de l’intégration des fournisseurs](using/integrations/vendor-integration-gs.md)
+            + [Commencer avec l’intégration des fournisseurs](using/integrations/vendor-integration-gs.md)
             + [Exemples de configurations de fournisseur](using/integrations/vendor-integration.md)
-      + [Utilisation des outils d’IA via MCP](/help/using/integrations/ajo-mcp.md)
+      + [Utiliser les outils d’IA via MCP](/help/using/integrations/ajo-mcp.md)
    + Assistant IA pour la génération de contenu {#ai-assistant}
       + [Assistant IA pour la génération de contenu](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [Commencer avec l’Assistant IA](using/content-management/gs-generative.md)
@@ -910,7 +910,7 @@ ht-degree: 95%
    + [Commencer la configuration des canaux](using/configuration/get-started-configuration.md)
    + [Paramétrer des configurations de canal](using/configuration/channel-surfaces.md)
    + [Exporter le contenu du message](using/configuration/message-export.md)
-   + {hide-from-toc}[Schéma d&#39;export des messages &#x200B;](using/configuration/message-export-schema.md)
+   + {hide-from-toc}[Schéma d’export des messages AJO](using/configuration/message-export-schema.md)
    + Configuration guidée des canaux {#guided-setup}
       + [Commencer la configuration guidée des canaux](using/configuration/set-mobile-config.md)
       + [Créer une configuration de canal](using/configuration/create-channel-set-up.md)

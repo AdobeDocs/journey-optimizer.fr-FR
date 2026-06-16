@@ -8,7 +8,7 @@ exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
 source-wordcount: '704'
-ht-degree: 83%
+ht-degree: 92%
 
 ---
 
@@ -28,7 +28,7 @@ Garantissez une diffusion parfaite des messages en détectant les erreurs avant 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Prévisualiser et tester votre contenu
 
@@ -38,7 +38,7 @@ Découvrez comment utiliser des profils de test et des exemples de données d’
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Sélectionner des profils de test
 
@@ -48,7 +48,7 @@ Découvrez comment sélectionner et gérer des profils de test pour prévisualis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Prévisualiser votre contenu à l’aide de profils de test
 
@@ -58,7 +58,7 @@ Guide détaillé pour la prévisualisation de contenu personnalisé à l’aide 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Envoyer des BAT à l’aide des données de profil de test
 
@@ -78,7 +78,7 @@ Intégrez Litmus pour prévisualiser le rendu des e-mails sur les principaux cli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Simuler et tester des variations de contenu
 
@@ -122,13 +122,13 @@ Suivez cette séquence pour une validation complète :
 
 **Contexte :** exemples réels montrant comment appliquer des outils de test dans des cas d’utilisation standard.
 
-**Scénario 1 : test des e-mails personnalisés pour une campagne multisegment**
+**Scénario 1 : tester des e-mails personnalisés pour une campagne multi-segment**
 → Utilisez des [exemples de données d’entrée](../using/test-approve/simulate-sample-input.md) pour tester jusqu’à 30 variations sans créer de profils de test individuels. Chargez un fichier CSV avec différents attributs de client, ajoutez manuellement des valeurs ou générez automatiquement des variantes avec l’IA et prévisualisez le tout en même temps.
 
-**Scénario 2 : validation du rendu des e-mails avant un envoi majeur**
-→ Exécuter [tests Litmus](../using/content-management/rendering.md) pour vérifier l&#39;affichage sur les principaux clients de messagerie, puis vérifiez le [rapport de spam](../using/content-management/spam-report.md) pour vérifier que la boîte de réception est bien placée.
+**Scénario 2 : valider le rendu des e-mails avant un envoi massif**
+→ Exécutez des [tests Litmus](../using/content-management/rendering.md) pour vérifier l’affichage sur les principaux clients de messagerie, puis consultez le [rapport de spam](../using/content-management/spam-report.md) pour vous assurer que les messages seront bien envoyés dans les boîtes de réception.
 
-**Scénario 3 : Obtention de l’approbation des parties prenantes**
+**Scénario 3 : obtenir l’approbation des parties prenantes**
 → [Envoyez des BAT](../using/content-management/proofs.md) aux réviseurs et réviseuses internes avec les données de profil de test afin qu’ils voient exactement ce que les clients et clientes recevront.
 
 ## Points clés

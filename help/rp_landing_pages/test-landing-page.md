@@ -12,7 +12,7 @@ exl-id: a770412f-2f80-459d-8cce-32212154d154
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
 source-wordcount: '2281'
-ht-degree: 83%
+ht-degree: 96%
 
 ---
 
@@ -22,11 +22,11 @@ Cette section couvre toutes les fonctionnalités de test et d’approbation de J
 
 Cette page de destination vous permet de choisir la bonne approche de test en fonction de ce que vous créez (campagnes ou parcours), vous guide tout au long des workflows de test recommandés et fournit un accès rapide à toutes les ressources de test et d’approbation. Commencez par [Choisir votre approche de test](#choose-your-testing-approach) ci-dessous pour identifier les outils qui s’appliquent à votre cas d’utilisation. Pour connaître la définition des termes de test clés, voir [Terminologie clé](#key-terminology).
 
-## Test et approbation du contenu
+## Tester et approuver du contenu
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Prévisualiser, tester et valider le contenu
 
@@ -36,7 +36,7 @@ Découvrez comment prévisualiser, tester et valider du contenu personnalisé à
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Workflows d’approbation des parcours et des campagnes
 
@@ -46,7 +46,7 @@ Découvrez comment configurer, gérer et exécuter des processus d’approbation
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Tester votre parcours
 
@@ -56,7 +56,7 @@ Validez votre parcours avant de le publier en le testant avec des profils spéci
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Test à blanc du parcours
 
@@ -66,7 +66,7 @@ Effectuez un test à blanc pour simuler et valider le chemin d’exécution de v
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Surveillance et dépannage
 
@@ -76,7 +76,7 @@ Accédez à un ensemble complet de ressources de dépannage, d’alertes systèm
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Terrain de jeu de personnalisation
 
@@ -86,7 +86,7 @@ Testez les expressions de personnalisation dans un environnement sécurisé. Tes
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Expériences de contenu et tests A/B
 
@@ -96,7 +96,7 @@ Optimisez vos campagnes en testant plusieurs variations de contenu et en mesuran
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Listes de contrôle pour la surveillance des parties prenantes
 
@@ -106,7 +106,7 @@ Incluez automatiquement les adresses des parties prenantes internes dans les dif
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Détection des conflits
 
@@ -313,7 +313,7 @@ Découvrez comment les concepts de test s’appliquent aux scénarios réels :
 <a href="../using/building-journeys/journeys-uc.md"><strong>Envoyer des messages multicanaux</strong></a>
 </div>
 <p>
-Testez un parcours qui combine la lecture d’audience, les événements de réaction et les e-mails/messages push. Validez l’ensemble du flux, du ciblage des audiences à la diffusion des messages. Concentrez-vous sur la coordination multicanal, les événements de réaction, la validation du flux de bout en bout et les étapes de test/publication.
+Testez un parcours qui combine la lecture d’audience, les événements de réaction et les e-mails/messages push. Validez l’ensemble du flux, depuis le ciblage des audiences jusqu’à la diffusion des messages. Concentrez-vous sur la coordination multicanal, les événements de réaction, la validation du flux de bout en bout et les étapes de test/publication.
 </p>
 </td>
 <td>
@@ -324,7 +324,7 @@ Testez un parcours qui combine la lecture d’audience, les événements de réa
 <a href="../using/building-journeys/message-to-subscribers-uc.md"><strong>Envoyer un message aux personnes abonnées</strong></a>
 </div>
 <p>
-Testez des parcours qui ciblent les listes d’abonnements avec une adresse e-mail dynamique. Validez les expressions de personnalisation pour un ciblage correct des abonnés. Concentrez-vous sur les expressions de personnalisation, l’adressage dynamique et le ciblage des listes d’abonnements.
+Testez des parcours qui ciblent les listes d’abonnements avec un adressage e-mail dynamique. Validez les expressions de personnalisation pour un ciblage correct des personnes abonnées. Concentrez-vous sur les expressions de personnalisation, l’adressage dynamique et le ciblage des listes d’abonnements.
 </p>
 </td>
 <td>
@@ -349,7 +349,7 @@ Testez des parcours avec des conditions temporelles pour vous assurer que les me
 <a href="../using/building-journeys/jo-use-cases.md"><strong>Explorer d’autres cas d’utilisation de parcours</strong></a>
 </div>
 <p>
-Accédez à une collection complète d’exemples pratiques couvrant les événements d’expérience, la messagerie multicanal et les intégrations système externes. Explorez divers scénarios, modèles avancés et approches de test d’intégration.
+Accédez à un ensemble complet d’exemples pratiques couvrant les événements d’expérience, les messages multicanaux et les intégrations de systèmes externes. Découvrez plusieurs scénarios, modèles avancés et approches en matière de tests d’intégration.
 </p>
 </td>
 </tr></table>
@@ -407,21 +407,21 @@ Découvrez comment les fonctionnalités de test sont reliées entre elles et à 
 * Le parcours doit être à l’état de brouillon pour utiliser le mode test.
 * L’espace de noms du parcours doit être configuré pour utiliser le mode test.
 
-### De quoi dépend le test (en amont) ?
+### Éléments dont dépendent les tests (en amont)
 
 * Création de contenu : campagnes ou parcours à tester nécessaires
 * Profils de test : requis pour le mode test et l’aperçu du contenu
 * Politiques d’approbation : obligatoires pour les workflows d’approbation
 * Configuration : configurations de canal, authentification des e-mails, paramètres de domaine.
 
-### Ce qui dépend des tests (en aval)
+### Éléments dont dépendent les tests (en aval)
 
 * Activation de la campagne ou du parcours : activation impossible sans résoudre les erreurs
 * Publication : une approbation peut être requise avant la publication.
 * Surveillance en direct : surveillance et reporting après le lancement
 * Optimisation : utilisez les résultats des tests pour affiner les campagnes futures.
 
-### Fonctionnalités connexes
+### Fonctionnalités associées
 
 * Workflows de test et d’approbation : processus d’assurance qualité
 * Tests et détection des conflits : prévention de la sursollicitation des clientes et clients
@@ -439,42 +439,42 @@ Découvrez comment les fonctionnalités de test sont reliées entre elles et à 
 
 >[!TAB Questions courantes]
 
-### Q : Quels tests sont requis avant de lancer une campagne ?
+### Q : quels sont les tests requis avant de lancer une campagne ?
 
-**Minimum :** aperçu du contenu avec profils de test + vérification du score de spam (email)
-**Recommandé :** + Rendu des e-mails + Détection des conflits + Workflow d’approbation
-**Bonne pratique :** + Test d’exemples de données d’entrée + Listes de contrôle + Expérience A/B (si optimisation)
+**Minimum :** aperçu du contenu avec profils de test + vérification du score de spam (e-mail)
+**Recommandé :** + Rendu des e-mails + Détection des conflits + Workflow d’approbation
+**Bonne pratique :** + Test d’exemples de données d’entrée + Listes de contrôle + Expérience A/B (si optimisation)
 
-### Q : Comment tester la personnalisation sans créer de nombreux profils de test ?
+### Q : comment tester la personnalisation sans créer de nombreux profils de test ?
 
-**Solution de Principal :** utilisez [exemples de données d’entrée](../using/test-approve/simulate-sample-input.md) avec des fichiers CSV/JSON (prend en charge jusqu’à 30 variantes)
-**Alternative :** créez 3 à 5 profils de test représentatifs [profils de test](../using/audience/creating-test-profiles.md) couvrant les segments clés
-**Outil d’apprentissage :** Expérimentez d’abord dans [terrain de jeu de personnalisation](../using/personalization/personalize.md#playground)
+**Solution principale :** utilisez des [exemples de données d’entrée](../using/test-approve/simulate-sample-input.md) avec des fichiers CSV/JSON (30 variantes prises en charge).
+**Alternative :** créez 3 à 5 [profils de test](../using/audience/creating-test-profiles.md) représentatifs couvrant les segments clés
+**Outil d’apprentissage :** expérimentez d’abord dans le [terrain de jeu de personnalisation](../using/personalization/personalize.md#playground).
 
-### Q : Quelle est la différence entre le mode test et le mode essai pour les parcours ?
+### Q : quelle est la différence entre le mode test et le test à blanc pour les parcours ?
 
-**Mode test :** envoie des profils de test par le biais du parcours, déclenche des actions réelles et génère des messages de test. Nécessite un brouillon de parcours + espace de noms.
-**Exécution d’essai :** effectue le suivi des chemins d’exécution sans rien envoyer. Fonctionne avec n’importe quel statut de parcours. Aucun message envoyé, aucune action exécutée.
-**Utiliser ensemble :** Mode test pour le test des messages + Exécution d’essai pour la validation de la logique - couverture complète.
+**Mode test :** envoie des profils de test par le biais du parcours, déclenche des actions réelles et génère des messages de test. Nécessite un brouillon de parcours + un espace de noms.
+**Test à blanc :** effectue le suivi des chemins d’exécution sans rien envoyer. Fonctionne avec n’importe quel statut de parcours. Aucun message envoyé, aucune action exécutée.
+**Utilisation combinée :** mode test pour tester les messages + test à blanc pour valider la logique, couverture complète.
 
-### Q : Puis-je tester des parcours au statut de production/en ligne ?
+### Q : puis-je tester les parcours en production/actifs ?
 
-**Mode Test :** Non - parcours de brouillon uniquement
-**Exécution d’essai :** Oui - fonctionne quel que soit le statut du parcours
-**Aperçu du contenu :** Oui - prévisualisez des messages individuels à tout moment
-**Solution :** dupliquer le parcours dynamique en mode brouillon pour la validation du mode test complet.
+**Mode test :** non, uniquement les brouillons de parcours.
+**Test à blanc** : oui, il fonctionne avec n’importe quel statut de parcours.
+**Aperçu du contenu :** oui, prévisualisez des messages individuels à tout moment.
+**Solution :** dupliquez le parcours actif en brouillon pour la validation du mode test complet.
 
-### Q : Quelles fonctionnalités de test nécessitent des intégrations externes ?
+### Q : quelles fonctionnalités de test nécessitent des intégrations externes ?
 
-**Rendu des e-mails :** nécessite l’intégration de Litmus (licence distincte)
-**Tous les autres :** intégré à Journey Optimizer, aucune intégration supplémentaire requise
-**Remarque :** les profils de test nécessitent le service de profil client en temps réel (inclus)
+**Rendu des e-mails :** nécessite l’intégration Litmus (licence distincte)
+**Toutes les autres :** intégrées à Journey Optimizer, aucune intégration supplémentaire requise.
+**Remarque :** les profils de test nécessitent le service de profil client en temps réel (inclus).
 
-### Q : Comment tester les campagnes déclenchées par l’API ?
+### Q : comment tester les campagnes déclenchées par API ?
 
-**Option 1 :** utiliser l’[API de simulation de campagne](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-« _blank »} pour les tests programmatiques
-**Option 2 : prévisualisation** contenu avec profils de test dans l’interface utilisateur
-**Option 3 :** envoyer des BAT aux adresses e-mail de test
-**Bonne pratique :** combinez les trois pour une validation complète
+**Option 1 :** utilisez l’[API de simulation de campagne](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-&quot;_blank&quot;} pour les tests programmatiques.
+**Option 2 :**prévisualisez le contenu avec des profils de test dans l’interface d’utilisation.
+**Option 3 :** envoyez des épreuves aux adresses e-mail de test.
+**Bonne pratique :** combinez les trois pour une validation complète.
 
 >[!ENDTABS]
