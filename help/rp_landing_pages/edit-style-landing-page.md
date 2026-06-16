@@ -20,7 +20,7 @@ Le Concepteur d’e-mail d’Adobe Journey Optimizer comprend de puissants out
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Personnaliser les styles des e-mails
 
@@ -40,7 +40,7 @@ Découvrez comment définir les couleurs d’arrière-plan et les images à diff
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Ajuster l’alignement vertical et la marge intérieure
 
@@ -50,7 +50,7 @@ Cette section contient des instructions détaillées pour modifier l’alignemen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Ajouter des attributs de style intégrés
 

@@ -40,7 +40,7 @@ Découvrez comment les listes de suppression protègent la réputation des expé
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
 
 Respecter les nouvelles exigences DMARC
 

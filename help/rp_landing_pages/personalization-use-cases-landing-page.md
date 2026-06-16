@@ -20,7 +20,7 @@ Cette section fournit des cas pratiques détaillés pour la création de message
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Notification de statut de la commande
 
@@ -30,7 +30,7 @@ Découvrez un scénario complet qui combine des attributs de profil, des donnée
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
 
 E-mail d’abandon de panier
 
@@ -40,7 +40,7 @@ Découvrez comment utiliser les fonctions d’assistance pour remplir de manièr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Alerte d’ordonnance d’une assurance santé
 
@@ -50,7 +50,7 @@ Créez un e-mail personnalisé unique qui répertorie toutes les ordonnances d�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Recettes de personnalisation
 

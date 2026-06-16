@@ -40,7 +40,7 @@ Découvrez les définitions détaillées des mesures utilisées sur les canaux d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Configurer manuellement Customer Journey Analytics
 

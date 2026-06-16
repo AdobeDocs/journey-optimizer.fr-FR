@@ -20,7 +20,7 @@ Explorez les puissantes fonctionnalités de syntaxe de l’éditeur d’expressi
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Syntaxe de l’éditeur d’expression avancé
 
@@ -30,7 +30,7 @@ Découvrez les règles de syntaxe détaillées pour utiliser l’éditeur d’ex
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Instruction conditionnelle (if, then, else/si, alors, sinon)
 
@@ -40,7 +40,7 @@ Maîtrisez l’utilisation d’instructions conditionnelles pour créer des expr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Présentation des types de données
 
@@ -50,7 +50,7 @@ Obtenez une vue d’ensemble complète des types de données utilisés dans les 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Utilisation de références de champ
 
@@ -60,7 +60,7 @@ Découvrez comment référencer des champs dans les expressions, y compris les c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Fonctions de gestion des collections
 

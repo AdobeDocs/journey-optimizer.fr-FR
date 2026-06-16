@@ -21,7 +21,7 @@ Les campagnes dans Adobe Journey Optimizer vous permettent de diffuser des mes
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Prise en main des campagnes
 

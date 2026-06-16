@@ -20,7 +20,7 @@ Les campagnes d’action dans Adobe Journey Optimizer vous permettent de diffu
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Créer une campagne d’action
 
@@ -40,7 +40,7 @@ Cette section contient des instructions détaillées sur la définition des prop
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Configurer les actions de la campagne
 

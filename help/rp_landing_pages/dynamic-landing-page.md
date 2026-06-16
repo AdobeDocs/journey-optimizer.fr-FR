@@ -20,7 +20,7 @@ Le contenu dynamique dans Adobe Journey Optimizer vous permet de créer des me
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Prise en main du contenu dynamique
 
@@ -30,7 +30,7 @@ Apprenez à utiliser les règles conditionnelles et l’éditeur de personnalisa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Créer et gérer des règles conditionnelles
 
@@ -40,7 +40,7 @@ Maîtrisez la création, l’enregistrement et la gestion des règles conditionn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Créer du contenu dynamique dans Adobe Journey Optimizer
 

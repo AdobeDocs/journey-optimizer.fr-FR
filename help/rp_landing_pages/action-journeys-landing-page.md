@@ -40,7 +40,7 @@ Tutoriel détaillé sur la configuration d’actions personnalisées, y compris 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Utilisation des réponses d’appel API dans des actions personnalisées
 
@@ -50,7 +50,7 @@ Découvrez comment utiliser les réponses d’appel API dans les actions personn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 Surveiller vos actions personnalisées
 

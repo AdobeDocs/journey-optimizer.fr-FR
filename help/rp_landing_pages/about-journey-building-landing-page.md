@@ -20,7 +20,7 @@ Les activités dans Adobe Journey Optimizer sont les blocs de création qui do
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Présentation des activités de parcours
 
@@ -40,7 +40,7 @@ Découvrez comment utiliser les événements généraux pour déclencher des par
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Configuration des événements de réaction
 
@@ -50,7 +50,7 @@ Découvrez comment réagir aux données de suivi telles que les clics ou les ouv
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Événements de qualification d’audience
 

@@ -52,7 +52,7 @@ Maîtrisez pleinement vos sous-domaines avec la délégation personnalisée : c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 Migrer de CNAME vers la délégation personnalisée
 
@@ -62,7 +62,7 @@ Migrez les sous-domaines existants configurés CNAME vers la délégation perso
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
 
 Configurer les enregistrements DMARC
 
@@ -82,7 +82,7 @@ Vérifiez les sous-domaines pour la délivrabilité de Gmail en ajoutant des enr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Accéder aux enregistrements PTR et les modifier
 

@@ -30,7 +30,7 @@ Découvrez comment Adobe Journey Optimizer offre aux utilisateurs et utilisatr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Utiliser des schémas dans Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Comprenez et gérez les schémas Adobe Experience Platform pour une modélisat
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=fr)
 
 Jeux de données Journey Optimizer
 
@@ -50,7 +50,7 @@ Découvrez des conseils complets sur la gestion des jeux de données, y compris 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Utiliser des données Adobe Experience Platform
 

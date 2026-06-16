@@ -62,7 +62,7 @@ Configurez des mécanismes d’opt-out en un clic ou en deux étapes pour gérer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Configurer le canal e-mail
 
