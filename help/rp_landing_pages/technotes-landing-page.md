@@ -2,25 +2,25 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Notes techniques
-description: Découvrez les méthodologies statistiques sous-jacentes à l’expérimentation de Journey Optimizer, y compris les séquences de confiance, les calculs d’effet élévateur et les taux de conversion.
+description: Découvrez les méthodologies statistiques sous-jacentes à l’expérimentation de Journey Optimizer, y compris les séquences de confiance, les calculs d’effet élévateur et les taux de conversion.
 redpen-status: CREATED_||_2025-08-12_00-43-53
 exl-id: 853c6c96-2dab-495f-946a-1b03c50632a2
 source-git-commit: 7897da644221ab05da9ca0e378f60b9aa5ef2564
-workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 54%
+workflow-type: ht
+source-wordcount: '131'
+ht-degree: 100%
 
 ---
 
 # Notes techniques{#section-overview}
 
-Ces notes techniques expliquent les méthodes statistiques utilisées dans l’expérimentation et le compte rendu des performances de Adobe Journey Optimizer. Utilisez-les pour comprendre comment les expériences sont surveillées, comment des mesures telles que l’effet élévateur et le taux de conversion sont calculées et comment interpréter les résultats en toute confiance.
+Ces notes techniques expliquent les méthodes statistiques utilisées dans l’expérimentation et le reporting d’Adobe Journey Optimizer.Utilisez-les pour comprendre comment les expériences sont surveillées, comment des mesures telles que l’effet élévateur et le taux de conversion sont calculées et comment interpréter les résultats en toute confiance.
 
 ## Notes techniques
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Calculs statistiques utilisés dans les expériences Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Découvrez les méthodologies statistiques avancées telles que les séquences d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Comprendre les calculs statistiques dans les rapports d’expérience
 

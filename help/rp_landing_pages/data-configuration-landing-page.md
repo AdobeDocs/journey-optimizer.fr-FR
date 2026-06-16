@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Configuration des données
-description: Découvrez comment configurer des schémas relationnels, des jeux de données, des dimensions de ciblage et des paramètres de canal pour alimenter des campagnes orchestrées dans Journey Optimizer.
+description: Découvrez comment configurer des schémas relationnels, des jeux de données, des dimensions de ciblage et des paramètres de canal pour alimenter des campagnes orchestrées dans Journey Optimizer.
 redpen-status: CREATED_||_2025-08-11_20-24-01
 exl-id: e1c20d14-4d0e-4ef9-9745-ca8ffe706f0b
 source-git-commit: 487dac21011f951bedc6f9f71c39faf549859d79
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ La configuration des données dans Adobe Journey Optimizer consiste à établir 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gérer des jeux de données et des schémas relationnels
 
@@ -30,7 +30,7 @@ Découvrez comment créer et gérer des schémas relationnels, configurer des je
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Configuration d’une dimension de ciblage
 
@@ -40,13 +40,13 @@ Guide détaillé permettant de mapper des schémas relationnels aux profils clie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Configuration d’une configuration de canal
+Créer une configuration des canaux
 
-Découvrez comment configurer des configurations de canal à utiliser dans des campagnes orchestrées, y compris les e-mails et les autres canaux pris en charge.
+Découvrez comment configurer des configurations de canaux à utiliser dans des campagnes orchestrées, y compris les e-mails et les autres canaux pris en charge.
 
-[Configuration d’un canal](../using/orchestrated/channel-config.md)
+[Configurer un canal](../using/orchestrated/channel-config.md)
 :::
 
 ::::

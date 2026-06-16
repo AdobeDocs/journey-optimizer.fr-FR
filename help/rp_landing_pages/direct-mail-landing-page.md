@@ -6,9 +6,9 @@ description: Courrier
 redpen-status: CREATED_||_2025-08-11_20-39-20
 exl-id: 024fd5b5-5707-47ad-b90f-26e0d62f2fd2
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '213'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Dans Adobe Journey Optimizer, le courrier permet de contacter vos clientes et 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Présentation des campagnes par courrier
 
@@ -30,7 +30,7 @@ Découvrez les campagnes par courrier dans Adobe Journey Optimizer, notamment 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Comment créer une campagne par courrier
 
@@ -40,7 +40,7 @@ Guide détaillé sur la création de campagnes par courrier et la configuration 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Comment vérifier et envoyer une campagne par courrier
 
@@ -50,7 +50,7 @@ Prévisualisez, validez, activez et gérez efficacement le consentement dans les
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurer le canal Courrier
 

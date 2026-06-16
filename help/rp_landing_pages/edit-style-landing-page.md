@@ -6,9 +6,9 @@ description: Modifier le style
 redpen-status: CREATED_||_2025-08-11_20-32-57
 exl-id: c4269d5d-95fa-4b00-add5-42a26ab0de9f
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Le Concepteur d’e-mail d’Adobe Journey Optimizer comprend de puissants out
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Personnaliser les styles des e-mails
 
@@ -30,7 +30,7 @@ Découvrez comment ajuster les paramètres de style tels que le corps, la struct
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Personnaliser l’arrière-plan des e-mails
 
@@ -40,7 +40,7 @@ Découvrez comment définir les couleurs d’arrière-plan et les images à diff
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Ajuster l’alignement vertical et la marge intérieure
 
@@ -50,7 +50,7 @@ Cette section contient des instructions détaillées pour modifier l’alignemen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Ajouter des attributs de style intégrés
 

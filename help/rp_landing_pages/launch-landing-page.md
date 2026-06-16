@@ -6,9 +6,9 @@ description: Lancer votre première campagne orchestrée
 redpen-status: CREATED_||_2025-08-11_20-24-42
 exl-id: 2b553e08-5a20-4efb-895e-c8984c52d6b5
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 92%
+workflow-type: ht
+source-wordcount: '258'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Le lancement de votre première campagne orchestrée dans Adobe Journey Optimi
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Guide détaillé pour la création d’une campagne orchestrée
 
@@ -30,9 +30,9 @@ Découvrez les étapes clés de création, de gestion et d’analyse d’une cam
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Création et planification d’une campagne orchestrée
+Créer et planifier une campagne orchestrée
 
 Découvrez comment créer et configurer des propriétés de campagne, des plannings d’exécution et garantir des performances optimales.
 
@@ -40,7 +40,7 @@ Découvrez comment créer et configurer des propriétés de campagne, des planni
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Activités de campagne orchestrée
 
@@ -50,7 +50,7 @@ Maîtrisez la zone de travail visuelle pour concevoir et configurer des activit�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Démarrer et surveiller vos campagnes
 
@@ -60,7 +60,7 @@ Découvrez comment tester, publier et surveiller vos campagnes orchestrées pour
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Création de rapports pour les campagnes orchestrées
 

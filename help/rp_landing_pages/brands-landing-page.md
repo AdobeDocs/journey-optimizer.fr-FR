@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Marques
-description: Découvrez comment créer, gérer et personnaliser des directives de marque dans Journey Optimizer pour garantir un contenu cohérent et sur la marque pour toutes vos campagnes.
+description: Découvrez comment créer, gérer et personnaliser des directives de marque dans Journey Optimizer pour garantir un contenu cohérent et conforme à la marque pour toutes vos campagnes.
 redpen-status: CREATED_||_2025-08-12_00-41-41
 exl-id: f1e3cb9d-83a8-48af-9121-4ebc56dce251
 source-git-commit: c8c07cf68cba20d6c6f4185bb3e8da0236f7acb5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '256'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Dans Adobe Journey Optimizer, la fonctionnalité « Marques » vous permet d
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Créer et gérer vos directives de marque
 
@@ -30,7 +30,7 @@ Découvrez comment définir, personnaliser et gérer les directives de marque po
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Évaluer votre score d’alignement sur la marque
 
@@ -40,7 +40,7 @@ Comprenez et utilisez la fonctionnalité d’alignement sur la marque pour véri
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Personnaliser vos marques
 
@@ -50,13 +50,13 @@ Découvrez comment définir les préférences de marque par défaut et adapter l
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Création et gestion de modèles génératifs
+Créer et gérer des modèles génératifs
 
 Découvrez comment créer et gérer des modèles d’IA génératifs personnalisés, formés selon les directives de votre marque pour une génération de contenu cohérente.
 
-[Gestion des modèles génératifs](../using/content-management/generative-models.md)
+[Gérer les modèles génératifs](../using/content-management/generative-models.md)
 :::
 
 ::::

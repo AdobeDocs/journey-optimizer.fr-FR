@@ -6,9 +6,9 @@ description: LINE
 redpen-status: CREATED_||_2025-08-11_20-44-38
 exl-id: 5f51bbfe-37f8-4e8d-8e4e-6b9d018cd076
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '226'
+ht-degree: 100%
 
 ---
 
@@ -25,12 +25,12 @@ Les messages LINE peuvent être créés et envoyés dans un parcours ou dans une
 
 Avant de créer votre message LINE, configurez votre canal LINE avec Journey Optimizer. [En savoir plus](../using/line/line-configuration.md).
 
-## Documentation du canal LINE
+## Documentation du canal LINE
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurer le canal LINE
 
@@ -40,7 +40,7 @@ Suivez les instructions détaillées pour configurer manuellement le canal LINE 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Créer et configurer les messages LINE
 
@@ -50,7 +50,7 @@ Découvrez comment ajouter des messages LINE aux parcours et aux campagnes, pers
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Vérifier et envoyer des messages LINE
 

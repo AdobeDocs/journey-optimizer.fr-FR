@@ -6,9 +6,9 @@ description: Fonctionnalités de décision
 redpen-status: CREATED_||_2025-08-11_21-05-27
 exl-id: 07bdd927-059d-4000-a4dd-a9e455b26976
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '173'
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 98%
 
 Les fonctionnalités de décision dans Journey Optimizer vous permettent de proposer les meilleures offres et expériences personnalisées à vos clientes et clients sur tous les points de contact, et ce, exactement au bon moment. Ces fonctionnalités simplifient la personnalisation grâce à un catalogue centralisé d’offres marketing et à un moteur de décision avancé, qui utilise des règles et des critères de classement pour diffuser le contenu le plus pertinent pour chaque individu.
 
-## Présentation des fonctionnalités de décision
+## Vue d’ensemble des fonctionnalités de décision
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Présentation des fonctionnalités de décision
 
@@ -30,7 +30,7 @@ Découvrez les outils et les fonctionnalités d’Adobe Journey Optimizer qui 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Prise de décision dans Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Découvrez comment créer, gérer et optimiser une diffusion de contenu personna
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gestion des décisions dans Adobe Journey Optimizer
 
