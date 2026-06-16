@@ -44,7 +44,7 @@ S&#39;il vous reste dix minutes, commencez par cette vidéo d&#39;orientation. I
 Ensuite, développez votre confiance pratique avec ces ressources d’apprentissage :
 
 * [Tutoriels Journey Optimizer &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/overview){target="_blank"} — Vidéos détaillées et procédures pas à pas pour chaque rôle.
-* [Liste de lecture vidéo sélectionnée par des experts](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"} — Ensemble séquentiel de courtes vidéos à regarder dans l’ordre.
+* [Liste de lecture vidéo sélectionnée par des experts](https://experienceleague.adobe.com/fr/playlists?solution=Journey+Optimizer){target="_blank"} — Ensemble séquentiel de courtes vidéos à regarder dans l’ordre.
 * [Sandbox de formation](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} — Un environnement sûr avec des exemples de données à pratiquer.
 * [Défis pratiques](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"} — Appliquez ce que vous apprenez avec des exercices guidés.
 
@@ -139,7 +139,7 @@ Parcourez le contenu vidéo traité par rubrique. Chaque onglet fournit des lien
 >[!TAB Rapports et optimisation]
 
 * [Surveillez et analysez votre parcours avec des rapports dynamiques](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"} — Suivez les performances en temps réel.
-* [Créer des expériences de contenu pour les campagnes par e-mail](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — Tester et optimiser le contenu.
+* [Créer des expériences de contenu pour les campagnes par e-mail](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — Tester et optimiser le contenu.
 
 >[!ENDTABS]
 
