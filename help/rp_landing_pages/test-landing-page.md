@@ -473,7 +473,7 @@ Découvrez comment les fonctionnalités de test sont reliées entre elles et à 
 ### Q : comment tester les campagnes déclenchées par API ?
 
 **Option 1 :** utilisez l’[API de simulation de campagne](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-&quot;_blank&quot;} pour les tests programmatiques.
-**Option 2 :**prévisualisez le contenu avec des profils de test dans l’interface d’utilisation.
+**Option 2 :**&#x200B;prévisualisez le contenu avec des profils de test dans l’interface d’utilisation.
 **Option 3 :** envoyez des épreuves aux adresses e-mail de test.
 **Bonne pratique :** combinez les trois pour une validation complète.
 
