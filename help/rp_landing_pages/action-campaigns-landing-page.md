@@ -6,9 +6,9 @@ description: Campagnes d’action
 redpen-status: CREATED_||_2025-08-11_20-22-10
 exl-id: 577ba2bf-0491-4e4a-bbf3-0cfb374086c1
 source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
-workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 84%
+workflow-type: ht
+source-wordcount: '276'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 84%
 
 Les campagnes d’action dans Adobe Journey Optimizer vous permettent de diffuser des messages ciblés en temps voulu pour des communications par lots telles que des promotions, des mises à jour ou des informations juridiques. Conçues dans un souci de flexibilité, ces campagnes vous permettent de définir des propriétés, de choisir des canaux de communication, d’optimiser le contenu, de définir des audiences, de planifier la diffusion et d’activer facilement les campagnes. Que vous créiez du contenu multilingue, testiez des variations ou donniez la priorité aux notifications urgentes, chaque étape permet de créer des communications efficaces et personnalisées. Cette section décompose le processus en étapes gérables, vous guidant de la planification à l’exécution, afin que vous puissiez concevoir en toute confiance des campagnes qui trouvent un écho auprès de votre audience et génèrent des résultats.
 
-## Ressources des campagnes d’action
+## Ressources sur les campagnes d’action
 
 :::: landing-cards-container
 :::
@@ -30,9 +30,9 @@ Découvrez comment créer et gérer des campagnes d’action, y compris les prop
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Définir les propriétés de la campagne d’action
+Définir les propriétés de campagne d’action
 
 Cette section contient des instructions détaillées sur la définition des propriétés de campagne, telles que le nommage, les balises et les libellés d’accès.
 
@@ -50,7 +50,7 @@ Guide de configuration des actions de campagne, notamment la sélection de canau
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Tirer parti de l’optimisation des messages
 
@@ -84,5 +84,5 @@ Sélectionnez l’audience et le type d’identité de votre campagne pour garan
 
 ## Ressources supplémentaires
 
-- **[Planifier la campagne d’action](../using/campaigns/campaign-schedule.md)** - Configurez les dates de début et de fin, la fréquence et la planification spécifique au canal pour votre campagne.
-- **[Vérifier et activer une campagne d’action](../using/campaigns/review-activate-campaign.md)** - Validez, vérifiez et activez votre campagne d’action avec des instructions détaillées.
+- **[Planifier la campagne d’action](../using/campaigns/campaign-schedule.md)** : configurez les dates de début et de fin, la fréquence et la planification spécifique au canal pour votre campagne.
+- **[Vérifier et activer une campagne d’action](../using/campaigns/review-activate-campaign.md)** : validez, vérifiez et activez votre campagne d’action avec des instructions détaillées.

@@ -6,9 +6,9 @@ description: Interrogation de la base de données
 redpen-status: CREATED_||_2025-08-11_20-25-18
 exl-id: 57ea921d-e881-44fb-b20a-a46028180e64
 source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
-workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 96%
+workflow-type: ht
+source-wordcount: '242'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Découvrez comment exploiter tout le potentiel de vos données d’audience avec
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
-Utilisation du Créateur de règles pour les campagnes orchestrées
+Utilisation du créateur de règles pour les campagnes orchestrées
 
 Découvrez comment créer et gérer des règles de ciblage et de segmentation d’audience à l’aide du créateur de règles dans Adobe Journey Optimizer.
 

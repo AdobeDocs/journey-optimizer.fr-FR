@@ -6,9 +6,9 @@ description: Documentation Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
-workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '635'
+ht-degree: 100%
 
 ---
 
@@ -97,7 +97,7 @@ Conseils détaillés pour la création, la gestion et l’optimisation de divers
 :::
 
 :::
-![icône](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
+![icône](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canaux de communication
 
@@ -107,7 +107,7 @@ Configurez et gérez les e-mails, les SMS, les notifications push et d’autres
 :::
 
 :::
-![icône](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=fr)
+![icône](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Gestion et hiérarchisation des conflits
 
@@ -140,7 +140,7 @@ Découvrez comment hiérarchiser et gérer efficacement les conflits de communic
 
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr" target="_blank">Documentation</a> - <a href="https://www.adobe.com/fr/experience-platform/documentation-and-developer-resources.html" target="_blank">Ressources pour le développement</a>
+<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr" target="_blank">Documentation</a> - <a href="https://www.adobe.com/fr/experience-platform/documentation-and-developer-resources.html" target="_blank">Ressources destinées aux développeurs</a>
 </td>
 </tr></table>
 

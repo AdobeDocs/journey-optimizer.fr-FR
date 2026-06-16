@@ -32,9 +32,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
-workflow-type: tm+mt
-source-wordcount: 462
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: 459
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ Découvrez comment hiérarchiser et gérer efficacement les conflits de communic
 
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr" target="_blank">Documentation</a> - <a href="https://www.adobe.com/fr/experience-platform/documentation-and-developer-resources.html" target="_blank">Ressources pour le développement</a>
+<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr" target="_blank">Documentation</a> - <a href="https://www.adobe.com/fr/experience-platform/documentation-and-developer-resources.html" target="_blank">Ressources destinées aux développeurs</a>
 </td>
 </tr></table>
 

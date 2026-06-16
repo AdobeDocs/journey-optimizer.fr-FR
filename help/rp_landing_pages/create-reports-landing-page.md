@@ -2,26 +2,26 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Créer des rapports de gestion des décisions
-description: Découvrez comment créer des rapports de gestion des décisions à l’aide de jeux de données d’événement et du schéma XDM DecisioningEvents pour analyser les performances des offres et les résultats des décisions.
+description: Découvrez comment créer des rapports sur la gestion des décisions à l’aide de jeux de données d’événement et du schéma XDM DecisioningEvents pour analyser les performances des offres et les résultats des décisions.
 redpen-status: CREATED_||_2025-08-11_21-02-56
 badge: label="Hérité" type="Informative"
 exl-id: 96be492d-5003-4954-94cb-467ec5a725bd
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '152'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
-# Création de rapports de gestion des décisions{#section-overview}
+# Créer des rapports de gestion des décisions{#section-overview}
 
 >[!TIP]
 >
 >La prise de décision, la nouvelle fonctionnalité de prise de décision d’[!DNL Adobe Journey Optimizer], est désormais disponible via les canaux d’expérience basée sur du code et d’e-mail. [En savoir plus](../using/experience-decisioning/gs-experience-decisioning.md)
 
-Utilisez les données d’événement de gestion des décisions et le schéma XDM DecisioningEvents pour créer des rapports personnalisés dans Adobe Journey Optimizer. Cette section explique comment utiliser les jeux de données d’événements et accéder aux champs XDM nécessaires à l’analyse des sélections d’offres, de l’utilisation de secours et de l’efficacité des emplacements.
+Utilisez les données d’événement de gestion des décisions et le schéma XDM DecisioningEvents pour créer des rapports personnalisés dans Adobe Journey Optimizer.Cette section explique comment utiliser les jeux de données d’événement et accéder aux champs XDM nécessaires à l’analyse des sélections d’offres, de l’utilisation d’offres de secours et de l’efficacité des emplacements.
 
-## Création de rapports de gestion des décisions
+## Créer des rapports de gestion des décisions
 
 :::: landing-cards-container
 :::
@@ -35,7 +35,7 @@ Découvrez comment utiliser les jeux de données d’événements de gestion des
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Accéder aux champs XDM DecisioningEvents et les explorer
 

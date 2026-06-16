@@ -6,9 +6,9 @@ description: Concevoir du contenu
 redpen-status: CREATED_||_2025-08-11_20-32-28
 exl-id: 407918ea-abc5-45b4-96b5-3afbdfa89238
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '319'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ La conception de votre contenu dans Adobe Journey Optimizer consiste à créer
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Utiliser des composants de contenu
 
@@ -70,17 +70,17 @@ Créez et personnalisez la version en texte brut de votre e-mail pour les destin
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
-Optimiser le texte des e-mails pour les boîtes de réception d’IA
+Optimiser le contenu des e-mails pour les boîtes de réception d’IA
 
-Structurez la couche de texte brut de votre e-mail afin que les clients de boîte de réception assistés par l’IA puissent mieux résumer et extraire vos offres et appels à l’action.
+Structurez la version en texte brut de votre e-mail afin que les clients de messagerie assistés par l’IA puissent mieux résumer et extraire vos offres et appels à l’action.
 
-[Optimiser le texte des e-mails pour les boîtes de réception d’IA](../using/email/llm-email-optimizer.md)
+[Optimiser le contenu des e-mails pour les boîtes de réception d’IA](../using/email/llm-email-optimizer.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Ajouter des métadonnées
 

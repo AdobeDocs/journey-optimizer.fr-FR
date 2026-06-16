@@ -6,9 +6,9 @@ description: Rapport dynamique
 redpen-status: CREATED_||_2025-08-11_20-47-56
 exl-id: 08fa046a-4610-4923-a84e-db54e5ad7402
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '273'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 La fonctionnalité Rapport dynamique d’Adobe Journey Optimizer vous permet de suivre et d’analyser les performances en temps réel de vos campagnes, parcours et messages, le tout dans un tableau de bord dynamique et personnalisable. Que vous souhaitiez surveiller l’engagement par e-mail, les taux de diffusion des SMS ou les conversions des pages de destination, les rapports dynamiques offrent des informations claires pour vous aider à optimiser les résultats. Vous allez apprendre à adapter les tableaux de bord à vos besoins, à exporter des données pour une analyse plus approfondie et à explorer des mesures détaillées sur différents canaux de communication. Explorez des sous-thèmes tels que les rapports de parcours et de campagne pour découvrir des tendances exploitables, identifier les problèmes et prendre des décisions basées sur les données en toute confiance.
 
-## Fonctionnalités du rapport dynamique
+## Fonctionnalités de rapport dynamique
 
 :::: landing-cards-container
 :::

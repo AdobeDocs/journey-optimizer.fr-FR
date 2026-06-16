@@ -6,9 +6,9 @@ description: Concevoir le contenu de vos e-mails
 redpen-status: CREATED_||_2025-08-11_20-33-11
 exl-id: 21ba6677-f158-4d9d-8b01-304c4d3841ee
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '233'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 La conception du contenu de vos e-mails dans Adobe Journey Optimizer permet de créer des e-mails visuellement attrayants, personnalisés et réactifs qui captivent votre audience. Que votre objectif soit de vous lancer sans contenu préalable, d’importer des modèles HTML ou de personnaliser des styles, ce guide vous présente chaque étape. Vous découvrirez aussi bien l’utilisation du contenu dynamique pour des expériences personnalisées que l’optimisation de l’accessibilité avec les métadonnées et les feuilles CSS. Découvrez des conseils pratiques, des composants de conception réutilisables et des outils tels qu’Adobe Stock et Experience Manager Assets Essentials pour rationaliser votre workflow. Grâce à des instructions claires et aux bonnes pratiques, vous gagnerez en confiance pour concevoir des campagnes percutantes et pertinentes sur toutes les plateformes et tous les appareils.
 
-## Concevoir le contenu de votre e-mail
+## Concevoir le contenu de vos e-mails
 
 :::: landing-cards-container
 :::
@@ -40,7 +40,7 @@ Découvrez les méthodes pour concevoir le contenu des e-mails, importer du cod
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Concevoir du contenu dans Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Découvrez les outils et les bonnes pratiques pour utiliser des composants, des 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Modifier le style : personnaliser les conceptions d’e-mail
 

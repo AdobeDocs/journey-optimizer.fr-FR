@@ -6,9 +6,9 @@ description: Expérience de contenu
 redpen-status: CREATED_||_2025-08-12_00-44-26
 exl-id: 7f01dd97-ef28-498a-8a8b-d72abaa7fdd4
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '215'
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 98%
 
 Les expériences de contenu d’Adobe Journey Optimizer vous permettent de tester et d’affiner vos campagnes marketing en comparant les performances des différentes variations de votre contenu auprès de votre audience. Grâce aux essais générés aléatoirement, vous pouvez identifier les messages qui ont le plus d’impact, afin d’améliorer l’engagement et d’optimiser vos résultats en fonction de données réelles. Cette section présente les concepts clés, de la compréhension de l’objectif des expériences à leur configuration, en passant par l’analyse des résultats et la mise à l’échelle des stratégies performantes. Vous allez obtenir des conseils pratiques, explorer les statistiques et découvrir comment prendre des décisions éclairées pour améliorer l’efficacité de votre stratégie marketing. Préparez-vous à transformer les données en actions en toute confiance !
 
-## Ressources d’expérience de contenu
+## Ressources sur les expériences de contenu
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Prise en main des expériences de contenu
 
@@ -30,7 +30,7 @@ Découvrez les principes de base des expériences de contenu, leur objectif et c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Créer et mettre à l’échelle les expériences de contenu
 
@@ -40,7 +40,7 @@ Guide détaillé de la création, de la configuration et de la mise à l’éche
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Techniques statistiques avancées pour l’expérimentation
 

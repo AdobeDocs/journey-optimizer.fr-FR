@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Adobe Experience Platform
-description: Découvrez comment utiliser les fonctions de données et d’audience de Adobe Experience Platform dans les parcours Journey Optimizer, y compris la fonction inAudience.
+description: Découvrez comment utiliser les données et les fonctions d’audience Adobe Experience Platform dans les parcours Journey Optimizer, y compris la fonction inAudience.
 redpen-status: CREATED_||_2025-08-11_20-11-06
 source-git-commit: 627b1a99cb9a7f59208e7d1339e8f1d136c07065
-workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 60%
+workflow-type: ht
+source-wordcount: '198'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Experience Platform est la base qui permet d’offrir des expériences cli
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Utilisation de la fonction inAudience
 
@@ -30,23 +30,23 @@ Découvrez comment utiliser la fonction inAudience pour évaluer l’appartenanc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Utilisation des données Adobe Experience Platform pour Personalization
+Utiliser les données Adobe Experience Platform pour la personnalisation
 
-Découvrez comment accéder aux attributs de profil et aux jeux de données Adobe Experience Platform et les utiliser pour personnaliser les messages et les conditions de parcours.
+Découvrez comment accéder aux attributs de profil et aux jeux de données Adobe Experience Platform et les utiliser pour personnaliser les messages et les conditions de parcours.
 
-[Utiliser les données AEP pour la personnalisation](../using/personalization/aep-data-perso.md)
+[Utiliser les données AEP pour la personnalisation](../using/personalization/aep-data-perso.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
-Utilisation des données Adobe Experience Platform dans les Parcours
+Utiliser des données Adobe Experience Platform dans les parcours
 
-Découvrez comment interroger et rechercher des données Adobe Experience Platform directement dans des conditions de parcours, des actions et des expressions.
+Découvrez comment interroger et rechercher des données Adobe Experience Platform directement dans des conditions de parcours, des actions et des expressions.
 
-[Utilisation des données AEP dans les parcours](../using/data/lookup-aep-data.md)
+[Utiliser les données AEP dans les parcours](../using/data/lookup-aep-data.md)
 :::
 
 ::::

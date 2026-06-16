@@ -1,20 +1,20 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Activities
+title: Activités
 description: Activités
 redpen-status: CREATED_||_2025-08-11_20-09-57
 exl-id: 9342ef70-43a7-4763-9ae0-bb95b8b7f7f1
 source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 # Activités{#section-overview}
 
-Les activités dans Adobe Journey Optimizer sont les blocs de création qui donnent vie à vos parcours clientèles en vous permettant de déclencher des événements, de prendre des décisions et de réaliser des actions significatives sur l’ensemble des canaux. Qu’il s’agisse d’écouter un événement d’achat, d’envoyer un e-mail personnalisé ou de mettre à jour un profil en temps réel, les activités vous permettent de personnaliser chaque étape du parcours. Chaque type d’activité, comme un événement, une orchestration ou une action, joue un rôle unique, en travaillant ensemble pour créer des expériences transparentes et attrayantes. En explorant ces outils, vous découvrirez comment utiliser des déclencheurs, des conditions et des actions pour concevoir des parcours aussi dynamiques que les besoins de vos clients.
+Les activités dans Adobe Journey Optimizer sont les blocs de création qui donnent vie à vos parcours clientèles en vous permettant de déclencher des événements, de prendre des décisions et de réaliser des actions significatives sur l’ensemble des canaux. Qu’il s’agisse d’écouter un événement d’achat, d’envoyer un e-mail personnalisé ou de mettre à jour un profil en temps réel, les activités vous permettent de personnaliser chaque étape du parcours. Chaque type d’activité, comme un événement, une orchestration ou une action, joue un rôle unique, en travaillant ensemble pour créer des expériences transparentes et attrayantes. En parcourant ces outils, vous découvrirez comment utiliser des déclencheurs, des conditions et des actions pour concevoir des parcours aussi dynamiques que les besoins de vos clientes et clients.
 
 ## Activités dans Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Découvrez les activités d’événement, d’orchestration et d’action dans 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Utilisation des événements généraux
 
@@ -60,13 +60,13 @@ Découvrez comment déclencher des actions et des conditions en fonction des sta
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Utilisation de l’activité Optimiser (conditions)
 
 Définissez plusieurs chemins d’accès dans un parcours en fonction de critères tels que le temps, la source de données ou le pourcentage de partage.
 
-[Configuration des conditions d’optimisation et de](../using/building-journeys/optimize.md)
+[Configurer l’activité Optimiser et les conditions](../using/building-journeys/optimize.md)
 :::
 
 :::
@@ -85,7 +85,7 @@ Contrôlez le minutage dans les parcours avec une durée ou des attentes personn
 ## Ressources supplémentaires
 
 - **[Utilisation d’une audience dans un parcours](../using/building-journeys/read-audience.md)** : permettez aux personnes des audiences Adobe Experience Platform de rejoindre les parcours de manière dynamique.
-- **[Actions de canal intégrées](../using/building-journeys/journey-action.md)** - Utilisez des parcours pour diffuser des messages ou des expériences par e-mail, SMS, notifications push, expériences in-app, web, basées sur du code ou cartes de contenu à l’aide des fonctionnalités intégrées de Journey Optimizer.
+- **[Actions de canal intégrées](../using/building-journeys/journey-action.md)** : utilisez des parcours pour diffuser des messages ou des expériences par e-mail, SMS, notifications push, in-app, web, des expériences basées sur du code ou des cartes de contenu à l’aide des fonctionnalités intégrées de Journey Optimizer.
 - **[Utilisation d’actions personnalisées](../using/building-journeys/using-custom-actions.md)** : intégrez des systèmes tiers à l’aide d’API REST avec des chemins d’accès dynamiques, des en-têtes et des paramètres de requête.
 - **[Activité de décision de contenu](../using/building-journeys/content-decision.md)** : proposez des offres personnalisées dans les parcours à l’aide de politiques de décision et de stratégies de contenu.
 - **[Actions Adobe Campaign Standard](../using/building-journeys/using-adobe-campaign-standard.md)** : envoyez des e-mails, des SMS et des notifications push transactionnels à l’aide de l’intégration Adobe Campaign Standard.

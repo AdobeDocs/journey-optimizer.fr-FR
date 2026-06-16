@@ -6,9 +6,9 @@ description: Cas d’utilisation
 redpen-status: CREATED_||_2025-08-11_20-20-12
 exl-id: 09b60e6e-8874-4950-a37a-fc807d3b39b1
 source-git-commit: 90804dddd9c789e10158502ddbd64ffe7898dacc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '379'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Explorez des exemples pratiques et des stratégies pour optimiser les fonctionna
 
 Rechercher des événements d’expérience
 
-Utilisez des alternatives d’événements d’expérience pour gérer les désinscriptions, personnaliser le contenu et relever les défis courants de l’orchestration des parcours.
+Utilisez les événements d’expérience alternatifs pour gérer les opt-out, personnaliser le contenu et résoudre les défis courants de l’orchestration des parcours.
 
 [En savoir plus](../using/building-journeys/exp-event-lookup.md)
 :::

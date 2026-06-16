@@ -6,9 +6,9 @@ description: Lancer votre première campagne orchestrée
 redpen-status: CREATED_||_2025-08-11_20-24-42
 exl-id: 2b553e08-5a20-4efb-895e-c8984c52d6b5
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 92%
+workflow-type: ht
+source-wordcount: '258'
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Découvrez les étapes clés de création, de gestion et d’analyse d’une cam
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
-Création et planification d’une campagne orchestrée
+Créer et planifier une campagne orchestrée
 
 Découvrez comment créer et configurer des propriétés de campagne, des plannings d’exécution et garantir des performances optimales.
 

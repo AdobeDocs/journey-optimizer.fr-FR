@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Configuration des actions
-description: Découvrez comment configurer des actions personnalisées dans Journey Optimizer pour connecter parcours à des systèmes tiers via des appels d’API, des réponses, la surveillance et la gouvernance.
+description: Découvrez comment configurer des actions personnalisées dans Journey Optimizer pour connecter des parcours à des systèmes tiers via des appels API, des réponses, la surveillance et la gouvernance.
 redpen-status: CREATED_||_2025-08-11_21-11-53
 exl-id: 4ce42dab-7e8f-454d-8f34-e713312ad7c5
 source-git-commit: 0fea7e06705d2154a664c72b8a483d1dbbdc18de
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '254'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ La configuration des actions dans Adobe Journey Optimizer vous permet de conne
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Commencer avec les actions personnalisées
 
@@ -30,7 +30,7 @@ Découvrez comment configurer et utiliser des actions personnalisées dans Adobe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configuration des actions personnalisées
 
@@ -52,11 +52,11 @@ Découvrez comment utiliser les réponses d’appel API dans les actions personn
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
-Surveiller Vos Actions Personnalisées
+Surveiller vos actions personnalisées
 
-Suivez les performances et l’exécution des actions personnalisées dans vos parcours à l’aide des fonctionnalités de surveillance et de création de rapports intégrées.
+Suivez les performances et l’exécution des actions personnalisées dans vos parcours à l’aide des fonctionnalités de surveillance et de reporting intégrées.
 
-[Surveillance des actions personnalisées](../using/action/reporting.md)
+[Surveiller les actions personnalisées](../using/action/reporting.md)
 :::
 
 ::::

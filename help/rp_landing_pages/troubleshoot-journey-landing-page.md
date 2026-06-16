@@ -6,9 +6,9 @@ description: Résolution des problèmes
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
 source-git-commit: b8d580eb6928f073934a33ede1d9c166d5370809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '574'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -113,7 +113,7 @@ Validez et déboguez les actions personnalisées à l’aide de la fonctionnalit
 
 Instructions relatives aux tickets d’assistance
 
-Découvrez les éléments à inclure lorsque vous contactez l’assistance Adobe (détails de l’environnement, niveau d’impact, étapes de réplication, journaux ou captures d’écran et identifiants pertinents) afin d’accélérer la résolution.
+Découvrez les éléments à inclure lorsque vous contactez l’assistance Adobe (détails de l’environnement, niveau d’impact, étapes de réplication, journaux ou copies d’écran et identifiants pertinents) afin d’accélérer la résolution.
 
 [Consignes pour les tickets de support](../using/start/user-interface.md#support-ticket-guidelines)
 :::

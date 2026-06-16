@@ -7,15 +7,15 @@ redpen-status: CREATED_||_2025-08-11_20-28-03
 exl-id: 6fc5b0f4-95a5-431d-a80a-3a1f71b4dd0d
 hide: true
 source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 # Campagnes{#section-overview}
 
-Les campagnes dans Adobe Journey Optimizer vous permettent de diffuser des messages personnalisés, opportuns et percutants sur l’ensemble des canaux, afin d’engager votre audience plus efficacement. Que vous planifiiez un e-mail promotionnel unique, automatisiez les messages transactionnels en temps réel ou orchestriez des parcours complexes à plusieurs étapes, il existe un type de campagne adapté à vos besoins. Cette section présente les trois principaux types de campagnes : campagnes d’action, campagnes déclenchées par une API et campagnes orchestrées, en mettant en évidence leurs points forts et cas d’utilisation uniques. Vous découvrirez également les blocs de création essentiels tels que les autorisations, la configuration des audiences et les configurations de canal, afin de vous assurer que vous disposez de tous les éléments nécessaires pour créer et gérer des campagnes qui trouvent un écho auprès de vos clientes et clients.
+Les campagnes dans Adobe Journey Optimizer vous permettent de diffuser des messages personnalisés, opportuns et percutants sur l’ensemble des canaux, afin d’engager votre audience plus efficacement. Que vous planifiiez un e-mail promotionnel unique, automatisiez les messages transactionnels en temps réel ou orchestriez des parcours complexes à plusieurs étapes, il existe un type de campagne adapté à vos besoins. Cette section présente les trois principaux types de campagne : campagnes d’action, campagnes déclenchées par API et campagnes orchestrées, en mettant en évidence leurs points forts spécifiques et leurs cas d’utilisation.Vous découvrirez également les blocs de création essentiels tels que les autorisations, la configuration des audiences et les configurations de canal, afin de vous assurer que vous disposez de tous les éléments nécessaires pour créer et gérer des campagnes qui trouvent un écho auprès de vos clientes et clients.
 
 ## Vue d’ensemble des campagnes
 
@@ -31,7 +31,7 @@ Découvrez les principes de base des campagnes dans Adobe Journey Optimizer, n
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Accéder aux campagnes et les gérer
 
@@ -41,7 +41,7 @@ Découvrez comment accéder aux campagnes, les gérer, les modifier ou les archi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Campagnes d’action
 
@@ -51,7 +51,7 @@ Conseils détaillés sur la création, la personnalisation et l’activation de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Campagnes déclenchées par API
 
@@ -61,7 +61,7 @@ Conseils complets à l’intention des développeurs et développeuses sur la cr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Campagnes orchestrées
 

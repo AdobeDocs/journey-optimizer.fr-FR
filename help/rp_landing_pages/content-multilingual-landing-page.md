@@ -6,9 +6,9 @@ description: Contenu multilingue
 redpen-status: CREATED_||_2025-08-12_00-43-28
 exl-id: 3f02694e-2237-4022-8e05-b76a5a1443b5
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '241'
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 98%
 
 La fonctionnalité de contenu multilingue d’Adobe Journey Optimizer vous permet de proposer des expériences personnalisées à une audience internationale en créant du contenu dans plusieurs langues. Que vous optiez pour la traduction manuelle ou les workflows automatisés, cet outil simplifie le processus de personnalisation des campagnes selon divers paramètres régionaux. Vous allez apprendre à configurer les paramètres de langue, à paramétrer des fournisseurs de traduction et à gérer la création et la révision de contenu multilingue. Depuis l’ajout de nouveaux paramètres régionaux jusqu’à l’utilisation des préférences de secours, chaque rubrique est conçu pour vous aider à localiser efficacement vos messages et à vous connecter avec les personnes dans leur langue préférée.
 
-## Présentation du contenu multilingue
+## Vue d’ensemble du contenu multilingue
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Prise en main du contenu multilingue
 
@@ -30,7 +30,7 @@ Découvrez comment configurer et utiliser la fonction de contenu multilingue d�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Création de paramètres régionaux pour le contenu multilingue
 
@@ -40,7 +40,7 @@ Suivez les instructions étape par étape pour créer et gérer de nouveaux para
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Ajouter et configurer des fournisseurs de langue
 
@@ -50,7 +50,7 @@ Configurez des fournisseurs de traduction tiers pour une intégration transparen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Créer du contenu multilingue avec traduction manuelle
 
@@ -60,7 +60,7 @@ Découvrez comment créer manuellement des campagnes et des parcours multilingue
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Créer du contenu multilingue avec traduction automatisée
 

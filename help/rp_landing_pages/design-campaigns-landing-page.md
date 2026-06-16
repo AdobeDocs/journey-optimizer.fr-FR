@@ -6,9 +6,9 @@ description: Activités de campagnes orchestrées
 redpen-status: CREATED_||_2025-08-11_20-27-08
 exl-id: d6635d58-b618-4d92-b60f-c6fc63e473a6
 source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 97%
 
 Les activités de campagnes orchestrées dans Adobe Journey Optimizer vous offrent la possibilité de concevoir des parcours marketing fluides et pilotés par les données qui vous permettent d’entrer en contact avec votre audience au bon moment et via les bons canaux. En combinant des activités de ciblage, de canal et de contrôle de flux, vous pouvez définir des segments d’audience précis, personnaliser les messages et automatiser des workflows complexes. Que vous créiez des audiences, synchronisiez des branches de campagne ou ralongiez les délais pour une synchronisation parfaite, ces activités fonctionnent ensemble pour rationaliser l’exécution de votre campagne. Grâce à des outils tels que l’enrichissement pour l’amélioration des données ou le partage pour la segmentation d’audience, vous disposez d’une boîte à outils flexible pour créer des expériences clients significatives et percutantes.
 
-## Activités de campagne orchestrées
+## Activités de campagnes orchestrées
 
 :::: landing-cards-container
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
-Utiliser des activités de campagne orchestrées
+Utiliser des activités de campagnes orchestrées
 
 Découvrez les activités de ciblage, de canal et de contrôle de flux pour concevoir et exécuter des campagnes orchestrées.
 

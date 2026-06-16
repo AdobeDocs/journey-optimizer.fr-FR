@@ -6,9 +6,9 @@ description: Gestion des données
 redpen-status: CREATED_||_2025-08-11_21-06-39
 exl-id: d60bd99c-aa17-4ef0-85a9-384ef21b96da
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '261'
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 98%
 
 La gestion des données dans Adobe Journey Optimizer vous permet de prendre le contrôle des données client avec flexibilité, sécurité et précision. Que vous deviez conserver des données pour des raisons de conformité, supprimer des enregistrements expirés ou exporter des informations pour une utilisation externe, ces outils sont conçus pour prendre en charge vos politiques de gouvernance et vos besoins techniques. Des schémas qui définissent la structure des données aux requêtes interactives pour analyse, chaque fonctionnalité s’intègre dans un écosystème plus vaste qui vous permet d’organiser vos données, d’y accéder et de les exploiter efficacement. Découvrez des rubriques telles que la gestion des jeux de données, l’activation des intégrations de plateforme et l’exploration des requêtes avancées, le tout adapté au fonctionnement plus intelligent de vos données pour atteindre vos objectifs de personnalisation et de prise de décision.
 
-## Fonctionnalités de Data Management
+## Fonctionnalités de gestion des données
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Commencer avec la gestion des données
 
@@ -60,7 +60,7 @@ Activez et utilisez des jeux de données Adobe Experience Platform dans Journe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Commencer avec les requêtes dans Journey Optimizer
 

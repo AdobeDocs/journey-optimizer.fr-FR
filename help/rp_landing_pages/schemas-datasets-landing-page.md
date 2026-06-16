@@ -6,17 +6,17 @@ description: Gérer des jeux de données et des schémas relationnels
 redpen-status: CREATED_||_2025-08-11_20-23-42
 exl-id: 17c64a34-d571-46d0-a144-d4b746118c96
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '236'
+ht-degree: 100%
 
 ---
 
-# Gestion des schémas et des jeux de données relationnels{#section-overview}
+# Gérer des jeux de données et des schémas relationnels{#section-overview}
 
 La gestion des schémas relationnels et des jeux de données dans Adobe Journey Optimizer vous permet de structurer et d’organiser vos données pour des campagnes personnalisées et percutantes. Que vous définissiez les relations des données manuellement ou à l’aide de fichiers DDL, ces schémas jettent les bases pour connecter de façon transparente les enregistrements clients et les données des campagnes. Vous allez apprendre également à créer des jeux de données et à ingérer des données provenant de diverses sources afin de garantir leur disponibilité pour l’orchestration et le ciblage en temps réel. Chaque rubrique, depuis la création de schémas jusqu’à la liaison et à l’ingestion de données, vous guide pas à pas et vous permet de transformer en toute confiance les données brutes en informations exploitables et de proposer des expériences client exceptionnelles.
 
-## Gestion des schémas et des jeux de données relationnels
+## Gérer des jeux de données et des schémas relationnels
 
 :::: landing-cards-container
 :::
