@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e366af78935405cd5acb15269194875098b20914
+source-git-commit: 9ca5a2c888011362cf1067aaedc8fb7dad2bdd21
 workflow-type: tm+mt
-source-wordcount: 2109
-ht-degree: 74%
+source-wordcount: 2462
+ht-degree: 64%
 
 ---
 
@@ -268,11 +268,64 @@ Cette option ajoute deux champs obligatoires au schéma de `customAuthorization`
 
 Les champs `client_assertion` et `client_assertion_type` ne sont jamais créés par l’utilisateur ou l’utilisatrice. Ils sont automatiquement injectés par la plateforme au moment de l’exécution, immédiatement avant l’appel du point d’entrée du jeton.
 
-<!--
-rebuild
--->
+#### Fonctionnement {#certificate-credential-how-it-works}
 
-Voici un exemple pour le type d’authentification des informations d’identification du certificat :
+L’authentification personnalisée basée sur des certificats implémente les informations d’identification du client OAuth 2.0 avec une assertion du client JWT, comme défini dans [RFC 7523](https://datatracker.ietf.org/doc/html/rfc7523){target="_blank"} — la même norme prise en charge par Microsoft Entra ID et Okta. Au lieu d’un secret client, Journey Optimizer prouve son identité à l’aide d’un JWT signé avec une clé privée gérée Adobe. Votre fournisseur d’identité vérifie la signature à l’aide du certificat public Adobe, que vous enregistrez une fois dans votre fournisseur d’identité.
+
+L’échange de jetons suit les étapes suivantes :
+
+1. Journey Optimizer crée une assertion client JWT signée avec une clé privée Adobe.
+1. L’assertion est envoyée à votre point d’entrée de jeton avec vos `client_id`, `grant_type` et `scope`.
+1. Votre fournisseur d’identité vérifie la signature JWT par rapport au certificat public enregistré Adobe.
+1. Votre fournisseur d’identité renvoie un jeton d’accès porteur.
+1. Journey Optimizer utilise ce jeton pour appeler votre point d’entrée d’action personnalisé.
+
+#### Détails du certificat Adobe {#certificate-credential-details}
+
+Adobe gère le certificat et sa clé privée associée. Le tableau suivant résume ses propriétés clés :
+
+| Propriété | Valeur |
+| --- | --- |
+| Émis par | DigiCert (autorité de certification publique) |
+| Géré par | Adobe |
+| Algorithme | RS256 (RSA) |
+| Éléments à enregistrer dans votre fournisseur d’identité | Certificat feuille Adobe uniquement — pas l’autorité de certification intermédiaire ou racine |
+| Comment obtenir | Récupérez-le à partir de l’API de certificat public [mTLS](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} (voir le mécanisme de sécurisation **Certificate** ci-dessous) |
+| Rotation | Adobe gère la rotation et fournit un préavis d’au moins 30 jours |
+
+#### Structure d’assertion JWT {#certificate-credential-jwt}
+
+Vous n’êtes pas l’auteur de l’assertion du client JWT : Journey Optimizer la génère et la signe pour vous. La structure attendue est fournie ici afin que votre équipe de fournisseurs d’identité puisse valider les revendications.
+
+En-tête :
+
+```json
+{
+  "alg": "RS256",
+  "x5t": "<base64url SHA-1 thumbprint of Adobe's leaf certificate>"
+}
+```
+
+Payload :
+
+```json
+{
+  "iss": "<client_id>",
+  "sub": "<client_id>",
+  "aud": "<token endpoint URL>",
+  "iat": "<current unix timestamp>",
+  "exp": "<iat + 600 seconds>",
+  "jti": "<unique UUID per request>"
+}
+```
+
+Prenez note des points suivants :
+
+* `exp` − `iat` dure toujours ≤ 10 minutes, conformément aux exigences d’Okta et d’Entra ID.
+* Chaque assertion utilise une `jti` unique, ce qui la rend sûre en cas de relecture-attaque.
+* `client_assertion` et `client_assertion_type` sont injectés automatiquement par la plateforme et ne sont jamais créés.
+
+Voici un exemple pour le type d’authentification des informations d’identification du certificat, pour l’ID Microsoft Entra :
 
 ```json
 {
@@ -294,6 +347,28 @@ Voici un exemple pour le type d’authentification des informations d’identifi
 }
 ```
 
+Voici un exemple pour le même type d’authentification d’informations d’identification de certificat, pour Okta :
+
+```json
+{
+  "type": "customAuthorization",
+  "subType": "certificateCredential",
+  "authorizationType": "bearer",
+  "endpoint": "https://<your-okta-domain>/oauth2/v1/token",
+  "aud": "https://<your-okta-domain>/oauth2/v1/token",
+  "method": "POST",
+  "body": {
+    "bodyType": "form",
+    "bodyParams": {
+      "client_id": "<your-okta-app-client-id>",
+      "grant_type": "client_credentials",
+      "scope": "<your-api-scope>"
+    }
+  },
+  "tokenInResponse": "json://access_token"
+}
+```
+
 >[!CAUTION]
 >
 >Gardez à l’esprit les mécanismes de sécurisation suivants lors de la configuration de l’authentification personnalisée avec certificat :
@@ -302,7 +377,7 @@ Voici un exemple pour le type d’authentification des informations d’identifi
 >* **`method`** : doit être `POST`. Les points d’entrée de jeton OAuth acceptent uniquement les requêtes POST.
 >* **`client_id`** : ne doit pas être vide et ne doit pas contenir d’espaces de début ou de fin. Une valeur vide génère un jeton JWT d’aspect valide que le fournisseur d’identité rejettera avec une erreur opaque.
 >* **`scope`** : exprimé sous la forme d’une chaîne unique séparée par des espaces dans `bodyParams`. 1 000 caractères maximum au total.
->* **Certificat** : Adobe gère le certificat et la clé privée ; vous ne chargez ni ne saisissez de certificat. Avant d’utiliser l’action personnalisée dans un parcours dynamique, vous devez enregistrer le certificat feuille d’Adobe **&#x200B;**&#x200B;(et non l’autorité de certification racine) dans votre fournisseur d’identité.
+>* **Certificat** : Adobe gère le certificat et la clé privée ; vous ne chargez ni ne saisissez de certificat. Avant d’utiliser l’action personnalisée dans un parcours dynamique, vous devez enregistrer le certificat feuille d’Adobe **&#x200B;**&#x200B;dans votre fournisseur d’identité. Pour la récupérer, appelez l’API de certificat public [mTLS](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} et recherchez l’entrée où `certCommonName` est `ajo-journeys.aep-mtls.adobe.com`. Enregistrez la valeur `publicCertificate` de cette entrée — n’utilisez pas les certificats d’autorité de certification intermédiaire ou racine.
 
 Voici un exemple pour le type d’authentification de l’en-tête :
 
