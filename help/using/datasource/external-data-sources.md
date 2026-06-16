@@ -290,7 +290,7 @@ Adobe gère le certificat et sa clé privée associée. Le tableau suivant résu
 | Géré par | Adobe |
 | Algorithme | RS256 (RSA) |
 | Éléments à enregistrer dans votre fournisseur d’identité | Certificat feuille Adobe uniquement — pas l’autorité de certification intermédiaire ou racine |
-| Comment obtenir | Récupérez-le à partir de l’API de certificat public [mTLS](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} (voir le mécanisme de sécurisation **Certificate** ci-dessous) |
+| Comment obtenir | Récupérez-le à partir de l’API de certificat public [mTLS](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} (voir le mécanisme de sécurisation **Certificate** ci-dessous) |
 | Rotation | Adobe gère la rotation et fournit un préavis d’au moins 30 jours |
 
 #### Structure d’assertion JWT {#certificate-credential-jwt}
@@ -377,7 +377,7 @@ Voici un exemple pour le même type d’authentification d’informations d’id
 >* **`method`** : doit être `POST`. Les points d’entrée de jeton OAuth acceptent uniquement les requêtes POST.
 >* **`client_id`** : ne doit pas être vide et ne doit pas contenir d’espaces de début ou de fin. Une valeur vide génère un jeton JWT d’aspect valide que le fournisseur d’identité rejettera avec une erreur opaque.
 >* **`scope`** : exprimé sous la forme d’une chaîne unique séparée par des espaces dans `bodyParams`. 1 000 caractères maximum au total.
->* **Certificat** : Adobe gère le certificat et la clé privée ; vous ne chargez ni ne saisissez de certificat. Avant d’utiliser l’action personnalisée dans un parcours dynamique, vous devez enregistrer le certificat feuille d’Adobe **&#x200B;**&#x200B;dans votre fournisseur d’identité. Pour la récupérer, appelez l’API de certificat public [mTLS](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} et recherchez l’entrée où `certCommonName` est `ajo-journeys.aep-mtls.adobe.com`. Enregistrez la valeur `publicCertificate` de cette entrée — n’utilisez pas les certificats d’autorité de certification intermédiaire ou racine.
+>* **Certificat** : Adobe gère le certificat et la clé privée ; vous ne chargez ni ne saisissez de certificat. Avant d’utiliser l’action personnalisée dans un parcours dynamique, vous devez enregistrer le certificat feuille d’Adobe **&#x200B;**&#x200B;dans votre fournisseur d’identité. Pour la récupérer, appelez l’API de certificat public [mTLS](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} et recherchez l’entrée où `certCommonName` est `ajo-journeys.aep-mtls.adobe.com`. Enregistrez la valeur `publicCertificate` de cette entrée — n’utilisez pas les certificats d’autorité de certification intermédiaire ou racine.
 
 Voici un exemple pour le type d’authentification de l’en-tête :
 
