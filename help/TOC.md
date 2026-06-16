@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 727d99f93d3fc19848f00ab423ec320a092b357c
+source-git-commit: ac42eeb00129bd77963676302578aadc8d7051df
 workflow-type: tm+mt
-source-wordcount: '3362'
+source-wordcount: '3354'
 ht-degree: 99%
 
 ---
@@ -40,9 +40,7 @@ ht-degree: 99%
       + [Terminologie clé](using/start/terminology.md)
       + {hide-from-toc}[Quelle fonctionnalité pour ce traitement ?](using/start/ajo-use-case-guide.md)
       + [Mécanismes de sécurisation et limitations](using/start/guardrails.md)
-      + {hide-from-toc}[Fonctionnalités par package](using/start/ajo-packages.md)
-      + {hide-from-toc}[Packages et fonctionnalités (v2)](using/start/ajo-packages-v2.md)
-      + {hide-from-toc}[Packages et fonctionnalités (v3)](using/start/ajo-packages-v3.md)
+      + {hide-from-toc}[Packages et fonctionnalités](using/start/ajo-packages.md)
    + Commencer avec les rôles {#by-role}
       + [Rôles et responsabilités](using/start/quick-start.md)
       + [Prise en main en tant qu’administrateur](using/start/path/administrator.md)
@@ -52,7 +50,7 @@ ht-degree: 99%
    + Travailler efficacement {#work-efficiently}
       + [Naviguer dans l’interface](using/start/user-interface.md)
       + [Rechercher, filtrer, organiser](using/start/search-filter-categorize.md)
-      + [Questions fréquentes sur la résolution des problèmes](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [Questions fréquentes sur la résolution des problèmes](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Accessibilité](using/start/accessibility.md)
       + {hide-from-toc}[Parcours et campagnes](using/start/journeys-vs-campaigns.md)
 + Parcours {#orchestrate-journeys}
@@ -68,7 +66,7 @@ ht-degree: 99%
       + [Configurer et suivre les mesures de votre parcours](using/building-journeys/success-metrics.md)
       + [Concevoir le parcours](using/building-journeys/using-the-journey-designer.md)
       + Simulation {#simulate-journey}
-         + [Prise en main de la simulation de parcours &#x200B;](using/building-journeys/simulate-journey-gs.md)
+         + [Prise en main de la simulation de parcours ](using/building-journeys/simulate-journey-gs.md)
          + [Simuler votre parcours](using/building-journeys/simulate-journey.md)
       + [Tester votre parcours](using/building-journeys/testing-the-journey.md)
       + [Test à blanc du parcours](using/building-journeys/journey-dry-run.md)
