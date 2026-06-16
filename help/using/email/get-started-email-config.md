@@ -80,7 +80,7 @@ Pour envoyer des e-mails par le biais de parcours et de campagnes dans [!DNL Jou
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Commencer avec la configuration du canal e-mail
 
@@ -90,7 +90,7 @@ Découvrez les étapes essentielles pour configurer les fonctionnalités d’e-m
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Définir les paramètres de configuration du canal e-mail
 
@@ -100,7 +100,7 @@ Définissez des configurations de canal e-mail pour la délivrabilité, la confo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Activer et configurer le désabonnement de la liste
 
@@ -110,7 +110,7 @@ Découvrez comment activer la fonctionnalité « désabonnement de la liste »
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Configurer les paramètres d’en-tête des e-mails
 
@@ -120,7 +120,7 @@ Personnalisez les adresses e-mail d’expédition et de réponse, gérez les err
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 Configurer le suivi des URL pour le canal e-mail
 
@@ -130,7 +130,7 @@ Configurez les paramètres de suivi d’URL pour mesurer l’efficacité des cam
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Paramètres personnalisés de configuration du canal e-mail
 
