@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
 source-wordcount: 1087
-ht-degree: 88%
+ht-degree: 95%
 
 ---
 
@@ -79,7 +79,7 @@ Cette section répertorie les jeux de données système utilisés par [!DNL Jour
 * Création de rapports
 
    * _Création de rapports - Jeu de données d’événement de retour de message_ : logs de diffusion des messages. Informations sur toutes les diffusions de messages à partir de Journey Optimizer à des fins de création de rapports et d’audiences. Les commentaires des FAI de messagerie sur les rebonds sont également enregistrés dans ce jeu de données. **Ce jeu de données utilise l’ingestion par lots. Attendez-vous à une latence des données allant jusqu’à 2 heures.**
-   * _Reporting - Jeu de données d’événement d’expérience de suivi d’e-mail_ : logs d’interaction pour le canal e-mail et données contextuelles du canal WhatsApp sous le groupe de champs `whatsAppChannelContext` . Utilisé pour la création de rapports et d’audiences. Les informations stockées incluent les actions effectuées par l’utilisateur final dans un e-mail (ouvertures, clics, etc.) et les interactions WhatsApp.
+   * _Reporting – Jeu de données d’événement d’expérience de suivi d’e-mail_ : journaux d’interaction pour le canal e-mail et données contextuelles du canal WhatsApp sous le groupe de champs `whatsAppChannelContext`. Utilisé pour le reporting et la création d’audiences. Les informations stockées incluent des actions effectuées par la personne utilisatrice finale dans un e-mail (ouvertures, clics, etc..) et les interactions WhatsApp.
    * _Création de rapports - Jeu de données d’événement d’expérience de tracking de notification push_ : logs d’interaction pour le canal de notification push utilisé à des fins de création de rapports et d’audiences. Les informations stockées renseignent sur les actions effectuées par l’utilisateur final dans les notifications push.
    * _Création de rapports - Événement d’étape de parcours_ : capture tous les événements d’expérience d’étape de parcours générés à partir de Journey Optimizer pour être utilisés par des services tels que la création de rapports. Également essentiel pour la création de rapports dans Customer Journey Analytics pour l’analyse YoY. Associé à des métadonnées de parcours.
    * _Création de rapports - Parcours_ : jeu de données de métadonnées contenant des informations sur chaque étape d’un parcours.
@@ -99,11 +99,11 @@ Cette section répertorie les jeux de données système utilisés par [!DNL Jour
 
 * Entrant
 
-  _Jeu de données d’événement d’activité entrant AJO_ : stocke les événements d’activité entrants pour les messages entrants reçus en [!DNL Journey Optimizer].
+  _Jeu de données d’événement d’activité entrant AJO_ : stocke les événements d’activité entrants pour les messages entrants reçus dans [!DNL Journey Optimizer].
 
 >[!NOTE]
 >
->Un profil doit avoir au moins un message envoyé par [!DNL Journey Optimizer] avant que les messages entrants ne soient capturés dans ce jeu de données.
+>Un profil doit avoir au moins un message envoyé depuis [!DNL Journey Optimizer] avant que les messages entrants ne soient capturés dans ce jeu de données.
 
 ## Créer des jeux de données{#create-datasets}
 

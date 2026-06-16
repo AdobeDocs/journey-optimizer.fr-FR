@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: 2956c3df01f4b2e753111ecf54163ec4084fecf2
 workflow-type: tm+mt
 source-wordcount: 781
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
@@ -137,4 +137,4 @@ La vidéo ci-dessous montre comment créer une liste d’abonnements, configurer
 
 >[!VIDEO](https://video.tv.adobe.com/v/344398?captions=fre_fr&quality=12&learn=on)
 
-➡️ **Consultez-le en pratique :** Explorer [cas d’utilisation de la page de destination](lp-use-cases.md) pour obtenir des exemples détaillés sur la gestion des abonnements, les e-mails de confirmation et les scénarios de capture de données.
+➡️ **En pratique :** explorez les [cas d’utilisation de la page de destination](lp-use-cases.md) pour obtenir des exemples détaillés sur la gestion des abonnements, les e-mails de confirmation et les scénarios de capture de données.

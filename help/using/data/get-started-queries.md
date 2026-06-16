@@ -46,7 +46,7 @@ Le requêteur prend en charge le développement de requête pour l’analyse et 
 
 ![](assets/queries-home.png)
 
-Découvrez comment utiliser le Requêteur dans [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=fr){target="_blank"}.
+Découvrez comment utiliser le requêteur dans [cette documentation](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=fr){target="_blank"}.
 
 >[!MORELIKETHIS]
 >

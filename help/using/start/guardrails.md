@@ -27,7 +27,7 @@ topic_v2:
 source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
 source-wordcount: 4489
-ht-degree: 70%
+ht-degree: 72%
 
 ---
 
@@ -74,7 +74,7 @@ Cette section présente les mécanismes de sécurisation et les limitations des 
 
 * Le nombre d&#39;activités dans un parcours est limité à 50 **de**. Le nombre d’activités s’affiche dans la section supérieure gauche de la zone de travail du parcours.
 
-  Lorsque les parcours se rapprochent de cette limite, les performances de modification et de publication peuvent se dégrader et des échecs d’enregistrement ou de validation peuvent se produire. Si cela se produit, divisez votre parcours en sous-parcours plus petits à l’aide d’[activités de saut](../building-journeys/jump.md) ou recréez-le dans une nouvelle version. La limite d’activité ne peut pas être augmentée.
+  Lorsque les parcours se rapprochent de cette limite, les performances de modification et de publication peuvent se dégrader et des échecs d’enregistrement ou de validation peuvent se produire. Si cela se produit, divisez votre parcours en sous-parcours plus petits à l’aide d’[activités Saut](../building-journeys/jump.md) ou recréez-le dans une nouvelle version. La limite d’activité ne peut pas être augmentée.
 
 * Par défaut, le nombre de parcours d’exécution actifs, en pause ou secs à la fois est limité à 100 **&#x200B;**. Le nombre actuel de parcours s’affiche au-dessus de la zone de travail du parcours.
 
@@ -115,7 +115,7 @@ Lorsque vous enregistrez ou publiez un parcours, Journey Optimizer valide la ta
 * Envisagez de diviser le parcours en parcours plus petits si nécessaire.
 * Si vous pensez que votre organisation a besoin d’une limite supérieure, contactez votre représentant ou représentante Adobe.
 
-Pour surveiller la taille actuelle de la payload de votre parcours avant la publication, utilisez l’indicateur **[!UICONTROL Taille actuelle de la payload du parcours]** dans le panneau des propriétés du parcours. [Découvrez comment vérifier la taille de la payload du parcours &#x200B;](../building-journeys/journey-properties.md#journey-payload-size)
+Pour surveiller la taille actuelle de la payload de votre parcours avant la publication, utilisez l’indicateur **[!UICONTROL Taille actuelle de la payload du parcours]** dans le panneau des propriétés de parcours. [Découvrir comment vérifier la taille de la payload de votre parcours](../building-journeys/journey-properties.md#journey-payload-size)
 
 ### Comparaison des packages de licence {#select-package-limitations}
 

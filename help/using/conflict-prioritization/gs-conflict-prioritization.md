@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
 source-wordcount: 896
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -95,4 +95,4 @@ Les jeux de règles vous permettent de **regrouper plusieurs règles en jeux de 
 * **[Limitation de la fréquence par canal](channel-capping.md)** - Définissez des cappings de fréquence au niveau du canal pour éviter les messages excessifs.
 * **[Définir les heures de tranquillité](quiet-hours.md)** - Définissez des exclusions temporelles pour la diffusion des messages.
 * **[Tutoriels sur la gestion des conflits](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}** - Tutoriels vidéo détaillés.
-* **[Cas d’utilisation de Journey Optimizer](../building-journeys/jo-use-cases.md)** - Parcourez les modèles pratiques, y compris la logique de limitation de la fréquence et de suppression des parcours.
+* **[Cas d’utilisation de Journey Optimizer](../building-journeys/jo-use-cases.md)** : parcourez les modèles pratiques, y compris le capping de la fréquence et la logique de suppression des parcours.

@@ -254,7 +254,7 @@ Créez des messages attrayants pour votre audience :
 
 * Utilisez le **Concepteur d’e-mail** pour des expériences d’e-mail riches.
 * Configurez des **notifications push** avec des images et des liens profonds.
-* Concevoir des **messages SMS/RCS/MMS** avec personnalisation
+* Concevoir des **SMS/RCS/MMS** avec de la personnalisation.
 * Créez des expériences **in-app** et **web**.
 * Ajoutez de la **personnalisation** à l’aide des attributs de profil et des données contextuelles.
 

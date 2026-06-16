@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
 source-wordcount: 563
-ht-degree: 73%
+ht-degree: 94%
 
 ---
 
@@ -40,9 +40,9 @@ ht-degree: 73%
 
 La configuration du canal e-mail dans Adobe Journey Optimizer est la clé pour créer des expériences d’e-mail personnalisées et percutantes qui impliquent efficacement votre audience.
 
-Cette section vous guide tout au long des étapes de configuration essentielles à suivre pour envoyer des e-mails par [!DNL Journey Optimizer]. Vous découvrirez également comment configurer des en-têtes d’e-mail, personnaliser les paramètres de plusieurs marques, activer le tracking des URL pour les analyses et même ajouter des liens de désabonnement en un clic pour plus de commodité. Chaque rubrique s’appuie sur la précédente, ce qui vous donne les outils nécessaires pour affiner votre stratégie d’e-mail tout en conservant le contrôle et la précision.
+Cette section vous guide tout au long des étapes de configuration essentielles à suivre pour envoyer des e-mails depuis [!DNL Journey Optimizer]. Vous allez découvrir également comment configurer des en-têtes d’e-mail, personnaliser les paramètres de plusieurs marques, activer le tracking des URL pour analyse et même ajouter des liens de désabonnement en un clic pour plus de commodité. Chaque rubrique s’appuie sur la précédente, ce qui vous donne les outils nécessaires pour affiner votre stratégie d’e-mail tout en conservant le contrôle et la précision.
 
-Pour envoyer des e-mails par le biais de parcours et de campagnes dans [!DNL Journey Optimizer], vous devez passer par plusieurs étapes de configuration. Ces étapes sont répertoriées ci-dessous :
+Pour envoyer des e-mails par le biais de parcours et de campagnes dans [!DNL Journey Optimizer], vous devez passer par plusieurs étapes de configuration. Ces étapes sont décrites ci-dessous :
 
 1. Pour garantir une délivrabilité optimale et protéger votre réputation, commencez par **déléguer à Adobe les sous-domaines** que vous allez utiliser pour envoyer vos e-mails avec [!DNL Journey Optimizer]. Ces sous-domaines déterminent des éléments tels que les pages web à suivre et les URL de page miroir. [En savoir plus](../configuration/about-subdomain-delegation.md)
 
@@ -63,11 +63,11 @@ Pour envoyer des e-mails par le biais de parcours et de campagnes dans [!DNL Jou
 
    ![](assets/surface-subdomain-ip-pool.png)
 
-   * Les champs **[!UICONTROL Préfixe d’e-mail de l’expéditeur]** et **[!UICONTROL Préfixe d’e-mail d’erreur]** utilisent le [sous-domaine délégué](../configuration/about-subdomain-delegation.md) actuellement sélectionné. Vous pouvez éventuellement identifier **[!UICONTROL Nom de l’expéditeur]** et **[!UICONTROL E-mail de l’expéditeur]** une autre partie émettrice (adresse **expéditeur** complète, non liée à ce suffixe de sous-domaine). [En savoir plus](header-parameters.md#sender-header)
+   * Le **[!UICONTROL préfixe des adresses e-mail d’expéditeur/expéditrice]** et le **[!UICONTROL préfixe des adresses e-mail d’erreur]** utilisent le [sous-domaine délégué](../configuration/about-subdomain-delegation.md) actuellement sélectionné. Les champs **[!UICONTROL Nom d’expéditeur/expéditrice]** et **[!UICONTROL Adresse e-mail d’expéditeur/expéditrice]** peuvent éventuellement identifier une autre partie émettrice (adresse d’**expéditeur/expéditrice** complète, non liée à ce suffixe de sous-domaine). [En savoir plus](header-parameters.md#sender-header)
 
    ![](assets/preset-header.png)
 
-1. Terminez la configuration de votre canal e-mail en configurant d’autres paramètres avancés, tels que l’activation de la fonctionnalité Cci, la définition du suivi des URL pour les analyses ou l’ajout de liens de désabonnement en un clic pour la commodité de l’utilisateur. [En savoir plus](email-settings.md)
+1. Terminez la configuration de votre canal e-mail en configurant d’autres paramètres avancés, tels que l’activation de la fonctionnalité Cci, la définition du tracking des URL pour les analyses ou l’ajout de liens de désabonnement en un clic pour plus de commodité. [En savoir plus](email-settings.md)
 
 1. Déterminez les **champs d’exécution** à utiliser en priorité pour vos personnes destinataires lorsque plusieurs adresses sont disponibles dans Adobe Experience Platform. [En savoir plus](../configuration/primary-email-addresses.md)
 

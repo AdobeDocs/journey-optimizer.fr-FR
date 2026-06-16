@@ -30,7 +30,7 @@ topic_v2:
 source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
 source-wordcount: 1005
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -145,7 +145,7 @@ Vous trouverez ci-dessous des instructions générales concernant l’utilisatio
 
 ### Qualité du contenu, prompts et commentaires
 
-* La qualité du contenu généré est fortement affectée par l’objectif/l’invite marketing que vous définissez. Utilisez une invite bien définie pour que le modèle GenAI l’interprète avec précision. 
+* La qualité du contenu généré est fortement influencée par l’objectif marketing/le prompt que vous définissez. Utilisez un prompt bien défini pour permettre au modèle d’IA générative de l’interpréter correctement. 
 * Le contenu GenAI n’est peut-être pas toujours précis : partagez vos commentaires pour que nos ingénieures et ingénieurs puissent affiner les modèles.
 * Veillez à signaler tout résultat problématique à l’aide des icônes de pouce vers le haut, de pouce vers le bas ou de drapeau lors de la sélection de variantes.
 

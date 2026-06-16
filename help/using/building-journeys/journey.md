@@ -37,7 +37,7 @@ topic_v2:
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 1642
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -128,7 +128,7 @@ Choisissez le mode d’entrée des clientes et clients : par le biais d’un é
 
 **Envoyer des messages**
 
-Utilisez des actions de canal intégrées pour les e-mails, les notifications push, les SMS/RCS/MMS, les messages in-app, les messages web, etc., le tout conçu dans Journey Optimizer.
+Utilisez des actions de canal intégrées pour les e-mails, les notifications push, les SMS/RCS/MMS, les messages in-app, le web, etc., le tout dans Journey Optimizer.
 
 [Envoyer des messages dans les parcours](journey-action.md)
 :::

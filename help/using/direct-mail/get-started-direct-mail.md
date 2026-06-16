@@ -25,7 +25,7 @@ level_v2:
 source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
 source-wordcount: 487
-ht-degree: 74%
+ht-degree: 89%
 
 ---
 
@@ -47,17 +47,17 @@ Votre utilisation des services de courrier sera soumise aux conditions général
 
 ## Avant de commencer {#before-you-start}
 
-Avant de créer des messages de publipostage direct, configurez le routage des fichiers [&#x200B; et une configuration du canal courrier](direct-mail-configuration.md). Vous avez également besoin d’audiences et de données de profil (telles que les adresses postales) dans Adobe Experience Platform.
+Avant de créer des messages de courrier, configurez le [routage des fichiers](direct-mail-configuration.md) et une configuration du canal courrier. Vous avez également besoin d’audiences et de données de profil (telles que les adresses postales) dans Adobe Experience Platform.
 
 Les principales étapes pour envoyer des messages de courrier sont les suivantes :
 
-![Workflow de création de courrier, de la configuration à la diffusion](assets/dm-creation-process.png)
+![Workflow de création de courrier, depuis la configuration jusqu’à la diffusion](assets/dm-creation-process.png)
 
 >[!AVAILABILITY]
 >
 >Les messages de courrier ne peuvent être créés que dans le cadre de parcours et de campagnes. Ils ne sont pas disponibles pour les campagnes déclenchées par API.
 
-![Présentation animée du canal courrier dans Journey Optimizer](../rn/assets/do-not-localize/gif-dm.gif)
+![Vue d’ensemble animée du canal courrier dans Journey Optimizer](../rn/assets/do-not-localize/gif-dm.gif)
 
 ## Ressources supplémentaires {#additional-resources}
 
@@ -77,6 +77,6 @@ Découvrez comment utiliser le canal Courrier dans Adobe Journey Optimizer pour 
 
 +++
 
-Pour une présentation écrite des mêmes étapes, reportez-vous aux [tutoriels sur le canal Courrier](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}.
+Pour une présentation écrite des mêmes étapes, consultez les [tutoriels sur le canal Courrier](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}.
 
-Pour des questions courantes sur le publipostage direct, reportez-vous à la section [Ressources supplémentaires](#additional-resources) ci-dessus.
+Pour des questions courantes sur le courrier, consultez la section [Ressources supplémentaires](#additional-resources) ci-dessus.

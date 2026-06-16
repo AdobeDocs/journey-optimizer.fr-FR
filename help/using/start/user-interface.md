@@ -407,7 +407,7 @@ L’assistant IA offre une aide instantanée et des informations opérationnelle
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_load_file"
 >title="Activité Chargement de fichier"
->abstract="L’activité **Chargement de fichier** est une activité **Ciblage**. Utilisez-la pour charger un fichier CSV ou TXT sur la zone de travail de campagne orchestrée et l’utiliser comme audience de campagne. Les données de fichier sont utilisées au moment de l’exécution et ne sont pas conservées en tant que jeu de données Adobe Experience Platform. Les lignes sont rapprochées des destinataires existants à l’aide d’une colonne d’identité et d’une dimension de ciblage."
+>abstract="L’activité **Chargement de fichier** est une activité de **ciblage**. Utilisez-la pour charger un fichier CSV ou TXT dans la zone de travail de campagne orchestrée et vous en servir comme audience de campagne. Les données de fichier sont utilisées au moment de l’exécution et ne sont pas conservées en tant que jeu de données Adobe Experience Platform. Les lignes sont rapprochées des destinataires existants à l’aide d’une colonne d’identité et d’une dimension de ciblage."
 
 <!-- SMS Sinch Usage metrics -->
 

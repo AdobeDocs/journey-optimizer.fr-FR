@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
 source-wordcount: 493
-ht-degree: 86%
+ht-degree: 93%
 
 ---
 
@@ -58,7 +58,7 @@ Par conséquent, Adobe vous recommande vivement de vous assurer que les enregist
 
 * Si vous avez [entièrement délégué](delegate-subdomain.md#set-up-subdomain) vos sous-domaines d’envoi à Adobe, suivez l’une des deux options ci-dessous :
 
-   * Configurez DMARC sur le domaine parent des sous-domaines délégués **dans votre solution d’hébergement**.
+   * Configurez DMARC sur le domaine parent de vos sous-domaines délégués **dans votre solution d’hébergement**.
 ou
    * Configurez DMARC sur vos sous-domaines délégués **dans l’interface utilisateur de configuration[!DNL Journey Optimizer]**, et ce sans travail supplémentaire à effectuer sur votre solution d’hébergement. [Voici comment procéder](dmarc-record.md#implement-dmarc)
 
