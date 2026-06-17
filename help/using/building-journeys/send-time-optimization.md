@@ -219,7 +219,7 @@ To avoid sending messages to customers during night time hours, schedule batch m
 +++
 ```
 
----
+&#x200B;---
 
 Voici un résumé de chaque modification apportée :
 

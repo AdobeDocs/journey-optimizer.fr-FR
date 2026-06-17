@@ -7,7 +7,7 @@ ht-degree: 12%
 ---
 Le fichier source de documentation réside dans le référentiel de documents, et non dans ce projet de pipeline. Comme les instructions indiquent de générer le markdown mis à jour complet, le voici :
 
----
+&#x200B;---
 
 solution : Journey Optimizer
 produit : parcours optimizer
@@ -205,6 +205,6 @@ Toutes les fonctionnalités de prise de décision nécessitent le module complé
 - **Voir tout ce qui a été envoyé** — [Notes de mise à jour](../rn/release-notes.md) | Notes de mise à jour [2026](../rn/release-notes-2026.md)
 - **Commencer** — [Commencer avec Journey Optimizer](get-started.md)
 
----
+&#x200B;---
 
 Trois lignes ajoutées (une dans chacun des onglets **Canaux**, **Parcours** et **Campagnes**) selon le même modèle croisé utilisé pour l’envoi de vagues. La fonctionnalité est marquée **Beta/H2 2026** car le ticket cible le second semestre 2026 et la fonctionnalité n’est pas encore disponible en disponibilité générale. L’onglet Canaux affiche la description qui fait autorité ; les lignes Parcours et Campagnes sont de courtes références croisées pointant les lecteurs vers l’onglet Canaux pour plus de détails.
