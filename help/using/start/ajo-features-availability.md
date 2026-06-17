@@ -1,25 +1,21 @@
 ---
-source-git-commit: 84aa39bfd480e5bcaa8a58c5ec29f1990e5ddc6f
+solution: Journey Optimizer
+product: journey optimizer
+title: Disponibilité des fonctionnalités Journey Optimizer
+description: Référence unique et consolidée permettant de déterminer les fonctionnalités Adobe Journey Optimizer disponibles, leur statut de cycle de vie (disponibilité générale, disponibilité limitée ou Beta), l’offre de base à laquelle elles s’appliquent et la date de livraison, sans référence croisée aux notes de mise à jour.
+feature: Get Started
+topic: Content Management
+role: Admin, User
+level: Beginner, Intermediate
+keywords: parcours optimizer, disponibilité des fonctionnalités, disponibilité générale, disponibilité limitée, version bêta, cycle de vie, date de publication, droits, offre de base, campagnes, parcours
+hide: true
+source-git-commit: f13e351c6c3851f9c031e7aa907ecc5924e0df4f
 workflow-type: tm+mt
-source-wordcount: '2004'
-ht-degree: 12%
+source-wordcount: '1880'
+ht-degree: 13%
 
 ---
-Le fichier source de documentation réside dans le référentiel de documents, et non dans ce projet de pipeline. Comme les instructions indiquent de générer le markdown mis à jour complet, le voici :
 
-&#x200B;---
-
-solution : Journey Optimizer
-produit : parcours optimizer
-titre : disponibilité des fonctionnalités Journey Optimizer
-Description : référence unique et consolidée pour identifier les fonctionnalités Adobe Journey Optimizer disponibles, leur statut de cycle de vie (disponibilité générale, disponibilité limitée ou Beta), l’offre de base à laquelle elles s’appliquent et la date de livraison, sans référence croisée aux notes de mise à jour.
-fonctionnalité : Prise en main
-rubrique : Gestion de contenu
-rôle : administrateur, utilisateur
-level : débutant, intermédiaire
-mots-clés : parcours optimizer, disponibilité des fonctionnalités, disponibilité, disponibilité générale, disponibilité limitée, version bêta, cycle de vie, date de publication, droits, offre de base, campagnes, parcours
-masquer : true
----
 
 # Disponibilité des fonctionnalités Journey Optimizer {#ajo-features-availability}
 
@@ -67,7 +63,6 @@ Les fonctionnalités de canal, de contenu et de plateforme marquées **Toutes le
 
 | Fonctionnalité | Statut | Application | Disponible depuis | Remarques |
 |---------|--------|-----------|-----------------|-------|
-| Optimisation de l’heure d’envoi (STO) pour les messages mobiles | Beta | Toutes les offres de base | S2 2026 | Heure d’envoi optimale par profil gérée par l’IA pour les SMS, les RCS et WhatsApp ; disponible dans les parcours et les campagnes |
 | Nouveau canal de message mobile (SMS, MMS, RCS) | GA | Toutes les offres de base | 20 Mai 2026 | Unifie les SMS/MMS/RCS ; création RCS native (images, carrousels) |
 | Liens profonds dans le Concepteur d’e-mail | GA | Toutes les offres de base | 12 Mai 2026 | Nécessite une configuration d’application mobile |
 | Optimiser les e-mails pour les boîtes de réception d’IA | GA | Toutes les offres de base | 17 Avril 2026 | Intelligence Apple, Gmail Gemini |
@@ -104,7 +99,6 @@ Les fonctionnalités de canal, de contenu et de plateforme marquées **Toutes le
 | Activité de décision de contenu | GA | Parcours ; Campagnes et Parcours | 10 Février 2026 | Anciennement LA |
 | Heures creuses (exclusions basées sur les heures) | GA | Parcours ; Campagnes et Parcours | 29 janvier 2026 | Anciennement LA |
 | Assistant AI pour les expressions de parcours | Beta | Parcours ; Campagnes et Parcours | 3 Juin 2026 | Beta publique |
-| Optimisation de l’heure d’envoi (STO) pour les messages mobiles | Beta | Parcours ; Campagnes et Parcours | S2 2026 | Heure d’envoi optimale par profil gérée par l’IA pour les SMS, les RCS et WhatsApp ; voir l’onglet Canaux . |
 | Arbitrage des parcours | LA | Parcours ; Campagnes et Parcours | 24 Février 2026 | Contactez votre représentant Adobe |
 | Arbitrage de parcours - Modèles d’IA | LA | Parcours ; Campagnes et Parcours | Avril 2026 | Contactez votre représentant Adobe |
 | Prise en charge de la recherche de jeu de données dans les parcours | LA | Parcours ; Campagnes et Parcours | Mars 2026 | Pour les clients autorisés à rechercher un jeu de données |
@@ -125,7 +119,6 @@ Les fonctionnalités de canal, de contenu et de plateforme marquées **Toutes le
 | Déclencher des campagnes orchestrées à l’aide d’un signal | GA | Campagnes ; Campagnes et Parcours | Mars 2026 | Reste une campagne par lots |
 | Catégorie transactionnelle dans les campagnes orchestrées | GA | Campagnes ; Campagnes et Parcours | Mars 2026 | Déployé progressivement par région |
 | Envoi d&#39;une vague de messages sortants (campagnes) | GA | Campagnes ; Campagnes et Parcours | 19 Février 2026 | LA dans les parcours |
-| Optimisation de l’heure d’envoi (STO) pour les messages mobiles | Beta | Campagnes ; Campagnes et Parcours | S2 2026 | Heure d’envoi optimale par profil gérée par l’IA pour les SMS, les RCS et WhatsApp ; voir l’onglet Canaux . |
 | Campagnes par lots | GA | Campagnes ; Campagnes et Parcours | Fonctionnalité principale | Envois planifiés, basés sur l’audience |
 | Campagnes orchestrées (workflows à plusieurs étapes) | GA | Campagnes ; Campagnes et Parcours | Fonctionnalité principale | e-mail, SMS, notification push, courrier uniquement |
 | Messages transactionnels | GA | Toutes les offres de base | Fonctionnalité principale | e-mail, notification push, SMS ; inclus dans chaque offre de base |
@@ -204,7 +197,3 @@ Toutes les fonctionnalités de prise de décision nécessitent le module complé
 - **Comprendre le contenu de votre package** — [Packages et fonctionnalités](ajo-packages.md)
 - **Voir tout ce qui a été envoyé** — [Notes de mise à jour](../rn/release-notes.md) | Notes de mise à jour [2026](../rn/release-notes-2026.md)
 - **Commencer** — [Commencer avec Journey Optimizer](get-started.md)
-
-&#x200B;---
-
-Trois lignes ajoutées (une dans chacun des onglets **Canaux**, **Parcours** et **Campagnes**) selon le même modèle croisé utilisé pour l’envoi de vagues. La fonctionnalité est marquée **Beta/H2 2026** car le ticket cible le second semestre 2026 et la fonctionnalité n’est pas encore disponible en disponibilité générale. L’onglet Canaux affiche la description qui fait autorité ; les lignes Parcours et Campagnes sont de courtes références croisées pointant les lecteurs vers l’onglet Canaux pour plus de détails.
