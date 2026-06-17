@@ -10,31 +10,16 @@ level: Beginner
 keywords: créer, e-mail, commencer, parcours, campagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 TQID: https://experienceleague.adobe.com/EM2msybn-3qaRJz113oIwMOU4Aj9h3BiDeLnl4vpO-Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fae48155-b23f-40d2-a252-a25bce350b4did: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0ae04dfd501704d6ed6bb9ed85fa404caf4d90a1
 workflow-type: tm+mt
-source-wordcount: 1272
-ht-degree: 69%
+source-wordcount: 1866
+ht-degree: 47%
 
 ---
 
@@ -57,7 +42,7 @@ ht-degree: 69%
 >id="ajo_journey_action_email"
 >title="Action E-mail"
 >abstract="Une action de canal e-mail envoie un e-mail aux profils lorsqu’ils atteignent cette étape du parcours. Le libellé identifie l’activité dans la zone de travail de parcours et l’action fait référence à une configuration d’e-mail qui définit le contenu diffusé. La section **Optimisation** peut inclure des expériences de contenu ou des règles de ciblage, la section **Multilingue** peut diffuser du contenu dans plusieurs langues et la section **Temporisation ou erreur** peut définir un autre chemin en cas d’échec de l’action."
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Prise en main des actions de canal"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Prise en main des actions de canal"
 
 Pour créer un e-mail dans [!DNL Journey Optimizer], ajoutez une action d’**[!UICONTROL e-mail]** à un parcours ou à une campagne. Suivez ensuite les étapes ci-dessous, en fonction de votre cas.
 
@@ -165,6 +150,8 @@ Après avoir ajouté l’action E-mail à votre parcours ou à votre campagne, v
    >
    >Si vous avez déjà créé ou importé du contenu par l’intermédiaire du concepteur d’e-mail, ce contenu s’affiche par HTML.
 
+1. Si nécessaire, activez l’option **[!UICONTROL Optimiser la taille d’HTML]** pour réduire la taille de votre HTML de messagerie pendant le processus de publication. [En savoir plus](#optimize-html-size)
+
 ## Vérifier les alertes {#check-email-alerts}
 
 Lorsque vous concevez vos messages, des alertes s’affichent dans l’interface (en haut à droite de l’écran) lorsque des paramètres clés sont manquants.
@@ -191,7 +178,7 @@ Deux types d’alertes peuvent avoir lieu :
 
    * **[!UICONTROL Lien vide figurant dans le corps de l’email]** : vérifiez que tous les liens de votre email sont corrects. Découvrez comment gérer le contenu et les liens dans [cette section](content-from-scratch.md).
 
-   * **[!UICONTROL La taille de l’email dépasse la limite de 100 Ko]** : pour une diffusion optimale, veillez à ce que la taille de votre email ne dépasse pas 100 Ko. Découvrez comment modifier le contenu des emails dans [cette section](content-from-scratch.md).
+   * **[!UICONTROL La taille de l’email dépasse la limite de 100 Ko]** : pour une diffusion optimale, veillez à ce que la taille de votre email ne dépasse pas 100 Ko. Pour réduire la taille d’HTML, utilisez l’option **[!UICONTROL Optimiser la taille d’HTML]**. [En savoir plus](#optimize-html-size)
 
 * Les **erreurs** vous empêchent de tester ou d’activer le parcours ou la campagne tant qu’elles ne sont pas corrigées, telles que :
 
@@ -206,6 +193,50 @@ Deux types d’alertes peuvent avoir lieu :
 >[!CAUTION]
 >
 >Pour pouvoir tester ou activer le parcours/la campagne à l’aide de l’e-mail, vous devez résoudre toutes les alertes d’**erreurs**.
+
+## Optimiser la taille de l’e-mail HTML {#optimize-html-size}
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_minification"
+>title="Réduction de la taille d’HTML"
+>abstract="Activez cette option pour compresser votre HTML d’e-mail lors de la publication en supprimant les espaces blancs, les mises en retrait et les commentaires non indispensables. Cela permet d’éviter l’extraction d’e-mails dans les clients tels que Gmail, qui tronque les messages de plus de 100 Ko. Notez que lorsque vous utilisez des e-mails multilingues, cette option est activée par défaut pour tous les paramètres régionaux."
+
+[!DNL Journey Optimizer] vous permet de compresser votre version d’HTML par e-mail pendant le processus de publication en supprimant les espaces inutiles, la mise en retrait et les commentaires non indispensables. Conserver une petite taille pour HTML vous permet d’effectuer les opérations suivantes :
+
+* Évitez de **couper les e-mails** — certains clients comme Gmail tronquent les messages de plus de 100 Ko, empêchant les destinataires de voir le contenu complet.
+* Améliorer le **temps de chargement des emails** dans la boîte de réception du destinataire.
+* Améliorez la **délivrabilité** et réduisez l’utilisation de la bande passante.
+
+Cette optimisation n’est pas appliquée automatiquement. Vous devez l’activer manuellement dans l’écran [ Modifier le contenu ](#define-email-content).
+
+![](assets/email-optimize-html-size.png)
+
+>[!IMPORTANT]
+>
+> La réduction de la taille d’HTML n’est appliquée qu’au moment de la publication.
+
+L’optimisation est sûre pour le client de messagerie :
+
+* Il conserve les commentaires conditionnels MSO/Outlook.
+* Il ne modifie pas le contenu, les images ou les vidéos.
+
+>[!NOTE]
+>
+>La réduction de la taille de l’e-mail dépend de la structure HTML d’origine de votre e-mail. Si le contenu est déjà compact ou si la payload de l’e-mail est très volumineuse, la réduction peut être minimale et il se peut que l’écrêtage ne soit pas complètement empêché dans tous les cas.
+
+Vous pouvez tester l’impact de l’optimisation de la taille d’HTML avant de publier lors de l’envoi de BAT. [En savoir plus](#optimize-html-proof)
+
+### Optimisation de la taille d’HTML dans les e-mails multilingues {#optimize-html-multilingual}
+
+Lorsque vous utilisez des [variantes d’e-mail multilingues](../content-management/multilingual-gs.md), le paramètre **[!UICONTROL Optimiser la taille d’HTML]** est suivi au niveau de l’e-mail, et non par paramètre régional.
+
+Par conséquent, l’activation de ce paramètre pour un paramètre régional l’applique à tous les paramètres régionaux de cet e-mail au moment de la publication, même pour les paramètres régionaux dans lesquels la case à cocher apparaît toujours décochée dans l’interface utilisateur. Il n’est pas nécessaire de répéter l’action pour chaque paramètre régional.
+
+Pour désactiver l’optimisation de la taille d’HTML, vous devez décocher la case **[!UICONTROL Optimiser la taille d’HTML]** dans chaque paramètre régional. Si vous la laissez activée pour un seul paramètre régional, l’optimisation peut être appliquée à tous les paramètres régionaux.
+
+>[!NOTE]
+>
+>Si vous exécutez une [expérience de contenu](../content-management/content-experiment.md), le paramètre **[!UICONTROL Optimiser la taille d’HTML]** est géré indépendamment pour chaque traitement, car chaque traitement est considéré comme un message distinct.
 
 ## Vérifier et envoyer votre e-mail
 
@@ -225,6 +256,34 @@ Une fois votre e-mail prêt, effectuez la configuration de votre [parcours](../b
 >[!NOTE]
 >
 >Pour suivre le comportement de vos destinataires par le biais d’ouvertures d’e-mails et/ou d’interactions avec des e-mail,s assurez-vous que les options dédiées dans la section **[!UICONTROL Tracking]** sont activées dans l’[activité E-mail](../building-journeys/journey-action.md) du parcours ou dans la [campagne](../campaigns/create-campaign.md) par e-mail.<!--to move?-->
+
+### Tester l’optimisation de la taille d’HTML {#optimize-html-proof}
+
+Si vous avez activé l’option [Optimisation de la taille d’](#optimize-html-size), vous pouvez évaluer son impact avant de la publier lors de l’envoi de BAT. Suivez les étapes ci-après.
+
+1. Dans le Designer d’e-mail, cliquez sur l’icône Problèmes dans le rail de droite. Si la taille de l’e-mail rendu dépasse 100 Ko, un message s’affiche pour vous avertir que cela peut entraîner la troncation de certains clients de messagerie. <!--Learn more about content checks in [this section](#check-email-alerts).-->
+
+   ![Problèmes d’optimisation des e-mails](assets/email-optimize-size-issues.png)
+
+1. Cliquez sur **[!UICONTROL Simuler du contenu]**.
+
+   <!--![](assets/email-optimize-size-simulate-warning.png)-->
+
+1. Pour tester la version optimisée, cliquez sur le bouton **[!UICONTROL Envoyer le BAT]** et sélectionnez l’option **[!UICONTROL Optimiser la taille d’HTML]**. Une épreuve avec la taille réduite d’HTML sera alors envoyée à vos destinataires testés.
+
+   ![](assets/email-optimize-size-proof-option.png)
+
+   >[!NOTE]
+   >
+   >Ce paramètre est indépendant de l’éditeur d’e-mail : l’épreuve reflète ce que vous sélectionnez dans l’épreuve, que l’option soit activée ou désactivée dans l’e-mail lui-même.
+
+1. Sélectionnez les destinataires du test et cliquez sur le bouton **[!UICONTROL Envoyer un BAT]**. En savoir plus sur l’envoi de BAT dans [cette section](../content-management/proofs.md).
+1. Une fois envoyé, de retour dans l’écran **[!UICONTROL Simuler]**, cliquez sur le bouton **[!UICONTROL Afficher le BAT]**.
+1. Cliquez sur l’icône Infos en regard du statut du BAT. Les détails de l’optimisation s’affichent dans une fenêtre pop-up, notamment la taille d’origine d’HTML, la taille d’HTML optimisée et le pourcentage de réduction de taille.
+
+   ![Détails de l’optimisation des e-mails](assets/email-optimize-size-view-proof.png)
+
+   Utilisez ces informations pour valider la sortie optimisée et confirmer que l’e-mail reste dans la limite recommandée de 100 Ko avant la publication.
 
 <!--
 ## Define your email content {#email-content}
