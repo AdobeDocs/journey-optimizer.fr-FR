@@ -6,14 +6,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7d650278-4a62-4666-b8d7-f0b79ec527ea
-source-git-commit: e53edd0f6f17f5b764075f61600294b91a020421
+source-git-commit: c2bb6cf702a14b4eef8f2209082e39cd73338378
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 31%
+source-wordcount: '320'
+ht-degree: 29%
 
 ---
 
-# Création d’une boîte de réception {#inbox-create}
+# Créer une boîte de réception {#inbox-create}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** créez une campagne qui utilise l’action de boîte de réception, cible une audience et la planifie ou la déclenche, afin que vous puissiez diffuser des messages persistants que les utilisateurs peuvent consulter à nouveau dans leur boîte de réception.
+
+>[!ENDSHADEBOX]
 
 Avant de créer une boîte de réception, suivez les étapes décrites dans la section [Configuration de la boîte de réception](inbox-configuration.md). La configuration de canal identifie l’application ou le site web cible, la page ou la règle et l’emplacement où la boîte de réception est générée.
 

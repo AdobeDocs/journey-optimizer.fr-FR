@@ -5,14 +5,21 @@ feature: Channel Configuration, Content Cards
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
+exl-id: d308ab4a-843c-4729-ad18-97d89c708357
+source-git-commit: c2bb6cf702a14b4eef8f2209082e39cd73338378
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 41%
+source-wordcount: '337'
+ht-degree: 36%
 
 ---
 
 # Configurer la boîte de réception {#inbox-configuration}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** définissez une configuration de canal de boîte de réception qui définit le consentement, les libellés d’accès facultatifs et l’emplacement de la boîte de réception sur le web ou dans votre application iOS ou Android, afin que vous puissiez diffuser des expériences de carte de contenu via la boîte de réception.
+
+>[!ENDSHADEBOX]
 
 Avant de pouvoir diffuser des expériences de carte de contenu par le biais de la boîte de réception, vous devez définir une configuration de canal **boîte de réception** dans **[!UICONTROL configurations de canal]**. Cette configuration associe la surface au consentement, aux libellés d’accès facultatifs et à l’emplacement où l’expérience apparaît sur le web ou dans votre application iOS ou Android. Pour créer une configuration, procédez comme suit :
 
