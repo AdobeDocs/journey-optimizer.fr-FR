@@ -5,9 +5,14 @@ title: Ajouter de la personnalisation dans des campagnes orchestrées
 description: Découvrez comment personnaliser des messages de campagne orchestrés à l’aide d’attributs de profil, d’attributs de cible de la table de travail et de tableaux de collecte d’enrichissement.
 exl-id: c4a91e2b-6f08-4d1a-9e3b-2f8f5a0d1c62
 version: Campaign Orchestration
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
 source-wordcount: 477
