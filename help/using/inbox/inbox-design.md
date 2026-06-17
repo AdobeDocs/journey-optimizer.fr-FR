@@ -6,14 +6,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0ab71b21-0085-4a93-b319-3c960bd8f7dd
-source-git-commit: 2eb2e99e654516fc13a7f98125f48e7e8f672ee3
+source-git-commit: 8ef401e6c92d94631f02762e4dc9ffab60657cb4
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
 # Concevoir une boîte de réception {#inbox-design}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Configurez la disposition, la capacité, les indicateurs non lus et l’état vide de votre canal de boîte de réception afin que les messages soient lisibles et qu’ils soient sur la marque, pour offrir aux profils ciblés une expérience claire et cohérente dans les modes clair et sombre.
+
+>[!ENDSHADEBOX]
 
 La conception de boîte de réception régit la manière dont chaque message est rendu aux profils ciblés dans la surface de boîte de réception. La configuration englobe le modèle de boîte de réception, les présentations de liste et développées, ainsi que les indicateurs de lecture qui distinguent les nouveaux messages de ceux déjà consultés.
 
