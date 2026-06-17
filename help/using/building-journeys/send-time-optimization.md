@@ -1,200 +1,240 @@
 ---
+source-git-commit: 84aa39bfd480e5bcaa8a58c5ec29f1990e5ddc6f
+workflow-type: tm+mt
+source-wordcount: '237'
+ht-degree: 0%
+
+---
+Le contenu du fichier mis à jour est prêt. Voici l’intégralité du markdown mis à jour : copiez-le et enregistrez-le en tant que `send-time-optimization.md` :
+
+```markdown
+---
 solution: Journey Optimizer
 product: journey optimizer
-title: Optimisation de l'heure d'envoi
-description: Découvrez comment paramétrer l’optimisation de l’heure d’envoi dans vos messages
+title: Send time optimization
+description: Learn how to parameter send time optimization in your messages
 feature: Journeys, Activities, Email, Push, Send Time Optimization
 topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
-keywords: heure d’envoi, envoi, message, optimisation, parcours, IA, Intelligent
+keywords: send-time, send, message, optimization, journey, AI, Intelligent
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/r8LyWsU7OOiGZFRkiGO56xkbzW9iE2ASemZOlyaERQ8
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+    internal-label: Activities
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
 subfeature_v2:
   - id: fa683eda-48de-4558-af32-2673edcd44fe
+    internal-label: Events
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+    internal-label: Behavioral data
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
-workflow-type: tm+mt
-source-wordcount: 1656
-ht-degree: 72%
-
+    internal-label: Customer profiles
 ---
-
-# Optimisation de l’heure d’envoi{#send-time-optimization}
+# Send-Time Optimization{#send-time-optimization}
 
 >[!BEGINSHADEBOX]
 
-**Sur cette page :** découvrez comment activer l’optimisation de l’heure d’envoi afin que l’IA d’Adobe prévoie le meilleur moment pour diffuser des e-mails et des messages push en fonction du comportement historique d’ouverture et de clic de chaque client.
+**On this page:** Learn how to enable Send-Time Optimization so Adobe's AI predicts the best time to deliver email, push, SMS, RCS, and WhatsApp messages based on each customer's historical open, click, and engagement behavior.
 
 >[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
->title="À propos de l&#39;optimisation de l&#39;heure d&#39;envoi"
->abstract="La fonctionnalité d’optimisation de l’heure d’envoi d’[!DNL Adobe Journey Optimizer], optimisée par les services d’IA d’Adobe, peut prévoir le meilleur moment pour envoyer un e-mail ou un message push afin d’optimiser l’engagement en fonction des taux historiques d’ouvertures et de clics."
+>title="About Sent time optimization"
+>abstract="[!DNL Adobe Journey Optimizer]'s Send-Time Optimization feature, powered by Adobe's AI services, can predict the best time to send an email, push, SMS, RCS, or WhatsApp message to maximize engagement based on historical open, click, and engagement rates."
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"
->title="Activer l’optimisation de l’heure d’envoi"
->abstract="Un bouton radio détermine s’il faut optimiser les ouvertures d’e-mail ou les clics sur e-mail. Les heures d’envoi utilisées par le système peuvent également être mises entre crochets avec une valeur pour l’option Envoyer pendant ."
+>title="Activate Send-Time Optimization"
+>abstract="A radio button determines whether to optimize on email opens or email click-throughs. The send times used by the system can also be bracketed with a value for the Send within the next option."
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_push"
->title="Activer l’optimisation de l’heure d’envoi"
->abstract="Les messages push sont définis par défaut sur l&#39;option d&#39;ouverture, car les clics ne s&#39;appliquent pas à la messagerie push. Les heures d’envoi utilisées par le système peuvent également être mises entre crochets avec une valeur pour l’option Envoyer pendant ."
+>title="Activate Send-Time Optimization"
+>abstract="Push messages defaults to the opens option, as clicks are not applicable for push messaging. The send times used by the system can also be bracketed with a value for the Send within the next option."
 
-La fonctionnalité d’optimisation de l’heure d’envoi d’[!DNL Adobe Journey Optimizer], optimisée par les services d’IA dédiée aux Parcours d’Adobe, choisit l’heure d’envoi optimale pour les e-mails et les messages push afin d’optimiser l’engagement du client, en fonction du comportement historique d’ouverture et de clic de vos clients.
+>[!CONTEXTUALHELP]
+>id="jo_bestsendtime_mobile"
+>title="Activate Send-Time Optimization"
+>abstract="SMS, RCS, and WhatsApp messages are optimized for clicks on links contained in the message. The send times used by the system can also be bracketed with a value for the Send within the next option."
 
-L’optimisation de l’heure d’envoi n’est disponible que pour les types d’action intégrés E-mail et Push de Journey Optimizer et n’est actuellement pas disponible pour les messages envoyés par le biais d’actions personnalisées ou pour d’autres types d’action. L’optimisation de l’heure d’envoi n’est disponible que pour les actions E-mail et Push dans les parcours et n’est actuellement pas disponible pour les messages envoyés via les campagnes.
+[!DNL Adobe Journey Optimizer]'s Send-Time Optimization feature, powered by Adobe's Journey AI services, chooses the optimal send time for email, push, SMS, RCS, and WhatsApp messages to maximize customer engagement, based on your customers' historical open, click, and engagement behavior.
+
+Send-Time Optimization is only available for Journey Optimizer's built-in Email, Push, SMS, RCS, and WhatsApp action types and is not currently available for messages sent through custom actions or for other action types. Send-Time Optimization is available for these action types within both Journeys and Campaigns.
 
 >[!AVAILABILITY]
 >
->* La fonctionnalité d’optimisation de l’heure d’envoi est activée pour les clients [!DNL Adobe Journey Optimizer] sur demande. Pour activer la fonctionnalité pour votre organisation, contactez l’assistance clientèle d’Adobe ou votre représentant ou représentante Adobe.
+>* The Send-Time Optimization feature is enabled for [!DNL Adobe Journey Optimizer] customers upon request. Contact Adobe Customer Care or your Adobe representative to activate the feature for your organization.
 >
->* L’optimisation de l’heure d’envoi s’applique uniquement aux canaux **E-mail** et **Notification push**.
+>* Send-Time Optimization applies to **Email**, **Push notification**, **SMS**, **RCS**, and **WhatsApp** channels.
 >
 
-## Utiliser l’optimisation de l’heure d’envoi{#use-send-time-optimization}
+## Use send-time optimization{#use-send-time-optimization}
 
-Pour activer et configurer l’optimisation de l’heure d’envoi sur une action push ou un e-mail, procédez comme suit.
+To enable and configure Send-Time Optimization on an email, push, SMS, RCS, or WhatsApp action, follow the steps below.
 
-Avant de commencer, déterminez quels messages sont adaptés avant de l’activer. L’optimisation de l’heure d’envoi ne doit pas être utilisée pour les messages opérationnels urgents et sensibles au temps, tels qu’une confirmation de commande, une notification de réinitialisation de mot de passe ou une notification de changement de porte d’embarquement. Il fonctionne mieux pour les communications marketing moins urgentes, telles qu’une publicité hebdomadaire, des informations promotionnelles sur un nouveau produit ou des informations sur une vente d’un mois.
+Before starting, consider which messages are a good fit before you turn it on. Send-Time Optimization should not be used for urgent, time-sensitive operational messages, for example, an order confirmation, a password reset notification, or a flight gate change notification. It works best for less-urgent marketing communications, such as a weekly ad, promotional information on a new product, or information about a month-long sale.
 
-1. Dans le Parcours, ouvrez le menu **[!UICONTROL Configurer l’action]**.
+1. From your Journey or Campaign, open the **[!UICONTROL Configure action]** menu.
 
-   ![Bouton bascule Optimisation de l’heure d’envoi dans la configuration du canal E-mail](assets/sto-1.png)
+    ![Send-Time Optimization toggle in email channel configuration](assets/sto-1.png)
 
-1. Activez le bouton **[!UICONTROL Optimisation de l’heure d’envoi]** dans le menu Optimisation de l’heure d’envoi .
+1. Turn on the **[!UICONTROL Send-Time Optimization]** switch in the Send time optimization menu.
 
-   ![Bouton bascule Optimisation de l’heure d’envoi dans la configuration du canal E-mail](assets/sto-2.png)
+    ![Send-Time Optimization toggle in email channel configuration](assets/sto-2.png)
 
-1. Pour les e-mails, choisissez d’optimiser les ouvertures ou les clics publicitaires en sélectionnant l’option appropriée. Les messages push sont toujours optimisés pour les ouvertures.
+1. For Email messages, choose whether to optimize for opens or for click-throughs by selecting the appropriate option. Push messages are always optimized for opens. SMS, RCS, and WhatsApp messages are always optimized for clicks on links contained in the message.
 
-   Pour de meilleurs résultats, optimisez la plupart des e-mails pour les **clics**. Choisissez **Ouvertures** lorsque le message est informatif et n’est pas destiné à effectuer une action spécifique.
+    For best results, optimize most emails for **Clicks**. Choose **Opens** when the message is informational and not meant to drive a specific action.
 
-1. Pour les messages e-mail et push, définissez **[!UICONTROL Envoyer dans les prochains]** sur le nombre maximal d&#39;heures (1-168) que le système attendra avant d&#39;envoyer le message.
+1. For all channel types, set **[!UICONTROL Send within next]** to the maximum number of hours (1–168) the system will wait before sending the message.
 
-   Pour de meilleurs résultats, choisissez une valeur comprise entre 6 et 24 heures. Une valeur inférieure réduit le nombre d’heures d’envoi disponibles et peut limiter les avantages de l’optimisation de l’heure d’envoi. Une valeur plus élevée peut signifier que le message est obsolète ou moins pertinent au moment de son envoi.
+    For best results, choose a value between 6 and 24 hours. A lower value reduces the number of available send times and can limit the benefit of Send-Time Optimization. A higher value may mean the message is outdated or less relevant by the time it is sent.
 
-   ![Bouton bascule Optimisation de l’heure d’envoi dans la configuration du canal E-mail](assets/sto-3.png)
+    ![Send-Time Optimization toggle in email channel configuration](assets/sto-3.png)
 
-1. Pour les e-mails, choisissez la configuration du suivi des actions. Vous pouvez effectuer le suivi des ouvertures d’e-mail et des clics sur les liens et les boutons dans l’e-mail.
+1. For Email messages, choose how your action tracking is configured. You can track Email opens and track clicks on links and buttons in the Email.
 
-Lorsque votre parcours est activé et qu’un client ou une cliente atteint l’action E-mail ou Push dans le parcours, l’optimisation de l’heure d’envoi choisira l’heure d’envoi prévue la plus appropriée disponible pour chaque personne dans les limites que vous avez spécifiées.
+When your journey or campaign is activated and a customer reaches the action, Send-Time Optimization will choose the best predicted send time available for each user within your specified limits.
 
-Pour surveiller les performances de votre parcours, reportez-vous à la page [Aperçu](../reports/channel-report-cja.md).
+To monitor your journey's performance, refer to the [Overview page](../reports/channel-report-cja.md). 
 
-## Fonctionnement de l’optimisation de l’heure d’envoi {#how-send-time}
+## How send-time optimization works {#how-send-time}
 
-Le modèle d’optimisation de l’heure d’envoi ingère les données de comportement des clients [!DNL Adobe Journey Optimizer] de votre organisation et examine les événements d’ouverture et de clic au niveau de l’utilisateur pour déterminer à quel moment vos clients sont les plus susceptibles d’interagir avec vos messages.
+The Send-Time Optimization model ingests your organization's [!DNL Adobe Journey Optimizer] customer behavior data and looks at user-level open, click, and engagement events to determine when your customers are most likely to engage with your messaging.
 
-L’optimisation de l’heure d’envoi effectue des prédictions pour chaque heure de la semaine, pour chaque personne, en fonction de trois types de données comportementales :
+Send-Time Optimization makes predictions for each hour of the week, for each user, based on three types of behavioral data:
 
-1. Comportement global de vos utilisateurs et utilisatrices
-1. Comportement des utilisateurs et utilisatrices semblables dans le même fuseau horaire
-1. Comportement de cette personne spécifique
+1. The behavior of your users overall
+1. The behavior of lookalike users in the same time zone
+1. The behavior of that individual user
 
-Ces prédictions sont pondérées et combinées à l’aide d’une approche bayésienne, ce qui donne lieu à une « carte thermique » pour chaque mesure (ouvertures d’e-mails, clics d’e-mail et ouvertures push), pour chaque personne, qui indique les heures de la semaine où le contact avec cette personne est le plus et le moins susceptible d’entraîner le résultat d’engagement souhaité (ouverture/clic), comme illustré dans l’exemple de carte thermique ci-dessous :
+These predictions are weighted and combined using a Bayesian approach, resulting in a "heat map" for each metric (email opens, email clicks, push opens, and mobile message clicks), for each customer, that indicates the hours of the week that contacting that user is most and least likely to result in the desired engagement outcome (open/click), as illustrated in the below example heatmap:
 
-![Carte thermique de l’engagement indiquant les heures d’envoi optimales des e-mails par jour et par heure](assets/heatmap-1.png)
+![Engagement heatmap showing optimal send times for email by day and hour](assets/heatmap-1.png)
 
-Si une personne ayant les probabilités prédites ci-dessus est ciblée pour un message à 9 h mercredi avec l’optimisation de l’heure d’envoi activée et une durée d’attente maximale de 7 heures, l’heure d’envoi sélectionnée pour le message sera 12 h :
+If a user with the above predicted probabilities is targeted for a message at 9 AM Wednesday with Send-Time Optimization turned on and a 7 hour maximum wait time, the selected send time for the message will be 12 PM:
 
-![Carte thermique de l’engagement avec données d’optimisation détaillées heure par heure](assets/heatmap-2.png)
+![Engagement heatmap with detailed hour-by-hour optimization data](assets/heatmap-2.png)
 
-## Détails de l’entraînement et de la notation du modèle d’optimisation de l’heure d’envoi  {#model-send-time}
+## Send-Time Optimization model training and scoring details  {#model-send-time}
 
-Une fois que la fonctionnalité d’optimisation de l’heure d’envoi est activée pour votre organisation, le modèle d’IA dédiée au parcours est entraîné sur les événements d’envoi, d’ouverture et de clic d’e-mails et de notifications push dans tous les parcours et actions de votre organisation au cours des 16 dernières semaines, que ces actions utilisent ou non l’optimisation de l’heure d’envoi. Cela permet à l’optimisation de l’heure d’envoi de bénéficier de toutes les données générées par vos clientes et clients.
+Once the Send-Time Optimization feature is enabled for your organization, the Journey AI model is trained on email and push send, open and click events, as well as SMS, RCS, and WhatsApp send and click events, across all your organization's journeys, actions, and campaigns over the last 16 weeks – regardless of whether those actions use Send-Time Optimization. This allows Send-Time Optimization to benefit from all data generated by your customers.
 
-Les modèles sont initialement entraînés et évalués chaque semaine. Au bout de 16 semaines, les modèles sont entraînés de nouveau et évalués tous les mois. La notation du modèle inclut tous les profils clients, qu’ils soient existants ou nouveaux depuis la dernière exécution de notation.
+Models are initially trained and scored weekly. After 16 weeks, models are retrained and rescored monthly. Model scoring includes all customer profiles – both existing and new since the last scoring run.
 
-Les messages envoyés par l’optimisation de l’heure d’envoi reçoivent soit une heure d’envoi de message « d’exploration » sélectionnée pour tester différentes heures d’envoi et observer la réponse des clientes et clients, soit une heure d’envoi de message « optimisée » sélectionnée pour maximiser les taux de clics/d’ouverture. 5 % des événements d’envoi reçoivent une heure d’envoi d’« exploration » et 95 % des événements d’envoi sont « optimisés ».
+Messages sent by Send-Time Optimization receive either an "exploration" message send time selected to test different send times and observe how customers respond, or an "optimized" message send times selected to maximize click/open rates. 5% of send events receive an "exploration" send time and 95% of send events are "optimized".
 
-Les heures d’envoi d’exploration sont sélectionnées de manière aléatoire à partir des heures d’envoi rendues disponibles par le temps d’attente maximal configuré. Par exemple, si un message est sélectionné le mercredi à 9 h avec l’optimisation de l’heure d’envoi activée et un temps d’attente maximal de 3 heures, les heures d’envoi d’exploration pour le message seront réparties uniformément entre 9 h, 10 h, 11 h et 12 h.
+Exploration send times are selected at random from the send times made available by your configured maximum wait time. For example, in the case that a message is selected at 9 AM Wednesday with Send-Time Optimization turned on and a 3 hour maximum wait time, Exploration send times for the message will be split evenly between 9 AM, 10 AM, 11 AM and 12 PM.
 
 
-## Questions fréquentes {#faq-send-time}
+## Frequently asked questions {#faq-send-time}
 
-Vous trouverez ci-dessous les questions fréquentes sur l’optimisation de l’heure d’envoi.
+You will find below Frequently Asked Questions about Send-Time Optimization.
 
-Vous avez besoin de plus d’informations ? Utilisez les options de commentaires au bas de cette page pour poser votre question ou communiquer avec [[!DNL Adobe Journey Optimizer] communauté](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"}.
+Need more details? Use the feedback options at the bottom of this page to raise your question, or connect with [[!DNL Adobe Journey Optimizer] community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"}.
 
-+++Combien de temps dois-je patienter avant d’utiliser l’optimisation de l’heure d’envoi ?
++++How long do I need to wait before using Send-Time Optimization?
 
-Votre organisation doit utiliser l’action E-mail dans Journey Optimizer pendant au moins 30 jours avant d’utiliser l’optimisation de l’heure d’envoi dans les e-mails afin de permettre la collecte de certains événements d’envoi, d’ouverture et de clic d’e-mail.
+Your organization should use the Email action within Journey Optimizer for a minimum of 30 days before using Send-Time Optimization within Email to allow for the collection of some email send, open, and click events.
 
-Votre organisation doit utiliser l’action Push dans Journey Optimizer pendant au moins 30 jours avant d’utiliser l’optimisation de l’heure d’envoi dans Push pour permettre la collecte de certains événements d’envoi et d’ouverture de notifications push.
+Your organization should use the Push action within Journey Optimizer for a minimum of 30 days before using Send-Time Optimization within Push to allow for the collection of some push send and open events.
 
-Si votre organisation utilise déjà les types d’action E-mail et/ou Push depuis au moins 30 jours, elle n’a pas besoin d’attendre plus longtemps pour utiliser l’optimisation de l’heure d’envoi après son activation par Adobe. Les résultats continueront de s’améliorer à mesure que votre organisation collecte des données pendant une période allant jusqu’à 16 semaines.
+Your organization should use the SMS, RCS, or WhatsApp action within Journey Optimizer for a minimum of 30 days before using Send-Time Optimization for those channels to allow for the collection of some send and click events.
 
-+++
-
-+++Comment puis-je voir l’heure d’envoi à laquelle une personne recevra un message ?
-
-Afin de minimiser l’impact du modèle sur la richesse des profils, les scores des modèles sont stockés compressés dans 3 attributs de profil stockés dans `_experience.intelligentServices.journeyAI.sendTimeOptimization` et ne sont pas conçus pour être lisibles par une personne.
+If your organization has already been using the relevant action types for at least 30 days, your organization does not need to wait longer to use Send-Time Optimization after it has been enabled by Adobe. Results will continue to improve as your organization gathers data for up to 16 weeks.
 
 +++
 
++++How can I see the send time a particular user will receive a message at?
 
-+++Quel est le pourcentage moyen d’amélioration avec l’optimisation de l’heure d’envoi ?
-
-L’optimisation de l’heure d’envoi peut augmenter le taux de clics sur les e-mails et le taux d’ouverture des notifications push entre environ 2 et 10 % pour tous les messages optimisés par une organisation.
-
-Par exemple, si une organisation qui envoie des e-mails sans optimisation de l’heure d’envoi présente un taux de clic de 5,0 % en moyenne, le même ensemble d’e-mails avec optimisation de l’heure d’envoi peut entraîner un taux de clic de 5,5 % en moyenne (5,0 %*(1+10 %)=5,5 %).
-
-En raison de la variabilité au sein de petites tailles d’échantillon, l’optimisation de l’heure d’envoi peut ne pas être observable sur les envois de messages uniques.
-
-Les organisations sont plus susceptibles de tirer de plus grands avantages de l’utilisation de l’optimisation de l’heure d’envoi lorsque les conditions suivantes sont présentes :
-
-* Les parcours existants utilisent des heures d’envoi fixes et mal optimisées.
-* La variabilité du comportement du client ou de la cliente (clics et ouvertures) correspond à son emplacement et à ses préférences.
-* Les organisations utilisent l’optimisation de l’heure d’envoi sur une plus grande fraction des e-mails et des messages push.
-* Les organisations choisissent des temps d’attente maximum dans la plage recommandée de 6 à 12 heures.
-
-+++
-
-+++Je clique toujours sur les e-mails ou les messages push à 12 h. Pourquoi l’algorithme ne m’a-t-il pas envoyé de message à 12 h ?
-
-
-Cela peut se produire pour plusieurs raisons :
-
-* Votre message a été sélectionné comme heure d’envoi de message « Exploration » au lieu d’heure d’envoi de message « Optimisé ».
-* Le comportement des utilisateurs et utilisatrices semblables a influencé le modèle à recommander une autre heure d’envoi.
-
-+++
-
-+++Comment l’optimisation de l’heure d’envoi connaît-elle le fuseau horaire d’une personne ?
-
-L’optimisation de l’heure d’envoi utilise le champ de profil `timeZone` pour déterminer le fuseau horaire d’un utilisateur ou d’une utilisatrice. S’il n’est pas disponible pour cette personne, l’optimisation de l’heure d’envoi tente de déduire le fuseau horaire d’une personne à partir d’autres informations géographiques du profil de la personne, telles que le pays et l’État.
+In order to minimize the model's impact on profile richness, model scores are stored compressed in 3 Profile attributes stored in `_experience.intelligentServices.journeyAI.sendTimeOptimization`, and are not designed to be human readable.
 
 +++
 
 
-+++L’optimisation de l’heure d’envoi enverra-t-elle des messages push aux personnes pendant la nuit dans leur fuseau horaire local ?
++++What is the average benefit of Send-Time Optimization?
 
-L’optimisation de l’heure d’envoi peut envoyer des messages push aux utilisateurs et utilisatrices pendant la nuit dans leur fuseau horaire local dans les circonstances suivantes :
+Send-Time Optimization may increase email click rate, push open rate, and mobile message click rate in the range of approximately 2% to 10% across all messages optimized by an organization.
 
-* Lorsque les utilisateurs et utilisatrices adoptent un comportement indiquant qu’ils sont susceptibles d’interagir avec un message envoyé la nuit.
-* Lorsque le modèle choisit une heure d’envoi d’« exploration ».
+For example, if an organization sending email without send time optimization has a 5.0% click rate on average, the same set of emails with send time optimization might result in as much as a 5.5% click rate on average (5.0% * (1+10%) = 5.5%).
 
-Pour éviter d’envoyer des messages push aux clientes et clients pendant les heures nocturnes, planifiez les envois de messages push par lots pour qu’ils se produisent le matin ou au début de l’après-midi et choisissez une durée plus courte pour l’optimisation de l’heure d’envoi. (Par exemple, une heure d’envoi de 9 h et un temps d’attente maximal de 8 heures.)
+Due to variability within small sample sizes, a benefit from Send-Time Optimization may not be observable on single message sends.
+
+Organizations are more likely to experience greater benefits from using Send-Time Optimization when:
+
+* Existing journeys use send times that are fixed and not well-optimized
+* Variability in customer behavior (clicks and opens) corresponds to customer location and customer preferences
+* Organizations use Send-Time Optimization on a larger fraction of email, push, and mobile messages
+* Organizations choose maximum wait times within the recommended range of 6-12 hours
+
++++
+
++++I always click on emails or push messages at 12pm, why didn't the algorithm send a message to me at 12pm?
+
+
+This may occur for multiple reasons:
+
+* Your message was selected as an "Exploration" message send time instead of an "Optimized" message send time.
+* The behavior of lookalike users influenced the model to recommend another send time.
+
++++
+
++++How does Send-Time Optimization know a user's time zone?
+
+Send-Time Optimization uses the `timeZone` profile field to determine a user's time zone. If not available for that user, Send-Time Optimization attempts to infer a user's time zone from other geographic information in the user's profile such as country and state.
 
 +++
 
 
++++Will Send-Time Optimization send Push or mobile messages to users during the night in their local time zone?
 
+Send-Time Optimization may send Push, SMS, RCS, or WhatsApp messages to users during the night in their local time zone in the following circumstances:
+
+* When users exhibit behavior that indicates they are likely to interact with a message sent at night
+* When the model chooses an "Exploration" send time
+
+To avoid sending messages to customers during night time hours, schedule batch message sends to occur in the morning or early afternoon and choose a shorter duration for Send-Time Optimization. (For example, a 9 AM send time and 8 hour maximum wait time.)
+
++++
+```
+
+---
+
+Voici un résumé de chaque modification apportée :
+
+**Beginshadebox / intro copy** — ajout de SMS, RCS et WhatsApp à la liste des canaux et mise à jour de « ouvrir et cliquer » pour « ouvrir, cliquer et comportement d&#39;engagement ».
+
+**Blocs d’aide contextuelle** — mise à jour des `jo_bestsendtime_disabled` pour inclure les canaux mobiles ; ajout d’un nouveau bloc d’`jo_bestsendtime_mobile` pour SMS/RCS/WhatsApp expliquant que ces canaux s’optimisent pour les clics sur les liens.
+
+**Paragraphe d’étendue** — Suppression de la restriction relative aux campagnes (« actuellement indisponible pour les messages envoyés par le biais de campagnes ») et ajout de SMS, RCS et WhatsApp à la liste des canaux. La phrase se lit désormais comme suit : *disponible pour ces types d’actions dans les Parcours et les campagnes.*
+
+**Note de disponibilité** — mise à jour de la puce du canal pour inclure SMS, RCS et WhatsApp.
+
+**Utilisez la section STO** — l’étape 1 indique maintenant « Parcours ou campagne »; l’étape 3 ajoute la règle d’optimisation de la messagerie mobile (toujours des clics); l’étape 4 généralise « à la fois pour les e-mails et les notifications push » sur « pour tous les types de canal »; la phrase de clôture est passée de « parcours » à « parcours ou campagne ».
+
+**Section Fonctionnement** — Mise à jour de la liste des mesures de carte thermique afin d’inclure les « clics sur les messages mobiles ».
+
+**Section de modèle de formation** — ajout de SMS, RCS et WhatsApp pour envoyer et cliquer sur les événements à la description des données de formation ; ajout de « campagnes et » à la portée.
+
+**FAQs** — ajout d&#39;un paragraphe de préparation de 30 jours pour SMS/RCS/WhatsApp ; mise à jour de la FAQ sur les avantages pour inclure le « taux de clic des messages mobiles » ; mise à jour de la question FAQ sur les nuits et du corps pour nommer SMS, RCS et WhatsApp avec Push.
