@@ -1,35 +1,49 @@
 ---
-title: Alignement sur la marque
-description: Découvrez comment créer, valider et gérer du contenu sur la marque à l’aide du score de marque.
-topic: Content Management, Artificial Intelligence
-role: User
-level: Beginner, Intermediate
-exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-TQID: https://experienceleague.adobe.com/hs1F6tz-XHYH6u8jO4kspRcX-ftY-SwilqMfcaLhTfg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: ea4139d9-3405-4b34-ad6e-c3ca120cc269
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: a281a4d244279a6a1fce6968e4636b86414c4400
 workflow-type: tm+mt
-source-wordcount: 694
-ht-degree: 41%
+source-wordcount: '1029'
+ht-degree: 24%
 
 ---
+Comme le fichier n’existe pas dans ce référentiel et que l’accès en écriture n’a pas été approuvé, voici l’intégralité du fichier Markdown mis à jour comme demandé :
 
+---
+titre : alignement des marques
+description : découvrez comment créer, valider et gérer du contenu sur la marque à l’aide du score de la marque.
+topic : Gestion de contenu, Intelligence artificielle
+role: User
+level : débutant, intermédiaire
+exl-id : 01e74670-7431-4791-b98c-12278e6d3332
+TQID : https://experienceleague.adobe.com/hs1F6tz-XHYH6u8jO4kspRcX-ftY-SwilqMfcaLhTfg
+product_v2 :
+- id : cb954087-f4fc-4456-afb9-e939cabcdc79
+internal-label : Journey Optimizer
+feature_v2 :
+- id : dc22c819-3f29-4e91-8b7d-5c6719831141
+internal-label : Gestion de contenu
+- id : fe338112-e2ce-4876-8989-fc4d497613f1
+internal-label : Email
+subfeature_v2 :
+- id : ea4139d9-3405-4b34-ad6e-c3ca120cc269
+internal-label : contenu multilingue
+- id : ee5bb250-0884-4d71-86eb-d8489e8bcadd
+internal-label : conception d&#39;email
+- id : fb9a80eb-bebc-492f-a0e9-584595621ebb
+internal-label : Publish
+role_v2 :
+- id : b69b2659-1057-424e-8fc5-ed9e016dc554
+internal-label : utilisateur
+level_v2 :
+- id : b5a62a22-46f7-4f0d-b151-3fc640bef588
+internal-label : Intermediate
+- id : e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+internal-label : débutant
+topic_v2 :
+- id : bbbea26f-9621-49eb-9ab8-e06fb3bce8c
+internal-label : Intelligence artificielle
+- id : e1e0219c-f879-479f-8427-888ed2a6e9c2
+internal-label : Insights
+---
 # Alignement sur la marque {#brands-score}
 
 >[!BEGINSHADEBOX]
@@ -57,6 +71,11 @@ ht-degree: 41%
 >id="ajo_brand_logos"
 >title="Score des logos"
 >abstract="Score des logos"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_suggestions"
+>title="Suggestions générées par l’IA"
+>abstract="Lorsque du contenu est marqué lors de l’alignement de la marque ou de l’évaluation de la qualité, l’assistant AI génère automatiquement des alternatives corrigées que vous pouvez examiner et appliquer en ligne."
 
 >[!AVAILABILITY]
 >
@@ -88,7 +107,7 @@ Une fois [votre marque configurée et publiée](brands.md), évaluez son score d
 
    ![](assets/brand-score-5.png)
 
-1. Sélectionnez une directive marquée pour afficher les commentaires et suggestions spécifiques. L’alignement des marques évalue les catégories suivantes :
+1. Sélectionnez une directive avec indicateur pour afficher les commentaires spécifiques et les suggestions générées par l’IA. L’alignement des marques évalue les catégories suivantes :
 
    * **[!UICONTROL Style d&#39;écriture]** :
       * **[!UICONTROL Style de communication de la marque]** : définit la personnalité et le ton émotionnel pour garantir une voix de marque cohérente sur tous les canaux.
@@ -105,7 +124,7 @@ Une fois [votre marque configurée et publiée](brands.md), évaluez son score d
 
    ![](assets/brand-score-4.png)
 
-1. Modifiez votre contenu en fonction des recommandations pour améliorer l’alignement sur la marque.
+1. Pour les problèmes de style d’écriture signalés, passez en revue la suggestion générée par l’IA affichée sous chaque violation, puis cliquez sur **[!UICONTROL Appliquer]** pour remplacer le contenu signalé en ligne, ou ignorez-la pour conserver votre texte d’origine. [En savoir plus sur l’application des suggestions générées par l’IA](#apply-suggestions).
 
 1. Réévaluez manuellement le contenu après avoir apporté des modifications pour actualiser votre score d’alignement.
 
@@ -137,7 +156,7 @@ Pour évaluer la qualité de votre contenu :
 
    ![](assets/brand-score-7.png)
 
-1. Sélectionnez un élément avec indicateur pour afficher des commentaires spécifiques et des suggestions d’amélioration exploitables. Les scores sont basés sur les catégories suivantes :
+1. Sélectionnez un élément avec indicateur pour afficher les commentaires spécifiques et les suggestions d’amélioration générées par l’IA. Les scores sont basés sur les catégories suivantes :
 
    * **[!UICONTROL Efficacité de CTA]** : évalue dans quelle mesure votre call-to-action motive les lecteurs à effectuer l’action souhaitée.
    * **[!UICONTROL Objet]** : évalue la clarté, la pertinence et la qualité pour attirer l’attention afin d’encourager les ouvertures d’e-mails.
@@ -148,9 +167,29 @@ Pour évaluer la qualité de votre contenu :
 
    ![](assets/brand-score-8.png)
 
-1. Modifiez votre contenu en fonction des recommandations afin d’améliorer la lisibilité, la cohésion du contenu et la qualité globale.
+1. Pour les éléments de texte avec indicateur, passez en revue la suggestion générée par l’IA affichée sous chaque événement, puis cliquez sur **[!UICONTROL Appliquer]** pour remplacer le contenu en ligne, ou ignorez-la pour conserver votre texte d’origine. [En savoir plus sur l’application des suggestions générées par l’IA](#apply-suggestions).
 
 1. Cliquez sur **[!UICONTROL Réévaluer le score]** après avoir apporté des modifications pour actualiser votre score de qualité.
+
+## Appliquer les suggestions générées par l’IA {#apply-suggestions}
+
+Lorsque du contenu est marqué lors de l’alignement de la marque ou de l’évaluation de la qualité, AI Assistant génère automatiquement des alternatives corrigées ou améliorées directement dans le panneau de commentaires. Ce workflow de correction au fur et à mesure vous permet de résoudre les violations sans quitter l’éditeur, ce qui réduit les efforts de modification manuelle et accélère la production de contenu.
+
+Les suggestions générées par l’IA sont disponibles pour les violations textuelles dans tous les types de contenu pris en charge : e-mail, SMS, notification push et web.
+
+Pour appliquer une suggestion générée par l’IA :
+
+1. Exécutez l’alignement de la marque ou l’évaluation de la qualité, puis sélectionnez une ligne directrice ou un élément de qualité pour développer son panneau de commentaires.
+
+1. Examinez la suggestion générée par l’IA affichée sous le contenu avec indicateur.
+
+1. Cliquez sur **[!UICONTROL Appliquer]** pour remplacer le contenu avec indicateur par l’alternative suggérée.
+
+   Pour conserver votre texte d’origine, cliquez sur **[!UICONTROL Ignorer]**.
+
+1. Répétez l’opération pour tous les autres éléments marqués.
+
+1. Réévaluez votre score pour confirmer que toutes les améliorations ont été apportées.
 
 ## Vidéo pratique {#video}
 
@@ -158,6 +197,6 @@ Découvrez comment créer et personnaliser vos propres marques pour définir cla
 
 +++ Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3470548/?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
 
 +++
