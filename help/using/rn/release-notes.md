@@ -8,12 +8,24 @@ level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2:
+  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
+  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
+  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: fe8836987038c1d5c26f17f415071a1740f203df
 workflow-type: tm+mt
 source-wordcount: 3557
@@ -140,7 +152,7 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées aux parcour
 
 * **Augmentation du nombre maximal de parcours actifs et nouveaux mécanismes de sécurisation** - Vous pouvez désormais disposer de **200 parcours actifs**, contre 100 auparavant.
 
-* **Dates de début et de fin dans l’en-tête du parcours** - Lorsque les dates de début et/ou de fin sont configurées sur un parcours dynamique, elles sont désormais affichées dans l’en-tête du parcours **** à côté du badge de statut dynamique. Le libellé affiché s’adapte selon que chaque date est à venir ou est déjà dépassée.
+* **Dates de début et de fin dans l’en-tête du parcours** - Lorsque les dates de début et/ou de fin sont configurées sur un parcours dynamique, elles sont désormais affichées dans l’en-tête du parcours **&#x200B;**&#x200B;à côté du badge de statut dynamique. Le libellé affiché s’adapte selon que chaque date est à venir ou est déjà dépassée.
 
 +++
 
@@ -485,7 +497,7 @@ Les fonctionnalités et améliorations suivantes vont être apportées à la ges
 
 Les améliorations suivantes ont été apportées à l’administration et à la gestion des données dans cette version.
 
-* [!BADGE Important ]{type=Informative} **Le jeu de données d’événement de retour de message AJO passe à l’ingestion par lots** - Le **jeu de données d’événement de retour de message AJO** passe de l’ingestion par flux à l’ingestion par lots. Par conséquent, attendez-vous à une latence des données allant jusqu’à 2 heures pour ce jeu de données. Si vous avez créé des rapports dans Customer Journey Analytics ou exécuté des requêtes à l’aide de ce jeu de données, tenez compte de cette latence accrue à l’avenir. [En savoir plus](../data/datasets-query-examples.md#message-feedback-event-dataset)
+* [!BADGE Important &#x200B;]{type=Informative} **Le jeu de données d’événement de retour de message AJO passe à l’ingestion par lots** - Le **jeu de données d’événement de retour de message AJO** passe de l’ingestion par flux à l’ingestion par lots. Par conséquent, attendez-vous à une latence des données allant jusqu’à 2 heures pour ce jeu de données. Si vous avez créé des rapports dans Customer Journey Analytics ou exécuté des requêtes à l’aide de ce jeu de données, tenez compte de cette latence accrue à l’avenir. [En savoir plus](../data/datasets-query-examples.md#message-feedback-event-dataset)
 
   Date de disponibilité : 10 juin 2026
 
