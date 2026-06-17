@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: e704a735855abf2c29ae83b1728d75b415456ed9
+source-git-commit: ff473a54dde6806b28c93d6f2f8040a67023ef8c
 workflow-type: tm+mt
-source-wordcount: 1765
-ht-degree: 90%
+source-wordcount: 1789
+ht-degree: 88%
 
 ---
 
@@ -437,3 +437,8 @@ L’assistant IA offre une aide instantanée et des informations opérationnelle
 >id="ajo_admin_sms_api_byop_channel_type"
 >title="Type de canal"
 >abstract="Facultatif. Classez les messages envoyés avec ces informations d’identification de fournisseur de SMS personnalisées, par exemple SMS ou RCS. Journey Optimizer écrit la valeur dans les événements d’expérience XDM afin que vous puissiez créer des rapports et suivre la diffusion par canal."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_require_auth"
+>title="Authentification"
+>abstract="Lorsque cette option est activée, seules les requêtes authentifiées via Adobe IMS sont acceptées. Les appelants doivent inclure un jeton OAuth valide lors de l’envoi de données vers ce point d’entrée."
