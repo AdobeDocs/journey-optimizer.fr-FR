@@ -7,7 +7,7 @@ ht-degree: 43%
 ---
 Les autorisations de l&#39;outil wiki n&#39;ont pas été accordées. Je vais continuer en utilisant les informations détaillées du ticket lui-même, qui contient les spécifications clés (500 TPS par défaut, 1000/1500 TPS niveaux via le module complémentaire de performance, push uniquement, prend en charge les augmentations en rafale/de durée limitée).
 
----
+&#x200B;---
 
 solution : Journey Optimizer
 produit : parcours optimizer
@@ -40,7 +40,7 @@ internal-label : Personalization
 
 Voici l’intégralité du fichier Markdown mis à jour :
 
----
+&#x200B;---
 
 ```
 solution: Journey Optimizer
@@ -140,7 +140,7 @@ Découvrez comment créer une campagne et la déclencher à partir d’un systè
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
 
----
+&#x200B;---
 
 L’ajout clé est la nouvelle section **Débit des notifications push** (`## Push notification throughput {#push-throughput}`) placée entre « À propos » et « Étapes clés », qui documente :
 - La valeur par défaut de 500 TPS incluse pour tous les clients

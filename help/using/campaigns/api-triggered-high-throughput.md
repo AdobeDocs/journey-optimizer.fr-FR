@@ -7,7 +7,7 @@ ht-degree: 61%
 ---
 Le fichier n’existe pas dans le référentiel de pipeline ; il s’agit d’un fichier de documentation fourni comme contexte. Je vais écrire le markdown complet mis à jour directement comme indiqué (sortie uniquement du fichier, aucune explication).
 
----
+&#x200B;---
 
 solution : Journey Optimizer
 produit : parcours optimizer
@@ -54,36 +54,36 @@ Cette page explique en quoi les campagnes à débit élevé diffèrent des campa
 
 ## Mécanismes de sécurisation et limitations
 
-* **Accès** : disponible uniquement aux États-Unis pour les organisations disposant d’une licence avec le module complémentaire High Throughput transactional messaging.
+&#x200B;* **Accès** : disponible uniquement aux États-Unis pour les organisations disposant d’une licence avec le module complémentaire High Throughput transactional messaging.
 
-* **Canaux** : disponible pour les e-mails et les notifications push.
+&#x200B;* **Canaux** : disponible pour les e-mails et les notifications push.
 
-* **Débit** :
+&#x200B;* **Débit** :
 
-   * **E-mail** - Jusqu’à 5 000 transactions par seconde.
-   * **Push** - Jusqu&#39;à 1 500 transactions par seconde. Les niveaux de débit hiérarchique suivants sont disponibles : 500 TPS (de base), 1 000 TPS et 1 500 TPS. Les niveaux supérieurs nécessitent les droits de module complémentaire appropriés.
+   &#x200B;* **E-mail** - Jusqu’à 5 000 transactions par seconde.
+   &#x200B;* **Push** - Jusqu&#39;à 1 500 transactions par seconde. Les niveaux de débit hiérarchique suivants sont disponibles : 500 TPS (de base), 1 000 TPS et 1 500 TPS. Les niveaux supérieurs nécessitent les droits de module complémentaire appropriés.
 
-* **Personnalisation** :
+&#x200B;* **Personnalisation** :
 
-   * Toutes les personnalisations doivent être incluses dans la payload de l’API en tant que **données contextuelles**. [Découvrez comment personnaliser du contenu à l’aide de données contextuelles](../campaigns/api-triggered-campaign-content.md#contextual).
-   * La personnalisation basée sur un profil n’est pas prise en charge. Si des variables de profil sont utilisées, des erreurs de validation se produisent.
+   &#x200B;* Toutes les personnalisations doivent être incluses dans la payload de l’API en tant que **données contextuelles**. [Découvrez comment personnaliser du contenu à l’aide de données contextuelles](../campaigns/api-triggered-campaign-content.md#contextual).
+   &#x200B;* La personnalisation basée sur un profil n’est pas prise en charge. Si des variables de profil sont utilisées, des erreurs de validation se produisent.
 
-* **Configurations de canal personnalisées** - Les configurations de canal qui utilisent [la personnalisation basée sur les profils](../email/surface-personalization.md) ne peuvent pas être utilisées avec des campagnes à débit élevé. Seules les surfaces sans personnalisation de profil peuvent être utilisées.
+&#x200B;* **Configurations de canal personnalisées** - Les configurations de canal qui utilisent [la personnalisation basée sur les profils](../email/surface-personalization.md) ne peuvent pas être utilisées avec des campagnes à débit élevé. Seules les surfaces sans personnalisation de profil peuvent être utilisées.
 
-* **Point d’entrée de l’API** : les campagnes à débit élevé utilisent un point d’entrée différent des campagnes standard déclenchées par API. Pour plus d’informations, voir [Exécuter une campagne déclenchée par API](../campaigns/trigger-campaigns.md#trigger).
+&#x200B;* **Point d’entrée de l’API** : les campagnes à débit élevé utilisent un point d’entrée différent des campagnes standard déclenchées par API. Pour plus d’informations, voir [Exécuter une campagne déclenchée par API](../campaigns/trigger-campaigns.md#trigger).
 
-* **Exclusivité de la campagne** - Les campagnes à débit élevé n’utilisent pas les profils Adobe. Les messages sont diffusés qu’il existe un profil ou non.
+&#x200B;* **Exclusivité de la campagne** - Les campagnes à débit élevé n’utilisent pas les profils Adobe. Les messages sont diffusés qu’il existe un profil ou non.
 
   De plus, une campagne ne peut pas être utilisée à la fois pour les cas d’utilisation avec ou sans profil. Si vous avez besoin des deux, créez deux campagnes distinctes et assurez-vous que le système d’appel décide laquelle déclencher en fonction du contexte.
 
-* **Jeux de données pour le feedback et le suivi** - Les données de feedback et de suivi pour les campagnes à débit élevé sont stockées dans des jeux de données dédiés qui ne sont pas activés pour fonctionner avec les profils. Par conséquent, ces événements ne sont pas associés à des profils, même s’il existe un profil correspondant.
+&#x200B;* **Jeux de données pour le feedback et le suivi** - Les données de feedback et de suivi pour les campagnes à débit élevé sont stockées dans des jeux de données dédiés qui ne sont pas activés pour fonctionner avec les profils. Par conséquent, ces événements ne sont pas associés à des profils, même s’il existe un profil correspondant.
 
   Les jeux de données utilisés sont les suivants :
 
-   * **Jeu de données d’événements de feedback de messages AJO - Pas activé pour les profils**
-   * **Jeu de données d’événements d’expériences de suivi d’e-mails AJO - Pas activé pour les profils**
+   &#x200B;* **Jeu de données d’événements de feedback de messages AJO - Pas activé pour les profils**
+   &#x200B;* **Jeu de données d’événements d’expériences de suivi d’e-mails AJO - Pas activé pour les profils**
 
-* **Attribution du débit** - Le débit fourni via le module complémentaire Débit élevé est exclusivement réservé aux campagnes à débit élevé. Le débit des campagnes déclenchées par API standard et à débit élevé n’est pas partagé.
+&#x200B;* **Attribution du débit** - Le débit fourni via le module complémentaire Débit élevé est exclusivement réservé aux campagnes à débit élevé. Le débit des campagnes déclenchées par API standard et à débit élevé n’est pas partagé.
 
 ## Choisir entre des campagnes standard ou à débit élevé
 
@@ -103,18 +103,18 @@ Utilisez ce tableau pour décider quel type de campagne déclenché par API corr
 
 En d’autres termes :
 
-* Choisissez les campagnes **standard déclenchées par API** si :
-   * Vous n’avez pas de contrat avec débit élevé.
-   * Vos besoins de débit sont de ≤500 TPS.
-   * Vous avez besoin d’une personnalisation basée sur les profils Adobe.
-   * Vous souhaitez que les données de campagne soient rattachées aux profils pour un ciblage futur.
-   * Vous avez besoin de SMS.
+&#x200B;* Choisissez les campagnes **standard déclenchées par API** si :
+   &#x200B;* Vous n’avez pas de contrat avec débit élevé.
+   &#x200B;* Vos besoins de débit sont de ≤500 TPS.
+   &#x200B;* Vous avez besoin d’une personnalisation basée sur les profils Adobe.
+   &#x200B;* Vous souhaitez que les données de campagne soient rattachées aux profils pour un ciblage futur.
+   &#x200B;* Vous avez besoin de SMS.
 
-* Choisissez les campagnes à **débit élevé** si :
-   * Vous avez besoin d’un débit > 500 TPS.
-   * Vous n’avez pas besoin de rattacher les données aux profils.
-   * Vous pouvez transmettre toute la personnalisation dans la payload de l’API.
-   * Vous souhaitez utiliser le canal E-mail ou Push.
+&#x200B;* Choisissez les campagnes à **débit élevé** si :
+   &#x200B;* Vous avez besoin d’un débit > 500 TPS.
+   &#x200B;* Vous n’avez pas besoin de rattacher les données aux profils.
+   &#x200B;* Vous pouvez transmettre toute la personnalisation dans la payload de l’API.
+   &#x200B;* Vous souhaitez utiliser le canal E-mail ou Push.
 
 ## Instructions relatives à la configuration
 
