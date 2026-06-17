@@ -7,7 +7,7 @@ ht-degree: 24%
 ---
 Comme le fichier n’existe pas dans ce référentiel et que l’accès en écriture n’a pas été approuvé, voici l’intégralité du fichier Markdown mis à jour comme demandé :
 
----
+&#x200B;---
 titre : alignement des marques
 description : découvrez comment créer, valider et gérer du contenu sur la marque à l’aide du score de la marque.
 topic : Gestion de contenu, Intelligence artificielle
@@ -109,16 +109,16 @@ Une fois [votre marque configurée et publiée](brands.md), évaluez son score d
 
 1. Sélectionnez une directive avec indicateur pour afficher les commentaires spécifiques et les suggestions générées par l’IA. L’alignement des marques évalue les catégories suivantes :
 
-   * **[!UICONTROL Style d&#39;écriture]** :
-      * **[!UICONTROL Style de communication de la marque]** : définit la personnalité et le ton émotionnel pour garantir une voix de marque cohérente sur tous les canaux.
-      * **[!UICONTROL Normes de message de marque]** : règles structurelles et de mise en forme pour un texte marketing et promotionnel efficace.
-      * **[!UICONTROL Normes de conformité juridique]** : vérifie que toutes les communications sont conformes aux exigences légales, y compris les listes de contrôle de conformité et l’emplacement des textes.
+   &#x200B;* **[!UICONTROL Style d&#39;écriture]** :
+      &#x200B;* **[!UICONTROL Style de communication de la marque]** : définit la personnalité et le ton émotionnel pour garantir une voix de marque cohérente sur tous les canaux.
+      &#x200B;* **[!UICONTROL Normes de message de marque]** : règles structurelles et de mise en forme pour un texte marketing et promotionnel efficace.
+      &#x200B;* **[!UICONTROL Normes de conformité juridique]** : vérifie que toutes les communications sont conformes aux exigences légales, y compris les listes de contrôle de conformité et l’emplacement des textes.
 
-   * **[!UICONTROL Contenu visuel]** :
-      * **[!UICONTROL Normes relatives à la photographie]** : exigences relatives au contenu photographique, notamment la résolution, la composition, l’éclairage et les formats de fichiers.
-      * **[!UICONTROL Normes relatives aux illustrations]** : paramètres de style, épaisseur des lignes, utilisation des couleurs et exigences en matière de format de fichier pour les illustrations.
-      * **[!UICONTROL Normes relatives aux icônes]** : spécifications de conception des icônes, y compris les systèmes de grille, les épaisseurs de trait et le dimensionnement pour l’uniformité.
-      * **[!UICONTROL Instructions d’utilisation]** : bonnes pratiques relatives à la sélection, à l’emplacement et au contexte des images pour conserver l’identité de la marque.
+   &#x200B;* **[!UICONTROL Contenu visuel]** :
+      &#x200B;* **[!UICONTROL Normes relatives à la photographie]** : exigences relatives au contenu photographique, notamment la résolution, la composition, l’éclairage et les formats de fichiers.
+      &#x200B;* **[!UICONTROL Normes relatives aux illustrations]** : paramètres de style, épaisseur des lignes, utilisation des couleurs et exigences en matière de format de fichier pour les illustrations.
+      &#x200B;* **[!UICONTROL Normes relatives aux icônes]** : spécifications de conception des icônes, y compris les systèmes de grille, les épaisseurs de trait et le dimensionnement pour l’uniformité.
+      &#x200B;* **[!UICONTROL Instructions d’utilisation]** : bonnes pratiques relatives à la sélection, à l’emplacement et au contexte des images pour conserver l’identité de la marque.
 
 
 
@@ -158,12 +158,12 @@ Pour évaluer la qualité de votre contenu :
 
 1. Sélectionnez un élément avec indicateur pour afficher les commentaires spécifiques et les suggestions d’amélioration générées par l’IA. Les scores sont basés sur les catégories suivantes :
 
-   * **[!UICONTROL Efficacité de CTA]** : évalue dans quelle mesure votre call-to-action motive les lecteurs à effectuer l’action souhaitée.
-   * **[!UICONTROL Objet]** : évalue la clarté, la pertinence et la qualité pour attirer l’attention afin d’encourager les ouvertures d’e-mails.
-   * **[!UICONTROL Lisibilité]** : mesure à quel point votre contenu est facile à comprendre et attrayant pour les lecteurs et lectrices.
-   * **[!UICONTROL Vérification anti-spam]** : identifie les déclencheurs de spam courants susceptibles d&#39;avoir un impact sur la délivrabilité.
-   * **[!UICONTROL Cohésion du contenu]** : garantit le bon déroulement de votre contenu et le respect des rubriques.
-   * **[!UICONTROL Relecture]** : vérifie les problèmes d’orthographe, de grammaire et de clarté.
+   &#x200B;* **[!UICONTROL Efficacité de CTA]** : évalue dans quelle mesure votre call-to-action motive les lecteurs à effectuer l’action souhaitée.
+   &#x200B;* **[!UICONTROL Objet]** : évalue la clarté, la pertinence et la qualité pour attirer l’attention afin d’encourager les ouvertures d’e-mails.
+   &#x200B;* **[!UICONTROL Lisibilité]** : mesure à quel point votre contenu est facile à comprendre et attrayant pour les lecteurs et lectrices.
+   &#x200B;* **[!UICONTROL Vérification anti-spam]** : identifie les déclencheurs de spam courants susceptibles d&#39;avoir un impact sur la délivrabilité.
+   &#x200B;* **[!UICONTROL Cohésion du contenu]** : garantit le bon déroulement de votre contenu et le respect des rubriques.
+   &#x200B;* **[!UICONTROL Relecture]** : vérifie les problèmes d’orthographe, de grammaire et de clarté.
 
    ![](assets/brand-score-8.png)
 
