@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c0bfb3ea92ea1375fa6bdd2bdffc836c0046db7a
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: '3356'
+source-wordcount: '3358'
 ht-degree: 99%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 99%
 + [Documentation Journey Optimizer](ajo-home.md)
 + Nouveautés {#whats-new}
    + [Cycle de publication des versions](using/rn/releases.md)
-   + [Notes de version préliminaire](using/rn/e-release-notes.md)
+   + {hide-from-toc}[Notes de version préliminaire](using/rn/e-release-notes.md)
    + [Dernières notes de mise à jour](using/rn/release-notes.md)
    + Notes de mise à jour précédentes {#previous-rn-new}
       + {hide-from-toc}[Notes de mise à jour précédentes](/help/rp_landing_pages/previous-rn-new-landing-page.md)
@@ -196,6 +196,7 @@ ht-degree: 99%
          + [Étapes clés pour créer une campagne orchestrée](using/orchestrated/gs-campaign-creation.md)
          + [Créer et planifier la campagne](using/orchestrated/create-orchestrated-campaign.md)
          + [Orchestrer les activités](using/orchestrated/orchestrate-activities.md)
+         + [Ajouter une personnalisation](using/orchestrated/add-personalization.md)
          + [Démarrer et surveiller la campagne](using/orchestrated/start-monitor-campaigns.md)
          + [Création de rapports](using/orchestrated/reporting-campaigns.md)
       + Interrogation de la base de données {#query-database}

@@ -24,10 +24,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 3109
-ht-degree: 97%
+source-wordcount: 3126
+ht-degree: 96%
 
 ---
 
@@ -52,6 +52,7 @@ Journey Optimizer permet d’accéder aux données contextuelles provenant de pl
 * **[Recherche de jeu de données](#dataset-lookup)** : données enrichies récupérées dans le jeux de données Adobe Experience Platform
 * **[Propriétés techniques](#technical-properties)** : métadonnées de parcours telles que l’ID du parcours et d’identifiants supplémentaires
 * **[Contexte du parcours](#other-contexts)** : autres données relatives au parcours accessibles lors de l’exécution
+* **Collections d’enrichissement de campagne orchestrée** (campagnes orchestrées uniquement) : consultez la section [Ajouter une personnalisation dans les campagnes orchestrées](../orchestrated/add-personalization.md#enrichment-collections).
 
 Ce guide vous explique comment effectuer une itération sur des tableaux à partir de chacune de ces sources dans vos messages et comment utiliser des tableaux lors de la configuration des activités de parcours. Commencez par [Syntaxe d’itération Handlebars](#syntax) pour comprendre les principes de base de la personnalisation des messages, ou passez directement à [Utilisation de tableaux dans les expressions de parcours](#arrays-in-journeys) pour savoir comment transmettre des données de tableau à des actions personnalisées et à des recherches de jeux de données.
 
@@ -526,7 +527,7 @@ Bien que ce guide se concentre sur l’itération sur les tableaux, d’autres t
 * **[Attributs de profil](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr){target="_blank"}** (`profile.*`) : champs de profil individuels d’Adobe Experience Platform
 * **[Audiences](../audience/about-audiences.md)** (`inAudience()`) : vérifications de l’appartenance à une audience
 * **[Décisions d’offre](../offers/get-started/starting-offer-decisioning.md)** : offres de gestion des décisions
-* **[Attributs de la cible](../orchestrated/activities/channels.md#add-personalization)** (campagnes orchestrées uniquement) : attributs calculés dans la zone de travail de la campagne
+* **[Attributs de la cible](../orchestrated/add-personalization.md#attributes)** (campagnes orchestrées uniquement) : attributs calculés sur la zone de travail de la campagne, y compris les tableaux de collection d’enrichissement
 * **Jeton** (`context.token`) : jetons de session ou d’authentification
 
 Pour obtenir une syntaxe de personnalisation complète et des exemples d’utilisation de ces sources, reportez-vous à :

@@ -12,10 +12,10 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 77cddc86596959e06b20154c1e51c6b84375b39b
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 877
-ht-degree: 62%
+source-wordcount: 923
+ht-degree: 59%
 
 ---
 
@@ -170,6 +170,11 @@ Enfin, appliquez des filtres pour vous assurer que seuls les enregistrements per
 
 1. Cliquez sur **[!UICONTROL Confirmer]**.
 
+### Utilisation des données de collection dans la personnalisation des messages {#collection-personalization}
+
+Lorsque vous configurez un lien de collection avec **[!UICONTROL Collecter des données]** et définissez **[!UICONTROL Lignes à récupérer (Colonnes à créer)]** (par exemple, `3`), les attributs d’enrichissement sont disponibles dans l’éditeur de messages sous **[!UICONTROL Attributs de la cible] > [!UICONTROL Enrichissement]**.
+
+➡️ [Découvrez comment utiliser les données de collecte d’enrichissement dans la personnalisation](../add-personalization.md#enrichment-collections)
 
 <!--
 #### Define the sorting{#collection-sorting}

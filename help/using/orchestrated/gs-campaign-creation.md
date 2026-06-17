@@ -16,10 +16,10 @@ topic_v2:
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 337
-ht-degree: 90%
+source-wordcount: 367
+ht-degree: 80%
 
 ---
 
@@ -58,13 +58,19 @@ Une fois la campagne créée, il est temps de concevoir la logique qui la sous-t
 
 ➡️ [Découvrez comment orchestrer les activités.](../orchestrated/orchestrate-activities.md)
 
-## Étape 3 : démarrer et surveiller votre campagne {#start}
+## Étape 3 : Ajouter une personnalisation {#personalize}
+
+Dans les activités de canal, personnalisez les messages avec les attributs de profil et les attributs de cible de la table de travail (y compris les tableaux de collecte d’enrichissement).
+
+➡️ [Découvrez comment ajouter de la personnalisation dans des campagnes orchestrées](../orchestrated/add-personalization.md)
+
+## Étape 4 : démarrer et surveiller votre campagne {#start}
 
 Vous y êtes presque. Exécutez d’abord votre campagne en mode test pour détecter tous les problèmes. Ensuite, publiez-la et surveillez l’exécution en direct en temps réel : suivez la progression, recherchez les erreurs et voyez comment les profils passent par chaque étape.
 
 ➡️ [Découvrez comment démarrer et surveiller une campagne.](../orchestrated/start-monitor-campaigns.md)
 
-## Étape 4 : analyser et générer des rapports sur les résultats {#report}
+## Étape 5 : Analyser et générer des rapports sur les résultats {#report}
 
 Après le lancement, utilisez les rapports intégrés pour comprendre ce qui a fonctionné et ce qui peut être amélioré. Les tableaux de bord en temps réel et l’analyse approfondie vous permettent d’optimiser les futures campagnes et d’affiner votre stratégie.
 

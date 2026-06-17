@@ -12,10 +12,10 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 957
-ht-degree: 92%
+source-wordcount: 971
+ht-degree: 89%
 
 ---
 
@@ -121,4 +121,6 @@ Lorsque vous atteignez la fin d’une branche, vous pouvez ajouter une activité
 
 ## Étapes suivantes {#next}
 
-Après la conception de la zone de travail de la campagne orchestrée, vous pouvez exécuter la campagne orchestrée et suivre la progression de ses différentes tâches. [Découvrez comment démarrer une campagne orchestrée et surveiller son exécution](start-monitor-campaigns.md).
+Après avoir ajouté des activités de canal à la zone de travail, [découvrez comment ajouter une personnalisation](add-personalization.md) dans les e-mails, les SMS et d’autres messages.
+
+Lorsque la zone de travail est prête, exécutez la campagne orchestrée et suivez l’avancement de ses tâches. [Découvrez comment démarrer une campagne orchestrée et surveiller son exécution](start-monitor-campaigns.md).

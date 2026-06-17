@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: cd1eb9b21a3201c2a01c1781220570236977a736
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 1935
-ht-degree: 55%
+source-wordcount: 1815
+ht-degree: 52%
 
 ---
 
@@ -83,7 +83,7 @@ Grâce aux activités de canal, vous pouvez créer des campagnes personnalisées
 
 * **Canaux pris en charge** - Seuls les canaux SMS, Push, E-mail et Courrier sont pris en charge dans les campagnes orchestrées.
 
-* **Limite des activités de canal** - Une campagne orchestrée prend en charge un maximum de 10 activités de canal (e-mail, SMS, notification push ou courrier). Seules les activités de canal sont prises en compte dans cette limite ; les activités de ciblage et de contrôle de flux ne le sont pas.
+* **Limite des activités de canal** - Une campagne orchestrée prend en charge un maximum de 10 activités de canal (e-mail, SMS, notification push ou courrier). Seules les activités de canal sont prises en compte dans cette limite, les activités de ciblage et de contrôle de flux ne le sont pas.
 
   Si vous dépassez la limite lors de l’enregistrement ou de la publication, l’opération échoue. Pour respecter la limite, réduisez le nombre d’activités de canal ou répartissez la diffusion des messages sur plusieurs campagnes orchestrées.
 
@@ -183,25 +183,11 @@ Passez à l’onglet **[!UICONTROL Contenu]** pour créer votre message. Les ét
 <td><a href="../../push/create-push.md"><img alt="notification push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Créer une notification push</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="Courrier" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>Créer un courrier</strong></a></td>
 </tr></table>
 
-### Ajouter une personnalisation
+### Ajouter une personnalisation {#add-personalization}
 
-Le fonctionnement de Personalization dans les campagnes orchestrées est similaire à celui d’autres campagnes ou parcours [!DNL Journey Optimizer], avec quelques différences importantes spécifiques à la zone de travail orchestrée.
+Dans l’éditeur de messages d’une activité de canal, insérez les **[!UICONTROL attributs de profil]** et **[!UICONTROL attributs de cible]** de la table de travail de la campagne (dimension de ciblage et données d’enrichissement).
 
-Lorsque vous accédez à l’éditeur de personnalisation depuis une campagne orchestrée, deux dossiers principaux contiennent des attributs disponibles pour la personnalisation, décrits ci-dessous.
-
-* **[!UICONTROL Attributs de profil]**
-
-  Ce dossier inclut toutes les données liées aux profils provenant d’[!DNL Adobe Experience Platform]. Il s’agit d’attributs standard tels que le nom, l’adresse e-mail, l’emplacement ou toute autre caractéristique capturée dans le profil de l’utilisateur ou de l’utilisatrice.
-
-* **[!UICONTROL Attributs de cible]** (spécifiques aux campagnes orchestrées)
-
-  Ce dossier est propre aux campagnes orchestrées. Il contient des attributs calculés directement dans la zone de travail de la campagne. Il contient deux sous-dossiers :
-
-   * **`<Targeting dimension>`** (par exemple, « Destinataires », « Achats ») : contient tous les attributs liés à la dimension ciblée par la campagne.
-
-   * **`Enrichment`** : inclut les données ajoutées via des activités **[!UICONTROL Enrichissement]** dans la zone de travail. Cela permet de personnaliser les messages en fonction de jeux de données externes ou de logiques supplémentaires intégrées lors de l’orchestration. [Découvrez comment utiliser une activité d’enrichissement](../activities/enrichment.md)
-
-Pour une présentation détaillée de l’utilisation de l’éditeur de personnalisation, reportez-vous à la section [Prise en main de la personnalisation](../../personalization/personalize.md).
+➡️ [Découvrez comment ajouter une personnalisation dans des campagnes orchestrées](../add-personalization.md), y compris les tableaux de collection d’enrichissement, les fonctions de tableau et l’itération `{{#each}}`.
 
 ### Vérifier et tester le contenu {#simulate-content-test-profiles}
 
