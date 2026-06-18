@@ -30,10 +30,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
 workflow-type: tm+mt
-source-wordcount: 2249
-ht-degree: 93%
+source-wordcount: 2332
+ht-degree: 88%
 
 ---
 
@@ -148,7 +148,7 @@ Le graphique **[!UICONTROL Tendance des diffusions et clics]** présente une ana
 
 ![](assets/cja-unique-email-sending-stat.png)
 
-Le tableau **[!UICONTROL Statistiques d’envois uniques]** présente une vue d’ensemble détaillée des mesures de performances des e-mails uniques dans vos campagnes. Il se concentre sur les profils individuels, tels que ceux qui sont ciblés, reçoivent un envoi, font l’objet d’un rebond ou sont exclus de manière unique, ce qui permet d’obtenir des informations plus détaillées sur la manière dont vos e-mails atteignent votre audience et l’engagent.
+Le tableau **[!UICONTROL Statistiques d’envoi uniques]** présente un aperçu détaillé des mesures de performances des e-mails uniques dans vos campagnes. Il se concentre sur les profils individuels, tels que ceux qui sont ciblés, reçoivent un envoi, font l’objet d’un rebond ou sont exclus de manière unique, ce qui permet d’obtenir des informations plus détaillées sur la manière dont vos e-mails atteignent votre audience et l’engagent.
 
 +++ En savoir plus sur la mesure Statistiques d’envois uniques
 
@@ -226,9 +226,13 @@ Le tableau **[!UICONTROL E-mail - Statistiques de tracking]** offre un compte re
 
 * **[!UICONTROL Taux d’ouverture par clic (CTOR)]** : nombre de fois où l’e-mail a été ouvert.
 
+* **[!UICONTROL Taux d’ouverture]** : pourcentage de profils ayant ouvert l’e-mail au moins une fois, par rapport au nombre d’e-mails diffusés.
+
 * **[!UICONTROL Estimation des ouvertures d’e-mail]** : estimation du nombre total d’ouvertures d’e-mail, prenant en compte les ouvertures directes par les profils et les ouvertures automatisées déclenchées par les serveurs de messagerie. Cette mesure prend en compte les ouvertures déclenchées par les serveurs de messagerie à des fins d’analyse de la confidentialité ou de la sécurité en appliquant un taux d’ouverture calculé à partir des destinataires qui ont ouvert manuellement l’e-mail par rapport à ceux dont les e-mails n’ont été ouverts que par des serveurs de messagerie.
 
 * **[!UICONTROL Clics]** : nombre de clics sur un contenu dans vos e-mails.
+
+* **[!UICONTROL Estimation des clics]** : nombre de clics sur un contenu de votre message, à l’exclusion du trafic de robots identifiés et des interactions non humaines (NHI).
 
 * **[!UICONTROL Plaintes relatives aux spams]** : nombre de fois où un message a été déclaré comme spam ou courrier indésirable.
 
@@ -258,17 +262,19 @@ Le tableau **[!UICONTROL Domaines d’e-mails]** propose une répartition détai
 
 +++
 
-## Libellés des liens de suivi {#track-link-label}
+## Libellés suivis {#track-link-label}
 
 ![](assets/cja-email-tracked-link.png)
 
-Le tableau **[!UICONTROL Libellés des liens de suivi]** fournit une vue d’ensemble complète des libellés des liens dans vos e-mails qui attirent le plus de visiteurs et de visiteuses. Cette fonctionnalité vous permet d’identifier et de hiérarchiser les liens les plus populaires.
+Le tableau **[!UICONTROL Libellés suivis]** offre une vue d’ensemble complète des libellés de lien dans vos e-mails, en mettant en évidence ceux qui génèrent le trafic de visiteurs le plus élevé. Cette fonctionnalité vous permet d’identifier et de hiérarchiser les liens les plus populaires.
 
 +++ En savoir plus sur les mesures des libellés des liens de suivi
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans un e-mail.
 
 * **[!UICONTROL Clics]** : nombre de clics sur un contenu dans vos e-mails.
+
+* **[!UICONTROL Estimation des clics]** : nombre de clics sur un contenu de votre message, à l’exclusion du trafic de robots identifiés et des interactions non humaines (NHI).
 
 +++
 
@@ -283,6 +289,8 @@ Le tableau **[!UICONTROL URL des liens de suivi]** fournit une vue d’ensemble 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans un e-mail.
 
 * **[!UICONTROL Clics]** : nombre de clics sur un contenu dans vos e-mails.
+
+* **[!UICONTROL Estimation des clics]** : nombre de clics sur un contenu de votre message, à l’exclusion du trafic de robots identifiés et des interactions non humaines (NHI).
 
 +++
 

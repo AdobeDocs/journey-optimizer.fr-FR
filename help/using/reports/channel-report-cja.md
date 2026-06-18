@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
 workflow-type: tm+mt
-source-wordcount: 1139
-ht-degree: 59%
+source-wordcount: 1209
+ht-degree: 55%
 
 ---
 
@@ -92,6 +92,8 @@ En cliquant sur le nom d’un parcours répertorié dans ce tableau, vous pouvez
 
 +++ En savoir plus sur les mesures de parcours
 
+* **[!UICONTROL Engagement du Parcours]** : nombre total de personnes uniques qui ont reçu des messages envoyés par le biais du parcours, représentant des profils distincts qui ont atteint un point d’action désigné dans le parcours.
+
 * **[!UICONTROL Entrées du parcours]** : nombre total de personnes ayant atteint l’événement d’entrée du parcours.
 
 * **[!UICONTROL Sorties du parcours]** : nombre total de personnes ayant quitté le parcours.
@@ -122,6 +124,8 @@ En cliquant sur le nom d’une campagne dans ce tableau, vous pouvez examiner ch
 
 * **[!UICONTROL Clics]** : nombre de clics sur un contenu de vos messages.
 
+* **[!UICONTROL Estimation des clics]** : nombre de clics sur un contenu de votre message, à l’exclusion du trafic de robots identifiés et des interactions non humaines (NHI).
+
 +++
 
 ## Canaux {#channel}
@@ -143,6 +147,8 @@ Le tableau **[!UICONTROL Canaux]** fournit une répartition détaillée de l’e
 * **[!UICONTROL Affichages]** : nombre d’ouvertures du message.
 
 * **[!UICONTROL Clics]** : nombre de clics sur un contenu de vos messages.
+
+* **[!UICONTROL Estimation des clics]** : nombre de clics sur un contenu de votre message, à l’exclusion du trafic de robots identifiés et des interactions non humaines (NHI).
 
 +++
 

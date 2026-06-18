@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
 workflow-type: tm+mt
-source-wordcount: 690
-ht-degree: 95%
+source-wordcount: 927
+ht-degree: 66%
 
 ---
 
@@ -68,23 +68,51 @@ Le tableau **[!UICONTROL Statut de diffusion]** offre un compte-rendu détaillé
 
 * **[!UICONTROL Diffusés]** : nombre de messages SMS envoyés avec succès, par rapport au nombre total de SMS envoyés.
 
-* **[!UICONTROL Rebonds pour les canaux sortants]** : nombre total d’erreurs cumulées lors de la procédure d’envoi et du traitement automatique des retours par rapport au nombre total de SMS envoyés.
+* **[!UICONTROL Bounces]** : nombre total d&#39;erreurs cumulées lors du processus d&#39;envoi et du traitement automatique des retours par rapport au nombre total de SMS envoyés.
 
-* **[!UICONTROL Erreurs sortantes]** : nombre total d’erreurs survenues empêchant l’envoi à des profils.
+* **[!UICONTROL Erreurs d’envoi]** : nombre total d’erreurs qui se sont produites, l’empêchant d’être envoyée aux profils.
 
-* **[!UICONTROL Exclusions sortantes]** : nombre de profils qui ont été exclus par Adobe Journey Optimizer.
+* **[!UICONTROL Exclusions d’envois]** : nombre de profils qui ont été exclus par Adobe Journey Optimizer.
 
 +++
 
-## Libellés des liens de suivi {#track-link-label-sms}
+## Vue d’ensemble de la campagne {#campaign-global}
 
-Le tableau **[!UICONTROL Libellés des liens de suivi]** fournit une vue d’ensemble complète des libellés des liens dans vos SMS qui attirent le plus de visiteurs et de visiteuses. Cette fonctionnalité vous permet d’identifier et de hiérarchiser les liens les plus populaires.
+Le tableau **[!UICONTROL Aperçu de la campagne]** sert de tableau de bord pour les performances des SMS pour chaque action de campagne de votre parcours. Il résume les profils ciblés, les mesures de clics publicitaires et publicitaires (y compris les clics estimés qui excluent le trafic d’interactions non humaines et robots) et les résultats de la diffusion tels que les bounces, les erreurs d’envoi et les exclusions.
+
++++ En savoir plus sur les mesures de vue d’ensemble de campagne
+
+* **[!UICONTROL Personnes]** : nombre de profils d’utilisateurs et d’utilisatrices identifiés comme cibles de vos messages.
+
+* **[!UICONTROL Taux de clics]** : pourcentage d’utilisateurs et d’utilisatrices ayant interagi avec le message.
+
+* **[!UICONTROL Clics]** : nombre de clics sur un contenu de votre message.
+
+* **[!UICONTROL Clics uniques]** : nombre de profils uniques qui ont cliqué sur au moins un élément de contenu du message mobile.
+
+* **[!UICONTROL Estimation des clics]** : nombre de clics sur un contenu de votre message, à l’exclusion du trafic de robots identifiés et des interactions non humaines (NHI).
+
+* **[!UICONTROL Diffusés]** : nombre d’e-mails envoyés avec succès, par rapport au nombre total de messages envoyés.
+
+* **[!UICONTROL Bounces]** : nombre total d&#39;erreurs cumulées lors du processus d&#39;envoi et du traitement automatique des retours par rapport au nombre total de messages envoyés.
+
+* **[!UICONTROL Erreurs d’envoi]** : nombre total d’erreurs survenues pendant le processus d’envoi, l’empêchant d’être envoyée à des profils.
+
+* **[!UICONTROL Exclure des envois]** : nombre de profils qui ont été exclus par Adobe Journey Optimizer. [En savoir plus sur la comptabilisation des exclusions](exclusion-list.md#exclusion-list).
+
++++
+
+## Libellés suivis {#track-label-sms}
+
+Le tableau **[!UICONTROL Libellés suivis]** offre une vue d’ensemble complète des libellés des liens dans vos SMS, en mettant en évidence ceux qui génèrent le trafic de visiteurs le plus élevé. Cette fonctionnalité vous permet d’identifier et de hiérarchiser les liens les plus populaires.
 
 +++ En savoir plus sur les mesures des libellés des liens de suivi
 
-* **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans vos SMS.
-
 * **[!UICONTROL Clics]** : nombre de fois où un contenu a fait l’objet d’un clic dans vos SMS.
+
+* **[!UICONTROL Estimation des clics]** : nombre de clics sur un contenu de votre message, à l’exclusion du trafic de robots identifiés et des interactions non humaines (NHI).
+
+* **[!UICONTROL Clics uniques]** : nombre de profils uniques qui ont cliqué sur au moins un élément de contenu du message mobile.
 
 +++
 
@@ -94,7 +122,7 @@ Le tableau **[!UICONTROL URL des liens de suivi]** fournit une vue d’ensemble 
 
 +++ En savoir plus sur les mesures des URL des liens de suivi
 
-* **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans vos SMS.
+* **[!UICONTROL Clics uniques]** : nombre de profils uniques qui ont cliqué sur au moins un élément de contenu du message mobile.
 
 * **[!UICONTROL Clics]** : nombre de fois où un contenu a fait l’objet d’un clic dans vos SMS.
 
