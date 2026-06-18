@@ -26,10 +26,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 617d0a90751c28b033d6c010c5314cb489da9d4a
 workflow-type: tm+mt
-source-wordcount: 1551
-ht-degree: 94%
+source-wordcount: 1559
+ht-degree: 92%
 
 ---
 
@@ -181,7 +181,7 @@ Pour modifier un fragment, procédez comme suit.
    >
    >Lors de la modification d’un fragment publié, vous pouvez supprimer n’importe quel champ de personnalisation, mais vous ne pouvez pas en ajouter de nouveaux au contenu du fragment. Si vous souhaitez ajouter des attributs personnalisés, vous devez dupliquer le fragment. [En savoir plus](#adding-new-attributes)
 
-1. Une fois vos modifications prêtes, enregistrez-les et cliquez sur le bouton **[!UICONTROL Publier]** pour rendre vos modifications actives. [En savoir plus](create-fragments.md#publish)
+1. Une fois vos modifications prêtes, enregistrez-les, puis revenez à l’écran des détails du fragment et cliquez sur le bouton **[!UICONTROL Publier]** pour publier vos modifications. [En savoir plus](create-fragments.md#publish)
 
 Lorsque vous apportez des modifications à un fragment, celles-ci sont automatiquement répercutées sur tous les contenus utilisant ce fragment, y compris les campagnes et parcours actifs, sauf pour les contenus dont l’héritage du fragment original a été rompu.
 

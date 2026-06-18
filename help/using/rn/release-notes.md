@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0e5c6d3a18b21a6cd358834e6e088dee522108d9
+source-git-commit: f62163759dc065c30057e02a064af56e269fc971
 workflow-type: tm+mt
-source-wordcount: 3634
+source-wordcount: 3646
 ht-degree: 25%
 
 ---
@@ -340,12 +340,31 @@ Les améliorations suivantes ont été ajoutées au canal e-mail dans cette vers
 
   Date de disponibilité : 1er juin 2026
 
-+++ Bientôt disponible : **les informations ci-dessous peuvent faire l’objet de modifications.**
+<table>
+<thead>
+<tr>
+<th><strong>Texte enrichi dans les champs modifiables pour les fragments</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Vous pouvez désormais ajouter du texte enrichi aux fragments personnalisables utilisés dans le contenu de vos e-mails.</p>
+<p>Par exemple, lorsque vous utilisez le composant Texte comme champ modifiable dans le Designer d’e-mail, vous pouvez directement mettre en forme le contenu (en gras et en italique, par exemple) et insérer des liens hypertexte.</p>
+<p><img src="assets/do-not-localize/rich-text-editable-fields.gif"></p>
+<p>Pour plus d'informations, consultez la <a href="../content-management/customizable-fragments.md#rich-text-visual">documentation détaillée</a>.</p>
+<p>Date de disponibilité : Fin juin 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
++++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications.**
 
 <table>
 <thead>
 <tr>
-<th><strong>Contrôles de qualité du contenu dans le Designer Email</strong><br/></th>
+<th><strong>Vérification de contenu dans le Designer Email</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -370,22 +389,6 @@ Les améliorations suivantes ont été ajoutées au canal e-mail dans cette vers
 <td>
 <p>Journey Optimizer comprend désormais une option permettant de réduire la taille de l’HTML de votre e-mail en supprimant les espaces blancs, les commentaires et le code redondant inutiles, sans affecter le rendu de l’e-mail.</p>
 <p>Cela peut améliorer la délivrabilité en évitant les seuils de taille que certains fournisseurs de messagerie utilisent pour marquer ou rejeter les messages et peut réduire le temps de chargement des destinataires.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Texte enrichi dans les champs modifiables pour les fragments</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Vous pouvez désormais ajouter du texte enrichi aux fragments personnalisables utilisés dans le contenu de vos e-mails.</p>
-<p>Par exemple, lorsque vous utilisez le composant Texte comme champ modifiable dans le Designer d’e-mail, vous pouvez directement mettre en forme le contenu (en gras et en italique, par exemple) et insérer des liens hypertexte.</p>
 </td>
 </tr>
 </tbody>

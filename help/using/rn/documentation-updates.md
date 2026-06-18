@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a122a8a609748b46480a9664f1efc5524582deca
+source-git-commit: 95efd7b0af3f78ba0e7342a5927c7e2d4b9b701f
 workflow-type: tm+mt
-source-wordcount: 8429
-ht-degree: 96%
+source-wordcount: 8472
+ht-degree: 95%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 96%
 Cette page répertorie toutes les dernières modifications apportées à la documentation [!DNL Journey Optimizer], en plus des mises à jour liées aux fonctionnalités et améliorations de la version mensuelle.
 
 ## Juin 2026 {#june-2026}
+
+* Les références à **Adobe Experience Cloud** ont été alignées sur la marque **[!DNL Adobe CX Enterprise]** dans l’ensemble de la documentation [!DNL Journey Optimizer].
 
 * La page **Prise en main de la délivrabilité** a été mise à jour avec une nouvelle sous-section **Fournisseurs sans FBL par destinataire**. Il répertorie les principaux fournisseurs de boîtes aux lettres qui ne renvoient pas de plaintes contre le spam par destinataire (Gmail/Google Workspace, Apple iCloud et Corporate Microsoft 365/Exchange Online) et explique pourquoi l&#39;absence d&#39;entrée de liste de suppression est attendue pour les destinataires utilisant ces services. [En savoir plus](../reports/deliverability.md#providers-no-fbl)
 
@@ -39,7 +41,9 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 
 * La documentation **En-têtes de l’expéditeur** indique désormais que les champs **[!UICONTROL Nom de l’expéditeur]** et **[!UICONTROL E-mail de l’expéditeur]** doivent tous deux être définis ou laissés vides. Dans le cas contraire, les parcours et les campagnes ne peuvent pas être publiés. [En savoir plus](../email/header-parameters.md#sender-header)
 
-## Mai 2026 {#may-2026}
+## Mai 2026 {#may-2026}
+
+* Les limites et les bonnes pratiques relatives à l’utilisation de contenu dynamique dans des fragments visuels ont été fusionnées en une seule section **Gérer le contenu conditionnel dans les fragments** pour une meilleure lisibilité. [En savoir plus](../email/use-visual-fragments.md#fragment-dynamic-content)
 
 * Deux nouvelles autorisations de haut niveau ont été ajoutées : **Gérer le registre des clés**, qui permet aux utilisateurs et utilisatrices d’afficher, de créer, de renouveler et de révoquer des clés dans le registre des clés, et **Afficher le registre des clés**, qui permet aux utilisateurs et utilisatrices d’afficher la liste du registre des clés et les détails des clés. [En savoir plus](../administration/high-low-permissions.md#administration-permissions)
 
@@ -300,7 +304,7 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 
 * Une nouvelle section a été ajoutée à la documentation sur l’intégration de Campaign v7/v8 pour expliquer comment mettre à jour les actions personnalisées existantes lorsque le point d’entrée en temps réel (RT) change. Cette section comprend des instructions détaillées pour mettre à jour l’URL du point d’entrée, tester la connexion et valider les modifications avant d’enregistrer. [En savoir plus](../action/acc-action.md#update-action)
 
-* De nouvelles sections sur les limites et les bonnes pratiques ont été ajoutées à la documentation sur les fragments visuels pour indiquer toute imbrication non prise en charge de fragments contenant du contenu dynamique dans d’autres fragments déverrouillés avec du contenu dynamique. Ces conseils comprennent des étapes de dépannage pour les problèmes de mode de compatibilité et des recommandations pour une bonne conception de la structure des e-mails. [En savoir plus](../email/use-visual-fragments.md#fragment-dynamic-content)
+* De nouvelles sections sur les limites et les bonnes pratiques ont été ajoutées à la documentation sur les fragments visuels pour avertir les utilisateurs d’une imbrication non prise en charge de fragments contenant du contenu conditionnel dans d’autres fragments déverrouillés avec du contenu conditionnel. Ces conseils comprennent des étapes de dépannage pour les problèmes de mode de compatibilité et des recommandations pour une bonne conception de la structure des e-mails. [En savoir plus](../email/use-visual-fragments.md#fragment-dynamic-content)
 
 * Une section de dépannage a été ajoutée à la documentation des rapports dynamiques de parcours pour permettre de résoudre les problèmes liés aux données de rapports manquantes. La section couvre la synchronisation des noms de parcours avec les jeux de données de rapports, le timing de l’actualisation des données, la vérification des autorisations d’accès et les exigences de statut de parcours. [En savoir plus](../building-journeys/report-journey.md#troubleshooting-missing-data)
 
@@ -682,7 +686,7 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 * Decision management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=fr){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the Decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -885,7 +889,7 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=fr)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 

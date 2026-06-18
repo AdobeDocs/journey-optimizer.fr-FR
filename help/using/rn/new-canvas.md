@@ -18,9 +18,9 @@ subfeature_v2:
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 561
+source-wordcount: 558
 ht-degree: 2%
 
 ---
@@ -61,7 +61,7 @@ Dans la capture d’écran ci-dessous, vous pouvez voir l’interface utilisateu
 
 ## Amélioration de la conception de la zone de travail de parcours
 
-Avec le nouveau modèle de parcours, nous introduisons une interface utilisateur de zone de travail de parcours **&#x200B;**&#x200B;nouvelle et améliorée, qui s’intègre de manière transparente dans l’écosystème des solutions et applications Adobe Experience Cloud, pour une expérience utilisateur intuitive et efficace. Tout parcours du nouveau modèle sera sur cette nouvelle conception.
+Avec le nouveau modèle de parcours, nous introduisons une interface utilisateur de la zone de travail du parcours **&#x200B;**&#x200B;nouvelle et améliorée, qui s’intègre de manière transparente dans l’écosystème des applications et des solutions [!DNL Adobe CX Enterprise], pour une expérience utilisateur intuitive et efficace. Tout parcours du nouveau modèle sera sur cette nouvelle conception.
 
 ![](assets/new-canvas3.gif)
 
