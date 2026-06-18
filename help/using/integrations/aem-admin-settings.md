@@ -7,15 +7,12 @@ feature: Integrations
 topic: Administration
 role: Admin
 level: Experienced
-hide: true
 keywords: AEM, fragments de contenu, administration, référentiel, authentification, auteur, publication
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 7cf2235a14f9ebb49fac02161743f75fee141504
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+source-git-commit: 001f14c03b0142402a485b049dfb62c9837c7928
 workflow-type: tm+mt
-source-wordcount: 467
+source-wordcount: 512
 ht-degree: 0%
 
 ---
@@ -24,11 +21,11 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-**Sur cette page :** Découvrez comment les administrateurs connectent un sandbox à un référentiel Adobe Experience Manager (en définissant un accès de création uniquement ou de publication, des domaines personnalisés et une authentification) afin que les spécialistes marketing puissent utiliser des fragments de contenu AEM dans leurs parcours et campagnes.
+**Sur cette page :** découvrez comment les administrateurs connectent un sandbox à un référentiel Adobe Experience Manager, en définissant un accès de création uniquement ou de publication, des domaines personnalisés et une authentification, afin que les spécialistes marketing puissent utiliser des fragments de contenu AEM dans leurs parcours et campagnes.
 
 >[!ENDSHADEBOX]
 
-Adobe Journey Optimizer s’intègre à **[!DNL Adobe Experience Manager as a Cloud Service]** afin que vous puissiez utiliser **fragments de contenu** dans les Parcours et les campagnes. Par défaut, les **fragments de contenu** sont lus à partir du référentiel de publication Adobe Experience Manager. Les administrateurs peuvent passer en mode de création uniquement ou ajuster l’accès de publication dans le menu **[!UICONTROL Intégration d’AEM]**.
+Adobe Journey Optimizer s’intègre à **[!DNL Adobe Experience Manager as a Cloud Service]** et **[!DNL Adobe Experience Manager Managed Service]** afin que vous puissiez utiliser **fragments de contenu** dans les Parcours et les campagnes. Par défaut, les **fragments de contenu** sont lus à partir du référentiel de publication Adobe Experience Manager. Les administrateurs peuvent passer en mode de création uniquement ou ajuster l’accès de publication dans le menu **[!UICONTROL Intégration d’AEM]**.
 
 ➡️ Lorsque le référentiel est configuré, continuez avec [Utiliser des fragments de contenu Experience Manager](../integrations/aem-fragments.md) pour les tâches de création et de sélection dans Journey Optimizer.
 
@@ -44,7 +41,7 @@ Pour configurer votre référentiel :
 
 1. Accédez À **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Intégration AEM]**.
 
-1. Cliquez sur **[!UICONTROL Créer une intégration]**.
+1. Cliquez sur **[!UICONTROL Créer une configuration]**.
 
    ![](assets/aem-admin-settings-1.png)
 
@@ -52,7 +49,7 @@ Pour configurer votre référentiel :
 
    ![](assets/aem-admin-settings-6.png)
 
-1. Choisissez le référentiel à configurer, puis cliquez sur **[!UICONTROL Suivant]**.
+1. Si vous utilisez **[!DNL Adobe Experience as a Cloud Service]**, choisissez le référentiel à configurer, puis cliquez sur **[!UICONTROL Suivant]**.
 
    De plus, vous pouvez cliquer sur **[!UICONTROL Afficher]** pour accéder à ce référentiel.
 
@@ -76,11 +73,15 @@ Pour configurer votre référentiel :
 
    +++ Configuration de l’instance de publication
 
+   Par défaut, chaque référentiel **[!DNL Adobe Experience Manager as a Cloud Service]** est configuré pour utiliser l’instance **publication**. Vous pouvez passer à l’étape de test de fragment de contenu sans modifier ces paramètres.
+
+   Si votre instance de publication est **authentifiée** ou si vous devez utiliser un domaine de publication personnalisé, procédez comme suit.
+
    1. Sélectionnez **[!UICONTROL Configuration de l’instance de publication]** pour activer les paramètres de l’instance de publication.
 
       ![](assets/aem-admin-settings-4.png)
 
-   1. Vous pouvez éventuellement activer **[!UICONTROL Envoyer le jeton à l’instance de publication]** afin que les informations d’identification du service soient incluses avec les requêtes à l’instance de publication.
+   1. Activez l’option **[!UICONTROL Envoyer le jeton à l’instance de publication]** afin que les informations d’identification du service soient incluses avec les requêtes à l’instance de publication.
 
    1. Collez un **[!UICONTROL JSON d’informations d’identification de service]** valide pour l’authentification.
 
