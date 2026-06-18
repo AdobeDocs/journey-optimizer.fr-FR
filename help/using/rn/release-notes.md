@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f62163759dc065c30057e02a064af56e269fc971
+source-git-commit: 3a9192700114244b0c010c410b19ecfbc203db02
 workflow-type: tm+mt
-source-wordcount: 3646
+source-wordcount: 3659
 ht-degree: 25%
 
 ---
@@ -359,8 +359,6 @@ Les améliorations suivantes ont été ajoutées au canal e-mail dans cette vers
 </tbody>
 </table>
 
-+++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications.**
-
 <table>
 <thead>
 <tr>
@@ -373,10 +371,15 @@ Les améliorations suivantes ont été ajoutées au canal e-mail dans cette vers
 <p>Journey Optimizer inclut désormais une validation technique automatisée directement dans le Designer d’e-mail, ce qui vous permet de détecter les problèmes HTML et CSS avant l’envoi.</p>
 <p>Les contrôles couvrent les éléments non pris en charge, tels que les balises <code>&lt;script&gt;</code> et <code>&lt;base&gt;</code>, les balises div vides qui peuvent rompre la disposition dans Microsoft Outlook, les balises de méta-actualisation HTML et les seuils de taille CSS ou HTML qui déclenchent des échecs de rendu dans Gmail.</p>
 <p>Les résultats sont affichés sous la forme d’erreurs, d’avertissements ou d’informations directement dans le panneau de création, avec des détails contextuels et des correctifs en un clic le cas échéant, afin que les problèmes puissent être résolus sans quitter l’éditeur.</p>
+<p><img src="assets/do-not-localize/content-check.gif"></p>
+<p>Pour plus d'informations, consultez la <a href="../email/content-check.md">documentation détaillée</a>.</p>
+<p>Date de disponibilité : 18 juin 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
+
++++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications.**
 
 <table>
 <thead>

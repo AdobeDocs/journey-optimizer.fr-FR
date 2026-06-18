@@ -30,10 +30,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 94f6692162ca7d37cf5d9df4c0f48371bafec9fc
 workflow-type: tm+mt
-source-wordcount: 776
-ht-degree: 95%
+source-wordcount: 821
+ht-degree: 87%
 
 ---
 
@@ -85,17 +85,25 @@ Une fois que vous avez créé un e-mail, vous pouvez commencer à créer son con
 
    ![](assets/email_designer_create_options.png)
 
-1. Une fois que le contenu de votre e-mail a été défini et personnalisé, vous pouvez exporter votre contenu pour le valider ou pour l’utiliser ultérieurement. Cliquez sur **[!UICONTROL Exporter le HTML]** pour enregistrer sur votre ordinateur un fichier zip qui contiendra votre HTML et vos ressources.
+1. Une fois le contenu de votre e-mail défini et personnalisé, vous pouvez vérifier le contenu de votre e-mail à l’aide de **contrôles de contenu automatisés** pour détecter les problèmes HTML et CSS (tels que des balises non prises en charge, des balises div vides et des violations de limite de taille) directement dans le panneau de création, avant l’envoi. [En savoir plus](content-check.md)
 
-   ![](assets/email_designer_export.png)
+   ![Volet de vérification du contenu du Designer Email présentant des problèmes](assets/content-check.png)
 
 1. Vous pouvez également valider la qualité de votre contenu pour identifier les problèmes potentiels de lisibilité, de cohésion du contenu et d’efficacité. [En savoir plus sur la validation de la qualité du contenu](../content-management/brands-score.md#validate-quality)
+
+   ![](../content-management/assets/brand-score-7.png)
+
+1. Enfin, vous pouvez exporter votre contenu pour le valider ou pour l’utiliser ultérieurement. Cliquez sur **[!UICONTROL Exporter le HTML]** pour enregistrer sur votre ordinateur un fichier zip qui contiendra votre HTML et vos ressources.
+
+   ![](assets/email_designer_export.png)
 
 ## Bonnes pratiques en matière de conception d’e-mail {#best-practices}
 
 Lors de l’envoi d’e-mails, il est important de tenir compte du fait que les destinataires peuvent les transférer, ce qui peut parfois entraîner des problèmes de rendu de l’e-mail. Vous risquez de rencontrer ces problèmes si vous utilisez des classes CSS non prises en charge par le fournisseur de messagerie utilisé pour le transfert, comme « is-desktop-hidden », par exemple, pour masquer une image sur les appareils mobiles.
 
-Pour minimiser ces problèmes de rendu, nous vous recommandons de garder votre structure de conception d’e-mail aussi simple que possible. Essayez d’utiliser une conception unique qui fonctionne aussi bien pour les ordinateurs de bureau et les appareils mobiles, et évitez d’utiliser des classes CSS complexes ou d’autres éléments de conception qui ne sont pas entièrement pris en charge par tous les clients de messagerie. En suivant ces bonnes pratiques, vous aurez l’assurance que vos e-mails sont correctement rendus, quelle que soit la manière dont ils sont affichés ou transférés par les destinataires.
+Pour minimiser ces problèmes de rendu, nous vous recommandons de garder votre structure de conception d’e-mail aussi simple que possible. Essayez d’utiliser une conception unique qui fonctionne aussi bien pour les ordinateurs de bureau et les appareils mobiles, et évitez d’utiliser des classes CSS complexes ou d’autres éléments de conception qui ne sont pas entièrement pris en charge par tous les clients de messagerie.
+
+En suivant ces bonnes pratiques, vous aurez l’assurance que vos e-mails sont correctement rendus, quelle que soit la manière dont ils sont affichés ou transférés par les destinataires.
 
 Consultez le tableau ci-dessous pour connaître les bonnes pratiques en matière de conception d’e-mail :
 
