@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: fe8836987038c1d5c26f17f415071a1740f203df
+source-git-commit: 4655cf2a206b613b0b668a74a8ebffed66616d91
 workflow-type: tm+mt
-source-wordcount: 3557
+source-wordcount: 3579
 ht-degree: 25%
 
 ---
@@ -148,9 +148,11 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées aux parcour
 
   Date de disponibilité : 4 juin 2026
 
-+++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications.**
+* **Augmentation du nombre maximal de parcours actifs et nouveaux mécanismes de sécurisation** - Vous pouvez désormais disposer de **200 parcours actifs**, contre 100 auparavant. [En savoir plus](../start/guardrails.md#journeys-guardrails-journeys)
 
-* **Augmentation du nombre maximal de parcours actifs et nouveaux mécanismes de sécurisation** - Vous pouvez désormais disposer de **200 parcours actifs**, contre 100 auparavant.
+  Date de disponibilité : 18 juin 2026. Cette fonctionnalité sera progressivement déployée dans toutes les régions au cours des prochains jours.
+
++++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications.**
 
 * **Dates de début et de fin dans l’en-tête du parcours** - Lorsque les dates de début et/ou de fin sont configurées sur un parcours dynamique, elles sont désormais affichées dans l’en-tête du parcours **&#x200B;**&#x200B;à côté du badge de statut dynamique. Le libellé affiché s’adapte selon que chaque date est à venir ou est déjà dépassée.
 
