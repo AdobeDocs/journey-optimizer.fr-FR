@@ -17,7 +17,7 @@ ht-degree: 0%
 
 En intégrant Adobe Experience Manager as a Cloud Service ou Managed Services à Adobe Journey Optimizer, vous pouvez utiliser les fragments de contenu d’AEM dans votre contenu et vérifier les statuts des fragments sans quitter Journey Optimizer.
 
-Lorsque vous republiez un fragment déjà utilisé dans un Parcours ou une campagne, le minuteur de synchronisation démarre après la **publication du fragment** dans Adobe Experience Manager. Le contenu mis à jour est généralement disponible dans Journey Optimizer en environ **5 minutes** pour les parcours et campagnes unitaires, pour les diffusions par lots, la modification apparaît dans le **lot de traitement suivant**. Voir [ Utilisation de fragments de contenu Adobe Experience Manager ](aem-fragments.md). En cas de retard, vous pouvez synchroniser manuellement ce fragment depuis Journey Optimizer afin d’extraire la dernière version publiée.
+Lorsque vous republiez un fragment déjà utilisé dans un Parcours ou une campagne, le minuteur de synchronisation démarre après la **publication du fragment** dans Adobe Experience Manager. Le contenu mis à jour est généralement disponible dans Journey Optimizer en environ **5 minutes** pour les parcours et campagnes unitaires, pour les diffusions par lots, la modification apparaît dans le **lot de traitement suivant**. Voir [&#x200B; Utilisation de fragments de contenu Adobe Experience Manager &#x200B;](aem-fragments.md). En cas de retard, vous pouvez synchroniser manuellement ce fragment depuis Journey Optimizer afin d’extraire la dernière version publiée.
 
 ## Accès aux fragments de contenu AEM {#access-aem-fragments}
 
