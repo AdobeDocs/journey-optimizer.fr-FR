@@ -11,10 +11,10 @@ keywords: expérimentation, expérience, parcours, chemin, optimisation, test A/
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: a37b536bb4210a615995f5c5c8ec710b516de934
 workflow-type: tm+mt
-source-wordcount: 1186
-ht-degree: 76%
+source-wordcount: 1308
+ht-degree: 68%
 
 ---
 
@@ -72,11 +72,6 @@ Supposons que vous souhaitiez comparer trois chemins :
    >
    >Le fait d’activer le bouton (bascule) retirera automatiquement 10 % de votre population. Vous pouvez ajuster ce pourcentage si nécessaire.
 
-   <!--
-    DOES THIS APPLY TO PATH EXPERIMENT?
-    IMPORTANT: When a holdout group is used in an action for path experimentation, the holdout assignment only applies to that specific action. After the action is completed, profiles in the holdout group will continue down the journey path and can receive messages from other actions. Therefore, ensure that any subsequent messages do not rely on the receipt of a message by a profile that might be in a holdout group. If they do, you may need to remove the holdout assignment.
-   -->
-
 1. Vous pouvez ensuite choisir d’attribuer un pourcentage précis à chaque **[!UICONTROL Traitement]** ou simplement ou simplement activer le bouton (bascule) **[!UICONTROL Répartir proportionnellement]**.
 
    ![Curseur d’affectation de traitement avec distribution en pourcentage](assets/journey-optimize-experiment-treatments.png){width=80%}
@@ -99,27 +94,17 @@ Supposons que vous souhaitiez comparer trois chemins :
 
 1. [Publiez](publish-journey.md) votre parcours.
 
-<!--
-    Select a channel action and use the **[!UICONTROL Edit content]** button to access the design tools.
-
-    ![Edit content button in channel action activity](assets/journey-optimize-experiment-edit-content.png){width=70%}
-
-    From there, using the left pane you can navigate between the different contents for each action in your experiment. Select each content and design it as needed.
-
-    ![Content selection panel showing treatments for experiment](assets/journey-optimize-experiment-content.png){width=100%}
--->
-
 Une fois le parcours actif, les utilisateurs et utilisatrices sont affectés de manière aléatoire à différents chemins. [!DNL Journey Optimizer] suit le chemin le plus performant et fournit des informations exploitables.
 
 Suivez le succès de votre parcours avec le rapport d’expérience de chemin de parcours. [En savoir plus](../reports/journey-global-report-cja-experimentation.md)
 
-<!--
-REMOVED WITH GA
+## Affectation de chemin à la rentrée du parcours {#path-assignment}
 
->[!CAUTION]
->
->Do not edit the metadata of a path experiment once it has been published. Editing the metadata will disrupt the calculation and reporting of experiment results.
--->
+L’affectation de chemin est persistante pour un profil sur plusieurs entrées dans la même version de parcours. Par exemple, si un profil entre dans un parcours le jour 1 et est affecté au chemin A, puis entre à nouveau dans le parcours le jour 2, il sera à nouveau affecté au chemin A. Cela garantit une expérience cohérente pour l’utilisateur et est nécessaire à la création de rapports et à l’analyse statistiquement valides.
+
+Toutefois, les affectations ne sont persistantes que dans une version de parcours donnée. Une fois que vous avez publié une nouvelle version de parcours, la randomisation change et un profil peut finir par être affecté à un autre chemin d’accès.
+
+Si un parcours comporte plusieurs activités d’expérimentation de chemin d’accès, chacune d’elles applique une affectation aléatoire indépendante.
 
 ## Cas d’utilisation des expériences {#uc-experiment}
 
