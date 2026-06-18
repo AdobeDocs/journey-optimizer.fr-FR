@@ -10,29 +10,16 @@ keywords: publication, parcours, actif, validité, vérification
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/gIj6jGScvIDgAJxb3B4wiuqP6BKZS0tvCeqC6wRo5IQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 7f6e649ca792c269bf409a01a6a51f791e7f6a30
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 346451c14506da121feb7d4d18e5644ec88e5991
 workflow-type: tm+mt
-source-wordcount: 2780
-ht-degree: 85%
+source-wordcount: 2609
+ht-degree: 90%
 
 ---
 
@@ -49,7 +36,7 @@ ht-degree: 85%
 >title="Mettre en pause votre parcours"
 >abstract="La suspension d’un parcours dynamique empêche l’entrée de nouveaux profils. Les profils actuellement dans le parcours peuvent être ignorés ou conservés. S’ils sont conservés, ils reprendront l’exécution à l’activité d’action suivante lors de la reprise du parcours. Idéal pour les mises à jour ou les arrêts d’urgence, sans perte de la progression."
 
-Vous pouvez suspendre vos parcours en direct, effectuer toutes les modifications nécessaires et les reprendre à tout moment.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Pendant la pause, vous pouvez [appliquer des critères de sortie d’attribut de profil](#journey-exit-criteria) pour exclure des profils en fonction de leurs attributs. Le parcours est automatiquement repris à l’issue de la période de pause. Vous pouvez également [le reprendre manuellement](#journey-resume-steps) ou [l’arrêter ou le fermer aux nouvelles entrées](#stop-close-paused) directement, sans le reprendre au préalable.
+Vous pouvez suspendre vos parcours en direct, effectuer toutes les modifications nécessaires et les reprendre à tout moment.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Pendant la pause, vous pouvez [appliquer des critères de sortie d’attribut de profil](#journey-exit-criteria) pour exclure des profils en fonction de leurs attributs. Le parcours est automatiquement repris à l’issue de la période de pause. Vous pouvez également le [reprendre manuellement](#journey-resume-steps).
 
 ## Avantages clés {#journey-pause-benefits}
 
@@ -142,25 +129,6 @@ Pour reprendre un parcours en pause et recommencer à écouter les événements 
 
 Dans la liste de vos parcours, vous pouvez reprendre un ou plusieurs parcours **en pause**. Pour reprendre un groupe de parcours (_reprise par lots_), sélectionnez-les et cliquez sur le bouton **Reprendre** situé dans la barre bleue en bas de l’écran. Notez que le bouton **Reprendre** n’est disponible que lorsque des parcours **en pause** sont sélectionnés.
 
-## Arrêter ou fermer un parcours en pause {#stop-close-paused}
-
-Vous pouvez arrêter un parcours en pause ou le fermer aux nouvelles entrées, directement à partir de l’état **En pause**. Auparavant, un parcours en pause devait être repris en **actif** avant de pouvoir être arrêté ou fermé.
-
-À partir d’un parcours en pause, vous pouvez :
-
-* **[!UICONTROL À proximité des nouvelles entrées]** : les nouveaux profils ne peuvent plus accéder au parcours, tandis que les profils déjà entrés peuvent terminer leur chemin. [En savoir plus sur la fermeture d’un parcours &#x200B;](end-journey.md#close-journey).
-* **[!UICONTROL Arrêter]** : tous les traitements de parcours se terminent immédiatement et les profils toujours dans le parcours sont arrêtés en cours. [En savoir plus sur l’arrêt d’un parcours &#x200B;](end-journey.md#stop-journey).
-
-Pour arrêter ou fermer un parcours en pause, procédez comme suit :
-
-1. Ouvrez le parcours en pause.
-1. Cliquez sur le bouton **...Plus** dans la section supérieure droite de la zone de travail du parcours, puis sélectionnez **[!UICONTROL Arrêter]** ou **[!UICONTROL Fermer aux nouvelles entrées]**.
-1. Confirmez dans la boîte de dialogue.
-
->[!CAUTION]
->
->Vous ne pouvez pas redémarrer ou supprimer un parcours [fermé](end-journey.md#close-journey) ou [arrêté](end-journey.md#stop-journey). Vous pouvez [le dupliquer](journey-ui.md#duplicate-a-journey) ou en [créer une nouvelle version](publish-journey.md#journey-versions).
-
 ## Afficher le moment où un parcours a été suspendu ou repris {#view-pause-resume-info}
 
 Pour savoir quand un parcours a été suspendu ou repris pour la dernière fois, et par qui, ouvrez le parcours et accédez à ses **propriétés** (cliquez sur l’icône en forme de crayon en regard du nom du parcours). Utilisez le bouton **Copier les détails techniques** pour copier les informations techniques qui incluent :
@@ -169,7 +137,7 @@ Pour savoir quand un parcours a été suspendu ou repris pour la dernière fois,
 * Le nom d’affichage et l’identifiant de l’utilisateur qui a effectué la dernière pause et la dernière reprise
 * Paramètres du parcours en pause (comportement de pause, durée maximale de pause, état de reprise automatique, identifiant de pause)
 
-Ces informations sont utiles pour le dépannage, le contrôle ou le partage avec l’assistance. Pour obtenir la liste complète des champs copiés, voir [&#x200B; Accès aux propriétés d’un parcours &#x200B;](journey-properties.md#access-properties).
+Ces informations sont utiles pour le dépannage, le contrôle ou le partage avec l’assistance. Pour obtenir la liste complète des champs copiés, voir [ Accès aux propriétés d’un parcours ](journey-properties.md#access-properties).
 
 ## Appliquer un critère de sortie dans un parcours mis en pause {#journey-exit-criteria}
 
