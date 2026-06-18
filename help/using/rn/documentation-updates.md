@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 95efd7b0af3f78ba0e7342a5927c7e2d4b9b701f
+source-git-commit: 1333a7e642c1c49efb5e9152abf7ba10b9f0202f
 workflow-type: tm+mt
-source-wordcount: 8472
-ht-degree: 95%
+source-wordcount: 8537
+ht-degree: 94%
 
 ---
 
@@ -27,6 +27,7 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 
 ## Juin 2026 {#june-2026}
 
+* Une nouvelle sous-section **Affectation de chemin lors d’une rentrée de parcours** a été ajoutée à la documentation **Expérimentation de chemin**. Cela clarifie le fait que l’affectation de chemin d’accès est persistante pour un profil sur plusieurs entrées dans la même version de parcours, mais uniquement dans cette version de parcours. Les affectations sont réinitialisées lorsqu’une nouvelle version de parcours est publiée et que chaque activité d’expérimentation de chemin d’accès dans un parcours applique une affectation aléatoire indépendante. [En savoir plus](../building-journeys/path-experimentation.md#path-assignment)
 * Les références à **Adobe Experience Cloud** ont été alignées sur la marque **[!DNL Adobe CX Enterprise]** dans l’ensemble de la documentation [!DNL Journey Optimizer].
 
 * La page **Prise en main de la délivrabilité** a été mise à jour avec une nouvelle sous-section **Fournisseurs sans FBL par destinataire**. Il répertorie les principaux fournisseurs de boîtes aux lettres qui ne renvoient pas de plaintes contre le spam par destinataire (Gmail/Google Workspace, Apple iCloud et Corporate Microsoft 365/Exchange Online) et explique pourquoi l&#39;absence d&#39;entrée de liste de suppression est attendue pour les destinataires utilisant ces services. [En savoir plus](../reports/deliverability.md#providers-no-fbl)
@@ -686,7 +687,7 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 * Decision management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=fr){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the Decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -889,7 +890,7 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=fr)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 
