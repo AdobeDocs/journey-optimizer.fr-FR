@@ -5,7 +5,7 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f7185c276e785e1b7c7ca8d7e4f9c01add6a3383
+source-git-commit: 4624b48096db5ff3d89537d3535195a98e6846fb
 workflow-type: tm+mt
 source-wordcount: '3360'
 ht-degree: 99%
@@ -31,14 +31,14 @@ ht-degree: 99%
    + [Mises à jour de la documentation](using/rn/documentation-updates.md)
    + {hide-from-toc}[Amélioration de la zone de travail de parcours](using/rn/new-canvas.md)
 + Commencer {#get-started}
-   + [Commencer](/help/rp_landing_pages/get-started-landing-page.md)
-   + {hide-from-toc}[hub d’intégration](using/start/onboarding-hub.md)
+   + [Commencer ici](/help/rp_landing_pages/get-started-landing-page.md)
+   + [hub d’intégration](using/start/onboarding-hub.md)
    + Principes de base {#essentials}
       + [Présentation de Journey Optimizer](using/start/get-started.md)
       + [Présentation du fonctionnement](using/start/understanding-ajo.md)
       + [Fonctionnalités intelligentes et fonctionnalités d’IA](using/start/ai-features.md)
       + [Terminologie clé](using/start/terminology.md)
-      + {hide-from-toc}[Quelle fonctionnalité pour ce traitement ?](using/start/ajo-use-case-guide.md)
+      + [Quelle fonctionnalité pour ce travail ?](using/start/ajo-use-case-guide.md)
       + [Mécanismes de sécurisation et limitations](using/start/guardrails.md)
       + {hide-from-toc}[Packages et fonctionnalités](using/start/ajo-packages.md)
       + {hide-from-toc}[Disponibilité des fonctionnalités](using/start/ajo-features-availability.md)
@@ -51,7 +51,7 @@ ht-degree: 99%
    + Travailler efficacement {#work-efficiently}
       + [Naviguer dans l’interface](using/start/user-interface.md)
       + [Rechercher, filtrer, organiser](using/start/search-filter-categorize.md)
-      + [Questions fréquentes sur la résolution des problèmes](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [Questions fréquentes sur la résolution des problèmes](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Accessibilité](using/start/accessibility.md)
       + {hide-from-toc}[Parcours et campagnes](using/start/journeys-vs-campaigns.md)
 + Parcours {#orchestrate-journeys}
@@ -67,7 +67,7 @@ ht-degree: 99%
       + [Configurer et suivre les mesures de votre parcours](using/building-journeys/success-metrics.md)
       + [Concevoir le parcours](using/building-journeys/using-the-journey-designer.md)
       + Simulation {#simulate-journey}
-         + [Prise en main de la simulation de parcours &#x200B;](using/building-journeys/simulate-journey-gs.md)
+         + [Prise en main de la simulation de parcours ](using/building-journeys/simulate-journey-gs.md)
          + [Simuler votre parcours](using/building-journeys/simulate-journey.md)
       + [Tester votre parcours](using/building-journeys/testing-the-journey.md)
       + [Test à blanc du parcours](using/building-journeys/journey-dry-run.md)
