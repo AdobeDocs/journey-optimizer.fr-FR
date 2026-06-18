@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ca5a2c888011362cf1067aaedc8fb7dad2bdd21
+source-git-commit: a3b4e8a6eafb8af7e6682cc0fff51094a3936cad
 workflow-type: tm+mt
-source-wordcount: 2462
-ht-degree: 64%
+source-wordcount: 2590
+ht-degree: 61%
 
 ---
 
@@ -291,7 +291,9 @@ Adobe gère le certificat et sa clé privée associée. Le tableau suivant résu
 | Algorithme | RS256 (RSA) |
 | Éléments à enregistrer dans votre fournisseur d’identité | Certificat feuille Adobe uniquement — pas l’autorité de certification intermédiaire ou racine |
 | Comment obtenir | Récupérez-le à partir de l’API de certificat public [mTLS](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} (voir le mécanisme de sécurisation **Certificate** ci-dessous) |
-| Rotation | Adobe gère la rotation et fournit un préavis d’au moins 30 jours |
+| Rotation | Adobe fait automatiquement pivoter le certificat 60 jours avant son expiration (durée de vie du certificat : 13 mois). Le certificat précédent reste valide jusqu’à 30 jours avant l’expiration. Les clients ne sont actuellement pas avertis de la rotation. Appelez régulièrement l’API de certificat public [mTLS](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} pour vérifier le `expiryDate` et reconfigurer votre fournisseur d’identité avant la révocation de l’ancien certificat. |
+
+Adobe fait automatiquement pivoter le certificat 60 jours avant son expiration. Le certificat précédent reste valide jusqu’à 30 jours avant l’expiration. Les clients ne sont actuellement pas avertis. Consultez le mécanisme de sécurisation [**rotation de certificat** &#x200B;](#certificate-credential-guardrails) ci-dessous pour savoir comment surveiller la rotation par programmation.
 
 #### Structure d’assertion JWT {#certificate-credential-jwt}
 
@@ -369,6 +371,8 @@ Voici un exemple pour le même type d’authentification d’informations d’id
 }
 ```
 
+<a id="certificate-credential-guardrails"></a>
+
 >[!CAUTION]
 >
 >Gardez à l’esprit les mécanismes de sécurisation suivants lors de la configuration de l’authentification personnalisée avec certificat :
@@ -377,7 +381,7 @@ Voici un exemple pour le même type d’authentification d’informations d’id
 >* **`method`** : doit être `POST`. Les points d’entrée de jeton OAuth acceptent uniquement les requêtes POST.
 >* **`client_id`** : ne doit pas être vide et ne doit pas contenir d’espaces de début ou de fin. Une valeur vide génère un jeton JWT d’aspect valide que le fournisseur d’identité rejettera avec une erreur opaque.
 >* **`scope`** : exprimé sous la forme d’une chaîne unique séparée par des espaces dans `bodyParams`. 1 000 caractères maximum au total.
->* **Certificat** : Adobe gère le certificat et la clé privée ; vous ne chargez ni ne saisissez de certificat. Avant d’utiliser l’action personnalisée dans un parcours dynamique, vous devez enregistrer le certificat feuille d’Adobe **&#x200B;**&#x200B;dans votre fournisseur d’identité. Pour la récupérer, appelez l’API de certificat public [mTLS](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} et recherchez l’entrée où `certCommonName` est `ajo-journeys.aep-mtls.adobe.com`. Enregistrez la valeur `publicCertificate` de cette entrée — n’utilisez pas les certificats d’autorité de certification intermédiaire ou racine.
+>* **Certificat** : Adobe gère le certificat et la clé privée ; vous ne chargez ni ne saisissez de certificat. Avant d’utiliser l’action personnalisée dans un parcours dynamique, vous devez enregistrer le certificat feuille d’Adobe **&#x200B;**&#x200B;dans votre fournisseur d’identité. Pour la récupérer, appelez l’API de certificat public [mTLS](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} et recherchez l’entrée où `certCommonName` est `ajo-journeys.aep-mtls.adobe.com`. Enregistrez la valeur `publicCertificate` de cette entrée — n’utilisez pas les certificats d’autorité de certification intermédiaire ou racine. Comme les clients ne sont actuellement pas avertis de la rotation de certificat, vous devez appeler régulièrement l’API de certificat public mTLS pour vérifier le `expiryDate` et mettre à jour le certificat enregistré dans votre fournisseur d’identité avant que l’ancien certificat ne soit révoqué 30 jours avant son expiration.
 
 Voici un exemple pour le type d’authentification de l’en-tête :
 
