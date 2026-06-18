@@ -24,10 +24,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 7f6e649ca792c269bf409a01a6a51f791e7f6a30
+source-git-commit: 346451c14506da121feb7d4d18e5644ec88e5991
 workflow-type: tm+mt
-source-wordcount: 1241
-ht-degree: 72%
+source-wordcount: 1203
+ht-degree: 74%
 
 ---
 
@@ -50,10 +50,6 @@ Les parcours sont fermés lorsque la temporisation globale du parcours est attei
 Pour terminer un parcours dynamique, nous vous recommandons de [le clôturer](#close-to-new-entrances) manuellement. L’arrivée de nouvelles personnes dans le parcours sera alors bloquée. Les profils qui ont déjà rejoint le parcours peuvent l’expérimenter jusqu’à la fin.
 
 Vous pouvez également [arrêter un parcours](#stop-journey), uniquement en cas d’urgence et si tout le traitement du parcours doit être arrêté immédiatement. Les personnes qui l’ont déjà rejoint sont toutes arrêtées dans leur progression.
-
->[!NOTE]
->
->Vous pouvez fermer ou arrêter un parcours à partir des états **En ligne** et **En pause**. Il n’est pas nécessaire de reprendre un parcours en pause avant de l’arrêter ou de le fermer à de nouvelles entrées. [En savoir plus sur les parcours en pause](journey-pause.md#stop-close-paused).
 
 >[!IMPORTANT]
 >

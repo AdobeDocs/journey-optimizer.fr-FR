@@ -29,10 +29,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 7f6e649ca792c269bf409a01a6a51f791e7f6a30
+source-git-commit: 346451c14506da121feb7d4d18e5644ec88e5991
 workflow-type: tm+mt
-source-wordcount: 2780
-ht-degree: 85%
+source-wordcount: 2609
+ht-degree: 90%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 85%
 >title="Mettre en pause votre parcours"
 >abstract="La suspension d’un parcours dynamique empêche l’entrée de nouveaux profils. Les profils actuellement dans le parcours peuvent être ignorés ou conservés. S’ils sont conservés, ils reprendront l’exécution à l’activité d’action suivante lors de la reprise du parcours. Idéal pour les mises à jour ou les arrêts d’urgence, sans perte de la progression."
 
-Vous pouvez suspendre vos parcours en direct, effectuer toutes les modifications nécessaires et les reprendre à tout moment.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Pendant la pause, vous pouvez [appliquer des critères de sortie d’attribut de profil](#journey-exit-criteria) pour exclure des profils en fonction de leurs attributs. Le parcours est automatiquement repris à l’issue de la période de pause. Vous pouvez également [le reprendre manuellement](#journey-resume-steps) ou [l’arrêter ou le fermer aux nouvelles entrées](#stop-close-paused) directement, sans le reprendre au préalable.
+Vous pouvez suspendre vos parcours en direct, effectuer toutes les modifications nécessaires et les reprendre à tout moment.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Pendant la pause, vous pouvez [appliquer des critères de sortie d’attribut de profil](#journey-exit-criteria) pour exclure des profils en fonction de leurs attributs. Le parcours est automatiquement repris à l’issue de la période de pause. Vous pouvez également le [reprendre manuellement](#journey-resume-steps).
 
 ## Avantages clés {#journey-pause-benefits}
 
@@ -141,25 +141,6 @@ Pour reprendre un parcours en pause et recommencer à écouter les événements 
 
 
 Dans la liste de vos parcours, vous pouvez reprendre un ou plusieurs parcours **en pause**. Pour reprendre un groupe de parcours (_reprise par lots_), sélectionnez-les et cliquez sur le bouton **Reprendre** situé dans la barre bleue en bas de l’écran. Notez que le bouton **Reprendre** n’est disponible que lorsque des parcours **en pause** sont sélectionnés.
-
-## Arrêter ou fermer un parcours en pause {#stop-close-paused}
-
-Vous pouvez arrêter un parcours en pause ou le fermer aux nouvelles entrées, directement à partir de l’état **En pause**. Auparavant, un parcours en pause devait être repris en **actif** avant de pouvoir être arrêté ou fermé.
-
-À partir d’un parcours en pause, vous pouvez :
-
-* **[!UICONTROL À proximité des nouvelles entrées]** : les nouveaux profils ne peuvent plus accéder au parcours, tandis que les profils déjà entrés peuvent terminer leur chemin. [En savoir plus sur la fermeture d’un parcours &#x200B;](end-journey.md#close-journey).
-* **[!UICONTROL Arrêter]** : tous les traitements de parcours se terminent immédiatement et les profils toujours dans le parcours sont arrêtés en cours. [En savoir plus sur l’arrêt d’un parcours &#x200B;](end-journey.md#stop-journey).
-
-Pour arrêter ou fermer un parcours en pause, procédez comme suit :
-
-1. Ouvrez le parcours en pause.
-1. Cliquez sur le bouton **...Plus** dans la section supérieure droite de la zone de travail du parcours, puis sélectionnez **[!UICONTROL Arrêter]** ou **[!UICONTROL Fermer aux nouvelles entrées]**.
-1. Confirmez dans la boîte de dialogue.
-
->[!CAUTION]
->
->Vous ne pouvez pas redémarrer ou supprimer un parcours [fermé](end-journey.md#close-journey) ou [arrêté](end-journey.md#stop-journey). Vous pouvez [le dupliquer](journey-ui.md#duplicate-a-journey) ou en [créer une nouvelle version](publish-journey.md#journey-versions).
 
 ## Afficher le moment où un parcours a été suspendu ou repris {#view-pause-resume-info}
 
