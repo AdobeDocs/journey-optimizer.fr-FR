@@ -9,26 +9,16 @@ role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 TQID: https://experienceleague.adobe.com/OL0VFfxegvbTbSLKeqFaUNTeZllmFtjMW6bmh1XDF00
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 654
-ht-degree: 92%
+source-wordcount: 651
+ht-degree: 88%
 
 ---
 
@@ -52,7 +42,7 @@ ht-degree: 92%
 
 Les audiences sont des groupes de personnes qui partagent des comportements et/ou des caractéristiques similaires. Les audiences sont configurées et conservées de manière centralisée dans Adobe Experience Platform à l’aide du service de segmentation d’Adobe Experience Platform et sont facilement accessibles dans Journey Optimizer pour être activées dans vos parcours et campagnes.
 
-Adobe Journey Optimizer propose des outils fiables pour créer, gérer et enrichir les audiences afin d’améliorer les efforts marketing. Associé à Adobe Real-Time Customer Data Platform, Journey Optimizer vous permet de superposer des audiences pour une segmentation plus complexe et de partager les audiences de manière bidirectionnelle avec d’autres solutions Adobe Experience Cloud.
+Adobe Journey Optimizer propose des outils fiables pour créer, gérer et enrichir les audiences afin d’améliorer les efforts marketing. Associé à Adobe Real-Time Customer Data Platform, Journey Optimizer vous permet de superposer des audiences pour une segmentation plus complexe et de partager les audiences de manière bidirectionnelle avec d’autres solutions de [!DNL Adobe CX Enterprise].
 
 Lorsque les données en temps réel sont diffusées ou chargées par lots, les jeux de données sont mis à jour et Journey Optimizer déplace dynamiquement et en temps réel les personnes vers les audiences et les parcours ou en dehors de ceux-ci.
 

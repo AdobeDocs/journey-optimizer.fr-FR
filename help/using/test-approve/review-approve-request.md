@@ -6,20 +6,15 @@ level: Beginner
 feature: Approval
 exl-id: 8f4260b5-98df-4350-bd9b-680c3986ffe6
 TQID: https://experienceleague.adobe.com/I7beoyvv-vzc39XjLlPl8iIpxtxOmSkD5AtxW0bCCwA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-subfeature_v2:
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+subfeature_v2: id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 376
+source-wordcount: 374
 ht-degree: 53%
 
 ---
@@ -67,4 +62,4 @@ Après l’envoi de la demande, le créateur ou la créatrice du parcours ou de 
 
 >[!NOTE]
 >
-> Si vous ne recevez pas de notification d’approbation par e-mail, vous devez mettre à jour vos préférences d’abonnement dans vos profils Experience Cloud. [En savoir plus](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/account-preferences)
+> Si vous ne recevez pas de notification d’approbation par e-mail, vous devez mettre à jour vos préférences d’abonnement dans votre profil d’[!DNL CX Enterprise]. [En savoir plus](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/account-preferences)
