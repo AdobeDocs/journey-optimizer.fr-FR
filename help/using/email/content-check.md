@@ -8,20 +8,20 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: e-mail, vérification de contenu, HTML, CSS, validation, rendu, qualité
-source-git-commit: 5d21c045ce6b1fd70f2f966c85d364e2fcfb4bb8
+source-git-commit: f7185c276e785e1b7c7ca8d7e4f9c01add6a3383
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1027'
 ht-degree: 2%
 
 ---
 
 
-# Vérifications de contenu dans le Designer Email {#content-checks}
+# Vérification de contenu dans le Designer Email {#content-check}
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_content_check"
->title="Vérifications de contenu"
->abstract="Détectez et corrigez les problèmes HTML et CSS dans votre e-mail avant l’envoi. Les contrôles couvrent les balises non prises en charge, les balises div vides et les seuils de taille qui déclenchent des échecs de rendu dans Gmail ou Microsoft Outlook. Les problèmes apparaissent sous forme d’erreurs, d’avertissements ou d’informations."
+>title="Validation du contenu de l’e-mail"
+>abstract="Les vérifications de contenu détectent automatiquement les problèmes HTML et CSS dans votre e-mail avant l’envoi. Ils signalent les balises non prises en charge, les balises div vides et les limites de taille qui peuvent interrompre le rendu dans Gmail ou Microsoft Outlook. Les problèmes apparaissent sous forme d’erreurs, d’avertissements ou d’avis d’information, avec des détails contextuels et des correctifs en un clic, le cas échéant."
 
 [!DNL Journey Optimizer] comprend une validation technique automatisée directement dans le Designer d’e-mail, ce qui vous permet de détecter les problèmes HTML et CSS avant l’envoi.
 
