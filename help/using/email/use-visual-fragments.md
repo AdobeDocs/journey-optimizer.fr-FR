@@ -9,29 +9,15 @@ role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
 TQID: https://experienceleague.adobe.com/YbH8cXjrh5E9v9twpwxB3ENb606W-1JAonJRxnorl9c
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 658cee88b071a292ddfd65f2876ebde11e438a67
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: d08afb72-92f6-4856-88e3-11ec34313c2fid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 453eb09866109ef5af9f29f1986484e0f6de7040
 workflow-type: tm+mt
-source-wordcount: 1236
+source-wordcount: 1242
 ht-degree: 52%
 
 ---
@@ -139,11 +125,13 @@ Pour personnaliser les champs modifiables dans un fragment utilisé dans un e-ma
 
 1. Tous les champs modifiables du fragment sont affichés dans l’onglet **[!UICONTROL Paramètres]** sous les propriétés du fragment.
 
-   ![](assets/fragment-editable-rich-fields.png)
+   Dans l’exemple ci-dessous, la source de l’image et le texte secondaire peuvent être modifiés, ainsi que les champs « Titre »/« Sous-titre » et l’URL du bouton « Plus d’informations ».
+
+   ![](assets/fragment-editable-fields.png)
 
 1. Pointez sur un champ modifiable dans la zone de travail centrale. Le champ est surligné en vert et une icône en forme de crayon s’affiche lorsque vous cliquez sur le texte qu’il contient.
 
-   ![](assets/fragment-editable-field-selected.png){width="100%" align="center"}
+   ![](assets/fragment-editable-field-selected.png){width="80%" align="center"}
 
 1. Modifiez le texte du champ en ligne directement sur la zone de travail centrale de Designer Email.
 
@@ -155,15 +143,11 @@ Pour personnaliser les champs modifiables dans un fragment utilisé dans un e-ma
 
    ![Options de formatage de texte enrichi dans la barre d’outils Designer d’e-mail](assets/fragment-editable-fields-rich-text.png)
 
-   >[!IMPORTANT]
+   >[!TIP]
    >
    >Les champs modifiables des fragments créés avant l’introduction de la fonctionnalité d’édition de texte enrichi sont définis sur le mode texte uniquement par défaut. Pour activer les options de formatage complet, accédez à l’éditeur de fragments à l’aide du bouton **[!UICONTROL Ouvrir le fragment]**, cliquez sur **[!UICONTROL Activer]** pour déverrouiller le mode Texte enrichi et **[!UICONTROL Enregistrer]** le fragment. [En savoir plus](../content-management/customizable-fragments.md#rich-text-visual)
-   >
-   >![](assets/email-custom-fragment-compatibility.png){width="70%" align="center"}
 
-1. Dans l’exemple ci-dessous, la source de l’image et le texte secondaire peuvent être modifiés, ainsi que les champs « Titre »/« Sous-titre » et l’URL du bouton « Plus d’informations ».
-
-   ![](assets/fragment-editable-fields.png)
+   ![Avertissement de compatibilité dans le Designer Email](assets/email-custom-fragment-compatibility.png){width="50%" align="center" zoomable="yes"}
 
 1. Vous pouvez cliquer sur **[!UICONTROL Simuler le contenu]** pour voir comment le contenu modifiable et le style s’affichent. [En savoir plus sur la prévisualisation de contenu](../content-management/preview-test.md)
 
