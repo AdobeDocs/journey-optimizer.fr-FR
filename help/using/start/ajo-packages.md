@@ -9,10 +9,10 @@ role: Admin, User
 level: Beginner
 keywords: parcours optimizer, package, licence, campagnes, parcours, canaux, prise de décision, sortant, mobile, web, modulaire, sms, mms, whatsapp, modules complémentaires, select, prime, ultimate, hérité
 hide: true
-source-git-commit: c0bfb3ea92ea1375fa6bdd2bdffc836c0046db7a
+source-git-commit: ef26246dd1bcd820bab1f226c3564a600ac5b506
 workflow-type: tm+mt
 source-wordcount: '1992'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -47,9 +47,9 @@ Non. [!DNL Adobe Journey Optimizer] utilise un modèle modulaire : l’offre de 
 
 +++**Quelle est la différence entre les campagnes et les Parcours ?**
 
-Les **campagnes** sont basées sur l’audience et planifiées par le spécialiste marketing. Vous définissez une audience, créez un message et planifiez ou déclenchez-le sous la forme d’un envoi par lots. Elles sont particulièrement adaptées aux campagnes promotionnelles, aux newsletters et aux workflows d’audience à plusieurs étapes.
+Les **[campagnes](../campaigns/get-started-with-campaigns.md)** sont basées sur l’audience et planifiées par le spécialiste marketing. Vous définissez une audience, créez un message et planifiez ou déclenchez-le sous la forme d’un envoi par lots. Elles sont particulièrement adaptées aux campagnes promotionnelles, aux newsletters et aux workflows d’audience à plusieurs étapes.
 
-Les **Parcours** sont pilotés par les événements et en temps réel. Ils réagissent au comportement individuel des clients au fur et à mesure et orchestrent des expériences 1:1 entre les points de contact. Elles sont particulièrement adaptées aux flux d’intégration, aux séquences après achat et aux messages déclenchés en temps réel.
+Les **[Parcours](../building-journeys/journey-gs.md)** sont pilotés par les événements et en temps réel. Ils réagissent au comportement individuel des clients au fur et à mesure et orchestrent des expériences 1:1 entre les points de contact. Elles sont particulièrement adaptées aux flux d’intégration, aux séquences après achat et aux messages déclenchés en temps réel.
 
 **Campagnes et Parcours** vous donne les deux fonctionnalités dans une seule licence.
 
@@ -65,8 +65,8 @@ Trois offres de base sont disponibles. Chacune correspond à une manière diffé
 
 | Offre de base | Idéal pour | Comportement de base |
 |-----------|---------|--------------|
-| **Journey Optimizer - Campagnes** | Diffusion par lots planifiée par le marketeur | Orchestration planifiée basée sur les audiences. Workflows de campagne en une ou plusieurs étapes pour l’engagement par lots et la sensibilisation planifiée par le marketeur. |
-| **Journey Optimizer - Parcours** | Engagement client en temps réel | Piloté par les événements, orchestration 1:1. Prend en charge la diffusion par parcours en temps réel et planifiée. |
+| **[Journey Optimizer - Campagnes](../campaigns/get-started-with-campaigns.md)** | Diffusion par lots planifiée par le marketeur | Orchestration planifiée basée sur les audiences. Workflows de campagne en une ou plusieurs étapes pour l’engagement par lots et la sensibilisation planifiée par le marketeur. |
+| **[Journey Optimizer - Parcours](../building-journeys/journey-gs.md)** | Engagement client en temps réel | Piloté par les événements, orchestration 1:1. Prend en charge la diffusion par parcours en temps réel et planifiée. |
 | **Journey Optimizer - Campagnes et Parcours** | Clients ayant besoin des deux | Combine l’orchestration des campagnes basée sur les audiences et l’orchestration des parcours en temps réel. |
 
 >[!IMPORTANT]
@@ -77,11 +77,11 @@ Trois offres de base sont disponibles. Chacune correspond à une manière diffé
 
 | | Journey Optimizer - Campagnes | JOURNEY OPTIMIZER - PARCOURS | Journey Optimizer - Campagnes et Parcours |
 |--|:-----------------------------:|:----------------------------:|:----------------------------------------:|
-| Orchestration par lots basée sur les audiences | ✓ | Limité ¹ | ✓ |
-| Orchestration basée sur les événements en temps réel | — | ✓ | ✓ |
+| [Orchestration par lots basée sur les audiences](../campaigns/get-started-with-campaigns.md) | ✓ | Limité ¹ | ✓ |
+| [Orchestration basée sur les événements en temps réel](../building-journeys/journey-gs.md) | — | ✓ | ✓ |
 | Messages transactionnels (e-mail, push, SMS) | ✓ | ✓ | ✓ |
-| Modules complémentaires de canal disponibles | ✓ | ✓ | ✓ |
-| Module complémentaire Prise de décision disponible | ✓ | ✓ | ✓ |
+| [Modules complémentaires de canal disponibles](#channel-addons) | ✓ | ✓ | ✓ |
+| [Module complémentaire Prise de décision disponible](#decisioning-addon) | ✓ | ✓ | ✓ |
 
 ¹ Dans **Journey Optimizer - Parcours**, l’orchestration basée sur les audiences n’est prise en charge que dans les cas d’utilisation de parcours, et non comme des campagnes par lots autonomes.
 
@@ -95,7 +95,7 @@ Les canaux ne sont pas regroupés dans l’offre de base. Sélectionnez le modul
 
 Touchez des audiences par le biais des canaux de messagerie sortants.
 
-**Inclut :** e-mail, notifications push, courrier
+**Inclut :** [e-mail](../email/get-started-email.md), [notifications push](../push/get-started-push.md), [courrier](../direct-mail/get-started-direct-mail.md)
 
 **Cas d’utilisation standard :** e-mails promotionnels, alertes push transactionnelles, campagnes par e-mail physiques.
 
@@ -107,7 +107,7 @@ Inclut les principes de délivrabilité pour la prise en charge du réchauffemen
 
 Impliquez les utilisateurs de l’application avec des expériences mobiles en session et persistantes.
 
-**Inclut :** la messagerie in-app, les notifications push, les cartes de contenu, les canaux basés sur le code pour les surfaces mobiles
+**Inclut :** [messagerie intégrée](../in-app/get-started-in-app.md), [notifications push](../push/get-started-push.md), [cartes de contenu](../content-card/get-started-content-card.md), [canaux basés sur du code](../code-based/get-started-code-based.md) pour les surfaces mobiles
 
 **Cas d’utilisation standard :** flux d’intégration, annonces de fonctionnalités, incitations à la fidélité, offres in-app en temps réel
 
@@ -117,7 +117,7 @@ Impliquez les utilisateurs de l’application avec des expériences mobiles en s
 
 Personnalisez des expériences web sans déployer de code.
 
-**Inclut** canal web (éditeur visuel et non visuel), des canaux basés sur du code pour les surfaces web
+**Inclut :** [canal web](../web/get-started-web.md) (éditeur visuel et non visuel), [canaux basés sur du code](../code-based/get-started-code-based.md) pour les surfaces web
 
 **Cas d’utilisation standard :** bannières de page d’accueil, personnalisation de page de destination, tests A/B, personnalisation web découplée via l’API
 
@@ -127,7 +127,7 @@ Personnalisez des expériences web sans déployer de code.
 
 Le module complémentaire **Tous les canaux** offre une diffusion sortante + Mobile + Web dans un seul achat.
 
-**Inclut :** chaque canal des trois modules complémentaires individuels (e-mail, notifications push, publipostage direct, messagerie in-app, cartes de contenu, canal web et canaux basés sur du code)
+**Inclut :** chaque canal des trois modules complémentaires individuels — [e-mail](../email/get-started-email.md), [notifications push](../push/get-started-push.md), [publipostage direct](../direct-mail/get-started-direct-mail.md), [messagerie in-app](../in-app/get-started-in-app.md), [cartes de contenu](../content-card/get-started-content-card.md), [canal web](../web/get-started-web.md) et [canaux basés sur le code](../code-based/get-started-code-based.md)
 
 **Cas d’utilisation standard :** programmes omnicanaux coordonnés qui couvrent l’envoi, les applications mobiles et le web ; par exemple, une campagne qui suit un e-mail avec un message in-app et une bannière web personnalisée
 
@@ -174,11 +174,11 @@ Déterminé par votre offre de base.
 
 | Fonctionnalité | Campagnes | Parcours | Campagnes et Parcours |
 |-----------|:---------:|:--------:|:--------------------:|
-| Messages transactionnels (e-mail, push, SMS) | ✓ | ✓ | ✓ |
-| Campagnes par lots | ✓ | — | ✓ |
-| Campagnes orchestrées _(e-mail, SMS, notification push, publipostage direct uniquement)_ | ✓ | — | ✓ |
-| Parcours automatisés | — | ✓ | ✓ |
-| Déclencheurs d’événement en temps réel | — | ✓ | ✓ |
+| Messages transactionnels ([e-mail](../email/get-started-email.md), [push](../push/get-started-push.md), [SMS](../mobile/get-started-mobile.md)) | ✓ | ✓ | ✓ |
+| [Campagnes par lots](../campaigns/get-started-with-campaigns.md) | ✓ | — | ✓ |
+| [Campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md) _(e-mail, SMS, notification push, publipostage direct uniquement)_ | ✓ | — | ✓ |
+| parcours automatisés[&#128279;](../building-journeys/journey-gs.md) | — | ✓ | ✓ |
+| [Déclencheurs d’événement en temps réel](../event/about-events.md) | — | ✓ | ✓ |
 
 ### Canaux et fonctionnalités avancées {#channel-capabilities}
 
@@ -186,17 +186,17 @@ La plupart des canaux sont disponibles pour les trois offres de base et nécessi
 
 | Fonctionnalité | Disponibilité | Module complémentaire obligatoire |
 |-----------|-------------|----------------|
-| Email | Toutes les offres de base | Diffusion sortante |
-| Notifications push | Toutes les offres de base | Diffusion sortante |
-| Canal Courrier | Toutes les offres de base | Diffusion sortante |
-| SMS/MMS | En fonction de la configuration sous licence | En fonction de la configuration sous licence |
-| Messagerie in-app | Toutes les offres de base | Mobile |
-| Cartes de contenu | Toutes les offres de base | Mobile |
-| Canal web | Toutes les offres de base | Web |
-| Expériences basées sur du code | Toutes les offres de base | Mobile ou Web |
-| WhatsApp | En fonction de la configuration sous licence | WhatsApp |
-| Prise de décision | Dépend de la licence | Prise de décision |
-| Classement optimisé par l&#39;IA | Dépend de la licence | Prise de décision |
+| [E-mail](../email/get-started-email.md) | Toutes les offres de base | Diffusion sortante |
+| [Notifications push](../push/get-started-push.md) | Toutes les offres de base | Diffusion sortante |
+| [Courrier (publipostage direct)](../direct-mail/get-started-direct-mail.md) | Toutes les offres de base | Diffusion sortante |
+| [SMS/MMS](../mobile/get-started-mobile.md) | En fonction de la configuration sous licence | En fonction de la configuration sous licence |
+| [&#x200B; Messagerie in-app &#x200B;](../in-app/get-started-in-app.md) | Toutes les offres de base | Mobile |
+| [Cartes de contenu](../content-card/get-started-content-card.md) | Toutes les offres de base | Mobile |
+| [Canal web](../web/get-started-web.md) | Toutes les offres de base | Web |
+| [Expériences basées sur du code](../code-based/get-started-code-based.md) | Toutes les offres de base | Mobile ou Web |
+| [WhatsApp](../whatsapp/get-started-whatsapp.md) | En fonction de la configuration sous licence | WhatsApp |
+| [Prise de décision](../experience-decisioning/gs-experience-decisioning.md) | Dépend de la licence | Prise de décision |
+| [Classement optimisé par l’IA](../offers/ranking/ai-models.md) | Dépend de la licence | Prise de décision |
 
 >[!NOTE]
 >
@@ -206,7 +206,7 @@ La plupart des canaux sont disponibles pour les trois offres de base et nécessi
 
 +++**Quels canaux sont pris en charge dans les campagnes orchestrées ?**
 
-Les campagnes orchestrées (workflows d’audience à plusieurs étapes utilisant la fonctionnalité d’orchestration des campagnes) prennent uniquement en charge les **e-mails, SMS, notifications push et publipostage direct**. Les canaux web, in-app, basés sur du code et de carte de contenu ne sont pas pris en charge dans les workflows de campagne orchestrés.
+Les [campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md) (workflows d’audience à plusieurs étapes utilisant la fonctionnalité d’orchestration des campagnes) prennent uniquement en charge les **e-mails, SMS, notifications push et publipostage direct**. Les canaux web, in-app, basés sur du code et de carte de contenu ne sont pas pris en charge dans les workflows de campagne orchestrés.
 
 +++
 

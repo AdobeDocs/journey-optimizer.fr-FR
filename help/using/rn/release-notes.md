@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3a9192700114244b0c010c410b19ecfbc203db02
+source-git-commit: 18cd98d012910264c321de3677970212c658236e
 workflow-type: tm+mt
-source-wordcount: 3659
+source-wordcount: 3672
 ht-degree: 25%
 
 ---
@@ -423,8 +423,6 @@ Les améliorations suivantes ont été ajoutées au canal e-mail dans cette vers
 
 Les fonctionnalités et améliorations suivantes vont être apportées à la gestion de contenu et aux intégrations dans cette version.
 
-+++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications.**
-
 <table>
 <thead>
 <tr>
@@ -443,10 +441,14 @@ Les fonctionnalités et améliorations suivantes vont être apportées à la ges
 <li>Vous disposez désormais d’une certaine flexibilité quant à la manière dont Adobe Journey Optimizer accède à votre contenu Adobe Experience Manager. Cette version offre la possibilité de <strong>changer de référentiel source</strong> pour les fragments de contenu utilisés dans vos parcours et campagnes.</li>
 <li>Désormais compatible avec <b></b>, vous pouvez afficher des fragments de contenu Adobe Experience Manager, y accéder et les utiliser directement dans Journey Optimizer à des fins de personnalisation. Il vous suffit d’ajouter votre URL de référentiel Adobe Experience Manager Managed Services dans les paramètres de configuration pour une configuration ponctuelle.</li>
 </ul>
+<p>Pour plus d'informations, consultez la <a href="../integrations/aem-fragments-gs.md">documentation détaillée</a>.</p>
+<p>Date de disponibilité : 18 juin 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
+
++++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications.**
 
 <table>
 <thead>

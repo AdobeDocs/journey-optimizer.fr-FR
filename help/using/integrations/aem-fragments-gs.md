@@ -22,10 +22,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
+source-git-commit: 28395abcdcba6ed8fd02f252a57022aa473f3d3b
 workflow-type: tm+mt
-source-wordcount: 296
-ht-degree: 40%
+source-wordcount: 319
+ht-degree: 22%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 40%
 >
 >Pour la clientèle du secteur de la santé, l’intégration n’est activée qu’après l’obtention d’une licence pour les offres complémentaires Journey Optimizer Healthcare Shield et Adobe Experience Manager Enhanced Security.
 
-En intégrant Adobe Experience Manager as a Cloud Service à Adobe Journey Optimizer, vous pouvez désormais incorporer facilement vos fragments de contenu AEM dans le contenu de Journey Optimizer. Cette connexion rationalisée simplifie le processus d’accès au contenu AEM et d’utilisation de celui-ci, ce qui permet de créer des campagnes et des parcours personnalisés et dynamiques.
+En intégrant **[!DNL Adobe Experience Manager as a Cloud Service]** et **[!DNL Adobe Experience Manager Managed Service]** à Adobe Journey Optimizer, vous pouvez utiliser les fragments de contenu d’AEM dans les parcours et les campagnes. Par **[!DNL Adobe Experience Manager Managed Service]**, l’intégration prend en charge les niveaux **Auteur** et **Publication** sur **le service SP2 de support à long terme (LTS) d’AEM** ; les mises à jour en temps réel de Adobe Experience Manager ne sont pas disponibles dans cette version. Contactez votre représentant Adobe Managed Services pour la configuration de l’instance, puis [configurez l’accès au référentiel Adobe Experience Manager](aem-admin-settings.md) pour ajouter votre référentiel Managed Services.
 
 Pour en savoir plus sur les fragments de contenu AEM, voir [Utilisation des fragments de contenu](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} dans la documentation d’Experience Manager.
 
@@ -53,6 +53,6 @@ Les fragments de contenu suivent différentes étapes du cycle de vie en fonctio
 
 Le contenu est créé et géré au **niveau Auteur**, où les fragments peuvent avoir des statuts tels que Nouveau, Brouillon, Publié, Modifié ou Dépublié. Ces statuts s’appliquent uniquement au **niveau Auteur** et prennent en charge la création et la révision de contenu.
 
-Lorsqu’un fragment de contenu est publié, une copie est créée au **niveau Publication** et exposée via un point d’entrée public non authentifié. Journey Optimizer s’intègre exclusivement à ce **niveau Publication**.
+Lorsqu’un fragment de contenu est publié, une copie est créée au **niveau Publication** et exposée via un point d’entrée public non authentifié. Par **[!DNL Adobe Experience Manager as a Cloud Service]**, Journey Optimizer prend en charge l’intégration avec les niveaux **Auteur** et **Publication**.
 
 Par conséquent, Journey Optimizer n’affiche que les fragments de contenu publiés ou modifiés et utilise toujours la dernière version publiée. Les modifications apportées après la publication ne sont pas répercutées dans Journey Optimizer tant que le fragment de contenu n’a pas été republié.
