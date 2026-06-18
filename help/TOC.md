@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
+source-git-commit: 575a5071b0cb9f64447308efb263749831d96c56
 workflow-type: tm+mt
-source-wordcount: '3358'
+source-wordcount: '3360'
 ht-degree: 99%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 99%
    + Travailler efficacement {#work-efficiently}
       + [Naviguer dans l’interface](using/start/user-interface.md)
       + [Rechercher, filtrer, organiser](using/start/search-filter-categorize.md)
-      + [Questions fréquentes sur la résolution des problèmes](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [Questions fréquentes sur la résolution des problèmes](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Accessibilité](using/start/accessibility.md)
       + {hide-from-toc}[Parcours et campagnes](using/start/journeys-vs-campaigns.md)
 + Parcours {#orchestrate-journeys}
@@ -67,7 +67,7 @@ ht-degree: 99%
       + [Configurer et suivre les mesures de votre parcours](using/building-journeys/success-metrics.md)
       + [Concevoir le parcours](using/building-journeys/using-the-journey-designer.md)
       + Simulation {#simulate-journey}
-         + [Prise en main de la simulation de parcours &#x200B;](using/building-journeys/simulate-journey-gs.md)
+         + [Prise en main de la simulation de parcours ](using/building-journeys/simulate-journey-gs.md)
          + [Simuler votre parcours](using/building-journeys/simulate-journey.md)
       + [Tester votre parcours](using/building-journeys/testing-the-journey.md)
       + [Test à blanc du parcours](using/building-journeys/journey-dry-run.md)
@@ -318,6 +318,7 @@ ht-degree: 99%
             + [Ajouter un CSS personnalisé](using/email/custom-css.md)
             + [Gérer le contenu en mode sombre](using/email/dark-mode.md)
          + [Créer du contenu accessible](using/email/accessible-content.md)
+         + [Vérifications de contenu](using/email/content-check.md)
       + Configurer le canal e-mail {#configure-email}
          + {hide-from-toc}[Configurer le canal E-mail](/help/rp_landing_pages/configure-email-landing-page.md)
          + [Commencer la configuration du canal e-mail](using/email/get-started-email-config.md)
