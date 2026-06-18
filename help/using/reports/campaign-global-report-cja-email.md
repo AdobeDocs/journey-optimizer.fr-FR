@@ -9,31 +9,16 @@ role: User
 level: Intermediate
 exl-id: d11dd1cb-041b-48cd-b1fc-bcbe12338a07
 TQID: https://experienceleague.adobe.com/QtGuPZnO3Bka3GI9JaMjBJmho4Cry5qgl61h3Ohe3ek
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: beb7a3c1-66ab-4786-b879-7621375b3c40id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
 workflow-type: tm+mt
-source-wordcount: 2249
-ht-degree: 93%
+source-wordcount: 2332
+ht-degree: 88%
 
 ---
 
@@ -148,7 +133,7 @@ Le graphique **[!UICONTROL Tendance des diffusions et clics]** présente une ana
 
 ![](assets/cja-unique-email-sending-stat.png)
 
-Le tableau **[!UICONTROL Statistiques d’envois uniques]** présente une vue d’ensemble détaillée des mesures de performances des e-mails uniques dans vos campagnes. Il se concentre sur les profils individuels, tels que ceux qui sont ciblés, reçoivent un envoi, font l’objet d’un rebond ou sont exclus de manière unique, ce qui permet d’obtenir des informations plus détaillées sur la manière dont vos e-mails atteignent votre audience et l’engagent.
+Le tableau **[!UICONTROL Statistiques d’envoi uniques]** présente un aperçu détaillé des mesures de performances des e-mails uniques dans vos campagnes. Il se concentre sur les profils individuels, tels que ceux qui sont ciblés, reçoivent un envoi, font l’objet d’un rebond ou sont exclus de manière unique, ce qui permet d’obtenir des informations plus détaillées sur la manière dont vos e-mails atteignent votre audience et l’engagent.
 
 +++ En savoir plus sur la mesure Statistiques d’envois uniques
 
@@ -226,9 +211,13 @@ Le tableau **[!UICONTROL E-mail - Statistiques de tracking]** offre un compte re
 
 * **[!UICONTROL Taux d’ouverture par clic (CTOR)]** : nombre de fois où l’e-mail a été ouvert.
 
+* **[!UICONTROL Taux d’ouverture]** : pourcentage de profils ayant ouvert l’e-mail au moins une fois, par rapport au nombre d’e-mails diffusés.
+
 * **[!UICONTROL Estimation des ouvertures d’e-mail]** : estimation du nombre total d’ouvertures d’e-mail, prenant en compte les ouvertures directes par les profils et les ouvertures automatisées déclenchées par les serveurs de messagerie. Cette mesure prend en compte les ouvertures déclenchées par les serveurs de messagerie à des fins d’analyse de la confidentialité ou de la sécurité en appliquant un taux d’ouverture calculé à partir des destinataires qui ont ouvert manuellement l’e-mail par rapport à ceux dont les e-mails n’ont été ouverts que par des serveurs de messagerie.
 
 * **[!UICONTROL Clics]** : nombre de clics sur un contenu dans vos e-mails.
+
+* **[!UICONTROL Estimation des clics]** : nombre de clics sur un contenu de votre message, à l’exclusion du trafic de robots identifiés et des interactions non humaines (NHI).
 
 * **[!UICONTROL Plaintes relatives aux spams]** : nombre de fois où un message a été déclaré comme spam ou courrier indésirable.
 
@@ -258,17 +247,19 @@ Le tableau **[!UICONTROL Domaines d’e-mails]** propose une répartition détai
 
 +++
 
-## Libellés des liens de suivi {#track-link-label}
+## Libellés suivis {#track-link-label}
 
 ![](assets/cja-email-tracked-link.png)
 
-Le tableau **[!UICONTROL Libellés des liens de suivi]** fournit une vue d’ensemble complète des libellés des liens dans vos e-mails qui attirent le plus de visiteurs et de visiteuses. Cette fonctionnalité vous permet d’identifier et de hiérarchiser les liens les plus populaires.
+Le tableau **[!UICONTROL Libellés suivis]** offre une vue d’ensemble complète des libellés de lien dans vos e-mails, en mettant en évidence ceux qui génèrent le trafic de visiteurs le plus élevé. Cette fonctionnalité vous permet d’identifier et de hiérarchiser les liens les plus populaires.
 
 +++ En savoir plus sur les mesures des libellés des liens de suivi
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans un e-mail.
 
 * **[!UICONTROL Clics]** : nombre de clics sur un contenu dans vos e-mails.
+
+* **[!UICONTROL Estimation des clics]** : nombre de clics sur un contenu de votre message, à l’exclusion du trafic de robots identifiés et des interactions non humaines (NHI).
 
 +++
 
@@ -283,6 +274,8 @@ Le tableau **[!UICONTROL URL des liens de suivi]** fournit une vue d’ensemble 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans un e-mail.
 
 * **[!UICONTROL Clics]** : nombre de clics sur un contenu dans vos e-mails.
+
+* **[!UICONTROL Estimation des clics]** : nombre de clics sur un contenu de votre message, à l’exclusion du trafic de robots identifiés et des interactions non humaines (NHI).
 
 +++
 
