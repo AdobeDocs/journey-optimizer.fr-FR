@@ -9,30 +9,16 @@ role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
 TQID: https://experienceleague.adobe.com/YbH8cXjrh5E9v9twpwxB3ENb606W-1JAonJRxnorl9c
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: d08afb72-92f6-4856-88e3-11ec34313c2fid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 658cee88b071a292ddfd65f2876ebde11e438a67
 workflow-type: tm+mt
-source-wordcount: 1131
-ht-degree: 85%
+source-wordcount: 1236
+ht-degree: 52%
 
 ---
 
@@ -90,43 +76,38 @@ Pour utiliser un fragment dans un email, procédez comme suit :
 1. À partir de l’onglet **[!UICONTROL Paramètres]**, vous pouvez :
 
    * Sélectionner les appareils sur lesquels afficher le fragment.
-   * Ouvrir le fragment dans un nouvel onglet pour le modifier, si nécessaire. [En savoir plus](../content-management/fragments.md#fragments)
+   * Ouvrez le fragment dans un nouvel onglet et modifiez-le si nécessaire. [En savoir plus](../content-management/manage-fragments.md#edit-fragments)
    * Explorer les références. [En savoir plus](../content-management/fragments.md#visual-expression)
-
-1. Vous pouvez personnaliser davantage votre fragment à l’aide de l’onglet **[!UICONTROL Styles]**.
 
 1. Si nécessaire, vous pouvez rompre l’héritage avec le fragment d’origine. [En savoir plus](#break-inheritance)
 
+   Une fois déverrouillé, vous pouvez personnaliser davantage votre fragment comme tout autre composant et utiliser l’onglet **[!UICONTROL Styles]**.
+
 1. Ajoutez autant de fragments que vous le souhaitez. Vous pouvez ensuite **[!UICONTROL enregistrer]** vos modifications.
 
-### Restrictions liées à l’utilisation de contenu dynamique dans les fragments {#fragment-dynamic-content}
+## Gestion du contenu conditionnel dans les fragments {#fragment-dynamic-content}
+
+Lorsque vous utilisez des fragments visuels qui contiennent du contenu conditionnel, suivez ces instructions. [En savoir plus sur le contenu dynamique](../personalization/dynamic-content.md#emails)
 
 >[!CAUTION]
 >
->Lorsque vous utilisez des fragments qui contiennent du contenu dynamique (contenu conditionnel), tenez compte des limites suivantes :
+>**L’imbrication de fragments avec du contenu conditionnel n’est pas prise en charge.** Vous ne pouvez pas placer un fragment contenant du contenu conditionnel dans un fragment déverrouillé qui contient également du contenu conditionnel. Cette configuration non prise en charge peut entraîner les problèmes suivants :
 >
->**L’imbrication de fragments avec du contenu dynamique n’est pas prise en charge.** Vous ne pouvez pas placer un fragment contenant du contenu dynamique dans un fragment déverrouillé qui contient également du contenu dynamique. Cette configuration non prise en charge peut entraîner les problèmes suivants :
->
->* Perte des mappages de contenu conditionnel
+>* Perte des mappages de variantes de contenu conditionnel
 >* Avertissements relatifs au mode de compatibilité dans le Concepteur d’e-mail
 >* Rendu incohérent des e-mails
->
->**Approche recommandée :** lors de l’utilisation de plusieurs fragments avec du contenu dynamique dans votre e-mail, ajoutez chaque fragment directement dans son propre bloc de structure au niveau de l’e-mail. Cela permet de garantir un fonctionnement correct et d’éviter les problèmes mentionnés ci-dessus.
 
-## Bonnes pratiques relatives aux fragments avec du contenu dynamique {#fragment-best-practices}
+**Structurer correctement l’e-mail :** lors de l’utilisation de plusieurs fragments avec du contenu conditionnel, ajoutez chaque fragment directement dans son propre bloc de structure au niveau de l’e-mail. Évitez d’imbriquer des fragments avec du contenu conditionnel dans d’autres fragments déverrouillés qui contiennent également du contenu conditionnel.
 
-Suivez ces bonnes pratiques lorsque vous utilisez des fragments visuels et du contenu dynamique (contenu conditionnel) :
+**Planifier à l’avance :** avant d’ajouter des fragments à votre e-mail, identifiez ceux qui contiennent du contenu conditionnel et planifiez votre disposition en conséquence. Cela permet d’éviter les problèmes de configuration et d’assurer une structure propre dès le départ.
 
-* **Structurez correctement votre e-mail** : lors de la création d’e-mails avec des fragments comportant du contenu dynamique, ajoutez chaque fragment dans un bloc de structure dédié au niveau de l’e-mail. Évitez d’imbriquer des fragments avec du contenu dynamique dans d’autres fragments déverrouillés contenant également du contenu dynamique.
+**Concevez soigneusement les fragments réutilisables :** lors de la création de fragments qui incluront du contenu conditionnel, réfléchissez à la manière dont ils seront utilisés. Si un fragment doit être imbriqué dans d’autres fragments, évitez d’ajouter du contenu conditionnel aux fragments parents et enfants.
 
-* **Planifiez** : avant d’ajouter des fragments à votre e-mail, identifiez ceux qui contiennent du contenu dynamique et planifiez votre disposition en conséquence. Cela permet d’éviter les problèmes de configuration et d’assurer une structure propre dès le départ.
+**Dépannage :** si vous perdez les mappages de variantes de contenu conditionnel ou les avertissements du mode de compatibilité, suivez les étapes ci-dessous.
 
-* **Concevez soigneusement les fragments réutilisables** : lorsque vous créez des fragments qui incluront du contenu dynamique, réfléchissez à la manière dont ils seront utilisés. Si un fragment doit être imbriqué dans d’autres fragments, évitez d’ajouter du contenu dynamique aux fragments parents et enfants.
-
-* **Dépannage** : si vous constatez une perte des mappages de contenu conditionnel ou des avertissements de mode de compatibilité :
-   * Vérifiez la structure de votre e-mail pour les fragments imbriqués comportant du contenu dynamique.
-   * Changez la structure en déplaçant chaque fragment avec du contenu dynamique dans son propre bloc de structure au niveau de l’e-mail.
-   * Enregistrez et vérifiez que les mappages de contenu conditionnel sont correctement restaurés.
+* Vérifiez la structure de votre e-mail pour les fragments imbriqués contenant du contenu conditionnel
+* Restructurez en déplaçant chaque fragment avec du contenu conditionnel dans son propre bloc de structure au niveau de l’e-mail
+* Enregistrez et vérifiez que les variantes de contenu conditionnel sont correctement restaurées.
 
 ## Utiliser des variables implicites {#implicit-variables-in-fragments}
 
@@ -136,25 +117,45 @@ Découvrez comment utiliser les variables implicites dans [cette section](../per
 
 ## Personnaliser des champs modifiables {#customize-fields}
 
-Si certaines parties du fragment sélectionné ont été rendues modifiables, vous pouvez remplacer leur valeur par défaut après l’ajout du fragment dans votre contenu. [Découvrir comment rendre personnalisables vos fragments](../content-management/customizable-fragments.md)
+Si certaines parties du fragment sélectionné ont été rendues modifiables, vous pouvez remplacer leur valeur par défaut après l’ajout du fragment dans votre contenu. [Découvrez comment personnaliser un fragment](../content-management/customizable-fragments.md)
 
-Pour personnaliser les champs modifiables dans un fragment, procédez comme suit :
+Pour personnaliser les champs modifiables dans un fragment utilisé dans un e-mail, procédez comme suit.
 
-1. Ajoutez le fragment à votre contenu.
+1. Ajoutez un fragment personnalisable au contenu de votre e-mail, puis sélectionnez-le pour ouvrir le volet **[!UICONTROL Fragment]** sur le côté droit.
 
-1. Sélectionnez-le pour ouvrir le volet Propriétés sur le côté droit.
+1. Tous les champs modifiables du fragment sont affichés dans l’onglet **[!UICONTROL Paramètres]** sous les propriétés du fragment.
 
-   Tous les champs modifiables du fragment sont affichés dans l’onglet **Paramètres** sous la section **Fragment**.
+   ![](assets/fragment-editable-rich-fields.png)
 
-1. Lorsque vous sélectionnez un champ modifiable dans le volet de droite, il est mis en surbrillance en vert dans le volet de prévisualisation central, ce qui facilite l’identification de son emplacement dans votre contenu.
+1. Pointez sur un champ modifiable dans la zone de travail centrale. Le champ est surligné en vert et une icône en forme de crayon s’affiche lorsque vous cliquez sur le texte qu’il contient.
 
-   Dans l’exemple ci-dessous, l’image **source** et le **texte alternatif** peuvent être modifiés, ainsi que l’**URL** du bouton « Cliquez ici ».
+   ![](assets/fragment-editable-field-selected.png){width="100%" align="center"}
 
-   ![](assets/fragment-editable.png)
+1. Modifiez le texte du champ en ligne directement sur la zone de travail centrale de Designer Email.
+
+   >[!NOTE]
+   >
+   >Pour localiser facilement les champs modifiables dans votre contenu, vous pouvez également les sélectionner dans le volet de droite, mais vous ne pouvez modifier ces champs que dans la zone de travail centrale.
+
+1. Pour les composants **[!UICONTROL Texte]**, **[!UICONTROL Bouton]** et **[!UICONTROL Html]**, la barre d’outils Designer d’e-mail donne également accès à des options de mise en forme de texte enrichi (gras, italique, liens hypertexte, etc.).
+
+   ![Options de formatage de texte enrichi dans la barre d’outils Designer d’e-mail](assets/fragment-editable-fields-rich-text.png)
+
+   >[!IMPORTANT]
+   >
+   >Les champs modifiables des fragments créés avant l’introduction de la fonctionnalité d’édition de texte enrichi sont définis sur le mode texte uniquement par défaut. Pour activer les options de formatage complet, accédez à l’éditeur de fragments à l’aide du bouton **[!UICONTROL Ouvrir le fragment]**, cliquez sur **[!UICONTROL Activer]** pour déverrouiller le mode Texte enrichi et **[!UICONTROL Enregistrer]** le fragment. [En savoir plus](../content-management/customizable-fragments.md#rich-text-visual)
+   >
+   >![](assets/email-custom-fragment-compatibility.png){width="70%" align="center"}
+
+1. Dans l’exemple ci-dessous, la source de l’image et le texte secondaire peuvent être modifiés, ainsi que les champs « Titre »/« Sous-titre » et l’URL du bouton « Plus d’informations ».
+
+   ![](assets/fragment-editable-fields.png)
+
+1. Vous pouvez cliquer sur **[!UICONTROL Simuler le contenu]** pour voir comment le contenu modifiable et le style s’affichent. [En savoir plus sur la prévisualisation de contenu](../content-management/preview-test.md)
 
 >[!CAUTION]
 >
->Lorsque les **libellé** et **URL** d’un composant de bouton sont rendus modifiables dans un fragment, les rapports de suivi affichent l’URL au lieu du libellé du bouton. [En savoir plus sur le tracking](../email/message-tracking.md)
+>Lorsque les **libellé** et **URL** d’un composant de bouton sont rendus modifiables dans un fragment, les rapports de suivi affichent l’URL au lieu du libellé du bouton. [En savoir plus sur le tracking](message-tracking.md)
 
 ## Rompre l’héritage {#break-inheritance}
 
