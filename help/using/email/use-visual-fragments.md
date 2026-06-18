@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 453eb09866109ef5af9f29f1986484e0f6de7040
+source-git-commit: 89c7799f3d330a0fceb40d55ab3da69fb6c279d8
 workflow-type: tm+mt
 source-wordcount: 1242
 ht-degree: 52%
@@ -161,7 +161,7 @@ Pour personnaliser les champs modifiables dans un fragment utilisé dans un e-ma
    >
    >Les champs modifiables des fragments créés avant l’introduction de la fonctionnalité d’édition de texte enrichi sont définis sur le mode texte uniquement par défaut. Pour activer les options de formatage complet, accédez à l’éditeur de fragments à l’aide du bouton **[!UICONTROL Ouvrir le fragment]**, cliquez sur **[!UICONTROL Activer]** pour déverrouiller le mode Texte enrichi et **[!UICONTROL Enregistrer]** le fragment. [En savoir plus](../content-management/customizable-fragments.md#rich-text-visual)
 
-   ![Avertissement de compatibilité dans le Designer Email](assets/email-custom-fragment-compatibility.png){width="50%" align="center" zoomable="yes"}
+   ![Avertissement de compatibilité dans le Designer Email](assets/email-custom-fragment-compatibility.png){width="50%" align="left" zoomable="yes"}
 
 1. Vous pouvez cliquer sur **[!UICONTROL Simuler le contenu]** pour voir comment le contenu modifiable et le style s’affichent. [En savoir plus sur la prévisualisation de contenu](../content-management/preview-test.md)
 
