@@ -10,24 +10,16 @@ keywords: rentrée, parcours, fin, dynamique, arrêt
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/-mknoNfkNCnfnLD1UCiA6C88NjookKqGr5tQdJ-f3T4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 346451c14506da121feb7d4d18e5644ec88e5991
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 9f9b9aa34e369132d0d595788edb3068be4c2cb6
 workflow-type: tm+mt
-source-wordcount: 1203
-ht-degree: 74%
+source-wordcount: 1266
+ht-degree: 70%
 
 ---
 
@@ -119,6 +111,8 @@ La définition de « terminé » varie en fonction du type de parcours :
 
 Le fait de fermer un parcours manuellement assure que les clients qui l’ont déjà rejoint puissent terminer leur chemin, mais que les nouveaux utilisateurs ne puissent pas le rejoindre. Lorsqu&#39;un parcours est fermé (pour l&#39;une des raisons ci-dessus), le statut **[!UICONTROL Fermé]** lui est attribué. Il n’est alors plus accessible aux nouvelles personnes. Les profils déjà présents dans le parcours peuvent terminer le parcours normalement. Au-delà de la temporisation globale par défaut de 91 jours, le statut du parcours passe à **Terminé**.
 
+Vous pouvez arrêter un parcours dont l’état est **En ligne** ou **En pause**. Lorsque le parcours est **En pause**, vous n’avez pas besoin de le reprendre au préalable au statut **En ligne**. [En savoir plus sur l’arrêt d’un parcours en pause](journey-pause.md#stop-close-paused).
+
 Pour fermer un parcours dans la liste des parcours, cliquez sur le bouton **[!UICONTROL Points de suspension]** situé à droite du nom du parcours et sélectionnez **[!UICONTROL Fermer aux nouvelles entrées]**.
 
 ![Liste déroulante Terminer l’action dans le menu des actions rapides pour terminer le parcours](assets/journey-finish-quick-action.png)
@@ -136,6 +130,8 @@ Vous pouvez également réaliser les opérations suivantes :
 ## Arrêt d’un parcours {#stop-journey}
 
 Si nécessaire, il est possible d’arrêter la progression de toutes les personnes dans le parcours. L’arrêt du parcours entraîne une temporisation pour toutes les personnes présentes dans le parcours. Cependant, l’arrêt d’un parcours entraîne l’arrêt de la progression de toutes les personnes qui y participent. Le parcours est simplement mis à l&#39;arrêt. Si vous souhaitez mettre fin à un parcours, la bonne pratique consiste [à le fermer](#close-journey).
+
+Vous pouvez également arrêter directement un parcours **En pause**, sans le reprendre en **En ligne** au préalable. [En savoir plus](journey-pause.md#stop-close-paused).
 
 Vous pouvez arrêter un parcours, par exemple, si un spécialiste marketing se rend compte que le parcours cible une audience incorrecte ou si une action personnalisée censée diffuser des messages ne fonctionne pas correctement. Pour arrêter un parcours dans la liste des parcours, cliquez sur le bouton **[!UICONTROL Points de suspension]** situé à droite du nom du parcours et sélectionnez **[!UICONTROL Arrêter]**.
 
@@ -161,4 +157,5 @@ Vous pouvez également réaliser les opérations suivantes :
 * [Guide des critères d’entrée et de sortie de parcours](entry-exit-criteria-guide.md) : guide complet avec des exemples réels et des bonnes pratiques.
 * [Gestion des entrées de profil](entry-management.md) : configurez la manière dont les profils rejoignent les parcours.
 * [Configurer les critères de sortie](journey-properties.md#exit-criteria) : configurez la suppression automatique des profils des parcours.
-* [Mettre en pause un parcours &#x200B;](journey-pause.md) : arrêtez temporairement l’exécution du parcours.
+* [Mettre en pause un parcours ](journey-pause.md) : arrêtez temporairement l’exécution du parcours.
+* [Arrêter ou fermer un parcours en pause](journey-pause.md#stop-close-paused) - Arrêtez un parcours en pause sans le reprendre au préalable
