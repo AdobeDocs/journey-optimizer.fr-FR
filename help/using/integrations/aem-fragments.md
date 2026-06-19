@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5ff88c5deec3f9fa326fe6fd2d71133ba4135fc4
+source-git-commit: 1918bcb699ea6a4063be28941a30bb6c6ade21ce
 workflow-type: tm+mt
-source-wordcount: 1770
+source-wordcount: 1769
 ht-degree: 21%
 
 ---
@@ -204,7 +204,7 @@ Adobe Experience Manager permet d’identifier les campagnes ou parcours Journ
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est disponible pour les canaux sortants avec prise en charge de la prise de décision.
+>Cette fonctionnalité est disponible pour les canaux avec prise en charge de la prise de décision.
 
 Les fragments de contenu AEM peuvent également être utilisés comme attributs d’élément d’offre dans **Experience Decisioning**. En mappant les champs de fragment de contenu aux attributs d’élément de décision, vous pouvez utiliser des modèles, des formules et des critères de classement de prise de décision Journey Optimizer pour optimiser le fragment diffusé à chaque profil.
 

@@ -12,9 +12,9 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 5ff88c5deec3f9fa326fe6fd2d71133ba4135fc4
+source-git-commit: 1918bcb699ea6a4063be28941a30bb6c6ade21ce
 workflow-type: tm+mt
-source-wordcount: 2364
+source-wordcount: 2363
 ht-degree: 83%
 
 ---
@@ -79,7 +79,7 @@ Commencez par définir les attributs standard et personnalisés de l’élément
 
      >[!AVAILABILITY]
      >
-     >Cette fonctionnalité est disponible pour les canaux sortants avec prise en charge de la prise de décision.
+     >Cette fonctionnalité est disponible pour les canaux avec prise en charge de la prise de décision.
 
      Pour les conditions préalables et les mécanismes de sécurisation, voir [Utilisation de fragments de contenu AEM avec Experience Decisioning](../integrations/aem-fragments.md#aem-decisioning).
 
