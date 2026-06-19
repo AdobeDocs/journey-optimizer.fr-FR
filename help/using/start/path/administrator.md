@@ -28,10 +28,10 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
-source-wordcount: 1099
-ht-degree: 97%
+source-wordcount: 1168
+ht-degree: 93%
 
 ---
 
@@ -48,6 +48,12 @@ En tant qu’**administrateur ou administratrice système**, vous pouvez configu
 Vos principales responsabilités incluent la configuration des groupes d’utilisateurs et d’utilisatrices et des autorisations, la création et la gestion des sandbox pour le partitionnement des données et des parcours pour différents groupes d’utilisateurs et d’utilisatrices, ainsi que la configuration des canaux de diffusion et des préréglages de messages afin de garantir un branding cohérent dans les différents messages et ressources diffusés via Journey Optimizer. Vous vous assurez que les bonnes personnes ont accès aux bonnes fonctionnalités tout en préservant la sécurité et la gouvernance.
 
 Ces fonctionnalités peuvent être gérées par les **[!UICONTROL administrateurs et administratrices de produits]** qui ont accès au produit Autorisations. [En savoir plus sur les autorisations](../../administration/permissions.md){target="_blank"}.
+
+>[!NOTE]
+>
+>**Ordre d’implémentation :** Vous êtes ici : **Administrateur** → [Ingénieur de données](data-engineer.md) → [Développeur](developer.md) → [Professionnel du marketing](marketer.md)
+>
+>L’administrateur configure d’abord l’environnement. Les ingénieurs de données, les développeurs et les spécialistes du marketing comptent sur la fin de ce travail avant de pouvoir le commencer.
 
 ## Configurer les accès et les autorisations
 
@@ -163,3 +169,14 @@ Une fois l’environnement configuré, effectuez les étapes suivantes :
 1. **Vérification de la configuration** : vérifiez que tous les membres de l’équipe peuvent accéder aux fonctionnalités dont ils ont besoin
 2. **Surveillance de l’utilisation** : utilisez les tableaux de bord d’administration pour suivre l’utilisation du système et identifier les problèmes
 3. **Conservation des autorisations** : vérifiez et mettez à jour régulièrement les autorisations au fur et à mesure que les rôles des équipes évoluent
+
+## Autres guides de rôle {#other-role-guides}
+
+| Rôle | Guide |
+|------|-------|
+| Administrateur | [Prise en main pour les administrateurs](administrator.md) |
+| Ingénieur de données | [Prise en main pour les ingénieurs de données](data-engineer.md) |
+| Développeur | [Prise en main pour les développeurs](developer.md) |
+| Spécialiste marketing | [Commencer pour les spécialistes du marketing](marketer.md) |
+
+Retour à [Présentation des rôles et des responsabilités](../quick-start.md) · Retour à [Commencer](../../../rp_landing_pages/get-started-landing-page.md)

@@ -3,7 +3,7 @@ title: Prise en main pour les développeurs
 description: En tant que développeur, découvrez comment utiliser Journey Optimizer
 feature: Get Started
 role: Developer
-level: Experienced
+level: Intermediate
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
 TQID: https://experienceleague.adobe.com/7fRI-CPkIeBAPjtXmDgFdyNKgB4WwEc01yKrGUXnc3U
 product_v2:
@@ -30,10 +30,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
-source-wordcount: 2109
-ht-degree: 98%
+source-wordcount: 2170
+ht-degree: 96%
 
 ---
 
@@ -46,6 +46,12 @@ ht-degree: 98%
 >[!ENDSHADEBOX]
 
 En tant que **développeur ou développeuse**, vous êtes responsable de la mise en œuvre et de l’intégration d’[!DNL Adobe Journey Optimizer] dans vos applications et systèmes. Vous pouvez commencer à utiliser [!DNL Adobe Journey Optimizer] une fois que l’[administrateur ou administratrice système](administrator.md) et l’[ingénieur ou ingénieure de données](data-engineer.md) vous ont accordé l’accès et ont préparé votre environnement.
+
+>[!NOTE]
+>
+>**Ordre d’implémentation :** [Administrateur](administrator.md) → [Ingénieur de données](data-engineer.md) → Vous êtes ici : **Développeur** → [Professionnel du marketing](marketer.md)
+>
+>Assurez-vous que les [schémas de données et événements](data-engineer.md) sont configurés avant de mettre en œuvre vos intégrations mobiles et web.
 
 ## Votre rôle dans l’écosystème Journey Optimizer
 
@@ -316,3 +322,14 @@ Vous souhaitez commencer à créer ? Sélectionnez votre premier domaine d’im
 4. **Système personnalisé ?** Consultez les [actions personnalisées](#custom-actions).
 
 Chaque section comprend des liens vers une documentation technique détaillée, des exemples de code et des tutoriels pour vous guider dans votre implémentation.
+
+## Autres guides de rôle {#other-role-guides}
+
+| Rôle | Guide |
+|------|-------|
+| Administrateur | [Prise en main pour les administrateurs](administrator.md) |
+| Ingénieur de données | [Prise en main pour les ingénieurs de données](data-engineer.md) |
+| Développeur | [Prise en main pour les développeurs](developer.md) |
+| Spécialiste marketing | [Commencer pour les spécialistes du marketing](marketer.md) |
+
+Retour à [Présentation des rôles et des responsabilités](../quick-start.md) · Retour à [Commencer](../../../rp_landing_pages/get-started-landing-page.md)

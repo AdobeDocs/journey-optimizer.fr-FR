@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Rôles et responsabilités
-description: Découvrez les différents rôles dans Adobe Journey Optimizer et leurs responsabilités.
+title: Rôles et responsabilités | Adobe Journey Optimizer
+description: comprendre les rôles, les responsabilités et l’ordre d’implémentation recommandé pour Adobe Journey Optimizer ;
 feature: Get Started
 topic: Get Started
 role: Admin, Developer, User
@@ -40,10 +40,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+source-git-commit: ea5309c91db90e54b0c965a34d84b29c57314c62
 workflow-type: tm+mt
-source-wordcount: 2293
-ht-degree: 98%
+source-wordcount: 2102
+ht-degree: 94%
 
 ---
 
@@ -55,21 +55,11 @@ ht-degree: 98%
 
 >[!ENDSHADEBOX]
 
-Adobe Journey Optimizer (AJO) permet aux marques de proposer des expériences connectées, contextualisées et personnalisées tout au long du parcours client. Conçu dans une optique d’évolutivité, de vitesse et de flexibilité de bout en bout, Journey Optimizer combine trois principaux facteurs de valeur dans une application unifiée :
+Adobe Journey Optimizer est implémenté par quatre rôles distincts qui fonctionnent en séquence. Cette page répertorie les responsabilités de chaque rôle et fournit des liens vers des guides de prise en main détaillés.
 
-* **Informations sur les clientes et les clients et engagement en temps réel** basés sur le profil client en temps réel d’Adobe
-* **Orchestration omnicanal moderne** par le biais de zones de travail unifiées pour les parcours en temps réel et les campagnes par lots, ainsi qu’un concepteur de messages moderne
-* **Prise de décision et personnalisation intelligentes** grâce à la gestion des décisions et aux fonctionnalités d’IA/de ML
-
-Journey Optimizer propose deux approches principales pour atteindre et engager votre clientèle :
-
-* **Parcours** : orchestration individuelle et en temps réel, où chaque client ou cliente évolue à son propre rythme, en fonction de son comportement ou d’événements. Idéal pour les séquences d’intégration, l’abandon de panier et l’engagement du cycle de vie.
-* **Campagnes** : messages basés sur l’audience avec trois modes de diffusion en fonction de votre cas d’utilisation :
-   * **Campagnes d’action** : messages planifiés ou récurrents diffusés à une audience définie en une seule fois. Idéales pour les newsletters, les annonces promotionnelles et les lancements de produits.
-   * **Campagnes déclenchées par API** : messages à la demande déclenchés par un système externe via l’API. Idéal pour les messages transactionnels tels que les confirmations de commande, les alertes d’expédition et les notifications de compte.
-   * **Campagnes orchestrées** : workflows par lots complexes avec segmentation multi-entités et exécution basée sur la zone de travail. Idéal pour les promotions saisonnières, les programmes par lots à plusieurs étapes et les campagnes nécessitant un nombre exact de pré-envois.
-
-Cette expérience unifiée vous permet d’implémenter des cas d’utilisation complets en un seul endroit, de la définition d’audiences et de la conception de parcours à la création de contenu personnalisé et à l’analyse de résultats. Cette documentation explique les rôles clés impliqués dans l’utilisation efficace de Journey Optimizer, leurs responsabilités et la manière de commencer.
+>[!NOTE]
+>
+>Vous découvrez Journey Optimizer ? Commencez par [&#x200B; Qu’est-ce que Journey Optimizer &#x200B;](get-started.md).
 
 **Remarque importante :** Adobe Journey Optimizer définit des rôles distincts avec des responsabilités spécifiques. Selon la structure de votre entreprise, une seule personne peut assumer plusieurs rôles ou tous les rôles.
 
@@ -295,3 +285,12 @@ Pour des mises à jour et des formations plus approfondies, consultez les ressou
 * [Forum de produits](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"} - Posez des questions et partagez vos connaissances.
 
 >[!ENDTABS]
+
+## Guides des rôles {#role-guides}
+
+| Rôle | Guide |
+|------|-------|
+| Administrateur | [Prise en main pour les administrateurs](path/administrator.md) |
+| Ingénieur de données | [Prise en main pour les ingénieurs de données](path/data-engineer.md) |
+| Développeur | [Prise en main pour les développeurs](path/developer.md) |
+| Spécialiste marketing | [Commencer pour les spécialistes du marketing](path/marketer.md) |

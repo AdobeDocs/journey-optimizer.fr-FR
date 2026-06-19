@@ -29,10 +29,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
-source-wordcount: 1017
-ht-degree: 97%
+source-wordcount: 1072
+ht-degree: 93%
 
 ---
 
@@ -45,6 +45,12 @@ ht-degree: 97%
 >[!ENDSHADEBOX]
 
 En tant qu’**architecte de données** ou **ingénieur ou ingénieure de données**, vous configurez et gérez les données de profil client et d’autres sources de données sur lesquelles sont basées les expériences orchestrées par [!DNL Journey Optimizer]. Cela inclut l’intégration de toutes les données de vos clientes et clients et de votre entreprise dans une vue unifiée à 360 degrés du client ou de la cliente, ces données pouvant provenir de sources web, hors ligne ou d’un CRM. Vous modélisez les données de profil client et les données d’entreprise dans des schémas, configurez les connecteurs de sources pour l’ingestion de données et vous vous assurez du bon fonctionnement du flux de données pour permettre l’obtention d’informations sur les clientes et clients et un engagement en temps réel. Vous pouvez commencer à utiliser [!DNL Adobe Journey Optimizer] une fois que l’[administrateur ou l’administratrice système](administrator.md) vous a accordé l’accès et a préparé votre environnement.
+
+>[!NOTE]
+>
+>**Ordre d’implémentation :** [Administrateur](administrator.md) → Vous êtes ici : **Ingénieur de données** → [Développeur](developer.md) → [Professionnel du marketing](marketer.md)
+>
+>Terminez la [configuration de l’administrateur](administrator.md) avant de commencer le travail de base de données.
 
 >[!NOTE]
 >
@@ -135,3 +141,14 @@ Collaborez avec les [responsables marketing](marketer.md) sur les audiences et l
 * Utilisez la segmentation d’entités multiples pour les cas d’utilisation avancés.
 
 >[!ENDTABS]
+
+## Autres guides de rôle {#other-role-guides}
+
+| Rôle | Guide |
+|------|-------|
+| Administrateur | [Prise en main pour les administrateurs](administrator.md) |
+| Ingénieur de données | [Prise en main pour les ingénieurs de données](data-engineer.md) |
+| Développeur | [Prise en main pour les développeurs](developer.md) |
+| Spécialiste marketing | [Commencer pour les spécialistes du marketing](marketer.md) |
+
+Retour à [Présentation des rôles et des responsabilités](../quick-start.md) · Retour à [Commencer](../../../rp_landing_pages/get-started-landing-page.md)
