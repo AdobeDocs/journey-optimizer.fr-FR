@@ -114,7 +114,7 @@ Pour envoyer des messages mobiles dans Journey Optimizer à l&#39;aide d&#39;un 
 
    >[!IMPORTANT]
    >
-   >Configurez votre point d’entrée d’envoi SMS pour approuver la chaîne d’autorité de certification Adobe Experience Platform en téléchargeant le certificat public à partir de l’[API de certificat public MTLS](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint) et en l’ajoutant à votre Trust Store serveur (CN client attendu : `ajo-sms.aep-mtls.adobe.com`), sinon Journey Optimizer omet le certificat client et la diffusion SMS échoue.
+   >Configurez votre point d’entrée d’envoi SMS pour approuver la chaîne d’autorité de certification Adobe Experience Platform en téléchargeant le certificat public à partir de l’[API de certificat public MTLS](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint) et en l’ajoutant à votre Trust Store serveur (CN client attendu : `ajo-sms.aep-mtls.adobe.com`), sinon Journey Optimizer omet le certificat client et la diffusion SMS échoue.
 
 1. Dans la section **[!UICONTROL En-têtes]**, cliquez sur **[!UICONTROL Ajouter un nouveau paramètre]** pour définir les en-têtes HTTP du message de requête à envoyer au service externe.
 
