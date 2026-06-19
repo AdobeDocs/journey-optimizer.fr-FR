@@ -12,9 +12,9 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: 5ff88c5deec3f9fa326fe6fd2d71133ba4135fc4
 workflow-type: tm+mt
-source-wordcount: 2374
+source-wordcount: 2364
 ht-degree: 83%
 
 ---
@@ -79,7 +79,7 @@ Commencez par définir les attributs standard et personnalisés de l’élément
 
      >[!AVAILABILITY]
      >
-     >Cette fonctionnalité est disponible en disponibilité limitée pour les canaux sortants avec prise en charge de la prise de décision. Pour obtenir l’accès, contactez votre représentant ou représentante Adobe.
+     >Cette fonctionnalité est disponible pour les canaux sortants avec prise en charge de la prise de décision.
 
      Pour les conditions préalables et les mécanismes de sécurisation, voir [Utilisation de fragments de contenu AEM avec Experience Decisioning](../integrations/aem-fragments.md#aem-decisioning).
 

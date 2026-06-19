@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0a5b0e1f8e3060b840141507266c32c01549962b
+source-git-commit: 5ff88c5deec3f9fa326fe6fd2d71133ba4135fc4
 workflow-type: tm+mt
-source-wordcount: 3751
+source-wordcount: 3758
 ht-degree: 25%
 
 ---
@@ -211,9 +211,11 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées à la prise
 </tbody>
 </table>
 
-+++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications.**
+* **Utilisation des fragments de contenu Adobe Experience Manager dans la prise de décision** - Vous pouvez désormais mapper les fragments de contenu Adobe Experience Manager aux éléments de décision dans la prise de décision et les exploiter dans les politiques de décision pour diffuser le fragment approprié au bon client au bon moment. Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale). [En savoir plus](../experience-decisioning/fragments-decision-policies.md)
 
-* **Utilisation des fragments de contenu Adobe Experience Manager dans la prise de décision** - Vous pouvez désormais mapper les fragments de contenu Adobe Experience Manager aux éléments de décision dans la prise de décision et les exploiter dans les politiques de décision pour diffuser le fragment approprié au bon client au bon moment. Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais proposée dans tous les environnements (disponibilité générale).
+  Date de disponibilité : 18 juin 2026
+
++++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications.**
 
 * **Attributs d’élément dynamiques** - Les attributs personnalisés d’élément de décision peuvent désormais être personnalisés au moment de la diffusion à l’aide des données de profil, contextuelles et d’audience. Cela supprime la nécessité de conserver des offres en double pour les variations de contenu mineures, ce qui permet aux spécialistes marketing de gérer moins d’éléments de décision et plus flexibles.
 
