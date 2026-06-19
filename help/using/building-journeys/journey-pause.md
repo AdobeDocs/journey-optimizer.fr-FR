@@ -29,10 +29,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 346451c14506da121feb7d4d18e5644ec88e5991
+source-git-commit: 766e374ef612364ab0c1a0b32a1b2a9f68518ad5
 workflow-type: tm+mt
-source-wordcount: 2609
-ht-degree: 90%
+source-wordcount: 2787
+ht-degree: 84%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-**Sur cette page :** découvrez comment suspendre et reprendre un parcours en direct pour apporter des modifications ou arrêter les envois en toute sécurité, y compris l’application des critères de sortie d’attribut de profil pendant la pause.
+**Sur cette page :** découvrez comment suspendre et reprendre un parcours en direct pour apporter des modifications en toute sécurité ou arrêter les envois, arrêter ou fermer un parcours en pause sans le reprendre au préalable et appliquer les critères de sortie d’attribut de profil pendant la pause.
 
 >[!ENDSHADEBOX]
 
@@ -49,7 +49,7 @@ ht-degree: 90%
 >title="Mettre en pause votre parcours"
 >abstract="La suspension d’un parcours dynamique empêche l’entrée de nouveaux profils. Les profils actuellement dans le parcours peuvent être ignorés ou conservés. S’ils sont conservés, ils reprendront l’exécution à l’activité d’action suivante lors de la reprise du parcours. Idéal pour les mises à jour ou les arrêts d’urgence, sans perte de la progression."
 
-Vous pouvez suspendre vos parcours en direct, effectuer toutes les modifications nécessaires et les reprendre à tout moment.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Pendant la pause, vous pouvez [appliquer des critères de sortie d’attribut de profil](#journey-exit-criteria) pour exclure des profils en fonction de leurs attributs. Le parcours est automatiquement repris à l’issue de la période de pause. Vous pouvez également le [reprendre manuellement](#journey-resume-steps).
+Vous pouvez suspendre vos parcours en direct, effectuer toutes les modifications nécessaires et les reprendre à tout moment.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Pendant la pause, vous pouvez [appliquer des critères de sortie d’attribut de profil](#journey-exit-criteria) pour exclure des profils en fonction de leurs attributs. Le parcours est automatiquement repris à l’issue de la période de pause. Vous pouvez également [le reprendre manuellement](#journey-resume-steps) ou [arrêter le parcours &#x200B;](#stop-close-paused) à partir de l’état **En pause** sans le reprendre au préalable.
 
 ## Avantages clés {#journey-pause-benefits}
 
@@ -141,6 +141,24 @@ Pour reprendre un parcours en pause et recommencer à écouter les événements 
 
 
 Dans la liste de vos parcours, vous pouvez reprendre un ou plusieurs parcours **en pause**. Pour reprendre un groupe de parcours (_reprise par lots_), sélectionnez-les et cliquez sur le bouton **Reprendre** situé dans la barre bleue en bas de l’écran. Notez que le bouton **Reprendre** n’est disponible que lorsque des parcours **en pause** sont sélectionnés.
+
+## Arrêter un parcours en pause {#stop-close-paused}
+
+Si vous décidez de ne pas reprendre un parcours en pause, vous pouvez le terminer à partir de l’état **En pause**. Cela met immédiatement fin à tout traitement de parcours et arrête chaque profil restant dans le parcours. [En savoir plus sur l’arrêt d’un parcours &#x200B;](end-journey.md#stop-journey).
+
+Pour arrêter un parcours en pause dans la zone de travail du parcours, procédez comme suit :
+
+1. Ouvrez le parcours **En pause** que vous souhaitez arrêter ou fermer.
+1. Cliquez sur le bouton **...Plus** dans la section supérieure droite de la zone de travail du parcours.
+1. Sélectionnez **[!UICONTROL Arrêter]**, puis confirmez dans la boîte de dialogue.
+
+Dans la liste de vos parcours, vous pouvez également cliquer sur le bouton **[!UICONTROL Points de suspension]** à droite du nom du parcours en pause et sélectionner **[!UICONTROL Arrêter]**.
+
+>[!IMPORTANT]
+>
+>Vous ne pouvez pas redémarrer ou supprimer un parcours [fermé](end-journey.md#close-journey) ou [arrêté](end-journey.md#stop-journey). Vous pouvez [le dupliquer](journey-ui.md#duplicate-a-journey) ou en [créer une nouvelle version](publish-journey.md#journey-versions).
+>
+>L’arrêt d’un parcours nécessite l’autorisation **[!DNL Manage journeys]** . Si le parcours comprend des campagnes intégrées ou des nœuds de messagerie, les utilisateurs doivent également disposer des autorisations **Campagnes > Publier les campagnes**. [En savoir plus sur les autorisations Stop](end-journey.md#stop-journey).
 
 ## Afficher le moment où un parcours a été suspendu ou repris {#view-pause-resume-info}
 

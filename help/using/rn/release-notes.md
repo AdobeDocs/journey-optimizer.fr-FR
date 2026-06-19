@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5ff88c5deec3f9fa326fe6fd2d71133ba4135fc4
+source-git-commit: 3389c7358327cc601fc1ab937d325c47462db12f
 workflow-type: tm+mt
-source-wordcount: 3758
+source-wordcount: 3797
 ht-degree: 25%
 
 ---
@@ -133,6 +133,10 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées aux parcour
 </tr>
 </tbody>
 </table>
+
+* **Arrêter directement un parcours en pause** - Vous pouvez désormais arrêter un parcours directement à partir de l’état **En pause**. Auparavant, un parcours en pause devait être repris en **actif** avant de pouvoir être arrêté. [En savoir plus](../building-journeys/journey-pause.md#stop-close-paused)
+
+  Date de disponibilité : 18-22 juin 2026
 
 * **Prise en charge des identifiants supplémentaires pour les audiences externes** : les identifiants supplémentaires dans les parcours sont désormais pris en charge pour les audiences externes, y compris les audiences importées depuis un fichier CSV et les audiences créées avec la composition d’audiences fédérées. Vous pouvez désigner un attribut non identitaire ou un attribut d’identité non personnel de l’audience comme identifiant supplémentaire. Aucun étiquetage de schéma n’est nécessaire. [En savoir plus](../building-journeys/supplemental-identifier.md)
 
