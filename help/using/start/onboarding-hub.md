@@ -91,5 +91,5 @@ Jetez les bases en lançant vos premiers parcours et campagnes :
 ## Ressources connexes {#related-resources}
 
 * [Rôles et responsabilités](quick-start.md) — Comment les quatre rôles fonctionnent ensemble et l’ordre de mise en œuvre recommandé.
-* [Tutoriels Journey Optimizer ](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/overview){target="_blank"} — Vidéos détaillées et procédures pas à pas pour chaque rôle.
+* [Tutoriels Journey Optimizer &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/overview){target="_blank"} — Vidéos détaillées et procédures pas à pas pour chaque rôle.
 * [Prise en main de la gestion des données](../data/gs-data.md) — Comment les données sont-elles ingérées, unifiées et activées ?
