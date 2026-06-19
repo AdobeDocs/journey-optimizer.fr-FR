@@ -7,20 +7,14 @@ role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
 TQID: https://experienceleague.adobe.com/5Vpngi03UnC9YPlB5tdTRcd0NoT7iglH2pRDkmeZKOg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 5ff88c5deec3f9fa326fe6fd2d71133ba4135fc4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 1918bcb699ea6a4063be28941a30bb6c6ade21ce
 workflow-type: tm+mt
-source-wordcount: 1744
+source-wordcount: 1743
 ht-degree: 13%
 
 ---
@@ -160,7 +154,7 @@ Si votre politique de décision est admissible pour deux offres et que chacune d
 
 >[!AVAILABILITY]
 >
->Cette fonctionnalité est disponible pour les canaux sortants avec prise en charge de la prise de décision.
+>Cette fonctionnalité est disponible pour les canaux avec prise en charge de la prise de décision.
 
 Avant d’utiliser des fragments de contenu AEM dans une politique de décision, vérifiez que vous disposez des éléments suivants :
 
@@ -292,4 +286,4 @@ Cette approche évite la construction manuelle d’URL et conserve l’URL de pu
 
 Découvrez comment utiliser les fragments de contenu Adobe Experience Manager avec Journey Optimizer Decisioning pour personnaliser et optimiser le contenu.
 
->[!VIDEO](https://video.tv.adobe.com/v/3492217/?captions=fre_fr&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3492215/?learn=on&enablevpops)
