@@ -11,9 +11,9 @@ keywords: test, parcours, vérification, erreur, dépannage
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: df6d5f7137a3914daf545746aff559ca0d04539d
+source-git-commit: 921e3df97574ccb9f4c3cc9d462f502161e86552
 workflow-type: tm+mt
-source-wordcount: 1945
+source-wordcount: 2176
 ht-degree: 1%
 
 ---
@@ -52,6 +52,7 @@ Après l’activation, les parcours par lots avec entrée d’audience lue offre
 
 Sur n’importe quel parcours de **[!UICONTROL Simulation]**, **[!UICONTROL Simulation rapide]** exécute le parcours avec les utilisateurs et utilisatrices générés, les valeurs d’événement et les paramètres préremplis.
 
+
 1. Sélectionnez **[!UICONTROL Simulation rapide]**.
 
 1. Examinez les champs que Adobe Journey Optimizer a collectés pour l’exécution. Cliquez sur **[!UICONTROL Mettre à jour les valeurs]** pour modifier les paramètres de test et les adresses d’exécution, ou continuez sans apporter de modifications.
@@ -61,6 +62,10 @@ Sur n’importe quel parcours de **[!UICONTROL Simulation]**, **[!UICONTROL Simu
    ![Boîte de dialogue Simulation rapide à l’étape Collecte d’informations avec Mettre à jour les valeurs et Passer à l’étape suivante](assets/quick-simulation-2.png)
 
 1. Si vous avez ouvert **[!UICONTROL Mettre à jour les valeurs]**, modifiez les paramètres, par exemple l’adresse utilisée pour les BAT des messages, puis confirmez pour démarrer la simulation.
+
+   >[!NOTE]
+   >
+   >Les champs d’e-mail et de téléphone d’exécution préremplis proviennent de l’adresse e-mail et du numéro de téléphone de votre profil utilisateur Adobe IMS.
 
    ![Étape de mise à jour de la simulation rapide des valeurs avec remplacement du temps d’attente et champs d’e-mail et de téléphone du BAT](assets/quick-simulation-3.png)
 
@@ -91,6 +96,10 @@ Les utilisateurs simulés sont des entités temporaires de type profil que vous 
    Adobe Journey Optimizer génère un ensemble d’utilisateurs simulés à partir de la définition du parcours.
 
    Pour les parcours disposant d’un nœud E-mail, Push ou SMS, l’IA vous invite à confirmer l’adresse e-mail ou le numéro de téléphone à utiliser. Les utilisateurs simulés seront générés à l’aide de ces valeurs définies. Une fois que vous avez terminé, cliquez sur **[!UICONTROL Générer]**.
+
+   >[!NOTE]
+   >
+   >Les champs d’e-mail et de téléphone sont préremplis à partir de votre profil utilisateur Adobe IMS.
 
    ![&#x200B; Boîte de dialogue Générer des utilisateurs simulés avec les champs d’e-mail et de téléphone d’exécution et bouton Générer &#x200B;](assets/simulate-generate.png)
 
@@ -130,9 +139,35 @@ Les utilisateurs simulés sont des entités temporaires de type profil que vous 
 
    +++ Créer à partir de JSON
 
-   Définissez de nouveaux utilisateurs simulés en mettant à jour les champs correspondants avec vos données utilisateur simulées.
+   Dans **[!UICONTROL Créer des utilisateurs simulés]**, modifiez le modèle JSON pour définir les utilisateurs, puis cliquez sur **[!UICONTROL Format JSON]** et **[!UICONTROL Enregistrer]**.
 
    ![Créer un éditeur JSON d’utilisateurs simulés avec le modèle d’utilisateurs et le contrôle JSON de format](assets/simulate-json.png)
+
+   Pour réutiliser les valeurs d’attribut d’un profil ou d’un [profil de test](../audience/creating-test-profiles.md) dans [!DNL Adobe Experience Platform] :
+
+   1. Accédez au profil à utiliser comme référence. Sur la page des détails du profil, cliquez sur **[!UICONTROL Afficher JSON]**. [En savoir plus](../audience/get-started-profiles.md)
+
+      ![Vue JSON du profil dans Adobe Experience Platform](assets/simulate-json-1.png)
+
+   1. Copiez le fichier JSON à partir de la visionneuse.
+
+   1. Dans le parcours, ouvrez **[!UICONTROL Paramètres de simulation]**, commencez **[!UICONTROL Créer des utilisateurs simulés]** et choisissez **Créer à partir de JSON**.
+
+   1. Collez le code JSON dans la partie correspondante du modèle d’utilisateur simulé (par exemple, le bloc d’attribut pour un utilisateur). Cliquez sur **[!UICONTROL Format JSON]** pour valider la structure.
+
+      ![Créer un éditeur JSON d’utilisateurs simulés avec des attributs de profil collés](assets/simulate-json-2.png)
+
+   1. Supprimez les propriétés qui existent sur le profil [!DNL Adobe Experience Platform] uniquement liées au profil source, telles que mergePolicyId ou lastModifiedAt.
+
+   1. Définissez les champs requis par le modèle d’utilisateur simulé : **[!UICONTROL Nom d’affichage]**, **[!UICONTROL Espace de noms d’identité]**, valeur d’identité et adresses d’exécution du canal.
+
+   1. Cliquez sur **[!UICONTROL Enregistrer]**. Utilisez ![icône Modifier](assets/do-not-localize/Smock_Edit_18_N.svg) sur l’utilisateur simulé enregistré pour passer en revue les données avant d’exécuter **[!UICONTROL Simulation]**.
+
+      ![Créer un éditeur JSON d’utilisateurs simulés avec le modèle d’utilisateurs et le contrôle JSON de format](assets/simulate-json-3.png)
+
+      >[!WARNING]
+      >
+      >Si vous collez le profil JSON, supprimez ou remplacez tous les identifiants de production et points de contact (e-mail, téléphone, ECID, jeton push et similaires). La simulation envoie des messages à l’aide des données que vous fournissez.
 
    +++
 
