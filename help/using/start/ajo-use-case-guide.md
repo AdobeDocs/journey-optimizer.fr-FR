@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Choisir la bonne fonctionnalité pour votre objectif | Adobe Journey Optimizer
+title: Commencer à partir de votre objectif | Adobe Journey Optimizer
 description: Découvrez les principaux cas d’utilisation pour lesquels Adobe Journey Optimizer est conçu, avec des conseils sur les fonctionnalités d’AJO les mieux adaptées à chaque scénario.
 feature: Get Started
 topic: Content Management
 role: User
 level: Beginner
 keywords: parcours optimizer, cas d’utilisation, guide de décision, quelle fonctionnalité, commencer, objectifs pour les professionnels de la santé, tutoriels
-source-git-commit: b20d08d5547e8f08bd92a8f1463d11e823f51fcf
+source-git-commit: 49146a29a474a240ca1fdb10b2a6ef175f44f595
 workflow-type: tm+mt
-source-wordcount: '3147'
+source-wordcount: '3141'
 ht-degree: 31%
 
 ---
 
-# Choisir la bonne fonctionnalité pour votre objectif {#ajo-use-case-guide}
+# Commencer à partir de votre objectif {#ajo-use-case-guide}
 
 >[!BEGINSHADEBOX]
 
@@ -341,7 +341,7 @@ Parcourez le contenu vidéo traité par rubrique. Chaque onglet fournit des lien
 ## Choix entre des parcours, des campagnes et des campagnes orchestrées {#choosing}
 
 | Scénario | Utilisation |
-|----------|-----|
+| -------- | --- |
 | Basé sur le comportement, à plusieurs étapes, chaque client évolue à son propre rythme | Parcours |
 | Message simple planifié ou déclenché par API à une audience | Campaign |
 | Workflow par lots complexe avec segmentation d’entités multiples | Campagne orchestrée |
