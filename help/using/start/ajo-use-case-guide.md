@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Présentation des cas d’utilisation de Journey Optimizer | Adobe Journey Optimizer
+title: Choisir la bonne fonctionnalité pour votre objectif | Adobe Journey Optimizer
 description: Découvrez les principaux cas d’utilisation pour lesquels Adobe Journey Optimizer est conçu, avec des conseils sur les fonctionnalités d’AJO les mieux adaptées à chaque scénario.
 feature: Get Started
 topic: Content Management
 role: User
 level: Beginner
 keywords: parcours optimizer, cas d’utilisation, guide de décision, quelle fonctionnalité, commencer, objectifs pour les professionnels de la santé, tutoriels
-source-git-commit: a35c1cd2d99c41cb94c506cebf6c2b2f5e7151cb
+source-git-commit: b20d08d5547e8f08bd92a8f1463d11e823f51fcf
 workflow-type: tm+mt
-source-wordcount: '3153'
-ht-degree: 33%
+source-wordcount: '3147'
+ht-degree: 31%
 
 ---
 
-# Trouvez la fonctionnalité Journey Optimizer adaptée à votre objectif {#ajo-use-case-guide}
+# Choisir la bonne fonctionnalité pour votre objectif {#ajo-use-case-guide}
 
 >[!BEGINSHADEBOX]
 
@@ -50,7 +50,7 @@ Pour les administrateurs et les utilisateurs techniques qui doivent configurer l
 | Configurer les rôles, les autorisations et le contrôle d’accès | Contrôle d’accès | [Prise en main du contrôle d’accès](../administration/permissions-overview.md) |
 | Travail dans plusieurs environnements ou régions | Sandbox | [Utiliser des sandbox](../administration/sandboxes.md) |
 
-## Impliquer les clients en temps réel {#engage-real-time}
+## Impliquez les clients au fur et à mesure des événements {#engage-real-time}
 
 Pour les scénarios où vous réagissez à une action ou à un événement client au fur et à mesure qu’il se produit.
 
@@ -199,7 +199,7 @@ Chaque flux de démarrage ci-dessous est un ensemble court d’étapes axées su
 
 ### Récupérer les paniers abandonnés {#flow-cart}
 
-**Vous allez créer :** un flux de récupération en temps réel qui rappelle aux clients les éléments laissés derrière.
+**Vous allez créer :** un flux de récupération automatisé qui rappelle aux clients les éléments laissés derrière.
 **Idéal pour les spécialistes marketing :** · **Fonctionnalité :** parcours déclenché par un événement
 
 1. Assurez-vous que l’événement d’abandon de panier atteint Journey Optimizer (contactez votre [équipe de données](../data/gs-data.md) si nécessaire).
@@ -258,7 +258,7 @@ Supposons qu’une boutique de vêtements envoie généralement des enquêtes ap
 
 **Rôle :** spécialiste marketing | **Fonctionnalité principale :** [déclenchement du géorepérage + notification push](../push/get-started-push.md)
 
-Supposons que le même détaillant peut interagir en temps réel avec un client ou une cliente fidèle qui se rend sur le parking du magasin en lui envoyant une notification push lui indiquant qu’un pull est de nouveau en stock dans sa taille.
+Le même retailer peut interagir avec un client fidèle qui se rend sur le parking du magasin en lui envoyant une notification push à propos d&#39;un pull à nouveau en stock à la taille du client.
 
 [Prise en main des notifications push](../push/get-started-push.md)
 
@@ -266,7 +266,7 @@ Supposons que le même détaillant peut interagir en temps réel avec un client 
 
 **Rôle :** spécialiste marketing | **Fonctionnalité principale :** [parcours à plusieurs étapes déclenché par un événement](../building-journeys/journey-gs.md)
 
-Lorsqu’un client ou une cliente ajoute des articles à un panier en ligne, mais quitte le panier sans effectuer d’achat, Journey Optimizer détecte l’événement en temps réel et lance automatiquement un parcours de récupération. La personne reçoit un e-mail personnalisé lui rappelant les articles abandonnés. Si elle ne clique pas dans les 24 heures, une notification push de suivi est envoyée, personnalisée en fonction de son historique de navigation et de son statut de fidélité.
+Lorsqu’un client ajoute des articles à un panier en ligne, mais quitte le panier sans effectuer l’achat, Journey Optimizer détecte l’événement et lance automatiquement un parcours de récupération. La personne reçoit un e-mail personnalisé lui rappelant les articles abandonnés. Si elle ne clique pas dans les 24 heures, une notification push de suivi est envoyée, personnalisée en fonction de son historique de navigation et de son statut de fidélité.
 
 [Créer votre premier parcours](../building-journeys/journey-gs.md)
 
@@ -333,7 +333,7 @@ Parcourez le contenu vidéo traité par rubrique. Chaque onglet fournit des lien
 
 >[!TAB Rapports et optimisation]
 
-* [Surveillez et analysez votre parcours avec des rapports dynamiques](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"} — Suivez les performances en temps réel.
+* [Surveillez et analysez votre parcours à l’aide de rapports dynamiques](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"} — Suivez les performances au fur et à mesure de l’exécution des parcours.
 * [Créer des expériences de contenu pour les campagnes par e-mail](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — Tester et optimiser le contenu.
 
 >[!ENDTABS]
