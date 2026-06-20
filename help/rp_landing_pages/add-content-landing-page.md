@@ -20,7 +20,7 @@ La conception de votre contenu dans Adobe Journey Optimizer consiste à créer
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Utiliser des composants de contenu
 
@@ -70,7 +70,7 @@ Créez et personnalisez la version en texte brut de votre e-mail pour les destin
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=fr)
 
 Optimiser le contenu des e-mails pour les boîtes de réception d’IA
 
@@ -80,7 +80,7 @@ Structurez la version en texte brut de votre e-mail afin que les clients de mess
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Ajouter des métadonnées
 

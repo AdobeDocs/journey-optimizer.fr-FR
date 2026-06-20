@@ -30,7 +30,7 @@ Découvrez les outils et les fonctionnalités d’Adobe Journey Optimizer qui 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Prise de décision dans Adobe Journey Optimizer
 

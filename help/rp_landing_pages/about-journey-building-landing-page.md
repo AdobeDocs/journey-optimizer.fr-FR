@@ -30,7 +30,7 @@ Découvrez les activités d’événement, d’orchestration et d’action dans 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Utilisation des événements généraux
 
@@ -60,7 +60,7 @@ Découvrez comment déclencher des actions et des conditions en fonction des sta
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Utilisation de l’activité Optimiser (conditions)
 

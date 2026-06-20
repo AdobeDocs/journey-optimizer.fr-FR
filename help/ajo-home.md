@@ -97,7 +97,7 @@ Conseils détaillés pour la création, la gestion et l’optimisation de divers
 :::
 
 :::
-![icône](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icône](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
 
 Canaux de communication
 
@@ -107,7 +107,7 @@ Configurez et gérez les e-mails, les SMS, les notifications push et d’autres
 :::
 
 :::
-![icône](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
+![icône](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=fr)
 
 Gestion et hiérarchisation des conflits
 

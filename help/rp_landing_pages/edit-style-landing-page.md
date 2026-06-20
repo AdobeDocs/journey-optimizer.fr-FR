@@ -30,7 +30,7 @@ Découvrez comment ajuster les paramètres de style tels que le corps, la struct
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Personnaliser l’arrière-plan des e-mails
 

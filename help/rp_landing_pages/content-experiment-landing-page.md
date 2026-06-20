@@ -20,7 +20,7 @@ Les expériences de contenu d’Adobe Journey Optimizer vous permettent de teste
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Prise en main des expériences de contenu
 
@@ -30,7 +30,7 @@ Découvrez les principes de base des expériences de contenu, leur objectif et c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Créer et mettre à l’échelle les expériences de contenu
 
@@ -40,7 +40,7 @@ Guide détaillé de la création, de la configuration et de la mise à l’éche
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 Techniques statistiques avancées pour l’expérimentation
 

@@ -35,7 +35,7 @@ Découvrez comment utiliser les jeux de données d’événements de gestion des
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Accéder aux champs XDM DecisioningEvents et les explorer
 

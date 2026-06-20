@@ -20,7 +20,7 @@ La gestion des données dans Adobe Journey Optimizer vous permet de prendre le
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Commencer avec la gestion des données
 
@@ -60,7 +60,7 @@ Activez et utilisez des jeux de données Adobe Experience Platform dans Journe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 Commencer avec les requêtes dans Journey Optimizer
 

@@ -40,7 +40,7 @@ Découvrez les méthodes pour concevoir le contenu des e-mails, importer du cod
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Concevoir du contenu dans Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Découvrez les outils et les bonnes pratiques pour utiliser des composants, des 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Modifier le style : personnaliser les conceptions d’e-mail
 

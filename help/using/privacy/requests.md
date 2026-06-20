@@ -47,7 +47,7 @@ Les demandes d’accès à des informations personnelles peuvent être créées 
 Pour plus d’informations sur Privacy Service et sur la manière de créer et gérer des demandes d’accès à des informations personnelles, consultez la [documentation d’Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr){target="_blank"}.
 
 <!--
-* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)
+* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr)
 * [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=fr)
 -->
 
