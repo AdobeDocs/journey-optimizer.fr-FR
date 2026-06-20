@@ -22,7 +22,7 @@ Vous pouvez choisir entre plusieurs méthodes de configuration : **délégation
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Commencer avec la délégation de sous-domaines
 
@@ -32,7 +32,7 @@ Découvrez les avantages, les méthodes de configuration et les points à prendr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Déléguer un sous-domaine
 
@@ -72,7 +72,7 @@ Configurez les enregistrements DMARC pour améliorer la sécurité et la délivr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Ajouter un enregistrement TXT Google
 
@@ -92,7 +92,7 @@ Gérez les enregistrements PTR pour les sous-domaines délégués, y compris la 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Créer des groupes d’adresses IP
 

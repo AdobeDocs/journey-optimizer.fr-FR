@@ -20,7 +20,7 @@ L’assistant IA d’Adobe Journey Optimizer révolutionne la création de co
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Prise en main de l’assistant IA
 
@@ -50,7 +50,7 @@ Utilisez l’assistant IA pour générer et affiner du contenu textuel pour tous
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=fr)
 
 Générer uniquement des images
 
