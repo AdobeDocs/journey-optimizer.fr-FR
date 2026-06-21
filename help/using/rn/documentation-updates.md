@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 1333a7e642c1c49efb5e9152abf7ba10b9f0202f
+source-git-commit: c116c99ca57b5cd001c63b4a0364a79548f45166
 workflow-type: tm+mt
-source-wordcount: 8537
-ht-degree: 94%
+source-wordcount: 8654
+ht-degree: 93%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 94%
 Cette page répertorie toutes les dernières modifications apportées à la documentation [!DNL Journey Optimizer], en plus des mises à jour liées aux fonctionnalités et améliorations de la version mensuelle.
 
 ## Juin 2026 {#june-2026}
+
+* Un nouveau hub d’intégration **Prise en main de Adobe Journey Optimizer** est désormais disponible. Les nouveaux utilisateurs peuvent choisir leur chemin en fonction de leur rôle, explorer les principes de base ou accéder aux activités quotidiennes s’ils ont déjà intégré l’application, sans avoir besoin de savoir où chercher au préalable. [En savoir plus](../../rp_landing_pages/get-started-landing-page.md)
+
+* Une nouvelle page **Commencer à partir de votre objectif** vous permet de commencer par ce que vous souhaitez accomplir plutôt que par un nom de fonctionnalité. Il mappe les objectifs commerciaux à la fonctionnalité Journey Optimizer recommandée pour la configuration, les parcours, les campagnes, la personnalisation, la prise de décision et le reporting. [En savoir plus](../start/ajo-use-case-guide.md)
+
+* Mise à jour du guide de rôle **Prise en main pour les développeurs** avec des présentations plus claires pour chaque section et amélioration des onglets **Collaborer entre les rôles** qui font référence aux parcours et renvoient aux pages d’implémentation essentielles. [En savoir plus](../start/path/developer.md)
 
 * Une nouvelle sous-section **Affectation de chemin lors d’une rentrée de parcours** a été ajoutée à la documentation **Expérimentation de chemin**. Cela clarifie le fait que l’affectation de chemin d’accès est persistante pour un profil sur plusieurs entrées dans la même version de parcours, mais uniquement dans cette version de parcours. Les affectations sont réinitialisées lorsqu’une nouvelle version de parcours est publiée et que chaque activité d’expérimentation de chemin d’accès dans un parcours applique une affectation aléatoire indépendante. [En savoir plus](../building-journeys/path-experimentation.md#path-assignment)
 * Les références à **Adobe Experience Cloud** ont été alignées sur la marque **[!DNL Adobe CX Enterprise]** dans l’ensemble de la documentation [!DNL Journey Optimizer].
