@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3389c7358327cc601fc1ab937d325c47462db12f
+source-git-commit: 2d3430eaa8c15ade3fddcc4883a29efdb059bfa9
 workflow-type: tm+mt
-source-wordcount: 3797
+source-wordcount: 3733
 ht-degree: 25%
 
 ---
@@ -49,8 +49,6 @@ ht-degree: 25%
 >Les fonctionnalités répertoriées dans ces notes de mise à jour incluent une **date de disponibilité** indiquant le moment auquel chaque modification devient accessible dans votre environnement. Des entrées dans les accordéons **Bientôt disponible** sont attendues dans les prochains jours ou les prochaines semaines. Les informations de cette section peuvent faire l’objet de modifications.
 
 ## Notes de mise à jour du 26 juin {#june-26-rn}
-
-La version de juin 2026 offre plusieurs fonctionnalités phares à la disponibilité générale, notamment la **simulation de Parcours**, le **ciblage de l’optimisation des chemins de Parcours** et les **fragments de Parcours**, ainsi que de nouvelles fonctions de création assistées par l’IA dans les parcours et le contenu, une prise en charge étendue de la prise de décision pour le canal Courrier, et des contrôles de sécurité et d’administration supplémentaires. Les fonctionnalités et améliorations ci-dessous sont organisées par thème. D’autres modifications sont également attendues dans les jours ou semaines à venir.
 
 ### Parcours {#june-26-journeys}
 
@@ -338,7 +336,7 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées à la gesti
 +++
 
 
-### Canal e-mail {#june-26-email}
+### Canal E-mail {#june-26-email}
 
 Les améliorations suivantes ont été ajoutées au canal e-mail dans cette version.
 
