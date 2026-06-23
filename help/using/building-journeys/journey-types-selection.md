@@ -11,25 +11,15 @@ version: Journey Orchestration
 hide: true
 exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
 TQID: https://experienceleague.adobe.com/rEANha6Lppyd5vog-0kZ3aL9VvZHc9kziW-d-jiWqeA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: cce82f05-fc3c-4af7-85ff-8bba603861a7
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 9dba85545968da9957c42516cb03a4e77ed302f1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: cce82f05-fc3c-4af7-85ff-8bba603861a7id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 2270
+source-wordcount: 2289
 ht-degree: 19%
 
 ---
@@ -52,7 +42,7 @@ ht-degree: 19%
 
 >[!BEGINTABS]
 
->[!TAB parcours d’événement unitaires] 
+>parcours d’événement unitaires][!TAB 
 
 **Utilisation :** expériences déclenchées par un événement en temps réel
 
@@ -60,7 +50,7 @@ Les parcours d’événement unitaire **sont déclenchés individuellement lorsq
 
 **Parfait pour :** les confirmations de commande après l’achat, les e-mails de bienvenue lorsque quelqu’un s’abonne, les notifications de réinitialisation de mot de passe et la personnalisation après connexion.
 
-➡️ [En savoir plus sur les événements](../event/about-events.md) | [Cas d’utilisation de Message aux abonnés](message-to-subscribers-uc.md) | [Créez votre premier parcours &#x200B;](journey-gs.md)
+➡️ [En savoir plus sur les événements](../event/about-events.md) | [Cas d’utilisation de Message aux abonnés](message-to-subscribers-uc.md) | [Créez votre premier parcours ](journey-gs.md)
 
 >[!TAB Parcours de lecture d’audience]
 
@@ -70,7 +60,7 @@ Les parcours d’événement unitaire **sont déclenchés individuellement lorsq
 
 **Parfait pour : les newsletters mensuelles** les campagnes promotionnelles pour cibler les segments, les annonces de produits, les séries récurrentes de réengagement et les campagnes marketing saisonnières.
 
-➡️ [En savoir plus sur la lecture d’audience](read-audience.md) | [Prise en main des audiences](../audience/about-audiences.md) | [Créer votre premier parcours &#x200B;](journey-gs.md)
+➡️ [En savoir plus sur la lecture d’audience](read-audience.md) | [Prise en main des audiences](../audience/about-audiences.md) | [Créer votre premier parcours ](journey-gs.md)
 
 >[!TAB Parcours de qualification d’audience]
 
@@ -80,7 +70,7 @@ Les parcours d’événement unitaire **sont déclenchés individuellement lorsq
 
 **Parfait pour :** les notifications de mise à niveau de niveau VIP, les messages de célébration du premier achat, les alertes de risque d’attrition et les transitions d’étape du cycle de vie de la fidélité.
 
-➡️ [En savoir plus sur la qualification de l’audience](audience-qualification-events.md) | [Création d’audiences](../audience/creating-a-segment-definition.md) | [Création de votre premier parcours &#x200B;](journey-gs.md)
+➡️ [En savoir plus sur la qualification de l’audience](audience-qualification-events.md) | [Création d’audiences](../audience/creating-a-segment-definition.md) | [Création de votre premier parcours ](journey-gs.md)
 
 >[!TAB Parcours d’événement métier]
 
@@ -90,7 +80,7 @@ Les parcours d’événement métier **sont déclenchés par un événement au n
 
 **Parfait pour :** alertes de faible stock aux clients intéressés, annonces de vente flash, notifications de chute de prix et alertes de retour en stock de produits.
 
-➡️ [En savoir plus sur les événements métier](../event/about-creating-business.md) | [Gestion d’entrée](entry-management.md) | [Créer votre premier parcours &#x200B;](journey-gs.md)
+➡️ [En savoir plus sur les événements métier](../event/about-creating-business.md) | [Gestion d’entrée](entry-management.md) | [Créer votre premier parcours ](journey-gs.md)
 
 >[!ENDTABS]
 
@@ -219,6 +209,7 @@ Pour une compréhension totale, ces informations doivent être combinées avec l
 * Les parcours Qualification d’audience et Lecture d’audience ne peuvent pas contenir d’activité Saut ni être la cible d’une activité Saut à partir d’un autre parcours
 * Les parcours de qualification d’audience nécessitent une audience évaluée par flux pour la saisie en temps réel ; les audiences évaluées par lots entraînent des retards de saisie allant jusqu’à 24 heures
 * Les parcours d’événement unitaire et de qualification d’audience partagent une limite de débit de 5 000 TPS au niveau de l’organisation. Les parcours de lecture d’audience prennent en charge jusqu’à 20 000 TPS par sandbox
+* La simulation est prise en charge pour la plupart des types de parcours, mais pas pour l’entrée d’événement métier. Consultez Limites de simulation pour les restrictions au niveau du nœud.
 * Un profil déjà présent dans un parcours ne peut pas entrer à nouveau la même version de ce parcours, quelle que soit la configuration de reprise
 
 **Terminologie:**
