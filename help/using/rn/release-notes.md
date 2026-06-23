@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2d3430eaa8c15ade3fddcc4883a29efdb059bfa9
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 41b396446a5f5f85f6a4c1b8c6a3f02afb47f03c
 workflow-type: tm+mt
-source-wordcount: 3733
-ht-degree: 25%
+source-wordcount: 3596
+ht-degree: 26%
 
 ---
 
@@ -156,7 +144,7 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées aux parcour
 
 +++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications.**
 
-* **Dates de début et de fin dans l’en-tête du parcours** - Lorsque les dates de début et/ou de fin sont configurées sur un parcours dynamique, elles sont désormais affichées dans l’en-tête du parcours **&#x200B;**&#x200B;à côté du badge de statut dynamique. Le libellé affiché s’adapte selon que chaque date est à venir ou est déjà dépassée.
+* **Dates de début et de fin dans l’en-tête du parcours** - Lorsque les dates de début et/ou de fin sont configurées sur un parcours dynamique, elles sont désormais affichées dans l’en-tête du parcours **** à côté du badge de statut dynamique. Le libellé affiché s’adapte selon que chaque date est à venir ou est déjà dépassée.
 
 +++
 
@@ -221,7 +209,7 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées à la prise
 
 * **Attributs d’élément dynamiques** - Les attributs personnalisés d’élément de décision peuvent désormais être personnalisés au moment de la diffusion à l’aide des données de profil, contextuelles et d’audience. Cela supprime la nécessité de conserver des offres en double pour les variations de contenu mineures, ce qui permet aux spécialistes marketing de gérer moins d’éléments de décision et plus flexibles.
 
-  Date de disponibilité : 22 juin 2026
+  Date de disponibilité : Fin juin 2026
 
 +++
 
@@ -268,7 +256,7 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées à la gesti
 <li><strong>Variantes de contenu générées par l’IA</strong> — Dans l’expérience <strong>Simuler des variations de contenu</strong>, cliquez sur <strong>Générer</strong> pour utiliser l’IA pour créer automatiquement des variantes de contenu. Le système analyse votre message, détecte les champs de personnalisation et les branches conditionnelles et remplit des valeurs réalistes afin que vous puissiez valider le rendu sans créer manuellement chaque variante.</li>
 </ul>
 <p>Pour plus d'informations, consultez la <a href="../test-approve/simulate-sample-input.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : 9 juin 2026</p>
+<p>Date de disponibilité : Fin juin 2026</p>
 </td>
 </tr>
 </tbody>
@@ -336,7 +324,7 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées à la gesti
 +++
 
 
-### Canal E-mail {#june-26-email}
+### Canal e-mail {#june-26-email}
 
 Les améliorations suivantes ont été ajoutées au canal e-mail dans cette version.
 
@@ -420,7 +408,7 @@ Les améliorations suivantes ont été ajoutées au canal e-mail dans cette vers
 <td>
 <p>Le Designer d’e-mail comprend désormais une bibliothèque de modules de disposition prêts à l’emploi, tels que des en-têtes, des cartes de produits, des blocs d’informations et des pieds de page, que vous pouvez faire glisser directement dans la zone de travail de votre e-mail.</p>
 <p>Chaque module est préconfiguré avec des propriétés modifiables (image, titre, texte, bouton, liens) et peut être entièrement personnalisé via l’interface de WYSIWYG, ce qui accélère la création d’e-mails sans que vous ayez à créer des structures à partir de zéro.</p>
-<p>Date de disponibilité : 22 juin 2026</p>
+<p>Date de disponibilité : Fin juin 2026</p>
 </td>
 </tr>
 </tbody>
@@ -497,26 +485,11 @@ Les fonctionnalités et améliorations suivantes vont être apportées à la ges
 
 +++
 
-### Création de rapports {#june-26-reporting}
-
-+++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications**
-
-* **Estimation des clics pour la création de rapports par e-mail et SMS** — Une nouvelle mesure **Estimation des clics** est désormais disponible dans les Parcours, les campagnes et les rapports de canal pour les e-mails et les SMS. Cette mesure exclut le trafic d’interactions non humaines (NHI) et identifiées afin de fournir une vue plus claire de l’engagement réel des clients. La mesure Clics existante reste disponible et continue de signaler le nombre total de clics.
-
-* **Nouvelles mesures de clic estimées pour les rapports par e-mail et SMS** - Afin de fournir une vue plus précise de l’engagement réel des clients, de nouvelles mesures estimées sont désormais disponibles dans les Parcours, les campagnes et les rapports de canal. Ces mesures permettent de filtrer les interactions non humaines (NHI) et les clics de robots à partir des données de rapport :
-
-   * CTR estimé : nombre estimé de clics par rapport au total des diffusions.
-   * Taux de clics estimé pour les e-mails uniquement : estimations des clics par rapport aux ouvertures estimées.
-
-  Date de disponibilité : Fin juin 2026
-
-+++
-
 ### Administration {#june-26-administration}
 
 Les améliorations suivantes ont été apportées à l’administration et à la gestion des données dans cette version.
 
-* [!BADGE Important &#x200B;]{type=Informative} **Le jeu de données d’événement de retour de message AJO passe à l’ingestion par lots** - Le **jeu de données d’événement de retour de message AJO** passe de l’ingestion par flux à l’ingestion par lots. Par conséquent, attendez-vous à une latence des données allant jusqu’à 2 heures pour ce jeu de données. Si vous avez créé des rapports dans Customer Journey Analytics ou exécuté des requêtes à l’aide de ce jeu de données, tenez compte de cette latence accrue à l’avenir. [En savoir plus](../data/datasets-query-examples.md#message-feedback-event-dataset)
+* [!BADGE Important ]{type=Informative} **Le jeu de données d’événement de retour de message AJO passe à l’ingestion par lots** - Le **jeu de données d’événement de retour de message AJO** passe de l’ingestion par flux à l’ingestion par lots. Par conséquent, attendez-vous à une latence des données allant jusqu’à 2 heures pour ce jeu de données. Si vous avez créé des rapports dans Customer Journey Analytics ou exécuté des requêtes à l’aide de ce jeu de données, tenez compte de cette latence accrue à l’avenir. [En savoir plus](../data/datasets-query-examples.md#message-feedback-event-dataset)
 
   Date de disponibilité : 10 juin 2026
 
