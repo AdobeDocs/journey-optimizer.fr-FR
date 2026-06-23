@@ -30,10 +30,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 2097
-ht-degree: 30%
+source-wordcount: 2143
+ht-degree: 29%
 
 ---
 
@@ -218,7 +218,7 @@ Pour une compréhension totale, ces informations doivent être combinées avec l
 * Créez un parcours et configurez ses propriétés dans le menu Gestion des Parcours .
 * Choisissez le point d’entrée correct (Lecture d’audience, Qualification d’audience, événement unitaire ou événement métier) pour un cas d’utilisation donné
 * Créez un parcours à plusieurs étapes en faisant glisser et en déposant des événements, des activités d’orchestration et des actions de canal sur la zone de travail
-* Tester un parcours en mode Test avec des profils de test synthétiques avant la publication
+* Testez un parcours à l’aide de la simulation, du mode Test avec des profils de test AEP persistants ou d’une exécution d’essai avant publication
 * Exécutez une Exécution d’essai pour valider le ciblage des audiences avec des données de production réelles sans contacter les clients.
 * Publiez un parcours pour le rendre actif et surveiller ses performances à l’aide d’outils de création de rapports
 
@@ -227,7 +227,8 @@ Pour une compréhension totale, ces informations doivent être combinées avec l
 * **Qualification d’audience** : activité d’entrée déclenchée en temps réel lorsqu’un profil entre ou sort d’un *d’audience de diffusion en continu (spécifique à un produit)*
 * **Événement unitaire** : déclencheur en temps réel qui entre un profil à la fois dans un parcours lorsqu’une action spécifique se produit *(spécifique au produit)*
 * **Événement métier** : événement sans profil (par exemple, annulation de vol, réapprovisionnement de stock) qui déclenche un parcours pour plusieurs profils simultanément via une étape automatique Lecture d’audience *(spécifique au produit)*
-* **Mode test** : mode de validation qui utilise des profils de test synthétiques pour simuler l’exécution du parcours sans activer les *de communication en direct (spécifiques au produit)*
+* **Mode test** : mode de validation qui utilise des profils de test Adobe Experience Platform persistants (explicitement marqués comme profils de test) pour parcourir un brouillon de parcours avant la publication *(spécifique au produit)*
+* **Simulation** : mode de validation qui utilise des utilisateurs simulés temporaires générés à la volée ; les utilisateurs simulés ne sont pas conservés dans les *Adobe Experience Platform (spécifiques au produit)*
 * **Exécution d’essai** : mode de publication spécial qui utilise des données de production réelles pour valider la logique de parcours sans contacter les clients réels ou mettre à jour les profils *(spécifiques au produit)*
 
 **Mécanismes de sécurisation :**
@@ -239,12 +240,12 @@ Pour une compréhension totale, ces informations doivent être combinées avec l
 **Terminologie:**
 * Nom canonique : Parcours — Acronyme : none — variantes : parcours client, flux d’orchestration
 * Synonymes : « Mode test » = « Test de parcours » ; « Exécution d’essai » = « Mode Exécution d’essai »
-* Ne les confondez pas : « Mode test » ≠ « Exécution d’essai » - Le mode test utilise des profils synthétiques ; l’exécution d’essai utilise des données de production réelles sans contacter les clients.
+* Ne les confondez pas : « Simulation » ≠ « Mode test » ≠ « Exécution d’essai » : la simulation utilise des utilisateurs simulés temporaires ; le mode test utilise des profils de test AEP persistants ; l’exécution d’essai utilise des données de production réelles sans contacter les clients ni mettre à jour les profils.
 
 **FAQ:**
 * **Q : Quelle est la première chose que je dois faire avant de créer un parcours déclenché par un événement ?** — Configurez l&#39;événement avec un ingénieur de données pour définir le déclencheur et les données qu&#39;il transporte ; référencez ensuite l&#39;événement comme point d&#39;entrée du parcours.
 * **Q : Quel point d’entrée est recommandé pour une personne qui découvre Journey Optimizer ?** — Commencez par un parcours basé sur une audience à l’aide d’une activité Lecture d’audience : il ne nécessite aucune configuration d’événement préalable et est le moyen le plus simple de se familiariser avec la zone de travail.
-* **Q : Puis-je tester mon parcours avant qu’il ne soit mis en ligne ?** — Oui ; utilisez le mode Test avec des profils de test synthétiques pour parcourir le parcours, ou utilisez l’exécution d’essai pour exécuter des données de production réelles sans envoyer de communications.
+* **Q : Puis-je tester mon parcours avant qu’il ne soit mis en ligne ?** — Oui ; utilisez Simulation avec des utilisateurs simulés temporaires, Mode test avec des profils de test AEP persistants ou Exécution d’essai pour exécuter des données de production réelles sans envoyer de communications.
 * **Q : Que se passe-t-il si mon parcours comporte des erreurs lorsque j’essaie de publier ?** — Vous ne pouvez pas publier un parcours comportant des erreurs ; toutes les erreurs de configuration doivent être résolues avant la publication.
 * **Q : Comment puis-je diviser un parcours complexe avec de nombreuses étapes ?** utilisez l&#39;activité Saut pour connecter des sous-parcours plus petits, ce qui réduit la complexité et facilite les tests indépendants de chaque sous-parcours.
 

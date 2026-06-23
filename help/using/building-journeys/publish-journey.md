@@ -22,9 +22,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 1815
+source-wordcount: 1823
 ht-degree: 34%
 
 ---
@@ -211,7 +211,7 @@ Pour une compréhension totale, ces informations doivent être combinées avec l
 **Terminologie:**
 * Nom canonique : Parcours de publication — Acronyme : aucun — variantes : activer le parcours, activer le contenu
 * Synonymes : « Publier » = « Activer » = « Activer »
-* Ne les confondez pas : « Arrêter le parcours » ≠ « Fermer le parcours » (l’arrêt est une action manuelle ; le statut Fermé est un statut automatique appliqué aux versions précédentes lorsqu’une nouvelle version est publiée)
+* Ne pas confondre : Arrêter (arrêt d’urgence de tous les profils) ≠ Fermer aux nouvelles entrées (fermeture manuelle normale ; les profils existants se terminent) ≠ Statut Fermé (automatique lorsqu’une nouvelle version est publiée, ou après fermeture manuelle des nouvelles entrées)
 
 **FAQ:**
 * **Q : Puis-je modifier un parcours après sa publication ?** — Seuls les libellés, les descriptions et le nom du parcours peuvent être modifiés. Pour apporter d’autres modifications, créez une nouvelle version du parcours.

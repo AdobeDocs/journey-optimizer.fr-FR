@@ -27,9 +27,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 9dba85545968da9957c42516cb03a4e77ed302f1
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 2270
+source-wordcount: 2289
 ht-degree: 19%
 
 ---
@@ -219,6 +219,7 @@ Pour une compréhension totale, ces informations doivent être combinées avec l
 * Les parcours Qualification d’audience et Lecture d’audience ne peuvent pas contenir d’activité Saut ni être la cible d’une activité Saut à partir d’un autre parcours
 * Les parcours de qualification d’audience nécessitent une audience évaluée par flux pour la saisie en temps réel ; les audiences évaluées par lots entraînent des retards de saisie allant jusqu’à 24 heures
 * Les parcours d’événement unitaire et de qualification d’audience partagent une limite de débit de 5 000 TPS au niveau de l’organisation. Les parcours de lecture d’audience prennent en charge jusqu’à 20 000 TPS par sandbox
+* La simulation est prise en charge pour la plupart des types de parcours, mais pas pour l’entrée d’événement métier. Consultez Limites de simulation pour les restrictions au niveau du nœud.
 * Un profil déjà présent dans un parcours ne peut pas entrer à nouveau la même version de ce parcours, quelle que soit la configuration de reprise
 
 **Terminologie:**

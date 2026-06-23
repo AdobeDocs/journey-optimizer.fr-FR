@@ -11,9 +11,9 @@ keywords: test, parcours, vérification, erreur, dépannage
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 2859
+source-wordcount: 2888
 ht-degree: 0%
 
 ---
@@ -288,6 +288,7 @@ Pour une compréhension totale, ces informations doivent être combinées avec l
 * Les fonctionnalités d’IA (simulation rapide, Génération avec l’IA, Générer des valeurs d’événement) nécessitent l’autorisation Générer du contenu de la fonctionnalité Assistant d’IA
 * Pour les parcours déclenchés par un événement, l’icône Envoyer par utilisateur n’est pas disponible ; l’entrée est déclenchée via la section Événements de test .
 * Les remplacements de durée d’attente et les paramètres d’adresse d’exécution ne sont affichés que si le parcours inclut des activités Attente ou Canal
+* Les épreuves de canal et les actions personnalisées ou les sources de données externes peuvent exécuter des appels sortants réels pendant la simulation. Utilisez des points de contact hors production et évitez les PII client réelles chez les utilisateurs simulés.
 * Les erreurs dans le journal des résultats nécessitent de quitter la simulation, de corriger le parcours et de réexécuter avant la publication
 
 **Terminologie:**

@@ -32,9 +32,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 4752
+source-wordcount: 4780
 ht-degree: 46%
 
 ---
@@ -493,6 +493,6 @@ Pour une compréhension totale, ces informations doivent être combinées avec l
 * **Q : Que fait la lecture incrémentielle lors de la première exécution ?** — Lors de la première exécution, tous les profils d&#39;audience entrent. Lors des exécutions suivantes, seuls les profils qui viennent d’être ajoutés à l’audience depuis la dernière exécution sont traités.
 * **Q : Que se passe-t-il si la tâche d’exportation échoue ?** — Le système réessaye toutes les 10 minutes pendant une heure au maximum. Les échecs sont signalés dans les alertes. Après 1 heure sans succès, l’exécution est considérée comme ayant échoué.
 * **Q : Le même profil peut-il entrer plusieurs fois dans un parcours Lecture d’audience ?** — Oui, si un identifiant supplémentaire est configuré et diffère entre les entrées, ou si Forcer une reprise sur une périodicité est activé. Sans cela, un profil ne peut pas être présent plusieurs fois en même temps.
-* **Q : Pendant combien de temps un parcours Lecture d’audience unique reste-t-il en ligne ?** : passe au statut Terminé 91 jours après l&#39;exécution (délai d&#39;expiration du parcours global).
+* **Q : Pendant combien de temps un parcours Lecture d’audience unique reste-t-il en ligne ?** — Il s&#39;arrête automatiquement à Arrêté lorsque le dernier profil se ferme, sauf si le parcours inclut des transitions Attente, Réaction ou Déclenchée par un événement — auquel cas le délai d&#39;expiration global de 91 jours s&#39;applique. Par défaut, il ne reste actif que lorsqu’il est Terminé à 91 jours.
 
 +++

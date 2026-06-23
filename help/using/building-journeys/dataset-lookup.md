@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 7de972734810ec5ec69ec395af4355d0304bc3f3
 workflow-type: tm+mt
-source-wordcount: 1500
-ht-degree: 48%
+source-wordcount: 1514
+ht-degree: 47%
 
 ---
 
@@ -264,7 +264,7 @@ Pour une compréhension totale, ces informations doivent être combinées avec l
 * Seules les chaînes ou les listes de chaînes sont prises en charge comme clés de recherche.
 * La clé de recherche doit être définie en mode avancé ; l’utilisation du mode simple entraîne l’indisponibilité de la sortie de l’activité en tant qu’attribut de contexte en aval.
 * Les données enrichies sont transitoires et disponibles uniquement pendant l’exécution du parcours et dans la personnalisation de l’activité sortante.
-* Pour des performances optimales, il est recommandé d’effectuer jusqu’à 5 activités de recherche par parcours et jusqu’à 20 attributs par recherche.
+* Pour de meilleures performances, limitez à 5 les activités de recherche par parcours (recommandé) ; la limite stricte appliquée par le système est de 10 activités par parcours. Il est également recommandé de disposer de 20 attributs maximum par recherche.
 
 **Terminologie:**
 

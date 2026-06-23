@@ -29,10 +29,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 3502
-ht-degree: 67%
+source-wordcount: 3545
+ht-degree: 66%
 
 ---
 
@@ -321,8 +321,9 @@ Pour une compréhension totale, ces informations doivent être combinées avec l
 * **Mise en pause en bloc/reprise en bloc** : la possibilité de suspendre ou de reprendre plusieurs parcours actifs ou en pause simultanément à partir de la liste d’inventaire des parcours *(spécifique au produit)*
 
 **Mécanismes de sécurisation :**
-* Seuls les utilisateurs avec l’autorisation **Publier les parcours** peuvent suspendre et reprendre les parcours
-* Un parcours peut être suspendu pendant 14 jours au maximum, après quoi il reprend automatiquement
+* Seuls les utilisateurs disposant de l’autorisation **Publier les parcours** peuvent suspendre et reprendre les parcours. L’arrêt d’un parcours en pause nécessite **Gérer les parcours** (et **Campagnes > Publier les campagnes** si des campagnes intégrées ou des nœuds de messagerie sont présents)
+* La durée de pause peut être configurée de 1 à 14 jours, après quoi le parcours reprend automatiquement
+* Les profils conservés pendant la pause reprennent à 5 000 TPS au maximum ; le parcours reste dans l’état Reprise jusqu’à ce que tous les profils conservés aient repris
 * Un maximum de 10 millions de profils peuvent être conservés sur tous les parcours en pause d’une organisation. Les profils en trop sont automatiquement ignorés
 * Un seul critère de sortie basé sur les attributs de profil peut être défini par parcours
 * Les critères de sortie basés sur les attributs de profil peuvent uniquement être créés, mis à jour ou supprimés lorsque le parcours est en pause
@@ -340,7 +341,7 @@ Pour une compréhension totale, ces informations doivent être combinées avec l
 
 **FAQ:**
 * **Q : Qu’advient-il des profils déjà présents dans un parcours lorsqu’il est en pause ?** — Selon l’option sélectionnée au moment de la pause, les profils sont conservés (en attente au nœud d’action suivant) ou ignorés (sortis du parcours au nœud d’action suivant).
-* **Q : Combien de temps un parcours peut-il rester en pause ?** — Un maximum de 14 jours ; après cela, elle reprend automatiquement.
+* **Q : Combien de temps un parcours peut-il rester en pause ?** — Entre 1 et 14 jours (choisi au moment de la pause) ; il reprend ensuite automatiquement.
 * **Q : Puis-je exclure certains profils lorsqu’un parcours est en pause ?** — Oui ; appliquez un critère de sortie basé sur les attributs de profil (un par parcours) pendant que le parcours est en pause pour exclure les profils correspondants au nœud d’action suivant lors de la reprise.
 * **Q : La mise en pause d’un parcours s’arrête-t-elle dans l’application ou les messages web déjà déclenchés ?** — Non ; les communications entrantes déjà déclenchées avant que la pause ne se poursuive. Pour arrêter toutes les communications entrantes, vous devez arrêter entièrement le parcours.
 * **Q : Comment puis-je savoir quels profils ont été ignorés lors d’une pause ?** — Interroger le jeu de données `journey_step_events` dans Adobe Experience Platform Query Service à l’aide des filtres de type d’événement `PAUSED_JOURNEY_VERSION` ou `JOURNEY_IN_PAUSED_STATE` avec l’ID de version par parcours.

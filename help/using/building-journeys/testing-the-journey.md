@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 3006
-ht-degree: 55%
+source-wordcount: 3075
+ht-degree: 53%
 
 ---
 
@@ -80,7 +80,7 @@ Consultez ces notes avant d’exécuter des tests dans votre parcours.
 
 * **Désactivation du mode test** : lorsque vous désactivez le mode test, tous les profils présents actuellement dans le parcours ou qui l’ont rejoint précédemment sont supprimés et les rapports sont effacés.
 * **Flexibilité de réactivation** : vous pouvez activer et désactiver le mode test autant de fois que nécessaire.
-* **Désactivation automatique** : les parcours qui restent inactifs en mode test pendant **plus d’une semaine** reviennent automatiquement au statut Brouillon pour optimiser les performances et empêcher l’utilisation des ressources obsolètes.
+* **Désactivation automatique** : les Parcours qui restent inactifs en mode test pendant **plus d’une semaine** quittent automatiquement le mode test et reviennent au statut Brouillon. Aucun contenu de parcours n’est perdu ; seule la session du mode test se termine.
 * **Modification et publication** : lorsque le mode test est actif, vous ne pouvez pas modifier le parcours. Cependant, vous pouvez publier directement le parcours, sans avoir à désactiver le mode test au préalable.
 
 ### Exécution
@@ -278,7 +278,9 @@ Pour une compréhension totale, ces informations doivent être combinées avec l
 * 100 profils de test maximum par session de test unique
 * Les événements peuvent uniquement être déclenchés à partir de l’interface utilisateur du mode test. Le déclenchement d’API externe n’est pas pris en charge
 * L’enrichissement des attributs d’audience de chargement personnalisé n’est pas pris en charge en mode test
-* Les parcours inactifs en mode test depuis plus d’une semaine repassent automatiquement au statut Brouillon .
+* Les événements déclenchés en mode Test génèrent des événements d’expérience réels qui peuvent également déclencher d’autres parcours qui écoutent le même événement
+* En mode test, les activités d’attente et la plupart des délais d’événement sont définis par défaut sur 10 secondes ; les délais d’événement de réaction sont définis par défaut sur un minimum de 40 secondes
+* Désactivation automatique : les Parcours qui restent inactifs en mode test pendant plus d&#39;une semaine quittent automatiquement le mode test et reviennent au statut Brouillon. Aucun contenu de parcours n’est perdu ; seule la session du mode test se termine.
 * Les modifications du parcours sont bloquées lorsque le mode test est actif, mais la publication directe est autorisée
 * Lors d’une division, la branche supérieure est toujours sélectionnée ; réorganisez les branches pour tester différents chemins d’accès
 * Le délai d’expiration minimal de l’événement de réaction et le temps d’attente par défaut sont de 40 secondes

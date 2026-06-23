@@ -32,10 +32,10 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 1946
-ht-degree: 50%
+source-wordcount: 2002
+ht-degree: 48%
 
 ---
 
@@ -238,17 +238,18 @@ Pour une compréhension totale, ces informations doivent être combinées avec l
 **Mécanismes de sécurisation :**
 * Seuls les brouillons de parcours sans erreur peuvent être activés en mode Exécution d’essai
 * Le démarrage d’une exécution d’essai nécessite l’autorisation **Publier des parcours** ; son arrêt nécessite l’autorisation **Gérer les parcours**
-* Les parcours d’essai redeviennent automatiquement Brouillon au bout de 14 jours
+* Les parcours d’essai quittent automatiquement le mode Exécution d’essai et reviennent au statut Brouillon après 14 jours. Aucun contenu de parcours n’est perdu ; seule la session d’essai se termine.
 * Les profils traités au cours d’une exécution d’essai sont comptabilisés dans les profils engageables et le quota de parcours en direct
 * Les nœuds d’action de canal (e-mail, SMS, notification push) et les actions personnalisées ne sont pas exécutés lors de l’exécution d’essai
 * Les actions de saut ne sont pas activées dans l’exécution d’essai.
+* Les nœuds de réaction ne sont pas exécutés lors de l’exécution d’essai ; les profils se ferment correctement, avec des règles de priorité pour les branches unitaires et de réaction parallèles
 * Les données de rapport ne sont disponibles que lorsque l’exécution d’essai est active ; une fois arrêtée, les données ne sont plus accessibles
 * Les parcours en mode Test à blanc n’ont aucune incidence sur les règles métier.
 
 **Terminologie:**
 * Nom canonique : Parcours Exécution d’essai — Acronyme : aucun — variantes : mode Exécution d’essai, mode de publication Exécution d’essai
 * Synonymes : « Dry run » = « test de fumée » (officieusement)
-* Ne les confondez pas : « Exécution d’essai » ≠ « Mode test » — L’exécution d’essai utilise des données de production réelles et les comptabilise dans les quotas ; le mode test utilise des profils de test synthétiques et ne les utilise pas
+* Ne les confondez pas : « Exécution d’essai » ≠ « Mode test » ≠ « Simulation » : l’exécution d’essai utilise des données de production réelles et comptabilise les profils engageables et le quota de parcours en direct ; le mode test utilise des profils de test AEP persistants dans un parcours brouillon ; la simulation utilise des utilisateurs simulés temporaires qui ne persistent pas dans AEP
 
 **FAQ:**
 * **Q : L’exécution d’essai envoie-t-elle réellement des e-mails ou des notifications push aux clients ?** — Non ; tous les nœuds d’action de canal et les actions personnalisées sont désactivés et ne sont pas exécutés pendant une exécution d’essai.

@@ -37,9 +37,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 6198
+source-wordcount: 6208
 ht-degree: 77%
 
 ---
@@ -1044,7 +1044,7 @@ Pour une compréhension totale, ces informations doivent être combinées avec l
 * Nom canonique : Parcours — Acronyme : none — variantes : parcours client, orchestration, flux
 * Synonymes : « Fermeture des nouvelles entrées » = « Arrêt correct » ; « Arrêt » = « Arrêt immédiat »
 * Ne les confondez pas : « Parcours » ≠ « Campagne » - Les parcours prennent en charge l’orchestration déclenchée par un événement à plusieurs étapes ; les campagnes sont des envois ponctuels ou planifiés basés sur l’audience
-* Ne les confondez pas : « Mode test » ≠ « Exécution d’essai » - Le mode test utilise des profils de test synthétiques ; l’exécution d’essai utilise des données de production réelles sans contacter les clients.
+* Ne les confondez pas : « Simulation » ≠ « Mode test » ≠ « Exécution d’essai » : la simulation utilise des utilisateurs simulés temporaires ; le mode test utilise des profils de test AEP persistants ; l’exécution d’essai utilise des données de production réelles sans contacter les clients ni mettre à jour les profils.
 
 **FAQ:**
 * **Q : Quel est le nombre maximal d’activités dans un parcours ?** — 50 activités ; la simplification des parcours améliore la maintenabilité et les performances.

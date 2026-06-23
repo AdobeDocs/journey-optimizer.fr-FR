@@ -34,10 +34,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c6b450a19ca8af714da18e44c4b772756a9dc42b
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 2207
-ht-degree: 72%
+source-wordcount: 2277
+ht-degree: 69%
 
 ---
 
@@ -468,7 +468,7 @@ Pour une compréhension totale, ces informations doivent être combinées avec l
 * Découvrez ce que sont les parcours et en quoi ils diffèrent des campagnes et des campagnes orchestrées
 * Choisissez le type de parcours approprié (unitaire, Lecture d’audience, Qualification d’audience ou Événement métier) pour un cas d’utilisation
 * Suivez le processus de création de parcours en six étapes : planifier, concevoir, tester, publier, surveiller, optimiser
-* Utilisez le mode test ou exécution d’essai pour valider un parcours avant sa mise en ligne.
+* Utilisez la simulation, le mode test ou l’exécution d’essai pour valider un parcours avant sa mise en ligne
 * Publication d’un parcours et surveillance des performances par le biais de rapports et d’alertes
 * Explorez les fonctionnalités avancées telles que les expressions, la gestion des fuseaux horaires, la copie dans le sandbox et le contrôle du débit
 
@@ -476,8 +476,9 @@ Pour une compréhension totale, ces informations doivent être combinées avec l
 
 * **Parcours** : expérience client automatisée à plusieurs étapes qui orchestre des interactions personnalisées entre les canaux en réponse au comportement des clients, aux événements métier ou aux campagnes planifiées. *(spécifique au produit)*
 * **Concepteur de Parcours** : zone de travail visuelle par glisser-déposer dans AJO utilisée pour créer et configurer des flux de parcours sans écrire de code. *(spécifique au produit)*
-* **Mode test** : mode de validation de parcours qui simule l’exécution avec des profils de test pour détecter les problèmes avant la mise en ligne. *(spécifique au produit)*
-* **Exécution d’essai** : mode d’aperçu de parcours qui simule l’exécution sans affecter les données de profil réelles ou envoyer de messages. *(spécifique au produit)*
+* **Mode test** : mode de validation de parcours qui utilise des profils de test Adobe Experience Platform persistants (explicitement marqués comme profils de test) pour parcourir un brouillon de parcours avant sa publication. *(spécifique au produit)*
+* **Exécution d’essai** : mode de publication spécial qui exécute le parcours par rapport aux données de production réelles sans envoyer de communications ni mettre à jour les profils. *(spécifique au produit)*
+* **Simulation** : mode de validation qui utilise des utilisateurs simulés temporaires générés à la volée ; les utilisateurs simulés ne sont pas conservés dans Adobe Experience Platform. *(spécifique au produit)*
 * **Campagnes orchestrées** : workflows par lots à plusieurs étapes dans AJO qui utilisent des données relationnelles (profils + produits/boutiques/réservations) et traitent tous les profils avec un nombre exact de pré-envois. *(spécifique au produit)*
 
 **Mécanismes de sécurisation :**
@@ -490,14 +491,14 @@ Pour une compréhension totale, ces informations doivent être combinées avec l
 * Nom canonique : Parcours — Acronyme : none — variantes : parcours client, parcours AJO
 * Synonymes : « Concepteur de parcours » = « canevas » = « canevas de parcours »
 * Ne les confondez pas : « Parcours » ≠ « Campagne » : les Parcours conservent l’état individuel du client pour des expériences en temps réel et à plusieurs étapes axées sur le comportement ; les campagnes diffusent des messages par lots aux audiences selon un planning ou via un déclencheur API
-* Ne les confondez pas : « Exécution d’essai » ≠ « Mode test » : l’exécution d’essai prévisualise l’exécution sans toucher aux données réelles ; le mode test simule le parcours avec les profils de test réels
+* Ne les confondez pas : « Simulation » ≠ « Mode test » ≠ « Exécution d’essai » : la simulation utilise des utilisateurs simulés temporaires ; le mode test utilise des profils de test AEP persistants dans un brouillon de parcours ; l’exécution d’essai s’exécute par rapport aux données de production réelles sans contacter les clients ni mettre à jour les profils.
 
 **FAQ:**
 
 * **Q : Quelle est la différence entre un parcours et une campagne dans Journey Optimizer ?** : les Parcours fournissent 1:1 une orchestration en temps réel dans laquelle chaque profil progresse à son propre rythme grâce à une logique conditionnelle. Les campagnes diffusent des messages simultanément à une audience selon un planning ou par le biais d’un déclencheur d’API. Les campagnes orchestrées sont des workflows de zone de travail par lots pour une segmentation complexe de plusieurs entités.
 * **Q : Puis-je modifier un parcours en direct ?** — Des éléments limités tels que le nom et le contenu du message peuvent être modifiés ; les modifications structurelles nécessitent la création d&#39;une nouvelle version du parcours.
 * **Q : Quelles sont les étapes pour créer un parcours ?** Le workflow en six étapes est le suivant : planification, conception dans la zone de travail, test (mode test ou essai), publication, surveillance des performances et optimisation/itération.
-* **Q : Comment valider un parcours sans envoyer de vrais messages ?** — Utilisez le mode Exécution d&#39;essai, qui prévisualise l&#39;exécution du parcours sans affecter les données réelles ni envoyer de messages.
+* **Q : Comment valider un parcours sans envoyer de vrais messages ?** : utilisez la simulation (utilisateurs simulés temporaires), le mode test (profils de test AEP persistants) ou l’exécution d’essai (données de production réelles sans contact avec le client ou les mises à jour de profil). Les profils d’exécution d’essai sont comptabilisés dans les profils engageables et le quota de parcours dynamiques.
 * **Q : Quel type de parcours dois-je utiliser pour un e-mail de bienvenue généré par un abonnement ?** — Utilisez un parcours unitaire, qui est déclenché par un événement individuel spécifique tel qu&#39;une inscription à un abonnement.
 
 +++
