@@ -32,10 +32,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 3992
-ht-degree: 55%
+source-wordcount: 4752
+ht-degree: 46%
 
 ---
 
@@ -443,3 +443,56 @@ Pour obtenir la liste complète des mécanismes de sécurisation de lecture d’
 Comprenez les cas d’utilisation applicables pour un parcours déclenché par l’activité de lecture d’audience. Découvrez comment créer des parcours basés sur des lots et les bonnes pratiques à appliquer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430370?captions=fre_fr&quality=12)
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page explique comment configurer et utiliser l’activité Lecture d’audience dans Adobe Journey Optimizer pour ajouter des profils d’une audience Adobe Experience Platform dans un parcours, une fois ou selon une planification récurrente, avec des conseils sur la planification, le débit, le dépannage et les bonnes pratiques.
+
+**Intentions:**
+* Configuration d’une activité Lecture d’audience comme point d’entrée d’un parcours
+* Sélectionner une audience Adobe Experience Platform et un espace de noms d’identité pour le parcours
+* Définissez le taux de lecture pour contrôler le nombre de profils entrés par seconde
+* Planifiez un parcours pour qu’il s’exécute une fois, tous les jours, toutes les semaines ou sur une périodicité personnalisée
+* Activer la lecture incrémentielle pour traiter uniquement les nouveaux membres d’audience sur des exécutions récurrentes
+* Résolution des problèmes liés aux incohérences des nombres de profils des audiences, aux exécutions à profil zéro et aux entrées différées
+* Choix entre la lecture d’audience et la qualification de l’audience en fonction des besoins par lots ou en temps réel
+
+**Glossaire:**
+* **Activité Lecture d’audience** : activité de point d’entrée du parcours qui lit tous les profils qualifiés d’une audience Adobe Experience Platform sélectionnée et les ajoute à l’*du parcours (spécifique au produit)*
+* **Taux de lecture** : nombre maximal de profils pouvant entrer dans le parcours par seconde (500 à 20 000 ; 5 000 par défaut) *(spécifique au produit)*
+* **Lecture incrémentielle** : une option de parcours récurrente qui traite uniquement les profils nouvellement ajoutés à l’audience depuis la dernière *d’exécution de parcours (spécifique au produit)*
+* **Forcer une reprise sur une périodicité** : option de planification qui supprime tous les participants au parcours actifs avant chaque nouvelle exécution afin que les profils puissent rejoindre à nouveau de nouveaux *(spécifiques au produit)*
+* **Déclencheur après l’évaluation de l’audience par lots** : une option de planification qui retarde l’exécution du parcours jusqu’à ce qu’un nouvel instantané de l’audience par lots soit disponible (jusqu’à 6 heures) *(spécifique au produit)*
+* **Identifiant supplémentaire** : un identifiant secondaire (par exemple, identifiant de commande) qui permet au même profil d’entrer plusieurs fois dans le parcours lorsque l’identifiant diffère *(spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+* Une seule activité Lecture d’audience est autorisée par parcours, et elle doit être la première activité.
+* Une seule audience peut être sélectionnée par activité Lecture d’audience.
+* Jusqu’à cinq exécutions Lecture d’audience simultanées par organisation.
+* Le taux de lecture maximal est de 20 000 profils par seconde par sandbox (somme de toutes les activités Lecture d’audience simultanées).
+* Le taux de lecture est limité à 500 profils par seconde lorsqu’un identifiant supplémentaire est utilisé.
+* Seuls les profils ayant le statut de participation Audience réalisée rejoignent le parcours.
+* Seuls les espaces de noms d’identité basés sur des personnes sont disponibles ; les profils sans espace de noms sélectionné ne peuvent pas le saisir.
+* Le délai d’expiration de tâche de 12 heures s’applique aux tâches d’exportation Lecture d’audience.
+* Les reprises des tâches d’exportation ayant échoué se produisent toutes les 10 minutes pendant une durée maximale d’1 heure.
+* Pour les audiences de chargement personnalisées avec la lecture incrémentielle activée, les profils ne sont récupérés que lors de la première périodicité (ces audiences sont corrigées).
+* L’échelle du gagnant n’est pas disponible pour les parcours Lecture d’audience (expérimentation de chemin).
+
+**Terminologie:**
+* Nom canonique : Lecture d’audience — Acronyme : aucun — variantes : déclencheur de segment, entrée de parcours basée sur l’audience, Lecture de segment (nom de l’API héritée)
+* Synonymes : « Lecture d’audience » = « Déclencheur de segment » = « parcours déclenché par l’audience »
+* Ne les confondez pas : « Lecture d’audience » ≠ « Qualification de l’audience » (la lecture d’audience est par lot/planifiée ; la qualification d’audience est la diffusion en continu en temps réel).
+
+**FAQ:**
+* **Q : Quand dois-je utiliser Lecture d’audience au lieu de Qualification d’audience ?** utilisez Read Audience pour les cas d’utilisation par lots et planifiés (par exemple, les newsletters hebdomadaires, les campagnes de réengagement). Utilisez la qualification d’audience lorsque les profils doivent accéder immédiatement au parcours, car ils remplissent les critères en temps réel.
+* **Q : Pourquoi y a-t-il moins de profils qui entrent sur le parcours que la taille de l’audience ?** : les causes courantes incluent les profils n’ayant pas l’espace de noms sélectionné, les tâches de segmentation par lots non encore terminées avant l’exécution du parcours ou les profils dont le statut n’est pas Réalisé. Activez « Déclencheur après l’évaluation de l’audience par lots » et vérifiez la configuration des espaces de noms.
+* **Q : Que fait la lecture incrémentielle lors de la première exécution ?** — Lors de la première exécution, tous les profils d&#39;audience entrent. Lors des exécutions suivantes, seuls les profils qui viennent d’être ajoutés à l’audience depuis la dernière exécution sont traités.
+* **Q : Que se passe-t-il si la tâche d’exportation échoue ?** — Le système réessaye toutes les 10 minutes pendant une heure au maximum. Les échecs sont signalés dans les alertes. Après 1 heure sans succès, l’exécution est considérée comme ayant échoué.
+* **Q : Le même profil peut-il entrer plusieurs fois dans un parcours Lecture d’audience ?** — Oui, si un identifiant supplémentaire est configuré et diffère entre les entrées, ou si Forcer une reprise sur une périodicité est activé. Sans cela, un profil ne peut pas être présent plusieurs fois en même temps.
+* **Q : Pendant combien de temps un parcours Lecture d’audience unique reste-t-il en ligne ?** : passe au statut Terminé 91 jours après l&#39;exécution (délai d&#39;expiration du parcours global).
+
++++

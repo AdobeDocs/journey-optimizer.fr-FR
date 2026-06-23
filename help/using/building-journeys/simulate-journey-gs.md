@@ -11,10 +11,10 @@ keywords: test, parcours, vérification, erreur, dépannage
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: df6d5f7137a3914daf545746aff559ca0d04539d
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1507
-ht-degree: 3%
+source-wordcount: 2137
+ht-degree: 2%
 
 ---
 
@@ -150,5 +150,57 @@ Ces mécanismes de sécurisation s’appliquent à **[!UICONTROL Simulation]**. 
 | Nombre maximal de parcours pouvant être exécutés en même temps dans un sandbox **[!UICONTROL Simulation]** | 20 | La limite est partagée par chaque parcours **[!UICONTROL Simulation]** à la fois dans ce sandbox. |
 | Nombre maximal d’utilisateurs actifs simulés dans un sandbox | 2,000 | Nombre maximal d’utilisateurs simulés pouvant exister simultanément dans le sandbox. Adobe peut ajuster cette limite en fonction des commentaires des clients. |
 | Préremplissage De L’Événement (Navigateur Uniquement) | — | Vous pouvez préremplir les champs de payload d’événement uniquement dans l’interface utilisateur de la simulation basée sur un navigateur. Les valeurs préremplies restent dans ce navigateur et ne sont pas synchronisées avec d’autres navigateurs, appareils ou sessions, de sorte que vous pouvez voir différentes données de préremplissage à chaque emplacement que vous testez. |
+
++++
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page présente la fonction Simulation de Parcours de Adobe Journey Optimizer, en expliquant en quoi elle diffère du mode Test, les types de parcours qu’elle prend en charge, comment lancer une simulation et quelles sont ses limites au niveau du nœud, fonctionnelles et quantitatives.
+
+**Intentions:**
+* Comprendre la différence entre le mode Simulation et le mode Test pour la validation des parcours
+* Lancez une session de simulation pour un type de parcours batch, unitaire ou mixte.
+* Identifier les nœuds de parcours qui bloquent ou empêchent l’exécution de la simulation
+* Déterminez quelles fonctionnalités ne sont pas prises en charge pendant la simulation (par exemple, consentement, capping de la fréquence, STO).
+* Planifiez autour de mécanismes de sécurisation quantitatifs tels que le nombre maximal d’utilisateurs simulés par sandbox.
+* Choisissez entre la simulation rapide ou la simulation manuelle en fonction des besoins de test.
+
+**Glossaire:**
+* **Utilisateurs simulés** : entités temporaires de type profil créées pour la simulation sans être conservées dans les *Adobe Experience Platform (spécifiques au produit)*
+* **Simulation** : un état de parcours (avec Brouillon, Mode test et En direct) utilisé pour les tests avec des utilisateurs simulés plutôt que des profils de test persistants *(spécifiques au produit)*
+* **Journey Agent** : composant d’IA qui génère des utilisateurs simulés, des valeurs d’événement et des paramètres de test lors de la simulation rapide et de la simulation manuelle assistée par l’IA *(spécifique au produit)*
+* **Simulation rapide** : exécution de simulation automatisée de bout en bout qui génère des utilisateurs et des événements avec un minimum de *d’entrée manuelle (spécifique au produit)*
+* **Simulation manuelle** : mode de simulation étape par étape où les utilisateurs et utilisatrices, ainsi que les événements, sont créés et déclenchés individuellement *(spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+* Nécessite au moins l’une des autorisations suivantes : **Simuler des parcours**, **Publier des parcours** ou **Approuver et publier des parcours**
+* Les fonctionnalités de simulation optimisées par l’IA nécessitent l’autorisation **Générer du contenu** de la fonctionnalité Assistant d’IA
+* Maximum de 20 utilisateurs simulés par lot Envoyer tout ou Déclencher les événements sélectionnés
+* Maximum de 50 utilisateurs simulés par requête de génération d’IA
+* Maximum de 100 utilisateurs simulés uniques par exécution de simulation
+* Maximum de 20 parcours exécutant la simulation simultanément dans un sandbox
+* Maximum de 2 000 utilisateurs actifs simulés dans un sandbox à la fois
+* Impossible de simuler des parcours déclenchés par un événement métier
+* Les parcours d’ID supplémentaires avec plusieurs reprises activées ne peuvent pas être simulés
+* Les politiques de consentement, le capping de la fréquence, le processus d’opt-out, l’arrêt et les heures de silence ne sont pas évalués pendant la simulation.
+* Les utilisateurs simulés ne doivent pas contenir de données client réelles (non conformes au RGPD)
+
+**Terminologie:**
+* Nom canonique : Simulation — Acronyme : none — variantes : Parcours Simulation, Mode Simulation
+* Nom canonique : utilisateurs simulés — Acronyme : aucun — variantes : utilisateurs tests (dans les libellés de l’interface utilisateur)
+* Synonymes : « Simulation » = « Mode simulation » ; « Utilisateurs simulés » = « Utilisateurs de test » (libellé de l’interface utilisateur uniquement)
+* Ne les confondez pas : « Simulation » ≠ « Mode test » (le mode test utilise des profils de test AEP persistants ; la simulation utilise des utilisateurs simulés temporaires)
+
+**FAQ:**
+* **Q : De quelles autorisations ai-je besoin pour utiliser la simulation ?** — Vous avez besoin d’au moins l’un des éléments suivants : Simuler des parcours, Publier des parcours ou Approuver et publier des parcours. Les fonctionnalités d’IA nécessitent en outre l’autorisation Générer du contenu de la fonctionnalité Assistant d’IA .
+* **Q : En quoi la simulation diffère-t-elle du mode Test ?** — La simulation utilise des utilisateurs simulés temporaires créés à la volée sans profils Adobe Experience Platform persistants ; le mode Test utilise des profils persistants explicitement marqués comme profils de test dans AEP.
+* **Q : Puis-je simuler un parcours qui commence par un événement métier ?** — Non. Les parcours déclenchés par un événement métier ne peuvent pas être exécutés en simulation.
+* **Q : Combien d’utilisateurs simulés puis-je tester au cours d’une seule exécution de simulation ?** — Jusqu’à 100 utilisateurs simulés uniques par exécution ; chaque action Envoyer tout est limitée à 20 utilisateurs à la fois.
+* **Q : Les politiques de consentement sont-elles appliquées pendant la simulation ?** — Non. L’évaluation de la politique de consentement, le capping de la fréquence, la gestion des désinscriptions et les heures de silence ne sont pas évalués pendant la simulation.
+* **Q : Que se passe-t-il si mon parcours comporte plus de 50 chemins pendant la génération de l’IA ?** — Le Journey Agent sélectionne les chemins de manière aléatoire pour générer un maximum de 50 utilisateurs simulés.
 
 +++

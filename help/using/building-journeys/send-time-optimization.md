@@ -28,10 +28,10 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: f13e351c6c3851f9c031e7aa907ecc5924e0df4f
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1656
-ht-degree: 72%
+source-wordcount: 2279
+ht-degree: 52%
 
 ---
 
@@ -193,6 +193,51 @@ L’optimisation de l’heure d’envoi peut envoyer des messages push aux utili
 * Lorsque le modèle choisit une heure d’envoi d’« exploration ».
 
 Pour éviter d’envoyer des messages push aux clientes et clients pendant les heures nocturnes, planifiez les envois de messages push par lots pour qu’ils se produisent le matin ou au début de l’après-midi et choisissez une durée plus courte pour l’optimisation de l’heure d’envoi. (Par exemple, une heure d’envoi de 9 h et un temps d’attente maximal de 8 heures.)
+
++++
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page explique comment configurer et utiliser l’optimisation de l’heure d’envoi dans Adobe Journey Optimizer, une fonctionnalité optimisée par l’IA qui prédit le meilleur moment pour envoyer des e-mails ou des messages push à chaque individu afin de maximiser l’engagement.
+
+**Intentions:**
+* Activer l’optimisation de l’heure d’envoi sur un e-mail ou une action push dans un parcours
+* Choisissez d’optimiser les ouvertures ou les clics publicitaires sur les e-mails
+* Définir la fenêtre d’attente maximale (Envoyer dans les prochains délais) pour une diffusion retardée
+* Comprendre comment le modèle d’IA prédit des heures d’envoi optimales à l’aide de données comportementales
+* Déterminer si l’optimisation de l’heure d’envoi est appropriée pour un type de message donné
+
+**Glossaire:**
+* **Optimisation de l’heure d’envoi (STO)** : une fonctionnalité optimisée par l’IA qui retarde la diffusion des messages à chaque profil jusqu’à l’heure d’engagement optimale prévue dans une fenêtre temporelle configurée *(spécifique au produit)*
+* **IA dédiée au Parcours** : les services d’IA d’Adobe alimentent l’optimisation de l’heure d’envoi dans Journey Optimizer *(spécifique au produit)*
+* **Heure d’envoi de l’exploration** : heure d’envoi sélectionnée de manière aléatoire (utilisée pour 5 % des envois) pour tester différents moments et améliorer la précision du modèle *(spécifique au produit)*
+* **Heure d’envoi optimisée** : heure d’envoi prédite par le modèle sélectionnée pour maximiser les taux de clics ou d’ouverture (utilisée pour 95 % des envois) *(spécifique au produit)*
+* **Envoyer dans les prochains** : nombre maximal d’heures (1-168) que le système attendra avant d’envoyer le message à un profil donné *(spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+* L’optimisation de l’heure d’envoi doit être activée par Adobe pour l’organisation. Contactez l’assistance clientèle d’Adobe ou votre représentant Adobe pour l’activer.
+* L’optimisation de l’heure d’envoi s’applique uniquement aux canaux E-mail et Notification push dans les Parcours. Elle n’est pas disponible pour les campagnes ou les actions personnalisées.
+* L’organisation doit avoir utilisé des actions E-mail ou Push dans Journey Optimizer pendant au moins 30 jours avant que l’optimisation de l’heure d’envoi ne produise des résultats significatifs.
+* N’utilisez pas l’optimisation de l’heure d’envoi pour les messages opérationnels urgents ou sensibles au temps (par exemple, confirmations de commande, réinitialisations de mot de passe, changements de porte d’embarquement).
+* La plage de temps d’attente maximale est comprise entre 1 et 168 heures ; la plage recommandée est comprise entre 6 et 24 heures pour obtenir de meilleurs résultats.
+* Les scores du modèle sont stockés dans les attributs de profil à l’adresse `_experience.intelligentServices.journeyAI.sendTimeOptimization` et ne sont pas lisibles par l’utilisateur.
+* Les modèles sont entraînés une fois par semaine au début, puis entraînés à nouveau et notés tous les mois après 16 semaines.
+
+**Terminologie:**
+* Nom canonique : Optimisation de l’heure d’envoi — Acronyme : STO — variantes : meilleure heure d’envoi, heure d’envoi AI, heure d’envoi intelligente
+* Synonymes : « Optimisation de l’heure d’envoi » = « Heure d’envoi optimale » = « Heure d’envoi de l’IA »
+* Ne les confondez pas : « Heure d’envoi de l’exploration » ≠ « Heure d’envoi optimisée » (l’exploration est aléatoire pour les tests de modèle ; l’optimisation est prédite par le modèle pour l’engagement)
+
+**FAQ:**
+* **Q : Quels canaux prennent en charge l’optimisation de l’heure d’envoi ?** — Seuls les canaux E-mail et Notification push des Parcours sont pris en charge ; les campagnes et actions personnalisées ne sont pas prises en charge.
+* **Q : Dois-je optimiser les ouvertures ou les clics sur les e-mails ?** — Optimiser pour les clics pour la plupart des e-mails. Choisissez Ouvertures lorsque le message est informatif et ne vise pas à effectuer une action spécifique.
+* **Q : Combien de temps l&#39;organisation doit-elle attendre avant d&#39;activer la STO ?** — Au moins 30 jours d’utilisation des e-mails ou des notifications push dans Journey Optimizer sont nécessaires pour collecter suffisamment de données comportementales. Les résultats continuent de s’améliorer pendant 16 semaines.
+* **Q : Est-ce que STO peut envoyer des notifications push la nuit ?** — Oui, si le comportement d&#39;un utilisateur suggère un engagement de nuit ou si une heure d&#39;envoi d&#39;exploration est sélectionnée. Pour éviter cela, utilisez une heure d’envoi du matin avec une courte fenêtre d’attente maximale.
+* **Q : Quel est le bénéfice attendu de l’optimisation de l’heure d’envoi ?** — Amélioration d&#39;environ 2 à 10 % du taux de clics sur les e-mails ou du taux d&#39;ouverture des notifications push pour tous les messages optimisés, bien que les avantages puissent ne pas être observables sur les envois individuels de faible volume.
 
 +++
 

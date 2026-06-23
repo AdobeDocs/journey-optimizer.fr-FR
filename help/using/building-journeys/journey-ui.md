@@ -12,10 +12,10 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1506
-ht-degree: 94%
+source-wordcount: 2066
+ht-degree: 68%
 
 ---
 
@@ -192,4 +192,52 @@ Vous pouvez également reprendre un ou plusieurs parcours **en pause**. Pour rep
 >[!NOTE]
 >
 >Vous pouvez mettre en pause/reprendre jusqu’à 10 parcours par opération.
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page explique comment parcourir, filtrer, afficher (liste et calendrier), dupliquer et effectuer des opérations en bloc sur les parcours à partir du tableau de bord Journey Optimizer.
+
+**Intentions:**
+
+* Parcourir et rechercher des parcours à partir des onglets Aperçu et Parcourir
+* Filtrer les parcours par statut, type, version, balises, date de création ou date de publication
+* Basculer entre les vues Liste et Calendrier pour visualiser les plannings de parcours
+* Ajouter et gérer des calendriers externes en chargeant des fichiers CSV
+* Dupliquer un parcours existant pour réutiliser ses paramètres
+* Mettre en pause en bloc ou reprendre plusieurs parcours actifs ou en pause à la fois
+
+**Glossaire:**
+
+* **Tableau de bord des Parcours** : interface principale des parcours avec un onglet Aperçu affichant les mesures clés et un onglet Parcourir répertoriant tous les parcours. *(spécifique au produit)*
+* **Taux de rejet** : ratio de profils non éligibles à l’entrée dans le parcours (par exemple, en raison d’un espace de noms incorrect ou de règles de reprise) par rapport au total des profils qui ont tenté d’entrée au cours des dernières 24 heures. *(spécifique au produit)*
+* Vue Calendrier des Parcours **&#x200B;**&#x200B;: représentation visuelle du calendrier hebdomadaire des parcours actifs et planifiés, accessible en cliquant sur l’icône de calendrier dans la liste des parcours. *(spécifique au produit)*
+* **Mise en pause en bloc** : opération qui met en pause plusieurs parcours dynamiques à la fois (jusqu’à 10 par opération) de la liste parcours. *(spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+
+* Les mesures des tableaux de bord sont actualisées toutes les 30 minutes et uniquement lorsque de nouvelles données sont disponibles ; elles ne couvrent que les dernières 24 heures
+* Les brouillons de parcours et les parcours en mode test ne s’affichent pas dans la vue Calendrier
+* La pause/reprise en bloc est limitée à 10 parcours par opération.
+* Le bouton Reprendre n’est actif que lorsque des parcours en pause sont sélectionnés ; le bouton Pause n’est actif que lorsque des parcours en direct sont sélectionnés
+* Le calendrier affiche les parcours sur une période d’une heure, quelle que soit l’heure d’envoi ou d’achèvement effective
+
+**Terminologie:**
+
+* Nom canonique : tableau de bord du Parcours — Acronyme : aucun — variantes : liste des parcours, présentation des parcours
+* Synonymes : « Onglet Parcourir » = « Liste de parcours »
+* Ne pas confondre : « Taux de rejet » ≠ « Taux d’erreur » — Taux de rejet comptabilise les profils non éligibles à la saisie ; Taux d’erreur comptabilise les profils entrés mais ayant rencontré une erreur de traitement
+
+**FAQ:**
+
+* **Q : Où puis-je voir les mesures de performances clés du parcours en un coup d’œil ?** : dans l&#39;onglet Aperçu du tableau de bord des Parcours, qui affiche les profils traités, les parcours en direct, le taux d&#39;erreur et le taux d&#39;abandon des dernières 24 heures.
+* **Q : Comment puis-je trouver des parcours qui utilisent un événement ou une action spécifique ?** : utilisez les filtres d&#39;activité et les filtres de données de la liste parcours pour afficher les parcours faisant référence à un événement, un groupe de champs ou une action spécifique.
+* **Q : Puis-je suspendre plusieurs parcours à la fois ?** — Oui ; sélectionnez plusieurs parcours dynamiques dans la liste et cliquez sur le bouton Pause dans la barre inférieure. Jusqu’à 10 parcours peuvent être suspendus par opération.
+* **Q : Comment ajouter des événements externes au calendrier du parcours ?** — Cliquez sur l&#39;icône d&#39;ajout de calendrier, puis effectuez un glisser-déposer d&#39;un fichier CSV avec les colonnes nom de l&#39;événement, date de début et date de fin ; les événements chargés sont visibles pour tous les utilisateurs de l&#39;organisation.
+* **Q : Pourquoi le calendrier affiche-t-il un parcours d’une heure, même s’il dure plus longtemps ?** — Le calendrier affiche tous les parcours sous la forme de périodes d’une heure pour des raisons de cohérence visuelle ; cela ne reflète pas l’heure d’envoi ou d’achèvement réelle.
+
++++
 

@@ -16,10 +16,10 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1271
-ht-degree: 85%
+source-wordcount: 1723
+ht-degree: 62%
 
 ---
 
@@ -461,5 +461,49 @@ Renvoie la représentation sous forme de chaîne du champ dateOnly (champ de dat
 `toString(toDuration(1520))`
 
 Renvoie « PT1.52S ».
+
++++
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page documente toutes les fonctions de conversion dans les expressions de parcours AJO, en expliquant comment transformer des valeurs entre des types tels que chaîne, entier, décimal, booléen, date, datetime et durée.
+
+**Intentions:**
+* Convertissez une chaîne ou un entier epoch en une heure prenant en compte le fuseau horaire à l’aide de `toDateTime`
+* Convertir une chaîne ou datetime en datetime sans fuseau horaire à l’aide de `toDateTimeOnly`
+* Extrayez une valeur de date seule (année-mois-jour) d’une chaîne ou de datetime à l’aide de `toDateOnly`
+* Convertissez une valeur en entier, décimal ou booléen en utilisant `toInteger`, `toDecimal` ou `toBool`
+* Sérialisez n’importe quelle valeur dans sa représentation sous forme de chaîne à l’aide de `toString`
+* Convertir une chaîne ou un entier en millisecondes en une durée à l’aide de `toDuration`
+
+**Glossaire:**
+* **dateTime** : valeur datetime qui inclut des informations de décalage de fuseau horaire *(spécifiques au produit)*
+* **dateTimeOnly** : valeur datetime sans informations de fuseau horaire *(spécifique au produit)*
+* **dateOnly** : valeur de date représentant l’année-mois-jour sans composant temporel *(spécifique au produit)*
+* **durée** : période exprimée au format ISO-8601 (par exemple, PT10H) *(spécifique au produit)*
+* **epoch milliseconds** : horodatage Unix exprimé en millisecondes depuis 1970-01-01T00:00:00Z
+
+**Mécanismes de sécurisation :**
+* L’argument de fuseau horaire dans `toDateTime` doit être une constante de chaîne — les références aux champs et les expressions dynamiques ne sont pas autorisées
+* Les entrées de chaîne dans `toDateTime` et `toDateTimeOnly` doivent respecter le format ISO-8601 ; les chaînes incorrectes renvoient la valeur null sans erreur
+* `toDateTime` avec un entier epoch attend des millisecondes ; multipliez les horodatages basés sur les secondes par 1 000 avant de passer
+* `toBool` renvoie `true` uniquement pour le `"true"` de chaîne exact ; les chaînes telles que `"1"`, `"yes"` ou `"TRUE"` renvoient `false`
+
+**Terminologie:**
+* Nom canonique : Fonctions de conversion — Acronyme : none — variantes : fonctions de conversion de type, fonctions de conversion de type
+* Synonymes : « toDateTime » = « convert to datetime with timezone »; « toDateTimeOnly » = « convert to datetime without timezone »
+* Ne pas confondre : « toDateTime » (compatible avec les fuseaux horaires) ≠ « toDateTimeOnly » (pas de fuseau horaire)
+* Ne pas confondre : « toDateOnly » (date uniquement, pas d’heure) ≠ « toDateTime » (date et heure avec fuseau horaire)
+
+**FAQ:**
+* **Q : Quand dois-je utiliser `toDateTime` plutôt que `toDateTimeOnly` ?** — Utilisez des `toDateTime` lorsque les informations sur le fuseau horaire sont importantes (par exemple, planification ou comparaisons interrégions) ; utilisez des `toDateTimeOnly` lorsque seule la date-heure locale est pertinente et que le fuseau horaire peut être ignoré.
+* **Q : Pourquoi `toBool("TRUE")` renvoie-t-il false ?** — `toBool` ne reconnaît que la `"true"` exacte de la chaîne en minuscules ; toutes les autres valeurs de chaîne, y compris `"TRUE"` ou `"yes"`, renvoient la valeur false.
+* **Q : Comment convertir un horodatage Unix en secondes en dateTime ?** — Multipliez la valeur secondes par 1000 pour obtenir les millisecondes, puis transmettez-la à `toDateTime`, par exemple `toDateTime(myField * 1000)`.
+* **Q : Le fuseau horaire dans `toDateTime` peut-il être lu à partir d’un attribut de profil ?** — Non, l&#39;ID de fuseau horaire doit être une constante de chaîne ; les références aux champs et les expressions ne sont pas prises en charge.
+* **Q : Quel format accepte-`toDuration` comme chaîne ?** — format de durée ISO-8601, par exemple `"PT10H"` pour 10 heures ou `"P1DT2H"` pour 1 jour et 2 heures.
 
 +++

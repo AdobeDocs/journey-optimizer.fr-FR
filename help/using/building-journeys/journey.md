@@ -34,10 +34,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1642
-ht-degree: 97%
+source-wordcount: 2207
+ht-degree: 72%
 
 ---
 
@@ -454,3 +454,50 @@ Configurez des **[alertes de parcours](../reports/alerts.md)** pour recevoir des
 * **[Résolution des problèmes d’activités entrantes](troubleshooting-inbound.md)** – Corriger les problèmes d’entrée et de qualification
 
 **Vous voulez créer votre premier parcours ?** [Cʼest parti ! →](journey-gs.md)
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page est le centre de prise en main des parcours Adobe Journey Optimizer. Elle explique ce que sont les parcours, les quatre types de parcours, le processus de création en six étapes, les cas d’utilisation réels et des liens vers des fonctionnalités avancées.
+
+**Intentions:**
+
+* Découvrez ce que sont les parcours et en quoi ils diffèrent des campagnes et des campagnes orchestrées
+* Choisissez le type de parcours approprié (unitaire, Lecture d’audience, Qualification d’audience ou Événement métier) pour un cas d’utilisation
+* Suivez le processus de création de parcours en six étapes : planifier, concevoir, tester, publier, surveiller, optimiser
+* Utilisez le mode test ou exécution d’essai pour valider un parcours avant sa mise en ligne.
+* Publication d’un parcours et surveillance des performances par le biais de rapports et d’alertes
+* Explorez les fonctionnalités avancées telles que les expressions, la gestion des fuseaux horaires, la copie dans le sandbox et le contrôle du débit
+
+**Glossaire:**
+
+* **Parcours** : expérience client automatisée à plusieurs étapes qui orchestre des interactions personnalisées entre les canaux en réponse au comportement des clients, aux événements métier ou aux campagnes planifiées. *(spécifique au produit)*
+* **Concepteur de Parcours** : zone de travail visuelle par glisser-déposer dans AJO utilisée pour créer et configurer des flux de parcours sans écrire de code. *(spécifique au produit)*
+* **Mode test** : mode de validation de parcours qui simule l’exécution avec des profils de test pour détecter les problèmes avant la mise en ligne. *(spécifique au produit)*
+* **Exécution d’essai** : mode d’aperçu de parcours qui simule l’exécution sans affecter les données de profil réelles ou envoyer de messages. *(spécifique au produit)*
+* **Campagnes orchestrées** : workflows par lots à plusieurs étapes dans AJO qui utilisent des données relationnelles (profils + produits/boutiques/réservations) et traitent tous les profils avec un nombre exact de pré-envois. *(spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+
+* Les parcours dynamiques ne peuvent pas être modifiés structurellement. Les modifications exigent la création d’une nouvelle version
+* Le mode Test et le mode Exécution d’essai doivent être utilisés avant la publication pour détecter les problèmes
+
+**Terminologie:**
+
+* Nom canonique : Parcours — Acronyme : none — variantes : parcours client, parcours AJO
+* Synonymes : « Concepteur de parcours » = « canevas » = « canevas de parcours »
+* Ne les confondez pas : « Parcours » ≠ « Campagne » : les Parcours conservent l’état individuel du client pour des expériences en temps réel et à plusieurs étapes axées sur le comportement ; les campagnes diffusent des messages par lots aux audiences selon un planning ou via un déclencheur API
+* Ne les confondez pas : « Exécution d’essai » ≠ « Mode test » : l’exécution d’essai prévisualise l’exécution sans toucher aux données réelles ; le mode test simule le parcours avec les profils de test réels
+
+**FAQ:**
+
+* **Q : Quelle est la différence entre un parcours et une campagne dans Journey Optimizer ?** : les Parcours fournissent 1:1 une orchestration en temps réel dans laquelle chaque profil progresse à son propre rythme grâce à une logique conditionnelle. Les campagnes diffusent des messages simultanément à une audience selon un planning ou par le biais d’un déclencheur d’API. Les campagnes orchestrées sont des workflows de zone de travail par lots pour une segmentation complexe de plusieurs entités.
+* **Q : Puis-je modifier un parcours en direct ?** — Des éléments limités tels que le nom et le contenu du message peuvent être modifiés ; les modifications structurelles nécessitent la création d&#39;une nouvelle version du parcours.
+* **Q : Quelles sont les étapes pour créer un parcours ?** Le workflow en six étapes est le suivant : planification, conception dans la zone de travail, test (mode test ou essai), publication, surveillance des performances et optimisation/itération.
+* **Q : Comment valider un parcours sans envoyer de vrais messages ?** — Utilisez le mode Exécution d&#39;essai, qui prévisualise l&#39;exécution du parcours sans affecter les données réelles ni envoyer de messages.
+* **Q : Quel type de parcours dois-je utiliser pour un e-mail de bienvenue généré par un abonnement ?** — Utilisez un parcours unitaire, qui est déclenché par un événement individuel spécifique tel qu&#39;une inscription à un abonnement.
+
++++

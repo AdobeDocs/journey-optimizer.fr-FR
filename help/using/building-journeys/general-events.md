@@ -23,10 +23,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 678
-ht-degree: 95%
+source-wordcount: 1253
+ht-degree: 51%
 
 ---
 
@@ -89,3 +89,44 @@ La temporisation définie s’applique à tous les événements postérieurs à 
 * Si aucun événement n’est reçu pendant le délai de temporisation, la personne s’engage dans la branche de temporisation de l’événement où la temporisation a été définie.
 
 ![Plusieurs événements avec des configurations de temporisation dans le parcours](assets/event-timeout-group.png)
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page explique comment utiliser les événements généraux (unitaires et métier) dans les parcours pour déclencher la diffusion de messages en temps réel au niveau individuel, y compris comment configurer les temporisations d’événement et les chemins de temporisation.
+
+**Intentions:**
+* Ajoutez une activité d’événement générale à une zone de travail de parcours pour déclencher une entrée de profil en temps réel
+* Configurer une temporisation d’événement pour limiter la durée d’écoute d’un événement par un parcours
+* Configurez un chemin de temporisation pour gérer les profils qui ne déclenchent pas l’événement attendu à temps
+* Faire la distinction entre les événements unitaires et les événements métier et comprendre quand chacun est ajouté automatiquement
+* Associez les temporisations d’événement aux activités d’attente pour contrôler le comportement de temporisation de plusieurs événements
+
+**Glossaire:**
+* **Événement unitaire** : événement qui déclenche le parcours pour un individu à la fois, en *temps réel (spécifique au produit)*
+* **Événement métier** : événement non lié à un profil, qui déclenche un parcours pour une audience de profils, ajoutant automatiquement une *d’activité Lecture d’audience (spécifique au produit)*
+* **Temporisation de l’événement** : durée configurable (jusqu’à 90 jours) au bout de laquelle le parcours cesse d’attendre un événement spécifique et achemine le profil vers un chemin de temporisation *(spécifique au produit)*
+* **Chemin d’accès au délai d’expiration** : branche de parcours facultative que les profils suivent lorsque l’événement prévu n’est pas reçu dans le délai d’expiration *(spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+* Le libellé et la description de l’événement sont les seuls champs modifiables pour un événement général sur la zone de travail. Toute autre configuration est effectuée par un utilisateur technique et ne peut pas être modifiée par le parcours
+* La durée maximale de temporisation de l’événement est de 90 jours.
+* Lorsque plusieurs événements suivent une activité Attente , la temporisation ne doit être configurée que pour un seul de ces événements ; la temporisation définie s’applique alors à tous les événements postérieurs à l’activité Attente .
+* Si aucun chemin de temporisation n’est défini, la temporisation agit comme une activité d’attente ; les profils qui ne reçoivent pas l’événement restent dans le parcours jusqu’à ce que le délai expire
+
+**Terminologie:**
+* Nom canonique : Événement général — Acronyme : none — variantes : événement unitaire, événement personnalisé
+* Synonymes : « événement général » = « événement unitaire » (dans le contexte de l’activité Zone de travail)
+* Ne les confondez pas : « événement métier » ≠ « événement unitaire » : un événement métier cible une audience de profils, tandis qu’un événement unitaire cible une seule personne
+
+**FAQ:**
+* **Q : Puis-je modifier la configuration de l’événement à partir de la zone de travail de parcours ?** — Non ; seuls le libellé et la description peuvent être modifiés sur la zone de travail. La configuration complète de l’événement est définie par un utilisateur technique et ne peut pas être modifiée à partir du parcours.
+* **Q : Que se passe-t-il si aucun événement n’est reçu avant l’expiration du délai ?** — Si un chemin de temporisation est défini, le profil s&#39;engage dans ce chemin. Si aucun chemin de temporisation n’est défini, la temporisation se comporte comme une activité Attente et le profil continue le parcours après la temporisation.
+* **Q : Quelle est la durée maximale de temporisation de l’événement ?** — 90 jours.
+* **Q : Quand dois-je activer l’option de chemin de temporisation ?** — Activez-la toujours si vous souhaitez que les profils quittent cette branche après la temporisation ; sans chemin de temporisation, les profils restent dans le parcours en attente de l’événement.
+* **Q : En quoi un événement métier diffère-t-il d’un événement unitaire dans la zone de travail de parcours ?** : le dépôt d&#39;un événement métier ajoute automatiquement une activité Lecture d&#39;audience, car les événements métier ciblent plusieurs profils simultanément plutôt qu&#39;une seule personne.
+
++++

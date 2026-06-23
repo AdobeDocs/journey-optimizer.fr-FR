@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 2041
-ht-degree: 47%
+source-wordcount: 2742
+ht-degree: 35%
 
 ---
 
@@ -332,3 +332,53 @@ Ces exemples montrent comment les identifiants supplémentaires prennent en char
 Découvrez comment activer et appliquer un identifiant supplémentaire dans [!DNL Adobe Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/3464794?captions=fre_fr&quality=12)
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page explique comment utiliser des identifiants supplémentaires dans les parcours Adobe Journey Optimizer pour permettre à un seul profil d’avoir plusieurs instances de parcours simultanées, chacune limitée à un identifiant secondaire distinct tel qu’un identifiant de réservation, d’abonnement ou de politique.
+
+**Intentions:**
+* Comprendre quand et pourquoi utiliser un identifiant supplémentaire au lieu de se fier uniquement à un identifiant de profil
+* Configurez un identifiant supplémentaire dans un parcours déclenché par un événement en marquant un attribut comme une identité dans le schéma d’événement
+* Configurez un identifiant supplémentaire dans un parcours Lecture d&#39;audience en activant l&#39;option dans l&#39;activité Lecture d&#39;audience .
+* Référencez des attributs d’identifiant supplémentaires pour la personnalisation des messages et la logique conditionnelle à l’aide de l’éditeur d’expression
+* Appliquez la syntaxe d’expression correcte pour effectuer une itération sur les tableaux d’objets indexés par un ID supplémentaire
+* Identifiez les mécanismes de sécurisation et les limitations avant d’implémenter des identifiants supplémentaires dans un parcours
+
+**Glossaire:**
+* **Identifiant supplémentaire** : un identifiant secondaire (par exemple, identifiant de commande, identifiant de réservation, identifiant d’abonnement) utilisé avec l’identifiant de profil pour étendre une instance de parcours à un enregistrement spécifique, ce qui permet d’activer plusieurs instances simultanées par *de profil (spécifique au produit)*
+* **Identifiant de profil** : identifiant principal utilisé par défaut pour exécuter des parcours. Un profil actif dans un parcours ne peut pas rejoindre à nouveau un autre parcours sans identifiant supplémentaire.
+* **Espace de noms d’identifiant non-personne** : espace de noms d’identité qui ne représente pas une personne (obligatoire pour les identifiants supplémentaires) et qui doit être distinct de l’espace de noms d’identité principal
+* **espace de noms joai** : ne s’applique pas à cette page (voir dépannage des actions entrantes).
+* **DULE** : étiquetage et application de l’utilisation des données : cadre de validation des politiques de gouvernance des données dans Adobe Experience Platform. Les identifiants supplémentaires ne sont pas soumis aux vérifications DULE.
+
+**Mécanismes de sécurisation :**
+* Les identifiants supplémentaires sont pris en charge uniquement pour les parcours déclenchés par un événement et Lecture d’audience ; non pris en charge pour les parcours de qualification d’audience
+* Un profil ne peut pas avoir plus de 10 instances de parcours simultanées
+* Chaque instance de parcours est comptabilisée dans le capping de la fréquence même lorsqu’elle est créée avec des identifiants supplémentaires
+* L’identifiant supplémentaire doit être de type `string` ; les tableaux de chaînes et les mappages ne sont pas pris en charge
+* L’attribut ID supplémentaire ne doit pas être marqué comme identité de Principal dans le schéma
+* L’espace de noms utilisé pour l’ID supplémentaire doit être un espace de noms d’identifiant non-personne
+* Après avoir appliqué l’espace de noms d’identité non-personne à un schéma, un nouvel événement ou groupe de champs doit être créé ; les entités existantes ne peuvent pas être actualisées
+* Pour les parcours Lecture d’audience avec ID supplémentaires : le taux de lecture est limité à 500 profils par seconde et par instance de parcours ; seules les audiences du service de profil unifié sont prises en charge ; l’ID supplémentaire doit être un champ de profil (et non un champ d’événement/de contexte)
+* Les événements en aval dans le même parcours doivent utiliser le même ID supplémentaire et le même espace de noms
+* L’ID supplémentaire est désactivé pour les parcours Lecture d’audience qui utilisent un événement métier.
+
+**Terminologie:**
+* Nom canonique : Identifiant supplémentaire — Acronyme : none — variantes : Identifiant supplémentaire, identifiant secondaire
+* Synonymes : « identifiant supplémentaire » = « ID supplémentaire » (utilisé de manière interchangeable dans l’interface utilisateur et la documentation)
+* Ne pas confondre : « Identifiant supplémentaire » ≠ « Identité principale » — l&#39;identifiant supplémentaire ne doit jamais être marqué comme l&#39;identité principale dans le schéma
+
+**FAQ:**
+* **Q : À quoi sert un identifiant supplémentaire ?** : permet à un seul profil de saisir et d’exécuter un parcours plusieurs fois simultanément, chaque instance étant limitée à un enregistrement secondaire différent tel qu’un identifiant de réservation, d’abonnement ou de police.
+* **Q : Quels types de parcours prennent en charge les identifiants supplémentaires ?** — parcours déclenchés par un événement et parcours Lecture d&#39;audience. Les parcours de qualification d’audience ne prennent pas en charge les identifiants supplémentaires.
+* **Q : Combien d’instances de parcours simultanées un profil peut-il avoir avec des identifiants supplémentaires ?** : un maximum de 10 instances de parcours simultanées par profil.
+* **Q : Puis-je utiliser les attributs d’ID supplémentaires pour la personnalisation des messages ?** — Oui. Référencez-les via le menu Attributs contextuels dans l’éditeur d’expression ou l’éditeur de personnalisation.
+* **Q : L’ID supplémentaire doit-il être marqué comme une identité de Principal dans le schéma ?** — Non. Elle doit être marquée comme identité mais ne doit pas être définie comme identité de Principal.
+* **Q : Les politiques de gouvernance DULE sont-elles appliquées à l’identifiant supplémentaire ?** — Non. Les contrôles de validation DULE ne sont pas effectués sur l’ID supplémentaire.
+
++++

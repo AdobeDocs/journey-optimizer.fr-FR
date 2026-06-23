@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 590
-ht-degree: 90%
+source-wordcount: 1134
+ht-degree: 47%
 
 ---
 
@@ -92,3 +92,46 @@ Si les problèmes persistent après avoir vérifié ces éléments, contactez vo
 >* [Test à blanc d’un parcours](journey-dry-run.md)
 >* [Configurer et suivre les mesures de votre parcours](success-metrics.md)
 >* [Rapports sur les parcours personnalisés](../reports/sharing-overview.md)
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page explique comment afficher et interpréter le rapport dynamique incorporé dans la zone de travail du parcours, couvrant les mesures de flux des profils clés disponibles pour les parcours et parcours publiés en mode Exécution d’essai.
+
+**Intentions:**
+* Affichage des mesures de performances du parcours en temps réel directement dans la zone de travail du parcours
+* Interpréter les nombres de profils entrés, sortis, en erreur et ignorés pour le parcours et chaque activité
+* Comprendre pourquoi les profils sont ignorés d’un parcours
+* Résolution des problèmes liés aux données manquantes ou inattendues dans les rapports dynamiques de parcours
+* Vérifier l’autorisation requise pour accéder aux rapports dynamiques du parcours
+
+**Glossaire:**
+* **Rapports dynamiques** : mesures en temps réel affichées directement sur la zone de travail du parcours couvrant les dernières 24 heures *(spécifique au produit)*
+* **Mode d’exécution d’essai** : mode d’exécution de parcours qui simule le parcours sans envoyer de messages réels, dans lequel les rapports en direct sont également disponibles *(spécifiques au produit)*
+* **Profils ignorés** : profils qui ont tenté d’entrer sur le parcours mais ont été rejetés en raison d’incohérences de qualification, de restrictions de reprise ou de problèmes d’identité *(spécifiques au produit)*
+* **Sorti (sortie forcée)** : profils qui ont été supprimés du parcours alors qu’il était en pause par un professionnel du parcours ; toujours zéro en mode d’exécution d’essai *(spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+* Les données du rapport dynamique ne couvrent que les dernières 24 heures.
+* Les événements sont affichés avec un intervalle minimum de deux minutes à compter de l’occurrence, généralement dans les cinq minutes.
+* L’autorisation Afficher le rapport des parcours est requise pour afficher les données du rapport dynamique.
+* Les données de rapport ne sont disponibles que pour les parcours publiés ou les parcours en mode Exécution d’essai ; les brouillons de parcours ne génèrent aucune donnée.
+* Pour les activités Action , la mesure Entrée affiche les profils qui transitent par (non exécutés) en mode d’exécution d’essai.
+* La mesure Sortie (sortie forcée) est toujours égale à zéro en mode d’exécution d’essai.
+
+**Terminologie:**
+* Nom canonique : Rapport dynamique (zone de travail de parcours) — Acronyme : aucune — variantes : rapport dynamique de parcours, rapport intégré à la zone de travail
+* Synonymes : « Profils entrés » = « profils entrés dans le parcours »
+* Ne les confondez pas : « Rapport dynamique » ≠ « Rapport global de Parcours » (le rapport dynamique correspond aux dernières 24 heures dans la zone de travail ; le rapport global couvre une période historique plus large dans l’interface utilisateur du rapport)
+
+**FAQ:**
+* **Q : À quel point les données affichées dans le rapport dynamique sont-elles récentes ?** — Les événements des dernières 24 heures sont affichés, avec un délai d’affichage minimal de deux minutes et généralement de cinq minutes.
+* **Q : Pourquoi ne puis-je pas voir de données dans mon rapport dynamique de parcours ?** — Vérifiez que vous disposez de l&#39;autorisation de rapport Afficher les parcours, que le parcours est publié (pas dans le brouillon) et que le nom du parcours correspond au nom du jeu de données de rapport.
+* **Q : Qu’est-ce qui entraîne la suppression des profils ?** — Des abandons peuvent survenir en raison de non-correspondances du verbe de qualification d’audience, de violations de politique de rentrée sur des parcours récurrents ou déclenchés par un événement, ou d’un espace de noms d’identité manquant/non concordant sur des activités Lecture d’audience.
+* **Q : Le rapport dynamique est-il disponible en mode Exécution d’essai ?** — Oui ; les rapports en direct sont disponibles pour les parcours en direct publiés et les parcours s’exécutant en mode Exécution d’essai.
+* **Q : Que signifie la mesure Entrée pour les activités Action en mode Exécution d’essai ?** : indique les profils passant par l’activité, puisque les actions ne sont pas réellement exécutées en mode Exécution d’essai.
+
++++

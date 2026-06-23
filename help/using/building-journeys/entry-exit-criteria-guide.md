@@ -31,10 +31,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1700
-ht-degree: 91%
+source-wordcount: 2251
+ht-degree: 68%
 
 ---
 
@@ -241,3 +241,51 @@ Commencez par mapper clairement les déclencheurs et les points de sortie de vos
 **Fonctionnalités associées**
 
 [Événements de qualification d’audience](audience-qualification-events.md) | [Mesures de succès et objectifs](success-metrics.md) | [Gestion des conflits](../conflict-prioritization/conflicts.md) | [Capping de la fréquence](../conflict-prioritization/rule-sets.md) | [parcours de test](testing-the-journey.md) | [Optimiser l’activité](optimize.md) | [Événements de réaction](reaction-events.md) | [Activité d’attente](wait-activity.md)
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Ce guide explique comment définir, configurer et optimiser les critères d’entrée et de sortie de parcours dans Adobe Journey Optimizer, avec des exemples réels et des bonnes pratiques pour s’assurer que les profils adéquats sont atteints au bon moment.
+
+**Intentions:**
+
+* Configurer des critères d’entrée basés sur un événement, une audience ou un attribut pour un parcours
+* Configurez des critères de sortie en fonction de l’achèvement du parcours, des mesures de succès, des délais d’inactivité ou de la disqualification de l’audience
+* Appliquez des règles de rentrée pour contrôler si les profils peuvent entrer plusieurs fois dans un parcours
+* Éviter les parcours qui se chevauchent en utilisant la gestion des conflits et les scores de priorité
+* Surveiller et optimiser les taux d’entrée et de sortie à l’aide de rapports de parcours
+
+**Glossaire:**
+
+* **Critères d’entrée** : conditions qui déterminent à quel moment un profil client est qualifié pour entrer dans un *de parcours (spécifique au produit)*
+* **Critères de sortie** : conditions qui définissent quand et comment un profil quitte ou est supprimé d’une *de parcours (spécifique au produit)*
+* **Qualification d’audience** : mécanisme d’entrée par parcours qui se déclenche lorsqu’un profil entre ou sort d’une audience de diffusion en continu en temps réel *(spécifique au produit)*
+* **Reprise** : possibilité pour un profil de rejoindre le même parcours plusieurs fois, configurable avec une période d’attente *(spécifique au produit)*
+* **Capping de la fréquence** : règle qui limite le nombre de messages qu’un profil peut recevoir au cours d’une période donnée *(spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+
+* Un profil ne peut pas être présent plusieurs fois en même temps dans le même parcours.
+* La rentrée doit être explicitement activée ; la période d’attente de rentrée par défaut est de 5 minutes avec un maximum de 91 jours.
+* Pour une gestion avancée des fréquences multi-parcours, utilisez le plafonnement et l’arbitrage des parcours plutôt que des critères de sortie individuels.
+* Les chevauchements de parcours doivent être gérés de manière proactive ; utilisez la gestion des conflits et les scores de priorité pour résoudre les parcours concurrents.
+
+**Terminologie:**
+
+* Nom canonique : Critères d’entrée — Acronyme : s.o. — Variantes : conditions d’entrée, déclencheurs de parcours
+* Nom canonique : Critères de sortie — Acronyme : s/o — Variantes : conditions de sortie, règles de suppression de profil
+* Synonymes : « disqualification d’audience » = « sortie d’audience » comme déclencheur de sortie
+* Ne les confondez pas : « Fermer aux nouvelles entrées » ≠ « Critères de sortie » : le premier bloque les nouvelles entrées ; les critères de sortie suppriment les profils en cours
+
+**FAQ:**
+
+* **Q : Un profil peut-il être dans le même parcours deux fois en même temps ?** — Non, un profil ne peut pas être présent en même temps dans le même parcours. L’identité du profil est utilisée comme clé pour appliquer cela.
+* **Q : Comment empêcher un profil de rejoindre à nouveau un parcours ?** — Désactiver la rentrée dans le panneau Propriétés du parcours ou ajouter une condition pour vérifier si le profil est déjà entré.
+* **Q : Quelle est la différence entre les critères de sortie et la fermeture d&#39;un parcours ?** — Les critères de sortie suppriment des profils individuels d&#39;un parcours dynamique en fonction de conditions ; la fermeture d&#39;un parcours arrête toutes les nouvelles entrées tout en laissant les profils actuels se terminer.
+* **Q : Comment puis-je arrêter la communication excessive avec les clients sur plusieurs parcours ?** — Utilisez les règles de limitation de la fréquence, ainsi que la limitation et l&#39;arbitrage des parcours pour appliquer les limites de messages entre parcours.
+* **Q : Qu’est-ce que la disqualification d’audience comme déclencheur de sortie ?** : lorsqu’un profil ne répond plus aux critères du segment ciblé, il est automatiquement supprimé du parcours pour que les communications restent pertinentes.
+
++++

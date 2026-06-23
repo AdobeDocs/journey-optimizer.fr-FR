@@ -10,10 +10,10 @@ version: Journey Orchestration
 exl-id: 871a5212-5b94-4a54-bf1d-276022be3c95
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 719
-ht-degree: 100%
+source-wordcount: 1105
+ht-degree: 65%
 
 ---
 
@@ -508,5 +508,45 @@ Renvoie 21.
 `sum([10.5,null,8.1])`
 
 Renvoie 18.6.
+
++++
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page documente toutes les fonctions d’agrégation disponibles dans les expressions de parcours AJO, couvrant la manière de calculer des moyennes, des sommes, des valeurs min/max, des nombres et des nombres distincts sur des listes et des tableaux.
+
+**Intentions:**
+* Calculer la moyenne d’une liste de valeurs numériques à l’aide de `avg`
+* Additionner des valeurs numériques dans une liste ou à partir de champs d&#39;événement à l&#39;aide de `sum`
+* Rechercher la valeur minimale ou maximale dans une liste à l’aide de `min` ou `max`
+* Compter les éléments non nuls, nuls uniquement ou tous les éléments d’une liste utilisant `count`, `countOnlyNull` ou `countWithNull`
+* Compter les valeurs distinctes dans une liste, avec ou sans valeurs NULL, en utilisant `distinctCount` ou `distinctCountWithNull`
+* Filtrer des objets uniques dans un listObject en fonction d’un attribut de clé spécifique à l’aide de `distinctCount` avec un paramètre de clé
+
+**Glossaire:**
+* **listObject** : liste d’objets complexes (références de champ) ; ne peut pas contenir d’objets nuls *(spécifiques au produit)*
+* **listAny** : liste de tout type scalaire pris en charge (chaîne, booléen, entier, décimal, durée, dateTime, dateTimeOnly, dateOnly) *(spécifique au produit)*
+* **Valeur Null** : élément absent ou non défini dans une liste ; la plupart des fonctions d’agrégation ignorent les valeurs Null, sauf si la fonction les gère explicitement (par exemple, `countOnlyNull`, `countWithNull`, `distinctCountWithNull`)
+
+**Mécanismes de sécurisation :**
+* `countOnlyNull`, `countWithNull` et `distinctCountWithNull` ne prennent pas en charge le type de paramètre `<listObject>`
+* `distinctCount` sur un `listObject` nécessite que la liste soit une référence de champ, et non un littéral intégré
+* `count` sur un `listObject` nécessite que la liste soit une référence de champ ; un listObject ne peut pas contenir d’objets null
+
+**Terminologie:**
+* Nom canonique : Fonctions d’agrégation — Acronyme : none — Variantes : fonctions d’agrégation, fonctions de collection
+* Synonymes : « count » = « count non null elements » ; « countWithNull » = « count all elements includes nulls »
+* Ne pas confondre : « distinctCount » (ignore les nulls) ≠ « distinctCountWithNull » (inclut les nulls comme valeur distincte)
+
+**FAQ:**
+* **Q : Est-ce que `avg` inclut les valeurs nulles dans son calcul ?** — Non, `avg` ignore automatiquement les valeurs nulles.
+* **Q : Quelle est la différence entre `count` et `countWithNull` ?** — `count` exclut les valeurs nulles du total, tandis que `countWithNull` compte chaque élément, y compris les nulles.
+* **Q : Puis-je utiliser `countOnlyNull` sur un listObject ?** — Non, `<listObject>` n&#39;est pas pris en charge par `countOnlyNull`, `countWithNull` ou `distinctCountWithNull`.
+* **Q : Comment compter des objets distincts dans un tableau en fonction d’un attribut spécifique ?** — Utilisez `distinctCount(@event{...}, "attributeName")` en indiquant le nom de l&#39;attribut de clé comme deuxième paramètre.
+* **Q : Que renvoie-`max` lorsque la liste contient des nulls ?** — `max` ignore les valeurs nulles et renvoie le maximum parmi les éléments non nuls.
 
 +++

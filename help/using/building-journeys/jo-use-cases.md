@@ -30,10 +30,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1054
-ht-degree: 76%
+source-wordcount: 1523
+ht-degree: 52%
 
 ---
 
@@ -259,3 +259,40 @@ Parcourez les articles de blog suivants pour obtenir d’autres conseils et cons
 </div>
 </td>
 </tr></table>
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+- **TL;DR:** Cette page est une bibliothèque organisée de cas pratiques d’utilisation de parcours — couvrant les événements d’expérience, les requêtes de jeux de données, les scénarios commerciaux, les modèles techniques, les tutoriels vidéo et les articles de blog de la communauté — pour aider les utilisateurs à tirer le meilleur parti de Adobe Journey Optimizer.
+
+**Intentions:**
+- Découvrez des exemples de cas d’utilisation pratiques couvrant des scénarios métier tels que la messagerie multicanale, les campagnes d’abonnés et la diffusion d’e-mails le jour de la semaine uniquement
+- Localisez les modèles de cas d’utilisation techniques pour les actions personnalisées, la limitation du débit et la suppression des profils d’un parcours en direct
+- Accédez à des tutoriels vidéo sur les schémas de parcours courants, y compris l’intégration des clients, l’abandon de panier et le réengagement
+- Jeux de données Query Adobe Journey Optimizer (événements d’étape, événements de suivi, propositions d’offre) pour créer des analyses et des rapports personnalisés
+- Utilisez les modèles de recherche d’événement d’expérience pour gérer les désinscriptions, la fréquence et la personnalisation en temps réel
+
+**Glossaire:**
+- **Événement d’expérience** : enregistrement horodaté d’une interaction client (par exemple, achat, clic, page vue) stocké dans Adobe Experience Platform et utilisé pour déclencher ou personnaliser des *de parcours (spécifiques au produit)*
+- **Événement d’étape** : enregistrement de jeu de données généré automatiquement qui capture chaque étape d’un profil dans un parcours. Il est utilisé pour les *personnalisées de création de rapports et de débogage (spécifiques au produit)*
+- **Action personnalisée** : activité de parcours qui appelle une API externe pour envoyer des données à ou recevoir des données d’un *système tiers (spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+- Chaque exemple d’utilisation comprend des recommandations qui doivent être adaptées aux besoins spécifiques. Il s’agit de points de départ, et non de configurations prescriptives
+- Les requêtes de jeux de données nécessitent l’accès à Adobe Experience Platform Query Service
+- Les tutoriels vidéo font référence à des ressources d’apprentissage externes sur Experience League
+
+**Terminologie:**
+- Nom canonique : Cas d’utilisation — Acronyme : aucun — variantes : cas d’utilisation de parcours, exemples pratiques, recettes
+- Synonymes : « cas d’utilisation commerciale » = « cas d’utilisation marketing » ; « cas d’utilisation technique » = « cas d’utilisation pour les développeurs »
+
+**FAQ:**
+- **Q : Par où dois-je commencer si je suis nouveau dans les critères d’entrée et de sortie de parcours ?** commencez par consulter le guide complet sur les critères d&#39;entrée et de sortie du parcours, qui comprend des cas d&#39;utilisation réels, les bonnes pratiques et des conseils de configuration détaillés.
+- **Q : Comment interroger des événements d’étape de parcours pour le compte rendu des performances personnalisé ?** — Utilisez le service de requête de Adobe Experience Platform pour interroger le jeu de données d’événements d’étape de parcours. Des exemples de requêtes sont disponibles dans la page d’exemples de requête de jeux de données liés.
+- **Q : Où puis-je trouver un cas d’utilisation pour l’envoi d’e-mails uniquement les jours de la semaine ?** — Reportez-vous à la page de cas d&#39;utilisation d&#39;e-mail en semaine, également disponible en tant qu&#39;article de blog communautaire.
+- **Q : Comment supprimer des profils d’un parcours en direct ?** : utilisez la fonction de critères de sortie des attributs de profil sur un parcours en pause, comme décrit dans le cas d’utilisation technique pour supprimer des profils d’un parcours en ligne.
+
++++

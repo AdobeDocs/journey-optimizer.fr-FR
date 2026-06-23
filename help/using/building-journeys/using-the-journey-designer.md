@@ -32,10 +32,10 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1705
-ht-degree: 89%
+source-wordcount: 2271
+ht-degree: 67%
 
 ---
 
@@ -174,3 +174,52 @@ Si vous ne souhaitez copier qu&#39;une seule activité, vous pouvez cliquer dess
    ![Icône Copier dans le volet de configuration de l’activité](assets/copy-paste2.png)
 1. Dans n’importe quel parcours, appuyez sur **Ctrl/Commande + V** pour coller les activités sans les lier à un nœud existant. Les activités collées sont placées dans le même ordre. Une fois collées, les activités restent sélectionnées pour que vous puissiez facilement les déplacer. Vous pouvez également placer le curseur sur un espace réservé vide et cliquer sur **Ctrl/Commande + V**. Les activités collées seront liées au nœud.
    ![Activités collées dans la zone de travail du parcours prêtes à être connectées](assets/copy-paste3.png)
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page présente le canevas du concepteur de parcours Journey Optimizer, expliquant comment créer des parcours à plusieurs étapes en faisant glisser des événements, de l’orchestration et des activités d’action depuis la palette.
+
+**Intentions:**
+
+* Navigation dans l’interface du concepteur de parcours (palette, zone de travail, barre d’outils, volet de configuration des activités)
+* Ajouter des événements, des activités d’orchestration et des activités d’action à une zone de travail de parcours
+* Configurer un autre chemin d’accès de secours pour les activités Condition et Action en cas de temporisation ou d’erreur
+* Copiez et collez des activités dans le même parcours ou dans différents parcours de la même instance.
+* Démarrez un parcours à l’aide d’un déclencheur d’événement ou d’un point d’entrée Lecture d’audience
+
+**Glossaire:**
+
+* **Palette** : panneau de gauche du concepteur de parcours répertoriant toutes les activités d’événement, d’orchestration et d’action disponibles pour un glisser-déposer sur le *de la zone de travail (spécifique au produit)*
+* **Zone de travail** : zone de conception centrale du concepteur de parcours dans laquelle les activités sont placées, connectées et configurées *(spécifique au produit)*
+* **Volet de configuration des activités** : panneau de droite qui s’ouvre lorsqu’une activité est sélectionnée sur la zone de travail, utilisé pour renseigner les paramètres d’activité *(spécifiques au produit)*
+* **Fragments de Parcours** : ensembles réutilisables de nœuds de parcours préconfigurés pouvant être insérés directement dans la zone de travail pour éviter de reconstruire des *logiques courantes (spécifiques au produit)*
+* **Événement de réaction** : activité d’événement placée après un message pour créer une branche du parcours en fonction des interactions de suivi des destinataires (ouverture, clic) *(spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+
+* Les actions, les conditions, les activités d&#39;attente et les événements de réaction ne peuvent pas être placés comme première étape dans un nouveau parcours.
+* Le copier/coller n’est pris en charge que dans la même instance ; le copier/coller entre instances n’est pas pris en charge.
+* Vous ne pouvez pas copier/coller un événement dans un parcours de destination qui utilise un autre espace de noms.
+* Les activités collées à partir d’un autre sandbox peuvent référencer des données qui n’existent pas dans le parcours de destination.
+* Seules les activités d’événement et d’attente peuvent être définies en parallèle. Les autres types d’activité ne peuvent pas s’exécuter en parallèle.
+* Les chemins alternatifs (temporisation/erreur de remplacement) ne sont disponibles que pour les activités Condition et Action .
+
+**Terminologie:**
+
+* Nom canonique : Parcours Designer — Acronyme : none — variantes : parcours canvas, orchestration canvas
+* Synonymes : « palette » = « panneau d’activité » ; « zone de travail » = « zone de conception »
+* Ne les confondez pas : « événements » (déclenchement d’une entrée de parcours ou d’un embranchement) ≠ « actions » (ce qui arrive au client, par exemple envoyer un message)
+
+**FAQ:**
+
+* **Q : Comment les profils entrent-ils dans un parcours ?** — Les profils entrent soit unitairement en temps réel lorsqu’un événement configuré est reçu, soit par lots lorsqu’une activité Lecture d’audience déclenche le parcours.
+* **Q : Puis-je ajouter plusieurs événements à un parcours ?** — Oui, vous pouvez ajouter plusieurs événements à condition qu’ils utilisent tous le même espace de noms.
+* **Q : Comment définir une solution de secours en cas d’échec d’une action ?** — Dans les propriétés de l&#39;activité, activez l&#39;option « Ajouter un itinéraire alternatif en cas de temporisation ou d&#39;erreur » pour ajouter un itinéraire de secours après l&#39;activité.
+* **Q : Puis-je copier des activités à partir d’un parcours en lecture seule ?** — Oui, vous pouvez copier des activités à partir de n&#39;importe quel parcours, quel que soit son statut, mais vous ne pouvez coller que dans la même instance.
+* **Q : Qu’est-ce qu’un fragment de Parcours ?** — Un ensemble réutilisable de nœuds de parcours préconfigurés (par exemple, contrôles d’éligibilité, séquences de bienvenue) qui peuvent être insérés directement sur la zone de travail pour éviter de reconstruire une logique commune à partir de zéro.
+
++++

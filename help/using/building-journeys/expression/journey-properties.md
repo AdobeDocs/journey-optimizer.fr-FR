@@ -20,10 +20,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 592
-ht-degree: 100%
+source-wordcount: 1103
+ht-degree: 53%
 
 ---
 
@@ -79,3 +79,49 @@ Voici quelques exemples de cas d’utilisation :
 | | lastDataFetchErrorCode | Code d’erreur de la dernière récupération de données | Code d’erreur de la dernière récupération de données à partir des sources de données |
 | Heure | lastActionExecutionElapsedTime | Temps écoulé avant l’exécution de la dernière action | Temps passé à exécuter la dernière action |
 | | lastDataFetchElapsedTime | Temps écoulé avant la dernière récupération des données | Temps passé à exécuter la dernière récupération de données à partir de sources de données |
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page décrit la catégorie Propriétés du Parcours dans l’éditeur d’expression, un ensemble de champs techniques relatifs à l’instance de parcours dynamique (identifiants, erreurs, nœuds actuels/précédents, temps écoulés) qui peuvent être utilisés pour créer des expressions pour la journalisation, les alertes et les rapports spécifiques aux erreurs.
+
+**Intentions:**
+
+* Accédez aux champs Propriétés du Parcours dans l’éditeur d’expression simple ou avancé pour référencer les métadonnées des parcours en direct
+* Créez une condition qui filtre les profils ignorés par type d’erreur pour les acheminer vers un système de journalisation tiers
+* Envoyez des alertes d’erreur à un canal externe (par exemple, Slack) en référençant le dernier code d’erreur et le nom du nœud dans une action personnalisée
+* Affinez le rapport d’erreurs de parcours en créant des chemins de condition distincts par type d’erreur à l’aide de `lastNodeTypeInError` et `lastErrorCode`
+* Identifiants de version de parcours de référence, identifiants d’instance et nom de sandbox dans les expressions pour le suivi et le contrôle
+
+**Glossaire:**
+
+* **Propriétés du Parcours** : catégorie dans l&#39;éditeur d&#39;expression contenant des champs de métadonnées techniques pour l&#39;instance d&#39;exécution de parcours en cours *(spécifiques au produit)*
+* **instanceUID** : identifiant unique de l’instance de parcours pour une *d’exécution de profil donnée (spécifique au produit)*
+* **lastErrorCode** : code d’erreur de l’activité ayant échoué la plus récente dans le parcours. Les valeurs possibles incluent les codes HTTP, `capped`, `timedOut` et `error` *(spécifiques au produit)*
+* **lastNodeTypeInError** : type de la dernière activité ayant rencontré une erreur. Il peut s’agir d’événements, de contrôle de flux ou d’actions *(spécifique au produit)*
+* **externalKey** : identifiant individuel (par exemple, identifiant de profil) ayant déclenché l’*d’instance de parcours (spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+
+* Les valeurs des champs Propriétés du parcours sont directement extraites du parcours actif au moment de l’exécution. Elles ne sont pas disponibles pour la validation de pré-exécution.
+* Le champ `lastErrorCode` utilise des valeurs prédéfinies : codes d’erreur HTTP, `capped`, `timedOut` et `error`
+* Les propriétés du parcours sont disponibles dans les éditeurs d’expression simple et avancé, dans la catégorie Propriétés du Parcours .
+
+**Terminologie:**
+
+* Nom canonique : Propriétés du Parcours — Acronyme : none — variantes : champs techniques du parcours, champs de métadonnées du parcours
+* Synonymes : « Propriétés du Parcours » = « Champs techniques du parcours » ; « instanceUID » = « Identifiant de l’instance du parcours »
+* Ne pas confondre : journeyUID (identifie la définition de parcours) ≠ instanceUID (identifie l’exécution du parcours par un profil spécifique)
+
+**FAQ:**
+
+* **Q : Où puis-je trouver les champs Propriétés du Parcours dans l’éditeur d’expression ?** — Ils apparaissent dans les éditeurs d&#39;expression simple et avancé sous la catégorie Propriétés du Parcours, sous Événements et Sources de données.
+* **Q : Comment puis-je consigner les profils ignorés par une règle de limitation ?** — Ajoutez un filtre de condition de chemin d’erreur sur `lastErrorCode == "capped"` et envoyez ces profils à un système tiers via une action personnalisée.
+* **Q : Quelle est la différence entre `journeyUID` et `instanceUID` ?** — `journeyUID` identifie la définition du parcours ; `instanceUID` identifie une instance d&#39;exécution spécifique pour un profil donné.
+* **Q : Quel code d’erreur est renvoyé en cas d’erreur système inattendue ?** — Le code `error`, qui est utilisé par défaut pour les erreurs inattendues et qui devrait se produire rarement.
+* **Q : Puis-je utiliser les champs Propriétés du Parcours pour envoyer des alertes Slack sur les échecs d’action ?** — Oui ; référencez `lastNodeNameInError` et `lastErrorCode` dans une action personnalisée pour inclure les détails de l’erreur dans une notification Slack.
+
++++

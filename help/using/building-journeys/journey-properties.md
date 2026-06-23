@@ -28,10 +28,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 4186
-ht-degree: 62%
+source-wordcount: 4990
+ht-degree: 52%
 
 ---
 
@@ -499,3 +499,61 @@ Il s’agit de concepts distincts. La temporisation globale de **[parcours](#glo
 * [Suspendre un parcours &#x200B;](journey-pause.md) - Suspendre et reprendre les parcours avec les critères de sortie d’attribut de profil
 * [Gestion des fuseaux horaires](timezone-management.md) - Configuration des fuseaux horaires de parcours et de profil
 * [Gestion et hiérarchisation des conflits](../conflict-prioritization/conflicts.md) - Identifiez et résolvez les conflits entre les parcours et les campagnes
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page explique comment configurer et gérer tous les paramètres globaux d’un parcours, y compris les règles d’entrée, les fuseaux horaires, les dates de début et de fin, le comportement du délai d’expiration, les critères de sortie, la taille de la payload et la gestion des conflits.
+
+**Intentions:**
+
+* Configurer des règles d’entrée et de reprise de parcours pour les profils
+* Définir les dates de début et de fin pour contrôler quand les profils peuvent entrer dans un parcours ou en sortir
+* Définissez des critères de sortie pour supprimer automatiquement les profils lorsqu’une condition commerciale est remplie
+* Gérer l’accès à un parcours à l’aide de libellés de contrôle d’accès au niveau de l’objet
+* Surveiller la taille de la payload du parcours pour éviter les échecs de publication
+* Résoudre les conflits et attribuer des scores de priorité aux parcours et aux campagnes
+
+**Glossaire:**
+
+* **Propriétés du Parcours** : panneau des paramètres globaux (rail de droite) qui contrôle le nom, les règles d’entrée, le fuseau horaire, les dates, le délai d’expiration, la taille de la payload et la gestion des conflits pour un parcours. *(spécifique au produit)*
+* **Période d’attente de reprise** : durée minimale pendant laquelle un profil doit attendre avant d’être autorisé à rejoindre à nouveau un parcours unitaire ; 90 jours au maximum. *(spécifique au produit)*
+* **Délai d’expiration global du parcours (TTL)** : durée maximale pendant laquelle un profil peut rester actif dans un parcours (actuellement 91 jours), après laquelle le profil est quitté et ses données supprimées. *(spécifique au produit)*
+* **Critères de sortie** : règles définies au niveau du parcours qui suppriment automatiquement les profils d’un parcours lorsqu’un événement spécifié se produit ou qu’une condition d’audience est remplie. *(spécifique au produit)*
+* **Critères de sortie basés sur les attributs de profil** : règles de sortie basées sur les attributs de profil (par exemple, emplacement, statut) qui sont évalués aux étapes d’action et ne sont modifiables que lorsqu’un parcours est en pause. *(spécifique au produit)*
+* **Politique de fusion** : ensemble de règles utilisé par Adobe Experience Platform pour regrouper des données de profil provenant de plusieurs sources ; appliqué de manière cohérente sur l’ensemble du parcours. *(spécifique au produit)*
+* **Gestion des conflits** : outils dans les propriétés du parcours permettant d’attribuer des scores de priorité, d’appliquer des ensembles de règles et d’identifier les parcours ou campagnes qui se chevauchent. *(spécifique au produit)*
+* **Taille de la payload du Parcours** : taille actuelle de la payload de définition du parcours par rapport à la limite configurée ; dépassement de la limite de publication des blocs. *(spécifique au produit)*
+* **OLAC (Object Level Access Control)** : modèle d’autorisation qui limite l’accès à des parcours individuels à l’aide de libellés d’utilisation des données.
+
+**Mécanismes de sécurisation :**
+
+* La période d’attente de reprise maximale est de 90 jours
+* La temporisation globale du parcours est de 91 jours ; au-delà de cette période, les données de profil sont supprimées et le profil est quitté
+* La limite par défaut de la payload du parcours est de 4 Mo. Si elle est dépassée, la publication est impossible. Contactez l’assistance clientèle d’Adobe pour obtenir une limite plus élevée.
+* Les critères de sortie ne sont configurables qu’en statut brouillon (types d’événement/d’audience) ; les critères de sortie des attributs de profil ne sont modifiables que lorsque le parcours est en pause
+* Une seule règle de critère de sortie d’attribut de profil est autorisée par parcours
+* Les critères de sortie des attributs de profil sont évalués aux étapes d’action uniquement, et non globalement
+* Lorsqu’une politique de fusion d’audience est mise à jour, tout parcours actif référençant cette audience doit être republié
+* Politiques de fusion incohérentes dans une publication de bloc de parcours ; les incohérences dans la personnalisation des messages ne déclenchent pas d’alerte
+* Pour les parcours en direct, le panneau Propriétés affiche uniquement la date de publication et le nom de l’éditeur
+
+**Terminologie:**
+
+* Nom canonique : propriétés du Parcours — Acronyme : none — variantes : paramètres du parcours, panneau de configuration du parcours
+* Synonymes : « délai d’expiration du parcours global » = « TTL » = « Time-to-Live »
+* Ne confondez pas : « délai d’expiration global du parcours (91 jours) » ≠ « fenêtre de création de rapports (~91 jours) » : le délai d’expiration limite la durée de profil individuel dans un parcours ; le délai de création de rapports est une limite d’affichage de l’interface utilisateur pour les données d’analyse
+
+**FAQ:**
+
+* **Q : Combien de temps un profil peut-il rester dans un parcours ?** : 91 jours au maximum (délai d’expiration global du parcours) ; au-delà de cette période, le profil est automatiquement quitté et ses données sont supprimées.
+* **Q : Puis-je modifier les propriétés du parcours lorsque le parcours est actif ?** — Pour les parcours en direct, le panneau Propriétés affiche uniquement la date de publication et le nom de l&#39;éditeur ; les modifications structurelles nécessitent une nouvelle version.
+* **Q : Que se passe-t-il lorsque plusieurs critères de sortie sont configurés ?** — Ils sont évalués de haut en bas avec une logique OR à chaque étape du parcours ; un profil se ferme lorsqu’un critère est satisfait.
+* **Q : Comment empêcher un profil de rejoindre à nouveau un parcours ?** — Décochez l&#39;option « Autoriser une reprise » dans les propriétés de parcours ; cela convient aux expériences ponctuelles telles qu&#39;une offre cadeau.
+* **Q : Quelle est la différence entre le délai d’expiration du parcours et la date de fin ?** — La date de fin arrête toutes les nouvelles entrées et quitte automatiquement les profils actifs à cette date spécifique ; la temporisation globale de 91 jours s’applique par profil à partir du moment où il entre, quelle que soit la date de fin du parcours.
+* **Q : Comment la politique de fusion est-elle déterminée pour un parcours ?** — Cela dépend du type de parcours : les parcours Lecture d&#39;audience et Qualification d&#39;audience utilisent la politique de fusion de l&#39;audience ; les parcours d&#39;événement unitaire utilisent la politique de fusion par défaut ; les parcours d&#39;événement métier utilisent la politique de fusion de l&#39;audience ciblée dans l&#39;activité Lecture d&#39;audience suivante.
+
++++

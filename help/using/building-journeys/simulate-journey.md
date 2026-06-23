@@ -11,10 +11,10 @@ keywords: test, parcours, vérification, erreur, dépannage
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 921e3df97574ccb9f4c3cc9d462f502161e86552
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 2176
-ht-degree: 1%
+source-wordcount: 2859
+ht-degree: 0%
 
 ---
 
@@ -258,3 +258,51 @@ Pour les activités **Attente**, le journal comprend deux valeurs liées à la d
 * **Durée réelle** : temps écoulé pendant lequel l’utilisateur simulé est resté sur l’activité **Attente**. Cette valeur est définie à partir de l’onglet **[!UICONTROL Paramètres de test]**.
 
 Lorsque des erreurs apparaissent dans le journal, laissez **Simulation**, apportez les modifications requises au parcours et exécutez à nouveau **Simulation**. Une fois la validation réussie, publiez le parcours. Voir [Publier votre parcours &#x200B;](../building-journeys/publish-journey.md).
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page fournit des instructions détaillées sur l’exécution d’une simulation rapide et d’une simulation manuelle dans Adobe Journey Optimizer, notamment sur la création et la gestion d’utilisateurs simulés, le déclenchement d’événements unitaires, le remplacement des durées d’attente et l’interprétation du journal des résultats.
+
+**Intentions:**
+* Exécutez une simulation rapide pour valider un parcours de bout en bout avec une entrée manuelle minimale.
+* Configurez la simulation manuelle pour contrôler la création d’utilisateurs simulée, les payloads d’événement et les remplacements d’attente
+* Créer des utilisateurs simulés via la génération d’IA, la navigation dans l’inventaire, la saisie de formulaire ou JSON
+* Déclenchement d’événements unitaires pour des utilisateurs simulés au cours d’une session de simulation active
+* Consultez le journal des résultats pour identifier les erreurs et les branches découvertes après une exécution de simulation
+* Réinitialiser ou fermer une session de simulation pour la démarrer à nouveau ou la quitter
+
+**Glossaire:**
+* **Simulation rapide** : mode de simulation automatisé qui génère des utilisateurs et des valeurs d’événement à l’aide du Journey Agent et exécute le parcours complet avec un minimum d’étapes manuelles *(spécifiques au produit)*
+* **Simulation manuelle** : mode de simulation étape par étape où les utilisateurs et utilisatrices contrôlent la création des utilisateurs et utilisatrices, les payloads des événements et la synchronisation individuellement *(spécifique au produit)*
+* **Utilisateurs simulés** : entités temporaires de type profil utilisées dans la simulation qui ne sont pas conservées dans les *Adobe Experience Platform (spécifiques au produit)*
+* **&#x200B;**&#x200B;: composant d’IA qui génère des payloads d’utilisateurs et d’événements simulés lors de *de simulation assistée par l’IA (spécifique au produit)*
+* **Paramètres de test** : onglet du panneau Simulation dans lequel les durées d’attente et les adresses d’exécution (e-mail, téléphone, jeton push) peuvent être remplacées pour l’exécution de la simulation *(spécifique au produit)*
+* **Journal des résultats** : journal d’exécution accessible à partir de l’onglet Résultats affichant les résultats, les durées et les erreurs par activité pour chaque *utilisateur simulée (spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+* Requiert au moins l’une des autorisations suivantes : Simuler des parcours, Publier des parcours ou Approuver et Publier des parcours
+* Les fonctionnalités d’IA (simulation rapide, Génération avec l’IA, Générer des valeurs d’événement) nécessitent l’autorisation Générer du contenu de la fonctionnalité Assistant d’IA
+* Pour les parcours déclenchés par un événement, l’icône Envoyer par utilisateur n’est pas disponible ; l’entrée est déclenchée via la section Événements de test .
+* Les remplacements de durée d’attente et les paramètres d’adresse d’exécution ne sont affichés que si le parcours inclut des activités Attente ou Canal
+* Les erreurs dans le journal des résultats nécessitent de quitter la simulation, de corriger le parcours et de réexécuter avant la publication
+
+**Terminologie:**
+* Nom canonique : simulation rapide — Acronyme : none — variantes : none
+* Nom canonique : simulation manuelle — Acronyme : none — variantes : none
+* Nom canonique : Utilisateurs simulés — Acronyme : aucun — variantes : utilisateurs tests (libellé de l’interface utilisateur dans la liste Utilisateurs tests)
+* Synonymes : « Send all » (Tout envoyer) = déclenche simultanément l’entrée de tous les utilisateurs simulés répertoriés dans le parcours
+* Ne pas confondre : « Réinitialiser la simulation » ≠ « Fermer la simulation » — Réinitialiser efface toutes les données et tous les paramètres ; Fermer ferme simplement la session en cours
+
+**FAQ:**
+* **Q : Quelle est la différence entre la simulation rapide et la simulation manuelle ?** — La simulation rapide exécute automatiquement l&#39;ensemble du parcours à l&#39;aide d&#39;utilisateurs et d&#39;événements générés par l&#39;IA ; la simulation manuelle permet de créer des utilisateurs et des événements étape par étape avec un contrôle total sur les payloads et le timing.
+* **Q : Puis-je réutiliser des utilisateurs simulés dans les sessions de simulation ?** — Oui. Les utilisateurs enregistrés dans l’inventaire peuvent être récupérés via l’option Parcourir l’inventaire au cours des sessions suivantes.
+* **Q : Comment puis-je remplacer les durées d’activité d’attente pendant la simulation ?** — Ouvrez l&#39;onglet Paramètres de test et définissez une durée plus courte, par exemple 10 secondes, de sorte que les utilisateurs simulés se déplacent rapidement dans les nœuds d&#39;attente.
+* **Q : Comment déclencher un événement unitaire pour un utilisateur simulé spécifique ?** — Dans la section Événements de test, cliquez sur l&#39;icône de modification en regard de l&#39;utilisateur pour configurer la payload d&#39;événement, puis cliquez sur l&#39;icône d&#39;envoi de cette ligne pour déclencher uniquement l&#39;événement de cet utilisateur.
+* **Q : Que signifient les champs Durée définie et Durée réelle dans le journal des résultats pour les activités d’attente ?** — Durée définie correspond au temps d’attente configuré du parcours dynamique ; Durée réelle correspond au temps d’attente remplacé que l’utilisateur simulé a réellement passé sur le nœud d’attente.
+* **Q : Que dois-je faire lorsque des erreurs apparaissent dans le journal des résultats ?** — Quittez la simulation, appliquez les correctifs requis au parcours, puis relancez la simulation jusqu&#39;à ce que l&#39;exécution ne présente plus aucune erreur avant la publication.
+
++++

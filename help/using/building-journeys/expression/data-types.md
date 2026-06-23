@@ -17,10 +17,10 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 671
-ht-degree: 100%
+source-wordcount: 1124
+ht-degree: 59%
 
 ---
 
@@ -130,7 +130,7 @@ false
 true
 ```
 
-## dateOnly {#date-only}
+## dateOnly {#date-only}
 
 **Description**
 
@@ -158,7 +158,7 @@ date("<dateOnly in ISO-8601 format>")
 date("2021-02-19")
 ```
 
-## dateTimeOnly {#date-time-only}
+## dateTimeOnly {#date-time-only}
 
 **Description**
 
@@ -348,3 +348,50 @@ Le polymorphisme n’est pas pris en charge. Par conséquent, toutes les express
 ```json
 [toDuration(500),toDuration(800)]
 ```
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page décrit tous les types de données pris en charge dans l’éditeur d’expression avancé de Parcours (chaîne, entier, décimal, booléen, dateOnly, dateTimeOnly, dateTime, durée et liste), ainsi que leurs formats JSON, règles de sérialisation et syntaxe de représentation littérale.
+
+**Intentions:**
+
+* Identifier la syntaxe littérale correcte pour chaque type de données lors de l’écriture d’expressions de parcours
+* Comprenez la différence entre les types `dateOnly`, `dateTimeOnly` et `dateTime` et quand les utiliser
+* Représente une valeur de durée au format ISO-8601 ou en millisecondes avec la fonction `toDuration()`
+* Construire une expression de liste avec des crochets syntaxiques à utiliser dans les opérations de collection
+* Utilisez des fonctions de conversion (`toDateTime`, `toDateTimeOnly`, `toDuration`, `toDateOnly`) pour créer des constantes typées
+
+**Glossaire:**
+
+* **dateOnly** : date sans fuseau horaire, au format AAAA-MM-JJ ; adaptée aux dates d’anniversaire ou de calendrier *(spécifiques au produit)*
+* **dateTimeOnly** : date et heure sans informations de fuseau horaire ; ne peut pas représenter un instant spécifique sans *de décalage (spécifique au produit)*
+* **dateTime** : constante date-heure qui comprend un décalage UTC, représentant un instant spécifique. Elle peut également être créée à partir d’un *entier d’époque (spécifique au produit)*
+* **durée** : quantité basée sur le temps modélisée en millisecondes ; utilise le format de `PnDTnHnMn.nS` ISO-8601 ; les années et les mois ne sont pas pris en charge *(spécifiques au produit)*
+* **list** : collection d’expressions du même type séparées par des virgules, délimitées par des crochets *(spécifiques au produit)*
+
+**Mécanismes de sécurisation :**
+
+* La durée prend uniquement en charge les millisecondes, les secondes, les minutes, les heures et les jours. Les années et les mois ne sont pas pris en charge, car il ne s&#39;agit pas de périodes fixes
+* Une valeur `duration` doit être encapsulée dans `toDuration()` — elle ne peut pas être exprimée sous la forme d&#39;un littéral nu
+* Toutes les expressions d&#39;un `list` doivent avoir le même type — le polymorphisme n&#39;est pas pris en charge
+* `dateTimeOnly` ne peut pas représenter un instant dans le temps sans décalage ou fuseau horaire supplémentaire
+
+**Terminologie:**
+
+* Nom canonique : Types de données — Acronyme : none — variantes : types de données d’expression, types de données de parcours
+* Synonymes : « dateTime » = « date-heure avec fuseau horaire »; « dateTimeOnly » = « date-heure locale »
+* Ne pas confondre : `dateOnly` (pas d’heure) ≠ `dateTimeOnly` (date + heure, pas de fuseau horaire) ≠ `dateTime` (date + heure + fuseau horaire/décalage)
+
+**FAQ:**
+
+* **Q : Quelle est la différence entre `dateTimeOnly` et `dateTime` ?** — `dateTimeOnly` n’a ni fuseau horaire ni décalage et ne peut pas représenter un instant précis ; `dateTime` inclut un décalage UTC et représente un moment spécifique dans le temps.
+* **Q : Comment exprimer une durée de 2 jours et 3 heures ?** — Utiliser `toDuration("P2DT3H")`.
+* **Q : Puis-je mélanger des entiers et des chaînes dans une expression de liste ?** — Non ; toutes les expressions d&#39;une liste doivent être du même type.
+* **Q : Comment créer un `dateTime` à partir d’un horodatage d’époque en millisecondes ?** — Utilisez `toDateTime(<epoch in milliseconds>)`, par exemple `toDateTime(1560762190189)`.
+* **Q : Le littéral booléen `true` ou `True`-il correct ?** — Utilisez des `true` ou des `false` en minuscules ; les variantes en majuscules ne sont pas valides.
+
++++

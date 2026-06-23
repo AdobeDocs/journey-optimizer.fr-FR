@@ -27,10 +27,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1226
-ht-degree: 83%
+source-wordcount: 1842
+ht-degree: 55%
 
 ---
 
@@ -152,3 +152,56 @@ After 91 days, a Read audience journey switches to the **Finished** status. This
 * [Configurer les critères de sortie](journey-properties.md#exit-criteria) : définissez quand les profils doivent quitter votre parcours.
 * [Terminer un parcours &#x200B;](end-journey.md) : comprenez comment les parcours se ferment et se terminent.
 * [Cas d’utilisation de parcours &#x200B;](jo-use-cases.md) : consultez des exemples complets avec des configurations d’entrée et de sortie.
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page explique le fonctionnement de la gestion de l’entrée de profil pour les quatre types de parcours dans Adobe Journey Optimizer, y compris les limites de débit, les paramètres de reprise et le comportement des activités Attente et Action sur le taux de traitement.
+
+**Intentions:**
+
+* Comprenez le comportement de l’entrée et les limites de débit pour chaque type de parcours (événement unitaire, événement métier, lecture d’audience, qualification de l’audience)
+* Activer ou désactiver la reprise de profil et configurer la période d’attente de reprise
+* Autoriser plusieurs exécutions d’événements métier pour un parcours métier
+* Identifier comment les activités d’attente et les activités d’action affectent le taux de traitement du parcours
+* Vérifiez qu’un profil n’est pas présent en même temps dans le même parcours
+
+**Glossaire:**
+
+* **Reprise** : possibilité pour un profil de rejoindre à nouveau le même parcours après l’avoir précédemment quitté ; configurable avec une période d’attente *(spécifique au produit)*
+* **Période d’attente de reprise** : temps minimal qui doit s’écouler avant qu’un profil puisse rejoindre à nouveau un parcours. La valeur par défaut est de 5 minutes, la valeur maximale est de 91 jours *(spécifique au produit)*
+* **TPS (Transactions par seconde)** : taux de débit auquel les profils peuvent être saisis ou traités dans un *de parcours (spécifique au produit)*
+* parcours d’événement unitaire **: parcours déclenché par un événement unique associé à un *de profil (spécifique au produit)***
+* parcours Lecture d’audience **: parcours qui traite un lot de profils appartenant à une audience définie, une fois ou selon un planning récurrent *(spécifique au produit)***
+* parcours d’événement métier **: parcours déclenché par un événement métier qui cible une audience, qui crée une instance de parcours par *de profil (spécifique au produit)***
+* parcours de qualification d’audience **: parcours déclenché lorsqu’un profil entre ou sort d’une audience de diffusion en continu dans des *en temps réel (spécifiques à un produit)***
+
+**Mécanismes de sécurisation :**
+
+* Un profil ne peut pas être présent plusieurs fois dans le même parcours en même temps sur toutes les versions actives.
+* Lire les parcours d’audience : 20 000 TPS au maximum au niveau du sandbox.
+* Parcours de qualification d’audience et d’événement unitaire : maximum de 5 000 TPS partagés au niveau de l’organisation.
+* Les événements métier sont comptabilisés dans le quota de 5 000 TPS ; l’activité Lecture d’audience suivante suit la limite de 20 000 TPS.
+* La période d’attente de reprise par défaut est de 5 minutes ; la durée maximale est de 91 jours (temporisation globale).
+* Les activités d’attente à temps fixe peuvent entraîner des surtensions de profil supérieures à 20 000 TPS et ne sont pas recommandées.
+* La limitation par défaut des actions personnalisées est de 300 000 appels par minute.
+* Pour les parcours métier, les données d’audience de la première exécution sont réutilisées pendant 1 heure.
+
+**Terminologie:**
+
+* Nom canonique : Gestion des entrées de profil — Acronyme : s.o. — variantes : gestion des entrées de profil, entrée de parcours
+* Synonymes : « reentry » = « reentry »
+* Ne les confondez pas : « parcours d’événement unitaire » ≠ « parcours de qualification de l’audience » - tous deux sont des scénarios unitaires, mais déclenchés différemment (émission d’événement par rapport au changement d’appartenance à l’audience)
+
+**FAQ:**
+
+* **Q : Un profil peut-il entrer deux fois simultanément dans le même parcours ?** — Non, le système utilise l&#39;identité du profil comme clé et empêche le même profil d&#39;être à différents endroits dans le même parcours en même temps.
+* **Q : Quelle est la période d’attente de reprise par défaut ?** — 5 minutes, configurable jusqu&#39;à un maximum de 91 jours.
+* **Q : Combien de profils par seconde un processus de parcours Lecture d’audience peut-il traiter ?** — Jusqu’à 20 000 TPS au niveau du sandbox, bien que ce maximum puisse ne pas être atteint si plusieurs parcours s’exécutent simultanément dans le même sandbox.
+* **Q : Qu’advient-il du débit après une activité Attente avec une durée fixe ?** — Plusieurs profils peuvent quitter l’attente simultanément, avec un potentiel supérieur à 20 000 TPS ; les activités d’attente en temps relatif sont recommandées pour éviter cette situation.
+* **Q : Un profil peut-il apparaître plusieurs fois en même temps dans un parcours métier ?** — Oui, mais uniquement dans le contexte de différents événements métier.
+
++++

@@ -30,10 +30,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1009
-ht-degree: 80%
+source-wordcount: 1602
+ht-degree: 50%
 
 ---
 
@@ -288,3 +288,45 @@ Découvrez les composants d’un parcours et comprenez les principes de base de 
 * **[Dépannage](troubleshooting.md)** : problèmes courants des parcours et solutions.
 * **[Tutoriels sur les parcours](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** : découvrez la création de parcours au moyen de tutoriels vidéo pratiques.
 * **[Mécanismes de sécurisation et limitations des parcours](../start/guardrails.md)** : vérifiez les mécanismes de sécurisation et les limitations lors de l’utilisation d’[!DNL Adobe Journey Optimizer].
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Il s’agit du guide de prise en main complet de l’orchestration des parcours dans Adobe Journey Optimizer, qui couvre les fonctionnalités essentielles (diffusion en temps réel et par lots, données contextuelles, actions intégrées et personnalisées, le concepteur visuel, les fragments de Parcours et les tests), les cas d’utilisation courants et les liens vers toutes les ressources d’apprentissage principales.
+
+**Intentions:**
+* Découvrez les principales fonctionnalités disponibles dans le concepteur de parcours Journey Optimizer avant de créer un premier parcours
+* Accédez à la ressource appropriée pour créer, gérer, tester ou dépanner des parcours
+* Découvrez comment déclencher 1 :1 messages en temps réel sur n’importe quel canal à l’aide du concepteur de parcours
+* Découvrez comment les fragments de Parcours permettent la réutilisation de la logique de nœud commune dans les parcours
+* Accédez à des tutoriels vidéo et à des guides détaillés sur les cas d’utilisation courants du parcours, tels que les séries de bienvenue, l’abandon de panier et l’optimisation de l’heure d’envoi
+
+**Glossaire:**
+* **Concepteur de Parcours** : zone de travail visuelle à glisser-déposer dans Adobe Journey Optimizer utilisée pour créer et orchestrer des parcours client à plusieurs étapes *(spécifiques au produit)*
+* **Fragment de Parcours** : ensemble réutilisable de nœuds de parcours (par exemple, vérification d’éligibilité, logique de routage de canal) créé une fois et inséré dans plusieurs parcours *(spécifique au produit)*
+* **Diffusion unitaire** : message en temps réel déclenché pour un profil unique lorsqu’un événement spécifique se produit *(spécifique au produit)*
+* **Diffusion par lots** : messages envoyés à tous les profils d’une audience Adobe Experience Platform à la fois ou selon un *planifié (spécifique au produit)*
+* **Optimisation de l’heure d’envoi (STO)** : une fonctionnalité pilotée par l’IA qui prédit le moment optimal d’envoi d’un message à chaque profil individuel afin d’optimiser les *d’engagement (spécifiques au produit)*
+* **Action personnalisée** : activité de parcours qui se connecte à un système tiers via l’API pour envoyer des messages ou récupérer des *de données (spécifiques au produit)*
+
+**Mécanismes de sécurisation :**
+* Les mécanismes de sécurisation et limitations du parcours sont détaillés séparément sur la page mécanismes de sécurisation et doivent être examinés avant toute conception à grande échelle
+* Les actions personnalisées nécessitent une configuration préalable par un utilisateur technique avant de pouvoir être utilisées dans un parcours
+* Les fragments de parcours doivent être actifs avant de pouvoir être insérés dans un parcours
+
+**Terminologie:**
+* Nom canonique : Parcours — Acronyme : none — variantes : parcours client, flux d’orchestration, parcours à plusieurs étapes
+* Synonymes : « Concepteur de parcours » = « Zone de travail de parcours » = « Créateur de parcours »
+* Ne les confondez pas : « actions de canal intégrées » ≠ « actions personnalisées » ; les actions intégrées utilisent des canaux AJO natifs ; les actions personnalisées appellent des API tierces externes.
+
+**FAQ:**
+* **Q : Quelle est la différence entre la diffusion en temps réel (unitaire) et la diffusion par lots dans les parcours ?** — La diffusion unitaire déclenche un message pour un profil à la fois en temps réel lorsqu&#39;un événement se produit. La diffusion par lots traite tous les profils d’une audience à la fois ou selon un planning à l’aide d’une activité Lecture d’audience .
+* **Q : Puis-je réutiliser une logique commune (comme une vérification d’éligibilité) sur plusieurs parcours ?** — Oui ; enregistrez les nœuds en tant que fragment de Parcours et insérez le fragment actif dans n’importe quel parcours de la sandbox.
+* **Q : Où puis-je créer mon premier parcours ?** suivez le guide détaillé de la page « Créer votre premier parcours », qui décrit la sélection du point d&#39;entrée, la conception de la zone de travail, les tests et la publication.
+* **Q : Comment envoyer des messages par le biais d’un système tiers à partir d’un parcours ?** — Configurez une action personnalisée pour appeler l&#39;API externe, puis ajoutez-la en tant qu&#39;activité d&#39;action dans la zone de travail de parcours.
+* **Q : Où puis-je trouver des réponses aux questions courantes du parcours ?** consultez la page FAQ sur le Parcours pour obtenir des réponses sur les concepts, la création, le test, l&#39;exécution, la surveillance et les bonnes pratiques.
+
++++

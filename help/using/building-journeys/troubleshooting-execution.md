@@ -26,10 +26,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 2263
-ht-degree: 63%
+source-wordcount: 2993
+ht-degree: 48%
 
 ---
 
@@ -252,3 +252,51 @@ Si les incohérences persistent, [contactez l’assistance Adobe](../start/user-
 Si les URL de tracking dans les e-mails envoyés contiennent des espaces réservés vides tels que `cid=em-acou-adob{}`, cela peut indiquer qu’un champ contextuel tel que `context.system.source.actionId` n’a pas pu être résolu. Cela se produit généralement lorsqu’un parcours a été fermé et n’a pas été republié après une modification de produit appropriée. Seuls les parcours republiés renseignent correctement ces champs de contexte dans les URL de suivi.
 
 Pour résoudre ce problème, republiez le parcours ([créez une nouvelle version et publiez-la](publish-journey.md#journey-create-new-version)) ou supprimez la référence au champ de contexte affecté des [paramètres de tracking d’URL](../email/url-tracking.md) dans la configuration du canal ou le contenu de l’e-mail.
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page est une référence de dépannage complète pour l’exécution de parcours en direct dans Adobe Journey Optimizer. Elle couvre la diffusion d’événements, les échecs d’entrée de profil, les problèmes de transition de mode test, les événements ignorés, les journaux d’événements d’étape en double, les vérifications de diffusion de messages et les incohérences des mesures de tableau de bord.
+
+**Intentions:**
+* Découvrez pourquoi les événements ne déclenchent pas l’entrée de parcours en vérifiant la structure de la payload, les en-têtes et les conditions de qualification
+* Vérifiez si les profils entrent et progressent dans un parcours en direct ou en mode test
+* Résoudre les échecs de transition du mode test provoqués par des dates de début ultérieures ou des espaces de noms d’identité mal configurés
+* Comprendre et gérer le motif d’abandon de `maxInstanceStackEventsReached` pour les instances de parcours bloquées
+* Identifier et interroger correctement les entrées du journal des événements d’étape de Parcours en double provoquées par la mise à l’échelle automatique du serveur principal
+* Rechercher les messages manquants en vérifiant les rapports de parcours et les résultats des appels d’action personnalisée
+* Correction des espaces réservés d&#39;URL de tracking vides dans les emails des parcours fermés
+
+**Glossaire:**
+* **Événements d’étape de Parcours** : jeu de données qui consigne chaque étape qu’un profil exécute dans un parcours, utilisé pour la création de rapports et le débogage *(spécifique au produit)*
+* **notSuitableInitialEvent** : code d’abandon indiquant qu’un événement a été reçu, mais abandonné, car la condition de qualification n’était pas remplie *(spécifique au produit)*
+* **maxInstanceStackEventsReached** : un code de rejet indiquant que la limite de 10 de la pile d’événements d’instance de parcours par profil a été dépassée *(spécifique au produit)*
+* **isValidTransition** : propriété réservée à l’interface utilisateur dans les détails techniques du parcours ; une valeur null peut indiquer une date de début ultérieure ou une connexion de nœud corrompue, mais n’affecte pas les *de traitement du serveur principal (spécifiques au produit)*
+* **Condition de qualification** : règle définie sur un événement qui doit être remplie pour que l’événement déclenche un parcours ; les événements qui ne remplissent pas cette condition sont ignorés
+* **Rééquilibrage** : opération de mise à l’échelle automatique du serveur principal dans les microservices AJO qui peut créer des entrées de journal des événements d’étape de Parcours en double avec différentes valeurs de `_id`
+
+**Mécanismes de sécurisation :**
+* Les événements envoyés en dehors de la fenêtre date/heure active du parcours sont ignorés silencieusement, sans message d’erreur
+* La limite de la pile d’événements de l’instance de parcours par profil est de 10 événements ; si elle est dépassée, les événements sont ignorés avec `maxInstanceStackEventsReached`
+* Les entrées d’événement d’étape de Parcours en double avec des valeurs de `_id` différentes sont un comportement attendu du système et n’indiquent pas la duplication des messages
+* Les mesures de Présentation du tableau de bord incluent uniquement les parcours avec trafic au cours des dernières 24 heures. L’actualisation des mesures peut prendre jusqu’à 30 minutes
+* Les parcours fermés qui n’ont pas été republiés après un changement de produit peuvent produire des espaces réservés vides dans les URL de tracking
+
+**Terminologie:**
+* Nom canonique : Événements d’étape de Parcours — Acronyme : aucun — variantes : événements d’étape, journaux d’exécution de parcours
+* Nom canonique : condition de qualification — Acronyme : none — variantes : règle de qualification d’événement, condition d’événement
+* Synonymes : « rééquilibrage » = « mise à l’échelle automatique » (opération du serveur principal provoquant des entrées de journal en double)
+* Ne pas confondre : « `_id` en double » ≠ « entrées de journal en double provenant du rééquilibrage » — les vrais doublons partagent le même `_id` ; les doublons du rééquilibrage ont des valeurs de `_id` différentes
+
+**FAQ:**
+* **Q : Pourquoi mes événements ne déclenchent-ils pas de parcours même s’ils sont envoyés avec succès ?** — Vérifiez que le parcours est actif ou en mode test, que la payload correspond à la structure du schéma d&#39;événement, que la condition de qualification est remplie et que les en-têtes corrects (`X-gw-ims-org-id`, `Content-type`) sont inclus.
+* **Q : Pourquoi les profils de test entrent-ils dans le parcours mais ne progressent-ils pas au-delà de la première étape ?** — La cause la plus courante est une date de début de parcours définie dans le futur ; les événements sont ignorés silencieusement en dehors de la fenêtre de date active. Vérifiez également la correspondance entre l&#39;indicateur de profil de test et l&#39;espace de noms d&#39;identité.
+* **Q : Que signifie `maxInstanceStackEventsReached` ?** — L&#39;exécution du parcours a atteint la limite de la pile interne de 10 événements pour une instance de profil spécifique, généralement parce qu&#39;une étape de longue durée bloque le traitement. Réduisez les longues attentes, dédupliquez les événements en amont ou divisez le scénario en plusieurs parcours.
+* **Q : Je vois des lignes en double dans les événements d’étape de Parcours. Est-ce que quelque chose ne va pas ?** — Non. Des entrées en double avec différentes valeurs de `_id` sont attendues et résultent de la mise à l’échelle automatique du serveur principal. Un seul message est réellement envoyé. Vérifiez auprès de l’`ajo_message_feedback_event_dataset` .
+* **Q : Pourquoi les URL de tracking dans les e-mails affichent-elles des espaces réservés vides comme `cid=em-acou-adob{}` ?** — Le parcours a été fermé et n&#39;a pas été republié après un changement de produit ; les champs de contexte ne peuvent pas être résolus. Republiez le parcours ou supprimez la référence du champ de contexte affecté des paramètres de tracking d’URL.
+* **Q : Pourquoi le tableau de bord Présentation affiche-t-il des nombres différents de ceux de l’onglet Parcourir ?** : le tableau de bord ne compte que les parcours dont le trafic a été enregistré au cours des dernières 24 heures, l’actualisation des mesures prend jusqu’à 30 minutes et les autorisations d’accès peuvent limiter la visibilité.
+
++++

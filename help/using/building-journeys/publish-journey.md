@@ -22,10 +22,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1295
-ht-degree: 48%
+source-wordcount: 1815
+ht-degree: 34%
 
 ---
 
@@ -177,3 +177,47 @@ Si votre parcours est soumis à une politique d’approbation, vous devez demand
 Découvrez comment publier un parcours dans cette vidéo :
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427934?captions=fre_fr&quality=12)
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page explique comment publier un parcours Adobe Journey Optimizer, gérer les versions de parcours et comprendre les contraintes qui s’appliquent une fois qu’un parcours est actif.
+
+**Intentions:**
+* Publier un parcours pour le rendre actif et disponible pour l’entrée de profil
+* Vérifier la validité du parcours et résoudre les erreurs avant la publication
+* Création d’une nouvelle version d’un parcours dynamique pour y apporter des modifications
+* Comprendre les restrictions en lecture seule qui s’appliquent après la publication d’un parcours
+* Arrêter un parcours de manière permanente ou gérer les transitions entre les versions
+
+**Glossaire:**
+* **version de Parcours** : itération numérotée d’un parcours ; de nouvelles versions sont créées pour modifier un parcours actif sans interrompre les profils déjà en cours *(spécifiques au produit)*
+* **Statut Fermé** : le statut d’une version de parcours précédente est automatiquement renseigné lorsqu’une nouvelle version est publiée ; aucun nouveau profil ne peut entrer dans un *de parcours Fermé (spécifique au produit)*
+* **Politique d’approbation** : workflow de gouvernance facultatif nécessitant une approbation explicite avant qu’un parcours puisse être publié *(spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+* Un parcours contenant des erreurs ne peut pas être publié.
+* Journey Optimizer valide la taille totale de la payload du parcours au moment de l’enregistrement et de la publication ; la publication peut être bloquée si la limite est dépassée.
+* Après la publication, un parcours est en mode lecture seule ; seuls les libellés, les descriptions et le nom du parcours peuvent être modifiés.
+* Une nouvelle version ne peut être créée qu’à partir de la dernière version d’un parcours.
+* Lorsqu’un parcours est arrêté, il est définitivement arrêté ; il doit être dupliqué pour s’exécuter à nouveau.
+* Assets et les images du contenu diffusé sont accessibles pendant 730 jours au maximum à compter de la première publication ; une republication est nécessaire après cette période.
+* Si une décision d’offre utilisée dans un message de parcours est modifiée, le parcours doit être dépublié et republié.
+* Des mécanismes de sécurisation spécifiques s’appliquent au contrôle de version des parcours (voir page Mécanismes de sécurisation).
+
+**Terminologie:**
+* Nom canonique : Parcours de publication — Acronyme : aucun — variantes : activer le parcours, activer le contenu
+* Synonymes : « Publier » = « Activer » = « Activer »
+* Ne les confondez pas : « Arrêter le parcours » ≠ « Fermer le parcours » (l’arrêt est une action manuelle ; le statut Fermé est un statut automatique appliqué aux versions précédentes lorsqu’une nouvelle version est publiée)
+
+**FAQ:**
+* **Q : Puis-je modifier un parcours après sa publication ?** — Seuls les libellés, les descriptions et le nom du parcours peuvent être modifiés. Pour apporter d’autres modifications, créez une nouvelle version du parcours.
+* **Q : Qu’advient-il des profils d’une ancienne version de parcours lorsqu’une nouvelle version est publiée ?** — Les profils déjà présents dans la version précédente y restent jusqu’à la fin ; les nouveaux profils entrent la dernière version.
+* **Q : Puis-je republier une version en parcours fermé ?** — Non. Une fois qu’une version précédente est fermée, elle reste fermée même si la dernière version est arrêtée.
+* **Q : Que dois-je faire si une décision d’offre utilisée dans le parcours change ?** — Dépubliez le parcours et republiez-le pour incorporer la décision d’offre mise à jour.
+* **Q : L’approbation est-elle requise avant la publication ?** — Uniquement si votre parcours est soumis à une politique d&#39;approbation ; dans ce cas, vous devez d&#39;abord demander l&#39;approbation.
+
++++

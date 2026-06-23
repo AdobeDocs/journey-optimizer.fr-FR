@@ -23,10 +23,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 670
-ht-degree: 39%
+source-wordcount: 1152
+ht-degree: 22%
 
 ---
 
@@ -112,3 +112,44 @@ Veillez à ce que le nom du parcours reste axé sur le jalon client qu’il fran
 >[!TIP]
 >
 >Pour une discussion plus large sur cette approche et ses avantages à grande échelle, consultez [Bonnes pratiques pour les parcours avancés dans Journey Optimizer](https://experienceleague.adobe.com/fr/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page explique comment ajouter, filtrer et gérer des balises sur des parcours dans Adobe Journey Optimizer. Elle explique également pourquoi les catégories de balises constituent une meilleure alternative aux conventions de dénomination complexes pour organiser des listes de parcours volumineuses.
+
+**Intentions:**
+* Ajoutez des balises à un parcours à partir du champ Balises des propriétés du parcours .
+* Filtrer la liste des parcours selon une ou plusieurs balises pour localiser rapidement des parcours spécifiques
+* Modifier des balises sur des parcours existants quel que soit leur statut (actif, brouillon, etc.) via Autres actions
+* Créer et organiser des catégories de balises en tant qu’administrateur pour appliquer des métadonnées cohérentes
+* Remplacer une convention de nommage de parcours complexe par une approche structurée basée sur les balises
+
+**Glossaire:**
+* **Balises** : libellés associés aux parcours pour les classer et les filtrer. Ils ne respectent pas la casse et sont conservés lorsqu’un parcours est dupliqué ou versionné *(spécifique au produit)*
+* **Catégories de balises** : regroupements de valeurs de balise associées créés par les administrateurs sous Administration > Balises, ce qui permet d’activer les *de classification de métadonnées structurées (spécifiques au produit)*
+* **Catégorie non classée** : la catégorie par défaut intégrée à laquelle sont automatiquement affectées les balises créées directement dans les parcours *(spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+* Les balises ne respectent pas la casse
+* Les balises définies dans parcours sont automatiquement ajoutées à la catégorie intégrée « Non classé », sauf si un administrateur les affecte à une catégorie nommée
+* Seuls les administrateurs peuvent supprimer des balises et gérer des catégories de balises via le menu Administration > Balises .
+* Les balises sont conservées lorsqu’un parcours est dupliqué ou qu’une nouvelle version est créée
+
+**Terminologie:**
+* Nom canonique : Balises — Acronyme : none — variantes : balises de parcours, balises d’administration
+* Nom canonique : Catégories de balises — Acronyme : aucune — Variantes : groupes de balises
+* Ne les confondez pas : « Balises » (libellés de classification de parcours) ≠ « Conventions de dénomination » (métadonnées codées directement dans les noms de parcours)
+
+**FAQ:**
+* **Q : Comment ajouter une balise à un parcours ?** — Dans les propriétés du parcours, saisissez le nom de la balise dans le champ Balises et sélectionnez-la dans la liste, ou cliquez sur Créer pour ajouter une nouvelle balise.
+* **Q : Puis-je ajouter des balises à un parcours en direct ?** — Oui. Cliquez sur l’icône Plus d’actions en regard du parcours dans la liste et sélectionnez Modifier les balises pour ajouter ou supprimer des balises sur n’importe quel parcours, quel que soit son statut.
+* **Q : Les balises sont-elles sensibles à la casse ?** — Non. Les balises ne respectent pas la casse.
+* **Q : Qu’advient-il des balises lorsque je duplique un parcours ou que je crée une nouvelle version ?** — Les balises sont conservées dans le duplicata ou la nouvelle version.
+* **Q : Qui peut supprimer des balises ou créer des catégories de balises ?** — Seuls les administrateurs peuvent supprimer des balises et gérer des catégories de balises via le menu Administration > Balises .
+* **Q : Pourquoi utiliser des catégories de balises plutôt que des conventions de nommage ?** les catégories de balises assurent la cohérence par le biais d’une liste contrôlée, permettent un filtrage multidimensionnel instantané, gardent les noms de parcours courts et axés sur les jalons, et se mettent à l’échelle facilement en ajoutant de nouvelles catégories sans réécrire les règles de nommage.
+
++++

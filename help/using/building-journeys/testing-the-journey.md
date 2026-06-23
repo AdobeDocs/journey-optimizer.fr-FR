@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 2335
-ht-degree: 71%
+source-wordcount: 3006
+ht-degree: 55%
 
 ---
 
@@ -249,3 +249,54 @@ Lorsqu’un événement est déclenché en mode test, un jeu de données est aut
 
 Le mode test crée automatiquement un événement d’expérience et l’envoie à [!DNL Adobe Experience Platform]. Le nom de la source de cet événement d’expérience est « Événements de test Journey Orchestration ».
 
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page explique comment utiliser le mode Test dans Adobe Journey Optimizer pour valider un parcours avec des profils de test persistants avant publication, y compris l’activation du mode test, le déclenchement d’événements, la lecture de journaux et la gestion d’événements métier et basés sur des règles.
+
+**Intentions:**
+* Activez le mode Test sur un brouillon de parcours afin de le valider avec des profils de test AEP préexistants
+* Configuration et déclenchement d’événements pour les profils de test à l’aide de l’interface Déclencher un événement .
+* Remplacer les durées d’activité d’attente en mode test pour accélérer la progression du parcours
+* Lisez et interprétez la sortie JSON Afficher le journal pour vérifier la progression du profil et identifier les erreurs
+* Tester des parcours basés sur des règles et des parcours d’événement métier en mode test
+* Comprendre les limites et les différences de comportement du mode Test par rapport à la simulation.
+
+**Glossaire:**
+* **Mode test** : état de validation du parcours qui permet aux profils de test AEP persistants de parcourir un brouillon de parcours avant qu’il ne soit publié *(spécifique au produit)*
+* **Profils de test** : profils explicitement marqués comme profils de test dans le service de profil client en temps réel Adobe Experience Platform ; le seul type de profil autorisé à entrer un parcours en mode test *(spécifique au produit)*
+* **Flux visuel** : représentation de la zone de travail qui devient verte pour afficher le chemin suivi par un profil de test dans le parcours
+* **Afficher le journal** : une fonctionnalité de mode test qui affiche l’état d’exécution du parcours au format JSON pour chaque instance de profil de test *(spécifique au produit)*
+* **Événements de test Journey Orchestration** : nom de source sous lequel les événements d’expérience du mode test sont stockés dans Adobe Experience Platform
+
+**Mécanismes de sécurisation :**
+* Seuls les profils indiqués comme profils de test dans AEP peuvent entrer un parcours en mode test
+* Le mode test nécessite que le parcours utilise un espace de noms pour vérifier l&#39;identité du profil de test
+* 100 profils de test maximum par session de test unique
+* Les événements peuvent uniquement être déclenchés à partir de l’interface utilisateur du mode test. Le déclenchement d’API externe n’est pas pris en charge
+* L’enrichissement des attributs d’audience de chargement personnalisé n’est pas pris en charge en mode test
+* Les parcours inactifs en mode test depuis plus d’une semaine repassent automatiquement au statut Brouillon .
+* Les modifications du parcours sont bloquées lorsque le mode test est actif, mais la publication directe est autorisée
+* Lors d’une division, la branche supérieure est toujours sélectionnée ; réorganisez les branches pour tester différents chemins d’accès
+* Le délai d’expiration minimal de l’événement de réaction et le temps d’attente par défaut sont de 40 secondes
+* Les événements envoyés en dehors de la fenêtre de date de début/fin configurée du parcours sont ignorés silencieusement
+* La désactivation du mode test supprime tous les profils du parcours et efface les rapports
+
+**Terminologie:**
+* Nom canonique : Mode test — Acronyme : none — variantes : mode test, mode test parcours
+* Nom canonique : Profils de test — Acronyme : aucun — Variantes : utilisateurs de test (libellé de l’interface utilisateur de simulation uniquement)
+* Synonymes : « Afficher le journal » = journal des résultats de test ; « Flux visuel » = visualisation du chemin de la zone de travail
+* Ne les confondez pas : « Mode test » ≠ « Simulation » : le mode test utilise des profils de test AEP persistants ; la simulation utilise des utilisateurs simulés temporaires générés à la volée
+
+**FAQ:**
+* **Q : Qui peut entrer un parcours en mode test ?** : seuls les profils explicitement marqués comme profils de test dans le service de profil client en temps réel Adobe Experience Platform.
+* **Q : Combien de profils de test peuvent être exécutés au cours d’une seule session de test ?** — Un maximum de 100 profils de test par session de test.
+* **Q : Que se passe-t-il lorsque je désactive le mode test ?** — Tous les profils actuellement ou précédemment entrés dans le parcours sont supprimés et les rapports sont effacés.
+* **Q : Puis-je modifier un parcours lorsque le mode Test est actif ?** — Non. Le parcours ne peut pas être modifié lorsque le mode test est actif, mais vous pouvez le publier directement sans désactiver le mode test au préalable.
+* **Q : Pourquoi mes événements de test sont-ils ignorés silencieusement ?** — Les événements déclenchés en dehors de la fenêtre de date/heure active configurée du parcours sont ignorés silencieusement. Vérifiez que les dates de début et de fin du parcours incluent l’heure actuelle.
+* **Q : Qu’indique le champ de phase dans le journal de test ?** — Affiche le statut actuel du profil : en cours d&#39;exécution (actif dans le parcours), terminé (atteint la fin), erreur (arrêté en raison d&#39;une erreur) ou expiré (arrêté en raison d&#39;une temporisation).
+
++++

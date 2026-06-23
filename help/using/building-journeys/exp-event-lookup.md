@@ -18,10 +18,10 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1124
-ht-degree: 77%
+source-wordcount: 1717
+ht-degree: 50%
 
 ---
 
@@ -189,5 +189,52 @@ D’autres approches et bonnes pratiques concernant les événements d’expéri
 +++ Que faire si les autres approches ne fonctionnent pas pour mon cas d’utilisation ?
 
 Si votre cas d’utilisation ne peut pas être résolu à l’aide de l’une des autres approches répertoriées ci-dessus, contactez votre représentant ou représentante Adobe.
+
++++
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page présente d’autres modèles et bonnes pratiques pour l’utilisation des données d’événement d’expérience dans les parcours Adobe Journey Optimizer, dans le cadre de l’abandon de la recherche directe d’événement d’expérience dans l’éditeur d’expression de parcours.
+
+**Intentions:**
+
+* Supprimer les profils exclus à l’aide de la gestion de consentement intégrée au lieu des expressions d’événement d’expérience
+* Exclure les adresses e-mail de rebond à l’aide de la liste de suppression automatique d’AJO
+* Créer une logique de suppression générique à l’aide d’audiences par lots avec des critères basés sur un événement
+* Prévenez la surcommunication en appliquant des règles de limitation de la fréquence ou des conditions d’audience basées sur le temps
+* Personnaliser les communications abandonnées du panier ou parcourir à l’aide d’AEP Data Distiller ou d’attributs calculés
+
+**Glossaire:**
+
+* **Événement d’expérience** : enregistrement horodaté et non modifiable d’une action ou d’un comportement du client stocké dans Adobe Experience Platform *(spécifique au produit)*
+* **Attribut calculé** : attribut au niveau du profil dérivé de l’agrégation ou de la synthèse des données d’événement d’expérience au fil du temps, disponible pour une utilisation dans des expressions de parcours *(spécifiques au produit)*
+* **Liste de suppression** : liste intégrée d’AJO d’adresses e-mail automatiquement exclues des futurs envois en raison de hard bounces ou de plaintes contre le spam *(spécifiques au produit)*
+* **Capping de la fréquence** : règle métier qui limite le nombre de messages qu’un profil peut recevoir au cours d’une période définie *(spécifique au produit)*
+* Distiller de données **: fonctionnalité d’AEP qui permet aux requêtes par lots basées sur SQL d’extraire et de transformer des données d’événement en jeux de données activés pour le profil *(spécifiques au produit)***
+
+**Mécanismes de sécurisation :**
+
+* À compter du 8 juillet 2025, les nouvelles organisations clientes ne pourront plus créer d’expressions à l’aide d’attributs d’événement d’expérience dans l’éditeur d’expression de parcours.
+* À compter du 1er avril 2026, les organisations qui n’ont pas utilisé d’attributs d’événement d’expérience dans les expressions de parcours au cours des 90 derniers jours perdront l’accès à cette fonctionnalité.
+* La recherche directe d’événements d’expérience dans des conditions de parcours est en cours de suppression ; les alternatives incluent les audiences par lots, les attributs calculés et AEP Data Distiller.
+* Les fonctionnalités NON affectées par la suppression sont les suivantes : déclenchement de parcours avec des événements, écoute des événements dans un parcours, utilisation des données contextuelles de parcours des événements de déclenchement, configuration des événements et détection des événements de réaction.
+
+**Terminologie:**
+
+* Nom canonique : recherche d’événement d’expérience — Acronyme : recherche EE — variantes : expressions d’événement d’expérience, recherche d’attribut d’événement
+* Synonymes : « audience par lots avec logique basée sur un événement » = « segment basé sur un événement » comme mécanisme de suppression/d’inclusion
+* Ne les confondez pas : « recherche d’événement d’expérience dans l’éditeur d’expression » ≠ « déclenchement d’un parcours avec un événement » - le déclenchement de parcours avec des événements n’est PAS retiré
+
+**FAQ:**
+
+* **Q : Puis-je toujours déclencher un parcours à l’aide d’un événement d’expérience ?** — Oui, le déclenchement de parcours avec des événements unitaires ou métier n’est pas affecté par cette modification.
+* **Q : Quel est le remplacement recommandé pour la recherche d’événement d’expérience dans des conditions de parcours ?** utilisez des audiences par lots créées avec la logique d&#39;événement du créateur de segments d&#39;AEP, les attributs calculés ou AEP Data Distiller pour des transformations complexes.
+* **Q : Mon organisation existante est-elle affectée en ce moment ?** — Les nouvelles organisations sont concernées à partir du 8 juillet 2025. Les organisations existantes ne sont affectées à compter du 1er avril 2026 que si elles n’ont pas utilisé la fonctionnalité au cours des 90 derniers jours.
+* **Q : Comment gérer la personnalisation d’abandon de panier sans recherche directe d’événement ?** — Utilisez AEP Data Distiller pour extraire et écrire des données d&#39;événement dans un jeu de données activé pour un profil, ou utilisez les attributs calculés pour capturer le dernier état d&#39;abandon sur le profil.
+* **Q : Quelles fonctionnalités ne sont PAS affectées par cette obsolescence ?** : le déclenchement de parcours avec événements, l&#39;écoute d&#39;événements dans les parcours, l&#39;utilisation de données contextuelles d&#39;événement dans les expressions, la configuration d&#39;événements et la détection d&#39;événements de réaction (par exemple, les ouvertures d&#39;e-mail) ne sont pas affectés.
 
 +++

@@ -20,10 +20,10 @@ subfeature_v2:
   - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 168
-ht-degree: 100%
+source-wordcount: 576
+ht-degree: 29%
 
 ---
 
@@ -82,3 +82,46 @@ then
 else
    ('fcm')
 ```
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page explique l’instruction conditionnelle `if / then / else` disponible dans l’éditeur d’expression avancé par Parcours, y compris les règles de syntaxe, les combinaisons de types prises en charge et un exemple d’utilisation pratique.
+
+**Intentions:**
+
+* Écrivez une expression conditionnelle à l’aide de `if`, `then` et `else` pour renvoyer différentes valeurs en fonction d’une condition booléenne
+* Réduisez le nombre d’activités de condition dans un parcours en incorporant une logique conditionnelle intégrée dans une seule activité d’action
+* Déterminez quelles combinaisons de types de données sont valides pour les branches `then` et `else`
+* Appliquez l’instruction conditionnelle pour acheminer les jetons de notification push vers APNS ou FCM en fonction du modèle de l’appareil
+
+**Glossaire:**
+
+* **Instruction conditionnelle** : construction d’expression `if / then / else` dans l’éditeur avancé qui évalue une valeur booléenne et renvoie l’une des deux expressions *(spécifique au produit)*
+* **Éditeur d’expression avancé** : interface Journey Optimizer permettant d’écrire des expressions complexes utilisées dans des conditions, des activités d’attente et des *de mappage de paramètres d’action (spécifiques au produit)*
+
+**Mécanismes de sécurisation :**
+
+* Des parenthèses sont requises autour de toutes les expressions dans les clauses `if`, `then` et `else`
+* La clause `if` (`<expression1>`) doit renvoyer un type booléen
+* Les expressions `then` et `else` (`<expression2>` et `<expression3>`) doivent avoir le même type ou des types compatibles (par exemple, `decimal` et `integer` sont compatibles, `string` et `integer` ne le sont pas)
+* Toutes les combinaisons de types ne sont pas prises en charge — seules les paires répertoriées dans le tableau des signatures prises en charge sont valides
+
+**Terminologie:**
+
+* Nom canonique : instruction conditionnelle — Acronyme : none — variantes : if/then/else, condition de style ternaire
+* Synonymes : « instruction conditionnelle » = « condition intégrée » = « expression if-then-else »
+* Ne les confondez pas : instruction conditionnelle (expression intégrée) ≠ activité Condition (nœud de zone de travail de parcours)
+
+**FAQ:**
+
+* **Q : La clause `if` doit-elle être placée entre parenthèses ?** — Oui, des parenthèses sont requises autour de toutes les expressions, y compris la condition dans la clause `if`.
+* **Q : Puis-je utiliser `if / then / else` pour renvoyer un nombre d’une branche et une chaîne d’une autre ?** — Non ; `<expression2>` et `<expression3>` doivent avoir des types identiques ou compatibles.
+* **Q : Comment l’instruction conditionnelle réduit-elle la complexité du parcours ?** — Il vous permet de spécifier deux alternatives de valeur de champ dans une seule activité d&#39;action à l&#39;aide d&#39;une seule expression, en évitant un nœud d&#39;activité Condition distinct sur la zone de travail.
+* **Q : Quel type l&#39;instruction conditionnelle renvoie-t-elle si les deux branches sont des chaînes ?** — Renvoie un `string`.
+* **Q : Peut-`if / then / else` être utilisé pour sélectionner un canal de notification push ?** — Oui ; par exemple, l’évaluation du modèle d’appareil pour renvoyer des `'apns'` pour les appareils Apple ou des `'fcm'` pour d’autres.
+
++++

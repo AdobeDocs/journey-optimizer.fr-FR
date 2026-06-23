@@ -29,10 +29,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1088
-ht-degree: 71%
+source-wordcount: 1720
+ht-degree: 45%
 
 ---
 
@@ -166,4 +166,52 @@ Connectez les sous-parcours à l’aide de l’activité [**[!UICONTROL Saut]**]
 >
 >If your goal is to build a gamified loyalty program with challenges, tasks, and built-in reward tracking, Journey Optimizer also offers a dedicated **Loyalty Challenges** capability.
 -->
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page présente deux cas pratiques d’utilisation de parcours : un flux de messages multicanal combinant la lecture d’audience, les événements de réaction, l’e-mail et la notification push ; et un modèle de parcours de fidélité multiphase utilisant l’activité Saut pour décomposer des parcours complexes en sous-parcours gérables.
+
+**Intentions:**
+
+* Créez un parcours multicanal qui envoie un e-mail de relance ou une notification push selon que le client a ouvert un e-mail initial ou non
+* Configuration d’un événement d’achat pour déclencher une notification push de remerciement dans un parcours
+* Utilisation d’événements de réaction pour créer une branche d’un parcours en fonction du comportement d’ouverture des e-mails
+* Décomposer un parcours complexe multiphase en sous-parcours plus petits reliés par des activités Saut
+* Créer et configurer un événement basé sur des règles à utiliser comme déclencheur de parcours
+* Définir une audience en fonction des attributs de ville et d’année de naissance pour l’entrée de parcours ciblée
+
+**Glossaire:**
+
+* **Événement de réaction** : événement de parcours qui se déclenche lorsqu’un profil interagit avec un message (par exemple, ouverture d’un e-mail ou clic sur un lien), ce qui permet l’embranchement piloté par le comportement. *(spécifique au produit)*
+* **Activité Lecture d’audience** : activité d’entrée de parcours qui charge tous les profils d’une audience Adobe Experience Platform spécifiée pour commencer le parcours. *(spécifique au produit)*
+* **Activité Saut** : activité d’action qui pousse un profil d’un parcours (origine) à un autre (cible), activant une architecture modulaire de sous-parcours. *(spécifique au produit)*
+* **Événement basé sur des règles** : type d’événement où la condition de déclencheur est définie par une expression de règle plutôt que par un identifiant d’orchestration, utile pour les déclencheurs d’achat ou comportementaux. *(spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+
+* Un chemin d’expiration du délai d’événement de réaction doit être configuré pour gérer les profils qui n’interagissent pas avec le message dans le délai défini
+* L’audience utilisée dans le cas d’utilisation doit être créée avant de créer le parcours
+* L’événement d’achat doit être configuré avant de pouvoir être utilisé dans le parcours
+* Les sous-parcours connectés via Saut doivent utiliser le même espace de noms que le parcours d&#39;origine
+* Le remplacement de l’adresse électronique (remplacement du paramètre) ne doit être utilisé que pour des cas d’utilisation spécifiques, et non comme remplacement général de l’adresse principale
+
+**Terminologie:**
+
+* Nom canonique : Événement de réaction — Acronyme : aucun — variantes : activité de réaction, réaction du message
+* Synonymes : « parcours d’origine » = « parcours source » ; « parcours cible » = « parcours de destination »
+* Ne les confondez pas : « Activité Lecture d’audience » ≠ « Activité Qualification d’audience » — La lecture d’audience charge tous les membres de l’audience en même temps ; la qualification d’audience se déclenche par profil en temps réel à mesure que l’appartenance change
+
+**FAQ:**
+
+* **Q : Comment envoyer un message de relance uniquement aux clients qui n’ont pas ouvert d’e-mail ?** — Ajouter un événement de réaction (e-mail ouvert) avec un itinéraire de temporisation ; les profils qui ne s’ouvrent pas pendant la durée de temporisation suivent l’itinéraire de temporisation où se trouve l’e-mail de relance.
+* **Q : Comment l’événement d’achat est-il configuré dans le cas d’utilisation multicanal ?** — En tant qu&#39;événement basé sur des règles avec une condition telle que `purchaseMessage="thank you"`, configurée avec un schéma, des champs de payload (produit, date, ID d&#39;achat), un espace de noms et un identifiant de profil.
+* **Q : Pourquoi décomposer un parcours complexe en sous-parcours ?** les parcours complexes peuvent exposer 20 chemins clients uniques ou plus, et la complexité augmente de façon exponentielle avec chaque point de contact. Les sous-parcours permettent de garder chaque phase lisible, testable et gérable indépendamment.
+* **Q : Un profil peut-il être à la fois dans le parcours d’origine et le modèle cible en même temps après un Saut ?** — Oui ; lorsqu’un profil atteint une étape Saut, il continue à progresser dans le parcours d’origine tout en accédant simultanément au parcours cible.
+* **Q : Combien de sous-parcours sont utilisés dans l’exemple de fidélité multiphase ?** — Trois sous-parcours : Phase 1 (téléchargement de l’application), Phase 2 (première transaction) et Phase 3 (deuxième transaction), connectés de manière séquentielle à l’aide des activités Saut.
+
++++
 

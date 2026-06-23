@@ -24,10 +24,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 382
-ht-degree: 92%
+source-wordcount: 924
+ht-degree: 38%
 
 ---
 
@@ -81,3 +81,46 @@ Pour configurer ce parcours, procédez comme suit:
 >[!CAUTION]
 >
 >Le remplacement de l’adresse e-mail ne doit être utilisé que pour des cas d’utilisation spécifiques. La plupart du temps, il n’est pas nécessaire de modifier l’adresse e-mail, car la valeur définie comme adresse principale dans les **[!UICONTROL Champs d&#39;exécution]** est celle qui doit être utilisée. [En savoir plus](../configuration/primary-email-addresses.md)
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page montre comment créer un parcours qui envoie un e-mail aux abonnés d’une liste en remplaçant le paramètre d’adresse e-mail par défaut à l’aide d’une expression qui lit les adresses des abonnés à partir d’un champ de mappage de consentement.
+
+**Intentions:**
+
+* Créez un parcours qui cible les abonnés d’une liste spécifique à l’aide d’une activité Lecture d’audience
+* Remplacez l’adresse électronique par défaut dans une activité d’action E-mail à l’aide de l’éditeur d’expression
+* Utilisez les fonctions `entry` et `firstEntryKey` pour récupérer les adresses électroniques des abonnés à partir d’une carte de consentement
+* Référencez le groupe de champs Détails du consentement et des préférences pour accéder aux données de la liste d’abonnements
+
+**Glossaire:**
+
+* **Remplacement de l’adresse e-mail (remplacement du paramètre)** : paramètre d’activité E-mail de parcours qui remplace l’adresse e-mail de profil par défaut par une expression personnalisée, utilisée dans certains cas, tels que le ciblage des listes d’abonnements. *(spécifique au produit)*
+* **Groupe de champs Détails du consentement et des préférences** : groupe de champs de schéma Adobe Experience Platform contenant des données d’abonnement et de consentement, y compris le mappage de `subscriptions` utilisé pour stocker les adresses e-mail des abonnés. *(spécifique au produit)*
+* **`entry`fonction** : fonction d’expression qui fait référence à un élément de mappage par sa clé d’espace de noms ; utilisée ici pour faire référence à une liste d’abonnements spécifique (par exemple, `daily-email`). *(spécifique au produit)*
+* Fonction **`firstEntryKey`:** fonction d’expression qui récupère la première clé d’un mappage ; utilisée ici pour récupérer la première adresse e-mail du mappage des abonnés d’une liste d’abonnements. *(spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+
+* Le remplacement des adresses e-mail ne doit être utilisé que pour des cas d’utilisation spécifiques, tels que le ciblage des listes d’abonnements. Dans la plupart des cas, l’adresse principale définie dans les Champs d’exécution doit être utilisée
+* Le groupe de champs Détails du consentement et des préférences doit être présent dans le schéma pour que ce cas d’utilisation fonctionne
+* Le nom de la liste d’abonnements utilisé dans l’expression (par exemple, `daily-email`) doit correspondre exactement au nom configuré dans les données
+
+**Terminologie:**
+
+* Nom canonique : écrasement d’adresse électronique — Acronyme : none — variantes : écrasement de paramètre, écrasement de paramètre d’adresse électronique
+* Synonymes : « liste d’abonnements » = « liste d’abonnés »
+* Ne pas confondre : « email address override » ≠ « primary email address » — L&#39;adresse e-mail principale est l&#39;adresse par défaut utilisée dans tous les parcours ; le remplacement est une expression par activité utilisée uniquement pour des cas spéciaux, tels que l&#39;envoi de listes d&#39;abonnements
+
+**FAQ:**
+
+* **Q : Comment envoyer un e-mail aux abonnés d’une liste d’abonnements plutôt qu’aux adresses e-mail de profil ?** — Activez le remplacement du paramètre dans le champ Adresse de l&#39;activité E-mail et saisissez une expression à l&#39;aide des fonctions `entry` et `firstEntryKey` pour récupérer les adresses du mappage des abonnés de la liste d&#39;abonnements cible.
+* **Q : Quel groupe de champs est requis pour ce cas d’utilisation ?** — Le groupe de champs Détails du consentement et des préférences de Adobe Experience Platform, qui contient la structure de mappage `subscriptions` utilisée pour stocker les adresses électroniques des abonnés.
+* **Q : Dois-je toujours utiliser la substitution d’adresse e-mail lors du ciblage des abonnés ?** — Non ; le remplacement de l’adresse e-mail est réservé à des cas d’utilisation spécifiques. Dans la plupart des parcours, l’adresse principale définie dans les Champs d’exécution doit être utilisée.
+* **Q : Que fait la fonction `firstEntryKey` dans ce contexte ?** — Il récupère la première clé d&#39;adresse e-mail de la carte `subscribers` associée à une liste d&#39;abonnements spécifique, ce qui permet au parcours d&#39;adresser des abonnés individuels.
+
++++

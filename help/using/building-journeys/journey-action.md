@@ -31,10 +31,10 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1813
-ht-degree: 69%
+source-wordcount: 2428
+ht-degree: 52%
 
 ---
 
@@ -356,3 +356,47 @@ Au lieu d’utiliser les fonctionnalités de message intégrées, vous pouvez ut
 
    * [[!DNL Journey Optimizer] et Campaign v7/v8](../action/acc-action.md)
    * [[!DNL Journey Optimizer] et Campaign Standard](../action/acs-action.md)
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page explique comment utiliser l’activité d’action unifiée dans la zone de travail de parcours pour configurer des actions de canal intégrées (e-mail, notification push, SMS, in-app, web, carte de contenu, expérience basée sur du code), créer des groupes d’actions entrantes multiples et appliquer des paramètres d’optimisation ou multilingues.
+
+**Intentions:**
+* Ajoutez une action de canal intégrée (e-mail, notification push, SMS, in-app, web, carte de contenu, expérience basée sur le code) à un parcours à l’aide de l’activité Action .
+* Configurez un groupe à actions multiples pour diffuser plusieurs actions entrantes simultanément à partir d’un seul nœud de parcours
+* Appliquez des règles de limitation de la fréquence à une action de canal sortant pour éviter la fatigue des messages
+* Mettre à jour le contenu du message dans un parcours dynamique sans le republier
+* Connexion d’un système de messagerie tiers à un parcours à l’aide d’actions personnalisées
+* Activer le mode de diffusion rapide pour les notifications push urgentes volumineuses
+
+**Glossaire:**
+* **Activité d’action** : activité de la zone de travail du parcours unifié qui sert de point d’entrée unique pour toutes les actions de canal intégrées, remplaçant les activités de canal héritées individuelles *(spécifiques au produit)*
+* **Multi-action** : configuration au sein d’un nœud d’activité Action unique qui permet de diffuser simultanément jusqu’à 10 actions de canal entrant *(spécifiques au produit)*
+* **Mode de diffusion rapide** : module complémentaire permettant d’envoyer très rapidement des messages push volumineux pour des alertes urgentes *(spécifiques au produit)*
+* **Nœud d’attente automatique** : une activité d’attente de 3 jours automatiquement insérée après chaque action de canal entrant pour donner aux profils le temps d’afficher l’expérience avant que le parcours n’avance *(spécifique au produit)*
+* **Score de priorité** : valeur attribuée à une action de parcours pour déterminer quelle expérience entrante est prioritaire lorsque plusieurs actions se disputent le même *de configuration de canal (spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+* Les anciennes activités de canaux individuels (e-mail, notification push, SMS, in-app, web, expérience basée sur le code, carte de contenu) sont obsolètes depuis la version de mars 2026. Les parcours existants continuent de fonctionner sans migration
+* La fonction multi-action n’est disponible que pour les canaux entrants. Les canaux sortants tels que les e-mails ne sont pas pris en charge dans les groupes multi-action
+* Un groupe à actions multiples prend en charge un maximum de 10 actions entrantes
+* Dans un parcours en direct, les attributs de personnalisation (attributs de profil et données contextuelles) ne peuvent pas être modifiés ; seul le contenu du message peut être mis à jour
+* Les déclencheurs in-app ne peuvent pas être modifiés dans un parcours dynamique
+
+**Terminologie:**
+* Nom canonique : Activité d’action — Acronyme : aucune — variantes : action de canal, activité de message, action de canal intégrée
+* Synonymes : « Activité d’action » = « activité d’action de canal »
+* Ne les confondez pas : « Activité d’action » ≠ « Action personnalisée » : l’activité d’action utilise des canaux natifs intégrés, tandis qu’une action personnalisée s’intègre à un système tiers via l’API
+
+**FAQ:**
+* **Q : Quels canaux sont disponibles dans l’activité Action ?** : e-mail, notification push, SMS/RCS/MMS, in-app, web, expérience basée sur le code et carte de contenu.
+* **Q : Puis-je envoyer des messages à plusieurs points d’entrée entrants dans le même nœud de parcours ?** — Oui, avec le type Multi-action, vous pouvez ajouter jusqu’à 10 actions entrantes (expérience basée sur le code, in-app, carte de contenu, web) dans un seul nœud d’activité Action.
+* **Q : Qu’advient-il des parcours qui utilisent les activités de canal héritées obsolètes ?** — Ils continuent à fonctionner sans aucune modification ; aucune migration n’est requise.
+* **Q : Puis-je modifier l’objet de l’e-mail d’un parcours en direct ?** — Vous pouvez mettre à jour le contenu d&#39;un message dans un parcours en ligne, mais vous ne pouvez pas modifier les attributs de personnalisation ou les données contextuelles utilisées dans ce contenu.
+* **Q : Comment appliquer un capping de la fréquence à une action de canal ?** — Utilisez le menu déroulant Règles métier dans la configuration des actions pour sélectionner un ensemble de règles qui applique des règles de limitation pour le canal sélectionné.
+
++++

@@ -37,10 +37,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 5522
-ht-degree: 87%
+source-wordcount: 6198
+ht-degree: 77%
 
 ---
 
@@ -1005,3 +1005,53 @@ Pour des mises à jour et des formations supplémentaires, consultez les ressour
 * [Guides de résolution des problèmes](troubleshooting.md)
 * [Cas d’utilisation de parcours](jo-use-cases.md)
 * [Description du produit Journey Optimizer](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page est une FAQ complète couvrant les concepts d&#39;orchestration des parcours, la création de parcours, les tests et publications, la surveillance de l&#39;exécution, les fonctionnalités avancées et les bonnes pratiques dans Adobe Journey Optimizer.
+
+**Intentions:**
+* Découvrez les quatre types de parcours (unitaire, Lecture d’audience, Qualification d’audience, événement métier) et quand utiliser chacun d’eux
+* Choix entre un parcours et une campagne pour un cas d’utilisation donné
+* Configurez les paramètres de reprise pour contrôler la fréquence à laquelle un profil peut rejoindre le même parcours
+* Dépannage des raisons pour lesquelles un profil n’a pas saisi ou les messages n’ont pas été envoyés
+* Appliquez des règles de limitation de parcours pour éviter la fatigue des messages sur plusieurs parcours
+* Utilisez des fragments de Parcours pour réutiliser des séquences de nœuds courantes dans les parcours
+
+**Glossaire:**
+* parcours unitaire **: un parcours déclenché un profil à la fois par un événement en temps réel tel qu’un *d’achat ou d’inscription (spécifique au produit)***
+* parcours Lecture d’audience **: parcours qui traite tous les profils d’une audience par lots à la fois ou selon un *planifié (spécifique au produit)***
+* parcours de qualification d’audience **: parcours déclenché lorsqu’un profil entre ou sort d’un *de segment d’audience en flux continu (spécifique à un produit)***
+* **Limitation des Parcours** : configuration qui limite le nombre de fois où un profil peut entrer des parcours dans une fenêtre temporelle ou le nombre de parcours qu’un profil peut *simultanément (spécifique au produit)*
+* **Fragment de Parcours** : ensemble statique réutilisable de nœuds de parcours créés une seule fois et insérés dans plusieurs parcours au moment de la conception *(spécifique au produit)*
+* **Optimisation de l’heure d’envoi (STO)** : une fonctionnalité pilotée par l’IA qui prédit l’heure d’envoi optimale pour chaque profil individuel afin d’optimiser les *d’engagement (spécifiques au produit)*
+* **Identifiant supplémentaire** : un identifiant supplémentaire qui permet à un profil de rejoindre le même parcours plusieurs fois pour différentes entités (par exemple, des commandes distinctes) *(spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+* 50 activités maximum par parcours
+* La durée de parcours maximale est de 91 jours (délai d’expiration global)
+* Les audiences de chargement et les audiences de composition d’audiences fédérées ne sont pas prises en charge dans les parcours de qualification d’audience
+* Les événements de réaction doivent être placés immédiatement après une action de canal, sans activité d’attente entre les deux
+* Les activités Saut ne sont pas autorisées dans un fragment de Parcours
+* Un fragment de Parcours prend en charge un maximum de 20 nœuds ; un sandbox prend en charge un maximum de 200 fragments actifs
+* La qualification de l’audience de diffusion en continu peut être retardée de 10 minutes maximum après la publication du parcours pour les profils déjà dans l’audience
+
+**Terminologie:**
+* Nom canonique : Parcours — Acronyme : none — variantes : parcours client, orchestration, flux
+* Synonymes : « Fermeture des nouvelles entrées » = « Arrêt correct » ; « Arrêt » = « Arrêt immédiat »
+* Ne les confondez pas : « Parcours » ≠ « Campagne » - Les parcours prennent en charge l’orchestration déclenchée par un événement à plusieurs étapes ; les campagnes sont des envois ponctuels ou planifiés basés sur l’audience
+* Ne les confondez pas : « Mode test » ≠ « Exécution d’essai » - Le mode test utilise des profils de test synthétiques ; l’exécution d’essai utilise des données de production réelles sans contacter les clients.
+
+**FAQ:**
+* **Q : Quel est le nombre maximal d’activités dans un parcours ?** — 50 activités ; la simplification des parcours améliore la maintenabilité et les performances.
+* **Q : Pourquoi un profil n&#39;a-t-il pas rejoint mon parcours ?** — Les causes courantes incluent l’événement déclencheur non reçu, les critères d’audience non satisfaits, les règles de rentrée bloquant la rentrée, le parcours dépublié ou une incohérence de l’espace de noms.
+* **Q : Puis-je modifier la structure d’un parcours en direct ?** — Non ; les modifications structurelles nécessitent la création d&#39;une nouvelle version de parcours. Le contenu du message peut être mis à jour sans nouvelle version.
+* **Q : Quelle est la différence entre Mettre en pause, Fermer aux nouvelles entrées et Arrêter ?** — Mettre en pause suspend temporairement le parcours tout en conservant ou en supprimant les profils en vol. Fermer aux nouvelles entrées arrête les nouvelles entrées mais permet aux profils existants de se terminer. Arrêter quitte immédiatement tous les profils.
+* **Q : Quand dois-je utiliser les fragments de Parcours au lieu de l’activité Saut ?** — Utilisez des fragments pour réutiliser la logique de nœud commune au moment de la conception (comportement de copier-coller). Utilisez Saut pour rediriger les profils vers un autre parcours dynamique au moment de l’exécution.
+* **Q : Comment puis-je empêcher l’envoi d’un trop grand nombre de messages au même client ?** appliquez des règles de limitation de parcours (limitation d’entrée ou limitation de simultanéité) et utilisez des règles métier de limitation de la fréquence sur des actions de canal individuelles.
+
++++

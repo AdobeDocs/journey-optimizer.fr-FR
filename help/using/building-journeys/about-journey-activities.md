@@ -33,10 +33,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 757
-ht-degree: 69%
+source-wordcount: 1263
+ht-degree: 41%
 
 ---
 
@@ -152,3 +152,44 @@ Avant de tester et de publier votre parcours, vérifiez que toutes les activité
 Découvrez [dans cette page](troubleshooting.md) comment résoudre les erreurs dans les activités et dans le parcours.
 
 Voir aussi [&#x200B; Surveillance et dépannage &#x200B;](../../rp_landing_pages/troubleshoot-journey-landing-page.md)
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page présente les trois catégories d’activités de parcours (événements, orchestration et actions) et explique les bonnes pratiques en matière d’étiquetage, de gestion des paramètres et de gestion des erreurs dans les parcours Adobe Journey Optimizer.
+
+**Intentions:**
+* Identifier et distinguer les activités d’événement, d’orchestration et d’action dans un parcours
+* Ajouter des libellés et des descriptions aux activités de parcours pour faciliter l’identification et la création de rapports
+* Configurer un autre chemin pour gérer les délais d’expiration ou les erreurs dans une activité de parcours
+* Remplacer les paramètres avancés sur une activité de parcours spécifique
+* Combiner plusieurs types d’activité pour créer des scénarios de parcours cross-canal
+* Résolution des erreurs de configuration d’activité avant de publier un parcours
+
+**Glossaire:**
+* **Activité d’événement** : activité de parcours déclenchée par un événement entrant (par exemple, achat, qualification d’audience) qui démarre ou fait progresser un profil via le *de parcours (spécifique au produit)*
+* **Activité d’orchestration** : activité de parcours (par exemple, Optimiser, Lecture d’audience, Attente) qui contrôle le flux et la logique d’embranchement d’un *de parcours (spécifique au produit)*
+* **Activité d’action** : activité de parcours qui diffuse une communication ou appelle un système externe à la suite d’une *de déclenchement (spécifique au produit)*
+* **Action personnalisée** : action configurée par l’utilisateur qui connecte Journey Optimizer à un système tiers pour l’envoi de messages ou de *de données (spécifique au produit)*
+* **Chemin alternatif** : branche de secours ajoutée à une activité pour que le parcours se poursuive même lorsqu’une temporisation ou une erreur se produit *(spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+* Les tests et publications ne peuvent pas être effectués si des erreurs de configuration sont toujours détectées dans une activité
+* Les paramètres avancés/techniques de la plupart des activités sont en lecture seule et ne peuvent pas être modifiés sans utiliser la fonction de remplacement des paramètres
+
+**Terminologie:**
+* Nom canonique : Parcours Activité — Acronyme : none — variantes : activité, nœud, étape
+* Synonymes : « action activity » = « channel action » = « message action »
+* Ne les confondez pas : « Activité d’orchestration » ≠ « Activité d’action » (l’orchestration contrôle le flux ; les actions diffusent les communications).
+
+**FAQ:**
+* **Q : Quelle est la différence entre les activités d’événement, d’orchestration et d’action ?** — les activités d’événement déclenchent l’entrée ou la progression du parcours ; les activités d’orchestration contrôlent la logique de branchement et de flux ; les activités d’action diffusent des messages ou appellent des systèmes externes.
+* **Q : Comment ajouter un libellé à une activité de parcours ?** — Ouvrez le volet des propriétés de l&#39;activité et renseignez le champ Libellé ; le libellé apparaît sous forme de suffixe sous le nœud de l&#39;activité sur la zone de travail.
+* **Q : Que se passe-t-il lorsqu’une erreur se produit dans une action ou une activité de condition ?** — Le parcours du profil s&#39;arrête, sauf si vous cochez l&#39;option « Ajouter un itinéraire alternatif en cas de temporisation ou d&#39;erreur » sur cette activité.
+* **Q : Puis-je utiliser Adobe Campaign pour envoyer des messages à partir d’un parcours ?** — Oui, Journey Optimizer prend en charge l’intégration à Adobe Campaign v7/v8, Campaign Standard et Marketo Engage pour l’envoi de messages par le biais d’activités d’action personnalisée.
+* **Q : Comment puis-je remplacer un paramètre avancé en lecture seule sur une activité ?** — Cliquez sur l&#39;icône « Activer le remplacement de paramètre » à droite du champ de paramètre pour forcer une valeur personnalisée.
+
++++

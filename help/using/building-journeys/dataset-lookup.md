@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 943
-ht-degree: 75%
+source-wordcount: 1500
+ht-degree: 48%
 
 ---
 
@@ -229,3 +229,55 @@ Les données récupérées par l’activité **[!UICONTROL Recherche de jeu de d
 **Cause :** la clé de recherche dans l’activité de recherche de jeu de données a été définie à l’aide du mode simple. Lorsque la clé n’est pas définie en mode avancé, la sortie de l’activité n’est pas exposée en tant qu’attribut de contexte dans les activités en aval.
 
 **Correctif :** ouvrez l’activité de recherche de jeu de données, localisez le champ **[!UICONTROL Clé(s) de recherche]** et passez en **mode avancé** pour redéfinir l’expression de la clé. Enregistrez l’activité et republiez le parcours.
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page explique comment configurer l’activité de recherche de jeu de données pour récupérer dynamiquement les données du jeu de données d’enregistrement AEP au moment de l’exécution du parcours pour la personnalisation en temps réel et la logique conditionnelle.
+
+**Intentions:**
+
+* Ajoutez une activité de recherche de jeu de données à un parcours pour récupérer des données d’enregistrement AEP externes au moment de l’exécution
+* Sélectionnez des champs de jeu de données spécifiques (nœuds feuilles/valeurs primitives) à récupérer lors de la recherche.
+* Définir une clé de recherche en mode avancé pour joindre le contexte du parcours aux enregistrements du jeu de données
+* Utiliser des données de jeu de données enrichies dans l’éditeur d’expression de parcours ou l’éditeur de personnalisation
+* Résolution des erreurs « Recherche de jeu de données introuvable » provoquées par l’utilisation du mode simple pour la clé de recherche
+
+**Glossaire:**
+
+* **Activité de recherche de jeu de données** : activité d’orchestration de parcours qui récupère des données des jeux de données d’enregistrement AEP au moment de l’exécution à l’aide d’une clé de jointure *(spécifique au produit)*
+* **Nœud feuille** : champ au niveau le plus bas d’une hiérarchie de schéma qui contient une valeur primitive (chaîne, nombre, valeur booléenne, date) *(spécifique au produit)*
+* **Clé de recherche** : expression de jointure (chaîne ou liste de chaînes) utilisée pour faire correspondre les données contextuelles du parcours aux enregistrements du jeu de données sélectionné *(spécifique au produit)*
+* **Données enrichies** : données récupérées par une activité de recherche de jeu de données et stockées temporairement dans le parcours pour une utilisation dans des activités en aval *(spécifiques au produit)*
+
+**Mécanismes de sécurisation :**
+
+* Maximum de 10 activités de recherche de jeu de données par parcours.
+* 20 champs sélectionnés maximum par activité de recherche.
+* Maximum de 50 clés dans le tableau des clés de recherche.
+* La taille des données enrichies est limitée à 10 Ko.
+* Le jeu de données doit être activé pour la recherche dans Adobe Experience Platform avant d’apparaître dans la configuration de l’activité.
+* Seuls les nœuds feuilles (valeurs primitives) peuvent être sélectionnés ; les tableaux et les mappages ne peuvent pas être sélectionnés.
+* Seules les chaînes ou les listes de chaînes sont prises en charge comme clés de recherche.
+* La clé de recherche doit être définie en mode avancé ; l’utilisation du mode simple entraîne l’indisponibilité de la sortie de l’activité en tant qu’attribut de contexte en aval.
+* Les données enrichies sont transitoires et disponibles uniquement pendant l’exécution du parcours et dans la personnalisation de l’activité sortante.
+* Pour des performances optimales, il est recommandé d’effectuer jusqu’à 5 activités de recherche par parcours et jusqu’à 20 attributs par recherche.
+
+**Terminologie:**
+
+* Nom canonique : activité de recherche de jeu de données — Acronyme : s.o. — variantes : recherche de données AEP, activité d’enrichissement des données
+* Synonymes : « clé de recherche » = « clé de jointure »
+* Ne les confondez pas : « Activité de recherche de jeu de données » ≠ « Recherche d’événement d’expérience » - La recherche de jeu de données récupère les données du jeu de données d’enregistrement, et non les événements d’expérience de série temporelle
+
+**FAQ:**
+
+* **Q : Pourquoi mon jeu de données n’apparaît-il pas dans le menu déroulant Champ de jeu de données ?** — Le jeu de données doit être activé pour la recherche dans Adobe Experience Platform. Suivez les instructions de la section À lire absolument pour l’activer.
+* **Q : Pourquoi renvoie-`@datasetLookup{}` une erreur « Recherche de jeu de données introuvable » dans une condition ?** — La clé de recherche a été définie en mode simple au lieu du mode avancé. Redéfinissez-la en mode avancé et republiez le parcours.
+* **Q : Puis-je récupérer des tableaux ou mapper des champs à partir du jeu de données ?** — Non, seuls les champs de nœud feuille primitifs (chaîne, nombre, valeur booléenne, date) peuvent être sélectionnés.
+* **Q : Comment puis-je accéder aux données enrichies dans un e-mail ?** : utilisez l’éditeur de personnalisation avec le `{{context.journey.datasetLookup.<activityId>.entities}}` de syntaxe.
+* **Q : Les données enrichies sont-elles conservées après la fin du parcours ?** — Non, les données enrichies sont transitoires et disponibles uniquement pendant la session d&#39;exécution du parcours.
+
++++

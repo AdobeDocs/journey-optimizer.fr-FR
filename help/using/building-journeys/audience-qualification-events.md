@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1854
-ht-degree: 62%
+source-wordcount: 2501
+ht-degree: 46%
 
 ---
 
@@ -247,3 +247,49 @@ Utilisez les mécanismes de sécurisation et suivez les recommandations ci-desso
 Découvrez des cas d’utilisation des parcours de qualification d’audience dans cette vidéo. Découvrez comment créer un parcours avec qualification d’audience et les bonnes pratiques à appliquer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3446206?captions=fre_fr&quality=12)
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page explique comment configurer et utiliser l’activité d’événement Qualification d’audience dans Journey Optimizer pour déclencher ou faire avancer des profils dans un parcours lorsqu’ils entrent dans une audience Adobe Experience Platform ou en sortent.
+
+**Intentions:**
+* Configurez une activité d’événement Qualification d’audience pour déclencher une entrée de parcours sur les modifications d’appartenance à une audience
+* Sélectionnez le comportement correct (entrée, sortie ou les deux) pour une activité Qualification d’audience
+* Appliquez les bonnes pratiques pour éviter de surcharger les systèmes lors de l’utilisation d’audiences par lots ou en flux continu
+* Découvrez pourquoi certains profils qualifiés peuvent ne pas entrer sur le parcours et comment atténuer ce problème
+* Utiliser la payload du nœud AudienceQualification dans des conditions et actions en aval
+
+**Glossaire:**
+* **Événement de qualification d’audience** : activité d’événement de parcours qui écoute les entrées ou les sorties de profil dans une audience Adobe Experience Platform et déclenche une *de progression des parcours (spécifique au produit)*
+* **Comportement (Entrée/Sortie)** : paramètre qui contrôle si le parcours réagit aux profils qui rejoignent (« Réalisé »), quittent (« Sorti ») ou aux deux états d’une audience *(spécifique au produit)*
+* **Audience de streaming** : audience évaluée en continu et en temps réel à l’aide de l’option Audiences haute fréquence . Recommandé pour les activités de qualification d’audience *(spécifiques au produit)*
+* **Audience par lots** : audience recalculée une fois par jour ; introduit un pic quotidien d’entrées de profils et nécessite une fenêtre de préparation de 2 heures après la fin de la tâche de segmentation *(spécifique au produit)*
+* **Nœud AudienceQualification** : nœud de contexte disponible dans l’éditeur d’expression après une activité Qualification d’audience, exposant l’heure et le statut de la dernière qualification *(spécifique au produit)*
+* **Propagation d’Edge vers Hub** : processus par lequel une appartenance à un segment de diffusion en continu évaluée sur Edge est synchronisée avec Hub avant que le parcours ne puisse agir dessus. Ce processus prend généralement 15 à 30 minutes *(spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+* Un nouveau parcours de qualification d’audience prend jusqu’à 10 minutes pour devenir actif après publication
+* Les audiences par lots ou en flux continu utilisant des attributs ingérés par lots sont prêtes environ 2 heures après la fin de la tâche de segmentation
+* Seules les audiences créées à l’aide de définitions de segment peuvent être utilisées. Les audiences de workflow de composition ou de chargement personnalisé ne sont pas prises en charge
+* Les groupes de champs d’événement d’expérience ne peuvent pas être utilisés dans les parcours commençant par la qualification d’audience
+* Seuls les espaces de noms d’identité basés sur des personnes sont disponibles pour le champ Espace de noms ; les espaces de noms de table de recherche ne sont pas pris en charge
+* Les profils déjà présents dans l’audience avant la publication du parcours ne rejoindront pas rétroactivement le parcours
+* La propagation d’Edge vers Hub pour les segments en flux continu prend généralement entre 15 et 30 minutes
+
+**Terminologie:**
+* Nom canonique : Événement de qualification d’audience — Acronyme : aucun — variantes : qualification de segment, activité de qualification d’audience
+* Synonymes : « Entrée » = « Réalisé » ; « Sortie » = « Sorti »
+* Ne les confondez pas : « Qualification d’audience » ≠ « Lecture d’audience » (la qualification d’audience réagit aux changements d’appartenance en temps réel ; la lecture d’audience traite tous les membres à un moment précis).
+
+**FAQ:**
+* **Q : À quel moment un parcours de qualification d’audience nouvellement publié commence-t-il à traiter les entrées ?** — Jusqu&#39;à 10 minutes après la publication, l&#39;activité devient active et commence à écouter les entrées et les sorties de profil.
+* **Q : Pourquoi les profils ne rejoignent-ils pas mon parcours de qualification d’audience ?** — Les causes courantes sont les suivantes : les profils se trouvaient déjà dans l’audience avant la publication, la fenêtre d’activation de 10 minutes n’a pas expiré ou la propagation Edge vers Hub (15-30 minutes) pour les segments en flux continu n’est pas encore terminée.
+* **Q : Puis-je utiliser une audience par lots dans une activité Qualification de l’audience ?** — Oui, mais ce n&#39;est pas recommandé. Les audiences par lots génèrent un pic d’entrée quotidien et ne sont pas adaptées aux cas d’utilisation en temps réel. Utilisez une activité Lecture d’audience à la place pour les scénarios par lots.
+* **Q : Quelles données sont disponibles dans la payload d’AudienceQualification ?** — La payload inclut le comportement (entrée ou sortie), l’horodatage de la qualification et l’ID d’audience.
+* **Q : Puis-je utiliser des audiences créées à partir des workflows de composition dans une activité Qualification d’audience ?** — Non, seules les audiences créées à l’aide de définitions de segment sont prises en charge dans cette activité.
+
++++
