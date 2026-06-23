@@ -10,12 +10,26 @@ hide: true
 keywords: parcours, orchestration, prise en main, intégration, fonctionnalités
 exl-id: 96b1d619-986d-493d-a73b-d7c63b92cca8
 TQID: https://experienceleague.adobe.com/Ht6fS6uanOs-rXoT4bAnK6eGvm9kOmH-N5B-y8KU6Rc
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
 source-wordcount: 1602
@@ -126,7 +140,7 @@ Testez vos parcours avant la publication, surveillez leurs performances et optim
 
 À partir du concepteur de parcours, les spécialistes marketing peuvent envoyer des messages 1:1 déclenchés en temps réel via n’importe quel canal lorsqu’un événement se produit. Par exemple, lorsqu’une personne s’abonne à un service, cela peut [déclencher un e-mail de bienvenue](message-to-subscribers-uc.md) l’incitant à se connecter pour la première fois à l’application et à définir ses préférences. Des actions telles que terminer l’achat, ouvrir l’e-mail et se connecter à l’application peuvent être utilisées pour faire progresser les nouveaux clients et les nouvelles clientes dans leur parcours.
 
-Le [concepteur de parcours ](using-the-journey-designer.md) fournit des [actions de canal intégrées](journey-action.md) qui prennent en charge les messages sortants, tels que les e-mails, les notifications push et les SMS/RCS/MMS, ainsi que les canaux entrants, notamment les applications mobiles, les sites web et les expériences basées sur le code créées directement dans Journey Optimizer. Vous pouvez également utiliser des systèmes tiers pour envoyer des messages. Journey Optimizer inclut des [actions personnalisées](using-custom-actions.md) pour permettre l’intégration de ces systèmes dans les parcours directement à partir du concepteur de parcours.
+Le [concepteur de parcours &#x200B;](using-the-journey-designer.md) fournit des [actions de canal intégrées](journey-action.md) qui prennent en charge les messages sortants, tels que les e-mails, les notifications push et les SMS/RCS/MMS, ainsi que les canaux entrants, notamment les applications mobiles, les sites web et les expériences basées sur le code créées directement dans Journey Optimizer. Vous pouvez également utiliser des systèmes tiers pour envoyer des messages. Journey Optimizer inclut des [actions personnalisées](using-custom-actions.md) pour permettre l’intégration de ces systèmes dans les parcours directement à partir du concepteur de parcours.
 
 
 :::: landing-cards-container
@@ -206,7 +220,7 @@ Trouvez des réponses aux questions fréquentes sur la création de parcours, le
 
 Cette section contient des conseils détaillés pour la conception, le test, la publication et le suivi des parcours clients afin de créer des campagnes omnicanales personnalisées.
 
-[Explorer la création de parcours](../../rp_landing_pages/create-journey-landing-page.md) | [Découvrir la gestion des parcours ](../../rp_landing_pages/manage-journey-landing-page.md) | [Étapes de workflow des parcours](journey.md#workflow)
+[Explorer la création de parcours](../../rp_landing_pages/create-journey-landing-page.md) | [Découvrir la gestion des parcours &#x200B;](../../rp_landing_pages/manage-journey-landing-page.md) | [Étapes de workflow des parcours](journey.md#workflow)
 :::
 
 :::
