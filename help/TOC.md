@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 49146a29a474a240ca1fdb10b2a6ef175f44f595
+source-git-commit: 6e64af1e2b278a8c21af39a9d2f0d66ad2e257ea
 workflow-type: tm+mt
-source-wordcount: '3365'
+source-wordcount: '3366'
 ht-degree: 98%
 
 ---
@@ -51,13 +51,13 @@ ht-degree: 98%
    + Travailler efficacement {#work-efficiently}
       + [Naviguer dans l’interface](using/start/user-interface.md)
       + [Rechercher, filtrer, organiser](using/start/search-filter-categorize.md)
-      + [Questions fréquentes sur la résolution des problèmes](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [Questions fréquentes sur la résolution des problèmes](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Accessibilité](using/start/accessibility.md)
       + {hide-from-toc}[Parcours et campagnes](using/start/journeys-vs-campaigns.md)
 + Parcours {#orchestrate-journeys}
    + [Commencer avec les parcours](using/building-journeys/journey.md)
    + {hide-from-toc}[Guide de prise en main des parcours](using/building-journeys/journey-get-started.md)
-   + {hide-from-toc}[Types de parcours et guide de sélection](using/building-journeys/journey-types-selection.md)
+   + {hide-from-toc}[types de Parcours : choisissez le bon](using/building-journeys/journey-types-selection.md)
    + [Questions fréquentes concernant Journey Orchestration](using/building-journeys/journey-faq.md)
    + Créer un parcours {#create-journey}
       + [Créer un parcours](/help/rp_landing_pages/create-journey-landing-page.md)
@@ -67,7 +67,7 @@ ht-degree: 98%
       + [Configurer et suivre les mesures de votre parcours](using/building-journeys/success-metrics.md)
       + [Concevoir le parcours](using/building-journeys/using-the-journey-designer.md)
       + Simulation {#simulate-journey}
-         + [Prise en main de la simulation de parcours &#x200B;](using/building-journeys/simulate-journey-gs.md)
+         + [Prise en main de la simulation de parcours ](using/building-journeys/simulate-journey-gs.md)
          + [Simuler votre parcours](using/building-journeys/simulate-journey.md)
       + [Tester votre parcours](using/building-journeys/testing-the-journey.md)
       + [Test à blanc du parcours](using/building-journeys/journey-dry-run.md)
