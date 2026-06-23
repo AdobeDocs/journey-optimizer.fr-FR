@@ -28,7 +28,7 @@ Content here — any standard markdown is valid.
 - `+++` seul sur une ligne ferme l’accordéon
 - Ligne vierge avant le `+++` d&#39;ouverture et après le `+++` de fermeture
 
----
+&#x200B;---
 
 ## Workflow
 
@@ -66,7 +66,7 @@ Ce commentaire permet aux outils et aux rédacteurs à venir de détecter le mom
 - Fichiers ignorés + raison (contient déjà un accordéon / vide / page d’index)
 - Tous les avertissements de validation générés lors de l’étape 2
 
----
+&#x200B;---
 
 ## Règles de génération de contenu
 
@@ -176,7 +176,7 @@ Les réponses doivent utiliser les mêmes choix de verbe et de substantif que le
 - N’inventez **pas** contenu non pris en charge par la page.
 - N’utilisez **pas** les termes imprécis suivants, sauf s’ils apparaissent mot pour mot dans le corps de la page : « synthétique », « fausses données », « sans données réelles », « inversé », « restauration » (lors de la description des transitions d’état de produit)
 
----
+&#x200B;---
 
 ## Liste de contrôle de validation de post-génération
 
@@ -198,7 +198,7 @@ Exécutez cette liste de contrôle sur chaque accordéon avant de l’ajouter. S
 
 Si une vérification échoue, corrigez l’accordéon avant de l’ajouter. Enregistrez la correction dans le rapport Étape 4.
 
----
+&#x200B;---
 
 ## Responsabilité de synchronisation
 
@@ -210,7 +210,7 @@ L’accordéon est une dérivée du corps de la page à un moment donné. Il doi
 
 Le commentaire de synchronisation ajouté après l’accordéon (`<!-- ai-accordion-version -->`) est le signal : si le contenu du fichier précédant l’accordéon a changé depuis que ce hachage a été écrit, l’accordéon est candidat à la révision.
 
----
+&#x200B;---
 
 ## Modèle complet
 
@@ -244,7 +244,7 @@ For complete understanding, this information should be combined with the documen
 <!-- ai-accordion-version: 1 | source-hash: [hash] -->
 ```
 
----
+&#x200B;---
 
 ## Remarques
 
