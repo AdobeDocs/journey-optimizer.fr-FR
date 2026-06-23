@@ -37,7 +37,7 @@ topic_v2:
 source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
 source-wordcount: 2277
-ht-degree: 69%
+ht-degree: 70%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_canvas"
 >title="Créer un parcours"
->abstract="La zone de travail de glisser-déposer orchestre les messages et les actions sur plusieurs canaux, en exploitant les données contextuelles et le ciblage des audiences pour un impact maximal."
+>abstract="La zone de travail par glisser-déposer orchestre les messages et les actions sur plusieurs canaux, en tirant profit des données contextuelles et du ciblage des audiences pour un impact maximal."
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="Créer votre premier parcours"
 
 

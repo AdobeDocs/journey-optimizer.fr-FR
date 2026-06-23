@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 1589
-ht-degree: 45%
+ht-degree: 48%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 45%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
 >title="Activité Attente"
->abstract="L&#39;activité Attente permet d&#39;attendre avant d&#39;exécuter l&#39;activité suivante dans le chemin. Cela vous permet de définir le moment d&#39;exécution de l&#39;activité suivante. Deux options sont disponibles : durée et personnalisation."
+>abstract="L’activité Attente vous permet d’attendre avant d’exécuter l’activité suivante dans le chemin. Cela vous permet de définir le moment d’exécution de l’activité suivante. Deux options sont disponibles : durée et personnalisation."
 
 Vous pouvez utiliser une activité **[!UICONTROL Attente]** pour définir une durée avant l’exécution de l’activité suivante.  La durée d’attente maximale est de **90 jours**.
 
@@ -140,7 +140,7 @@ Exemple : si un profil est qualifié pour une audience « client ou cliente S
 >[!CONTEXTUALHELP]
 >id="ajo_journey_auto_wait_node"
 >title="À propos du nœud d’attente automatique"
->abstract="Un nœud **Wait** est automatiquement inséré après cette action entrante. Elle est définie sur 3 jours par défaut, ce qui garantit que les profils restent dans le parcours suffisamment longtemps pour afficher le message ou l’expérience. La durée d’attente peut être mise à jour ou le nœud supprimé, si le cas d’utilisation le requiert."
+>abstract="Un nœud d’**attente** est automatiquement inséré après cette action entrante. L’option est définie sur 3 jours par défaut, ce qui garantit que les profils restent dans le parcours suffisamment longtemps pour afficher le message ou l’expérience. La durée d’attente peut être mise à jour ou le nœud supprimé, si le cas d’usage le requiert."
 
 Chaque activité d’expérience entrante (message in-app, expérience basée sur du code ou vignette) est fournie avec une activité **Attente** de 3 jours. Comme les messages entrants se terminent automatiquement lorsqu’un profil atteint la fin du parcours, nous supposons que vous souhaitez que vos utilisateurs et utilisatrices la voient pendant au moins 3 jours. Vous pouvez supprimer cette activité **Attente** ou modifier sa configuration si nécessaire.
 

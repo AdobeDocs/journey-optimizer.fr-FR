@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
 source-wordcount: 3075
-ht-degree: 53%
+ht-degree: 54%
 
 ---
 
@@ -154,7 +154,7 @@ Pour valider le parcours de bout en bout :
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_configuration"
 >title="Configuration du mode test"
->abstract="Si un parcours contient plusieurs événements, la liste déroulante permet de sélectionner un événement. Pour chaque événement, les champs transmis et l’exécution de l’envoi de l’événement sont configurés."
+>abstract="Si un parcours contient plusieurs événements, la liste déroulante est utilisée pour sélectionner un événement. Pour chaque événement, les champs transmis et l’exécution de l’envoi de l’événement sont configurés."
 
 Utilisez le bouton **[!UICONTROL Déclencher un événement]** pour configurer un événement qui fera qu’un individu rejoint le parcours.
 

@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 2279
-ht-degree: 52%
+ht-degree: 55%
 
 ---
 
@@ -51,12 +51,12 @@ ht-degree: 52%
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"
 >title="Activer l’optimisation de l’heure d’envoi"
->abstract="Un bouton radio détermine s’il faut optimiser les ouvertures d’e-mail ou les clics sur e-mail. Les heures d’envoi utilisées par le système peuvent également être mises entre crochets avec une valeur pour l’option Envoyer pendant ."
+>abstract="Une case d’option détermine s’il faut optimiser les ouvertures d’e-mails ou les clics sur les e-mails. Les heures d’envoi utilisées peuvent également être limitées en saisissant une valeur pour l’option Envoyer dans les."
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_push"
 >title="Activer l’optimisation de l’heure d’envoi"
->abstract="Les messages push sont définis par défaut sur l&#39;option d&#39;ouverture, car les clics ne s&#39;appliquent pas à la messagerie push. Les heures d’envoi utilisées par le système peuvent également être mises entre crochets avec une valeur pour l’option Envoyer pendant ."
+>abstract="Les messages push sont définis par défaut sur l’option d’ouverture, car les clics ne s’appliquent pas à la messagerie push. Les heures d’envoi utilisées peuvent également être limitées en saisissant une valeur pour l’option Envoyer dans les."
 
 La fonctionnalité d’optimisation de l’heure d’envoi d’[!DNL Adobe Journey Optimizer], optimisée par les services d’IA dédiée aux Parcours d’Adobe, choisit l’heure d’envoi optimale pour les e-mails et les messages push afin d’optimiser l’engagement du client, en fonction du comportement historique d’ouverture et de clic de vos clients.
 

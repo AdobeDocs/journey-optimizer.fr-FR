@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
 source-wordcount: 2428
-ht-degree: 52%
+ht-degree: 59%
 
 ---
 
@@ -82,21 +82,21 @@ Les activités de canal natives héritées sont également conservées dans les 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_auto_wait"
 >title="Nœud d’attente automatique"
->abstract="Pour les actions de canal entrant (message in-app, web, carte de contenu et expérience basée sur le code), un nœud **Wait** est automatiquement inséré après l’action (3 jours par défaut). Cela donne aux profils le temps d’afficher l’expérience entrante avant que le parcours ne passe à l’étape suivante."
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Prise en main des actions de canal"
+>abstract="Pour les actions de canal entrant (message in-app, web, carte de contenu et expérience basée sur le code), un nœud **Attente** est automatiquement inséré après l’action (3 jours par défaut). Cela donne aux profils le temps d’afficher l’expérience entrante avant que le parcours ne passe à l’étape suivante."
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Commencer avec les actions de canal"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_optimization"
 >title="Optimisation"
->abstract="La section **Optimisation** ajoute des expériences de contenu, des règles de ciblage ou les deux à une action de canal. Il vous permet de tester des variantes et de diffuser le contenu le plus efficace à chaque membre de l’audience."
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="Utiliser l’activité d’optimisation"
+>abstract="La section **Optimisation** ajoute des expériences de contenu et/ou des règles de ciblage à une action de canal. Elle vous permet de tester des variantes et de diffuser le contenu le plus efficace à chaque membre de l’audience."
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="Utiliser l’activité Optimisation"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_multilingual"
 >title="Multilingue"
->abstract="La section **multilingue** diffuse le contenu de l’action du canal dans plusieurs langues au sein d’un seul parcours. Une configuration des paramètres de langue définit les paramètres régionaux pris en charge et la langue par défaut de cette action."
+>abstract="La section **Multilingue** diffuse le contenu de l’action du canal dans plusieurs langues au sein d’un seul parcours. Une configuration des paramètres de langue définit les paramètres régionaux pris en charge et la langue par défaut de cette action."
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="Commencer avec le contenu multilingue"
 
 

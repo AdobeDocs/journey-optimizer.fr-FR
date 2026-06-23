@@ -35,7 +35,7 @@ topic_v2:
 source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
 source-wordcount: 4780
-ht-degree: 46%
+ht-degree: 50%
 
 ---
 
@@ -54,7 +54,7 @@ Utilisez l’activité Lecture d’audience pour démarrer des parcours avec des
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
 >title="Activité Lecture d’audience"
->abstract="Ajoute à ce parcours tous les profils qualifiés d’une audience [!DNL Adobe Experience Platform] sélectionnée. S’exécute une fois ou selon un planning."
+>abstract="Ajoute à ce parcours tous les profils qualifiés d’une audience [!DNL Adobe Experience Platform] sélectionnée. S’exécute une fois ou selon un planning."
 
 L’activité **Lecture d’audience** est l’activité de point d’entrée du parcours qui ajoute tous les profils d’une audience [!DNL Adobe Experience Platform] sélectionnée à un parcours. Vous pouvez exécuter l’entrée une fois ou selon une planification récurrente. Dans les API et les références techniques, cette activité est également appelée entrée de parcours déclenchée par un segment ou basée sur une audience.
 
@@ -100,12 +100,12 @@ Vous définissez les éléments suivants : **Audience** (obligatoire), **Espace 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_audience"
 >title="Audience"
->abstract="Audience [!DNL Adobe Experience Platform] dont les profils rejoignent ce parcours. Tous les profils qualifiés sont lus dans. Les audiences par lots sont recommandées pour un décompte fiable et cohérent, et une seule audience peut être lue par activité."
+>abstract="Audience [!DNL Adobe Experience Platform] dont les profils intègrent ce parcours. Tous les profils qualifiés sont pris en compte. Les audiences par lots sont recommandées pour un décompte fiable et cohérent, et une seule audience peut être lue par activité."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_namespace"
 >title="Espace de noms"
->abstract="Identité (e-mail, ECID, par exemple) utilisée pour identifier les personnes qui accèdent au parcours. Seuls les espaces de noms basés sur des personnes sont disponibles et les profils sans cette identité ne peuvent pas être saisis. Par défaut, le champ est prérempli avec le dernier espace de noms utilisé."
+>abstract="Identité (e-mail, ECID, etc.) utilisée pour identifier les personnes qui intègrent le parcours. Seuls les espaces de noms basés sur des personnes sont disponibles et les profils sans cette identité ne peuvent pas intégrer le parcours. Par défaut, le champ est prérempli avec le dernier espace de noms utilisé."
 
 1. Développez la catégorie **[!UICONTROL Orchestration]** et déposez une activité **[!UICONTROL Lecture d’audience]** dans votre zone de travail.
 
@@ -183,17 +183,17 @@ Cette valeur est stockée dans la payload de version du parcours. La valeur par 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_start_date"
 >title="Date et heure de début"
->abstract="Date et heure auxquelles le parcours commence à lire l’audience et les profils commencent à entrer. Combinez-la avec les options de périodicité ci-dessous pour planifier des exécutions récurrentes."
+>abstract="Date et heure auxquelles le parcours commence à lire l’audience et à intégrer les profils. Combinez-les avec les options de récurrence ci-dessous pour planifier des exécutions récurrentes."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_until"
 >title="Répéter jusqu’à"
->abstract="Date d’arrêt des exécutions récurrentes. Passée cette date, le parcours ne lit plus l’audience ou n’accepte plus de nouveaux profils."
+>abstract="Date d’arrêt des exécutions récurrentes. Après cette date, le parcours ne lit plus l’audience et n’accepte plus de nouveaux profils."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_every"
 >title="Fréquence de répétition"
->abstract="Fréquence à laquelle le parcours relit l’audience et s’exécute à nouveau, par exemple tous les jours ou toutes les semaines. Détermine l’intervalle de périodicité entre les exécutions jusqu’à ce que la date « Répéter jusqu’au » soit atteinte."
+>abstract="Fréquence à laquelle le parcours relit l’audience et s’exécute à nouveau, par exemple tous les jours ou toutes les semaines. Détermine l’intervalle de récurrence entre les exécutions jusqu’à ce que la date « Répéter jusqu’à » soit atteinte."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_incremental_read"
@@ -203,12 +203,12 @@ Cette valeur est stockée dans la payload de version du parcours. La valeur par 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_force_reentrance"
 >title="Forcer une rentrée"
->abstract="Efface tous les participants du parcours avant chaque nouvelle lecture d’audience afin que chaque exécution démarre à nouveau et que les profils puissent entrer à nouveau à chaque occurrence."
+>abstract="Efface toutes les personnes participantes du parcours avant chaque nouvelle lecture d’audience afin que chaque exécution redémarre et que les profils puissent être réintégrés à chaque occurrence."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
 >title="Déclencher après l’évaluation de l’audience par lots"
->abstract="Retarde chaque exécution jusqu’à ce que l’audience par lots ait été récemment évaluée, de sorte que le parcours lise l’instantané d’audience le plus à jour au lieu des données obsolètes. Recommandé pour les parcours récurrents qui dépendent des derniers résultats de segmentation."
+>abstract="Retarde chaque exécution jusqu’à ce que l’audience par lots ait été récemment évaluée, de sorte que le parcours lise l’instantané d’audience le plus récent au lieu de données obsolètes. Recommandé pour les parcours récurrents qui dépendent des derniers résultats de segmentation."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"

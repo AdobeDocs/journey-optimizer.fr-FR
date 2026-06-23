@@ -27,7 +27,7 @@ topic_v2:
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 1233
-ht-degree: 56%
+ht-degree: 57%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 56%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_advanced"
 >title="À propos de l’éditeur d’expression avancé"
->abstract="L’éditeur d’expression avancé crée des expressions avancées dans divers écrans de l’interface. Par exemple, vous pouvez créer des expressions lors de la configuration et de l’utilisation de parcours, ainsi que lors de la définition d’une condition de source de données."
+>abstract="L’éditeur d’expression avancée crée des expressions avancées dans divers écrans de l’interface. Par exemple, vous pouvez créer des expressions lors de la configuration et de l’utilisation de parcours, ainsi que lors de la définition d’une condition de source de données."
 
 Utilisez l’éditeur d’expression avancé de Journey pour créer des expressions avancées dans divers écrans de l’interface. Par exemple, vous pouvez créer des expressions lors de la configuration et de l’utilisation de parcours, ainsi que lors de la définition d’une condition de source de données.
 

@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
 source-wordcount: 1094
-ht-degree: 64%
+ht-degree: 73%
 
 ---
 
@@ -39,9 +39,9 @@ ht-degree: 64%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_push"
->title="Action Notification push"
->abstract="Une action de canal de notification push envoie une notification push aux profils lorsqu&#39;ils atteignent cette étape du parcours. Le libellé identifie l’activité dans la zone de travail de parcours et l’action fait référence à une configuration push qui définit le contenu diffusé. La section **Optimisation** peut inclure des expériences de contenu ou des règles de ciblage, la section **Multilingue** peut diffuser du contenu dans plusieurs langues et la section **Temporisation ou erreur** peut définir un autre chemin en cas d’échec de l’action."
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Prise en main des actions de canal"
+>title="Action de notification push"
+>abstract="Une action de canal de notification push envoie une notification push aux profils lorsqu’ils atteignent cette étape du parcours. Le libellé identifie l’activité dans le canevas du parcours et l’action fait référence à une configuration de notification push qui définit le contenu diffusé. La section **Optimisation** peut inclure des expériences de contenu ou des règles de ciblage, la section **Multilingue** peut diffuser du contenu dans plusieurs langues et la section **Délai d’expiration ou erreur** peut définir un autre chemin en cas d’échec de l’action."
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Commencer avec les actions de canal"
 
 
 >[!CONTEXTUALHELP]

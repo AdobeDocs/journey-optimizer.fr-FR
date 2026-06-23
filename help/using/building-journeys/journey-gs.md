@@ -33,7 +33,7 @@ topic_v2:
 source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
 source-wordcount: 2143
-ht-degree: 29%
+ht-degree: 30%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card2"
 >title="Créer des parcours"
->abstract="**[!DNL Adobe Journey Optimizer]** crée des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données."
+>abstract="**[!DNL Adobe Journey Optimizer]** créer des cas d’utilisation d’orchestration en temps réel à l’aide de données contextuelles stockées dans des événements ou des sources de données."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"

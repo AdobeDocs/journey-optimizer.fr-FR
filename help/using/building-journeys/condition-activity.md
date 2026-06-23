@@ -26,7 +26,7 @@ level_v2:
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 2580
-ht-degree: 65%
+ht-degree: 66%
 
 ---
 
@@ -74,7 +74,7 @@ Vous pouvez également baser une condition sur l’appartenance à une audience.
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple"
 >title="À propos de l&#39;éditeur d&#39;expression simple"
->abstract="Le mode Éditeur d&#39;expression simple vous permet d&#39;exécuter des requêtes simples en fonction d&#39;une combinaison de champs. Tous les champs disponibles s’affichent dans la partie gauche de l’écran. Les champs sont glissés et déposés dans la zone principale. Pour combiner les différents éléments, ils sont interverrouillés les uns dans les autres afin de créer différents groupes et/ou niveaux de groupe. Un opérateur logique combine ensuite les éléments au même niveau."
+>abstract="Le mode Éditeur d&#39;expression simple vous permet d&#39;exécuter des requêtes simples en fonction d&#39;une combinaison de champs. Tous les champs disponibles s’affichent dans la partie gauche de l’écran. Les champs sont glissés et déposés dans la zone principale. Pour combiner les différents éléments, ils sont imbriqués afin de créer différents groupes et/ou niveaux de groupes. Un opérateur logique combine ensuite les éléments au même niveau."
 
 Lorsque vous utilisez plusieurs conditions dans un parcours, vous pouvez définir des libellés pour chacune d’elles afin de les identifier plus facilement.
 

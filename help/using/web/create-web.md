@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
 source-wordcount: 1776
-ht-degree: 79%
+ht-degree: 84%
 
 ---
 
@@ -43,8 +43,8 @@ ht-degree: 79%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_web"
 >title="Action web"
->abstract="Une action entrante d’expérience web affiche une expérience web aux profils lorsqu’ils atteignent cette étape du parcours. Le libellé identifie l’activité dans la zone de travail du parcours et l’action fait référence à une configuration web qui définit le contenu affiché. La section **Optimisation** peut inclure des expériences de contenu ou des règles de ciblage. Un nœud **Attente** est automatiquement inséré après cette activité (3 jours par défaut), ce qui donne aux profils le temps d’afficher l’expérience web."
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Prise en main des actions de canal"
+>abstract="Une action entrante d’expérience web affiche une expérience web aux profils lorsqu’ils atteignent cette étape du parcours. Le libellé identifie l’activité dans le canevas du parcours et l’action fait référence à une configuration web qui définit le contenu affiché. La section **Optimisation** peut inclure des expériences de contenu ou des règles de ciblage. Un nœud **Attente** est automatiquement inséré après cette activité (3 jours par défaut), ce qui donne aux profils le temps d’afficher l’expérience web."
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Commencer avec les actions de canal"
 
 [!DNL Journey Optimizer] vous permet de personnaliser l’expérience web que vous diffusez à vos clientes et clients par le biais de campagnes ou parcours entrants.
 

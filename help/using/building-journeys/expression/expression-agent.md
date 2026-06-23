@@ -14,7 +14,7 @@ subfeature_v2: []
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 1147
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
 >title="Générer des expressions à l’aide de l’assistant d’expressions"
->abstract="L’assistant d’expressions utilise l’IA générative pour vous aider à créer et à générer des expressions directement dans l’éditeur d’expression avancé des parcours. Par exemple, dans les conditions, les activités **Optimiser** ou **Attente** qui utilisent une date personnalisée. Lorsque vous décrivez vos besoins en langage clair, l’assistant génère l’expression correspondante pour vous."
+>abstract="L’assistant d’expressions utilise l’IA générative pour vous aider à créer et à générer des expressions directement dans l’éditeur d’expression avancé des parcours. Par exemple, dans les conditions, les activités **Optimiser** ou **Attente** qui utilisent une date personnalisée. Lorsque vous décrivez vos besoins en termes simples, l’assistant génère l’expression correspondante."
 
 >[!AVAILABILITY]
 >

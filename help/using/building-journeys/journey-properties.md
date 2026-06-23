@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 4990
-ht-degree: 52%
+ht-degree: 55%
 
 ---
 
@@ -48,7 +48,7 @@ Utilisez les propriétés du parcours pour configurer les paramètres globaux de
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="Propriétés du parcours"
->abstract="Les propriétés du parcours contiennent des paramètres globaux pour ce parcours, notamment le nom, les balises, les règles d’entrée, le fuseau horaire, les dates, le délai d’expiration et la gestion des conflits. Les paramètres en lecture seule sont masqués par défaut. Les options disponibles varient en fonction du statut du parcours, de vos autorisations et de la configuration du produit."
+>abstract="Les propriétés de parcours contiennent les paramètres globaux de ce parcours, notamment le nom, les balises, les règles d’entrée, le fuseau horaire, les dates, le délai d’expiration et la gestion des conflits. Les paramètres en lecture seule sont masqués par défaut. Les options disponibles varient en fonction du statut du parcours, de vos autorisations et de la configuration du produit."
 
 ## Accéder aux propriétés d’un parcours {#access-properties}
 
@@ -115,7 +115,7 @@ La gestion des entrées de profils dépend du type de parcours. Pour plus d’in
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="Autoriser une nouvelle rentrée"
->abstract="Par défaut, les nouveaux parcours autorisent la rentrée. En désactivant l’option **Autoriser une reprise**, vous empêchez une personne de rejoindre à nouveau le parcours, par exemple pour offrir un cadeau unique à une personne qui effectue sa première visite dans la boutique."
+>abstract="Par défaut, les nouveaux parcours autorisent les rentrées. Décocher l’option **Autoriser une réintégration** empêche une personne de réintégrer le parcours, par exemple offrir un cadeau unique lorsqu’une personne effectue sa première visite dans la boutique."
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gestion des entrées de profil"
 
 Par défaut, les nouveaux parcours autorisent la rentrée. Vous pouvez désélectionner l’option **Autoriser la rentrée** pour les parcours « uniques », par exemple, si vous souhaitez offrir un cadeau unique à un utilisateur ou une utilisatrice qui effectue sa première visite dans la boutique.
@@ -125,7 +125,7 @@ Par défaut, les nouveaux parcours autorisent la rentrée. Vous pouvez désélec
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
 >title="Période d’attente de rentrée"
->abstract="La période d’attente de reprise est le temps d’attente avant qu’un profil puisse entrer à nouveau dans le parcours dans les parcours unitaires. Cela empêche les utilisateurs et utilisatrices de rejoindre à nouveau le parcours pendant une durée choisie. Durée maximale : 90 jours."
+>abstract="Le temps d’attente de réintégration correspond au temps d’attente avant qu’un profil puisse réintégrer un parcours dans les parcours unitaires. Cela empêche les utilisateurs et utilisatrices de réintégrer le parcours pendant une durée donnée. Durée maximale : 90 jours."
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gestion des entrées de profil"
 
 Lorsque l’option **Autoriser une rentrée** est activée, le champ **Période d’attente de rentrée** s’affiche. Ce champ vous permet de définir le temps d’attente avant d’autoriser un profil à entrer à nouveau dans un parcours pour les parcours unitaires (en commençant par un événement ou une qualification d’audience). Cela empêche les parcours d’être déclenchés plusieurs fois par erreur pour le même événement. Par défaut, le champ est défini sur 5 minutes. La durée maximale est de 90 jours.
@@ -143,7 +143,7 @@ Pour attribuer des libellés d’utilisation des données personnalisés au parc
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_payload_size"
 >title="Taille actuelle de la payload du parcours"
->abstract="Affiche la taille actuelle de la payload du parcours par rapport à la limite configurée. Cet indicateur permet de surveiller la complexité du parcours avant publication et d’éviter les erreurs dues au dépassement de la taille limite de la payload."
+>abstract="Affiche la taille actuelle de la payload du parcours par rapport à la limite configurée. Cet indicateur permet de surveiller la complexité du parcours avant la publication et d’éviter les erreurs dues au dépassement de la taille limite de la payload."
 
 Le champ **[!UICONTROL Taille actuelle de la payload du parcours]** du panneau des propriétés du parcours affiche la taille actuelle de la payload de votre parcours par rapport à la limite configurée, par exemple, *1,5 Mo (sur 2 Mo)*. Cet indicateur en lecture seule est visible à n’importe quelle étape de la création de parcours.
 
@@ -166,12 +166,12 @@ Le fuseau horaire est défini au niveau du parcours. Vous pouvez saisir un fusea
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="Date de début"
->abstract="La date de début est la date à laquelle les profils peuvent commencer à entrer dans le parcours. Si aucune date de début n’est définie, elle correspond par défaut à la date de publication du parcours."
+>abstract="La date de début correspond à la date à laquelle les profils peuvent commencer à intégrer le parcours. Si aucune date de début n’est définie, elle correspond par défaut à la date de publication du parcours."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="Date de fin"
->abstract="La date de fin est celle à laquelle le parcours se termine. À cette date, les profils actifs quittent automatiquement le parcours et aucune nouvelle entrée n’est autorisée."
+>abstract="La date de fin correspond à la fin du parcours. À cette date, les profils actifs quittent automatiquement le parcours et aucune nouvelle entrée n’est autorisée."
 
 Par défaut, les profils peuvent rejoindre votre parcours dès qu’il est publié et y rester jusqu’à la [temporisation globale du parcours](#global_timeout). La seule exception concerne les parcours de lecture d’audience récurrents avec l’option **Forcer une rentrée sur la périodicité** activée, qui se termine à la date de début de l’occurrence suivante.
 
@@ -185,8 +185,8 @@ Les paramètres de temporisation contrôlent la durée pendant laquelle un parco
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_timeout"
->title="Temporisation ou erreur"
->abstract="L’option **Temporisation ou erreur** définit un autre chemin d’accès dans le parcours lorsque l’action expire ou renvoie une erreur, de sorte que les profils continuent via un chemin de secours plutôt que de s’arrêter à cette étape. Les valeurs recommandées sont comprises entre 1 et 30 secondes."
+>title="Délai d’expiration ou erreur"
+>abstract="L’option **Délai d’expiration ou erreur** définit un autre chemin d’accès dans le parcours lorsque l’action expire ou renvoie une erreur, de sorte que les profils continuent en suivant un chemin de secours plutôt que de s’arrêter à cette étape. Les valeurs recommandées sont comprises entre 1 et 30 secondes."
 
 Lorsque vous modifiez une action ou une activité de condition, vous pouvez définir un autre chemin en cas d’erreur ou de temporisation. Si la durée de traitement de l’activité qui interroge un système tiers dépasse la durée de temporisation définie dans le champ **[!UICONTROL Temporisation ou erreur]** des propriétés du parcours, le deuxième chemin d’accès est choisi pour effectuer une éventuelle action de remplacement.
 

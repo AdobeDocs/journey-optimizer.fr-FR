@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: cc7ab9c3a9e29e47019d0c6759d328b750a0b544
 workflow-type: tm+mt
 source-wordcount: 1866
-ht-degree: 47%
+ht-degree: 52%
 
 ---
 
@@ -55,9 +55,9 @@ ht-degree: 47%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_email"
->title="Action E-mail"
->abstract="Une action de canal e-mail envoie un e-mail aux profils lorsqu’ils atteignent cette étape du parcours. Le libellé identifie l’activité dans la zone de travail de parcours et l’action fait référence à une configuration d’e-mail qui définit le contenu diffusé. La section **Optimisation** peut inclure des expériences de contenu ou des règles de ciblage, la section **Multilingue** peut diffuser du contenu dans plusieurs langues et la section **Temporisation ou erreur** peut définir un autre chemin en cas d’échec de l’action."
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Prise en main des actions de canal"
+>title="Action d’e-mail"
+>abstract="Une action de canal e-mail envoie un e-mail aux profils lorsqu’ils atteignent cette étape du parcours. Le libellé identifie l’activité dans le canevas du parcours et l’action fait référence à une configuration du canal e-mail qui définit le contenu diffusé. La section **Optimisation** peut inclure des expériences de contenu ou des règles de ciblage, la section **Multilingue** peut diffuser du contenu dans plusieurs langues et la section **Délai d’expiration ou erreur** peut définir un autre chemin en cas d’échec de l’action."
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Commencer avec les actions de canal"
 
 Pour créer un e-mail dans [!DNL Journey Optimizer], ajoutez une action d’**[!UICONTROL e-mail]** à un parcours ou à une campagne. Suivez ensuite les étapes ci-dessous, en fonction de votre cas.
 

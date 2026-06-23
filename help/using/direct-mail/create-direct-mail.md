@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
 source-wordcount: 1266
-ht-degree: 64%
+ht-degree: 72%
 
 ---
 
@@ -57,13 +57,13 @@ Pour créer des messages de publipostage direct, créez une campagne planifiée 
 >1. [Configuration du routage des fichiers](../direct-mail/direct-mail-configuration.md#file-routing-configuration) qui spécifie le serveur sur lequel le fichier d’extraction doit être chargé et stocké,
 >1. [Configuration de message de publipostage direct](../direct-mail/direct-mail-configuration.md#direct-mail-surface) qui fera référence à la configuration du routage des fichiers.
 
-## Ajouter un message de publipostage direct {#create-dm-campaign}
+## Ajouter un message de courrier {#create-dm-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_direct_mail"
->title="Action Courrier"
->abstract="Une action de canal Courrier génère le contenu du publipostage direct pour les profils lorsqu’ils atteignent cette étape du parcours. Le libellé identifie l’activité dans la zone de travail de parcours et l’action fait référence à une configuration de publipostage direct qui définit le contenu diffusé. La section **Optimisation** peut inclure des expériences de contenu ou des règles de ciblage, la section **Multilingue** peut diffuser du contenu dans plusieurs langues et la section **Temporisation ou erreur** peut définir un autre chemin en cas d’échec de l’action."
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Prise en main des actions de canal"
+>title="Canal de courrier"
+>abstract="Une action de canal de courrier génère le contenu du courrier pour les profils lorsqu’ils atteignent cette étape du parcours. Le libellé identifie l’activité dans le canevas du parcours et l’action fait référence à une configuration de courrier qui définit le contenu diffusé. La section **Optimisation** peut inclure des expériences de contenu ou des règles de ciblage, la section **Multilingue** peut diffuser du contenu dans plusieurs langues et la section **Délai d’expiration ou erreur** peut définir un autre chemin en cas d’échec de l’action."
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Commencer avec les actions de canal"
 
 Parcourez les onglets ci-dessous pour savoir comment ajouter un Message de publipostage direct dans une campagne ou un parcours.
 

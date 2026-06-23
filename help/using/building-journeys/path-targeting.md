@@ -14,7 +14,7 @@ subfeature_v2: []
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 1327
-ht-degree: 53%
+ht-degree: 55%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 53%
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
 >title="Qu’est-ce que le chemin de remplacement ?"
->abstract="Le chemin de remplacement permet à une audience de rejoindre un chemin alternatif lorsqu’aucune règle de ciblage ne s’applique. </br>Si cette option n’est pas sélectionnée, toute audience qui ne remplit pas les critères d’une règle de ciblage ne peut pas accéder au chemin de secours et quitter le parcours."
+>abstract="Les chemins de secours permettent à l’audience d’entrer sur un autre chemin lorsqu’aucune règle de ciblage n’est applicable. </br>Si cette option n’est pas sélectionnée, les audiences qui ne remplissent pas les critères d’une règle de ciblage ne peuvent pas accéder au chemin de secours ni quitter le parcours."
 
 Le ciblage vous permet de déterminer les règles ou qualifications qu’un client ou une cliente doit remplir pour pouvoir suivre l’un des chemins de parcours, en fonction de segments d’audience spécifiques<!-- depending on profile attributes or contextual attributes-->.
 

@@ -14,7 +14,7 @@ exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
 source-git-commit: e12c7cdc7b90507913b1a0ebd3eb0ee74007f95b
 workflow-type: tm+mt
 source-wordcount: '2203'
-ht-degree: 10%
+ht-degree: 14%
 
 ---
 
@@ -94,7 +94,7 @@ Dans l’onglet **[!UICONTROL Paramètres]**, configurez les propriétés au niv
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_properties"
 >title="Détails du défi"
->abstract="Définissez le nom et la description du défi. L’ID de défi est attribué automatiquement lorsque le défi est créé et peut être copié pour une utilisation dans l’API ou l’intégration."
+>abstract="Définissez le nom et la description du défi. L’ID de défi est attribué automatiquement lorsque le défi est créé et peut être copié pour une utilisation dans le cadre d’une API ou d’une intégration."
 
 1. Dans la section **[!UICONTROL Détails du défi]**, définissez les éléments suivants :
 
@@ -109,7 +109,7 @@ Dans l’onglet **[!UICONTROL Paramètres]**, configurez les propriétés au niv
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_audience"
 >title="Audience"
->abstract="Choisissez qui peut participer au défi. Ajoutez une audience Adobe Experience Platform ou laissez l’audience vide afin que tous les membres du programme de fidélité soient éligibles. Vous pouvez éventuellement exiger d’autres défis au préalable."
+>abstract="Choisissez qui peut participer au défi. Ajoutez une audience Adobe Experience Platform ou laissez le champ d’audience vide afin que les membres du programme de fidélité soient éligibles. Vous pouvez également exiger que d’autres défis soient réalisés au préalable."
 
 Définissez qui peut participer à votre défi de fidélité.
 
@@ -124,7 +124,7 @@ Définissez qui peut participer à votre défi de fidélité.
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_schedule"
 >title="Planning du défi"
->abstract="Définissez quand le défi est actif en utilisant la date et l’heure de début et de fin, ainsi qu’un fuseau horaire. Dans la fenêtre d’achèvement de la tâche, choisissez le moment où les clients peuvent terminer les tâches pendant la période de défi."
+>abstract="Définissez quand le défi est actif en utilisant la date et l’heure de début et de fin, ainsi qu’un fuseau horaire. Dans la fenêtre d’achèvement de la tâche, choisissez le moment où les clientes et clients peuvent terminer les tâches pendant la période de défi."
 
 Configurez le moment où votre défi s’exécute :
 

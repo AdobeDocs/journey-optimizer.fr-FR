@@ -14,7 +14,7 @@ subfeature_v2:
 source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
 source-wordcount: 1785
-ht-degree: 75%
+ht-degree: 80%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 75%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_content_card"
->title="Action de la carte de contenu"
->abstract="Une action entrante de carte de contenu affiche une carte de contenu aux profils lorsqu’ils atteignent cette étape du parcours. Le libellé identifie l’activité dans la zone de travail du parcours et l’action fait référence à une configuration de carte de contenu qui définit le contenu affiché. La section **Optimisation** peut inclure des expériences de contenu ou des règles de ciblage. Un nœud **Attente** est automatiquement inséré après cette activité (3 jours par défaut), ce qui donne aux profils le temps d’afficher la carte de contenu."
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Prise en main des actions de canal"
+>title="Action de carte de contenu"
+>abstract="Une action entrante de carte de contenu affiche une carte de contenu aux profils lorsqu’ils atteignent cette étape du parcours. Le libellé identifie l’activité dans le canevas du parcours et l’action fait référence à une configuration de carte de contenu qui définit le contenu affiché. La section **Optimisation** peut inclure des expériences de contenu ou des règles de ciblage. Un nœud **Attente** est automatiquement inséré après cette activité (3 jours par défaut), ce qui donne aux profils le temps de consulter la carte de contenu."
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Commencer avec les actions de canal"
 
 
 Les cartes de contenu sont des expériences in-app entrantes qui affichent du contenu personnalisé (tel que des promotions, des annonces ou des recommandations) directement dans une surface dédiée de votre application mobile. Contrairement aux messages d’interruption, ils restent disponibles dans l’application jusqu’à ce que l’utilisateur les ferme ou que vos règles de diffusion les masquent.

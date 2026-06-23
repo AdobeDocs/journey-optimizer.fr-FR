@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
 source-wordcount: 2435
-ht-degree: 86%
+ht-degree: 90%
 
 ---
 
@@ -45,8 +45,8 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_in_app"
 >title="Action de message in-app"
->abstract="Une action entrante Message in-app affiche un message in-app aux profils lorsqu’ils atteignent cette étape du parcours. Le libellé identifie l’activité dans la zone de travail de parcours et l’action fait référence à une configuration in-app qui définit le contenu affiché. La section **Optimisation** peut inclure des expériences de contenu ou des règles de ciblage. Un nœud **Wait** est automatiquement inséré après cette activité (3 jours par défaut), ce qui donne aux profils le temps d’afficher le message in-app."
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Prise en main des actions de canal"
+>abstract="Une action entrante de message in-app affiche un message in-app aux profils lorsqu’ils atteignent cette étape du parcours. Le libellé identifie l’activité dans le canevas du parcours et l’action fait référence à une configuration in-app qui définit le contenu affiché. La section **Optimisation** peut inclure des expériences de contenu ou des règles de ciblage. Un nœud **Attente** est automatiquement inséré après cette activité (3 jours par défaut), ce qui donne aux profils le temps de consulter le message in-app."
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Commencer avec les actions de canal"
 
 Vous pouvez ajouter un message in-app dans une campagne ou dans un parcours. Suivez les étapes détaillées ci-dessous pour créer un message in-app dans les deux contextes.
 
