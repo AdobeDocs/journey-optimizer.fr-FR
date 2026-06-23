@@ -6,8 +6,12 @@ description: Découvrez comment résoudre les problèmes liés aux activités en
 role: User
 level: Intermediate
 exl-id: f0f83bd2-7c2b-4d9b-b455-e1df12dfa175
-feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714d
+feature_v2:
+  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2:
+  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
+  - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
 source-git-commit: 8d7aea9c58b0f7622f3b11c21db55536ffe1cb66
 workflow-type: tm+mt
 source-wordcount: 5964
@@ -106,7 +110,7 @@ La vue Activités en direct d’Adobe Experience Platform Assurance valide la co
 
 **Envoyer la mise à jour**. à partir de l&#39;onglet Aperçu d&#39;une activité existante, envoie un événement Mise à jour (nouveau contenu push) ou Fin . Pour les messages unitaires, le plug-in utilise automatiquement le jeton de mise à jour de l’activité. Pour la diffusion, il cible tous les appareils abonnés au même identifiant de canal de diffusion. Les payloads doivent être au format JSON valide et correspondre au schéma d’attributs de l’activité. Dans le cas contraire, la requête sera rejetée.
 
-Consultez la [documentation ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/home.html) pour les étapes de configuration et de connexion à la session.
+Consultez la [documentation &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/home.html) pour les étapes de configuration et de connexion à la session.
 
 +++
 
@@ -436,7 +440,7 @@ Dans ce scénario, toutes les vérifications précédentes ont réussi :
 
 * Le profil existe avec des [jetons push d’activité actifs valides](#scenario-1-profile-or-push-token-issues).
 * Campaign est correctement [configuré avec la payload appropriée](#scenario-2-campaign-configuration-and-payload-issues)
-* [ Les jetons de mise à jour sont synchronisés ](#scenario-4-live-activity-update-token-not-synced) (pour les événements de mise à jour/de fin, cas d’utilisation unitaire uniquement)
+* [&#x200B; Les jetons de mise à jour sont synchronisés &#x200B;](#scenario-4-live-activity-update-token-not-synced) (pour les événements de mise à jour/de fin, cas d’utilisation unitaire uniquement)
 
 Mais l’activité Live ne s’affiche toujours pas, ne se met pas à jour ou ne se termine pas comme prévu. Le problème peut concerner le système de diffusion Adobe ou le fournisseur de services de notification push (APNs).
 
@@ -491,7 +495,7 @@ Mais l’activité Live ne s’affiche toujours pas, ne se met pas à jour ou ne
       | Jeton placé sur la liste bloquée | Jeton marqué comme non valide | Réenregistrer le jeton ou vérifier le statut de la liste bloquée |
       | Profil non éligible | Le profil ne répond pas aux critères de la campagne. | Vérifier les règles d’audience de campagne |
 
-Pour en savoir plus, consultez la page [ Rapport de campagne d’activité dynamique ](../reports/campaign-global-report-cja-activity.md).
+Pour en savoir plus, consultez la page [&#x200B; Rapport de campagne d’activité dynamique &#x200B;](../reports/campaign-global-report-cja-activity.md).
 
 +++
 
@@ -827,7 +831,7 @@ La structure de la payload de diffusion diffère des campagnes unitaires. Vérif
 * `dismissal-date` : époque Unix pour le rejet automatique (pertinent uniquement pour les événements `end`)
 * `alert` : objet avec `title` et `body` pour la notification
 
-Consultez la documentation de l’API de messagerie Adobe Journey Optimizer [](https://developer.adobe.com/journey-optimizer-apis/references/messaging) pour obtenir des spécifications d’API complètes.
+Consultez la documentation de l’API de messagerie Adobe Journey Optimizer [&#128279;](https://developer.adobe.com/journey-optimizer-apis/references/messaging) pour obtenir des spécifications d’API complètes.
 
 +++
 
@@ -981,7 +985,7 @@ Déterminez si l’audience utilise une évaluation par lots ou par flux, car ce
 1. Sur la page **Détails de l’audience**, vérifiez la méthode **Évaluation** :
    * **Lot** : évalué une fois par jour selon un planning.
    * **Streaming** : évalué en temps réel lorsque des mises à jour de profil se produisent.
-   * **** : évalué aux emplacements Edge en temps réel.
+   * **&#x200B;**&#x200B;: évalué aux emplacements Edge en temps réel.
 
 Suivez les étapes de dépannage appropriées en fonction de la méthode d’évaluation :
 
@@ -1108,7 +1112,7 @@ ORDER BY timestamp ASC
 > `identityMap` est un type MAP structuré, et non une chaîne. Utilisez la syntaxe de tableau et d&#39;accesseur struct indiquée ci-dessus. Les fonctions de chaîne telles que `LIKE` renvoient une erreur `DATATYPE_MISMATCH`.
 >
 ></br>
-&gt; Le jeu de données d’événement de retour de message stocke uniquement l’ECID dans son « identityMap ». Si le profil affecté est identifié par un espace de noms personnalisé plutôt que par un ECID, résolvez d’abord l’ECID : accédez à **Profils** dans AEP, recherchez le profil à l’aide de l’espace de noms personnalisé et de la valeur d’identité, puis récupérez l’ECID à partir des détails d’identité du profil. Utilisez cette valeur ECID dans la requête ci-dessus.
+>&gt; Le jeu de données d’événement de retour de message stocke uniquement l’ECID dans son « identityMap ». Si le profil affecté est identifié par un espace de noms personnalisé plutôt que par un ECID, résolvez d’abord l’ECID : accédez à **Profils** dans AEP, recherchez le profil à l’aide de l’espace de noms personnalisé et de la valeur d’identité, puis récupérez l’ECID à partir des détails d’identité du profil. Utilisez cette valeur ECID dans la requête ci-dessus.
 
 ### valeurs feedbackStatus
 
