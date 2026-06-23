@@ -11,30 +11,16 @@ keywords: parcours, message, notification push, sms, e-mail, in-app, web, carte 
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/MK5SCefAZ1P2CqX-Y3TmweUyfUI297edZXCMAZSvhT0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1813
-ht-degree: 69%
+source-wordcount: 2428
+ht-degree: 52%
 
 ---
 
@@ -83,21 +69,21 @@ Les activités de canal natives héritées sont également conservées dans les 
 >id="ajo_journey_action_auto_wait"
 >title="Nœud d’attente automatique"
 >abstract="Pour les actions de canal entrant (message in-app, web, carte de contenu et expérience basée sur le code), un nœud **Wait** est automatiquement inséré après l’action (3 jours par défaut). Cela donne aux profils le temps d’afficher l’expérience entrante avant que le parcours ne passe à l’étape suivante."
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Prise en main des actions de canal"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Prise en main des actions de canal"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_optimization"
 >title="Optimisation"
 >abstract="La section **Optimisation** ajoute des expériences de contenu, des règles de ciblage ou les deux à une action de canal. Il vous permet de tester des variantes et de diffuser le contenu le plus efficace à chaque membre de l’audience."
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="Utiliser l’activité d’optimisation"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="Utiliser l’activité d’optimisation"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_multilingual"
 >title="Multilingue"
 >abstract="La section **multilingue** diffuse le contenu de l’action du canal dans plusieurs langues au sein d’un seul parcours. Une configuration des paramètres de langue définit les paramètres régionaux pris en charge et la langue par défaut de cette action."
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="Commencer avec le contenu multilingue"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="Commencer avec le contenu multilingue"
 
 
 Pour ajouter une action de canal intégrée à votre parcours à l’aide de l’activité **[!UICONTROL Action]**, procédez comme suit.
@@ -251,7 +237,7 @@ La diffusion rapide est utilisée lorsque le retard dans la diffusion des messag
 
 Découvrez comment activer le mode de diffusion rapide pour les notifications push [sur cette page](../push/create-push.md#rapid-delivery).
 
-Pour plus d’informations sur les performances lors de l’utilisation du mode de diffusion rapide, consultez la section [[!DNL Adobe Journey Optimizer] description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Pour plus d’informations sur les performances lors de l’utilisation du mode de diffusion rapide, consultez la section [[!DNL Adobe Journey Optimizer] description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 +++
 
@@ -356,3 +342,47 @@ Au lieu d’utiliser les fonctionnalités de message intégrées, vous pouvez ut
 
    * [[!DNL Journey Optimizer] et Campaign v7/v8](../action/acc-action.md)
    * [[!DNL Journey Optimizer] et Campaign Standard](../action/acs-action.md)
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page explique comment utiliser l’activité d’action unifiée dans la zone de travail de parcours pour configurer des actions de canal intégrées (e-mail, notification push, SMS, in-app, web, carte de contenu, expérience basée sur du code), créer des groupes d’actions entrantes multiples et appliquer des paramètres d’optimisation ou multilingues.
+
+**Intentions:**
+* Ajoutez une action de canal intégrée (e-mail, notification push, SMS, in-app, web, carte de contenu, expérience basée sur le code) à un parcours à l’aide de l’activité Action .
+* Configurez un groupe à actions multiples pour diffuser plusieurs actions entrantes simultanément à partir d’un seul nœud de parcours
+* Appliquez des règles de limitation de la fréquence à une action de canal sortant pour éviter la fatigue des messages
+* Mettre à jour le contenu du message dans un parcours dynamique sans le republier
+* Connexion d’un système de messagerie tiers à un parcours à l’aide d’actions personnalisées
+* Activer le mode de diffusion rapide pour les notifications push urgentes volumineuses
+
+**Glossaire:**
+* **Activité d’action** : activité de la zone de travail du parcours unifié qui sert de point d’entrée unique pour toutes les actions de canal intégrées, remplaçant les activités de canal héritées individuelles *(spécifiques au produit)*
+* **Multi-action** : configuration au sein d’un nœud d’activité Action unique qui permet de diffuser simultanément jusqu’à 10 actions de canal entrant *(spécifiques au produit)*
+* **Mode de diffusion rapide** : module complémentaire permettant d’envoyer très rapidement des messages push volumineux pour des alertes urgentes *(spécifiques au produit)*
+* **Nœud d’attente automatique** : une activité d’attente de 3 jours automatiquement insérée après chaque action de canal entrant pour donner aux profils le temps d’afficher l’expérience avant que le parcours n’avance *(spécifique au produit)*
+* **Score de priorité** : valeur attribuée à une action de parcours pour déterminer quelle expérience entrante est prioritaire lorsque plusieurs actions se disputent le même *de configuration de canal (spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+* Les anciennes activités de canaux individuels (e-mail, notification push, SMS, in-app, web, expérience basée sur le code, carte de contenu) sont obsolètes depuis la version de mars 2026. Les parcours existants continuent de fonctionner sans migration
+* La fonction multi-action n’est disponible que pour les canaux entrants. Les canaux sortants tels que les e-mails ne sont pas pris en charge dans les groupes multi-action
+* Un groupe à actions multiples prend en charge un maximum de 10 actions entrantes
+* Dans un parcours en direct, les attributs de personnalisation (attributs de profil et données contextuelles) ne peuvent pas être modifiés ; seul le contenu du message peut être mis à jour
+* Les déclencheurs in-app ne peuvent pas être modifiés dans un parcours dynamique
+
+**Terminologie:**
+* Nom canonique : Activité d’action — Acronyme : aucune — variantes : action de canal, activité de message, action de canal intégrée
+* Synonymes : « Activité d’action » = « activité d’action de canal »
+* Ne les confondez pas : « Activité d’action » ≠ « Action personnalisée » : l’activité d’action utilise des canaux natifs intégrés, tandis qu’une action personnalisée s’intègre à un système tiers via l’API
+
+**FAQ:**
+* **Q : Quels canaux sont disponibles dans l’activité Action ?** : e-mail, notification push, SMS/RCS/MMS, in-app, web, expérience basée sur le code et carte de contenu.
+* **Q : Puis-je envoyer des messages à plusieurs points d’entrée entrants dans le même nœud de parcours ?** — Oui, avec le type Multi-action, vous pouvez ajouter jusqu’à 10 actions entrantes (expérience basée sur le code, in-app, carte de contenu, web) dans un seul nœud d’activité Action.
+* **Q : Qu’advient-il des parcours qui utilisent les activités de canal héritées obsolètes ?** — Ils continuent à fonctionner sans aucune modification ; aucune migration n’est requise.
+* **Q : Puis-je modifier l’objet de l’e-mail d’un parcours en direct ?** — Vous pouvez mettre à jour le contenu d&#39;un message dans un parcours en ligne, mais vous ne pouvez pas modifier les attributs de personnalisation ou les données contextuelles utilisées dans ce contenu.
+* **Q : Comment appliquer un capping de la fréquence à une action de canal ?** — Utilisez le menu déroulant Règles métier dans la configuration des actions pour sélectionner un ensemble de règles qui applique des règles de limitation pour le canal sélectionné.
+
++++

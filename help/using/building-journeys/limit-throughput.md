@@ -10,22 +10,15 @@ keywords: parcours, sources de données, limite, débit, personnalisé, actions
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/r96xAEjUJDufjpxGMrxoYS0VthagaSyYdS9NQttT9x0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 829
-ht-degree: 90%
+source-wordcount: 1454
+ht-degree: 51%
 
 ---
 
@@ -105,3 +98,51 @@ Comme autre mécanisme de sécurisation, vous pouvez également utiliser les fon
 >[!NOTE]
 >
 >Contrairement aux fonctionnalités de limitation, qui protègent un point d’entrée en étant global sur tous les parcours d’un sandbox, cette solution de contournement fonctionne uniquement au niveau du parcours. Cela signifie que si plusieurs parcours s’exécutent en parallèle et ciblent le même point d’entrée, vous devrez en tenir compte lors de la conception de votre parcours. Cette solution de contournement ne convient donc pas à tous les cas d’utilisation.
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page explique comment limiter le débit du parcours lorsque des sources de données externes ou des actions personnalisées ont un nombre limité de requêtes par seconde, à l’aide de la configuration du taux de lecture d’audience, des fractionnements de pourcentage et des activités d’attente.
+
+**Intentions:**
+
+* Limitez le débit d’un parcours déclenché par une audience pour éviter qu’un système externe ne soit submergé
+* Configurez le taux de lecture d’une activité Lecture d’audience pour contrôler le nombre de profils entrés par seconde
+* Combinez des conditions de partage en pourcentage et des activités d’attente pour répartir le traitement des profils dans le temps
+* Comprenez la différence entre les solutions de contournement du débit au niveau du parcours et les fonctionnalités de limitation au niveau du sandbox
+* Application des fonctionnalités de limitation aux actions personnalisées au niveau du produit
+
+**Glossaire:**
+
+* **Limitation/limitation du débit** : contrôle du débit auquel les profils traversent un parcours afin d’éviter de dépasser la capacité de requête d’un système externe. *(spécifique au produit)*
+* **Taux de lecture d’audience** : paramètre configurable sur l’activité Lecture d’audience qui définit le nombre maximal de profils entrant dans le parcours par seconde (plage : 500 à 20 000 instances/seconde). *(spécifique au produit)*
+* **API de limitation** : API Journey Optimizer qui définit une limite maximale de requêtes par point d’entrée pour les sources de données externes ; les requêtes au-delà de la limite sont ignorées. *(spécifique au produit)*
+* **Condition de partage en pourcentage** : une activité de condition qui divise le flux de profils en branches par pourcentage, utilisée ici pour distribuer les profils sur les chemins d’attente échelonnés dans le temps. *(spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+
+* Le taux de lecture d’audience peut être défini entre 500 et 20 000 instances par seconde ; les valeurs inférieures à 500/s nécessitent une solution de contournement à l’aide de divisions en pourcentage et d’activités d’attente
+* Les parcours unitaires prennent en charge jusqu’à 5 000 instances/seconde ; les parcours déclenchés par une audience prennent en charge jusqu’à 20 000 instances/seconde.
+* La solution de contournement de division en pourcentage + attente fonctionne uniquement au niveau du parcours, et non sur tous les parcours du sandbox
+* Lorsque plusieurs parcours ciblent en parallèle le même point d’entrée externe, cette solution de contournement ne prend pas en compte la charge combinée. Utilisez plutôt les fonctionnalités de limitation .
+* Les requêtes restantes qui dépassent la limite de limitation sur les sources de données externes sont ignorées et non mises en file d’attente
+* La solution doit être minutieusement testée avant le passage en production
+
+**Terminologie:**
+
+* Nom canonique : Limitation du débit — Acronyme : aucun — variantes : limitation, limitation de débit, contrôle du débit du parcours
+* Synonymes : « Limitation » = « limitation » dans le contexte de la protection des points d’entrée externes
+* Ne les confondez pas : « API de limitation (niveau de point d’entrée) » ≠ « taux de lecture (niveau de parcours) » - L’API de limitation s’applique globalement à tous les parcours d’un sandbox ciblant un point d’entrée ; le taux de lecture et la solution de fractionnement/d’attente s’appliquent uniquement à chaque parcours
+
+**FAQ:**
+
+* **Q : Quel est le taux de lecture maximal que je peux définir sur une activité Lecture d’audience ?** — Entre 500 et 20 000 profils par seconde ; pour descendre en dessous de 500/s, utilisez un partage en pourcentage avec les activités d’attente.
+* **Q : Comment les fractionnements en pourcentage et les activités d’attente permettent-ils de limiter le débit ?** : en divisant les profils en branches (par exemple, 20 % chacune) et en ajoutant des temporisateurs d’attente décalés par branche, vous vous assurez que seul un nombre contrôlé de profils atteignent le système externe par seconde.
+* **Q : La solution de contournement de partage en pourcentage protège-t-elle tous les parcours ciblant le même point d’entrée ?** — Non ; cela ne fonctionne qu&#39;au niveau des parcours individuels. Si plusieurs parcours s’exécutent en parallèle sur le même point d’entrée, utilisez plutôt les fonctionnalités de limitation au niveau du sandbox .
+* **Q : Qu’advient-il des requêtes qui dépassent la limite de limitation sur une source de données externe ?** — Elles sont ignorées ; l’API de limitation ne met pas en file d’attente les requêtes en trop.
+* **Q : Dois-je utiliser des actions personnalisées ou des sources de données pour les cas d’utilisation de données externes ?** — Les actions personnalisées sont recommandées, car elles prennent en charge le traitement des réponses ; les sources de données ne doivent être utilisées que lorsque le cas d’utilisation les requiert spécifiquement.
+
++++

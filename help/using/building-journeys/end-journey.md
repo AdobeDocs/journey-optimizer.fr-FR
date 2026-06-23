@@ -10,24 +10,16 @@ keywords: rentrée, parcours, fin, dynamique, arrêt
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/-mknoNfkNCnfnLD1UCiA6C88NjookKqGr5tQdJ-f3T4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 9f9b9aa34e369132d0d595788edb3068be4c2cb6
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1266
-ht-degree: 70%
+source-wordcount: 1779
+ht-degree: 50%
 
 ---
 
@@ -165,5 +157,51 @@ Vous pouvez également réaliser les opérations suivantes :
 * [Guide des critères d’entrée et de sortie de parcours](entry-exit-criteria-guide.md) : guide complet avec des exemples réels et des bonnes pratiques.
 * [Gestion des entrées de profil](entry-management.md) : configurez la manière dont les profils rejoignent les parcours.
 * [Configurer les critères de sortie](journey-properties.md#exit-criteria) : configurez la suppression automatique des profils des parcours.
-* [Mettre en pause un parcours &#x200B;](journey-pause.md) : arrêtez temporairement l’exécution du parcours.
-* [Arrêter ou fermer un parcours en pause](journey-pause.md#stop-close-paused) - Arrêtez un parcours en pause sans le reprendre au préalable
+* [Mettre en pause un parcours ](journey-pause.md) : arrêtez temporairement l’exécution du parcours.
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page explique les différentes manières dont un parcours en ligne peut se terminer (y compris le délai d’expiration global de 91 jours, la fermeture manuelle des nouvelles entrées et l’arrêt d’urgence), ainsi que leurs effets sur les profils en cours.
+
+**Intentions:**
+
+* Fermer un parcours dynamique à de nouvelles entrées tout en permettant aux profils actuels de le terminer
+* Arrêter immédiatement un parcours pour arrêter tous les profils en cours
+* Comprendre la différence entre les statuts de parcours Fermé, Arrêté et Terminé
+* Déterminer quand un parcours est considéré comme « terminé » en fonction de son type et de sa configuration
+* Supprimer un parcours une fois qu’il a atteint le statut Terminé
+
+**Glossaire:**
+
+* **Balise de fin** : nœud non amovible généré automatiquement et affiché à la fin de chaque chemin de parcours lors de la création ; son libellé peut être modifié *(spécifique au produit)*
+* **Fermer aux nouvelles entrées** : action manuelle qui empêche les nouveaux profils d’entrer dans un parcours tout en permettant aux profils existants de terminer leur chemin d’accès *(spécifique au produit)*
+* **Délai d’expiration global du parcours** : délai maximal de 91 jours après lequel un parcours passe automatiquement au statut Terminé et toutes les données de profil sont supprimées *(spécifique au produit)*
+* **Statut Arrêté** : statut de parcours dans lequel tous les profils en cours sont immédiatement arrêtés ; utilisé uniquement pour les urgences *(spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+
+* Les parcours fermés et arrêtés ne peuvent pas être redémarrés ni supprimés ; seule une nouvelle version ou un doublon peut être créé.
+* Seuls les parcours dont le statut est Terminé peuvent être supprimés.
+* L’arrêt d’un parcours nécessite l’autorisation Gestion des parcours ; les parcours avec des campagnes intégrées ou des nœuds de messagerie nécessitent également l’autorisation Campagnes > Publier les campagnes .
+* Au-delà de la temporisation globale de 91 jours, toutes les données de parcours de profil sont supprimées et les profils restants sont automatiquement fermés.
+* Un parcours Lecture d’audience unique reste à l’état Actif après son exécution. Il doit être fermé manuellement ou se fermera après 91 jours.
+
+**Terminologie:**
+
+* Nom canonique : Fermer aux nouvelles entrées — Acronyme : s.o. — variantes : fermer le parcours, fermer manuellement
+* Synonymes : parcours « Arrêté » ≠ parcours « Fermé » : arrêté interrompt immédiatement tous les profils ; fermé ne bloque que les nouvelles entrées
+* Ne pas confondre : « Balise de fin » ≠ « Activité de fin » — La balise de fin est générée automatiquement et ne peut pas être supprimée ; l&#39;activité de fin est un nœud de zone de travail positionnable
+
+**FAQ:**
+
+* **Q : Quelle est la différence entre fermer et arrêter un parcours ?** : la fermeture bloque les nouvelles entrées tout en laissant les profils existants se terminer ; l&#39;arrêt interrompt immédiatement tous les profils dans leur trajectoire.
+* **Q : Quand un parcours Lecture d’audience atteint-il le statut Terminé ?** — 91 jours après le début de l&#39;exécution (non récurrent), lorsque la date de fin est atteinte (récurrent avec date de fin), ou 91 jours après le début (récurrent sans date de fin).
+* **Q : Puis-je supprimer un parcours fermé ?** — Non, seuls les parcours terminés peuvent être supprimés.
+* **Q : Qu’advient-il des profils toujours dans un parcours lorsque le délai d’expiration de 91 jours atteint ?** — Ils sont automatiquement sortis du parcours à ce stade.
+* **Q : Ai-je besoin d’autorisations spéciales pour arrêter un parcours ?** — Oui, l’autorisation Gérer les parcours est requise, plus Campagnes > Publier les campagnes si le parcours contient des campagnes intégrées ou des nœuds de messagerie.
+
++++

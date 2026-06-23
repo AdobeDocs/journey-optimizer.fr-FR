@@ -11,26 +11,16 @@ keywords: activité, prise de décision, décision de contenu, politique de déc
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/1tZd4-NYBxu1iuUZGMKQ6DIXFxRpX0FARTEPpWqxzjY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1286
-ht-degree: 73%
+source-wordcount: 1913
+ht-degree: 49%
 
 ---
 
@@ -52,7 +42,7 @@ Pour tirer parti de cette fonctionnalité, créez un parcours dans lequel vous a
 
 Vous pouvez ensuite utiliser la sortie de l’activité Décision de contenu dans :
 
-* une activité [&#x200B; Optimiser avec une condition &#x200B;](#add-condition-activity) pour déplacer les profils vers des chemins spécifiques en fonction des offres récupérées ;
+* une activité [ Optimiser avec une condition ](#add-condition-activity) pour déplacer les profils vers des chemins spécifiques en fonction des offres récupérées ;
 
 * une [action personnalisée](#add-custom-action), via laquelle vous pouvez envoyer ces offres à des systèmes externes.
 
@@ -66,7 +56,7 @@ Pour configurer l’activité **[!UICONTROL Décision de contenu]**, suivez les 
 
 1. Développez la catégorie **[!UICONTROL Orchestration]** et déposez une activité **[!UICONTROL Décision de contenu]** dans votre zone de travail.
 
-   ![Ajouter une décision de contenu au parcours &#x200B;](assets/journey-content-decision.png){width=100%}
+   ![Ajouter une décision de contenu au parcours ](assets/journey-content-decision.png){width=100%}
 
 1. Vous pouvez, si vous le souhaitez, ajouter un libellé et une description à l’activité.
 
@@ -258,3 +248,48 @@ Pour chaque activité de décision de contenu, l’événement d’étape compre
   }
 }
 ```
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page explique comment configurer et utiliser l’activité de décision de contenu dans les parcours Journey Optimizer pour récupérer des offres personnalisées via une politique de décision et les acheminer ou les transférer à l’aide de conditions et d’actions personnalisées.
+
+**Intentions:**
+* Ajoutez une activité Décision de contenu à un parcours et configurez une politique de décision
+* Sélection et séquencement des éléments de décision et des stratégies de sélection dans une politique de décision
+* Utilisez la sortie de décision de contenu dans une condition d’activité Optimiser pour créer des branches pour les profils en fonction des offres récupérées
+* Transférer les offres récupérées vers un système externe à l’aide d’une action personnalisée
+* Inspectez les données de prise de décision dans les événements d’étape de parcours à des fins d’audit et de dépannage
+
+**Glossaire:**
+* **Activité de décision de contenu** : activité d’orchestration de parcours qui évalue une politique de décision et récupère les meilleures offres éligibles pour chaque *de profil (spécifique au produit)*
+* **Politique de décision** : configuration qui spécifie les éléments de décision et les stratégies de sélection à évaluer, ainsi que le nombre d’éléments à renvoyer *(spécifiques au produit)*
+* **Stratégie de sélection** : méthode d’évaluation avec classement utilisée dans une politique de décision pour déterminer les offres éligibles et la manière dont elles sont notées *(spécifique au produit)*
+* **Proposition** : unité de sortie d’exécution d’une politique de décision, contenant les éléments sélectionnés et les métadonnées de portée et de classement associées *(spécifiques au produit)*
+* **fonction listSize** : fonction d’éditeur d’expression utilisée pour compter le nombre d’éléments renvoyés par une décision de contenu, par exemple `listSize(@decision{Name.items})>0` *(spécifique au produit)*
+* **Schéma de catalogue d’offres** : schéma qui définit les attributs disponibles sur les éléments de décision. Il est accessible via le nœud Contexte en mode éditeur d’expression avancé *(spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+* La sortie d’une activité de décision de contenu ne peut pas être utilisée dans les activités de canal natives (e-mail, notification push, SMS, etc.)
+* La sortie de décision de contenu est accessible uniquement en mode avancé de l’éditeur d’expression ; elle n’est pas disponible en mode simple
+* Les autorisations de prise de décision sont requises pour créer une politique de décision
+* Les mises à jour des politiques de consentement prennent jusqu’à 48 heures pour prendre effet pour les attributs référencés dans une politique de décision
+* Les politiques de consentement ne sont disponibles que pour les organisations qui disposent du module complémentaire Adobe Healthcare Shield ou Privacy and Security Shield
+* Les libellés d’utilisation des données restreintes (DULE) sur les attributs de schéma d’offre peuvent entraîner des violations de la politique de gouvernance
+
+**Terminologie:**
+* Nom canonique : Activité de décision de contenu — Acronyme : aucune — variantes : nœud de décision de contenu, activité de prise de décision
+* Synonymes : « politique de décision » = « politique de sélection des offres » ; « proposition » = « sortie de décision »
+* Ne les confondez pas : « Activité de décision de contenu » ≠ « action de canal native » (la décision de contenu récupère les offres mais ne les diffuse pas directement ; une action ou une condition personnalisée est nécessaire pour agir sur la sortie)
+
+**FAQ:**
+* **Q : Puis-je utiliser les offres renvoyées par une activité de décision de contenu directement dans un e-mail ?** — Non, la sortie d’une activité de décision de contenu ne peut pas être utilisée dans les activités de canal natives. Vous devez transmettre les offres à une action personnalisée pour les envoyer à un système externe.
+* **Q : Comment puis-je vérifier si des offres ont été renvoyées pour un profil ?** — Utilisez la fonction listSize dans l&#39;éditeur d&#39;expression avancé : `listSize(@decision{ContentdecisionName.items})>0`.
+* **Q : Où puis-je accéder à la sortie de décision de contenu dans l’éditeur d’expression ?** — Passez en mode avancé, développez le nœud Contexte et accédez à votre politique de décision pour afficher tous les attributs de schéma de catalogue d&#39;offres disponibles.
+* **Q : Combien de temps faut-il pour qu’une mise à jour de la politique de consentement s’applique à une politique de décision ?** — Jusqu’à 48 heures après la mise à jour de la politique de consentement.
+* **Q : Quelles données de prise de décision sont disponibles dans les événements d’étape de parcours ?** — Chaque événement d&#39;étape comprend exdRequestID, propositionEventType et un tableau de propositions — chacun contenant un id, scopeDetails (fournisseur de décision, corrélationID, politique de décision), ainsi qu&#39;un tableau d&#39;éléments avec les détails id, name, score et itemSelection.
+
++++

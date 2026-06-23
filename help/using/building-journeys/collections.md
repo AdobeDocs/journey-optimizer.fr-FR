@@ -10,22 +10,15 @@ level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/zhAlHWwS8UOup7yqqVc2d0lqj4JUj5gOvz7JAwVwZPk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 816
-ht-degree: 91%
+source-wordcount: 1382
+ht-degree: 54%
 
 ---
 
@@ -251,3 +244,44 @@ Parcourez les sections suivantes pour en savoir plus sur la configuration des ac
 * [Dépanner une action personnalisée](../action/troubleshoot-custom-action.md) : découvrez comment dépanner une action personnalisée.
 * [Itérer sur les données contextuelles](../personalization/iterate-contextual-data.md#arrays-in-journeys) - Découvrez comment utiliser des tableaux dans les expressions de Parcours et effectuer une itération sur les réponses d’action personnalisée, les données d’événement et les recherches de jeux de données dans la personnalisation des messages
 
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page explique comment transmettre dynamiquement des collections d’objets simples et dans des paramètres d’action personnalisés dans Journey Optimizer, y compris les types de champs pris en charge, la procédure de configuration et les limites connues autour des tableaux imbriqués.
+
+**Intentions:**
+* Configurez une action personnalisée pour accepter une collection (simple ou objet) comme paramètre dynamique
+* Définissez les paramètres de tableau comme variables dans l’éditeur d’expression avancé lors de la création d’un parcours
+* Appliquez des fonctions filter et intersect pour manipuler les données de tableau dans l’éditeur d’expression
+* Comprendre et travailler dans les limites des tableaux imbriqués pour les payloads de requêtes d’action personnalisées
+* Test des paramètres de collection à l’aide du mode Affichage du code en mode test parcours
+
+**Glossaire:**
+* **Collection simple** : liste de valeurs scalaires de base (chaînes, nombres, booléens) transmises en tant que paramètre d’action personnalisé *(spécifique au produit)*
+* **Collection d’objets** : liste d’objets structurés comportant chacun plusieurs champs, transmis en tant que paramètre d’action personnalisé *(spécifique au produit)*
+* **listObject** : type de champ utilisé dans la configuration d’une action personnalisée pour représenter un tableau d’objets *(spécifique au produit)*
+* **listAny** : type de champ utilisé pour les tableaux hétérogènes ou les tableaux de tableaux dans lesquels les éléments ont des types mixtes *(spécifiques au produit)*
+* **Variable (vs. constante)** : dans la configuration du paramètre d’action, un champ défini sur « variable » est renseigné dynamiquement au moment de l’exécution à partir du contexte de parcours, tandis qu’une « constante » est une valeur fixe définie au moment de la configuration *(spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+* Les tableaux imbriqués dans les payloads de requête ne sont pris en charge que s’ils contiennent un nombre fixe d’éléments (définis comme des constantes) ; les tableaux imbriqués dynamiques ne sont pas pris en charge
+* Le mode Affichage du code est requis pour tester les collections en mode test ; l’affichage du code n’est pas pris en charge pour les événements métier, de sorte que seules les collections à un seul élément peuvent être envoyées dans ce cas
+* Au moins un objet doit être présent dans l’exemple de payload utilisé pour définir les champs de collection
+* Le premier objet de l’exemple de payload définit les champs pour l’ensemble de la collection
+
+**Terminologie:**
+* Nom canonique : Collection — Acronyme : none — variantes : tableau, liste, collection dynamique
+* Synonymes : « collection simple » = « liste de valeurs scalaires » ; « collection d’objets » = « tableau d’objets »
+* Ne les confondez pas : « listAny » ≠ « listObject » (listAny gère des tableaux hétérogènes ou imbriqués ; listObject gère des tableaux uniformes d’objets structurés)
+
+**FAQ:**
+* **Q : Quelle est la différence entre une collection simple et une collection d’objets ?** — Une collection simple contient des valeurs scalaires de base (chaînes, nombres, booléens), tandis qu&#39;une collection d&#39;objets contient des objets structurés ayant chacun plusieurs champs nommés.
+* **Q : Comment rendre un paramètre de collection dynamique au moment de l’exécution ?** — Dans la section Paramètres d&#39;action de l&#39;action personnalisée, définissez le champ de tableau sur « variable » ; tous les champs d&#39;objet qu&#39;il contient sont alors automatiquement définis sur des variables.
+* **Q : Les tableaux imbriqués sont-ils pris en charge dans les payloads de requête d’action personnalisée ?** — En partie seulement. Les tableaux imbriqués avec un nombre fixe connu d’éléments peuvent être définis comme des constantes. Les tableaux imbriqués avec un nombre dynamique d’éléments ne sont pas pris en charge dans les payloads de requête.
+* **Q : Comment tester une collection en mode parcours ?** — Utilisez le mode Affichage du code dans l&#39;interface de test. Notez que les événements métier ne prennent pas en charge l’affichage du code. Par conséquent, seules les collections à un seul élément peuvent être testées dans ce contexte.
+* **Q : Quels types de champs sont pris en charge pour les collections ?** — listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly et listObject sont tous pris en charge.
+
++++

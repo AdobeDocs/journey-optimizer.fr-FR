@@ -9,20 +9,15 @@ keywords: date, fonctions, expression, parcours, heure
 version: Journey Orchestration
 exl-id: 68c102c1-f1c7-44b7-893f-9a3b7e0854b6
 TQID: https://experienceleague.adobe.com/C2Z5SufckUxCNf9TsloziZS-Q3KPzmgMVNGJGiwDQ08
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 834
-ht-degree: 100%
+source-wordcount: 1275
+ht-degree: 65%
 
 ---
 
@@ -567,6 +562,49 @@ Renvoie 2023-08-28T17:15:30.123+02:00.
 
 `updateTimeZone(@event{MyExpEvent.timestamp}, "Australia/Sydney")`
 
-Si la valeur du champ de date et d’heure est `2021-11-16T16:55:12.939318+01:00`, la fonction renvoie `2021-11-17T02:55:12.942115+11:00`.
+Si la valeur du champ de date et d’heure est `2021-11-16T16:55:12.939318+01:00`, la fonction renvoie `2021-11-17T02:55:12.942115+11:00`.
+
++++
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page documente toutes les fonctions de date et d’heure disponibles dans les expressions de parcours AJO, couvrant la manière d’obtenir l’heure actuelle, de vérifier si une date se situe dans une fenêtre temporelle relative et de modifier les composants date/heure.
+
+**Intentions:**
+* Obtenez la date-heure actuelle (avec fuseau horaire facultatif) à l’aide de `now` ou `nowWithDelta`
+* Récupérer l’heure actuelle sous la forme d’un entier epoch à l’aide de `currentTimeInMillis`
+* Vérifiez si une date/heure fait partie des N derniers jours, heures, mois ou années à l’aide de `inLastDays`, `inLastHours`, `inLastMonths` ou `inLastYears`
+* Vérifiez si une date/heure figure dans les N jours, heures, mois ou années suivants à l’aide de `inNextDays`, `inNextHours`, `inNextMonths` ou `inNextYears`
+* Forcer une heure ou un jour spécifique du mois sur une valeur datetime à l’aide de `setHours` ou `setDays`
+* Convertissez une heure en un fuseau horaire différent tout en conservant le même instant à l’aide de `updateTimeZone`
+
+**Glossaire:**
+* **dateTime** : valeur date-heure qui inclut des informations de décalage de fuseau horaire *(spécifiques au produit)*
+* **dateTimeOnly** : valeur date-heure sans informations de fuseau horaire *(spécifique au produit)*
+* **millisecondes epoch** : nombre entier représentant le nombre de millisecondes écoulées depuis 1970-01-01T00:00:00Z
+* **delta** : décalage entier (positif ou négatif) utilisé avec `nowWithDelta` pour décaler l’heure actuelle d’un nombre d’années, de mois, de jours, d’heures, de minutes ou de secondes
+
+**Mécanismes de sécurisation :**
+* `now()` n’est disponible que dans les expressions de parcours ; pour la personnalisation des e-mails, utilisez plutôt `getCurrentZonedDateTime()`
+* L’ID de fuseau horaire dans `nowWithDelta` doit être une constante de chaîne — les références aux champs et les expressions dynamiques ne sont pas prises en charge
+* L’ID du fuseau horaire dans `updateTimeZone` doit être une constante de chaîne
+
+**Terminologie:**
+* Nom canonique : Fonctions de date — Acronyme : none — variantes : fonctions date-heure, fonctions temporelles
+* Synonymes : « now() » = « current datetime »; « currentTimeInMillis() » = « current epoch milliseconds »
+* Ne pas confondre : « inLastDays » (regarde en arrière) ≠ « inNextDays » (regarde en avant)
+* Ne pas confondre : « setHours » (remplace le composant heure) ≠ « nowWithDelta » (décale l’heure actuelle)
+* Ne pas confondre : « updateTimeZone » (même instant, représentation de fuseau horaire différente) ≠ « setHours » (modifie la valeur de l’heure elle-même)
+
+**FAQ:**
+* **Q : Puis-je utiliser des `now()` dans le contenu de personnalisation d’e-mail ?** — Non, `now()` n&#39;est disponible que dans les expressions de parcours. Utilisez `getCurrentZonedDateTime()` pour la personnalisation des e-mails.
+* **Q : Comment puis-je vérifier si un événement s’est produit au cours des dernières 24 heures ?** — Utiliser `inLastHours(@event{MyEvent.timestamp}, 24)`.
+* **Q : Comment puis-je obtenir le décalage horaire actuel de 2 heures dans le passé ?** — Utiliser `nowWithDelta(-2, "hours")`.
+* **Q : Qu&#39;est-ce que `updateTimeZone` fait différemment de `setHours` ?** — `updateTimeZone` conserve le même instant dans le temps, mais l&#39;exprime dans un fuseau horaire différent, tandis que `setHours` modifie en fait le composant heure de la valeur datetime.
+* **Q : Le paramètre de fuseau horaire dans `nowWithDelta` peut-il être un champ de profil ?** — Non, l&#39;ID de fuseau horaire doit être une constante de chaîne ; les références aux champs ne sont pas prises en charge.
 
 +++

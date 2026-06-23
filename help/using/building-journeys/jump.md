@@ -11,25 +11,16 @@ keywords: saut, activité, parcours, partage, partager
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/qCnWzqjO5YRbKO-WHUo950uoHS0skcZT6sdYyNJ4esE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1358
-ht-degree: 56%
+source-wordcount: 1982
+ht-degree: 38%
 
 ---
 
@@ -130,20 +121,20 @@ Créez chaque phase sous la forme d’un parcours distinct dans Journey Optimize
 
 >[!TIP]
 >
->Pour obtenir un exemple pratique d’utilisation d’un programme de fidélité multiphase, consultez parcours de fidélité multiphase[&#128279;](journeys-uc.md#multi-phase-loyalty).
+>Pour obtenir un exemple pratique d’utilisation d’un programme de fidélité multiphase, consultez parcours de fidélité multiphase](journeys-uc.md#multi-phase-loyalty).[
 
 ## Configuration de l’activité Saut {#jump-configure}
 
 1. Concevez votre **parcours d’origine**.
 
-   ![Activité Saut dans la palette de parcours pour la transition entre les parcours &#x200B;](assets/jump1.png)
+   ![Activité Saut dans la palette de parcours pour la transition entre les parcours ](assets/jump1.png)
 
 1. À chaque étape du parcours, ajoutez une activité **[!UICONTROL Saut]**, depuis la catégorie **[!UICONTROL ACTIONS]**. Ajoutez un libellé et une description.
 
    ![Liste déroulante de sélection du parcours cible dans la configuration de l’activité Saut](assets/jump2.png)
 
 1. Cliquez dans le champ parcours cible **.
-La liste affiche toutes les versions de parcours en mode brouillon, actif ou test. Les parcours qui utilisent un autre espace de noms ou commençant par un événement **&#x200B; Qualification d’audience &#x200B;** ne sont pas disponibles. Les parcours cibles qui créent un motif de boucle sont également exclus.**
+La liste affiche toutes les versions de parcours en mode brouillon, actif ou test. Les parcours qui utilisent un autre espace de noms ou commençant par un événement** Qualification d’audience **ne sont pas disponibles. Les parcours cibles qui créent un motif de boucle sont également exclus.**
 
    ![Activité Saut présentant le parcours cible et les paramètres d’action](assets/jump3.png)
 
@@ -159,7 +150,7 @@ Le champ **Premier événement** est prérempli avec le nom du premier événeme
 1. La section **Paramètres d’action** affiche tous les champs de l’événement cible. Mappez chaque champ aux champs de l’événement d’origine ou de la source de données, comme pour les autres types d’actions. Ces informations seront transmises au parcours cible au moment de l’exécution.
 1. Ajoutez les activités suivantes pour terminer le parcours d’origine.
 
-   ![Interface du mode Test pour tester l’activité Saut entre les parcours &#x200B;](assets/jump5.png)
+   ![Interface du mode Test pour tester l’activité Saut entre les parcours ](assets/jump5.png)
 
 
    >[!NOTE]
@@ -191,3 +182,53 @@ Dans les cas ci-dessous, l’étape Saut est traitée comme une **action en éch
 * L’instance de parcours cible existante a été arrêtée et le parcours cible n’est pas rentrant.
 * Une période de reprise est configurée sur le parcours cible. Même lorsque la rentrée est autorisée en principe, le profil ne peut pas rentrer à nouveau avant l’expiration de la période (le Saut échoue avec un statut « non rentrant pour la période »).
 * La version du parcours cible est introuvable, a été supprimée, est terminée ou a été arrêtée.
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page explique l’activité Saut , qui déplace les profils d’un parcours à un autre afin de simplifier les conceptions de parcours complexes par le biais de modèles de sous-parcours réutilisables.
+
+**Intentions:**
+
+* Utilisez l’activité Saut pour transférer des profils d’un parcours d’origine vers un parcours cible
+* Décomposer un parcours complexe en sous-parcours plus petits et gérables, reliés par des activités Saut
+* Configurez l&#39;activité Saut en sélectionnant un parcours cible et en associant les paramètres d&#39;action
+* Comprendre le comportement du profil lorsqu’un Saut est exécuté (profil actif dans les deux parcours simultanément)
+* Dépannage des erreurs de configuration Saut et des échecs d’exécution
+* Évitez les modèles de boucle lors de l’association de plusieurs parcours avec des activités Saut
+
+**Glossaire:**
+
+* **Activité Saut** : une activité d’action qui envoie un événement interne au premier événement d’un parcours cible, ce qui fait que le profil commence à circuler dans ce parcours. *(spécifique au produit)*
+* parcours d’origine **: parcours contenant l’activité Saut et initiant le transfert d’un profil vers un autre parcours.***(spécifique au produit)*
+* parcours cible **: parcours qui reçoit le profil via le déclencheur d&#39;événement interne de l&#39;activité Saut.***(spécifique au produit)*
+* **Saut silencieux** : comportement lorsqu’un profil est déjà actif dans le parcours cible au moment d’un saut : le saut est ignoré sans erreur et le parcours d’origine se poursuit normalement. *(spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+
+* L’activité Saut n’est disponible que dans les parcours qui utilisent un espace de noms ; les parcours d’origine et cible doivent partager le même espace de noms
+* Impossible d’accéder à un parcours commençant par un événement Qualification d’audience ou Lecture d’audience.
+* Impossible d’utiliser une activité Saut et un événement Qualification d’audience ou Lecture d’audience dans le même parcours
+* Les modèles en boucle (chaînes de parcours circulaires) ne sont pas pris en charge et sont interdits par l’interface utilisateur de configuration
+* Au moment de l’exécution, la dernière version active du parcours cible est déclenchée
+* Un profil ne peut être présent qu’une seule fois dans le même parcours à la fois. S’il est déjà actif dans le parcours cible, le Saut est silencieusement ignoré.
+* Si le parcours cible est en version brouillon, fermé, arrêté, supprimé ou si son premier mappage d’événement est rompu, le Saut génère une erreur de configuration
+
+**Terminologie:**
+
+* Nom canonique : Activité Saut — Acronyme : none — variantes : Action Saut, Saut de parcours
+* Synonymes : « parcours d’origine » = « parcours source » ; « parcours cible » = « parcours de destination »
+* Ne pas confondre : « saut silencieux » ≠ « échec d’exécution » - Un saut silencieux se produit lorsque le profil est déjà dans le parcours cible (aucune erreur générée) ; un échec d’exécution se produit lorsque le parcours cible est inatteignable ou non rentrant (traité comme une action en échec)
+
+**FAQ:**
+
+* **Q : Qu’advient-il d’un profil dans le parcours d’origine après un Saut ?** — Le profil continue de progresser dans toutes les étapes restantes du parcours d’origine après l’étape Saut tout en accédant simultanément au parcours cible ; il est actif dans les deux parcours en même temps.
+* **Q : Puis-je passer à un parcours Lecture d’audience ?** — Non ; vous ne pouvez pas accéder à un parcours commençant par un événement Lecture d’audience ou Qualification d’audience.
+* **Q : Qu’est-ce qui déclenche le parcours cible lors de l’exécution d’un Saut ?** — Un événement interne est envoyé au premier événement du parcours cible par l&#39;activité Saut ; le profil traverse ensuite le parcours cible à partir de ce premier événement.
+* **Q : Comment empêcher les boucles infinies lors de l&#39;enchaînement de parcours avec Saut ?** — Les modèles de boucles sont bloqués par l&#39;interface utilisateur de configuration de l&#39;activité Saut, qui filtre les parcours cibles qui créeraient une chaîne circulaire.
+* **Q : Quelle version du parcours cible est déclenchée par un Saut ?** : la dernière version active (ou en mode test) du parcours cible est déclenchée au moment de l’exécution.
+
++++

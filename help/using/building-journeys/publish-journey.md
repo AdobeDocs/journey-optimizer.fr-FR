@@ -11,21 +11,16 @@ keywords: publication, parcours, dynamique, validité, vérifier
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Hhvwpfq0phAjvzIGgv-NMnnhWhYJ-PpLOL0F4Q-CnqA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1295
-ht-degree: 48%
+source-wordcount: 1815
+ht-degree: 34%
 
 ---
 
@@ -41,7 +36,7 @@ La publication d&#39;un parcours l&#39;active : elle passe au statut **[!UICONTR
 
 >[!NOTE]
 >
->Lorsque vous enregistrez ou publiez un parcours, Journey Optimizer valide la taille totale de la payload du parcours et peut avertir ou bloquer la publication si vous approchez ou dépassez cette limite. En savoir plus sur la validation de la taille de la payload du Parcours [&#128279;](../start/guardrails.md#journey-payload-size).
+>Lorsque vous enregistrez ou publiez un parcours, Journey Optimizer valide la taille totale de la payload du parcours et peut avertir ou bloquer la publication si vous approchez ou dépassez cette limite. En savoir plus sur la validation de la taille de la payload du Parcours [](../start/guardrails.md#journey-payload-size).
 
 ➡️ [Découvrez cette fonctionnalité en vidéo.](#video)
 
@@ -49,9 +44,9 @@ La publication d&#39;un parcours l&#39;active : elle passe au statut **[!UICONTR
 
 Avant de publier, vérifiez que votre parcours remplit les conditions préalables suivantes :
 
-* **Aucune erreur de validation** — Vous ne pouvez pas publier un parcours contenant des erreurs. [Testez d’abord votre parcours &#x200B;](testing-the-journey.md) puis [résolvez les erreurs d’activité](../building-journeys/troubleshooting.md#activity-errors).
+* **Aucune erreur de validation** — Vous ne pouvez pas publier un parcours contenant des erreurs. [Testez d’abord votre parcours ](testing-the-journey.md) puis [résolvez les erreurs d’activité](../building-journeys/troubleshooting.md#activity-errors).
 * **Autorisation Publier** — La publication nécessite l&#39;autorisation **[!DNL Publish journeys]** de haut niveau. En savoir plus sur la [gestion des droits d’accès](../administration/permissions-overview.md).
-* **Payload dans la limite** — La payload du parcours doit être dans la limite configurée (4 Mo par défaut). Voir la validation de la taille de la payload du Parcours [&#128279;](../start/guardrails.md#journey-payload-size).
+* **Payload dans la limite** — La payload du parcours doit être dans la limite configurée (4 Mo par défaut). Voir la validation de la taille de la payload du Parcours [](../start/guardrails.md#journey-payload-size).
 * **Approbation obtenue** — Si votre parcours est soumis à une politique d&#39;approbation, demandez et obtenez l&#39;approbation avant de le publier. [En savoir plus](../test-approve/gs-approval.md).
 
 >[!TIP]
@@ -66,7 +61,7 @@ Avant de publier, vérifiez que votre parcours remplit les conditions préalable
 
 Les étapes de publication d’un parcours sont présentées en détail ci-dessous :
 
-1. Vérifiez que le parcours est valide, qu’il ne comporte aucune erreur et qu’il remplit les [&#x200B; conditions préalables ci-dessus](#before-you-publish).
+1. Vérifiez que le parcours est valide, qu’il ne comporte aucune erreur et qu’il remplit les [ conditions préalables ci-dessus](#before-you-publish).
 
 1. Pour publier le parcours, cliquez sur l’option **[!UICONTROL Publier]** dans le menu déroulant situé en haut à droite.
 
@@ -84,7 +79,7 @@ Après la publication, un parcours passe par plusieurs statuts :
 
 * **[!UICONTROL En direct]** — Le parcours est publié et les profils peuvent le saisir.
 * **[!UICONTROL Fermé]** — Version précédente qui s&#39;arrêtait automatiquement lorsqu&#39;une nouvelle version était publiée. Aucune entrée ne peut se produire.
-* **[!UICONTROL Terminé]** — Le parcours s&#39;est terminé selon ses critères d&#39;achèvement. Pour obtenir la définition exacte du moment où un parcours est considéré comme terminé, voir [Fin des parcours &#x200B;](end-journey.md#journey-finished-definition).
+* **[!UICONTROL Terminé]** — Le parcours s&#39;est terminé selon ses critères d&#39;achèvement. Pour obtenir la définition exacte du moment où un parcours est considéré comme terminé, voir [Fin des parcours ](end-journey.md#journey-finished-definition).
 
 ### Arrêt d’un parcours {#stop-journey}
 
@@ -148,11 +143,11 @@ Un parcours publié est en mode lecture seule. Vous pouvez uniquement modifier l
 
 **Qu’advient-il des profils déjà présents dans le parcours lorsque je publie une nouvelle version ?**
 
-Les nouveaux profils arrivent dans la dernière version. Les profils qui se trouvent déjà dans une version précédente y restent jusqu’à la fin ; s’ils rejoignent ultérieurement cette version, ils accèdent à la dernière version. La version précédente passe automatiquement à **[!UICONTROL Fermée]** et n’accepte aucune nouvelle entrée. Voir [versions de Parcours &#x200B;](#journey-versions).
+Les nouveaux profils arrivent dans la dernière version. Les profils qui se trouvent déjà dans une version précédente y restent jusqu’à la fin ; s’ils rejoignent ultérieurement cette version, ils accèdent à la dernière version. La version précédente passe automatiquement à **[!UICONTROL Fermée]** et n’accepte aucune nouvelle entrée. Voir [versions de Parcours ](#journey-versions).
 
 **Comment réexécuter un parcours arrêté ?**
 
-L’arrêt d’un parcours est permanent. Pour l’exécuter à nouveau, dupliquez-le et publiez le nouveau parcours. Voir [Arrêter un parcours &#x200B;](#stop-journey).
+L’arrêt d’un parcours est permanent. Pour l’exécuter à nouveau, dupliquez-le et publiez le nouveau parcours. Voir [Arrêter un parcours ](#stop-journey).
 
 **Dois-je republier après avoir modifié une décision d’offre ou mis à jour des ressources ?**
 
@@ -164,16 +159,60 @@ Si votre parcours est soumis à une politique d’approbation, vous devez demand
 
 ## Rubriques connexes {#related-topics}
 
-* [Tester le parcours &#x200B;](testing-the-journey.md) - Validez le parcours avec des profils de test avant de le publier
-* [simulation de Parcours &#x200B;](simulate-journey-gs.md) - Validez votre parcours avec des utilisateurs simulés avant de le publier
-* [Exécution d’essai en Parcours &#x200B;](journey-dry-run.md) - Tester avec des données de production réelles sans contacter les profils
+* [Tester le parcours ](testing-the-journey.md) - Validez le parcours avec des profils de test avant de le publier
+* [simulation de Parcours ](simulate-journey-gs.md) - Validez votre parcours avec des utilisateurs simulés avant de le publier
+* [Exécution d’essai en Parcours ](journey-dry-run.md) - Tester avec des données de production réelles sans contacter les profils
 * [Dépannage](../building-journeys/troubleshooting.md#activity-errors) - Résoudre les erreurs d’activité et de publication
-* [Fin des parcours &#x200B;](end-journey.md#journey-finished-definition) - Comprendre l’achèvement et les statuts du parcours
+* [Fin des parcours ](end-journey.md#journey-finished-definition) - Comprendre l’achèvement et les statuts du parcours
 * [Gestion de l’entrée des profils](entry-management.md) - Configurer la manière dont les profils entrent et rentrent dans les parcours
-* [Mécanismes de sécurisation et limitations de Parcours &#x200B;](../start/guardrails.md#journeys-guardrails-journeys) - Consultez les mécanismes de sécurisation de publication et de contrôle de version
+* [Mécanismes de sécurisation et limitations de Parcours ](../start/guardrails.md#journeys-guardrails-journeys) - Consultez les mécanismes de sécurisation de publication et de contrôle de version
 
 ## Vidéo pratique {#video}
 
 Découvrez comment publier un parcours dans cette vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/3427934?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page explique comment publier un parcours Adobe Journey Optimizer, gérer les versions de parcours et comprendre les contraintes qui s’appliquent une fois qu’un parcours est actif.
+
+**Intentions:**
+* Publier un parcours pour le rendre actif et disponible pour l’entrée de profil
+* Vérifier la validité du parcours et résoudre les erreurs avant la publication
+* Création d’une nouvelle version d’un parcours dynamique pour y apporter des modifications
+* Comprendre les restrictions en lecture seule qui s’appliquent après la publication d’un parcours
+* Arrêter un parcours de manière permanente ou gérer les transitions entre les versions
+
+**Glossaire:**
+* **version de Parcours** : itération numérotée d’un parcours ; de nouvelles versions sont créées pour modifier un parcours actif sans interrompre les profils déjà en cours *(spécifiques au produit)*
+* **Statut Fermé** : le statut d’une version de parcours précédente est automatiquement renseigné lorsqu’une nouvelle version est publiée ; aucun nouveau profil ne peut entrer dans un *de parcours Fermé (spécifique au produit)*
+* **Politique d’approbation** : workflow de gouvernance facultatif nécessitant une approbation explicite avant qu’un parcours puisse être publié *(spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+* Un parcours contenant des erreurs ne peut pas être publié.
+* Journey Optimizer valide la taille totale de la payload du parcours au moment de l’enregistrement et de la publication ; la publication peut être bloquée si la limite est dépassée.
+* Après la publication, un parcours est en mode lecture seule ; seuls les libellés, les descriptions et le nom du parcours peuvent être modifiés.
+* Une nouvelle version ne peut être créée qu’à partir de la dernière version d’un parcours.
+* Lorsqu’un parcours est arrêté, il est définitivement arrêté ; il doit être dupliqué pour s’exécuter à nouveau.
+* Assets et les images du contenu diffusé sont accessibles pendant 730 jours au maximum à compter de la première publication ; une republication est nécessaire après cette période.
+* Si une décision d’offre utilisée dans un message de parcours est modifiée, le parcours doit être dépublié et republié.
+* Des mécanismes de sécurisation spécifiques s’appliquent au contrôle de version des parcours (voir page Mécanismes de sécurisation).
+
+**Terminologie:**
+* Nom canonique : Parcours de publication — Acronyme : aucun — variantes : activer le parcours, activer le contenu
+* Synonymes : « Publier » = « Activer » = « Activer »
+* Ne les confondez pas : « Arrêter le parcours » ≠ « Fermer le parcours » (l’arrêt est une action manuelle ; le statut Fermé est un statut automatique appliqué aux versions précédentes lorsqu’une nouvelle version est publiée)
+
+**FAQ:**
+* **Q : Puis-je modifier un parcours après sa publication ?** — Seuls les libellés, les descriptions et le nom du parcours peuvent être modifiés. Pour apporter d’autres modifications, créez une nouvelle version du parcours.
+* **Q : Qu’advient-il des profils d’une ancienne version de parcours lorsqu’une nouvelle version est publiée ?** — Les profils déjà présents dans la version précédente y restent jusqu’à la fin ; les nouveaux profils entrent la dernière version.
+* **Q : Puis-je republier une version en parcours fermé ?** — Non. Une fois qu’une version précédente est fermée, elle reste fermée même si la dernière version est arrêtée.
+* **Q : Que dois-je faire si une décision d’offre utilisée dans le parcours change ?** — Dépubliez le parcours et republiez-le pour incorporer la décision d’offre mise à jour.
+* **Q : L’approbation est-elle requise avant la publication ?** — Uniquement si votre parcours est soumis à une politique d&#39;approbation ; dans ce cas, vous devez d&#39;abord demander l&#39;approbation.
+
++++

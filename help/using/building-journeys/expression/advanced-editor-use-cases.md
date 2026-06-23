@@ -11,21 +11,15 @@ keywords: expression, condition, cas d’utilisation, événements
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/UUeCcATC7MFHsLuI8TPoVHqwVe9GOXUq3U3RoAG-a1o
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 588
-ht-degree: 95%
+source-wordcount: 1103
+ht-degree: 51%
 
 ---
 
@@ -186,3 +180,50 @@ Explication : cet exemple utilise les fonctions `substr` et `lastIndexOf` pour 
 
 
 Pour en savoir plus sur l’utilisation de l’éditeur d’expression avancé, regardez [cette vidéo](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html?lang=fr).
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page fournit des exemples pratiques d’utilisation de l’éditeur d’expression avancé pour créer des conditions de parcours qui filtrent les utilisateurs par activité de panier, statut d’inventaire, événements de limite géographique, manipulations de chaînes et fenêtres d’horodatage.
+
+**Intentions:**
+
+* Créez une condition d’abandon de panier à l’aide de `in()` et `inLastDays()` pour cibler les utilisateurs et utilisatrices qui ont ajouté des articles mais n’ont pas effectué d’achat dans les 7 jours
+* Filtrer les collections d’événements d’expérience par fenêtre d’horodatage pour éviter de capturer des données historiques
+* Appliquez des comparaisons de chaînes sensibles à la casse et non sensibles à la casse aux champs d’événement de limite géographique
+* Extraire et manipuler des identifiants CRM à partir d’événements de lancement d’application mobile à l’aide de `substr` et `lastIndexOf`
+* Vérifier la disponibilité du stock de produits en comparant un champ de quantité à un seuil
+* Combinaison de plusieurs expressions booléennes à l’aide de la logique `and`/`not` dans des conditions de parcours
+
+**Glossaire:**
+
+* **Éditeur d’expression avancé** : interface Journey Optimizer permettant d’écrire des expressions complexes au niveau du code à l’aide de fonctions, d’opérateurs et de références de champ *(spécifiques au produit)*
+* **currentDataPackField** : variable de boucle utilisée lors de l’itération sur des collections de sources de données dans des fonctions `all()`, `first()` ou `last()` *(spécifiques à un produit)*
+* **inLastDays(timestamp, N)** : fonction de date qui renvoie la valeur true si l’horodatage donné correspond aux N derniers jours *(spécifique au produit)*
+* **Événements d’expérience** : enregistrements de données comportementales de série temporelle stockés dans Adobe Experience Platform, récupérés dans l’ordre chronologique inverse *(spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+
+* L’utilisation d’événements d’expérience directement dans des expressions/conditions de parcours n’est pas prise en charge ; d’autres méthodes telles que des attributs calculés ou des segments d’audience doivent être utilisées à la place
+* L’éditeur d’expression avancé doit être utilisé (et non l’éditeur simple) pour les requêtes sur les données de série temporelle telles que les collections d’achats ou de clics
+* Double-cliquez sur un champ dans le panneau de gauche pour l’insérer rapidement dans l’expression. Évitez de saisir manuellement les chemins d’accès aux champs afin de réduire les erreurs
+* Les expressions qui interrogent les événements d’expérience renvoient une valeur booléenne ; assurez-vous que la logique en aval attend un type booléen
+
+**Terminologie:**
+
+* Nom canonique : Éditeur d’expression avancé — Acronyme : none — variantes : éditeur d’expression, éditeur avancé
+* Synonymes : « addToCart » = « interaction ajouter au panier » ; « completePurchase » = « événement d’achèvement de l’achat »
+* Ne les confondez pas : événements (avec le préfixe `@`) ≠ sources de données (avec le préfixe `#`)
+
+**FAQ:**
+
+* **Q : Pourquoi dois-je utiliser l’éditeur avancé au lieu de l’éditeur simple pour les requêtes d’abandon de panier ?** — L’éditeur simple ne peut pas exécuter de requêtes sur les collections de séries temporelles ; l’éditeur avancé est requis pour les fonctions de collection `all()`, `first()` et `last()`.
+* **Q : Comment référencer l’événement « addToCart » le plus récent dans une expression ?** — Utilisez la fonction `first()` sur la collection d’événements d’expérience filtrée par `productInteraction == "addToCart"`, puisque les événements sont renvoyés dans l’ordre chronologique inverse.
+* **Q : Comment puis-je faire en sorte qu’une comparaison de chaînes ne respecte pas la casse dans l’éditeur avancé ?** — Utilisez la fonction `equalIgnoreCase()` au lieu de l&#39;opérateur `==`.
+* **Q : À quoi sert l’ajout d’une fenêtre d’horodatage lors de l’interrogation d’événements de panier ?** — La spécification d&#39;un horodatage de début et d&#39;un horodatage de fin empêche la collecte de données historiques qui ne sont pas dans la fenêtre d&#39;activité prévue.
+* **Q : Comment supprimer les accolades fermées d’une chaîne d’identifiant CRM transmise dans un événement ?** — Utilisez `substr()` combiné avec `lastIndexOf()` pour extraire le contenu entre les accolades.
+
++++

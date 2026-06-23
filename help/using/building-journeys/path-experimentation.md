@@ -11,10 +11,10 @@ keywords: expérimentation, expérience, parcours, chemin, optimisation, test A/
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a37b536bb4210a615995f5c5c8ec710b516de934
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1308
-ht-degree: 68%
+source-wordcount: 1865
+ht-degree: 48%
 
 ---
 
@@ -213,3 +213,48 @@ Pour effectuer la mise à l’échelle manuelle du gagnant de vos expériences 
    ![Sélection du traitement d’échelle dans l’expérience de chemin](assets/journey-optimize-scale-treatment.png){width=80%}
 
 Remarque : la mise à l’échelle du traitement peut prendre jusqu’à une heure. Vous recevrez une notification une fois la mise à l’échelle manuelle terminée.
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page explique comment configurer et exécuter l’expérimentation de chemin dans les parcours Adobe Journey Optimizer à l’aide de méthodes de bandit A/B ou manchot, et comment mettre à l’échelle le traitement gagnant automatiquement ou manuellement.
+
+**Intentions:**
+* Configurer une expérience de chemin A/B ou de bandit manchot dans un parcours
+* Définir des mesures de succès pour évaluer les performances de l’expérience
+* Répartissez le trafic entre les chemins de traitement de manière uniforme ou par pourcentage personnalisé
+* Ajoutez un groupe d’exclusion pour exclure une partie de l’audience de tous les traitements
+* Activer la mise à l’échelle automatique pour déployer automatiquement le traitement gagnant
+* Mettez à l’échelle manuellement le traitement gagnant après avoir examiné les résultats de l’expérience
+
+**Glossaire:**
+* **Activité d’optimisation** : activité de zone de travail de parcours utilisée pour diviser les profils en différents chemins d’accès à des *d’expérimentation ou de ciblage (spécifiques au produit)*
+* **Traitement** : variante à chemin unique dans une expérience de chemin (par exemple, traitement A, traitement B) *(spécifique au produit)*
+* **Mesure de succès** : indicateur clé de performance utilisé pour évaluer le traitement le plus performant dans une *d’expérience (spécifique au produit)*
+* **Bandit manchot** : type d’expérience où la répartition du trafic est ajustée automatiquement tous les 7 jours en fonction des *de performances des mesures principales (spécifiques au produit)*
+* **Mettre à l’échelle le gagnant** : une fonctionnalité qui déploie le traitement gagnant sur l’audience restante complète, automatiquement ou manuellement *(spécifique au produit)*
+* **Groupe d’exclusion** : segment de l’audience exclu de tous les traitements expérimentaux, utilisé comme groupe témoin *(spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+* L’option Mettre à l’échelle le gagnant n’est disponible que pour les parcours unitaires (déclenchés par un événement et qualification d’audience) ; elle n’est pas disponible pour les parcours Lecture d’audience.
+* La mise à l’échelle automatique doit être planifiée avant la date de fin de l’expérience, sinon le parcours ne sera pas publié.
+* Une fois la mise à l’échelle automatique effectuée, la mise à l’échelle manuelle n’est plus disponible.
+* La mise à l’échelle manuelle du gagnant avant l’heure de mise à l’échelle automatique planifiée annule la mise à l’échelle automatique.
+* La mise à l’échelle du traitement peut prendre jusqu’à une heure.
+
+**Terminologie:**
+* Nom canonique : Expérience de chemin — Acronyme : aucun — Variantes : Expérience de parcours, Test de chemin A/B
+* Synonymes : « Optimiser l’activité » = « Activité d’expérience » = « Activité de partage de chemin »
+* Ne les confondez pas : « Expérience A/B » ≠ « Bandit manchot » (A/B a une répartition fixe du trafic ; le bandit manchot ajuste les poids de manière dynamique tous les 7 jours)
+
+**FAQ:**
+* **Q : Quelle est la différence entre une expérience A/B et un bandit manchot ?** — L’expérience A/B utilise une répartition du trafic fixe définie au début, tandis que le bandit manchot ajuste automatiquement les poids du trafic tous les 7 jours en fonction des performances de la mesure principale.
+* **Q : Puis-je utiliser Mettre à l’échelle le gagnant dans un parcours Lecture d’audience ?** — Non ; l’option Mettre à l’échelle le gagnant n’est disponible que pour les parcours unitaires (déclenchés par un événement et qualification d’audience).
+* **Q : Que se passe-t-il si aucun gagnant n’est trouvé par l’heure de mise à l’échelle automatique ?** — Vous pouvez configurer une version de secours : poursuivre l’expérience jusqu’à sa fin prévue ou mettre à l’échelle un autre traitement après une heure spécifiée.
+* **Q : Comment le trafic est-il distribué si je ne configure pas manuellement les pourcentages de traitement ?** : activez le bouton (bascule) Répartir uniformément pour répartir équitablement le trafic entre tous les traitements.
+* **Q : Puis-je modifier une expérience de chemin d’accès après la publication du parcours ?** — Le parcours passe en mode lecture seule après publication ; pour apporter des modifications, créez une nouvelle version du parcours.
+
++++

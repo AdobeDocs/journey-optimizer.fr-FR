@@ -11,10 +11,10 @@ keywords: erreur, codes, dépannage, parcours, campagne, messages
 exl-id: 84924153-1bb5-465a-b91c-797628fc816c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 2358
-ht-degree: 84%
+source-wordcount: 2902
+ht-degree: 68%
 
 ---
 
@@ -73,14 +73,14 @@ Ces erreurs se produisent lors de l’exécution du parcours, du traitement des 
 
 | Code d’erreur | Description | Cause principale | Résolution |
 |------------|-------------|-----------|-----------|
-| **CJMRT-110001-500** | Nombre maximal d’exécutions dépassé pour l’étape du workflow (par exemple, l’étape Approvisionnement d’affinité IP expire) | La tâche de workflow/d’approvisionnement ne s’est pas terminée dans les délais/reprises autorisés, souvent en raison d’un retard d’infrastructure/de service ou d’un problème temporaire de serveur principal. | &#x200B;1. Réessayez après un certain temps<br/>2. Vérifiez la page [Statut Adobe](https://status.adobe.com/fr) en cas de pannes.<br/>3. Transmettez les informations relatives au workflow/à la tâche/à l’organisation à l’assistance Adobe.<br/>4. Fournissez des journaux et des captures réseau si disponibles <br/><br/>**Documentation connexe** : [Dépannage de parcours &#x200B;](troubleshooting.md). |
+| **CJMRT-110001-500** | Nombre maximal d’exécutions dépassé pour l’étape du workflow (par exemple, l’étape Approvisionnement d’affinité IP expire) | La tâche de workflow/d’approvisionnement ne s’est pas terminée dans les délais/reprises autorisés, souvent en raison d’un retard d’infrastructure/de service ou d’un problème temporaire de serveur principal. | &#x200B;1. Réessayez après un certain temps<br/>2. Vérifiez la page [Statut Adobe](https://status.adobe.com/fr) en cas de pannes.<br/>3. Transmettez les informations relatives au workflow/à la tâche/à l’organisation à l’assistance Adobe.<br/>4. Fournissez des journaux et des captures réseau si disponibles <br/><br/>**Documentation connexe** : [Dépannage de parcours ](troubleshooting.md). |
 | **CJMRT-000071-400** | Requête incorrecte pendant l’événement de parcours/test ou l’appel API | La payload/les paramètres sont incorrects ou manquants ; l’entrée fait référence à une ressource inexistante ou inactive. | &#x200B;1. Consultez le corps de la requête pour obtenir les détails de l’erreur<br/>2. Corrigez la référence ou le paramètre.<br/>3. Supprimez la configuration avancée, puis réessayez.<br/>4. Ajoutez les fonctionnalités une par une pour identifier le problème <br/><br/>**Documentation connexe** : [Dépannage de parcours](troubleshooting.md), [Configuration des événements](../event/about-events.md). |
 | **CJMRT-000013-401** | Erreur non autorisée lors de l’opération d’exécution du message/de l’événement API | Échec de l’authentification : le jeton a expiré, les autorisations sont manquantes, l’intégration, l’utilisateur ou l’utilisatrice a perdu l’accès à l’environnement. | &#x200B;1. Vérifiez les autorisations et les rôles<br/>2. Actualisez le jeton d’authentification.<br/>3. Utilisez un compte utilisateur, utilisatrice, service valide connu.<br/>4. Consultez les affectations de profils de produit <br/><br/>**Documentation connexe** : [Autorisations](../administration/permissions.md). |
 | **CJMRT-080605-400** | Requête incorrecte provenant de l’exécution du parcours (par exemple, déclencheur de nœud, action, etc.) | La configuration fait référence à une fonctionnalité/un modèle/un canal supprimé/renommé ou obsolète. | &#x200B;1. Validez toutes les références de ressources<br/>2. Vérifiez la configuration du parcours et les indicateurs de fonctionnalité.<br/>3. Mettez à jour les références défectueuses.<br/>4. Consultez les mises à jour et migrations système récentes.<br/><br/>**Documentation associée** : [Création de parcours](journey-gs.md) |
-| **CJMRT-030012-422** | Entité non traitable : échec d’une action, événement non valide ou payload incorrecte | Données d’entrée non valides (par exemple, audience, événement ou attribut inexistant) | &#x200B;1. Vérifiez à nouveau la structure de la payload d’entrée/d’événement<br/>2. Vérifiez que les objets référencés (audiences, jeux de données) existent et sont actifs.<br/>3. Vérifiez que tous les champs obligatoires sont présents.<br/>4. Testez avec une payload fiable.<br/><br/>**Documentation associée** : [Dépannage de parcours &#x200B;](troubleshooting.md), [configuration d’événements](../event/about-events.md). |
+| **CJMRT-030012-422** | Entité non traitable : échec d’une action, événement non valide ou payload incorrecte | Données d’entrée non valides (par exemple, audience, événement ou attribut inexistant) | &#x200B;1. Vérifiez à nouveau la structure de la payload d’entrée/d’événement<br/>2. Vérifiez que les objets référencés (audiences, jeux de données) existent et sont actifs.<br/>3. Vérifiez que tous les champs obligatoires sont présents.<br/>4. Testez avec une payload fiable.<br/><br/>**Documentation associée** : [Dépannage de parcours ](troubleshooting.md), [configuration d’événements](../event/about-events.md). |
 | **CJMRT-130004-400** | Requête incorrecte : entrée incorrecte dans la configuration du nœud ou du canal de parcours | La configuration ou la payload du parcours fait référence à une ressource supprimée ou non valide. | &#x200B;1. Vérifiez la configuration du nœud de parcours <br/>2. Vérifiez que toutes les ressources référencées (messages, audiences, actions) existent.<br/>3. Corrigez ou mettez à jour les références défectueuses.<br/>4. Recréez la configuration du parcours si nécessaire.<br/><br/>**Documentation associée** : [Création de parcours](journey-gs.md), [actions personnalisées](../action/about-custom-action-configuration.md) |
-| **CJMRT-000032-409** | Conflit : la ressource existe déjà. | Tentative de création d’une ressource avec un ID ou un nom en double | &#x200B;1. Utilisez des identifiants et des noms uniques pour toutes les ressources<br/>2. Recherchez les ressources existantes avec le même identifiant.<br/>3. Supprimez ou renommez des objets en conflit.<br/>4. Consultez les conventions de nommage.<br/><br/>**Documentation associée** : [Création de parcours &#x200B;](journey-gs.md) |
-| **CJMRT-170016-400** | Requête incorrecte pendant la configuration/prévisualisation du parcours | Dépendance requise manquante ou lien de modèle défectueux pour la payload | &#x200B;1. Vérifiez que toutes les ressources requises sont actives<br/>2. Vérifiez que les modèles et les blocs de contenu sont publiés.<br/>3. Vérifiez que toutes les dépendances sont correctement liées.<br/>4. Consultez les résultats du mode test du parcours.<br/><br/>**Documentation associée** : [Tester des parcours](testing-the-journey.md), [dépendances de parcours &#x200B;](journey-gs.md) |
+| **CJMRT-000032-409** | Conflit : la ressource existe déjà. | Tentative de création d’une ressource avec un ID ou un nom en double | &#x200B;1. Utilisez des identifiants et des noms uniques pour toutes les ressources<br/>2. Recherchez les ressources existantes avec le même identifiant.<br/>3. Supprimez ou renommez des objets en conflit.<br/>4. Consultez les conventions de nommage.<br/><br/>**Documentation associée** : [Création de parcours ](journey-gs.md) |
+| **CJMRT-170016-400** | Requête incorrecte pendant la configuration/prévisualisation du parcours | Dépendance requise manquante ou lien de modèle défectueux pour la payload | &#x200B;1. Vérifiez que toutes les ressources requises sont actives<br/>2. Vérifiez que les modèles et les blocs de contenu sont publiés.<br/>3. Vérifiez que toutes les dépendances sont correctement liées.<br/>4. Consultez les résultats du mode test du parcours.<br/><br/>**Documentation associée** : [Tester des parcours](testing-the-journey.md), [dépendances de parcours ](journey-gs.md) |
 | **CJMRT-080608-400** | Requête incorrecte dans le domaine/canal/délégation | Enregistrements DNS requis ou configuration des e-mails/SMS manquante | &#x200B;1. Configuration DNS complète pour les domaines de messagerie<br/>2. Vérifiez que la délégation des sous-domaines est terminée.<br/>3. Exécutez à nouveau les assistants de configuration.<br/>4. Accordez du temps pour la propagation du DNS (jusqu’à 72 heures).<br/><br/>**Documentation associée** : [Surfaces de canal](../configuration/channel-surfaces.md), [délégation de sous-domaines](../configuration/delegate-subdomain.md) |
 | **CJMRT-110100-500** | Erreur interne sur la payload | Bug de données/configuration du serveur principal ou configuration non prise en charge | &#x200B;1. Réessayez l’opération<br/>2. Simplifiez la configuration si vous utilisez des fonctionnalités avancées.<br/>3. Signalez le problème à l’assistance Adobe avec l’identifiant de requête et la payload exacte.<br/>4. Recherchez les problèmes connus dans les notes de mise à jour.<br/><br/>**Documentation associée** : [Dépannage de parcours](troubleshooting.md). |
 
@@ -104,7 +104,7 @@ Ces erreurs se produisent lors de la création, de la configuration et de l’ac
 
 | Code d’erreur | Description | Cause principale | Résolution |
 |------------|-------------|-----------|-----------|
-| **CJMCMP-6003-400** | « Il y a au moins une campagne incorrecte » lors de la publication ou du test d’un parcours/message. | Le nœud référence une campagne manquante, dépubliée ou non valide. Le parcours hérité ou cloné ne crée pas de campagnes intégrées. | &#x200B;1. Ouvrez chaque nœud de message et vérifiez la configuration<br/>2. Rétablissez la liaison ou ajoutez à nouveau des nœuds de message.<br/>3. Activez le mode test pour forcer la création de campagnes intégrées.<br/>4. Accédez au nouvel assistant de parcours si le problème est fréquent.<br/><br/>**Documentation associée** : [Création de parcours](journey-gs.md), [test de parcours &#x200B;](testing-the-journey.md). |
+| **CJMCMP-6003-400** | « Il y a au moins une campagne incorrecte » lors de la publication ou du test d’un parcours/message. | Le nœud référence une campagne manquante, dépubliée ou non valide. Le parcours hérité ou cloné ne crée pas de campagnes intégrées. | &#x200B;1. Ouvrez chaque nœud de message et vérifiez la configuration<br/>2. Rétablissez la liaison ou ajoutez à nouveau des nœuds de message.<br/>3. Activez le mode test pour forcer la création de campagnes intégrées.<br/>4. Accédez au nouvel assistant de parcours si le problème est fréquent.<br/><br/>**Documentation associée** : [Création de parcours](journey-gs.md), [test de parcours ](testing-the-journey.md). |
 | **CJMCMP-2003-400** | Bannière d’interface d’utilisation : « L’expérience est incorrecte » dans le concepteur d’e-mails | Expérience/fournisseur de données obsolète ou manquant. Échec du nettoyage de l’expérience, incompatibilité de schéma ou bug de validation de l’interface d’utilisation. | &#x200B;1. Supprimez les champs d’expérience inutilisés<br/>2. Validez les connexions des schémas et des fournisseurs de données.<br/>3. Rechargez l’interface d’utilisation et effacez la mémoire cache du navigateur.<br/>4. Recréez le nœud/l’e-mail si le problème n’est pas résolu.<br/><br/>**Documentation associée** : [Expériences de contenu](../content-management/content-experiment.md) |
 | **CJMCMP-3001-400** | Simulation/prévisualisation : « filtre de type de surface incorrect » | Le nœud créé à l’aide de la structure héritée envoie type=surfaceId, le serveur principal attend brandingPresetId. | &#x200B;1. Supprimez et recréez le nœud affecté<br/>2. Utilisez la nouvelle version/le nouveau modèle de parcours.<br/>3. Utilisez le mode test pour effacer la configuration.<br/>4. Recréez en bloc des nœuds si le problème est généralisé.<br/><br/>**Documentation associée** : [Surfaces de canal](../configuration/channel-surfaces.md), [simulation de messages](../content-management/preview.md) |
 | **CJMCMP-2050-400** | Requête incorrecte dans l’activation ou l’approbation de la campagne | Les références de la campagne ne sont pas valides ou comportent un segment ou une politique manquant. | &#x200B;1. Contrôlez toutes les configurations de nœud de campagne<br/>2. Vérifiez que les liens de la politique/du segment sont à jour et valides.<br/>3. Mettez à jour avec la configuration appropriée.<br/>4. Testez à nouveau la campagne avant l’activation.<br/><br/>**Documentation associée** : [Création des campagnes](../campaigns/create-campaign.md), [approbation des campagnes](../test-approve/gs-approval.md) |
@@ -191,14 +191,63 @@ Si vous rencontrez des erreurs persistantes qui ne peuvent pas être résolues �
 1. **Collectez des informations** : collectez le code d’erreur, l’identifiant de requête, la date et l’heure, et les étapes à reproduire.
 2. **Vérifiez le statut du système** : consultez le [statut d’Adobe](https://status.adobe.com/fr){target="_blank"} pour connaître les problèmes de service connus.
 3. **Recherchez dans la documentation** : consultez [Adobe Experience League](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=fr){target="_blank"} pour trouver des solutions.
-4. **Engager la communauté** : Posez vos questions dans la [[!DNL Adobe Journey Optimizer] Communauté](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=fr){target="_blank"}
+4. **Engager la communauté** : Posez vos questions dans la [[!DNL Adobe Journey Optimizer] Communauté](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
 5. **Contactez l’assistance Adobe** : [soumettez un ticket d’assistance](../start/user-interface.md#support-ticket-guidelines) avec tous les détails pertinents
 
 >[!NOTE]
 >
->Cette référence de code d’erreur est continuellement mise à jour au fur et à mesure que de nouveaux codes sont identifiés et documentés. Pour obtenir les informations les plus récentes, consultez régulièrement les [[!DNL Adobe Journey Optimizer] blogs de la communauté](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs?profile.language=fr){target="_blank"}.
+>Cette référence de code d’erreur est continuellement mise à jour au fur et à mesure que de nouveaux codes sont identifiés et documentés. Pour obtenir les informations les plus récentes, consultez régulièrement les [[!DNL Adobe Journey Optimizer] blogs de la communauté](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs){target="_blank"}.
 
 **Rubriques connexes :**
 
-* [Démystifier [!DNL Adobe Journey Optimizer] Codes d&#39;erreur : Partie 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=fr){target="_blank"}
-* [Démystifier [!DNL Adobe Journey Optimizer] Codes d&#39;erreur : Partie 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=fr){target="_blank"}
+* [Démystifier [!DNL Adobe Journey Optimizer] Codes d&#39;erreur : Partie 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}
+* [Démystifier [!DNL Adobe Journey Optimizer] Codes d&#39;erreur : Partie 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661){target="_blank"}
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page est un guide de référence pour les codes d’erreur Adobe Journey Optimizer normalisés organisés par préfixe de service, expliquant la cause de chaque erreur et fournissant des conseils de résolution détaillés.
+
+**Intentions:**
+
+* Identifiez le service AJO qui a généré une erreur à l’aide du préfixe de service dans le code d’erreur
+* Diagnostiquer et résoudre les erreurs push/transport (CJMPTS) affectant la diffusion des messages
+* Résolution des problèmes liés à l’exécution du parcours et aux erreurs d’API (CJMRT) pendant l’exécution du parcours ou le traitement des événements
+* Correction des erreurs de création de messages (CJMMAS) lors de la création, de l’enregistrement ou de la publication de messages
+* Résoudre les erreurs de campagne (CJMCMP) lors de l’activation ou de la validation de la campagne
+* Transmettez les erreurs persistantes à l’assistance Adobe avec les informations correctes
+
+**Glossaire:**
+
+* **Préfixe de service** : code alphanumérique au début d’un code d’erreur AJO qui identifie le service qui a généré l’erreur (par exemple, CJMRT = Parcours Runtime) *(spécifique au produit)*
+* **Code d’état HTTP** : code d’état standard incorporé dans un code d’erreur AJO (par exemple, 400 = Bad Request, 403 = Forbidden, 422 = Unprocessable Entity, 500 = Internal Server Error)
+* **ID de requête** : identifiant unique accompagnant une erreur requise lors de la transmission à l’*de l’assistance Adobe (spécifique au produit)*
+* **CJMRT** : préfixe du service d’exécution de Parcours — erreurs lors de l’exécution du parcours et des opérations de l’API *(spécifiques au produit)*
+* **CJMMAS** : préfixe du service de création de messages - erreurs lors de la création et de la publication de messages *(spécifique au produit)*
+* **CJMPTS** : préfixe du service de notification push/transport — erreurs lors de la notification push et de la *du transport des messages (spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+
+* Les variantes d’e-mail doivent inclure un lien d’exclusion/de désabonnement ; l’omission de ce lien déclenche CJMMAS-2001-200.
+* L’arrêt d’un parcours nécessite l’autorisation Gestion des parcours (appropriée pour les erreurs CJMRT impliquant des autorisations).
+* La propagation DNS pour la délégation de sous-domaine peut prendre jusqu’à 72 heures (pertinent pour CJMRT-080608-400).
+* Les clés de recherche pour les activités de recherche de jeu de données doivent être définies en mode avancé, et non en mode simple.
+
+**Terminologie:**
+
+* Nom canonique : Code d’erreur — Acronyme : s/o — Variantes : message d’erreur, identifiant de l’erreur
+* Synonymes : « préfixe de service » = « préfixe d’erreur » = « identifiant de composant »
+* Ne les confondez pas : « 400 Bad Request » ≠ « 422 Unprocessable Entity » : 400 indique une entrée incorrecte ; 422 indique un format valide, mais un contenu non valide par règle de schéma
+
+**FAQ:**
+
+* **Q : Comment savoir quel service AJO a provoqué une erreur ?** — Lisez le préfixe de service au début du code d&#39;erreur : CJMPTS (push/transport), CJMRT (exécution de parcours), CJMMAS (création de messages), CJMCMP (campagne), CJMTL (couche de transport), CJMRPS (création de rapports/approvisionnement).
+* **Q : Que dois-je faire lorsque j’obtiens une erreur de la série 500 ?** — Réessayez au bout de quelques minutes, vérifiez si Adobe Status n’est pas en panne, puis contactez l’assistance Adobe avec le code d’erreur complet et l’identifiant de la requête si le problème persiste.
+* **Q : Pourquoi CJMMAS-2001-200 affiche-t-il une bannière d’erreur alors que le statut est « succès » ?** — Un lien d’opt-out/de désabonnement obligatoire est absent d’une variante d’e-mail ; ajoutez-le à toutes les variantes et versions linguistiques.
+* **Q : Quelles informations dois-je collecter avant de contacter l’assistance Adobe ?** collectez le code d’erreur complet, l’ID de requête, les horodatages, les étapes à reproduire et tous les détails de configuration pertinents.
+* **Q : Qu’est-ce qui cause CJMRT-030012-422 ?** — Données d’entrée non valides, telles que le référencement d’une audience, d’un événement ou d’un attribut inexistant ; vérifiez que tous les objets référencés existent et sont actifs.
+
++++

@@ -11,10 +11,10 @@ badge: label="Bêta publique" type="Informative"
 mini-toc-levels: 2
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 661
-ht-degree: 10%
+source-wordcount: 1147
+ht-degree: 6%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 10%
 
 L’assistant d’expression est une fonctionnalité optimisée par l’IA intégrée à l’éditeur d’expression avancé du Parcours. Cela vous permet de générer des expressions valides à partir d’invites en langage clair.
 
-Elle est disponible où s’ouvre le Parcours **[!UICONTROL Éditeur d’expression avancé]**. Par exemple, lorsque vous configurez des conditions et le routage dans une activité **[Optimiser](../optimize.md)** ou lorsque vous configurez une activité [**[!UICONTROL Attente &#x200B;]**](../wait-activity.md) qui utilise une date personnalisée et pour laquelle vous avez besoin d’une expression `dateTimeOnly`.
+Elle est disponible où s’ouvre le Parcours **[!UICONTROL Éditeur d’expression avancé]**. Par exemple, lorsque vous configurez des conditions et le routage dans une activité **[Optimiser](../optimize.md)** ou lorsque vous configurez une activité [**[!UICONTROL Attente ]**](../wait-activity.md) qui utilise une date personnalisée et pour laquelle vous avez besoin d’une expression `dateTimeOnly`.
 
 ## Générer une expression {#generate}
 
@@ -95,3 +95,49 @@ Lorsqu’une activité **[!UICONTROL Attente]** utilise une date personnalisée,
 
 * [Utilisation de l’éditeur d’expression avancé](expressionadvanced.md) — Présentation de l’interface de l’éditeur d’expression et de la syntaxe prise en charge.
 * [Prise en main de l’assistant AI dans Journey Optimizer](../../content-management/gs-generative.md) — Mécanismes de sécurisation généraux, accès et configuration pour les fonctionnalités d’IA génératives.
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page décrit l’assistant d’expression, une fonctionnalité optimisée par l’IA de l’éditeur d’expression avancé de Parcours qui génère des expressions de parcours valides à partir d’invites en langage clair.
+
+**Intentions:**
+
+* Générez une expression de parcours à partir d’une description en langage naturel à l’aide de l’assistant d’expression
+* Appliquez une expression générée directement dans l’éditeur d’expression avancé à l’aide du bouton Appliquer .
+* Utilisez l’assistant d’expression dans les activités d’optimisation, les activités de condition et les activités d’attente de date personnalisée
+* Fournissez des exemples d’invites pour les conditions basées sur un événement et les expressions d’attente `dateTimeOnly`
+* Résolvez les problèmes de génération en modifiant les invites pour référencer des noms de champs et des sources de données valides
+
+**Glossaire:**
+
+* **Assistant d’expression** : fonctionnalité générative optimisée par l’IA intégrée à l’éditeur d’expression avancé de Parcours qui convertit les invites en langage clair en expressions de parcours valides *(spécifiques au produit)*
+* **Éditeur d’expression avancé** : interface Journey Optimizer permettant d’écrire des expressions complexes dans des conditions, des activités d’attente et des *de mappage de paramètres d’action (spécifiques au produit)*
+* **dateTimeOnly** : type d’expression date-heure sans fuseau horaire, obligatoire pour les activités d’attente avec date personnalisée *(spécifiques au produit)*
+* **Activité d’optimisation** : activité de parcours prenant en charge les conditions d’embranchement configurables via l’éditeur d’expression avancé *(spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+
+* L&#39;assistant d&#39;expression est actuellement en version **bêta publique** — la disponibilité et le comportement peuvent changer
+* Les mécanismes de sécurisation et limitations de l’IA générative de la documentation principale de l’assistant d’IA s’appliquent à cette fonctionnalité
+* Si l&#39;assistant fait référence à des champs qui ne figurent pas dans les sources de données de votre parcours, il renvoie une erreur — révisez l&#39;invite pour utiliser les noms de champ disponibles
+* La syntaxe exacte de l’expression générée dépend des champs et activités configurés dans votre parcours spécifique
+
+**Terminologie:**
+
+* Nom canonique : Assistant d’expression — Acronyme : none — variantes : IA dédiée à l’expression, générateur d’expression de parcours
+* Synonymes : « Assistant d’expression » = « Générateur d’expression IA »
+* Ne pas confondre : Assistant d’expression (générateur optimisé par l’IA) ≠ Éditeur d’expression avancé (l’éditeur de code manuel lui-même)
+
+**FAQ:**
+
+* **Q : Où l’assistant d’expression est-il disponible ?** — Elle est disponible à l&#39;emplacement où l&#39;éditeur d&#39;expression avancé de Parcours s&#39;ouvre, y compris les activités Condition, Optimiser et Attendre avec une date personnalisée.
+* **Q : Que se passe-t-il si l’assistant ne peut pas générer une expression valide ?** — Un message d&#39;erreur s&#39;affiche ; vous devez réviser votre invite pour utiliser les noms de champ et les sources de données qui existent dans votre configuration de parcours.
+* **Q : Comment insérer une expression générée dans l’éditeur ?** — Cliquez sur le bouton **Appliquer** dans le panneau de l&#39;assistant pour l&#39;insérer directement à l&#39;emplacement actuel du curseur dans l&#39;éditeur d&#39;expression avancé.
+* **Q : L’assistant d’expression peut-il générer des expressions `dateTimeOnly` pour les activités d’attente ?** — Oui ; par exemple, l’invite « 30 jours à partir de maintenant à 22 h comme date et heure uniquement » génère l’expression de `dateTimeOnly` appropriée.
+* **Q : L&#39;assistant d&#39;expression est-il généralement disponible ?** — Non ; il est actuellement en version bêta publique. Consultez la page du cycle de publication de Journey Optimizer pour connaître les mises à jour de disponibilité.
+
++++

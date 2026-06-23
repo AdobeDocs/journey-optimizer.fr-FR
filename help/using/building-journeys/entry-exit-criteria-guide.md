@@ -10,31 +10,16 @@ keywords: entrée, sortie, critères, parcours, profil, reprise, bonnes pratique
 version: Journey Orchestration
 exl-id: e879a0f6-b969-4de0-a733-f2880d58d59b
 TQID: https://experienceleague.adobe.com/6OJQsorJ9p7gtO1ep-rIss60J2TmKzqiNS3Btfhh8Gs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1700
-ht-degree: 91%
+source-wordcount: 2251
+ht-degree: 68%
 
 ---
 
@@ -120,7 +105,7 @@ Collectez des informations sur la satisfaction client et les performances des pr
 
 * **Entrée** : les personnes rejoignent le parcours après réception d’un événement de confirmation de diffusion du produit.
 * **Sortie** : les profils quittent le parcours une fois les commentaires envoyés ou après 10 jours en l’absence de réponse.
-* **Avantage &#x200B;** : capture rapidement des commentaires utiles sans importuner la clientèle par des demandes persistantes.
+* **Avantage ** : capture rapidement des commentaires utiles sans importuner la clientèle par des demandes persistantes.
 
 ## Configurer les critères d’entrée de parcours {#configure-entry}
 
@@ -128,7 +113,7 @@ Collectez des informations sur la satisfaction client et les performances des pr
 
 **Découvrez ici tout ce que vous devez savoir sur les critères d’entrée :**
 
-* **[Déclencheurs basés sur un événement](../event/about-events.md)** : utilisez des événements tels que « création de profil », « transaction terminée » ou des événements personnalisés pour lancer un parcours. [Configurez les événements](../event/about-creating.md) dans **[!UICONTROL Administration]** > **[!UICONTROL Événements]** et définissez [le schéma et les champs d’événement](../event/experience-event-schema.md). Ajoutez ensuite l’événement à partir de la palette **[!UICONTROL Événements]** dans le concepteur de parcours [&#128279;](using-the-journey-designer.md).
+* **[Déclencheurs basés sur un événement](../event/about-events.md)** : utilisez des événements tels que « création de profil », « transaction terminée » ou des événements personnalisés pour lancer un parcours. [Configurez les événements](../event/about-creating.md) dans **[!UICONTROL Administration]** > **[!UICONTROL Événements]** et définissez [le schéma et les champs d’événement](../event/experience-event-schema.md). Ajoutez ensuite l’événement à partir de la palette **[!UICONTROL Événements]** dans le concepteur de parcours [](using-the-journey-designer.md).
 
 * **[Entrée basée sur l’audience](read-audience.md)** : les parcours cibles sont destinés aux profils qui appartiennent à des audiences spécifiques, sous la forme d’un lot unique ou selon un planning récurrent. [Créez des audiences](../audience/creating-a-segment-definition.md) dans le menu **[!UICONTROL Audiences]**, puis ajoutez une activité **[!UICONTROL Lecture d’audience]** et [configurez le planning](journey-properties.md#schedule). Après l’entrée, utilisez des conditions pour [segmenter, exclure ou fusionner des branches](read-audience.md#audience-targeting-in-journeys).
 
@@ -174,7 +159,7 @@ Pour obtenir des conseils de mise en œuvre détaillés avec des détails techni
 
 >[!TIP]
 >
->Parcourez tous les cas d’utilisation disponibles dans la bibliothèque de cas d’utilisation de Parcours [&#128279;](jo-use-cases.md) pour plus de modèles et d’implémentations. Par exemple, [améliorez les diffusions](ramp-up-deliveries-uc.md), [modèles d’événement d’expérience](exp-event-lookup.md) et [supprimez des profils des parcours en direct](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey).
+>Parcourez tous les cas d’utilisation disponibles dans la bibliothèque de cas d’utilisation de Parcours [](jo-use-cases.md) pour plus de modèles et d’implémentations. Par exemple, [améliorez les diffusions](ramp-up-deliveries-uc.md), [modèles d’événement d’expérience](exp-event-lookup.md) et [supprimez des profils des parcours en direct](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey).
 
 ## Bonnes pratiques de gestion des entrées et des sorties {#best-practices}
 
@@ -236,8 +221,56 @@ Commencez par mapper clairement les déclencheurs et les points de sortie de vos
 
 **Tutoriels et exemples**
 
-[Cas d’utilisation des parcours](jo-use-cases.md) | [Vidéo sur l’intégration des clients et des clientes](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Vidéo sur les paniers abandonnés](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog de la communauté : critères d’entrée et de sortie](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=fr)
+[Cas d’utilisation des parcours](jo-use-cases.md) | [Vidéo sur l’intégration des clients et des clientes](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Vidéo sur les paniers abandonnés](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog de la communauté : critères d’entrée et de sortie](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **Fonctionnalités associées**
 
 [Événements de qualification d’audience](audience-qualification-events.md) | [Mesures de succès et objectifs](success-metrics.md) | [Gestion des conflits](../conflict-prioritization/conflicts.md) | [Capping de la fréquence](../conflict-prioritization/rule-sets.md) | [parcours de test](testing-the-journey.md) | [Optimiser l’activité](optimize.md) | [Événements de réaction](reaction-events.md) | [Activité d’attente](wait-activity.md)
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Ce guide explique comment définir, configurer et optimiser les critères d’entrée et de sortie de parcours dans Adobe Journey Optimizer, avec des exemples réels et des bonnes pratiques pour s’assurer que les profils adéquats sont atteints au bon moment.
+
+**Intentions:**
+
+* Configurer des critères d’entrée basés sur un événement, une audience ou un attribut pour un parcours
+* Configurez des critères de sortie en fonction de l’achèvement du parcours, des mesures de succès, des délais d’inactivité ou de la disqualification de l’audience
+* Appliquez des règles de rentrée pour contrôler si les profils peuvent entrer plusieurs fois dans un parcours
+* Éviter les parcours qui se chevauchent en utilisant la gestion des conflits et les scores de priorité
+* Surveiller et optimiser les taux d’entrée et de sortie à l’aide de rapports de parcours
+
+**Glossaire:**
+
+* **Critères d’entrée** : conditions qui déterminent à quel moment un profil client est qualifié pour entrer dans un *de parcours (spécifique au produit)*
+* **Critères de sortie** : conditions qui définissent quand et comment un profil quitte ou est supprimé d’une *de parcours (spécifique au produit)*
+* **Qualification d’audience** : mécanisme d’entrée par parcours qui se déclenche lorsqu’un profil entre ou sort d’une audience de diffusion en continu en temps réel *(spécifique au produit)*
+* **Reprise** : possibilité pour un profil de rejoindre le même parcours plusieurs fois, configurable avec une période d’attente *(spécifique au produit)*
+* **Capping de la fréquence** : règle qui limite le nombre de messages qu’un profil peut recevoir au cours d’une période donnée *(spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+
+* Un profil ne peut pas être présent plusieurs fois en même temps dans le même parcours.
+* La rentrée doit être explicitement activée ; la période d’attente de rentrée par défaut est de 5 minutes avec un maximum de 91 jours.
+* Pour une gestion avancée des fréquences multi-parcours, utilisez le plafonnement et l’arbitrage des parcours plutôt que des critères de sortie individuels.
+* Les chevauchements de parcours doivent être gérés de manière proactive ; utilisez la gestion des conflits et les scores de priorité pour résoudre les parcours concurrents.
+
+**Terminologie:**
+
+* Nom canonique : Critères d’entrée — Acronyme : s.o. — Variantes : conditions d’entrée, déclencheurs de parcours
+* Nom canonique : Critères de sortie — Acronyme : s/o — Variantes : conditions de sortie, règles de suppression de profil
+* Synonymes : « disqualification d’audience » = « sortie d’audience » comme déclencheur de sortie
+* Ne les confondez pas : « Fermer aux nouvelles entrées » ≠ « Critères de sortie » : le premier bloque les nouvelles entrées ; les critères de sortie suppriment les profils en cours
+
+**FAQ:**
+
+* **Q : Un profil peut-il être dans le même parcours deux fois en même temps ?** — Non, un profil ne peut pas être présent en même temps dans le même parcours. L’identité du profil est utilisée comme clé pour appliquer cela.
+* **Q : Comment empêcher un profil de rejoindre à nouveau un parcours ?** — Désactiver la rentrée dans le panneau Propriétés du parcours ou ajouter une condition pour vérifier si le profil est déjà entré.
+* **Q : Quelle est la différence entre les critères de sortie et la fermeture d&#39;un parcours ?** — Les critères de sortie suppriment des profils individuels d&#39;un parcours dynamique en fonction de conditions ; la fermeture d&#39;un parcours arrête toutes les nouvelles entrées tout en laissant les profils actuels se terminer.
+* **Q : Comment puis-je arrêter la communication excessive avec les clients sur plusieurs parcours ?** — Utilisez les règles de limitation de la fréquence, ainsi que la limitation et l&#39;arbitrage des parcours pour appliquer les limites de messages entre parcours.
+* **Q : Qu’est-ce que la disqualification d’audience comme déclencheur de sortie ?** : lorsqu’un profil ne répond plus aux critères du segment ciblé, il est automatiquement supprimé du parcours pour que les communications restent pertinentes.
+
++++

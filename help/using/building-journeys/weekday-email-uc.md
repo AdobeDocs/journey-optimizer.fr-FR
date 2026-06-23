@@ -11,27 +11,16 @@ keywords: parcours, cas d’utilisation, jours de la semaine, condition, e-mail,
 version: Journey Orchestration
 exl-id: 2f313e59-ee50-473c-9346-8859889346ec
 TQID: https://experienceleague.adobe.com/qUt7t5LTYSQW278Pafx2-1t-DboRz9tU5IRpVhuEqLc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1109
-ht-degree: 87%
+source-wordcount: 1622
+ht-degree: 59%
 
 ---
 
@@ -57,7 +46,7 @@ Cette approche est idéale pour les campagnes par e-mail B2B (business-to-busine
 
 >[!NOTE]
 >
->Pour implémenter ce cas d’utilisation, vous avez besoin d’une instance Adobe Journey Optimizer active avec une [surface de canal e-mail](../configuration/channel-surfaces.md) configurée, une [audience](../audience/about-audiences.md) ou un [événement](../event/about-events.md) pour déclencher le parcours, ainsi qu’une compréhension de base des [conditions de parcours &#x200B;](conditions.md) et des [expressions](expression/expressionadvanced.md).
+>Pour implémenter ce cas d’utilisation, vous avez besoin d’une instance Adobe Journey Optimizer active avec une [surface de canal e-mail](../configuration/channel-surfaces.md) configurée, une [audience](../audience/about-audiences.md) ou un [événement](../event/about-events.md) pour déclencher le parcours, ainsi qu’une compréhension de base des [conditions de parcours ](conditions.md) et des [expressions](expression/expressionadvanced.md).
 
 ## Étapes dʼimplémentation
 
@@ -79,7 +68,7 @@ Suivez ces étapes pour créer un flux d’e-mail en semaine uniquement.
 
 Juste après le début du parcours, ajoutez une activité **[!UICONTROL Condition]** pour vérifier si le jour actuel est un samedi ou un dimanche. Le workflow sera ainsi divisé en conséquence.
 
-1. Faites glisser et déposez une activité [**[!UICONTROL Optimiser &#x200B;]**](optimize.md) sur la zone de travail après votre point d’entrée.
+1. Faites glisser et déposez une activité [**[!UICONTROL Optimiser ]**](optimize.md) sur la zone de travail après votre point d’entrée.
 
 1. Cliquez sur l’activité **[!UICONTROL Condition]** pour ouvrir son panneau de configuration.
 
@@ -214,4 +203,50 @@ Une fois les tests effectués :
 * [Activité d’attente](wait-activity.md) : configurer des durées d’attente et des formules
 * [Fonctions de date](functions/date-functions.md) : référence complète pour les fonctions de date et d’heure
 * [Éditeur d’expression](expression/expressionadvanced.md) : créer des expressions complexes
-* [Bonnes pratiques relatives aux parcours &#x200B;](journey-gs.md#best-practices) : approches recommandées pour la conception de parcours
+* [Bonnes pratiques relatives aux parcours ](journey-gs.md#best-practices) : approches recommandées pour la conception de parcours
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page propose un cas pratique détaillé pour configurer un parcours qui envoie des e-mails uniquement les jours de la semaine en utilisant une condition de jour de la semaine et des formules d’attente personnalisées pour retarder les entrées du week-end jusqu’au lundi.
+
+**Intentions:**
+
+* Configurez une activité Condition pour brancher un parcours en fonction du jour de la semaine (samedi, dimanche ou jour de la semaine)
+* Écrivez des expressions d’attente personnalisées à l’aide de `toDateTimeOnly(setHours(nowWithDelta(X, "days"), H))` pour retarder les profils de week-end jusqu’au lundi
+* Créez un parcours à trois chemins qui fusionne tous les chemins en une seule action e-mail
+* Testez la logique d’e-mail en semaine uniquement à l’aide de profils de test avec différents jours d’entrée simulés
+* Publier et surveiller un parcours qui supprime la diffusion d’e-mails le week-end
+
+**Glossaire:**
+
+* **Condition de temps** : type d’activité de condition dans Journey Optimizer qui embranche les chemins de parcours en fonction de critères de date/heure tels que le jour de la semaine *(spécifiques au produit)*
+* **nowWithDelta** : fonction d’expression qui renvoie le décalage date/heure actuel d’un nombre spécifié de jours ou d’autres unités *(spécifiques au produit)*
+* **setHours** : fonction d’expression qui définit une heure spécifique sur une valeur de date/heure donnée *(spécifique au produit)*
+* **toDateTimeOnly** : fonction d’expression qui convertit une valeur au format de `dateTimeOnly` requis par les activités d’attente personnalisées *(spécifiques au produit)*
+
+**Mécanismes de sécurisation :**
+
+* Le fuseau horaire utilisé pour l’évaluation du jour de la semaine correspond au fuseau horaire configuré pour le parcours (défini dans les propriétés du parcours), et non à celui du destinataire individuel.
+* Une surface de canal e-mail active et une audience ou un événement pour déclencher le parcours sont requis pour implémenter ce cas d’utilisation.
+* Une compréhension de base des conditions du parcours et de l’éditeur d’expression avancé est une condition préalable.
+* Testez toujours le parcours en mode test avant de le publier pour vérifier que les formules d’attente produisent l’heure de diffusion correcte du lundi.
+
+**Terminologie:**
+
+* Nom canonique : planification des e-mails le jour de la semaine — Acronyme : aucun — variantes : e-mails le jour de la semaine uniquement, diffusion e-mail aux heures de bureau
+* Synonymes : « Chemin du samedi » / « Chemin du dimanche » = « Chemins du week-end » ; « Chemin des autres cas » = « Chemin du jour de la semaine »
+* Ne pas confondre : fuseau horaire du parcours (utilisé pour l’évaluation du jour de la semaine) ≠ fuseau horaire local du destinataire
+
+**FAQ:**
+
+* **Q : Quelle formule retarde l&#39;entrée du samedi au lundi à 9 h ?** — Utiliser `toDateTimeOnly(setHours(nowWithDelta(2, "days"), 9))` sur le chemin du samedi (2 jours vers l&#39;avant le lundi).
+* **Q : Quelle formule retarde l&#39;entrée du dimanche au lundi à 9 h ?** — Utiliser `toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))` sur le chemin du dimanche (1 jour vers l&#39;avant le lundi).
+* **Q : Quel fuseau horaire est utilisé lors de l’évaluation de la condition du jour de la semaine ?** — Fuseau horaire configuré du parcours défini dans les propriétés du parcours ; il ne s’agit pas du fuseau horaire local du destinataire.
+* **Q : Les entrées de jour de la semaine ont-elles besoin d’une activité Attente ?** : non, les profils qui entrent du lundi au vendredi accèdent directement à l’activité d’action E-mail sans attendre.
+* **Q : Comment puis-je tester que les entrées du week-end sont correctement placées en file d’attente ?** — En mode test, créez des profils de test avec des heures d’entrée simulées le samedi et le dimanche, vérifiez qu’ils suivent le bon chemin conditionnel et recevez l’e-mail le lundi à l’heure configurée.
+
++++

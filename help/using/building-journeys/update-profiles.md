@@ -11,22 +11,15 @@ keywords: profil, mise à jour, parcours, activité
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ifDBXoNDryXLKMkm59mVqT7-unQYG1JKTfMN7zAoWsA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 938
-ht-degree: 34%
+source-wordcount: 1491
+ht-degree: 21%
 
 ---
 
@@ -117,3 +110,53 @@ Pour plus d&#39;informations sur la façon de transformer un profil existant en 
 * L’activité **[!UICONTROL Mettre à jour un profil]** met seulement à jour le [magasin de profils](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr#profile-data-store){target="_blank"} et non le lac de données.
 * Jusqu’à cinq paires champ/valeur peuvent être mises à jour en une seule action **[!UICONTROL Mettre à jour le profil]**. Utilisez le bouton **[!UICONTROL Mettre à jour un autre champ]** pour ajouter d’autres paires.
 * Pour de meilleures performances, regroupez plusieurs mises à jour d’attributs en une seule action **[!UICONTROL Mettre à jour le profil]** plutôt qu’en utilisant une action par attribut.
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page explique comment configurer l’activité Mettre à jour le profil pour enrichir ou corriger un profil Adobe Experience Platform existant avec des données provenant d’événements de parcours, de sources de données ou de valeurs statiques pendant qu’un client ou une cliente progresse dans un parcours.
+
+**Intentions:**
+
+* Configurez l&#39;activité Mettre à jour le profil pour modifier les attributs de profil existants pendant un parcours
+* Sélectionnez un jeu de données activé pour le profil dédié aux actions Mettre à jour le profil
+* Mappez les valeurs de champ des événements de parcours, des sources de données ou des valeurs statiques aux attributs de profil
+* Mettre à jour plusieurs attributs de profil (jusqu’à cinq) dans une seule activité
+* Mises à jour du profil de test en mode test parcours
+
+**Glossaire:**
+
+* **Activité Mettre à jour le profil** : activité d’action qui écrit en temps réel de nouvelles valeurs dans des champs existants d’un profil Adobe Experience Platform au fur et à mesure qu’un profil se déplace dans un *de parcours (spécifique au produit)*
+* **Magasin de profils** : magasin Adobe Experience Platform contenant des données de profil client en temps réel, distinctes du *du lac de données (spécifiques au produit)*
+* **Espace de noms d’identité** : libellé qui distingue les contextes d’identité (e-mail, ID CRM, par exemple) utilisés pour correspondre au profil mis à jour *(spécifique au produit)*
+* **Jeu de données activé pour le profil** : jeu de données Adobe Experience Platform configuré pour fournir des enregistrements au *de profil unifié (spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+
+* L&#39;action Mettre à jour le profil ne peut être utilisée que dans les parcours pour lesquels un espace de noms est défini.
+* L’action met uniquement à jour les champs XDM existants ; elle ne peut pas créer de nouveaux champs de profil.
+* Seuls les types de champ simples sont pris en charge (chaîne, nombre, valeur booléenne) ; les énumérations, les tableaux d’objets et les collections complexes ne sont pas pris en charge.
+* L’action ne peut pas générer d’événements d’expérience tels que des achats.
+* Jusqu&#39;à cinq paires champ/valeur peuvent être mises à jour en une seule action Mettre à jour le profil .
+* Ne partagez pas le jeu de données dédié avec les processus d’ingestion par lots ou en flux continu, car d’autres exécutions d’ingestion remplaceront les modifications du profil de mise à jour.
+* Les mises à jour de profil peuvent ne pas être disponibles immédiatement en aval dans la même exécution de parcours.
+* L’activité met uniquement à jour le magasin de profils, et non le lac de données.
+
+**Terminologie:**
+
+* Nom canonique : Mettre à jour le profil — Acronyme : none — variantes : activité Mettre à jour le profil, action Mettre à jour le profil
+* Synonymes : « Boutique de profils » = « Boutique de profils clients en temps réel »
+* Ne pas confondre : « Magasin de profils » (mis à jour par cette activité) ≠ « Lac de données » (non mis à jour par cette activité)
+
+**FAQ:**
+
+* **Q : L&#39;activité Mettre à jour le profil peut-elle créer de nouveaux champs de profil ?** — Non, il ne peut mettre à jour que les champs qui existent déjà dans le schéma de profil XDM sélectionné.
+* **Q : Pourquoi devrais-je utiliser un jeu de données dédié pour mettre à jour les actions de profil ?** — Le partage du jeu de données avec l&#39;ingestion par lots ou en flux continu peut entraîner le remplacement des modifications apportées par l&#39;activité Mettre à jour le profil par d&#39;autres exécutions d&#39;ingestion.
+* **Q : Les mises à jour de profil sont-elles immédiatement visibles pour les activités en aval dans le même parcours ?** — Non, les valeurs mises à jour peuvent ne pas encore être reflétées si une action lit le même champ immédiatement après son écriture par l&#39;activité Mettre à jour le profil.
+* **Q : Combien de champs puis-je mettre à jour en une seule action Mettre à jour le profil ?** — Jusqu&#39;à cinq paires champ/valeur peuvent être configurées en une seule activité à l&#39;aide du bouton « Mettre à jour un autre champ ».
+* **Q : Les mises à jour de profil s’appliquent-elles en mode test ?** — Oui, en mode test, les mises à jour prennent effet immédiatement sur le profil de test et ne sont pas simulées.
+
++++

@@ -10,17 +10,14 @@ keywords: expression, syntaxe, opérateurs, éditeur, parcours
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/sK2GNHkkiJ4M5V99Uucc-b68iESNW7kCNBjHVNT-dMs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 549
-ht-degree: 100%
+source-wordcount: 1001
+ht-degree: 54%
 
 ---
 
@@ -496,3 +493,51 @@ Renvoie une valeur _dateTime_ (avec fuseau horaire UTC) une heure plus tard que 
 ```
 
 Renvoie une valeur _duration_ PT2H.
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page est une référence complète des opérateurs disponibles dans l’éditeur d’expression avancé de Parcours, couvrant les opérateurs logiques (`and`, `or`, `not`), de comparaison (`==`, `!=`, `>`, `>=`, `<`, `<=`, `is null`, `is not null`, `has null`), arithmétiques (`+`, `-`, `/`), de vérification de type mathématique (`*`, `%` `is numeric` `is integer` `is decimal`), de concaténation de chaîne et d’arithmétique de date.
+
+**Intentions:**
+
+* Combinez des conditions booléennes en utilisant des opérateurs logiques `and`, `or` et `not`
+* Vérifier si une valeur de champ ou d&#39;expression est nulle ou non à l&#39;aide de `is null` / `is not null`
+* Détecter les valeurs nulles dans une liste à l’aide de l’opérateur `has null`
+* Comparez des valeurs numériques, datetime et datetimeonly à l’aide de `>`, `>=`, `<`, `<=`, `==` et `!=`
+* Exécuter des opérations arithmétiques sur des valeurs numériques à l’aide de `+`, `-`, `/`, `*` et `%`
+* Ajoutez une durée à une valeur dateTime, dateTimeOnly ou duration à l&#39;aide de l&#39;opérateur `+`
+
+**Glossaire:**
+
+* **Opérateur unaire** : opérateur appliqué à un seul opérande ; il peut être gauche (par exemple, `not`) ou droit (par exemple, `is null`) *(spécifique au produit)*
+* **Opérateur binaire** : opérateur appliqué entre deux opérandes (par exemple `and`, `==`, `+`) *(spécifique au produit)*
+* **has null** : un opérateur unaire droit qui retourne true si une liste contient au moins un élément null *(product-specific)*
+* **est numérique / est un entier / est décimal** : les opérateurs de vérification de type qui renvoient une valeur booléenne en fonction du sous-type numérique de l’expression *(spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+
+* Lors de l&#39;utilisation de la multiplication (`*`), les deux opérandes doivent être du même type numérique (entier ou décimal) — le mélange des types provoque une erreur
+* Lors de l’utilisation de l’opérateur `+` pour l’arithmétique de date, l’expression doit être mise entre parenthèses pour éviter les erreurs d’analyse
+* Les opérateurs de comparaison (`>`, `>=`, `<`, `<=`) ne sont valides qu&#39;entre les types compatibles : Datetime avec Datetime, DatetimeOnly avec DatetimeOnly ou numeric avec numeric — toute autre combinaison est interdite
+* Une `""` de chaîne vide n&#39;est pas considérée comme nulle — `has null` renvoie false pour une liste contenant des `""`
+* Les opérateurs `==` et `!=` n’effectuent aucun contrôle de type de données entre les opérandes
+
+**Terminologie:**
+
+* Nom canonique : Opérateurs — Acronyme : none — variantes : opérateurs d’expression, opérateurs de parcours
+* Synonymes : `and` = « logique ET »; `or` = « logique OU »; `not` = « logique NON »; `%` = « modulo »
+* Ne pas confondre : `is null` (l’expression n’a pas de valeur évaluée) ≠ `== null` (syntaxe non valide) ; `has null` (la liste contient la valeur null) ≠ `is null` (l’expression elle-même est null)
+
+**FAQ:**
+
+* **Q : Puis-je multiplier directement un entier par une décimale ?** — Non ; les deux opérandes de `*` doivent être du même type. Utilisez `3.0 * 4.0` (les deux décimales) ou `3 * 4` (les deux entiers).
+* **Q : Comment ajouter 15 minutes à une dateTime ?** — Utiliser `(toDateTime("...")) + (toDuration("PT15M"))`.
+* **Q : Quelle est la différence entre `is null` et `has null` ?** — `is null` vérifie si une seule expression n&#39;a pas de valeur évaluée ; `has null` vérifie si une liste contient au moins un élément null.
+* **Q : Est-ce que `"" has null` renvoie true ?** — Non ; une chaîne vide n&#39;est pas considérée comme nulle, le résultat est donc faux.
+* **Q : Pourquoi `3 * 4.0` provoque-t-il une erreur ?** — L&#39;opérateur `*` exige que les deux opérandes soient du même type numérique ; le mélange de nombres entiers et décimaux n&#39;est pas autorisé.
+
++++

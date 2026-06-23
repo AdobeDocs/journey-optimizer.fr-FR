@@ -11,10 +11,10 @@ keywords: ciblage, règles, parcours, chemin, optimisation, personnalisation
 exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 823
-ht-degree: 86%
+source-wordcount: 1327
+ht-degree: 53%
 
 ---
 
@@ -144,5 +144,46 @@ Les clientes et clients qui ont récemment acheté des produits peuvent choisir 
 <!--➡️ Use the repeat purchase rate or engagement rate as the optimization metric.-->
 
 ![Ciblage de l’historique des achats avec chemin de vente croisée pour les acheteurs et acheteuses ; chemin de prospection pour les non-acheteurs et non-acheteuses](assets/journey-optimize-targeting-uc-purchase.png)
+
++++
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+- **TL;DR:** Cette page explique comment utiliser le ciblage de chemin d’accès dans les parcours Adobe Journey Optimizer pour acheminer de manière déterministe des segments d’audience spécifiques vers des chemins de parcours désignés, en fonction de règles définies.
+
+**Intentions:**
+- Configuration du ciblage déterministe des chemins à l’aide de l’activité Optimisation avec une méthode de règle de ciblage
+- Créer des règles de ciblage ou réutiliser des règles existantes à partir du menu Règles
+- Définir un chemin de secours pour les profils qui ne remplissent les critères d’aucune règle de ciblage
+- Personnalisez les chemins de parcours pour des segments d’audience distincts (par exemple, les niveaux de fidélité, le comportement, l’historique des achats).
+- Modifier les règles de ciblage intégrées sans affecter la définition de règle d’origine
+
+**Glossaire:**
+- **Optimiser l’activité** : activité de zone de travail de parcours utilisée pour fractionner les profils en différents chemins, soit par le biais de l’expérimentation (aléatoire), soit par le biais du ciblage (déterministe) *(spécifique au produit)*
+- **Règle de ciblage** : condition de qualification déterministe qui décide du chemin de parcours qu’un profil doit rejoindre, en fonction des attributs de profil ou d’audience *(spécifiques au produit)*
+- **Chemin de secours** : un autre chemin d’accès au parcours pour les profils qui ne répondent à aucune des règles de ciblage définies *(spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+- Le ciblage des chemins est actuellement à disponibilité limitée. Contactez votre représentant Adobe pour demander l’accès.
+- La création de règles de ciblage à partir du menu Règles de Journey Optimizer dédié nécessite le module complémentaire Prise de décision ou est disponible à la demande (disponibilité limitée).
+- Lorsqu’une règle est sélectionnée dans le menu Règles et copiée dans le parcours, les modifications ultérieures apportées à la règle d’origine n’affectent pas la copie du parcours.
+- La modification d’une règle sur la ligne ne modifie pas la règle d’origine à partir de laquelle elle a été créée.
+- Si l’option de chemin de secours n’est pas activée, les profils qui ne remplissent les critères d’aucune règle de ciblage quittent entièrement le parcours.
+
+**Terminologie:**
+- Nom canonique : Ciblage de chemin — Acronyme : aucun — variantes : routage de chemin déterministe, partage de chemin basé sur des règles
+- Synonymes : « Règle de ciblage » = « Règle de qualification » = « Condition de chemin »
+- Ne les confondez pas : « Ciblage » ≠ « Expérimentation » (le ciblage est déterministe ; l’expérimentation est une affectation aléatoire)
+
+**FAQ:**
+- **Q : Quelle est la différence entre le ciblage et l’expérimentation de chemins d’accès ?** — Le ciblage est déterministe : les profils saisissent un chemin d’accès en fonction de règles définies. L’expérimentation est aléatoire : les profils sont affectés à des chemins par hasard pour comparer les performances.
+- **Q : Qu’advient-il des profils qui ne remplissent les critères d’aucune règle de ciblage ?** — Si l&#39;option de chemin de secours est activée, ils entrent dans le chemin de secours. Si cette option n’est pas activée, ils quittent entièrement le parcours.
+- **Q : Puis-je réutiliser une règle existante à partir du menu Règles ?** — Oui, mais la formule de règle est copiée dans l&#39;activité de parcours ; les modifications ultérieures apportées à la règle d&#39;origine dans le menu Règles n&#39;affecteront pas la copie du parcours.
+- **Q : La modification d’une règle de ciblage sur la ligne modifie-t-elle la règle d’origine ?** — Non, la modification sur la ligne ne met à jour que la règle dans l&#39;activité de parcours et n&#39;affecte pas la règle source.
+- **Q : Qui peut accéder au ciblage des chemins d’accès ?** — Il est actuellement à disponibilité limitée. Contactez votre représentant Adobe pour demander l’accès.
 
 +++

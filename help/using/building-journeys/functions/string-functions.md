@@ -9,19 +9,15 @@ keywords: chaîne, fonctions, expression, parcours, texte, manipulation
 version: Journey Orchestration
 exl-id: 8186c564-56fa-417a-afd3-8e479e5b23b9
 TQID: https://experienceleague.adobe.com/wrP3c7l3uHzN6w3l-fXBQOSb5Tx2NuW-6iyogKpDPc8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1140
-ht-degree: 100%
+source-wordcount: 1668
+ht-degree: 68%
 
 ---
 
@@ -885,5 +881,54 @@ Renvoie une chaîne.
 `uuid()`
 
 Renvoie « 79e70b7f-8a85-400b-97a1-9f9826121553 »
+
++++
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page documente toutes les fonctions de chaîne disponibles dans les expressions de parcours AJO, couvrant la recherche de texte, la comparaison, la transformation, l’extraction, la validation, le remplacement, le fractionnement et la génération d’identifiants uniques.
+
+**Intentions:**
+* Concaténer plusieurs chaînes à l’aide de `concat`
+* Rechercher une sous-chaîne dans une chaîne (sensible à la casse ou non) à l’aide de `contain` ou `containIgnoreCase`
+* Comparer deux chaînes en ignorant la casse à l’aide de `equalIgnoreCase` ou `notEqualIgnoreCase`
+* Vérifiez si une chaîne commence ou se termine par un préfixe ou un suffixe spécifique en utilisant `startWith`, `endWith` et leurs variantes non sensibles à la casse
+* Extraire une sous-chaîne par position d’index à l’aide de `substr`
+* Remplacez la première ou toutes les occurrences d’un modèle dans une chaîne à l’aide de `replace` ou `replaceAll`
+* Fractionner une chaîne en une liste de jetons à l’aide d’un séparateur utilisant `split`
+* Générer un UUID aléatoire pour les besoins d&#39;identifiant unique à l&#39;aide de `uuid`
+* Vérifier si une chaîne est vide ou non à l’aide de `isEmpty` ou `isNotEmpty`
+
+**Glossaire:**
+* **RegExp** : modèle d’expression régulière utilisé comme paramètre cible dans `replace`, `replaceAll` et `matchRegExp` - les caractères spéciaux doivent être précédés d’une séquence d’échappement `\\`
+* **UUID** : identifiant unique universel — identifiant de chaîne généré de manière aléatoire et renvoyé par `uuid()`
+* **substr** : extrait une partie d’une chaîne en spécifiant un index de début et un index de fin facultatif (basé sur zéro)
+
+**Mécanismes de sécurisation :**
+* Le paramètre `target` dans `replace` et `replaceAll` est traité comme un RegExp ; les caractères spéciaux (par exemple, `|`, `.`) doivent être précédés d’une séquence d’échappement avec `\\`
+* `replace` remplace uniquement la première occurrence correspondante ; utilisez `replaceAll` pour remplacer chaque occurrence
+* `isEmpty` renvoie false pour les valeurs nulles (non true) ; null n’est pas considéré comme une chaîne vide
+* `indexOf` et `lastIndexOf` renvoient -1 lorsqu’aucune correspondance n’est trouvée
+* Les positions d&#39;index de chaîne sont basées sur zéro (le premier caractère est à la position 0)
+
+**Terminologie:**
+* Nom canonique : fonctions de chaîne — Acronyme : none — variantes : fonctions de texte, fonctions de manipulation de chaîne
+* Synonymes : « contain » = « vérification de la sous-chaîne » ; « split » = « tokenize string » ; « trim » = « strip whitespace »
+* Ne pas confondre : « replace » (première occurrence uniquement) ≠ « replaceAll » (toutes les occurrences)
+* Ne pas confondre : « indexOf » (position de la première occurrence) ≠ « lastIndexOf » (position de la dernière occurrence)
+* Ne les confondez pas : « isEmpty » (true uniquement pour les chaînes vides) ≠ vérification null (isEmpty renvoie false pour null)
+* Ne pas confondre : « equalIgnoreCase » (renvoie true si égal ignore la casse) ≠ « notEqualIgnoreCase » (renvoie true si différent ignore la casse)
+
+**FAQ:**
+* **Q : Comment puis-je vérifier si une chaîne contient une sous-chaîne indépendamment de la casse ?** — Utilisez `containIgnoreCase("myString", "searchTerm")`, qui renvoie true si le terme de recherche est trouvé dans tous les cas.
+* **Q : Quelle est la différence entre `replace` et `replaceAll` ?** — `replace` ne remplace que la première occurrence correspondante ; `replaceAll` remplace chaque occurrence de la chaîne.
+* **Q : Pourquoi dois-je échapper le caractère `|` dans `replace` ?** — Le paramètre cible est traité comme une expression régulière ; `|` est un caractère RegExp spécial et doit être placé dans une séquence d&#39;échappement comme `\\|` pour être traité comme une barre verticale.
+* **Q : Est-ce que `isEmpty` renvoie la valeur true pour null ?** — Non, `isEmpty` renvoie false pour null ; il renvoie uniquement true pour une `""` de chaîne de longueur nulle.
+* **Q : Comment extraire le numéro de version majeur d’une chaîne de version telle que « 20.45.2.3434 » ?** — Utilisez `getListItem(split(@event{event.appVersion}, "\\."), 0)` pour fractionner par point et récupérer le premier élément.
+* **Q : Comment générer un identifiant unique dans une expression de parcours ?** — Utilisez `uuid()`, qui renvoie une chaîne UUID générée de manière aléatoire sans paramètres requis.
 
 +++

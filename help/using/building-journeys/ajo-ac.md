@@ -11,26 +11,16 @@ keywords: parcours, message, campagne, intégration
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/btOUMO8tgvwLD7kjVdgpj6I6QXRrj1iTD3P8AUrqJFM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: d08afb72-92f6-4856-88e3-11ec34313c2f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 501
-ht-degree: 80%
+source-wordcount: 1025
+ht-degree: 39%
 
 ---
 
@@ -128,3 +118,44 @@ Votre instance de Campaign doit être approvisionnée pour cette intégration. L
    ![Compléter le flux du parcours avec le déclencheur d’événement et l’exécution de l’action Campaign](assets/accintegration-uc-11.png)
 
 1. Vous pouvez maintenant publier votre parcours.
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page présente un cas pratique détaillé pour l’envoi d’un e-mail transactionnel à partir de Adobe Journey Optimizer à l’aide de l’intégration à Adobe Campaign v7/v8, et couvre la création de modèles Campaign, la configuration d’événements et d’actions, ainsi que la conception de parcours.
+
+**Intentions:**
+* Configurer un modèle d’e-mail transactionnel dans Adobe Campaign v7/v8 à utiliser avec Journey Optimizer
+* Créez un événement dans Journey Optimizer qui inclut des champs personnalisés tels qu’un numéro de bon de commande
+* Création et configuration d’une action Campaign Classic dans Journey Optimizer avec une payload JSON
+* Mappez les champs d’événement de parcours aux variables de personnalisation Campaign dans la configuration d’action.
+* Créer et publier un parcours qui déclenche un e-mail transactionnel Campaign
+
+**Glossaire:**
+* **Messagerie transactionnelle** : une fonctionnalité de Campaign qui envoie des e-mails déclenchés en temps réel en fonction d’événements. Elle doit être configurée pour que cette intégration puisse être utilisée *(spécifique au produit)*
+* **Type d’événement (eventType)** : valeur d’énumération définie dans Campaign qui identifie le type d’événement transactionnel ; son nom interne est référencé dans le *de payload JSON (spécifique au produit)*
+* **Action Campaign Classic** : type d’action Journey Optimizer qui se connecte à Adobe Campaign v7/v8 pour envoyer des messages transactionnels *(spécifiques au produit)*
+* **Champ de payload** : structure JSON collée dans une action Journey Optimizer qui définit les champs de données envoyés à Campaign *(spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+* Campaign v7/v8 version 9125 ou ultérieure est requis pour cette intégration
+* La fonctionnalité de messagerie transactionnelle doit être configurée dans l’instance Campaign avant utilisation
+* Après avoir créé un nouveau type d&#39;événement dans Campaign, vous devez vous déconnecter et vous reconnecter à l&#39;instance pour qu&#39;elle prenne effet
+* Les valeurs de champ Personalization définies comme « Constantes » dans l’action doivent être remplacées par « Variables » pour permettre la population dynamique au moment de l’exécution
+
+**Terminologie:**
+* Nom canonique : Adobe Campaign v7/v8 — Acronyme : ACC — variantes : Campaign Classic, Campaign v7, Campaign v8
+* Synonymes : « eventType » = « nom interne du type d’événement »
+* Ne les confondez pas : « action Campaign Classic » ≠ « action personnalisée » (l’action Campaign Classic est un type d’action intégré spécifique pour l’intégration ACC)
+
+**FAQ:**
+* **Q : Quelle version de Campaign est requise pour cette intégration ?** — Campaign v7/v8 build 9125 ou une version ultérieure est requis.
+* **Q : Que doit-on configurer dans Campaign avant de commencer ?** — La fonction de messagerie transactionnelle doit être configurée et un modèle d&#39;e-mail transactionnel doit être créé en fonction du type d&#39;événement.
+* **Q : Comment rendre les champs de personnalisation dynamiques dans l’action Journey Optimizer ?** — Dans la configuration de la payload de l&#39;action, modifiez la configuration des champs de « Constant » à « Variable » pour les champs qui seront renseignés au moment de l&#39;exécution.
+* **Q : D’où proviennent les données de personnalisation de prénom dans ce cas d’utilisation ?** — Le prénom provient de la source de données Adobe Experience Platform, tandis que le numéro de commande provient de la payload d&#39;événement Journey Optimizer.
+* **Q : Comment est-ce que je connecte l’action Journey Optimizer au modèle Campaign ?** — Sélectionnez « Adobe Campaign Classic » comme type d&#39;action, puis collez la payload JSON correspondant à la structure du modèle de message transactionnel.
+
++++

@@ -10,17 +10,14 @@ keywords: syntaxe, éditeur, parcours
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/-PTYUf-njT3-LsI-A5IKEMDGOl4JecZ-ayM0rU4f2HI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 250
-ht-degree: 100%
+source-wordcount: 620
+ht-degree: 40%
 
 ---
 
@@ -58,3 +55,47 @@ Selon le contexte d’utilisation, l’éditeur d’expression peut renvoyer dif
 | Condition (condition de source de données, condition de date) | booléen |
 | Retardateur personnalisé | dateTimeOnly |
 | Mapping des paramètres d’action | Tous |
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page couvre les principales règles de syntaxe de l&#39;éditeur d&#39;expression avancé de Parcours : la priorité de l&#39;opérateur avec des parenthèses, le respect de la casse pour les opérateurs et les fonctions, ainsi que le type de retour attendu pour chaque contexte de l&#39;éditeur.
+
+**Intentions:**
+
+* Contrôle de l’ordre d’évaluation des expressions en plaçant les sous-expressions entre parenthèses
+* Écrivez les opérateurs (`and`, `or`, `not`) en minuscules pour éviter les erreurs de syntaxe
+* Utilisez des noms de fonction correctement mis en casse (par exemple `inAudience()` non `INAUDIENCE()`).
+* Sachez que les conditions doivent renvoyer une valeur booléenne, que les minuteurs personnalisés doivent renvoyer une valeur `dateTimeOnly` et que les mappages des paramètres d’action peuvent renvoyer n’importe quel type
+
+**Glossaire:**
+
+* **Priorité des expressions** : ordre dans lequel les opérateurs sont évalués ; les multiplications et les divisions ont la priorité sur les additions et les soustractions *(spécifiques au produit)*
+* **Respect de la casse** : dans l’éditeur avancé, les opérateurs doivent être en minuscules, les noms de fonction sont sensibles à la casse et les références aux champs sont sensibles à la casse lorsqu’elles sont créées par l’utilisateur *(spécifique au produit)*
+* **dateTimeOnly** : type de retour requis pour les expressions de minuteur personnalisées (activité d’attente) ; représente une date-heure sans *de fuseau horaire (spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+
+* Opérateurs (`and`, `or`, `not`, etc.) doit être écrit en minuscules — les variantes en majuscules ne sont pas valides
+* Tous les noms de fonction sont sensibles à la casse — `inAudience()` est valide, mais `INAUDIENCE()` ne l’est pas
+* L’arithmétique suit la priorité standard : `*` et `/` évaluent avant `+` et `-` ; utilisez des parenthèses pour remplacer.
+* Les conditions renvoient toujours une valeur booléenne ; les minuteries personnalisées renvoient toujours `dateTimeOnly`
+
+**Terminologie:**
+
+* Nom canonique : Syntaxe de l’éditeur d’expression avancé — Acronyme : none — variantes : syntaxe d’expression, syntaxe de l’éditeur
+* Synonymes : « priorité d’expression » = « priorité de l’opérateur » ; « parenthèses » = « crochets » (dans le contexte de l’expression)
+* Ne pas confondre : respect de la casse pour les opérateurs (les opérateurs doivent être en minuscules) ≠ respect de la casse pour les références de champ (les noms de champ sont créés par l’utilisateur et respectent la casse tels qu’ils sont écrits)
+
+**FAQ:**
+
+* **Q : Est-ce que `4 + 2 * 10` évaluez à 60 ou 24 ?** — Il évalue à 24 car `*` a la priorité sur `+` ; utilisez `(4 + 2) * 10` pour obtenir 60.
+* **Q : Puis-je écrire des `AND` en majuscules dans une expression ?** — Non ; tous les opérateurs doivent être en minuscules (`and`, `or`, `not`).
+* **Q : Les noms de fonctions sont-ils sensibles à la casse ?** — Oui ; `inAudience()` est valide, mais `INAUDIENCE()` ne l&#39;est pas.
+* **Q : Quel type une expression de condition doit-elle renvoyer ?** — Booléen.
+* **Q : Quel type de retour est requis pour une expression du minuteur d’activité d’attente personnalisée ?** — `dateTimeOnly`.
+
++++

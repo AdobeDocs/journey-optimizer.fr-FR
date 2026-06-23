@@ -11,27 +11,16 @@ keywords: publication, parcours, actif, validité, vérification
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/iHr0CFVSDz-4tOxNKyCyPZdwva3nfDyuU0Y5XHZEdjk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 623
-ht-degree: 92%
+source-wordcount: 1153
+ht-degree: 49%
 
 ---
 
@@ -112,7 +101,7 @@ Pour commencer à effectuer le suivi des mesures de votre parcours, procédez co
 
    Notez que les mesures s’appliquent au parcours lui-même et à tous les éléments du parcours.
 
-   ![Panneau de configuration des mesures de succès dans les propriétés du parcours &#x200B;](assets/success_metric.png)
+   ![Panneau de configuration des mesures de succès dans les propriétés du parcours ](assets/success_metric.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -126,3 +115,48 @@ Pour commencer à effectuer le suivi des mesures de votre parcours, procédez co
 
    ![Liste déroulante Mesures de succès affichant les événements disponibles pour le suivi des objectifs](assets/success_metric_2.png)
 
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page explique comment configurer et suivre les mesures de succès des parcours dans Adobe Journey Optimizer en attribuant un KPI à un parcours et en examinant ses performances dans les rapports de parcours.
+
+**Intentions:**
+* Ajoutez les groupes de champs de jeu de données AEP requis (Détails Commerce, Web, Mobile) comme condition préalable aux mesures de parcours
+* Affectation d’une mesure de parcours (KPI) à un parcours lors de la création ou de la configuration du parcours
+* Identifiez les mesures disponibles en fonction des groupes de champs de jeux de données configurés
+* Interprétation des modèles d’attribution pour les mesures de parcours sous les licences Journey Optimizer et Customer Journey Analytics
+* Création de mesures de succès personnalisées à l’aide d’une licence Customer Journey Analytics
+* Suivre les performances du parcours par rapport aux indicateurs de performance clés attribués dans les rapports de parcours
+
+**Glossaire:**
+* **mesures de Parcours** : indicateurs clés de performance attribués à un parcours pour mesurer son efficacité, visibles dans les rapports de parcours *(spécifiques au produit)*
+* **Attribution Dernière touche** : modèle d’attribution par défaut qui attribue le crédit à l’interaction la plus récente avant une conversion
+* **Groupe de champs Détails Commerce** : groupe de champs XDM permettant les mesures liées au commerce telles que les achats, les paiements et les événements de panier
+* **Intervalle de recherche en amont** : période pendant laquelle l’attribution est évaluée ; défini sur une durée maximale de 7 jours avec la licence Journey Optimizer uniquement
+
+**Mécanismes de sécurisation :**
+* Une seule mesure de parcours est autorisée par parcours
+* Les groupes de champs du jeu de données (Détails Commerce, Web, Mobile) doivent être sélectionnés à partir des options intégrées, et non des groupes personnalisés, et ajoutés sous Configuration > Création de rapports dans Adobe Experience Platform
+* Sans jeu de données configuré, seuls les clics, les clics uniques, le taux de clics publicitaires et le taux d’ouverture sont disponibles
+* L’intervalle de recherche en amont maximal est de 7 jours avec une licence Journey Optimizer uniquement
+* Les mesures et paramètres d’attribution personnalisés nécessitent une licence Customer Journey Analytics
+
+**Terminologie:**
+* Nom canonique : mesures de Parcours — Acronyme : aucun — variantes : mesures de succès, mesures de succès de parcours
+* Nom canonique : Taux de clics — Acronyme : CTR — Variantes : aucune
+* Nom canonique : Taux d’ouverture de clics publicitaires — Acronyme : CTOR — variantes : aucune
+* Synonymes : « mesures de parcours » = « mesures de succès » (utilisé de manière interchangeable dans l’interface utilisateur et la documentation)
+* Ne les confondez pas : « attribution de licence Journey Optimizer » ≠ « attribution Customer Journey Analytics » : la licence CJA permet des modèles d’attribution personnalisés et des intervalles de recherche en amont plus longs
+
+**FAQ:**
+* **Q : Combien de mesures de parcours puis-je affecter à un seul parcours ?** — Une seule mesure de parcours est autorisée par parcours.
+* **Q : Quelles mesures sont disponibles si je n’ai pas configuré de jeu de données avec des groupes de champs ?** — Seuls les clics, les clics uniques, le taux de clics publicitaires et le taux d’ouverture sont disponibles sans configuration supplémentaire du groupe de champs.
+* **Q : De quels groupes de champs ai-je besoin pour activer les mesures d’achat et de commerce ?** — Vous devez ajouter le groupe de champs Détails du Commerce à votre jeu de données de rapports dans Adobe Experience Platform.
+* **Q : Quel est le modèle d’attribution par défaut pour les mesures de parcours ?** — Dernière touche, qui attribue l’interaction la plus récente avant la conversion, avec un intervalle de recherche en amont de 7 jours maximum sous une licence Journey Optimizer.
+* **Q : Puis-je créer des mesures de succès personnalisées ?** — Oui, mais uniquement avec une licence Customer Journey Analytics.
+* **Q : Où puis-je voir les résultats des mesures de parcours après leur publication ?** : dans le tableau KPI et statistiques du parcours du rapport de Parcours.
+
++++

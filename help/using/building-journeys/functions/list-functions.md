@@ -9,19 +9,15 @@ keywords: liste, fonctions, expression, parcours, tableau, collection
 version: Journey Orchestration
 exl-id: b17245ba-4ffa-4f5b-914e-4c0972e9c7c4
 TQID: https://experienceleague.adobe.com/XWWixhfBVKw-kdgO4WPWrtiIqA8sFt0ql0IVZ-2QsUI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1158
-ht-degree: 100%
+source-wordcount: 1642
+ht-degree: 70%
 
 ---
 
@@ -743,5 +739,52 @@ Renvoie `[3, 2, 1]`.
 `sort(@event{my_event.productListItems}, "SKU", true)`
 
 Renvoie une valeur listObject classée par attribut SKU (ordre ascendant).
+
++++
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page documente toutes les fonctions de liste disponibles dans les expressions de parcours AJO, couvrant la manière de filtrer, trier, dédupliquer, vérifier l’appartenance, limiter, sérialiser et rechercher les intersections des listes et des tableaux.
+
+**Intentions:**
+* Supprimer les valeurs en double d&#39;une liste à l&#39;aide de `distinct` (en ignorant les nulls) ou `distinctWithNull` (en conservant les nulls)
+* Filtrez un listObject pour renvoyer uniquement les objets correspondant à des valeurs de clé spécifiques à l’aide de `filter`
+* Récupérer un élément à un index spécifique d’une liste à l’aide de `getListItem`
+* Vérifier si une valeur existe dans une liste à l’aide de `in`
+* Recherche d’éléments communs à deux listes à l’aide de `intersect`
+* Renvoyer les N premiers ou derniers éléments d’une liste à l’aide de `limit`
+* Compter le nombre total d’éléments dans une liste à l’aide de `listSize`
+* Convertir une liste en chaîne délimitée à l’aide de `serializeList`
+* Trier une liste par ordre croissant ou décroissant à l’aide de `sort`
+
+**Glossaire:**
+* **listObject** : liste d’objets complexes qui doivent être une référence de champ ; ne peut pas contenir d’objets nuls *(spécifiques au produit)*
+* **keyAttributeName** : paramètre de chaîne facultatif utilisé avec `distinct`, `filter` et `sort` pour identifier l’attribut d’objet à utiliser pour la déduplication, le filtrage ou le tri des *(spécifique au produit)*
+* **intersect** : opération set renvoyant uniquement les éléments présents dans les deux listes d’entrée
+
+**Mécanismes de sécurisation :**
+* `distinctWithNull` ne prend pas en charge le type de paramètre `<listObject>`
+* `filter` nécessite que le paramètre listObject soit une référence de champ, et non un littéral intégré
+* `listSize` sur un listObject nécessite que la liste soit une référence de champ ; un listObject ne peut pas contenir d’objets null
+* `serializeList` ne prend pas en charge le type de `listObject`
+
+**Terminologie:**
+* Nom canonique : Fonctions de liste — Acronyme : none — variantes : fonctions de collection, fonctions de tableau
+* Synonymes : « listSize » = « count list elements » ; « serializeList » = « join list to string »
+* Ne pas confondre : « distinct » (ignore les nulls) ≠ « distinctWithNull » (conserve la valeur null comme valeur distincte)
+* Ne les confondez pas : « limit » avec le troisième paramètre `true` (renvoie les N premiers éléments) ≠ « limit » avec `false` (renvoie les N derniers éléments).
+* Ne pas confondre : « intersect » (éléments communs entre deux listes) ≠ « filter » (éléments correspondant à des valeurs de clé spécifiques)
+
+**FAQ:**
+* **Q : Comment puis-je obtenir les 3 premiers éléments d&#39;une liste ?** — Utilisez `limit(myList, 3)` ou `limit(myList, 3, true)` ; par défaut, les premiers éléments sont renvoyés.
+* **Q : Comment puis-je obtenir les 3 derniers éléments d&#39;une liste ?** — Utiliser `limit(myList, 3, false)`.
+* **Q : Quelle est la différence entre `distinct` et `distinctWithNull` ?** — `distinct` ignore les valeurs nulles et les exclut du résultat ; `distinctWithNull` traite les valeurs nulles comme une valeur distincte et inclut une entrée nulle si des valeurs nulles sont présentes.
+* **Q : Puis-je filtrer une liste de chaînes avec des `filter` ?** — Non, `filter` fonctionne uniquement sur `listObject` ; pour les listes scalaires, utilisez `in` ou `distinct` pour la déduplication.
+* **Q : Comment puis-je vérifier si une valeur se trouve dans une liste ?** — Utilisez `in(value, myList)`, qui renvoie true si la valeur figure dans la liste.
+* **Q : Puis-je trier un listObject en fonction d’un attribut spécifique ?** — Oui, utilisez `sort(@event{...}, "attributeName", true)` où le deuxième paramètre est le nom de l&#39;attribut et le troisième est le sens du tri (true = croissant).
 
 +++

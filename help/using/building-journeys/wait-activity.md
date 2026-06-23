@@ -11,25 +11,16 @@ keywords: attente, activité, parcours, suivant, zone de travail
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/qWxnLiuHh-sJQyUOuRB6CgRIpZ6ud6eO-WNoWcv9JeU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 932
-ht-degree: 76%
+source-wordcount: 1589
+ht-degree: 45%
 
 ---
 
@@ -118,7 +109,7 @@ La bonne pratique consiste à utiliser des dates personnalisées spécifiques à
 >* Lors de la création d’une expression d’attente personnalisée avec `toDateTimeOnly()`, n’ajoutez **pas** de `Z` ou de décalage de fuseau horaire (par exemple, `-05:00`). L’expression doit référencer le fuseau horaire configuré du parcours sans indicateurs de fuseau horaire explicites. Dans le cas contraire, les profils peuvent être bloqués dans l’activité d’attente.
 >
 >| | Exemple |
->|---|---|
+>| --- | --- |
 >| **Correct** | `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))` |
 >| **Incorrect** | `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌ (contient du `Z`) |
 
@@ -143,3 +134,53 @@ Exemple : si un profil est qualifié pour une audience « client ou cliente S
 >abstract="Un nœud **Wait** est automatiquement inséré après cette action entrante. Elle est définie sur 3 jours par défaut, ce qui garantit que les profils restent dans le parcours suffisamment longtemps pour afficher le message ou l’expérience. La durée d’attente peut être mise à jour ou le nœud supprimé, si le cas d’utilisation le requiert."
 
 Chaque activité d’expérience entrante (message in-app, expérience basée sur du code ou vignette) est fournie avec une activité **Attente** de 3 jours. Comme les messages entrants se terminent automatiquement lorsqu’un profil atteint la fin du parcours, nous supposons que vous souhaitez que vos utilisateurs et utilisatrices la voient pendant au moins 3 jours. Vous pouvez supprimer cette activité **Attente** ou modifier sa configuration si nécessaire.
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page explique comment configurer l’activité Attente dans un parcours afin de suspendre la progression du profil pendant une durée relative ou jusqu’à une date calculée personnalisée avant d’exécuter l’étape suivante.
+
+**Intentions:**
+
+* Ajoutez une activité Attente pour suspendre un parcours pendant une durée relative fixe (jusqu’à 90 jours)
+* Configurez une Attente personnalisée à l’aide d’une expression avancée pour retarder jusqu’à une date calculée spécifique au profil
+* Découvrez comment les activités d’attente interagissent avec la temporisation globale par parcours (91 jours)
+* Utilisez le paramètre Temps d’attente en test pour accélérer la validation du mode test
+* Comprendre comment les attributs de profil sont actualisés après un nœud Attente dans les parcours Lecture d’audience
+
+**Glossaire:**
+
+* **Activité d’attente** : activité d’orchestration de parcours qui met le profil en pause pendant une durée spécifiée ou jusqu’à une date calculée avant que l’activité suivante n’exécute *(spécifique au produit)*
+* **Durée d’attente** : type d’attente qui définit une période relative de pause, avec un maximum de 90 jours d’*(spécifique au produit)*
+* **Attente personnalisée** : type d’attente qui utilise une expression de `dateTimeOnly` dérivée des données de profil ou d’événement pour définir une date/heure spécifique à venir pour la reprise *(spécifique au produit)*
+* **Nœud d’attente automatique** : une activité d’attente de 3 jours automatiquement insérée après les activités d’expérience entrante (in-app, basées sur le code, carte) pour conserver le profil en parcours suffisamment longtemps pour afficher le *de contenu (spécifique au produit)*
+* **Temps d’attente en test** : paramètre de mode test parcours qui remplace les durées d’attente réelles (10 secondes par défaut) afin que les résultats du test soient renvoyés rapidement *(spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+
+* La durée d’attente maximale est de 90 jours.
+* Les profils sont supprimés d’un parcours après 91 jours (temporisation globale), quelles que soient les activités d’attente en attente.
+* Un profil ne peut entrer une activité d’attente que s’il reste suffisamment de temps dans le parcours pour terminer l’attente avant la temporisation de 91 jours.
+* N’utilisez pas les activités d’attente pour bloquer une reprise. Utilisez plutôt l’option Autoriser une reprise dans les propriétés du parcours.
+* Les expressions d’attente personnalisées doivent utiliser le format `dateTimeOnly` et ne doivent pas inclure de suffixe `Z` ni de décalage de fuseau horaire explicite.
+* L’utilisation d’une date statique fixe (par exemple, `toDateTimeOnly('2024-01-01T01:11:00Z')`) dans une attente personnalisée peut entraîner des problèmes ; utilisez plutôt des dates dynamiques spécifiques au profil.
+* Les attributs de profil sont actualisés à partir du service de profil unifié après un nœud d’attente dans les parcours Lecture d’audience, ce qui peut produire des résultats inattendus si la cohérence de l’instantané est attendue.
+
+**Terminologie:**
+
+* Nom canonique : Activité d’attente — Acronyme : none — variantes : nœud d’attente, étape d’attente
+* Synonymes : « Attente de durée » = « attente relative » ; « Attente personnalisée » = « Attente basée sur l’expression »
+* Ne pas confondre : « Attente de durée » (relative, par exemple, 3 jours à partir de maintenant) ≠ « Attente personnalisée » (date calculée absolue à partir des données de profil)
+
+**FAQ:**
+
+* **Q : Quelle est la durée maximale d’une activité d’attente ?** — La durée d’attente maximale est de 90 jours. Les profils sont également soumis à la temporisation globale de parcours de 91 jours.
+* **Q : Comment le mode test gère-t-il les activités d’attente ?** — En mode test, le paramètre « Temps d&#39;attente en test » remplace la durée d&#39;attente réelle ; la valeur par défaut est de 10 secondes, de sorte que les tests se terminent rapidement.
+* **Q : Pourquoi devrais-je éviter d’ajouter Z à une expression d’attente personnalisée ?** — L&#39;ajout d&#39;un Z ou d&#39;un décalage de fuseau horaire à une expression `toDateTimeOnly()` peut bloquer les profils dans l&#39;activité d&#39;attente ; l&#39;expression doit s&#39;appuyer sur le fuseau horaire configuré du parcours.
+* **Q : Les attributs de profil sont-ils mis à jour après un nœud d’attente ?** — Oui, dans les parcours commençant par Lecture d’audience, le parcours actualise les attributs de profil à partir du service de profil unifié après l’attente, de sorte que les activités en aval peuvent voir les valeurs mises à jour plutôt que les données d’instantané d’audience d’origine.
+* **Q : Qu’est-ce que le nœud d’attente automatique ?** — Une activité d’attente de 3 jours automatiquement insérée après les activités d’expérience entrante (in-app, basées sur le code, carte) pour s’assurer que les profils restent dans le parcours suffisamment longtemps pour voir le message ; elle peut être supprimée ou reconfigurée si nécessaire.
+
++++

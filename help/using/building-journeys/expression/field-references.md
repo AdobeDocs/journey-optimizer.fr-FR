@@ -10,18 +10,14 @@ keywords: parcours, champ, expression, événement
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/G8ooc1R2PwL06V89EBs-jH8Lf43F6q5xj3I4Wl6hDHk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 557
-ht-degree: 100%
+source-wordcount: 1044
+ht-degree: 53%
 
 ---
 
@@ -176,3 +172,52 @@ Exemple:
 #{Weather.main.temperature, params: {localisation: @event{Profile.address.localisation}}}
 #{Weather.main.temperature, params: {localisation: #{GPSLocalisation.main.coordinates, params: {city: @event{Profile.address.city}}}}}
 ```
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Cette page explique comment référencer des champs d’événement et des groupes de champs de source de données dans des expressions de parcours, y compris la syntaxe de valeur par défaut, les fonctions d’accès au mappage (`entry`, `firstEntryKey`, `keys`) et le paramètre de source de données intégré transmis avec le mot-clé `params`.
+
+**Intentions:**
+
+* Référencer un champ d’événement dans une expression à l’aide de la syntaxe `@event{eventName.fieldPath}`
+* Référencer un groupe de champs de source de données à l’aide de la syntaxe `#{dataSourceName.fieldGroupName.fieldPath}`
+* Attribuez une valeur par défaut de secours à une référence de champ pour que les expressions ne renvoient pas la valeur null.
+* Récupérez une entrée spécifique d’un mappage d’identités ou d’abonnements à l’aide de la fonction `entry()`
+* Récupérez toutes les clés d’un champ de mappage à l’aide de la fonction `keys()`
+* Transmettez les valeurs de paramètre à une source de données externe en ligne à l’aide du mot-clé `params`
+
+**Glossaire:**
+
+* **Référence du champ** : syntaxe d’expression qui pointe vers un champ nommé dans une payload d’événement ou un groupe de champs de source de données *(spécifique au produit)*
+* **defaultValue** : expression de secours facultative ajoutée à une référence de champ qui est renvoyée lorsque le champ est absent ou nul *(spécifique au produit)*
+* **entry(key)** : fonction map qui récupère l’entrée de collection associée à la clé donnée *(product-specific)*
+* **firstEntryKey()** : fonction de mappage qui renvoie la première clé d’un champ de mappage *(spécifique au produit)*
+* **keys()** : fonction de mappage qui renvoie toutes les clés d’un champ de mappage *(spécifique au produit)*
+* **params keyword** : syntaxe intégrée pour la spécification des valeurs de paramètre pour les champs de source de données externes dans l’expression principale *(spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+
+* Les noms de champ contenant des caractères spéciaux (commençant par un chiffre, contenant des `-` ou des caractères en dehors de `a-z A-Z 0-9 _`) doivent être placés entre guillemets simples ou doubles
+* L’expression de valeur par défaut doit renvoyer le même type de données que le champ ; les types non concordants ne sont pas valides
+* Lorsque le mot-clé `params` est utilisé pour définir des valeurs de paramètre en ligne, l’onglet de paramètre distinct situé à droite de l’éditeur disparaît
+* Les fonctions utilisées comme valeurs par défaut doivent être encapsulées entre parenthèses
+
+**Terminologie:**
+
+* Nom canonique : Références de champ — Acronyme : none — variantes : chemin du champ, expression du champ
+* Synonymes : `@event{...}` = « référence du champ d’événement » ; `#{...}` = « référence du champ de source de données »
+* Ne les confondez pas : champs d’événement (`@` préfixé) ≠ champs de source de données (`#` préfixé)
+
+**FAQ:**
+
+* **Q : Comment référencer un champ dont le nom commence par un nombre ?** — Placez le nom du champ entre guillemets simples ou doubles, par exemple `#{OpenWeather.weatherData.rain.'3h'}`.
+* **Q : Que se passe-t-il lorsqu’un champ référencé est absent de la payload de l’événement et qu’aucune valeur par défaut n’est définie ?** — L&#39;expression renvoie `null`.
+* **Q : Comment définir une valeur dynamique par défaut à l’aide d’une fonction ?** — Placez l&#39;appel de fonction entre parenthèses, par exemple `defaultValue: (now())`.
+* **Q : Comment récupérer l’adresse e-mail stockée comme première clé dans un mappage des abonnés ?** — Utilisez la fonction `firstEntryKey()` dans le champ de mappage des abonnés.
+* **Q : Comment transmettre un paramètre à une source de données externe sans utiliser l’onglet de droite ?** — Utilisez le mot-clé `params` en ligne : `#{DataSource.group.field, params: {paramName: value}}`.
+
++++
