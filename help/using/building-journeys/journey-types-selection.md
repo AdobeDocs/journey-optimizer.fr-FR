@@ -27,10 +27,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 151b396b7945535cb4219f782dfb6a79e44463d4
+source-git-commit: 9dba85545968da9957c42516cb03a4e77ed302f1
 workflow-type: tm+mt
-source-wordcount: 2080
-ht-degree: 23%
+source-wordcount: 2270
+ht-degree: 19%
 
 ---
 
@@ -60,7 +60,7 @@ Les parcours d’événement unitaire **sont déclenchés individuellement lorsq
 
 **Parfait pour :** les confirmations de commande après l’achat, les e-mails de bienvenue lorsque quelqu’un s’abonne, les notifications de réinitialisation de mot de passe et la personnalisation après connexion.
 
-➡️ [En savoir plus sur les événements](../event/about-events.md) | [Cas d’utilisation de Message aux abonnés](message-to-subscribers-uc.md) | [Créer un parcours d’événement unitaire](#build-unitary-event)
+➡️ [En savoir plus sur les événements](../event/about-events.md) | [Cas d’utilisation de Message aux abonnés](message-to-subscribers-uc.md) | [Créez votre premier parcours &#x200B;](journey-gs.md)
 
 >[!TAB Parcours de lecture d’audience]
 
@@ -70,7 +70,7 @@ Les parcours d’événement unitaire **sont déclenchés individuellement lorsq
 
 **Parfait pour : les newsletters mensuelles** les campagnes promotionnelles pour cibler les segments, les annonces de produits, les séries récurrentes de réengagement et les campagnes marketing saisonnières.
 
-➡️ [En savoir plus sur la lecture d’audience](read-audience.md) | [Prise en main des audiences](../audience/about-audiences.md) | [Création d’un parcours de lecture d’audience](#build-read-audience)
+➡️ [En savoir plus sur la lecture d’audience](read-audience.md) | [Prise en main des audiences](../audience/about-audiences.md) | [Créer votre premier parcours &#x200B;](journey-gs.md)
 
 >[!TAB Parcours de qualification d’audience]
 
@@ -80,7 +80,7 @@ Les parcours d’événement unitaire **sont déclenchés individuellement lorsq
 
 **Parfait pour :** les notifications de mise à niveau de niveau VIP, les messages de célébration du premier achat, les alertes de risque d’attrition et les transitions d’étape du cycle de vie de la fidélité.
 
-➡️ [En savoir plus sur la qualification d’audience](audience-qualification-events.md) | [Création d’audiences](../audience/creating-a-segment-definition.md) | [Création d’un parcours de qualification d’audience](#build-audience-qualification)
+➡️ [En savoir plus sur la qualification de l’audience](audience-qualification-events.md) | [Création d’audiences](../audience/creating-a-segment-definition.md) | [Création de votre premier parcours &#x200B;](journey-gs.md)
 
 >[!TAB Parcours d’événement métier]
 
@@ -90,7 +90,7 @@ Les parcours d’événement métier **sont déclenchés par un événement au n
 
 **Parfait pour :** alertes de faible stock aux clients intéressés, annonces de vente flash, notifications de chute de prix et alertes de retour en stock de produits.
 
-➡️ [En savoir plus sur les événements métier](../event/about-creating-business.md) | [Gestion d’entrée](entry-management.md) | [Créer un parcours d’événement métier](#build-business-event)
+➡️ [En savoir plus sur les événements métier](../event/about-creating-business.md) | [Gestion d’entrée](entry-management.md) | [Créer votre premier parcours &#x200B;](journey-gs.md)
 
 >[!ENDTABS]
 
@@ -104,7 +104,7 @@ Utilisez le tableau ci-dessous pour faire correspondre votre objectif au type de
 | Envoyer une newsletter mensuelle aux personnes abonnées | Lecture d’audience | Communication par lots planifiée |
 | Avertir la clientèle lorsqu’elle atteint le statut VIP | Qualification d’audience | Réponse en temps réel à l’entrée d’audience en flux continu |
 | Alerter la clientèle en cas de faible stock des articles suivis | Événement métier | La condition métier affecte plusieurs personnes. |
-| Accueillir les nouvelles personnes utilisant l’application | Événement unitaire | Déclenché par l’événement d’inscription |
+| Accueillir les nouvelles personnes utilisant l’application | Événement unitaire ou qualification d’audience | Événement d’inscription (événement unitaire) ou entrée dans une audience de diffusion en continu pour un nouvel utilisateur (qualification d’audience) |
 | Réengager les clients inactifs (récurrent, planifié) | Lecture d’audience | Exécution par lots récurrente pour une audience d’inactivité |
 | Promotion saisonnière sur le segment cible | Lecture d’audience | Campagne planifiée vers l’audience |
 | Annonce de vente flash | Événement métier | La décision commerciale affecte plusieurs personnes. |
@@ -121,7 +121,7 @@ Utilisez le tableau ci-dessous pour faire correspondre votre objectif au type de
 | **Idéal pour** | Messages transactionnels, réponses comportementales | Campagnes marketing, newsletters, programmes récurrents | Programmes de fidélité, transitions d’étape du cycle de vie | Alertes de stock, promotions, conditions métier |
 | **À utiliser dans les cas suivants** | Réponse immédiate aux actions individuelles nécessaires | Atteindre des segments d’audience volumineux selon le planning | Réponse aux changements de statut du client en temps réel | Les événements métier affectent plusieurs clients simultanément |
 | **Exemples** | Confirmation de commande, réinitialisation du mot de passe | Newsletter mensuelle, campagne saisonnière | Mise à niveau de VIP, alerte de risque de résiliation | Alerte de stock faible, vente flash, baisse de prix |
-| **Reprise** | Configurable | Une fois par exécution | Configurable par événement de qualification ; un profil déjà dans le parcours ne peut pas entrer à nouveau la même version | Plusieurs profils peuvent être affectés par le même événement. |
+| **Reprise** | Configurable | Une fois par exécution par défaut ; [Forcer une reprise sur une périodicité](read-audience.md#schedule) disponible sur les exécutions planifiées | Configurable par événement de qualification ; un profil déjà dans le parcours ne peut pas entrer à nouveau la même version | Plusieurs profils peuvent être affectés par le même événement. |
 | **Débit max** | 5 000 TPS (niveau organisation partagé avec qualification d’audience) | 20 000 TPS par sandbox | 5 000 TPS (niveau d’organisation partagé avec événement unitaire) | Événement métier : 5 000 TPS ; étape Lecture d’audience : 20 000 TPS |
 | **Exigences de données** | Schéma d’événement avec données de déclenchement | [!DNL Adobe Experience Platform] une audience | Audience de diffusion en continu (requise pour l’entrée en temps réel) ; audience par lots prise en charge, mais entrée retardée | Schéma d’événement métier |
 
@@ -139,11 +139,11 @@ Toutes les fonctionnalités ne sont pas disponibles pour tous les types de parco
 | Activités d’attente | ✅ | ✅ | ✅ | ✅ |
 | Activités de condition | ✅ | ✅ | ✅ | ✅ |
 | Actions personnalisées | ✅ | ✅ | ✅ | ✅ |
-| Activité Lecture d’audience (dans le parcours) | ✅ | ✅ | ✅ | ✅ |
+| Activité Lecture d’audience (entrée de parcours) | ❌ | ✅ | ❌ | ✅ (étape automatique après événement métier) |
 | Activité Qualification de l’audience (dans le parcours) | ✅ | ✅ | ✅ | ✅ |
 | Activité Saut | ✅ | ❌ | ❌ | ✅ |
 | **Gestion des profils** | | | | |
-| Reprise de profil | ✅ Configurable | ❌ Une fois par exécution | ✅ configurable (le profil déjà dans le parcours ne peut pas entrer à nouveau la même version) | ✅ Par événement |
+| Reprise de profil | ✅ Configurable | ❌ Une fois par exécution par défaut ([Forcer une reprise sur une périodicité](read-audience.md#schedule) sur des exécutions planifiées) | ✅ configurable (le profil déjà dans le parcours ne peut pas entrer à nouveau la même version) | ✅ Par événement |
 | Configuration de l’espace de noms | ✅ Requis | ✅ Facultatif | ✅ Requis | ✅ Requis |
 | Limite de profils | ✅ | ✅ | ✅ | ✅ |
 | **Tests et optimisation** | | | | |
@@ -160,7 +160,6 @@ Toutes les fonctionnalités ne sont pas disponibles pour tous les types de parco
 | Cartes de contenu | ✅ | ✅ | ✅ | ✅ |
 | **Fonctionnalités avancées** | | | | |
 | Lecture incrémentielle | ❌ | ✅ | ❌ | ❌ |
-| Exporter l’audience | ✅ | ✅ | ✅ | ✅ |
 | Gestion des fuseaux horaires | ✅ | ✅ | ✅ | ✅ |
 | Événements de réaction | ✅ | ✅ | ✅ | ✅ |
 | Sources de données externes | ✅ | ✅ | ✅ | ✅ |
@@ -171,17 +170,18 @@ Toutes les fonctionnalités ne sont pas disponibles pour tous les types de parco
 >[!NOTE]
 >
 >Limites des activités de saut : un parcours commençant par une activité Lecture d’audience ou Qualification d’audience ne peut pas contenir d’activité Saut et ne peut pas être la cible d’une activité Saut à partir d’un autre parcours.
+>
+>L’activité Lecture d’audience, car l’entrée de parcours n’est disponible que dans les parcours **Lecture d’audience** et **Événement métier**. Elle ne peut pas être ajoutée aux parcours d’entrée Événement unitaire ou Qualification d’audience.
 
 ## Étapes suivantes {#next-steps}
 
-Chaque tableau répertorie les étapes de configuration et de gestion pour ce type de parcours.
+Maintenant que vous avez choisi un type de parcours :
 
-### Parcours d’événements unitaires {#build-unitary-event}
-
-* **[Créer votre premier parcours](journey-gs.md)** – Guide détaillé
-* **[En savoir plus sur le concepteur de parcours](using-the-journey-designer.md)** – Concevoir la zone de travail de votre parcours
-* **[Explorer les fonctionnalités du parcours](journey.md#capabilities)** – Découvrir les fonctionnalités avancées
-* **[Voir les questions fréquentes sur les parcours](journey-faq.md)** – Réponses aux questions fréquentes
+* **[Créer votre premier parcours](journey-gs.md)** — Guide détaillé de l’entrée à la publication
+* **[En savoir plus sur le concepteur de parcours](using-the-journey-designer.md)** — Concevez la zone de travail de votre parcours
+* **[Entrée de profil dans parcours](entry-management.md)** — Règles d’entrée, reprise et débit par type
+* **[Prise en main de parcours](journey.md)** — Présentation des principes fondamentaux et des fonctionnalités
+* **[FAQ Journey Orchestration](journey-faq.md)** — Questions courantes traitées
 
 +++ Référence des connaissances sur l’IA
 
@@ -214,7 +214,8 @@ Pour une compréhension totale, ces informations doivent être combinées avec l
 
 * La lecture incrémentielle est disponible uniquement pour les parcours Lecture d’audience, et non pour les parcours Événement unitaire, Qualification d’audience ou Événement métier
 * Les expériences de chemin (tests A/B) ne sont pas prises en charge pour les parcours d’événement métier.
-* La rentrée du profil dans les parcours Lecture d’audience est limitée à une seule fois par exécution.
+* Par défaut, la rentrée du profil dans les parcours Lecture d’audience est limitée à une seule fois par exécution. Utilisez Forcer une rentrée sur une périodicité lors des exécutions planifiées pour permettre aux profils de rentrer à nouveau lors de la prochaine exécution
+* L’activité Lecture d’audience est uniquement disponible en tant qu’entrée de parcours dans les parcours d’événement Lecture d’audience et Entreprise , et non dans les parcours d’entrée Événement unitaire ou Qualification d’audience .
 * Les parcours Qualification d’audience et Lecture d’audience ne peuvent pas contenir d’activité Saut ni être la cible d’une activité Saut à partir d’un autre parcours
 * Les parcours de qualification d’audience nécessitent une audience évaluée par flux pour la saisie en temps réel ; les audiences évaluées par lots entraînent des retards de saisie allant jusqu’à 24 heures
 * Les parcours d’événement unitaire et de qualification d’audience partagent une limite de débit de 5 000 TPS au niveau de l’organisation. Les parcours de lecture d’audience prennent en charge jusqu’à 20 000 TPS par sandbox
@@ -236,7 +237,9 @@ Pour une compréhension totale, ces informations doivent être combinées avec l
 * **Q : Puis-je exécuter des expériences de chemin A/B dans un parcours d’événement métier ?** — Non ; les expériences de chemin ne sont pas prises en charge pour les parcours d’événement métier.
 * **Q : Quelle est la différence entre un parcours d’événement unitaire et un parcours de qualification d’audience ?** — Un parcours d’événement unitaire est déclenché par une action client spécifique (par exemple, un achat) ; un parcours de qualification d’audience se déclenche lorsqu’un profil entre ou sort d’un segment d’audience en fonction de l’évaluation des critères de diffusion en continu.
 * **Q : Quels types de parcours prennent en charge la lecture incrémentielle ?** — Seuls les parcours Lecture d’audience prennent en charge la lecture incrémentielle, contrairement aux trois autres types de parcours.
+* **Q : Puis-je ajouter une activité Lecture d’audience à un parcours d’événement unitaire ?** — Non ; l&#39;activité Lecture d&#39;audience est uniquement disponible en tant qu&#39;entrée de parcours dans les parcours Lecture d&#39;audience et Événement métier.
 * **Q : Puis-je utiliser une activité Saut dans un parcours Lecture d’audience ?** — Non ; les parcours commençant par une activité Lecture d’audience ou Qualification d’audience ne peuvent pas contenir d’activité Saut et ne peuvent pas être la cible d’un Saut à partir d’un autre parcours.
+* **Q : Puis-je accueillir de nouveaux utilisateurs de l’application avec un parcours de qualification d’audience ?** — Oui, si l’entrée est pilotée par une audience de diffusion en continu (par exemple, lorsqu’un profil rejoint un segment de nouvel utilisateur) ; un parcours d’événement unitaire d’inscription est également un modèle courant.
 * **Q : Mon parcours de qualification d’audience ne se déclenche pas en temps réel. Pourquoi ?** — Les parcours de qualification d’audience nécessitent une audience évaluée en flux continu. Si l’audience est évaluée par lots (par exemple, un instantané quotidien), la saisie est retardée jusqu’à la fenêtre d’évaluation suivante, qui peut prendre jusqu’à 24 heures.
 * **Q : Quelle est la différence de débit entre les parcours Événement unitaire et Lecture d’audience ?** — Les parcours d’événement unitaire partagent une limite de 5 000 TPS avec les parcours de qualification d’audience au niveau de l’organisation. Lisez Les parcours d’audience prennent en charge jusqu’à 20 000 TPS par sandbox, ce qui les rend mieux adaptés aux campagnes par lots à grande échelle.
 

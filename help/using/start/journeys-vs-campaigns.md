@@ -27,10 +27,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: 9dba85545968da9957c42516cb03a4e77ed302f1
 workflow-type: tm+mt
-source-wordcount: 1832
-ht-degree: 58%
+source-wordcount: 1904
+ht-degree: 55%
 
 ---
 
@@ -57,7 +57,7 @@ Ce guide vous aide à choisir en fonction du style d’exécution, des besoins e
 
 >[!TIP]
 >
->**Règle empirique rapide :** avez-vous besoin que chaque client évolue à son propre rythme avec la logique en temps réel ? Utilisez **&#x200B;**. Envoyer un seul message à une audience selon un planning ? Utilisez **Campagnes d’action**. Déclencher depuis un système externe via l&#39;API ? Utilisez des **campagnes déclenchées par API**. Besoin de données multi-entités, de décomptes exacts ou d’une zone de travail par lots ? Utilisez **Campagnes orchestrées**.
+>**Règle empirique rapide :** avez-vous besoin que chaque client évolue à son propre rythme avec la logique en temps réel ? Utilisez **&#x200B;**. Envoyer un seul message à une audience selon un planning ? Utilisez **Campagnes d’action**. Déclencher un seul message depuis un système externe via l&#39;API ? Utilisez des **campagnes déclenchées par API** — ou un **parcours d’événement unitaire** si vous avez besoin d’une orchestration à plusieurs étapes après l’événement envoyé par l’API. Besoin de données multi-entités, de décomptes exacts ou d’une zone de travail par lots ? Utilisez **Campagnes orchestrées**.
 
 ## Comparaison détaillée {#detailed-comparison}
 
@@ -99,10 +99,10 @@ Suivez cet arbre de décision pour choisir la bonne approche. De nombreuses marq
 * Aucune logique complexe à plusieurs étapes n’est nécessaire.
 
 **Message immédiat déclenché par un système externe ?**
-→ **utiliser des campagnes déclenchées par API**
-* Déclenché à la demande via un appel API
+→ **utiliser des campagnes déclenchées par API** (message unique) **ou un parcours d’événement unitaire** (orchestration à plusieurs étapes)
+* Déclenché à la demande via un appel API : les campagnes diffusent un message ; les parcours unitaires ingèrent l&#39;événement via l&#39;ingestion [Experience Platform](../event/additional-steps-to-send-events-to-journey.md) et exécutent un flux de parcours complet
 * Personnalisation basée sur la payload
-* Aucune logique complexe à plusieurs étapes n’est nécessaire.
+* Choisissez des campagnes lorsqu’aucune logique à plusieurs étapes n’est nécessaire
 
 **Workflow par lots complexe avec segmentation avancée ?**
 → **Utiliser des campagnes orchestrées**
@@ -121,7 +121,8 @@ Suivez cet arbre de décision pour choisir la bonne approche. De nombreuses marq
 | Réengager les personnes inactives en fonction de leur comportement | Parcours | Déclenché par la qualification d’audience, chemin personnalisé |
 | Vente flash déclenchée par un événement métier | Parcours (événement métier) | Déclencheur en temps réel affectant plusieurs membres de la clientèle |
 | Promotion saisonnière avec intégration du catalogue de produits | Campagnes orchestrées | Données multi-entités, segmentation complexe, nombres exacts |
-| Message transactionnel déclenché par API | Campagnes déclenchées par API | Déclencheur de système externe, diffusion immédiate |
+| Message transactionnel déclenché par API (envoi unique) | Campagnes déclenchées par l’API | Déclencheur de système externe, diffusion immédiate en une seule fois |
+| Flux à plusieurs étapes déclenché par API | Parcours (Événement unitaire) | Le système externe envoie un événement unitaire via l’API ; le parcours orchestre les étapes de suivi. |
 | Envoi à plusieurs niveaux par réservation | Campagnes orchestrées | Relations multi-entités, un message par réservation |
 
 ## Principales distinctions expliquées {#key-distinctions}
@@ -251,7 +252,7 @@ Associe la complexité du workflow à l’exécution de campagnes par lots.
 | Activités d’attente | ✅ | ❌ | ❌ | ✅ |
 | Branchement conditionnel | ✅ | ❌ | ❌ | ✅ |
 | Exécution planifiée | ✅ | ✅ | ✅ | ✅ |
-| Déclenchement de l’API | ❌ | ❌ | ✅ | ❌ |
+| Déclenchement de l’API | ✅ (événement unitaire uniquement — événement envoyé via l’API) | ❌ | ✅ | ❌ |
 | Données multi-entités | ❌ | ❌ | ❌ | ✅ |
 | Nombres exacts de messages de pré-envoi | ❌ | ❌ | ❌ | ✅ |
 | Segmentation à la demande | ❌ | ❌ | ❌ | ✅ |
