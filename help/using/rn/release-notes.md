@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2d3430eaa8c15ade3fddcc4883a29efdb059bfa9
+source-git-commit: 41b396446a5f5f85f6a4c1b8c6a3f02afb47f03c
 workflow-type: tm+mt
-source-wordcount: 3733
-ht-degree: 25%
+source-wordcount: 3596
+ht-degree: 26%
 
 ---
 
@@ -221,7 +221,7 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées à la prise
 
 * **Attributs d’élément dynamiques** - Les attributs personnalisés d’élément de décision peuvent désormais être personnalisés au moment de la diffusion à l’aide des données de profil, contextuelles et d’audience. Cela supprime la nécessité de conserver des offres en double pour les variations de contenu mineures, ce qui permet aux spécialistes marketing de gérer moins d’éléments de décision et plus flexibles.
 
-  Date de disponibilité : 22 juin 2026
+  Date de disponibilité : Fin juin 2026
 
 +++
 
@@ -268,7 +268,7 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées à la gesti
 <li><strong>Variantes de contenu générées par l’IA</strong> — Dans l’expérience <strong>Simuler des variations de contenu</strong>, cliquez sur <strong>Générer</strong> pour utiliser l’IA pour créer automatiquement des variantes de contenu. Le système analyse votre message, détecte les champs de personnalisation et les branches conditionnelles et remplit des valeurs réalistes afin que vous puissiez valider le rendu sans créer manuellement chaque variante.</li>
 </ul>
 <p>Pour plus d'informations, consultez la <a href="../test-approve/simulate-sample-input.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : 9 juin 2026</p>
+<p>Date de disponibilité : Fin juin 2026</p>
 </td>
 </tr>
 </tbody>
@@ -336,7 +336,7 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées à la gesti
 +++
 
 
-### Canal E-mail {#june-26-email}
+### Canal e-mail {#june-26-email}
 
 Les améliorations suivantes ont été ajoutées au canal e-mail dans cette version.
 
@@ -420,7 +420,7 @@ Les améliorations suivantes ont été ajoutées au canal e-mail dans cette vers
 <td>
 <p>Le Designer d’e-mail comprend désormais une bibliothèque de modules de disposition prêts à l’emploi, tels que des en-têtes, des cartes de produits, des blocs d’informations et des pieds de page, que vous pouvez faire glisser directement dans la zone de travail de votre e-mail.</p>
 <p>Chaque module est préconfiguré avec des propriétés modifiables (image, titre, texte, bouton, liens) et peut être entièrement personnalisé via l’interface de WYSIWYG, ce qui accélère la création d’e-mails sans que vous ayez à créer des structures à partir de zéro.</p>
-<p>Date de disponibilité : 22 juin 2026</p>
+<p>Date de disponibilité : Fin juin 2026</p>
 </td>
 </tr>
 </tbody>
@@ -494,21 +494,6 @@ Les fonctionnalités et améliorations suivantes vont être apportées à la ges
 </tr>
 </tbody>
 </table>
-
-+++
-
-### Création de rapports {#june-26-reporting}
-
-+++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications**
-
-* **Estimation des clics pour la création de rapports par e-mail et SMS** — Une nouvelle mesure **Estimation des clics** est désormais disponible dans les Parcours, les campagnes et les rapports de canal pour les e-mails et les SMS. Cette mesure exclut le trafic d’interactions non humaines (NHI) et identifiées afin de fournir une vue plus claire de l’engagement réel des clients. La mesure Clics existante reste disponible et continue de signaler le nombre total de clics.
-
-* **Nouvelles mesures de clic estimées pour les rapports par e-mail et SMS** - Afin de fournir une vue plus précise de l’engagement réel des clients, de nouvelles mesures estimées sont désormais disponibles dans les Parcours, les campagnes et les rapports de canal. Ces mesures permettent de filtrer les interactions non humaines (NHI) et les clics de robots à partir des données de rapport :
-
-   * CTR estimé : nombre estimé de clics par rapport au total des diffusions.
-   * Taux de clics estimé pour les e-mails uniquement : estimations des clics par rapport aux ouvertures estimées.
-
-  Date de disponibilité : Fin juin 2026
 
 +++
 
