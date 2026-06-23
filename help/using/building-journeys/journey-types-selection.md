@@ -27,10 +27,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: c6b450a19ca8af714da18e44c4b772756a9dc42b
+source-git-commit: 151b396b7945535cb4219f782dfb6a79e44463d4
 workflow-type: tm+mt
-source-wordcount: 2055
-ht-degree: 25%
+source-wordcount: 2080
+ht-degree: 23%
 
 ---
 
@@ -60,7 +60,7 @@ Les parcours d’événement unitaire **sont déclenchés individuellement lorsq
 
 **Parfait pour :** les confirmations de commande après l’achat, les e-mails de bienvenue lorsque quelqu’un s’abonne, les notifications de réinitialisation de mot de passe et la personnalisation après connexion.
 
-➡️ [En savoir plus sur les événements](../event/about-events.md) | [Cas d’utilisation : message aux personnes abonnées](message-to-subscribers-uc.md)
+➡️ [En savoir plus sur les événements](../event/about-events.md) | [Cas d’utilisation de Message aux abonnés](message-to-subscribers-uc.md) | [Créer un parcours d’événement unitaire](#build-unitary-event)
 
 >[!TAB Parcours de lecture d’audience]
 
@@ -70,7 +70,7 @@ Les parcours d’événement unitaire **sont déclenchés individuellement lorsq
 
 **Parfait pour : les newsletters mensuelles** les campagnes promotionnelles pour cibler les segments, les annonces de produits, les séries récurrentes de réengagement et les campagnes marketing saisonnières.
 
-➡️ [En savoir plus sur la lecture d’audience](read-audience.md) | [Commencer avec les audiences](../audience/about-audiences.md)
+➡️ [En savoir plus sur la lecture d’audience](read-audience.md) | [Prise en main des audiences](../audience/about-audiences.md) | [Création d’un parcours de lecture d’audience](#build-read-audience)
 
 >[!TAB Parcours de qualification d’audience]
 
@@ -80,7 +80,7 @@ Les parcours d’événement unitaire **sont déclenchés individuellement lorsq
 
 **Parfait pour :** les notifications de mise à niveau de niveau VIP, les messages de célébration du premier achat, les alertes de risque d’attrition et les transitions d’étape du cycle de vie de la fidélité.
 
-➡️ [En savoir plus sur la qualification d’audience](audience-qualification-events.md) | [Création d’audiences](../audience/creating-a-segment-definition.md)
+➡️ [En savoir plus sur la qualification d’audience](audience-qualification-events.md) | [Création d’audiences](../audience/creating-a-segment-definition.md) | [Création d’un parcours de qualification d’audience](#build-audience-qualification)
 
 >[!TAB Parcours d’événement métier]
 
@@ -90,7 +90,7 @@ Les parcours d’événement métier **sont déclenchés par un événement au n
 
 **Parfait pour :** alertes de faible stock aux clients intéressés, annonces de vente flash, notifications de chute de prix et alertes de retour en stock de produits.
 
-➡️ [En savoir plus sur les événements métier](../event/about-creating-business.md) | [Gestion des entrées](entry-management.md)
+➡️ [En savoir plus sur les événements métier](../event/about-creating-business.md) | [Gestion d’entrée](entry-management.md) | [Créer un parcours d’événement métier](#build-business-event)
 
 >[!ENDTABS]
 
@@ -174,7 +174,9 @@ Toutes les fonctionnalités ne sont pas disponibles pour tous les types de parco
 
 ## Étapes suivantes {#next-steps}
 
-Maintenant que vous comprenez les types de parcours, vous pouvez effectuer ce qui suit :
+Chaque tableau répertorie les étapes de configuration et de gestion pour ce type de parcours.
+
+### Parcours d’événements unitaires {#build-unitary-event}
 
 * **[Créer votre premier parcours](journey-gs.md)** – Guide détaillé
 * **[En savoir plus sur le concepteur de parcours](using-the-journey-designer.md)** – Concevoir la zone de travail de votre parcours
