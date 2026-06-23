@@ -24,10 +24,10 @@ topic_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: f6948d09d0fe8ff33ccb1317b767bca0bffff226
+source-git-commit: 46131a2626da2c03fc31092cf685cbc73b38bd35
 workflow-type: tm+mt
-source-wordcount: 1161
-ht-degree: 70%
+source-wordcount: 1198
+ht-degree: 68%
 
 ---
 
@@ -162,6 +162,10 @@ Pour envoyer des messages mobiles dans Journey Optimizer à l&#39;aide d&#39;un 
    ![](assets/verify-connection.png)
 
 Une fois vos informations d’identification d’API créées et configurées, vous devez configurer [les paramètres entrants du webhook](#webhook) pour les SMS.
+
+>[!TIP]
+>
+>Toujours créer et gérer des configurations d’agent distinctes pour chaque sandbox (production, développement, etc.) pour éviter les problèmes de réponse webhook interenvironnement. Ne réutilisez pas les mêmes informations d’identification d’API, webhooks ou URL de rappel de fournisseur (y compris les agents RCS) dans les sandbox.
 
 ### Options d’authentification pour les fournisseurs de SMS personnalisés {#auth-options}
 

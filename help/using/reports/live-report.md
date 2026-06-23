@@ -24,10 +24,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: b36ce7a039c976d80f49292e73be23c9b011b568
 workflow-type: tm+mt
-source-wordcount: 546
-ht-degree: 93%
+source-wordcount: 603
+ht-degree: 85%
 
 ---
 
@@ -50,6 +50,10 @@ Utilisez le **[!UICONTROL rapport dynamique]** pour mesurer et visualiser en tem
   ![](assets/report_campaign.png)
 
 Pour obtenir la liste détaillée de chaque mesure disponible dans Adobe Journey Optimizer, reportez-vous à [cette page](#list-of-components-live).
+
+>[!NOTE]
+>
+>Des écarts à court terme entre le rapport dynamique et le rapport périodique sont attendus. Le rapport dynamique utilise des flux de données en temps quasi réel, tandis que le rapport en temps réel repose sur des données agrégées. En cas d’incohérence, patientez au moins deux heures avant de réconcilier les deux rapports, car les données se propagent généralement à la vue agrégée au cours de cette période.
 
 ## Personnalisation du tableau de bord {#modify-dashboard}
 
