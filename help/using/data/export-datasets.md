@@ -27,10 +27,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
+source-git-commit: 0e023560fab01f4a86bb175c45632b813ff7e069
 workflow-type: tm+mt
-source-wordcount: 1154
-ht-degree: 84%
+source-wordcount: 1228
+ht-degree: 79%
 
 ---
 
@@ -135,3 +135,9 @@ Découvrez dans le tableau ci-dessous les jeux de données Journey Optimizer qu
 | Événements d’étape de parcours | Capturent tous les événements d’expérience d’étape de parcours générés à partir de Journey Optimizer pour être utilisés par des services tels que la création de rapports. |
 | Parcours | Jeu de données de métadonnées contenant des informations sur chaque étape d’un parcours. |
 | ODE DecisionEvents - Décisions de production | Chaque fois que nous prenons une décision basée sur une demande, nous la comptabilisons comme un événement de décision. |
+
+## Mappage des jeux de données de rapports et des métadonnées de payload {#reporting-payload-metadata-mapping}
+
+Pour créer des rapports personnalisés sur les réponses d’expérience et de prise de décision basées sur le code, utilisez **`scopeDetails.correlationID`** pour joindre les données d’interaction ou de commentaires au **Jeu de données d’entité AJO** et récupérer les métadonnées de campagne, de parcours et de message. Utilisez des **`exdRequestID`** pour lier une seule demande de décision aux événements d’analyse.
+
+Si le `correlationID` est manquant (par exemple, les audiences d’exclusion), utilisez les jeux de données exportés et les clés de jointure documentées au lieu de décoder les champs de payload non documentés. [Exemples de requête de jeu de données d’entité](datasets-query-examples.md#entity-dataset) montrent comment adhérer sur `correlationID`.
