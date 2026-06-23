@@ -6,15 +6,12 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
 source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
 source-wordcount: 1785
-ht-degree: 75%
+ht-degree: 80%
 
 ---
 
@@ -28,14 +25,14 @@ ht-degree: 75%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_content_card"
->title="Action de la carte de contenu"
->abstract="Une action entrante de carte de contenu affiche une carte de contenu aux profils lorsqu’ils atteignent cette étape du parcours. Le libellé identifie l’activité dans la zone de travail du parcours et l’action fait référence à une configuration de carte de contenu qui définit le contenu affiché. La section **Optimisation** peut inclure des expériences de contenu ou des règles de ciblage. Un nœud **Attente** est automatiquement inséré après cette activité (3 jours par défaut), ce qui donne aux profils le temps d’afficher la carte de contenu."
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Prise en main des actions de canal"
+>title="Action de carte de contenu"
+>abstract="Une action entrante de carte de contenu affiche une carte de contenu aux profils lorsqu’ils atteignent cette étape du parcours. Le libellé identifie l’activité dans le canevas du parcours et l’action fait référence à une configuration de carte de contenu qui définit le contenu affiché. La section **Optimisation** peut inclure des expériences de contenu ou des règles de ciblage. Un nœud **Attente** est automatiquement inséré après cette activité (3 jours par défaut), ce qui donne aux profils le temps de consulter la carte de contenu."
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Commencer avec les actions de canal"
 
 
 Les cartes de contenu sont des expériences in-app entrantes qui affichent du contenu personnalisé (tel que des promotions, des annonces ou des recommandations) directement dans une surface dédiée de votre application mobile. Contrairement aux messages d’interruption, ils restent disponibles dans l’application jusqu’à ce que l’utilisateur les ferme ou que vos règles de diffusion les masquent.
 
-Cette page explique comment créer une carte de contenu et définir son contenu, dans le cadre d’un [parcours &#x200B;](../building-journeys/journey-gs.md) ou d’une [campagne](../campaigns/create-campaign.md). Une fois la carte ajoutée, vous pouvez la concevoir, définir des règles de diffusion supplémentaires qui contrôlent à quel moment elle est affichée, ignorée ou masquée de manière permanente, et exécuter des expériences de contenu pour optimiser ses performances.
+Cette page explique comment créer une carte de contenu et définir son contenu, dans le cadre d’un [parcours ](../building-journeys/journey-gs.md) ou d’une [campagne](../campaigns/create-campaign.md). Une fois la carte ajoutée, vous pouvez la concevoir, définir des règles de diffusion supplémentaires qui contrôlent à quel moment elle est affichée, ignorée ou masquée de manière permanente, et exécuter des expériences de contenu pour optimiser ses performances.
 
 >[!IMPORTANT]
 >
@@ -47,7 +44,7 @@ Cette page explique comment créer une carte de contenu et définir son contenu,
 
 Pour ajouter une carte de contenu à un parcours, procédez comme suit :
 
-1. Ouvrez votre [parcours &#x200B;](../building-journeys/journey-gs.md), puis effectuez un glisser-déposer d&#39;une activité **[!UICONTROL Action]** depuis la section **[!UICONTROL Actions]** de la palette. En savoir plus sur l’activité [Action](../building-journeys/journey-action.md).
+1. Ouvrez votre [parcours ](../building-journeys/journey-gs.md), puis effectuez un glisser-déposer d&#39;une activité **[!UICONTROL Action]** depuis la section **[!UICONTROL Actions]** de la palette. En savoir plus sur l’activité [Action](../building-journeys/journey-action.md).
 
    >[!IMPORTANT]
    >

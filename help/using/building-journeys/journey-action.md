@@ -11,30 +11,16 @@ keywords: parcours, message, notification push, sms, e-mail, in-app, web, carte 
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/MK5SCefAZ1P2CqX-Y3TmweUyfUI297edZXCMAZSvhT0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
 source-wordcount: 2428
-ht-degree: 52%
+ht-degree: 59%
 
 ---
 
@@ -82,21 +68,21 @@ Les activités de canal natives héritées sont également conservées dans les 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_auto_wait"
 >title="Nœud d’attente automatique"
->abstract="Pour les actions de canal entrant (message in-app, web, carte de contenu et expérience basée sur le code), un nœud **Wait** est automatiquement inséré après l’action (3 jours par défaut). Cela donne aux profils le temps d’afficher l’expérience entrante avant que le parcours ne passe à l’étape suivante."
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Prise en main des actions de canal"
+>abstract="Pour les actions de canal entrant (message in-app, web, carte de contenu et expérience basée sur le code), un nœud **Attente** est automatiquement inséré après l’action (3 jours par défaut). Cela donne aux profils le temps d’afficher l’expérience entrante avant que le parcours ne passe à l’étape suivante."
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Commencer avec les actions de canal"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_optimization"
 >title="Optimisation"
->abstract="La section **Optimisation** ajoute des expériences de contenu, des règles de ciblage ou les deux à une action de canal. Il vous permet de tester des variantes et de diffuser le contenu le plus efficace à chaque membre de l’audience."
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="Utiliser l’activité d’optimisation"
+>abstract="La section **Optimisation** ajoute des expériences de contenu et/ou des règles de ciblage à une action de canal. Elle vous permet de tester des variantes et de diffuser le contenu le plus efficace à chaque membre de l’audience."
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="Utiliser l’activité Optimisation"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_multilingual"
 >title="Multilingue"
->abstract="La section **multilingue** diffuse le contenu de l’action du canal dans plusieurs langues au sein d’un seul parcours. Une configuration des paramètres de langue définit les paramètres régionaux pris en charge et la langue par défaut de cette action."
+>abstract="La section **Multilingue** diffuse le contenu de l’action du canal dans plusieurs langues au sein d’un seul parcours. Une configuration des paramètres de langue définit les paramètres régionaux pris en charge et la langue par défaut de cette action."
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="Commencer avec le contenu multilingue"
 
 
@@ -251,7 +237,7 @@ La diffusion rapide est utilisée lorsque le retard dans la diffusion des messag
 
 Découvrez comment activer le mode de diffusion rapide pour les notifications push [sur cette page](../push/create-push.md#rapid-delivery).
 
-Pour plus d’informations sur les performances lors de l’utilisation du mode de diffusion rapide, consultez la section [[!DNL Adobe Journey Optimizer] description du produit](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Pour plus d’informations sur les performances lors de l’utilisation du mode de diffusion rapide, consultez la section [[!DNL Adobe Journey Optimizer] description du produit](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 +++
 

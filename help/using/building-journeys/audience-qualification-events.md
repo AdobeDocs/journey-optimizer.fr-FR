@@ -11,26 +11,16 @@ keywords: qualification, événements, audience, parcours, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/u7riiGWgaQFuiWARJL-Wqh9CcaZ-yH3N6ZRtsvfyN8Y
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 2501
-ht-degree: 46%
+ht-degree: 51%
 
 ---
 
@@ -45,7 +35,7 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="Qualification d’audience"
->abstract="Déclenche l’entrée ou la poursuite du parcours lorsqu’un profil remplit les conditions pour une audience [!DNL Adobe Experience Platform] ou la quitte. Recommandé pour les audiences en flux continu. Une activité Lecture d’audience est utilisée pour les scénarios par lots."
+>abstract="Déclenche l’intégration ou la poursuite du parcours lorsqu’un profil remplit les conditions pour une audience [!DNL Adobe Experience Platform] ou en sort. Recommandé pour les audiences en streaming. Une activité Lecture d’audience est utilisée pour les scénarios par lots."
 
 ## À propos des événements de qualification d’audience{#about-segment-qualification}
 
@@ -70,22 +60,22 @@ Pour configurer l’activité **[!UICONTROL Qualification d’audience]**, proc�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_label"
 >title="Libellé"
->abstract="Libellé facultatif permettant d’identifier cette activité dans les journaux des modes de reporting et de test."
+>abstract="Libellé facultatif pour identifier cette activité dans les journaux de mode de test et les rapports."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_audience"
 >title="Audience"
->abstract="Audience [!DNL Adobe Experience Platform] surveillée par le parcours. Les profils rejoignent cette audience ou y progressent lorsqu’ils remplissent les critères ou la quittent. Les audiences en flux continu sont recommandées afin que la qualification soit évaluée en temps réel."
+>abstract="Audience [!DNL Adobe Experience Platform] surveillée par le parcours. Les profils rejoignent cette audience ou y progressent lorsqu’ils en remplissent les conditions ou en sortent. Les audiences en streaming sont recommandées afin que la qualification soit évaluée en temps réel."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_behavior"
 >title="Comportement"
->abstract="Définit les modifications de l’appartenance à l’audience auxquelles le parcours réagit : lorsque les profils remplissent les critères pour l’audience (entrée), lorsqu’ils la quittent (sortie) ou les deux. Écouter les deux couvre l’ensemble du cycle de vie des membres, tandis qu’une seule option limite le parcours à une seule direction."
+>abstract="Définit les modifications de l’appartenance à l’audience auxquelles le parcours réagit : lorsque les profils remplissent les conditions de l’audience (intégration), lorsqu’ils la quittent (sortie) ou les deux. Tenir compte de ces deux aspects couvre l’ensemble du cycle de vie de l’appartenance, tandis qu’une seule option limite le parcours à une seule direction."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_identity"
 >title="Type d’identité"
->abstract="Espace de noms d’identité utilisé pour reconnaître les personnes dans la mesure où elles remplissent les critères de l’audience. Seuls les espaces de noms d’identité basés sur les personnes sont disponibles et les profils sans cette identité ne peuvent pas entrer dans le parcours."
+>abstract="Espace de noms d’identité utilisé pour reconnaître les personnes lorsqu’elles remplissent les conditions de l’audience. Seuls les espaces de noms d’identité basés sur les personnes sont disponibles et les profils sans cette identité ne peuvent pas intégrer le parcours."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_merge_policy"
@@ -246,7 +236,7 @@ Utilisez les mécanismes de sécurisation et suivez les recommandations ci-desso
 
 Découvrez des cas d’utilisation des parcours de qualification d’audience dans cette vidéo. Découvrez comment créer un parcours avec qualification d’audience et les bonnes pratiques à appliquer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446206?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
 
 +++ Référence des connaissances sur l’IA
 

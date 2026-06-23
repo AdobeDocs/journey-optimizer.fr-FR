@@ -10,23 +10,16 @@ level: Beginner
 keywords: publipostage direct, message, campagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 TQID: https://experienceleague.adobe.com/vn-PhvuksTX-ALADGGwGlvtp7-dTgjFVsIVvucAjLa8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
 source-wordcount: 1266
-ht-degree: 64%
+ht-degree: 72%
 
 ---
 
@@ -57,13 +50,13 @@ Pour créer des messages de publipostage direct, créez une campagne planifiée 
 >1. [Configuration du routage des fichiers](../direct-mail/direct-mail-configuration.md#file-routing-configuration) qui spécifie le serveur sur lequel le fichier d’extraction doit être chargé et stocké,
 >1. [Configuration de message de publipostage direct](../direct-mail/direct-mail-configuration.md#direct-mail-surface) qui fera référence à la configuration du routage des fichiers.
 
-## Ajouter un message de publipostage direct {#create-dm-campaign}
+## Ajouter un message de courrier {#create-dm-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_direct_mail"
->title="Action Courrier"
->abstract="Une action de canal Courrier génère le contenu du publipostage direct pour les profils lorsqu’ils atteignent cette étape du parcours. Le libellé identifie l’activité dans la zone de travail de parcours et l’action fait référence à une configuration de publipostage direct qui définit le contenu diffusé. La section **Optimisation** peut inclure des expériences de contenu ou des règles de ciblage, la section **Multilingue** peut diffuser du contenu dans plusieurs langues et la section **Temporisation ou erreur** peut définir un autre chemin en cas d’échec de l’action."
->additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Prise en main des actions de canal"
+>title="Canal de courrier"
+>abstract="Une action de canal de courrier génère le contenu du courrier pour les profils lorsqu’ils atteignent cette étape du parcours. Le libellé identifie l’activité dans le canevas du parcours et l’action fait référence à une configuration de courrier qui définit le contenu diffusé. La section **Optimisation** peut inclure des expériences de contenu ou des règles de ciblage, la section **Multilingue** peut diffuser du contenu dans plusieurs langues et la section **Délai d’expiration ou erreur** peut définir un autre chemin en cas d’échec de l’action."
+>additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Commencer avec les actions de canal"
 
 Parcourez les onglets ci-dessous pour savoir comment ajouter un Message de publipostage direct dans une campagne ou un parcours.
 
@@ -143,7 +136,7 @@ Le fichier d’extraction est requis par les opérateurs de services postaux pou
    >
    >Experience Decisioning dans le publipostage direct est une nouvelle fonctionnalité. Auparavant, les fichiers d’extraction de publipostage direct ne pouvaient pas utiliser le moteur de décision. Vous pouvez désormais ajouter des politiques de décision et inclure des attributs d’élément de décision en tant que données de colonne dans l’exportation.
 
-   [Découvrez comment ajouter une politique de décision dans le courrier](../experience-decisioning/create-decision-policy.md#add). Pour les workflows de diffusion de décisions par lots et des exemples (publipostage direct personnalisé ou exportation vers des systèmes en aval), consultez [&#x200B; Diffusion de décisions par lots dans le publipostage direct](../experience-decisioning/batch-decisioning-direct-mail.md).
+   [Découvrez comment ajouter une politique de décision dans le courrier](../experience-decisioning/create-decision-policy.md#add). Pour les workflows de diffusion de décisions par lots et des exemples (publipostage direct personnalisé ou exportation vers des systèmes en aval), consultez [ Diffusion de décisions par lots dans le publipostage direct](../experience-decisioning/batch-decisioning-direct-mail.md).
 
 1. Ajustez les propriétés du fichier d’extraction :
 

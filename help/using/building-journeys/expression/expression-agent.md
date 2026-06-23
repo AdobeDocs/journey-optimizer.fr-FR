@@ -14,7 +14,7 @@ subfeature_v2: []
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 1147
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
 >title="Générer des expressions à l’aide de l’assistant d’expressions"
->abstract="L’assistant d’expressions utilise l’IA générative pour vous aider à créer et à générer des expressions directement dans l’éditeur d’expression avancé des parcours. Par exemple, dans les conditions, les activités **Optimiser** ou **Attente** qui utilisent une date personnalisée. Lorsque vous décrivez vos besoins en langage clair, l’assistant génère l’expression correspondante pour vous."
+>abstract="L’assistant d’expressions utilise l’IA générative pour vous aider à créer et à générer des expressions directement dans l’éditeur d’expression avancé des parcours. Par exemple, dans les conditions, les activités **Optimiser** ou **Attente** qui utilisent une date personnalisée. Lorsque vous décrivez vos besoins en termes simples, l’assistant génère l’expression correspondante."
 
 >[!AVAILABILITY]
 >
@@ -34,7 +34,7 @@ ht-degree: 6%
 
 L’assistant d’expression est une fonctionnalité optimisée par l’IA intégrée à l’éditeur d’expression avancé du Parcours. Cela vous permet de générer des expressions valides à partir d’invites en langage clair.
 
-Elle est disponible où s’ouvre le Parcours **[!UICONTROL Éditeur d’expression avancé]**. Par exemple, lorsque vous configurez des conditions et le routage dans une activité **[Optimiser](../optimize.md)** ou lorsque vous configurez une activité [**[!UICONTROL Attente &#x200B;]**](../wait-activity.md) qui utilise une date personnalisée et pour laquelle vous avez besoin d’une expression `dateTimeOnly`.
+Elle est disponible où s’ouvre le Parcours **[!UICONTROL Éditeur d’expression avancé]**. Par exemple, lorsque vous configurez des conditions et le routage dans une activité **[Optimiser](../optimize.md)** ou lorsque vous configurez une activité [**[!UICONTROL Attente ]**](../wait-activity.md) qui utilise une date personnalisée et pour laquelle vous avez besoin d’une expression `dateTimeOnly`.
 
 ## Générer une expression {#generate}
 

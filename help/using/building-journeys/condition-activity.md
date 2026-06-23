@@ -12,21 +12,15 @@ exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
 hide: true
 TQID: https://experienceleague.adobe.com/gbZUkOhk-3yBMdxwj3YpPbQrbpMhd6PkNf1hzl-2DFw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 2580
-ht-degree: 65%
+ht-degree: 66%
 
 ---
 
@@ -63,7 +57,7 @@ Vous pouvez également baser une condition sur l’appartenance à une audience.
 
 * [Utiliser une audience dans une condition](#using-a-segment) - Ajoutez des chemins d’accès en fonction de l’appartenance des profils à une audience.
 * [Créer et cibler des audiences](../audience/about-audiences.md) - Créez et gérez des audiences dans le menu Audiences.
-* [Ciblage des audiences dans les parcours &#x200B;](read-audience.md#audience-targeting-in-journeys) - Après une activité Lecture d’audience, segmentez, excluez ou fusionnez des branches à l’aide de conditions.
+* [Ciblage des audiences dans les parcours ](read-audience.md#audience-targeting-in-journeys) - Après une activité Lecture d’audience, segmentez, excluez ou fusionnez des branches à l’aide de conditions.
 
 >[!NOTE]
 >
@@ -74,7 +68,7 @@ Vous pouvez également baser une condition sur l’appartenance à une audience.
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple"
 >title="À propos de l&#39;éditeur d&#39;expression simple"
->abstract="Le mode Éditeur d&#39;expression simple vous permet d&#39;exécuter des requêtes simples en fonction d&#39;une combinaison de champs. Tous les champs disponibles s’affichent dans la partie gauche de l’écran. Les champs sont glissés et déposés dans la zone principale. Pour combiner les différents éléments, ils sont interverrouillés les uns dans les autres afin de créer différents groupes et/ou niveaux de groupe. Un opérateur logique combine ensuite les éléments au même niveau."
+>abstract="Le mode Éditeur d&#39;expression simple vous permet d&#39;exécuter des requêtes simples en fonction d&#39;une combinaison de champs. Tous les champs disponibles s’affichent dans la partie gauche de l’écran. Les champs sont glissés et déposés dans la zone principale. Pour combiner les différents éléments, ils sont imbriqués afin de créer différents groupes et/ou niveaux de groupes. Un opérateur logique combine ensuite les éléments au même niveau."
 
 Lorsque vous utilisez plusieurs conditions dans un parcours, vous pouvez définir des libellés pour chacune d’elles afin de les identifier plus facilement.
 
