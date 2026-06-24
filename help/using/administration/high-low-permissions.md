@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 1545
-ht-degree: 94%
+source-wordcount: 1995
+ht-degree: 73%
 
 ---
 
@@ -688,3 +688,42 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
   +++
 
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Les rôles Journey Optimizer sont créés à partir d’autorisations de haut niveau, chacune d’elles regroupant les droits spécifiques de bas niveau sur l’API dont les utilisateurs ont besoin pour lire, écrire, publier ou supprimer des ressources dans les parcours, les campagnes, les décisions, les configurations de canal, etc.
+
+**Intentions:**
+
+* Comprendre la distinction entre les autorisations de haut niveau et de bas niveau
+* Identifier les autorisations de bas niveau accordées par chaque autorisation de haut niveau
+* Configurez des rôles précisément pour les parcours, les campagnes, la gestion des décisions, les configurations de canal et les campagnes orchestrées
+* Accorder l’accès à l’assistant AI pour la génération de contenu
+* Comprenez ce que permet l’autorisation Publier des parcours par rapport à l’autorisation Gérer les parcours .
+
+**Glossaire:**
+
+* **Autorisation de haut niveau** : autorisation nommée attribuée à un rôle (par exemple, Gérer les parcours, Publier les parcours) qui englobe une ou plusieurs autorisations de bas niveau *(spécifiques au produit)*
+* **Autorisation de bas niveau** : droit granulaire au niveau de l’API (par exemple, parcours.read, parcours.write) dérivé de et inclus dans une *d’autorisation de haut niveau (spécifique au produit)*
+* **Rôle** : ensemble d’utilisateurs partageant les mêmes autorisations et sandbox au sein de l’organisation *(spécifique au produit)*
+
+**Terminologie:**
+
+* Ne les confondez pas : « Autorisation de haut niveau » (droit nommé assignable à un rôle) ≠ « Autorisation de bas niveau » (droit API granulaire sous-jacent, non directement assignable)
+* Ne les confondez pas : « Gérer les parcours » (permet la création, la modification, la suppression, l’arrêt, y compris l’exécution en direct, le mode test et l’essai) ≠ « Publier les parcours » (permet la publication, le démarrage du mode test, le démarrage de l’essai, la mise en pause et la reprise des parcours)
+* Ne les confondez pas : « Gérer les événements parcours, les sources de données et les actions » (CRUD complet sur les événements, les sources, les actions) ≠ « Afficher les événements parcours, les sources de données et les actions » (accès en lecture seule à ces objets)
+* Ne les confondez pas : « Générer le contenu » (accès à l’assistant AI dans Journey Optimizer) ≠ d’autres autorisations de parcours ou de campagne
+* Ne les confondez pas : « Mode test » (référencé dans Publication de parcours et Gestion des parcours en tant que mode d’exécution de parcours pouvant être démarré ou arrêté) ≠ « Exécution d’essai » (un mode d’exécution de parcours distinct également référencé dans ces mêmes autorisations)
+
+**FAQ:**
+
+* **Q : L’autorisation Gérer les parcours permet-elle à un utilisateur de publier des parcours ?** — Non ; la publication de parcours nécessite l’autorisation de haut niveau Publier les parcours .
+* **Q : Qu’accorde l’autorisation Générer du contenu** — Accès à l’assistant AI dans Journey Optimizer.
+* **Q : Un utilisateur peut-il configurer des événements de parcours sans l’autorisation Gestion des parcours ?** — Oui ; la gestion des événements parcours, des sources de données et des actions est une autorisation de haut niveau distincte couvrant la configuration des événements, des sources de données et des actions.
+* **Q : Quelles autorisations de bas niveau sont incluses dans le rapport Affichage des parcours ?** — parcours_report.read et messages_report.read, plus datasets.read, queries.read, queries.write et queries.delete de Adobe Experience Platform.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: d1d9ebf9 -->

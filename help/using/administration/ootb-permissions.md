@@ -32,10 +32,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 9335f9e54aec56236693afe23996f80bf6e389ce
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 1258
-ht-degree: 24%
+source-wordcount: 1757
+ht-degree: 17%
 
 ---
 
@@ -80,3 +80,47 @@ Les autorisations intégrées représentent les différentes autorisations pouva
 | Service de traduction | **[!DNL Manage translation in house]** : la lecture, la création, la modification et la suppression de la traduction en interne.</br>**[!DNL Manage translation projects]**: la lecture, la création, la modification et la suppression des projets de traduction.</br> **[!DNL Manage translation reviews]** : lire, créer, modifier et supprimer des révisions de traduction.</br>**[!DNL Manage translation settings]**: lire, créer, modifier et supprimer des paramètres de traduction.</br>**[!DNL Manage translation tasks]** : lire, créer, modifier et supprimer des tâches de traduction.</br>**[!DNL View translation in house]**: accès en lecture seule à la traduction en interne.</br>**[!DNL View translation projects]** : accès en lecture seule aux projets de traduction.</br>**[!DNL View translation reviews]**: accès en lecture seule aux révisions de traduction.</br>**[!DNL View translation tasks]** : accès en lecture seule aux tâches de traduction. |
 
 {style="table-layout:fixed"}
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+- **TL;DR:** Cette page est une référence complète de chaque autorisation intégrée dans Journey Optimizer, regroupée par domaine de fonctionnalité, afin que les administrateurs puissent identifier exactement les droits à inclure lors de la création ou de l’audit d’un rôle.
+
+**Intentions:**
+
+- Recherche de toutes les autorisations disponibles pour une zone de fonctionnalités donnée (Parcours, campagnes, gestion des décisions, assistant d’IA, etc.)
+- Identifier l’autorisation appropriée à ajouter à un rôle personnalisé ou intégré
+- Distinction entre les autorisations Gérer et Afficher par ressource
+- Recherchez les autorisations pour AI Assistant, les campagnes orchestrées et Experience Decisioning
+- Identifier les autorisations couvrant les modes d’exécution de parcours (mode test, essai, simulation)
+
+**Glossaire:**
+
+- **Autorisations intégrées** : droits unitaires prédéfinis assignables à un rôle pour contrôler l’accès aux fonctionnalités et objets dans Journey Optimizer ; les autorisations de haut niveau englobent les autorisations de bas niveau *(spécifiques au produit)*
+- **Fonctionnalité** : domaine fonctionnel regroupant les autorisations associées (par exemple, Parcours, Campagnes, Gestion des décisions, Assistant d’IA) *(spécifique au produit)*
+- **Mode test** : mode d’exécution de parcours ; l’autorisation Publier des parcours permet de démarrer le mode test *(spécifique au produit)*
+- **Exécution d’essai** : mode d’exécution de parcours ; l’autorisation Publier les parcours permet de lancer une *d’exécution d’essai (spécifique au produit)*
+- **Simulation** : une fonctionnalité de parcours distincte. L’autorisation Simuler des Parcours couvre la lecture, la création et la modification de la simulation dans Parcours *(spécifique au produit)*
+
+**Terminologie:**
+
+- Nom canonique : autorisations intégrées — variantes : autorisations d’usine, autorisations prêtes à l’emploi
+- Ne les confondez pas : « Gérer les parcours » (comprend l’arrêt en direct, le mode test et l’essai) ≠ « Publier les parcours » (comprend la publication, le mode test, le démarrage de l’essai, la mise en pause et la reprise)
+- Ne les confondez pas : « Simuler des Parcours » (autorisation de lecture, de création et de modification de la Simulation dans les Parcours) ≠ « Simuler du contenu » (accès à l’option Simuler du contenu pour l’aperçu du message et le BAT)
+- Ne les confondez pas : « Générer du contenu » (accès de l’assistant AI dans Journey Optimizer) ≠ « Activer l’assistant AI » (activation ou accès aux fonctionnalités de campagne et d’audience optimisées par l’IA)
+- Ne les confondez pas : « Mode test » (mode d’exécution de parcours contrôlé via l’autorisation Publier les parcours) ≠ « Exécution d’essai » (mode d’exécution de parcours distinct également contrôlé via l’autorisation Publier les parcours) ≠ « Simulation » (fonctionnalité distincte via l’autorisation Simuler des Parcours)
+- Ne les confondez pas : « Gérer les décisions » (CRUD sur les entités de prise de décision) ≠ « Gérer Experience Decisioning » (CRUD sur les paramètres Experience Decisioning et les politiques de décision)
+
+**FAQ:**
+
+- **Q : Quelle autorisation est requise pour utiliser l’assistant AI pour la génération de contenu ?** — Générer du contenu (dans la fonctionnalité d&#39;assistant d&#39;IA).
+- **Q : Quelle autorisation permet à un utilisateur d’exporter la liste de suppression ?** — Exporter la liste de suppression (sous Configurations de canal).
+- **Q : Quelle autorisation accorde l’accès en lecture seule aux parcours ?** — Affichage des parcours (sous la fonctionnalité Parcours).
+- **Q : Quelle autorisation est nécessaire pour publier des campagnes orchestrées ?** — Publiez des campagnes orchestrées (sous Campagnes orchestrées) ; cette autorisation est également requise pour déclencher une campagne orchestrée à l’aide d’un signal.
+- **Q : Que couvre l’autorisation Simuler des Parcours ?** — Lecture, création et modification de Simulation dans les Parcours.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: 1374a5c2 -->

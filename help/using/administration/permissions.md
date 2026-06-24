@@ -24,10 +24,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 792
-ht-degree: 96%
+source-wordcount: 1205
+ht-degree: 63%
 
 ---
 
@@ -151,3 +151,45 @@ Pour créer notre **[!UICONTROL rôle]** **Parcours en lecture seule** :
 Votre **[!UICONTROL rôle]** est désormais créé et configuré. Vous devez à présent l’affecter aux utilisateurs et utilisatrices.
 
 Pour plus d’informations sur la création et la gestion des rôles, consultez la [documentation d’Adobe Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=fr){target="_blank"}.
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+- **TL;DR:** Cette page guide les administrateurs système et de produit à travers les trois tâches de gestion des rôles dans le produit Autorisations : attribuer un rôle existant à un utilisateur, modifier les autorisations d’un rôle et créer un nouveau rôle personnalisé avec des autorisations et sandbox spécifiques.
+
+**Intentions:**
+
+- Affectation d’un rôle intégré ou personnalisé à un utilisateur dans Journey Optimizer
+- Modifier les autorisations d’un rôle existant (ajouter ou supprimer des droits)
+- Créez un rôle personnalisé avec des autorisations spécifiques et des affectations de sandbox
+- Comprendre qui a l’autorité pour effectuer la gestion des rôles et des autorisations
+
+**Glossaire:**
+
+- **Rôle** : ensemble d’utilisateurs partageant les mêmes autorisations et sandbox, utilisé pour gérer l’accès au sein d’une organisation *(spécifique au produit)*
+- **Produit Autorisations** : interface d’entreprise d’Adobe CX (accessible via [!DNL Permissions]) où les rôles, autorisations et sandbox sont configurés *(spécifiques au produit)*
+- **Rôle intégré** : rôle préexistant avec un jeu d’autorisations défini disponible pour une affectation immédiate sans *de configuration personnalisée (spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+
+- Seuls les administrateurs et administratrices de produit ou système peuvent affecter, modifier ou créer des rôles (conditions préalables difficiles, comme indiqué dans la remarque importante sur la page).
+- Les modifications apportées à un rôle intégré ou personnalisé affectent tous les utilisateurs affectés à ce rôle (comme indiqué dans la remarque importante sur la page)
+
+**Terminologie:**
+
+- Nom canonique : produit Autorisations — variantes : autorisations Adobe, interface utilisateur Autorisations, autorisations Adobe CX Enterprise
+- Ne pas confondre : « Attribuer un rôle » (ajout d’un utilisateur à un rôle existant) ≠ « Créer un rôle » (définition d’un nouveau rôle avec ses propres autorisations et sandbox à partir de zéro)
+- Ne pas confondre : « Modifier un rôle existant » (modifier des autorisations ou des sandbox sur un rôle existant ; affecter tous les utilisateurs affectés) ≠ « Créer un nouveau rôle » (créer un nouveau rôle sans affecter un rôle existant ou ses utilisateurs)
+
+**FAQ:**
+
+- **Q : Qui peut affecter des rôles aux utilisateurs dans Journey Optimizer ?** — Uniquement pour les administrateurs produit ou système.
+- **Q : Que se passe-t-il si je modifie les autorisations d’un rôle intégré ?** — Les modifications affectent tous les utilisateurs affectés à ce rôle.
+- **Q : Où puis-je aller dans le produit pour gérer les rôles ?** — Dans le produit Autorisations , accédez à l’onglet Rôles .
+- **Q : Une fois le rôle attribué, l’utilisateur ou l’utilisatrice reçoit-il une notification ?** — Oui ; l&#39;utilisateur reçoit automatiquement un e-mail le redirigeant vers l&#39;instance.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: 09d3612e -->

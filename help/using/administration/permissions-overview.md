@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 413
-ht-degree: 85%
+source-wordcount: 873
+ht-degree: 40%
 
 ---
 
@@ -116,3 +116,48 @@ Maintenant que vous comprenez les concepts liés à la gestion des accès dans *
 <p>
 </td>
 </tr></table>
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Le contrôle d’accès dans Journey Optimizer repose sur des rôles, des autorisations et des sandbox gérés par le biais des autorisations d’entreprise d’Adobe CX, avec des couches supplémentaires de contrôle d’accès basé sur les objets (OLAC) et de contrôle d’accès basé sur les attributs (ABAC) pour une protection des données affinée.
+
+**Intentions:**
+
+* comprendre les cinq concepts de base du contrôle d’accès : rôles, autorisations, sandbox, contrôle d’accès basé sur les objets et contrôle d’accès basé sur les attributs ;
+* Savoir qui peut configurer le contrôle d’accès (administrateur système ou produit)
+* Accédez à la section de documentation appropriée pour chaque rubrique de contrôle d’accès
+* Planifier une stratégie de contrôle d’accès pour l’organisation
+
+**Glossaire:**
+
+* **Rôles** : ensembles d’utilisateurs partageant les mêmes autorisations et sandbox ; des rôles intégrés préexistants sont disponibles et des rôles personnalisés peuvent être créés *(spécifiques au produit)*
+* **Autorisations** : droits unitaires définissant les autorisations attribuées aux rôles, regroupés sous des ressources telles que Parcours ou Offres *(spécifiques au produit)*
+* **Sandbox** : environnements virtuels partitionnant l’instance Journey Optimizer en espaces de travail virtuels distincts et isolés ; affectés par le biais de rôles dans la *Autorisations (spécifiques au produit)*
+* **Contrôle d’accès basé sur les objets** : libellés appliqués à des objets Journey Optimizer spécifiques (parcours, campagnes, offres) pour restreindre l’accès aux utilisateurs autorisés *(spécifiques au produit)*
+* **Contrôle d’accès basé sur les attributs** : politiques contrôlant l’accès aux objets ou fonctionnalités en fonction d’attributs tels que les libellés ajoutés aux champs de schéma ou aux segments *(spécifiques au produit)*
+
+**Mécanismes de sécurisation :**
+
+* La configuration du contrôle d’accès nécessite des privilèges d’administrateur système ou produit (prérequis)
+* Le rôle minimum qui permet d’accorder ou de retirer des autorisations est un administrateur de produit (comme indiqué sur la page)
+
+**Terminologie:**
+
+* Nom canonique : Contrôle d’accès basé sur les attributs — Acronyme : ABAC — Variantes : gestion d’accès basée sur les attributs
+* Nom canonique : Contrôle d’accès basé sur l’objet — Acronyme : OLAC — Variantes : contrôle d’accès au niveau de l’objet, gestion d’accès basée sur l’objet
+* Ne les confondez pas : « Contrôle d’accès basé sur les objets » (limite l’accès à des objets AJO spécifiques tels que des parcours, des campagnes et des offres à l’aide de libellés) ≠ « Contrôle d’accès basé sur les attributs » (limite l’accès à des attributs de données tels que des champs de schéma et des segments en fonction de politiques de libellé)
+* Ne les confondez pas : « Rôles » (ensemble d’utilisateurs avec des autorisations partagées et des sandbox) ≠ « Autorisations » (les droits unitaires regroupés sous les ressources affectées aux rôles)
+
+**FAQ:**
+
+* **Q : Qui peut configurer le contrôle d’accès dans Journey Optimizer ?** — Utilisateurs disposant de droits d&#39;administrateur système ou d&#39;administrateur de produit.
+* **Q : Quel est le niveau minimum d’administrateur requis pour accorder ou retirer des autorisations ?** — Administrateur de produit.
+* **Q : Les sandbox sont-ils gérés indépendamment des rôles ?** — Non ; les sandbox sont affectés par l’intermédiaire de rôles dans le produit Autorisations .
+* **Q : Où le contrôle d’accès pour Journey Optimizer est-il géré ?** par le biais d’autorisations dans Adobe CX Enterprise, qui lie les utilisateurs à des autorisations et des sandbox via des rôles et des politiques.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: 14be1dc6 -->
