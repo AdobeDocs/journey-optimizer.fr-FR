@@ -28,10 +28,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
-source-wordcount: 2650
-ht-degree: 98%
+source-wordcount: 2696
+ht-degree: 96%
 
 ---
 
@@ -154,7 +154,8 @@ Choisissez une identité principale pour vos clientes et clients (telle que l’
 
 Créez des schémas **Profil individuel XDM** pour capturer les attributs du client, tels que le nom et les coordonnées, les préférences et centres d’intérêt, ainsi que l’étape du cycle de vie ou l’état de consentement. Créez des schémas **XDM ExperienceEvent** pour capturer des données comportementales et transactionnelles telles que des événements web et d’application, des achats et des interactions hors ligne. Marquez les champs corrects en tant qu’identités et attributs de profil, le cas échéant.
 
-➡️ [En savoir plus sur les schémas](get-started-schemas.md)
+➡️ [En savoir plus sur les schémas](get-started-schemas.md)\
+➡️ [Planification de l’activation des profils](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
 
 +++
 
@@ -162,7 +163,9 @@ Créez des schémas **Profil individuel XDM** pour capturer les attributs du cli
 
 Dans Adobe Experience Platform, créez des jeux de données basés sur vos schémas XDM et activez le profil sur n’importe quel jeu de données qui doit contribuer au profil client en temps réel. Vérifiez que les jeux de données générés par le système et créés par Journey Optimizer sont visibles dans l’espace de travail Jeux de données.
 
-➡️ [En savoir plus sur les jeux de données](get-started-datasets.md)
+➡️ [En savoir plus sur les jeux de données](get-started-datasets.md)\
+➡️ [Planification de l’activation des profils](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}\
+➡️ [Gestion des schémas activés pour les profils](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
 
 +++
 

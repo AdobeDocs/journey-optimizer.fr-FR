@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c116c99ca57b5cd001c63b4a0364a79548f45166
+source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
-source-wordcount: 8654
-ht-degree: 93%
+source-wordcount: 8714
+ht-degree: 92%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 93%
 Cette page répertorie toutes les dernières modifications apportées à la documentation [!DNL Journey Optimizer], en plus des mises à jour liées aux fonctionnalités et améliorations de la version mensuelle.
 
 ## Juin 2026 {#june-2026}
+
+* Les pages **Prise en main des jeux de données** et **Prise en main des schémas** ont été mises à jour avec des conseils sur l’activation des jeux de données et des schémas pour le profil client en temps réel, y compris des considérations essentielles, la distinction entre la désactivation d’un jeu de données par rapport à son schéma sous-jacent et des liens vers la documentation sur la planification et les bonnes pratiques Adobe Experience Platform. [En savoir plus sur les jeux de données](../data/get-started-datasets.md) et [En savoir plus sur les schémas](../data/get-started-schemas.md)
 
 * Un nouveau hub d’intégration **Prise en main de Adobe Journey Optimizer** est désormais disponible. Les nouveaux utilisateurs peuvent choisir leur chemin en fonction de leur rôle, explorer les principes de base ou accéder aux activités quotidiennes s’ils ont déjà intégré l’application, sans avoir besoin de savoir où chercher au préalable. [En savoir plus](../../rp_landing_pages/get-started-landing-page.md)
 

@@ -26,10 +26,10 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
+source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
-source-wordcount: 477
-ht-degree: 92%
+source-wordcount: 609
+ht-degree: 72%
 
 ---
 
@@ -76,6 +76,10 @@ Adobe Experience Platform comporte deux types de schémas :
   ➡️ [Découvrez comment gérer des jeux de données et des schémas relationnels.](../orchestrated/gs-schemas.md)
 ➡️ [Commencer à utiliser les campagnes orchestrées](../orchestrated/gs-schemas.md)
 
+>[!IMPORTANT]
+>
+>L’activation d’un schéma pour le profil client en temps réel est une décision permanente : une fois activé, le schéma ne peut pas être désactivé ni supprimé. Les jeux de données créés sur ce schéma peuvent être désactivés ou supprimés séparément, mais cela supprime les enregistrements de profil associés et peut affecter les workflows de segmentation et d’activation. Avant l’activation, finalisez la configuration de votre identité et la sélection du groupe de champs. Pour obtenir des conseils détaillés, consultez les sections [Planification de l’activation des profils](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"} et [Gestion des schémas activés pour les profils](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"} dans la documentation de Adobe Experience Platform.
+
 ## Vidéo pratique{#video-schema}
 
 Découvrez comment créer un schéma standard, ajouter des groupes de champs, et créer et configurer des groupes de champs personnalisés.
@@ -88,5 +92,7 @@ Découvrez comment créer un schéma standard, ajouter des groupes de champs, et
 >* [Créer un schéma et un jeu de données et ingérer des données pour ajouter des profils de test dans Journey Optimizer](../audience/creating-test-profiles.md)
 >* [Vue d’ensemble du système XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target="_blank"}
 >* [Bonnes pratiques de modélisation des données](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=fr){target="_blank"}
+>* [Planification de l’activation du profil](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
+>* [Gestion des schémas activés pour Profil](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
 >* [Créer un schéma à l’aide de l’API Schema Registry](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html?lang=fr){target="_blank"}
 >* [Définir une relation entre deux schémas à l’aide de l’éditeur de schémas](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html?lang=fr){target="_blank"}
