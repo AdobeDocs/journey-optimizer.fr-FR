@@ -10,22 +10,15 @@ level: Experienced
 keywords: sandbox, virtuels, environnements, organisation, platform
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
 TQID: https://experienceleague.adobe.com/8vcaHkqHeyoP-TZltCkjpBhvZIifuiPbKy-Whoj74Z8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2: []
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 464
-ht-degree: 74%
+source-wordcount: 919
+ht-degree: 37%
 
 ---
 
@@ -91,4 +84,47 @@ Remarque : pour que votre contenu soit synchronisé avec le sandbox approprié,
 
 Découvrez ce que sont les sandbox et comment faire la distinction entre les sandbox de développement et de production. Découvrez comment créer, réinitialiser et supprimer des sandbox.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416655?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334355?quality=12)
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+- **TL;DR:** Les sandbox divisent votre instance Journey Optimizer en espaces de travail virtuels isolés à des fins de développement, de test et de production. Ils sont attribués aux utilisateurs par le biais de rôles dans le produit Autorisations et l’accès au contenu est configuré via des dossiers partagés dans Admin Console.
+
+**Intentions:**
+
+- Basculer entre les sandbox dans l’interface de Journey Optimizer à l’aide du sélecteur de sandbox
+- Attribuez un ou plusieurs sandbox à un rôle dans le produit Autorisations .
+- Supprimer l’accès au sandbox d’un rôle
+- Configuration de l’accès au contenu (dossiers partagés) pour un sandbox
+- Comprendre comment les sandbox se rapportent aux rôles et aux autorisations
+
+**Glossaire:**
+
+- **Sandbox** : environnement virtuel partitionnant l’instance Journey Optimizer en espaces de travail distincts et isolés à des fins de développement, de test ou de *d’utilisation en production (spécifique au produit)*
+- **Sélecteur de sandbox** : commande en haut à droite de l’interface de Journey Optimizer, en regard du nom de l’organisation, utilisée pour basculer entre les sandbox *(spécifique au produit)*
+- **Dossier partagé** : dossier de stockage configuré dans Admin Console pour un sandbox permettant l’accès au contenu. Son nom doit correspondre au nom du sandbox pour que le contenu soit correctement synchronisé *(spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+
+- La gestion des sandbox peut uniquement être effectuée par un administrateur Produit ou Système (prérequis absolu, comme indiqué dans la remarque importante sur la page)
+- Les noms de dossiers partagés doivent suivre la même syntaxe que le nom du sandbox pour que le contenu soit synchronisé avec le bon sandbox (comme indiqué sur la page)
+
+**Terminologie:**
+
+- Ne les confondez pas : « Utilisation d’un sandbox » (basculement vers celui-ci dans l’interface utilisateur à l’aide du sélecteur de sandbox) ≠ « Attribution d’un sandbox » (ajout d’un sandbox à un rôle dans le produit Autorisations) ≠ « Création d’un sandbox » (réalisé dans Adobe Experience Platform, et non dans Journey Optimizer)
+- Synonymes : « sandbox » = « environnement virtuel » dans le contexte de cette page
+- Ne les confondez pas : « Attribuer des sandbox » (ajout de sandbox à un rôle dans Autorisations) ≠ « Gérer les sandbox » (création, réinitialisation ou suppression de sandbox - effectué dans Adobe Experience Platform)
+
+**FAQ:**
+
+- **Q : Comment basculer entre les sandbox dans Journey Optimizer ?** — Utilisez le sélecteur de sandbox en haut à droite de l’écran, en regard du nom de votre organisation ; cliquez sur le sandbox actif et sélectionnez-en un autre dans la liste déroulante.
+- **Q : Qui peut affecter des sandbox aux rôles ?** — Uniquement pour les administrateurs produit ou système.
+- **Q : Comment les sandbox sont-ils mis à la disposition des utilisateurs ?** — Les sandbox sont affectés par l’intermédiaire de rôles dans le produit Autorisations .
+- **Q : Quelle convention de nommage les dossiers partagés doivent-ils respecter ?** — Le dossier partagé doit porter le même nom que le sandbox auquel il est associé (par exemple, si le sandbox est appelé « développement », le dossier partagé doit également être appelé « développement »).
+
++++
+<!-- ai-accordion-version: 1 | source-hash: 0a5ada9b -->

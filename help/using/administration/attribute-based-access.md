@@ -10,25 +10,16 @@ level: Intermediate
 keywords: abac, attribut, autorisations, données, accès, sensible, ressources
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
 TQID: https://experienceleague.adobe.com/PrmjDN7KDV5Y1NRxfEyQ-3ADOIWjgMv2OuRXitt-Wzk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 1112
-ht-degree: 96%
+source-wordcount: 1644
+ht-degree: 65%
 
 ---
 
@@ -60,7 +51,7 @@ Remarque : les **[!UICONTROL Rôles]**, les **[!UICONTROL Politiques]** et les 
 
 >[!IMPORTANT]
 >
->&#x200B;>Avant de gérer les autorisations pour un rôle, créez une politique. Pour plus d’informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=fr){target="_blank"}.
+>>Avant de gérer les autorisations pour un rôle, créez une politique. Pour plus d’informations, consultez la [documentation Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=fr){target="_blank"}.
 
 Les **[!UICONTROL rôles]** représentent un ensemble d’utilisateurs ou d’utilisatrices partageant les mêmes autorisations, libellés et sandbox au sein de votre organisation. Chaque utilisateur ou utilisatrice appartenant à un **[!UICONTROL rôle]** bénéficie des applications et services Adobe associés au produit concerné. Vous pouvez également créer vos propres **[!UICONTROL rôles]** afin d’affiner l’accès des utilisateurs ou utilisatrices à certaines fonctionnalités ou à certains objets dans l’interface.
 
@@ -181,3 +172,51 @@ Si l’utilisateur ou l’utilisatrice Y, sans accès aux objets libellés C2, a
 * L’utilisateur ou l’utilisatrice Y peut supprimer l’expression.
 * L’utilisateur ou l’utilisatrice Y ne pourra pas tester le parcours.
 * L’utilisateur ou l’utilisatrice Y ne pourra pas publier le parcours.
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Protégez les champs de données sensibles dans Journey Optimizer en appliquant des libellés de gouvernance aux champs de schéma et en attribuant des libellés correspondants aux rôles, afin que les utilisateurs non autorisés ne puissent pas afficher, modifier, tester ou publier des parcours qui utilisent ces champs restreints.
+
+**Intentions:**
+
+* Créez un rôle et attribuez un libellé de gouvernance pour restreindre l’accès à des champs de schéma spécifiques
+* Application d’un libellé à un champ de schéma dans Adobe Experience Platform pour appliquer des restrictions d’accès
+* Utilisation d’un champ de schéma libellé dans un parcours Journey Optimizer
+* Comprendre comment les utilisateurs sans les restrictions d’accès à l’expérience de libellés requises dans parcours
+* Gérer les rôles, les politiques et les produits via l’API de contrôle d’accès basé sur les attributs
+
+**Glossaire:**
+
+* **ABAC (Contrôle d’accès basé sur les attributs)** : possibilité de définir des autorisations pour gérer l’accès aux données pour des équipes ou des groupes d’utilisateurs spécifiques en fonction d’attributs tels que les libellés *(spécifiques au produit)*
+* **Rôle** : ensemble d’utilisateurs partageant les mêmes autorisations, libellés et sandbox au sein d’une organisation *(spécifique au produit)*
+* **Libellé** : marqueur de gouvernance (C2, par exemple) appliqué aux champs de schéma, aux jeux de données ou aux audiences pour contrôler quels rôles peuvent y accéder *(spécifique au produit)*
+* **Politique** : configuration qui doit être créée avant de gérer les autorisations pour un rôle, condition préalable à l’*ABAC (spécifique au produit)*
+* **Schéma XDM** : schéma de modèle de données d’expérience utilisé pour définir la structure des données dans Adobe Experience Platform *(spécifique au produit)*
+
+**Mécanismes de sécurisation :**
+
+* Une politique doit être créée avant de gérer les autorisations pour un rôle (prérequis, comme indiqué dans la remarque importante sur la page)
+* Une utilisation incorrecte des libellés peut interrompre l’accès des personnes et déclencher des violations de politique (comme indiqué dans l’Avertissement de la page)
+* Les utilisateurs sans libellé correspondant à un champ restreint ne peuvent pas : afficher le nom du champ restreint, modifier les expressions qui y font référence en mode avancé, tester le parcours ou publier le parcours
+
+**Terminologie:**
+
+* Nom canonique : Contrôle d’accès basé sur les attributs — Acronyme : ABAC — Variantes : gestion d’accès basée sur les attributs
+* Nom canonique : Modèle de données d’expérience — Acronyme : XDM — Variantes : Schéma XDM, Schémas XDM
+* Synonymes : « Libellé » = « libellé de gouvernance » = « libellé de gouvernance des données »
+* Ne les confondez pas : « Rôle » (groupe d’utilisateurs avec des autorisations et des libellés partagés) ≠ « Politique » (règles régissant l’application de l’accès aux données en fonction des libellés)
+* Ne les confondez pas : ABAC (contrôle l’accès aux champs de schéma, aux jeux de données et aux audiences par le biais de politiques de libellés au niveau de la plateforme) ≠ OLAC (contrôle l’accès à des objets Journey Optimizer spécifiques tels que des parcours et des campagnes)
+
+**FAQ:**
+
+* **Q : Est-il possible d’ajouter des libellés aux rôles intégrés ?** — Oui, les libellés peuvent être ajoutés aux rôles personnalisés et intégrés.
+* **Q : Que se passe-t-il si l’utilisateur ne dispose pas du libellé d’un champ restreint dans un parcours ?** — Le champ ne leur est pas visible ; ils ne peuvent pas modifier les expressions qui y font référence, tester le parcours ou publier le parcours.
+* **Q : Les libellés peuvent-ils être appliqués à des objets autres que les champs de schéma ?** — Oui ; les libellés peuvent également être appliqués aux schémas, aux jeux de données et aux audiences.
+* **Q : Existe-t-il une API pour gérer les rôles, les politiques et les produits avec ABAC ?** — Oui ; les rôles, politiques et produits sont accessibles via l’API de contrôle d’accès basé sur les attributs.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: aa94c226 -->

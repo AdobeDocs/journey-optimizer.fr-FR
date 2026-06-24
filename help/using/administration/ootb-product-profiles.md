@@ -10,26 +10,16 @@ level: Intermediate
 keywords: autorisations, création, messages
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
 TQID: https://experienceleague.adobe.com/LkOCFOSH-AzwWMoteNN-XI3R2yYkO5iBrVwMtobd4iI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 2137
-ht-degree: 95%
+source-wordcount: 2684
+ht-degree: 76%
 
 ---
 
@@ -240,6 +230,52 @@ Ce rôle comprend les autorisations suivantes :
 | Gestion des décisions | <ul><li>**[!DNL View decisions]** : accès en lecture seule aux entités de prise de décision.</li></ul> |
 | Règles Journey Optimizer | <ul> <li>**[!DNL View frequency rules]** : accès en lecture seule aux règles de fréquence.</li></ul> |
 | Campagnes orchestrées | <ul><li>**[!DNL View orchestrated campaigns]** : accès en lecture seule aux campagnes orchestrées.</li><li>**[!DNL View orchestrated campaigns report]** : accès en lecture seule aux rapports sur les campagnes orchestrées.</li></ul> |
+
++++ Référence des connaissances sur l’IA
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+* **TL;DR:** Journey Optimizer est fourni avec des rôles intégrés (de l’administrateur Campaign à la visionneuse Campaign orchestrée) qui regroupent chacun un jeu d’autorisations prêt à l’emploi. Les administrateurs peuvent ainsi rapidement accorder aux utilisateurs un niveau d’accès correspondant à leurs responsabilités sans avoir à créer un rôle à partir de zéro.
+
+**Intentions:**
+
+* Identifier le rôle intégré qui correspond le mieux aux responsabilités professionnelles d’un utilisateur
+* comprendre ce que chaque rôle intégré peut ou ne peut pas faire (y compris les droits de publication) ;
+* Comparer les rôles sur les domaines de parcours, de campagne et de campagne orchestrée
+* Attribuez un rôle prêt à l’emploi au lieu d’en créer un personnalisé
+* Identifier les rôles incluant l’accès d’assistant d’IA
+
+**Glossaire:**
+
+* **Rôle intégré** : ensemble prédéfini d’autorisations et de droits sur les ressources prêts à être affectés aux utilisateurs sans *de configuration personnalisée (spécifique au produit)*
+* **Administrateur de Parcours** : rôle intégré permettant la gestion et la publication des Parcours et la gestion des décisions, y compris la configuration des canaux et les autorisations de gouvernance des données *(spécifiques au produit)*
+* **Administrateur Campaign** : rôle intégré permettant la gestion et la publication de campagnes et la gestion des décisions, y compris les configurations de canal *(spécifiques au produit)*
+* **Gestionnaire de prise de décision** : rôle intégré permettant d&#39;accéder exclusivement au menu Gestion des décisions . Peut gérer, afficher et publier des décisions *(spécifiques au produit)*
+* **Gestionnaire de bibliothèques de contenu** : rôle intégré permettant d’accéder uniquement au menu Modèles de contenu ; accès aux parcours ou aux campagnes *(spécifique au produit)*
+* **Mode test** : mode d’exécution de parcours référencé dans les autorisations Gérer les parcours et Publier les parcours (l’administrateur de Parcours peut arrêter les parcours en mode test ; l’autorisation Publier les parcours comprend le démarrage du mode test) *(spécifique au produit)*
+* **Exécution d’essai** : mode d’exécution de parcours référencé dans les autorisations Gérer les parcours et Publier les parcours avec le mode de test *(spécifique au produit)*
+
+**Terminologie:**
+
+* Nom canonique : rôles intégrés - variantes : rôles prêts à l’emploi, rôles prêts à l’emploi, profils de produit
+* Ne les confondez pas : « Approbateur de campagne » (peut approuver et publier des campagnes) ≠ « Gestionnaire de campagne » (peut créer et modifier des campagnes, mais ne peut pas les publier)
+* Ne les confondez pas : « Approbateur de Parcours » (peut approuver et publier des parcours) ≠ « Gestionnaire de Parcours » (peut créer et modifier des parcours, mais ne peut pas les publier)
+* Ne les confondez pas : « Visionneuse de Parcours » (accès en lecture seule aux parcours et à la gestion des décisions) ≠ « Visionneuse de campagnes » (accès en lecture seule aux campagnes et à la gestion des décisions)
+* Ne les confondez pas : « Administrateur de campagne orchestré » (gère les campagnes orchestrées, inclut l’assistant AI et l’ingestion/gestion des données) ≠ « Administrateur de campagne » (gère les campagnes standard ; n’inclut pas les autorisations de campagne orchestrées)
+* Ne les confondez pas : « Mode test » (référencé comme un état d’exécution de parcours pouvant être arrêté ou démarré via Gérer les parcours/Publier les parcours) ≠ « Exécution d’essai » (un mode d’exécution de parcours distinct également référencé dans ces mêmes autorisations)
+
+**FAQ:**
+
+* **Q : Quels rôles intégrés peuvent publier des parcours ?** — L&#39;administrateur de Parcours et l&#39;approbateur de Parcours peuvent publier des parcours.
+* **Q : Un gestionnaire de Parcours peut-il publier des parcours ?** — Non ; le gestionnaire de Parcours peut créer et modifier des parcours, mais l’autorisation Publier les parcours n’est pas incluse dans ce rôle.
+* **Q : Quel rôle accorde l’accès uniquement au menu Gestion des décisions ?** — Gestionnaire de prise de décision.
+* **Q : Quel rôle permet d’accéder uniquement aux modèles de contenu ?** — Gestionnaire de bibliothèque de contenu.
+* **Q : Quels rôles intégrés incluent l’autorisation Activer l’assistant d’IA ?** — Administrateur de campagne orchestré, Approbateur de campagne orchestré, Gestionnaire de campagne orchestré et Observateur de campagne orchestré.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: b9740765 -->
 
 
 
