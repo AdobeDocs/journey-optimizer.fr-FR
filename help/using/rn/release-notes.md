@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d5e17c13efad1b99ee788fc5930f27e15ffdb337
+source-git-commit: 2f40bb1c966b677900e4b0eb643d8665e77c3423
 workflow-type: tm+mt
 source-wordcount: 3525
 ht-degree: 26%
@@ -389,7 +389,7 @@ Les améliorations suivantes ont été ajoutées au canal e-mail dans cette vers
 
 * **Convertisseur Image vers HTML amélioré** - Une nouvelle version de la fonctionnalité de convertisseur Image vers HTML est désormais disponible, offrant une précision améliorée pour la génération HTML. Cette mise à jour exploite des modèles LLM de niveau supérieur pour fournir une sortie HTML plus précise et plus fiable à partir des entrées d’image.
 
-  Date de disponibilité : Fin juin 2026
+  Date de disponibilité : 18 juin 2026
 
 +++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications.**
 
