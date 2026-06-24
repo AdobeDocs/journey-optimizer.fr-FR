@@ -12,9 +12,9 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 001f14c03b0142402a485b049dfb62c9837c7928
+source-git-commit: 20630efe560616836d325e0223a2ecf44d2b82bc
 workflow-type: tm+mt
-source-wordcount: 512
+source-wordcount: 550
 ht-degree: 0%
 
 ---
@@ -38,6 +38,8 @@ Adobe Journey Optimizer s’intègre à **[!DNL Adobe Experience Manager as a Cl
 > **[!UICONTROL Intégration AEM]** enregistre les paramètres du référentiel **par sandbox**. Chaque sandbox conserve ses propres intégrations qui ne s’appliquent pas à tous les sandbox.
 
 Journey Optimizer stocke une intégration par organisation, sandbox et référentiel Adobe Experience Manager. Si vous enregistrez une nouvelle intégration pour cette même combinaison, elle remplace les paramètres précédents. Seule la dernière configuration est conservée.
+
+➡️ [Découvrez cette fonctionnalité pour Adobe Experience Manager Managed Service en vidéo](#video)
 
 Pour configurer votre référentiel :
 
@@ -109,3 +111,8 @@ Pour configurer votre référentiel :
 
 Lorsque vous enregistrez cette configuration, Journey Optimizer la stocke pour ce référentiel dans le sandbox actuel. Vous pouvez ensuite utiliser ce référentiel et ses paramètres lors de la navigation et de la sélection de contenu dans le sélecteur **Gestionnaire de contenu**.
 
+## Vidéo pratique {#video}
+
+Découvrez comment les administrateurs configurent les paramètres du référentiel Adobe Experience Manager Managed Services dans Journey Optimizer afin que les marketeurs puissent utiliser les fragments de contenu dans les parcours et les campagnes.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3492531?captions=fre_fr&quality=12)
