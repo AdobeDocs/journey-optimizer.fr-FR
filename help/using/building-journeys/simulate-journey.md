@@ -11,9 +11,9 @@ keywords: test, parcours, vérification, erreur, dépannage
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: 1d7a11990a82622e219a9cfef4ddd89d439477da
 workflow-type: tm+mt
-source-wordcount: 2888
+source-wordcount: 2904
 ht-degree: 0%
 
 ---
@@ -206,6 +206,10 @@ Les utilisateurs simulés sont des entités temporaires de type profil que vous 
 Après avoir validé le parcours dans **[!UICONTROL Simulation]**, consultez le journal **[!UICONTROL Résultats]**. Si des erreurs s’affichent, laissez **[!UICONTROL Simulation]**, apportez les modifications requises au parcours et exécutez à nouveau **[!UICONTROL Simulation]** jusqu’à ce que l’exécution semble correcte. Vous pouvez ensuite publier le parcours. Voir [Publier votre parcours &#x200B;](../building-journeys/publish-journey.md).
 
 ## Déclencher vos événements {#firing-events}
+
+>[!NOTE]
+>
+>Les événements déclenchés dans la simulation sont stockés dans des jeux de données dédiés dans Adobe Experience Platform, libellés comme suit : ``JOtestmode - <schema of your event>``.
 
 Si votre parcours comprend un ou plusieurs événements unitaires, vous pouvez les déclencher lorsque la Simulation est active. Pour les parcours ne commençant pas par un événement mais en contenant un, cette section ne sera pas visible tant qu’un utilisateur simulé n’aura pas accédé au parcours.
 
