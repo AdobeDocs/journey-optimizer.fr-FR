@@ -8,8 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: AEM, fragments de contenu, administration, référentiel, authentification, auteur, publication
-feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
 source-git-commit: b7d613c888f67333a4baedfe1605c5ac4f32b18d
 workflow-type: tm+mt
 source-wordcount: 557
