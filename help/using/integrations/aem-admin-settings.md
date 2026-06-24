@@ -12,9 +12,9 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 20630efe560616836d325e0223a2ecf44d2b82bc
+source-git-commit: b7d613c888f67333a4baedfe1605c5ac4f32b18d
 workflow-type: tm+mt
-source-wordcount: 550
+source-wordcount: 557
 ht-degree: 0%
 
 ---
@@ -49,23 +49,25 @@ Pour configurer votre référentiel :
 
    ![](assets/aem-admin-settings-1.png)
 
-1. Si vous utilisez **[!DNL Adobe Experience Manager Managed Services]**, saisissez un nom d’hôte de référentiel se terminant par `adobecqms.net` dans le champ **[!UICONTROL ID de référentiel AMS personnalisé]**.
+1. Choisissez une méthode de configuration :
 
-   ![](assets/aem-admin-settings-6.png)
+   * Pour **[!DNL Adobe Experience Manager Managed Services]** référentiel, saisissez un nom d’hôte de référentiel se terminant par `adobecqms.net` dans le champ **[!UICONTROL Nom d’hôte du référentiel AMS]**.
 
-1. Si vous utilisez **[!DNL Adobe Experience as a Cloud Service]**, choisissez le référentiel à configurer, puis cliquez sur **[!UICONTROL Suivant]**.
+     ![](assets/aem-admin-settings-6.png)
 
-   De plus, vous pouvez cliquer sur **[!UICONTROL Afficher]** pour accéder à ce référentiel.
+   * Si vous utilisez **[!DNL Adobe Experience as a Cloud Service]**, choisissez le référentiel à configurer, puis cliquez sur **[!UICONTROL Suivant]**.
 
-   >[!IMPORTANT]
-   >
-   >L’enregistrement d’une nouvelle configuration pour la même organisation, le même sandbox et le même référentiel **remplace** la configuration par défaut, c’est-à-dire le référentiel **publier**.
+     De plus, vous pouvez cliquer sur **[!UICONTROL Afficher]** pour accéder à ce référentiel.
 
-   ![](assets/aem-admin-settings-2.png)
+     >[!IMPORTANT]
+     >
+     >L’enregistrement d’une nouvelle configuration pour la même organisation, le même sandbox et le même référentiel **remplace** la configuration par défaut, c’est-à-dire le référentiel **publier**.
+
+     ![](assets/aem-admin-settings-2.png)
 
 1. Saisissez un **[!UICONTROL Nom]** et un **[!UICONTROL Description]**.
 
-1. Choisissez votre configuration :
+1. Choisissez votre configuration dans le menu déroulant ci-dessous :
 
    +++ Configuration de l’auteur uniquement
 
@@ -74,6 +76,8 @@ Pour configurer votre référentiel :
    ![](assets/aem-admin-settings-3.png)
 
    +++
+
+   </br>
 
    +++ Configuration de l’instance de publication
 
