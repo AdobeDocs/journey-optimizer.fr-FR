@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
+source-git-commit: d7d7519e6f046802653ed470d00851f17a315bc6
 workflow-type: tm+mt
-source-wordcount: 8714
+source-wordcount: 8760
 ht-degree: 92%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 92%
 Cette page répertorie toutes les dernières modifications apportées à la documentation [!DNL Journey Optimizer], en plus des mises à jour liées aux fonctionnalités et améliorations de la version mensuelle.
 
 ## Juin 2026 {#june-2026}
+
+* La documentation **Exploiter les thèmes dans un fragment** a été clarifiée afin de documenter explicitement la limite de compatibilité de 5 thèmes (y compris la contrainte de thème par défaut d’Adobe) et d’expliquer que l’insertion de fragments est bloquée lorsque le thème de l’e-mail n’est pas l’un des thèmes associés au fragment. [En savoir plus](../email/apply-email-themes.md#leverage-themes-fragment)
 
 * Les pages **Prise en main des jeux de données** et **Prise en main des schémas** ont été mises à jour avec des conseils sur l’activation des jeux de données et des schémas pour le profil client en temps réel, y compris des considérations essentielles, la distinction entre la désactivation d’un jeu de données par rapport à son schéma sous-jacent et des liens vers la documentation sur la planification et les bonnes pratiques Adobe Experience Platform. [En savoir plus sur les jeux de données](../data/get-started-datasets.md) et [En savoir plus sur les schémas](../data/get-started-schemas.md)
 

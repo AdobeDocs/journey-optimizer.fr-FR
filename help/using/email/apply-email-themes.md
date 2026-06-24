@@ -28,10 +28,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: d7d7519e6f046802653ed470d00851f17a315bc6
 workflow-type: tm+mt
-source-wordcount: 1776
-ht-degree: 89%
+source-wordcount: 1798
+ht-degree: 95%
 
 ---
 
@@ -80,7 +80,7 @@ Cette fonctionnalité permet aux spécialistes du marketing d’utiliser plus ra
 
 * Lors de l’utilisation de polices web personnalisées (y compris les polices Google) dans vos thèmes, sachez que de nombreux clients de messagerie ne les prennent pas en charge. Définissez toujours des polices de secours appropriées dans votre thème pour garantir la lisibilité sur tous les clients de messagerie.
 
-   * Gmail et Yahoo ! ne chargez pas de polices web externes et reviendront aux polices système, quelle que soit la famille de polices spécifiée dans votre HTML/CSS.
+   * Gmail et Yahoo! ne chargent pas de polices web externes et reviendront aux polices système, quelle que soit la famille de polices spécifiée dans votre contenu HTML/CSS.
    * Les seules polices Google prises en charge par Gmail sont Roboto et Google Sans.
    * Les clients de messagerie qui *prennent* en charge les polices web sont Apple Mail, iOS Mail, Android Mail, Thunderbird et Outlook pour macOS.
 
@@ -132,7 +132,7 @@ Pour définir un thème que vous pouvez utiliser dans les futurs contenus d’e-
 
    >[!NOTE]
    >
-   >Lors de la sélection de polices web personnalisées, notez que de nombreux clients de messagerie, tels que Gmail et Yahoo ! ne prend pas en charge les polices web externes et va revenir aux polices système. Pensez à inclure des polices de secours pour vous assurer que votre contenu s’affiche correctement sur tous les clients de messagerie. [En savoir plus](#themes-guardrails)
+   >Lors de la sélection de polices web personnalisées, notez que de nombreux clients de messagerie, tels que Gmail et Yahoo! ne prennent pas en charge les polices web externes et vont revenir aux polices système. Pensez à inclure des polices de secours pour vous assurer que votre contenu s’affiche correctement sur tous les clients de messagerie. [En savoir plus](#themes-guardrails)
 
 1. Dans l’onglet **[!UICONTROL Espacement]**, sélectionnez un élément dans la liste pour l’espacer correctement entre les différents composants.
 
@@ -246,11 +246,15 @@ Pour créer un fragment compatible avec les thèmes, procédez comme suit.
 
 1. Vous pouvez naviguer entre les onglets **[!UICONTROL Thèmes Adobe]** et **[!UICONTROL Mes thèmes]** et sélectionner jusqu’à cinq thèmes compatibles (dans les deux onglets) pour votre fragment.
 
+   >[!NOTE]
+   >
+   >Cette limite est appliquée pour des raisons de compatibilité et de performances. Impossible de supprimer le thème par défaut **&#x200B;**&#x200B;vous pouvez donc sélectionner jusqu’à quatre thèmes personnalisés supplémentaires.
+
    ![](assets/fragment-select-compatible-themes.png){width=70%}
 
    >[!CAUTION]
    >
-   >Lors de l’utilisation du fragment dans le contenu d’un e-mail, veillez à [appliquer un thème](#apply-themes-email) que vous avez défini pour ce fragment. Si vous ne le faites pas, vous risquez de rencontrer des problèmes d’affichage, en particulier dans Outlook 2021 et les versions précédentes.
+   >Lors de l’utilisation de ce fragment dans un contenu d’e-mail, le thème de l’e-mail doit être l’un des thèmes associés au fragment. Si le thème ne correspond pas, l’insertion du fragment est bloquée.
 
 1. Cliquez sur **[!UICONTROL Fermer]**.
 
@@ -280,7 +284,7 @@ Pour créer un fragment compatible avec les thèmes, procédez comme suit.
 
 1. Attribuez un nom à votre thème.
 
-1. Effectuez vos propres ajustements si nécessaire, comme vous le faites lors de la création d’un thème à partir de zéro, comme l’ajout d’une variante de couleur, la modification des polices, etc. [Découvrez comment &#x200B;](#create-and-edit-themes)
+1. Effectuez vos propres ajustements si nécessaire, comme lorsque vous créez un thème à partir de zéro, en ajoutant une variante de couleur, en modifiant des polices, etc. [Découvrir comment](#create-and-edit-themes)
 
    ![](assets/generate-theme-colors.png){width=90%}
 
