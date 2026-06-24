@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 9f5c041e7bd0febf3ba08e68d5ae213bedfb8360
+source-git-commit: 61c97e285ca44c37cf517c608943dece9e2531c0
 workflow-type: tm+mt
-source-wordcount: 3520
+source-wordcount: 3525
 ht-degree: 26%
 
 ---
@@ -334,7 +334,7 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées à la gesti
 +++
 
 
-### Canal e-mail {#june-26-email}
+### Canal E-mail {#june-26-email}
 
 Les améliorations suivantes ont été ajoutées au canal e-mail dans cette version.
 
@@ -359,7 +359,7 @@ Les améliorations suivantes ont été ajoutées au canal e-mail dans cette vers
 <p>Par exemple, lorsque vous utilisez le composant Texte comme champ modifiable dans le Designer d’e-mail, vous pouvez directement mettre en forme le contenu (en gras et en italique, par exemple) et insérer des liens hypertexte.</p>
 <p><img src="assets/do-not-localize/rich-text-editable-fields.gif"></p>
 <p>Pour plus d'informations, consultez la <a href="../content-management/customizable-fragments.md#rich-text-visual">documentation détaillée</a>.</p>
-<p>Date de disponibilité : Fin juin 2026</p>
+<p>Date de disponibilité : 19 juin 2026</p>
 </td>
 </tr>
 </tbody>
@@ -387,7 +387,7 @@ Les améliorations suivantes ont été ajoutées au canal e-mail dans cette vers
 
 * **Convertisseur Image vers HTML amélioré** - Une nouvelle version de la fonctionnalité de convertisseur Image vers HTML est désormais disponible, offrant une précision améliorée pour la génération HTML. Cette mise à jour exploite des modèles LLM de niveau supérieur pour fournir une sortie HTML plus précise et plus fiable à partir des entrées d’image.
 
-  Date de disponibilité : 18 juin 2026
+  Date de disponibilité : Fin juin 2026
 
 +++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications.**
 
@@ -402,6 +402,7 @@ Les améliorations suivantes ont été ajoutées au canal e-mail dans cette vers
 <td>
 <p>Journey Optimizer comprend désormais une option permettant de réduire la taille de l’HTML de votre e-mail en supprimant les espaces blancs, les commentaires et le code redondant inutiles, sans affecter le rendu de l’e-mail.</p>
 <p>Cela peut améliorer la délivrabilité en évitant les seuils de taille que certains fournisseurs de messagerie utilisent pour marquer ou rejeter les messages et peut réduire le temps de chargement des destinataires.</p>
+<p>Date de disponibilité : Fin juin 2026</p>
 </td>
 </tr>
 </tbody>
