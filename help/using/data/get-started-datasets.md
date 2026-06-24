@@ -47,7 +47,7 @@ Toutes les données correctement ingérées par Adobe Experience Platform sont
 
 ## Mécanismes de sécurisation et limitations
 
-* À compter du 1er novembre 2024, la segmentation du streaming ne prendra plus en charge l’utilisation des événements d’envoi et d’ouverture provenant des jeux de données de suivi et de feedback de [!DNL Journey Optimizer]. Pour l’implémentation d’un capping de fréquence ou d’une gestion de la lassitude, utilisez plutôt des règles métier. Vous trouverez plus d’informations dans [cette section](../conflict-prioritization/rule-sets.md), y compris une explication d’un cas d’utilisation pour un capping de fréquence quotidien [ici](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}.
+* À compter du 1er novembre 2024, la segmentation du streaming ne prendra plus en charge l’utilisation des événements d’envoi et d’ouverture provenant des jeux de données de suivi et de feedback de [!DNL Journey Optimizer]. Pour l’implémentation d’un capping de fréquence ou d’une gestion de la lassitude, utilisez plutôt des règles métier. Vous trouverez plus d’informations dans [cette section](../conflict-prioritization/rule-sets.md), y compris une explication d’un cas d’utilisation pour un capping de fréquence quotidien [ici](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=fr){target="_blank"}.
 
 * Depuis février 2025, un mécanisme de sécurisation sur la durée de vie (TTL) est déployé dans les jeux de données générés par le système Journey Optimizer. [En savoir plus](datasets-ttl.md)
 
@@ -132,8 +132,8 @@ Avant l’activation, gardez les points suivants à l’esprit :
 
 Pour obtenir des conseils détaillés, consultez la documentation de Adobe Experience Platform :
 
-* [Planification de l’activation des profils](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"} — liste de contrôle de préactivation couvrant la configuration des identités, la sélection des groupes de champs et la validation de l’objectif du jeu de données.
-* [Gestion des schémas activés pour les profils](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"} — Conseils sur l’obsolescence des schémas activés pour les profils, y compris le changement de nom des stratégies.
+* [Planification de l’activation des profils](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"} — liste de contrôle de préactivation couvrant la configuration des identités, la sélection des groupes de champs et la validation de l’objectif du jeu de données.
+* [Gestion des schémas activés pour les profils](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"} — Conseils sur l’obsolescence des schémas activés pour les profils, y compris le changement de nom des stratégies.
 
 ## Gouvernance des données
 
@@ -157,4 +157,4 @@ En savoir plus sur la gouvernance des données et les libellés d’utilisation 
 >* [Documentation relative aux jeux de données](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=fr){target="_blank"}
 >* [Documentation sur l’ingestion de données](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=fr){target="_blank"}
 >* [Bonnes pratiques relatives aux droits de licence de gestion des données](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
->* [Gestion des schémas activés pour Profil](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
+>* [Gestion des schémas activés pour Profil](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
