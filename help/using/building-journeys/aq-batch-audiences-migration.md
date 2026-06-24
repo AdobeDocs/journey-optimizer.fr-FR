@@ -2,22 +2,18 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Migrer des audiences par lots à partir des parcours de qualification d’audience
-description: Découvrez comment migrer les parcours qui utilisent des audiences par lots dans un nœud de qualification d’audience avant la date d’application d’août 2026.
+description: Découvrez comment migrer des parcours qui utilisent des audiences par lots dans un nœud de qualification d’audience avant la date d’application.
 feature: Journeys, Activities, Audiences
 topic: Content Management
 role: User
 level: Intermediate
 keywords: qualification d’audience, audience par lots, obsolescence, migration, lecture d’audience, diffusion en continu d’audience
 exl-id: f3c2a7d1-b58e-4a92-c3d5-0e871f2a9b4c
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-source-git-commit: cea41add5b86adb3b447ce606e73248adce0f731
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+source-git-commit: 4a5cbd65b7046e8f1b82147cdc2cd61a3991c258
 workflow-type: tm+mt
-source-wordcount: 869
+source-wordcount: 867
 ht-degree: 0%
 
 ---
@@ -46,7 +42,7 @@ Un parcours en direct qui utilise une audience par lots dans un nœud Qualificat
 
 | Statut du parcours | Impact après août 2026 |
 | --- | --- |
-| parcours en direct **&#x200B;**&#x200B;| Pas impacté. Les parcours dynamiques existants continuent de s’exécuter. Pas d&#39;arrêt automatique. |
+| parcours en direct **** | Pas impacté. Les parcours dynamiques existants continuent de s’exécuter. Pas d&#39;arrêt automatique. |
 | **Nouveaux parcours** | Bloqué de la publication jusqu’au remplacement de l’audience par lots. |
 | **Projets de parcours** | Bloqué de la publication jusqu’au remplacement de l’audience par lots. |
 | **parcours dupliqués** | Bloqué de la publication jusqu’au remplacement de l’audience par lots. |
@@ -105,6 +101,6 @@ Si votre cas d’utilisation ne peut pas être résolu à l’aide de l’un des
 * [À propos des audiences](../audience/about-audiences.md) — types d’audiences et leur création dans Journey Optimizer
 * [Gérer la liste de suppression](../configuration/manage-suppression-list.md) — Comment accéder à la suppression des rebonds et la configurer
 * [Mécanismes de sécurisation et limitations du parcours](limitations.md)
-* [Critères d&#39;entrée et de sortie de Parcours &#x200B;](entry-exit-criteria-guide.md) — comprendre les modèles d&#39;entrée en temps réel ou par lots à l&#39;aide d&#39;exemples concrets
+* [Critères d&#39;entrée et de sortie de Parcours ](entry-exit-criteria-guide.md) — comprendre les modèles d&#39;entrée en temps réel ou par lots à l&#39;aide d&#39;exemples concrets
 * [Envoyer des messages multicanaux](journeys-uc.md#send-multi-channel-messages) : cas d&#39;utilisation complet combinant la lecture d&#39;audience, les événements de réaction, les e-mails et les notifications push
 * [Envoyer un message aux abonnés](message-to-subscribers-uc.md) — cas d’utilisation de bout en bout pour l’activation d’audiences en masse avec Lecture d’audience
