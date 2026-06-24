@@ -2,35 +2,25 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 'Parcours ou campagnes : choisir la bonne approche'
-description: Comparez les Parcours, les campagnes d’action, les campagnes déclenchées par API et les campagnes orchestrées afin de choisir l’approche appropriée à vos besoins marketing dans Adobe Journey Optimizer.
+description: Comparez les Parcours, les campagnes d’action et les campagnes déclenchées par API pour choisir l’approche appropriée à vos besoins marketing dans Adobe Journey Optimizer.
 feature: Journeys, Campaigns, Get Started, Overview
 topic: Content Management
 role: User
 level: Beginner
-keywords: parcours, campagne, orchestré, comparaison, choisir, décision, workflow, temps réel, lot, orchestration, à plusieurs étapes, planifié, déclenché par API, piloté par événement
+keywords: parcours, campagne, comparaison, choisir, décision, workflow, temps réel, lot, orchestration, à plusieurs étapes, planifié, déclenché par API, piloté par événement
 hide: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
 TQID: https://experienceleague.adobe.com/RWLVSULVO0idnCs5OVQR1yVvNv1G0JwP3y-3sNXQg50
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: addf009e-030a-4310-8534-776a3e62ed48
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 9dba85545968da9957c42516cb03a4e77ed302f1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: addf009e-030a-4310-8534-776a3e62ed48id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: 1904
-ht-degree: 55%
+source-wordcount: 1660
+ht-degree: 43%
 
 ---
 
@@ -38,13 +28,17 @@ ht-degree: 55%
 
 >[!BEGINSHADEBOX]
 
-**Sur cette page :** Comparer des parcours avec des campagnes d’action, déclenchées par une API et orchestrées afin de pouvoir choisir l’approche appropriée pour chaque cas d’utilisation marketing dans Adobe Journey Optimizer.
+**Sur cette page :** Comparer des parcours avec des campagnes déclenchées par action et API afin de choisir l’approche appropriée pour chaque cas d’utilisation marketing dans Adobe Journey Optimizer. Pour les campagnes orchestrées, voir [Prise en main des campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md).
 
 >[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] offre deux méthodes principales pour atteindre et impliquer vos clients : **Parcours** et **Campagnes**. Les parcours sont conçus pour une orchestration en temps réel et à plusieurs étapes basée sur le comportement du client. Les campagnes sont mieux adaptées aux diffusions ponctuelles ou planifiées vers une audience définie. Une fois que vous avez choisi une campagne, vous pouvez choisir le type de campagne qui correspond le mieux à votre cas d’utilisation.
 
-Ce guide vous aide à choisir en fonction du style d’exécution, des besoins en données et du cas d’utilisation, avec une comparaison rapide, une arborescence de décision et des exemples concrets.
+Ce guide vous aide à choisir entre les Parcours, les campagnes d’action et les campagnes déclenchées par l’API en fonction du style d’exécution, des besoins en données et du cas d’utilisation, avec une comparaison rapide, une arborescence de décision et des exemples concrets.
+
+>[!NOTE]
+>
+>Les **campagnes orchestrées** présentent des caractéristiques architecturales distinctes (exécution par lots côté hub, données relationnelles à entités multiples) qui nécessitent des conseils dédiés. Ils ne sont pas inclus dans les tableaux de comparaison ci-dessous afin d’éviter une simplification excessive. [En savoir plus sur les campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md)
 
 ## Comparaison rapide {#quick-overview}
 
@@ -53,32 +47,31 @@ Ce guide vous aide à choisir en fonction du style d’exécution, des besoins e
 | **Parcours** | Expériences clients en temps réel et à plusieurs étapes avec logique conditionnelle | Orchestration 1:1 : chaque profil à son propre rythme |
 | **Campagnes d’action** | Diffusions planifiées ou récurrentes vers les audiences | Exécution par lots : audience traitée ensemble au moment de l’envoi |
 | **Campagnes déclenchées par API** | Messages déclenchés par un événement ou transactionnels provenant de systèmes externes | Exécution à la demande : déclenchée par un appel API avec payload |
-| **Campagnes orchestrées** | Workflows par lots complexes avec segmentation d’entités multiples | Zone de travail par lots : tous les profils sont traités ensemble. |
 
 >[!TIP]
 >
->**Règle empirique rapide :** avez-vous besoin que chaque client évolue à son propre rythme avec la logique en temps réel ? Utilisez **&#x200B;**. Envoyer un seul message à une audience selon un planning ? Utilisez **Campagnes d’action**. Déclencher un seul message depuis un système externe via l&#39;API ? Utilisez des **campagnes déclenchées par API** — ou un **parcours d’événement unitaire** si vous avez besoin d’une orchestration à plusieurs étapes après l’événement envoyé par l’API. Besoin de données multi-entités, de décomptes exacts ou d’une zone de travail par lots ? Utilisez **Campagnes orchestrées**.
+>**Règle empirique rapide :** avez-vous besoin que chaque client évolue à son propre rythme avec la logique en temps réel ? Utilisez ****. Envoyer un seul message à une audience selon un planning ? Utilisez **Campagnes d’action**. Déclencher un seul message depuis un système externe via l&#39;API ? Utilisez des **campagnes déclenchées par API** — ou un **parcours d’événement unitaire** si vous avez besoin d’une orchestration à plusieurs étapes après l’événement envoyé par l’API.
 
 ## Comparaison détaillée {#detailed-comparison}
 
 Utilisez ce tableau complet pour comprendre les principales différences :
 
-| Fonctionnalité | Parcours | Campagnes d’action | Campagnes déclenchées par API | Campagnes orchestrées |
-|---------|----------|------------------|------------------------|----------------------|
-| **Objectif principal** | Orchestration 1:1 en plusieurs étapes avec contexte client en temps réel | Diffusion de messages ponctuels ou récurrents aux audiences | Messages transactionnels ou pilotés par un événement déclenchés par des systèmes externes | Campagnes par lots en plusieurs étapes avec des workflows de segmentation complexes |
-| **Type de zone de travail** | Zone de travail 1:1 : chaque profil évolue à son propre rythme. | Aucune zone de travail : exécution d’action unique | Aucune zone de travail : exécution d’action unique | Zone de travail par lots : tous les profils sont traités ensemble. |
-| **Flux d’exécution** | Actions séquentielles, le profil conserve son état tout au long du parcours. | Exécution simultanée pour l’audience entière | Exécution immédiate par appel API | Workflow par lots en plusieurs étapes avec activités et transitions |
-| **Mécanisme d’entrée** | Événements, audiences, qualifications, événements métier | Activation et planification manuelles | Appel API depuis un système externe | Exécution planifiée du workflow par lots |
-| **Modèle de données** | Profil en temps réel + données d’événement | Données de profil des audiences Experience Platform | Données de payload de l’API avec recherche de profil facultative | Données relationnelles multi-entités (profils, produits, boutiques, réservations) |
-| **Segmentation** | Audiences préconfigurées + conditions en temps réel | Audiences préconfigurées à partir d’Experience Platform | Ciblage piloté par la payload (aucune audience planifiée) | Audiences à la demande créées dans la zone de travail avec des nombres exacts |
-| **Traitement du profil** | Individuel, en temps réel (au fur et à mesure des événements) | Par lots, tous en même temps | Par appel API, piloté par la payload | Par lots, le tout avec prise en charge multi-entités |
-| **Personnalisation** | Données contextuelles en temps réel + attributs de profil | Attributs de profil | Données de payload + attributs de profil facultatifs | Données multi-entités pour un ciblage précis |
-| **Complexité** | Plusieurs étapes avec embranchement, temps d’attente, conditions | Action unique ou workflow simple | Action unique avec mappage de la payload | Workflows par lots en plusieurs étapes avec segmentation, enrichissement et partages |
-| **Idéal pour** | Parcours du cycle de vie client, intégration, abandon de panier | Campagnes promotionnelles, newsletters, annonces | Confirmations de commande, alertes d’expédition, réinitialisations de mot de passe | Campagnes saisonnières complexes, promotions en plusieurs étapes, lancements de produits |
-| **Timing** | Continu, toujours actif une fois publié | Dates de début/fin planifiées | À la demande, piloté par les événements via l’API | Exécution par lots selon le planning |
-| **Gestion des états** | Maintient l’état de la clientèle pour les actions en temps réel. | Exécution sans état | Exécution sans état par appel | Traitement par lots avec tables de travail |
-| **À utiliser quand** | Plusieurs points de contact sont nécessaires avec la logique de décision en temps réel. | Message simple à une audience à une heure spécifique | Le système externe doit déclencher un message immédiatement | Nécessite une segmentation complexe, des données multi-entités ou des nombres exacts de pré-envois. |
-| **Fonctionnalités uniques** | Réactions en temps réel, activités d’attente, fréquence basée sur les profils | Planification, ciblage d&#39;audience, contrôle des taux | Mappage de la payload de l’API, déclenchement système à système | Jeux de données relationnels, segmentation multi-entités, nombres exacts, envoi à plusieurs niveaux |
+| Fonctionnalité | Parcours | Campagnes d’action | Campagnes déclenchées par API |
+|---------|----------|------------------|------------------------|
+| **Objectif principal** | Orchestration 1:1 en plusieurs étapes avec contexte client en temps réel | Diffusion de messages ponctuels ou récurrents aux audiences | Messages transactionnels ou pilotés par un événement déclenchés par des systèmes externes |
+| **Type de zone de travail** | Zone de travail 1:1 : chaque profil évolue à son propre rythme. | Aucune zone de travail : exécution d’action unique | Aucune zone de travail : exécution d’action unique |
+| **Flux d’exécution** | Actions séquentielles, le profil conserve son état tout au long du parcours. | Exécution simultanée pour l’audience entière | Exécution immédiate par appel API |
+| **Mécanisme d’entrée** | Événements, audiences, qualifications, événements métier | Activation et planification manuelles | Appel API depuis un système externe |
+| **Modèle de données** | Profil en temps réel + données d’événement | Données de profil des audiences Experience Platform | Données de payload de l’API avec recherche de profil facultative |
+| **Segmentation** | Audiences préconfigurées + conditions en temps réel | Audiences préconfigurées à partir d’Experience Platform | Ciblage piloté par la payload (aucune audience planifiée) |
+| **Traitement du profil** | Individuel, en temps réel (au fur et à mesure des événements) | Par lots, tous en même temps | Par appel API, piloté par la payload |
+| **Personnalisation** | Données contextuelles en temps réel + attributs de profil | Attributs de profil | Données de payload + attributs de profil facultatifs |
+| **Complexité** | Plusieurs étapes avec embranchement, temps d’attente, conditions | Action unique ou workflow simple | Action unique avec mappage de la payload |
+| **Idéal pour** | Parcours du cycle de vie client, intégration, abandon de panier | Campagnes promotionnelles, newsletters, annonces | Confirmations de commande, alertes d’expédition, réinitialisations de mot de passe |
+| **Timing** | Continu, toujours actif une fois publié | Dates de début/fin planifiées | À la demande, piloté par les événements via l’API |
+| **Gestion des états** | Maintient l’état de la clientèle pour les actions en temps réel. | Exécution sans état | Exécution sans état par appel |
+| **À utiliser quand** | Plusieurs points de contact sont nécessaires avec la logique de décision en temps réel. | Message simple à une audience à une heure spécifique | Le système externe doit déclencher un message immédiatement |
+| **Fonctionnalités uniques** | Réactions en temps réel, activités d’attente, fréquence basée sur les profils | Planification, ciblage d&#39;audience, contrôle des taux | Mappage de la payload de l’API, déclenchement système à système |
 
 ## Guide de décision {#decision-guide}
 
@@ -104,11 +97,8 @@ Suivez cet arbre de décision pour choisir la bonne approche. De nombreuses marq
 * Personnalisation basée sur la payload
 * Choisissez des campagnes lorsqu’aucune logique à plusieurs étapes n’est nécessaire
 
-**Workflow par lots complexe avec segmentation avancée ?**
-→ **Utiliser des campagnes orchestrées**
-* Données multi-entités nécessaires (produits, magasins, réservations)
-* Exiger des nombres exacts de pré-envois
-* Traitement par lots en plusieurs étapes avec partages et enrichissement
+**Workflow par lots complexe avec segmentation avancée, données multi-entités ou nombre exact de pré-envois ?**
+→ **Utiliser des campagnes orchestrées** — Consultez [Prise en main des campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md) pour obtenir des conseils détaillés.
 
 ### Étape 2 : valider votre choix
 
@@ -120,10 +110,9 @@ Suivez cet arbre de décision pour choisir la bonne approche. De nombreuses marq
 | Annonce promotionnelle à l’ensemble de la clientèle | Campagnes d’action | Message ponctuel, diffusion immédiate |
 | Réengager les personnes inactives en fonction de leur comportement | Parcours | Déclenché par la qualification d’audience, chemin personnalisé |
 | Vente flash déclenchée par un événement métier | Parcours (événement métier) | Déclencheur en temps réel affectant plusieurs membres de la clientèle |
-| Promotion saisonnière avec intégration du catalogue de produits | Campagnes orchestrées | Données multi-entités, segmentation complexe, nombres exacts |
 | Message transactionnel déclenché par API (envoi unique) | Campagnes déclenchées par l’API | Déclencheur de système externe, diffusion immédiate en une seule fois |
 | Flux à plusieurs étapes déclenché par API | Parcours (Événement unitaire) | Le système externe envoie un événement unitaire via l’API ; le parcours orchestre les étapes de suivi. |
-| Envoi à plusieurs niveaux par réservation | Campagnes orchestrées | Relations multi-entités, un message par réservation |
+| Workflow par lots complexe avec des données multi-entités | Campagnes orchestrées | Voir [Prise en main des campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md) |
 
 ## Principales distinctions expliquées {#key-distinctions}
 
@@ -136,7 +125,7 @@ Suivez cet arbre de décision pour choisir la bonne approche. De nombreuses marq
 * Les activités d’attente créent un timing personnalisé.
 * L’embranchement conditionnel crée des chemins uniques par profil.
 * Écoute active intégrée : l’inaction pendant une période définie peut également déclencher l’étape suivante, et pas seulement des événements explicites. [En savoir plus sur les activités d’attente](../building-journeys/wait-activity.md)
-* Limitation de la fréquence : contrôlez la fréquence à laquelle un client peut saisir ou recevoir des messages d&#39;un parcours. [En savoir plus sur la limitation du parcours &#x200B;](../conflict-prioritization/journey-capping.md)
+* Limitation de la fréquence : contrôlez la fréquence à laquelle un client peut saisir ou recevoir des messages d&#39;un parcours. [En savoir plus sur la limitation du parcours ](../conflict-prioritization/journey-capping.md)
 * Fractionnement de l’audience par pourcentage : divisez les profils en groupes aléatoires basés sur un pourcentage pour exécuter des expériences A/B sur plusieurs chemins de parcours. [En savoir plus sur le partage en pourcentage](../building-journeys/condition-activity.md)
 * Mode test : validation de la logique de parcours et de la diffusion des messages avec des profils de test avant publication en direct. [En savoir plus sur le mode test](../building-journeys/testing-the-journey.md)
 
@@ -173,27 +162,6 @@ Tout le monde reçoit le même message en même temps.
 
 [En savoir plus sur les campagnes](../campaigns/get-started-with-campaigns.md)
 
-### Campagnes orchestrées : workflows de zone de travail par lots
-
-**Qu’est-ce qui rend cela unique ?**
-* Zone de travail par lots avec activités et transitions (similaire à la zone de travail de parcours, mais orientée lots)
-* Prise en charge des données relationnelles multi-entités (profils + produits + magasins + réservations)
-* Création d’audiences à la demande dans la zone de travail
-* Nombres exacts avant envoi (visibilité avant envoi)
-* Envoi à plusieurs niveaux (un message par entité, par exemple, par réservation)
-* Tous les profils sont traités ensemble par lots.
-
-**Exemple de flux :**
-
-```
-Query customers → Filter by purchase history → Split by region → 
-Enrich with product data → Build segments → Send personalized offers → All in one batch execution
-```
-
-Associe la complexité du workflow à l’exécution de campagnes par lots.
-
-[En savoir plus sur les campagnes orchestrées .](../orchestrated/gs-orchestrated-campaigns.md)
-
 ## Exemples de cas d’utilisation {#use-cases}
 
 ### Cas d’utilisation de parcours
@@ -218,58 +186,58 @@ Associe la complexité du workflow à l’exécution de campagnes par lots.
 * **Alertes de comptes** : déclenchées par le système de détection des fraudes
 * **Réinitialisations du mot de passe** : déclenchées par une action de la personne dans l’application
 
-### Cas d&#39;utilisation de campagnes orchestrées
-
-* **Promotion saisonnière avec intégration de catalogues** : interrogez le catalogue de produits, identifiez la clientèle éligible, segmentez par préférences, envoyez des recommandations de produits personnalisées.
-* **Campagnes spécifiques au magasin** : ciblez la clientèle située à proximité d’emplacements de magasin spécifiques avec des données d’inventaire de magasin.
-* **Communications multi-réservations** : envoyez un message par réservation (réservations d’hôtel, réservations de vols).
-* **Orchestration de segments complexes** : créez des audiences étape par étape avec un enrichissement à partir de plusieurs sources de données.
-* **Validation de pré-envoi** : obtenez les nombres exacts de destinataires avant de lancer des campagnes majeures.
-
 ## Disponibilité des fonctionnalités {#feature-availability}
 
 ### Canaux
 
-| Canal | Parcours | Campagnes d’action | Campagnes déclenchées par API | Campagnes orchestrées |
-|---------|:--------:|:----------------:|:-----------------------:|:---------------------:|
-| E-mail | ✅ | ✅ | ✅ | ✅ |
-| Notification push | ✅ | ✅ | ✅ | ✅ |
-| SMS | ✅ | ✅ | ✅ | ✅ |
-| In-app | ✅ | ✅ | ✅ | ❌ |
-| Web | ✅ | ✅ | ❌ | ❌ |
-| Basé sur le code | ✅ | ✅ | ❌ | ❌ |
-| Cartes de contenu | ✅ | ✅ | ❌ | ❌ |
-| Courrier | ✅ | ✅ | ❌ | ✅ |
-| LINE | ✅ | ✅ | ✅ | ✅ |
-| WhatsApp | ✅ | ✅ | ✅ | ✅ |
+| Canal | Parcours | Campagnes d’action | Campagnes déclenchées par API |
+|---------|:--------:|:----------------:|:-----------------------:|
+| E-mail | ✅ | ✅ | ✅ |
+| Notification push | ✅ | ✅ | ✅ |
+| SMS | ✅ | ✅ | ✅ |
+| In-app | ✅ | ✅ | ✅ |
+| Web | ✅ | ✅ | ❌ |
+| Basé sur le code | ✅ | ✅ | ❌ |
+| Cartes de contenu | ✅ | ✅ | ❌ |
+| Courrier | ✅ | ✅ | ❌ |
+| LINE | ✅ | ✅ | ✅ |
+| WhatsApp | ✅ | ✅ | ✅ |
+
+>[!NOTE]
+>
+>Pour connaître la disponibilité des canaux des campagnes orchestrées, voir [Campagnes orchestrées — Canaux pris en charge](../orchestrated/gs-orchestrated-campaigns.md).
 
 ### Fonctionnalités avancées
 
-| Fonctionnalité | Parcours | Campagnes d’action | Campagnes déclenchées par API | Campagnes orchestrées |
-|-----------|:--------:|:----------------:|:-----------------------:|:---------------------:|
-| Workflows en plusieurs étapes | ✅ | ❌ | ❌ | ✅ |
-| Déclencheurs en temps réel | ✅ | ❌ | ✅ | ❌ |
-| Activités d’attente | ✅ | ❌ | ❌ | ✅ |
-| Branchement conditionnel | ✅ | ❌ | ❌ | ✅ |
-| Exécution planifiée | ✅ | ✅ | ✅ | ✅ |
-| Déclenchement de l’API | ✅ (événement unitaire uniquement — événement envoyé via l’API) | ❌ | ✅ | ❌ |
-| Données multi-entités | ❌ | ❌ | ❌ | ✅ |
-| Nombres exacts de messages de pré-envoi | ❌ | ❌ | ❌ | ✅ |
-| Segmentation à la demande | ❌ | ❌ | ❌ | ✅ |
-| Optimisation de l’heure d’envoi | ✅ | ❌ | ❌ | ❌ |
-| Tests A/B | ✅ | ✅ | ❌ | ❌ |
-| Workflows d’approbation | ✅ | ✅ | ✅ | ❌ |
+| Fonctionnalité | Parcours | Campagnes d’action | Campagnes déclenchées par API |
+|-----------|:--------:|:----------------:|:-----------------------:|
+| Workflows en plusieurs étapes | ✅ | ❌ | ❌ |
+| Déclencheurs en temps réel | ✅ | ❌ | ✅ |
+| Activités d’attente | ✅ | ❌ | ❌ |
+| Branchement conditionnel | ✅ | ❌ | ❌ |
+| Exécution planifiée | ✅ | ✅ | ✅ |
+| Déclenchement de l’API | ✅ (événement unitaire uniquement — événement envoyé via l’API) | ❌ | ✅ |
+| Données multi-entités | ❌ | ❌ | ❌ |
+| Nombres exacts de messages de pré-envoi | ❌ | ❌ | ❌ |
+| Segmentation à la demande | ❌ | ❌ | ❌ |
+| Optimisation de l’heure d’envoi | ✅ | ❌ | ❌ |
+| Tests A/B | ✅ | ✅ | ❌ |
+| Workflows d’approbation | ✅ | ✅ | ✅ |
+
+>[!NOTE]
+>
+>Pour plus d’informations sur les fonctionnalités des campagnes orchestrées, notamment les expériences de contenu, le déclenchement d’API par lots et la segmentation d’entités multiples, consultez la section [Prise en main des campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md).
 
 ## Questions courantes {#common-questions}
 
 +++ Puis-je combiner des parcours et des campagnes dans ma stratégie marketing ?
 
-Oui. De nombreuses entreprises utilisent les quatre approches pour différents scénarios :
+Oui. De nombreuses organisations utilisent toutes les approches pour différents scénarios :
 
-* **&#x200B;**&#x200B;pour l’engagement comportemental en temps réel
+* **** pour l’engagement comportemental en temps réel
 * **Campagnes d’action** pour les communications de diffusion planifiées
 * **Campagnes déclenchées par API** pour les messages transactionnels
-* **Campagnes orchestrées** pour des campagnes par lots complexes et gourmandes en données
+* **Campagnes orchestrées** pour les campagnes par lots complexes et gourmandes en données, consultez la section [Prise en main des campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md)
 
 Utilisez l’outil approprié pour chaque cas d’utilisation plutôt que de forcer une approche pour tout.
 
@@ -283,23 +251,24 @@ Non, vous devez recréer l’expérience au format approprié. Cependant, vous p
 
 +++ Quelle approche est la plus facile à élaborer ?
 
-Les campagnes d’action sont généralement les plus simples (message unique à l’audience), suivies des campagnes déclenchées par l’API, des Parcours (plus complexes avec une logique à plusieurs étapes) et des campagnes orchestrées (les plus complexes en raison des fonctionnalités de workflow de zone de travail et d’entités multiples).
+Les campagnes d’action sont généralement les plus simples (message unique à l’audience), suivies de campagnes déclenchées par l’API, puis de Parcours (plus complexes avec la logique à plusieurs étapes).
 
 +++
 
 +++ Quelle est l’approche la plus adaptée aux audiences de grande taille ?
 
-Les quatre peuvent être adaptés à l’échelle ; le bon choix dépend de votre modèle :
+Tous les trois peuvent être adaptés à l’échelle ; le bon choix dépend de votre modèle :
 
 * Les campagnes **Lecture d’audience** et **Action** sont optimisées pour les audiences par lots volumineuses (un message ou flux vers plusieurs profils à la fois).
-* **Campagnes orchestrées** excellez dans la segmentation complexe avec des jeux de données volumineux et des données d’entités multiples.
 * **Les Parcours unitaires (basés sur un événement) traitent les profils individuellement au fur et à mesure des événements. De ce fait, l’échelle dépend du volume et du débit des événements.**
+
+Pour la segmentation complexe avec des jeux de données volumineux et des données d’entités multiples, consultez [Campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md).
 
 +++
 
 +++ Puis-je utiliser la même audience pour l’ensemble des parcours et campagnes ?
 
-Oui. Les audiences créées dans [!DNL Adobe Experience Platform] peuvent être utilisées dans des Parcours, des campagnes d’action et des campagnes orchestrées (où la logique d’audience peut également être créée à la demande dans la zone de travail). Les campagnes déclenchées par API sont pilotées par la payload et n’utilisent pas les audiences préconfigurées de la même manière.
+Oui. Les audiences créées dans [!DNL Adobe Experience Platform] peuvent être utilisées dans des Parcours, des campagnes d’action et des campagnes orchestrées. Les campagnes déclenchées par API sont pilotées par la payload et n’utilisent pas les audiences préconfigurées de la même manière.
 
 +++
 
@@ -309,11 +278,11 @@ Vous souhaitez commencer à créer ? Consultez la documentation détaillée rel
 
 * **[Prise en main des Parcours](../building-journeys/journey.md)** - types de Parcours, concepteur et workflow
 * **[Prise en main des campagnes](../campaigns/get-started-with-campaigns.md)** - Campagnes déclenchées par une action et une API
-* **[Prise en main des campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md)** - Workflows de zone de travail par lots
+* **[Prise en main des campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md)** - Workflows de zone de travail par lots avec des données multi-entités (conseils distincts)
 
 >[!MORELIKETHIS]
 >
->* [comparaison des types de Parcours &#x200B;](../building-journeys/journey.md#journey-types-comparison)
+>* [comparaison des types de Parcours ](../building-journeys/journey.md#journey-types-comparison)
 >* [Comparaison des types de campagne](../campaigns/get-started-with-campaigns.md#campaign-types)
 >* [FAQ sur les parcours](../building-journeys/journey-faq.md)
 >* [FAQ sur les campagnes orchestrées](../orchestrated/orchestrated-campaigns-faq.md)
