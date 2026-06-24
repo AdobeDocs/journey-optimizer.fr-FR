@@ -2,12 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Migrer des audiences par lots à partir des parcours de qualification d’audience
-description: Découvrez comment migrer les parcours qui utilisent des audiences par lots dans un nœud de qualification d’audience avant la date d’application du 3 août 2026.
+description: Découvrez comment migrer les parcours qui utilisent des audiences par lots dans un nœud de qualification d’audience avant la date d’application d’août 2026.
 feature: Journeys, Activities, Audiences
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
 keywords: qualification d’audience, audience par lots, obsolescence, migration, lecture d’audience, diffusion en continu d’audience
 exl-id: f3c2a7d1-b58e-4a92-c3d5-0e871f2a9b4c
 product_v2:
@@ -16,9 +15,9 @@ feature_v2:
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
-source-git-commit: 6560a168d3ea7c6c27b47829ac4158b6a69b5d88
+source-git-commit: cea41add5b86adb3b447ce606e73248adce0f731
 workflow-type: tm+mt
-source-wordcount: 874
+source-wordcount: 869
 ht-degree: 0%
 
 ---
@@ -26,11 +25,11 @@ ht-degree: 0%
 
 # Migrer des audiences par lots à partir des parcours de qualification d’audience {#aq-batch-migration}
 
-À compter du 3 août 2026, Journey Optimizer bloquera la publication pour les parcours qui utilisent une audience par lots dans un nœud de qualification d’audience. Identifiez votre cas d’utilisation ci-dessous et suivez le chemin de migration recommandé.
+À compter d’août 2026, Journey Optimizer bloquera la publication pour les parcours qui utilisent une audience par lots dans un nœud de qualification d’audience. Identifiez votre cas d’utilisation ci-dessous et suivez le chemin de migration recommandé.
 
 >[!CAUTION]
 >
->**Date d’application : 3 août 2026.** Les nouveaux parcours, les brouillons et les doublons utilisant une audience par lots dans un nœud Qualification de l’audience ne peuvent pas être publiés après cette date. Un avertissement de validation est déjà affiché dans la zone de travail de parcours depuis la version de juin 2026.
+>**Date d’application : août 2026.** Les nouveaux parcours, les brouillons et les doublons utilisant une audience par lots dans un nœud Qualification de l’audience ne peuvent pas être publiés après cette date. Un avertissement de validation est déjà affiché dans la zone de travail de parcours depuis la version de juin 2026.
 
 ## Pourquoi ce changement ? {#why}
 
@@ -42,10 +41,10 @@ L’activité **[Lecture d’audience](read-audience.md)** est l’outil appropr
 
 ## Comment vos parcours sont affectés {#impact}
 
-Un parcours en direct qui utilise une audience par lots dans un nœud Qualification de l’audience continue de s’exécuter après le 3 août 2026. Cependant, si vous arrêtez, dupliquez ou republiez le parcours, il sera bloqué jusqu’à ce que la configuration soit mise à jour.
+Un parcours en direct qui utilise une audience par lots dans un nœud Qualification de l’audience continue de s’exécuter après août 2026. Cependant, si vous arrêtez, dupliquez ou republiez le parcours, il sera bloqué jusqu’à ce que la configuration soit mise à jour.
 
 
-| Statut du parcours | Impact après le 3 août 2026 |
+| Statut du parcours | Impact après août 2026 |
 | --- | --- |
 | parcours en direct **&#x200B;**&#x200B;| Pas impacté. Les parcours dynamiques existants continuent de s’exécuter. Pas d&#39;arrêt automatique. |
 | **Nouveaux parcours** | Bloqué de la publication jusqu’au remplacement de l’audience par lots. |

@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: e6d80f7b7875db890b946d9ef5315d1cbed918c3
 workflow-type: tm+mt
-source-wordcount: 2501
-ht-degree: 51%
+source-wordcount: 2552
+ht-degree: 50%
 
 ---
 
@@ -149,6 +149,10 @@ L’activité **[!UICONTROL Qualification de l’audience]** permet une entrée 
 La vitesse de réception de ces informations est élevée. Les mesures indiquent 10 000 événements reçus par seconde. Prévoyez les pics d’entrée, évitez-les lorsque cela est possible, puis préparez votre parcours à les gérer. Pour en savoir plus sur les taux de traitement de parcours et les limites de débit, consultez [cette section](entry-management.md#journey-processing-rate).
 
 ### Audiences par lots {#batch-speed-segment-qualification}
+
+>[!CAUTION]
+>
+>**Avis d’obsolescence - Août 2026** : à compter d’**août 2026**, Journey Optimizer bloquera la publication pour tout parcours qui utilise une audience par lots dans un nœud **Qualification de l’audience**. Les Live parcours existants ne sont pas affectés. Les nouveaux parcours, les brouillons et les doublons avec cette configuration doivent être mis à jour avant août 2026. [Découvrez comment migrer vos parcours &#x200B;](aq-batch-audiences-migration.md)
 
 Lorsque vous utilisez la qualification d’audience pour une audience par lot, notez qu’un pic d’entrée se produit au moment du calcul quotidien. La taille du pic dépend du nombre d’individus qui rejoignent ou quittent l’audience chaque jour.
 
