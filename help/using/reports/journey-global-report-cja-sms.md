@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
+source-git-commit: bf856b9a44177a4ac766f82455ec67deba08da41
 workflow-type: tm+mt
 source-wordcount: 927
 ht-degree: 66%
@@ -106,6 +106,8 @@ Le tableau **[!UICONTROL Aperçu de la campagne]** sert de tableau de bord pour 
 
 Le tableau **[!UICONTROL Libellés suivis]** offre une vue d’ensemble complète des libellés des liens dans vos SMS, en mettant en évidence ceux qui génèrent le trafic de visiteurs le plus élevé. Cette fonctionnalité vous permet d’identifier et de hiérarchiser les liens les plus populaires.
 
+![](assets/journey_sms_tracked_labels.png)
+
 +++ En savoir plus sur les mesures des libellés des liens de suivi
 
 * **[!UICONTROL Clics]** : nombre de fois où un contenu a fait l’objet d’un clic dans vos SMS.
@@ -119,6 +121,8 @@ Le tableau **[!UICONTROL Libellés suivis]** offre une vue d’ensemble complèt
 ## URL des liens de suivi {#track-link-url-sms}
 
 Le tableau **[!UICONTROL URL des liens de suivi]** fournit une vue d’ensemble complète des URL de vos SMS qui attirent le plus de visiteurs et de visiteuses. Cela vous permet d’identifier et de hiérarchiser les liens les plus populaires, ce qui améliore votre compréhension de l’engagement des profils avec du contenu spécifique dans vos SMS.
+
+![](assets/journey_sms_tracked_urls.png)
 
 +++ En savoir plus sur les mesures des URL des liens de suivi
 
