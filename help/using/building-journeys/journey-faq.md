@@ -37,10 +37,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
 workflow-type: tm+mt
-source-wordcount: 6208
-ht-degree: 77%
+source-wordcount: 6214
+ht-degree: 76%
 
 ---
 
@@ -185,7 +185,7 @@ En savoir plus sur les [audiences](../audience/about-audiences.md), la [créatio
 
 Utilisez les **parcours unitaires** lorsque :
 
-* Vous devez réagir en temps réel aux actions de chaque individu (par exemple, confirmation d’achat, abandon de panier).
+* Vous devez réagir en temps réel aux actions de chaque client (par exemple, abandon de panier, intégration de nouveaux membres)
 * Chaque personne doit progresser à son propre rythme.
 * Vous souhaitez un déclenchement en fonction d’événements spécifiques.
 
@@ -286,17 +286,17 @@ En savoir plus sur les [mises à jour de profil](update-profiles.md).
 
 +++
 
-+++ Comment envoyer un e-mail immédiatement après un achat ?
++++ Comment envoyer un e-mail immédiatement après l’abandon d’un panier ?
 
 Créez un **parcours déclenché par un événement unitaire** :
 
-1. Configurez un événement « Achat » avec les informations sur la commande.
+1. Configurer un événement « Abandon de panier » avec les détails du panier pertinents
 2. Ajoutez l’événement comme point d’entrée de parcours.
 3. Suivez immédiatement avec une action E-mail.
-4. Concevez votre e-mail de confirmation de commande avec des informations personnalisées sur la commande.
+4. Concevoir un e-mail de récupération de panier avec des détails de produit personnalisés
 5. Publiez le parcours.
 
-Le parcours se déclenche automatiquement à chaque réception d’un événement d’achat, envoyant l’e-mail de confirmation en temps réel.
+Le parcours se déclenche automatiquement à chaque réception d’un événement d’abandon de panier, envoyant l’e-mail de récupération en temps réel.
 
 En savoir plus sur la [configuration d’événement](../event/about-events.md) et les [actions d’e-mail](journey-action.md).
 
@@ -369,7 +369,7 @@ En savoir plus sur la [gestion des fuseaux horaires](timezone-management.md).
 
 **Bonnes pratiques relatives aux temps d’attente** :
 
-* **Messages transactionnels** (confirmations de commande) : envoyer immédiatement
+* **Messages marketing déclenchés** (récupération après abandon de panier) : envoyer immédiatement
 * **Série de bienvenue** : 1 à 3 jours entre les e-mails
 * **Contenu éducatif** : 3 à 7 jours entre les messages
 * **Campagnes promotionnelles** : au moins 7 jours entre les offres

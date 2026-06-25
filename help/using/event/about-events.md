@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c70b128e07c801e729a1268600265e47d7240291
+source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
 workflow-type: tm+mt
-source-wordcount: 2182
+source-wordcount: 2183
 ht-degree: 67%
 
 ---
@@ -86,7 +86,7 @@ Un événement **qualification de l’audience** est déclenché lorsqu’un pro
 |---|---|---|
 | **Lié à un profil ?** | Oui — déclenché par l&#39;action d&#39;une personne spécifique. | Non : déclenché par une occurrence externe qui n’est pas liée à une personne. |
 | **Comportement d’entrée** | Un profil entre sur le parcours en temps réel. | Plusieurs profils rejoignent l’audience par le biais d’une étape Lecture d’audience automatique. |
-| **Cas d’utilisation standard** | Confirmation d’achat, envoi de formulaire, connexion à l’application, jalon de fidélité. | Annulation du vol, alerte de réapprovisionnement des stocks, nouvelles de dernière minute, événement météorologique. |
+| **Cas d’utilisation standard** | Récupération de l’abandon de panier, envoi de formulaire, connexion à l’application, jalon de fidélité. | Annulation du vol, alerte de réapprovisionnement des stocks, nouvelles de dernière minute, événement météorologique. |
 | **Comment commence le parcours** | Entrée basée sur un événement : aucune audience nécessaire. | Événement métier + lecture d’audience automatique (ajoutée par Journey Optimizer). |
 | **Plusieurs par parcours ?** | Oui — vous pouvez écouter plusieurs événements unitaires à travers des étapes parcours. | Non : un seul événement métier par parcours, placé au début. |
 | **Type d’identifiant d’événement** | Basé sur des règles ou généré par le système. | Toujours basé sur des règles. |
