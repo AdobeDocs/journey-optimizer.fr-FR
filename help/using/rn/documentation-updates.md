@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: d7d7519e6f046802653ed470d00851f17a315bc6
+source-git-commit: e6bc40f1a7df65fa8ae338c9e266c76728cf428a
 workflow-type: tm+mt
-source-wordcount: 8760
-ht-degree: 92%
+source-wordcount: 8799
+ht-degree: 91%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 92%
 Cette page répertorie toutes les dernières modifications apportées à la documentation [!DNL Journey Optimizer], en plus des mises à jour liées aux fonctionnalités et améliorations de la version mensuelle.
 
 ## Juin 2026 {#june-2026}
+
+* La page **Configurer une dimension de ciblage** a été mise à jour afin de documenter les deux types de dimensions de ciblage disponibles dans les campagnes orchestrées : la dimension de ciblage intégrée **dimension de ciblage de profil** (aucune configuration requise) et **dimensions de ciblage personnalisées** basée sur des schémas relationnels. [En savoir plus](../orchestrated/target-dimension.md)
 
 * La documentation **Exploiter les thèmes dans un fragment** a été clarifiée afin de documenter explicitement la limite de compatibilité de 5 thèmes (y compris la contrainte de thème par défaut d’Adobe) et d’expliquer que l’insertion de fragments est bloquée lorsque le thème de l’e-mail n’est pas l’un des thèmes associés au fragment. [En savoir plus](../email/apply-email-themes.md#leverage-themes-fragment)
 

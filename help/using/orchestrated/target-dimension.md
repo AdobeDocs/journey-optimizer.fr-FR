@@ -13,10 +13,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: e6bc40f1a7df65fa8ae338c9e266c76728cf428a
 workflow-type: tm+mt
-source-wordcount: 497
-ht-degree: 80%
+source-wordcount: 539
+ht-degree: 72%
 
 ---
 
@@ -30,9 +30,12 @@ ht-degree: 80%
 
 Grâce aux **[!UICONTROL campagnes orchestrées]**, vous pouvez concevoir et diffuser des communications ciblées au niveau de l’entité, en exploitant les fonctionnalités du schéma relationnel de Adobe Experience Platform. Experience Platform utilise des schémas pour décrire la structure des données de manière cohérente et réutilisable. Lorsque des données sont ingérées dans Experience Platform, elles sont structurées en fonction d’un schéma XDM.
 
-Bien que la segmentation des **[!UICONTROL campagnes orchestrées]** fonctionne principalement sur des schémas relationnels, la diffusion réelle des messages se produit toujours au niveau du **profil**.
+**[!UICONTROL Campagnes orchestrées]** prend en charge deux types de dimensions de ciblage :
 
-Lors de la configuration du ciblage, vous devez définir deux aspects essentiels :
+* **Dimension de ciblage du profil** : la valeur par défaut intégrée, qui cible les destinataires directement à l’aide du schéma **Profil**.
+* **Dimension de ciblage personnalisée** : cible les destinataires par le biais d’un schéma relationnel (par exemple, `Recipients`, `Visitors`, `Customers`). Utilisez cette option lorsque vous devez diffuser des messages au niveau de l’entité (par abonnement ou par contrat, par exemple) plutôt qu’au niveau du profil.
+
+Lors de la configuration d’une dimension de ciblage personnalisée, vous définissez deux aspects clés :
 
 * **Schémas éligibles au ciblage**
 
