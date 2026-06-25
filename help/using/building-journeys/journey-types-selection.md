@@ -27,9 +27,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
+source-git-commit: 875fca07f966c9812f40c8dab4ca7dc1bb9160d0
 workflow-type: tm+mt
-source-wordcount: 2295
+source-wordcount: 2299
 ht-degree: 18%
 
 ---
@@ -76,7 +76,11 @@ Les parcours d’événement unitaire **sont déclenchés individuellement lorsq
 
 **Utilisation :** réponses en temps réel aux modifications de l’appartenance à l’audience
 
-**Parcours de qualification d’audience** : ils sont déclenchés lorsque les profils se qualifient pour une audience spécifique ou en sortent. Les profils entrent individuellement lorsqu’ils répondent à des critères, ce qui permet un engagement immédiat lorsque le comportement des clients change. Pour le comportement d’entrée en temps réel, l’audience doit être **évaluée en flux continu**; les audiences évaluées par lots déclenchent une entrée uniquement à la fenêtre d’évaluation suivante (jusqu’à 24 heures).
+**Parcours de qualification d’audience** : ils sont déclenchés lorsque les profils se qualifient pour une audience spécifique ou en sortent. Les profils entrent individuellement lorsqu’ils répondent à des critères, ce qui permet un engagement immédiat lorsque le comportement des clients change. Utilisez des audiences **évaluées par flux** — il s’agit du seul type d’audience pris en charge pour cette activité.
+
+>[!CAUTION]
+>
+>À compter d’**août 2026**, les parcours utilisant une audience par lots dans un nœud de qualification d’audience ne pourront pas être publiés. [Découvrez comment migrer vos parcours &#x200B;](aq-batch-audiences-migration.md)
 
 **Parfait pour :** les notifications de mise à niveau de niveau VIP, les messages de célébration du premier achat, les alertes de risque d’attrition et les transitions d’étape du cycle de vie de la fidélité.
 
@@ -123,7 +127,7 @@ Utilisez le tableau ci-dessous pour faire correspondre votre objectif au type de
 | **Exemples** | Récupération après abandon de panier, intégration d’un nouveau membre | Newsletter mensuelle, campagne saisonnière | Mise à niveau de VIP, alerte de risque de résiliation | Alerte de stock faible, vente flash, baisse de prix |
 | **Reprise** | Configurable | Une fois par exécution par défaut ; [Forcer une reprise sur une périodicité](read-audience.md#schedule) disponible sur les exécutions planifiées | Configurable par événement de qualification ; un profil déjà dans le parcours ne peut pas entrer à nouveau la même version | Plusieurs profils peuvent être affectés par le même événement. |
 | **Débit max** | 5 000 TPS (niveau organisation partagé avec qualification d’audience) | 20 000 TPS par sandbox | 5 000 TPS (niveau d’organisation partagé avec événement unitaire) | Événement métier : 5 000 TPS ; étape Lecture d’audience : 20 000 TPS |
-| **Exigences de données** | Schéma d’événement avec données de déclenchement | [!DNL Adobe Experience Platform] une audience | Audience de diffusion en continu (requise pour l’entrée en temps réel) ; audience par lots prise en charge, mais entrée retardée | Schéma d’événement métier |
+| **Exigences de données** | Schéma d’événement avec données de déclenchement | [!DNL Adobe Experience Platform] une audience | Audience de diffusion en continu requise. Audiences par lots obsolètes depuis août 2026 — [migrer maintenant](aq-batch-audiences-migration.md) | Schéma d’événement métier |
 
 ## Compatibilité des fonctionnalités par type de parcours {#feature-compatibility}
 
@@ -217,7 +221,7 @@ Pour une compréhension totale, ces informations doivent être combinées avec l
 * Par défaut, la rentrée du profil dans les parcours Lecture d’audience est limitée à une seule fois par exécution. Utilisez Forcer une rentrée sur une périodicité lors des exécutions planifiées pour permettre aux profils de rentrer à nouveau lors de la prochaine exécution
 * L’activité Lecture d’audience est uniquement disponible en tant qu’entrée de parcours dans les parcours d’événement Lecture d’audience et Entreprise , et non dans les parcours d’entrée Événement unitaire ou Qualification d’audience .
 * Les parcours Qualification d’audience et Lecture d’audience ne peuvent pas contenir d’activité Saut ni être la cible d’une activité Saut à partir d’un autre parcours
-* Les parcours de qualification d’audience nécessitent une audience évaluée par flux pour la saisie en temps réel ; les audiences évaluées par lots entraînent des retards de saisie allant jusqu’à 24 heures
+* Les parcours de qualification d’audience nécessitent une audience évaluée en flux continu. À compter d’août 2026, les audiences évaluées par lots ne pourront plus être utilisées dans un nœud de qualification d’audience. Consultez le [&#x200B; guide de migration](aq-batch-audiences-migration.md)
 * Les parcours d’événement unitaire et de qualification d’audience partagent une limite de débit de 5 000 TPS au niveau de l’organisation. Les parcours de lecture d’audience prennent en charge jusqu’à 20 000 TPS par sandbox
 * La simulation est prise en charge pour la plupart des types de parcours, mais pas pour l’entrée d’événement métier. Consultez Limites de simulation pour les restrictions au niveau du nœud.
 * Un profil déjà présent dans un parcours ne peut pas entrer à nouveau la même version de ce parcours, quelle que soit la configuration de reprise
@@ -241,7 +245,7 @@ Pour une compréhension totale, ces informations doivent être combinées avec l
 * **Q : Puis-je ajouter une activité Lecture d’audience à un parcours d’événement unitaire ?** — Non ; l&#39;activité Lecture d&#39;audience est uniquement disponible en tant qu&#39;entrée de parcours dans les parcours Lecture d&#39;audience et Événement métier.
 * **Q : Puis-je utiliser une activité Saut dans un parcours Lecture d’audience ?** — Non ; les parcours commençant par une activité Lecture d’audience ou Qualification d’audience ne peuvent pas contenir d’activité Saut et ne peuvent pas être la cible d’un Saut à partir d’un autre parcours.
 * **Q : Puis-je accueillir de nouveaux utilisateurs de l’application avec un parcours de qualification d’audience ?** — Oui, si l’entrée est pilotée par une audience de diffusion en continu (par exemple, lorsqu’un profil rejoint un segment de nouvel utilisateur) ; un parcours d’événement unitaire d’inscription est également un modèle courant.
-* **Q : Mon parcours de qualification d’audience ne se déclenche pas en temps réel. Pourquoi ?** — Les parcours de qualification d’audience nécessitent une audience évaluée en flux continu. Si l’audience est évaluée par lots (par exemple, un instantané quotidien), la saisie est retardée jusqu’à la fenêtre d’évaluation suivante, qui peut prendre jusqu’à 24 heures.
+* **Q : Mon parcours de qualification d’audience ne se déclenche pas en temps réel. Pourquoi ?** — Les parcours de qualification d’audience nécessitent une audience évaluée en flux continu. L’utilisation d’une audience évaluée par lots est obsolète et sera bloquée à partir d’août 2026. [Voir le guide de migration](aq-batch-audiences-migration.md)
 * **Q : Quelle est la différence de débit entre les parcours Événement unitaire et Lecture d’audience ?** — Les parcours d’événement unitaire partagent une limite de 5 000 TPS avec les parcours de qualification d’audience au niveau de l’organisation. Lisez Les parcours d’audience prennent en charge jusqu’à 20 000 TPS par sandbox, ce qui les rend mieux adaptés aux campagnes par lots à grande échelle.
 
 +++
