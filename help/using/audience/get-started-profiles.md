@@ -8,27 +8,16 @@ role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
 TQID: https://experienceleague.adobe.com/QpLGV-y5qbtmksC-99GU5PtaV-mUA-imew8JDj7-weA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7did: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: c6441f0097a75690c0546e492c39c6bb59711a16
 workflow-type: tm+mt
-source-wordcount: 527
-ht-degree: 78%
+source-wordcount: 778
+ht-degree: 53%
 
 ---
 
@@ -60,6 +49,26 @@ Tirez profit du profil client en temps réel dans [!DNL Adobe Journey Optimizer]
 
 **Partage de données** : partagez des profils clients avec les principaux fournisseurs d’espace de stockage dans le cloud tels qu’Amazon Web Services, Microsoft Azure et Google Cloud. Utilisez des profils partagés pour la création de rapports, l’archivage données ou une analyse plus approfondie avec des outils de Business Intelligence.
 
+## Profils et utilisation des licences engageables {#engageable-profiles}
+
+Un **profil engageable** est un enregistrement d’informations représentant un individu qui est stocké dans le service de profil et qui a été engagé par des parcours ou des campagnes. Il s’agit de la mesure de licence clé pour [!DNL Adobe Journey Optimizer].
+
+Caractéristiques principales :
+
+* **Fenêtre dynamique de 12 mois** : le nombre reflète les profils uniques que vous avez tenté d’impliquer au cours des 12 derniers mois à l’aide des fonctionnalités de création, de prise de décision, de diffusion, d’expérimentation ou d’orchestration de Journey Optimizer.
+* **Comptabilisé une fois par sandbox** : un profil qui accède à plusieurs parcours ou campagnes dans un sandbox est comptabilisé comme un seul profil engageable pour ce sandbox.
+* **En fonction de votre audience adressable** : les profils engageables sont calculés à partir de votre audience adressable. Le nombre représente l’audience engagée au cours des 12 derniers mois à l’aide de l’une des fonctionnalités de Journey Optimizer, sur l’ensemble de votre audience adressable.
+* **Comportement de la mesure** : nombre de profils engageables :
+   * Peut augmenter lorsque de nouveaux profils sont engagés par le biais de parcours ou de campagnes
+   * Diminution impossible sauf s’il n’y a aucun engagement avec certains profils pendant plus de 12 mois
+   * Peut diminuer lorsque des profils pseudonymes sont regroupés en profils connus
+
+>[!TIP]
+>
+>Lors du ciblage de profils pseudonymes (visiteurs non authentifiés) avec des canaux entrants tels que des expériences web, in-app ou basées sur du code, pensez à définir une durée de vie (TTL) pour la suppression automatique des profils afin de gérer le nombre de profils pouvant être engagés et les coûts associés. [En savoir plus sur les mécanismes de sécurisation du canal entrant](../start/guardrails.md#profile-management-inbound)
+
+Surveillez à tout moment le nombre de profils engageables de votre entreprise depuis **[!UICONTROL Administration]** > **[!UICONTROL Utilisation de la licence]**. Si vous constatez un pic soudain dans le nombre de problèmes, reportez-vous à la [section Dépannage](license-usage.md#troubleshooting-engageable-profiles) pour obtenir des conseils détaillés. [En savoir plus sur le tableau de bord Utilisation des licences](license-usage.md)
+
 >[!MORELIKETHIS]
 >
 >* [Commencer avec la gestion des données dans Journey Optimizer](../data/gs-data.md)
@@ -83,4 +92,4 @@ Vous pouvez rassembler des données issues de plusieurs sources et les combiner 
 
 Découvrez comment Adobe Experience Platform assemble et met à jour des profils clients en temps réel et la façon dont vous pouvez y accéder et les utiliser.
 
->[!VIDEO](https://video.tv.adobe.com/v/31639?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)

@@ -9,28 +9,16 @@ role: User
 level: Beginner
 exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
 TQID: https://experienceleague.adobe.com/KrsJKfvAPAE5yW2Lgrc-MrMUtoxi336rsmQIglfs7Mc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5deeid: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 894
-ht-degree: 22%
+source-wordcount: 742
+ht-degree: 27%
 
 ---
 
@@ -38,7 +26,7 @@ ht-degree: 22%
 
 >[!BEGINSHADEBOX]
 
-**Sur cette page :** découvrez comment utiliser le tableau de bord d’utilisation de la licence Adobe Journey Optimizer pour surveiller les profils engageables et résoudre les problèmes liés aux augmentations inattendues du nombre de profils.
+**Sur cette page :** Découvrez comment naviguer dans le tableau de bord d’utilisation de la licence Adobe Journey Optimizer et résoudre les problèmes liés aux augmentations inattendues de votre nombre de profils engageables.
 
 >[!ENDSHADEBOX]
 
@@ -54,25 +42,7 @@ Pour accéder à ce tableau de bord, accédez à **[!UICONTROL Administration]**
 >
 >* Certaines mesures (par exemple, les heures de calcul, les e-mails) ne sont pas affichées pour les sandbox de développement, comme indiqué par `N/A` dans la colonne quota. Seules les valeurs non nulles sont affichées dans le tableau de bord : lorsque les mesures sont nulles ou proches de zéro, elles ne sont pas renseignées.
 
-
-Par [!DNL Adobe Journey Optimizer], le tableau de bord vous permet de vérifier le nombre de profils **engageables**.
-
-## Qu’est-ce qu’un profil engageable ? {#what-is-engageable-profile}
-
-Un **profil engageable** est un enregistrement d’informations représentant un individu qui est stocké dans le service de profil et qui a été engagé par des parcours ou des campagnes.
-
-Principales caractéristiques des profils engageables :
-
-* **Période variable de 12 mois** : les profils pouvant être engagés sont comptabilisés en fonction de l’engagement au cours des 12 derniers mois. Cette mesure indique le nombre de profils uniques avec lesquels vous avez tenté d’interagir à l’aide des fonctionnalités de création, de prise de décision, de diffusion, d’expérimentation ou d’orchestration de Journey Optimizer.
-
-* **Nombre unique par sandbox** : si un profil accède à plusieurs parcours ou campagnes dans un sandbox, il n’est comptabilisé qu’une seule fois comme un seul profil Engageable pour ce sandbox.
-
-* **En fonction de l’audience adressable** : les profils engageables sont calculés à partir de votre audience adressable. Le nombre représente l’audience engagée au cours des 12 derniers mois à l’aide de l’une des fonctionnalités de Journey Optimizer, sur l’ensemble de votre audience adressable.
-
-* **Comportement de la mesure** : nombre de profils engageables :
-   * Peut augmenter lorsque de nouveaux profils sont engagés par le biais de parcours ou de campagnes
-   * Diminution impossible sauf s’il n’y a aucun engagement avec certains profils pendant plus de 12 mois
-   * Peut diminuer lorsque des profils pseudonymes sont regroupés en profils connus
+Par [!DNL Adobe Journey Optimizer], le tableau de bord vous permet de vérifier le nombre de profils **Profils engageables** uniques engagés par le biais de parcours, de campagnes ou de prises de décision sur une fenêtre dynamique de 12 mois. Pour une explication complète de la définition et du calcul des profils engageables, voir [Profils engageables et utilisation de la licence](get-started-profiles.md#engageable-profiles).
 
 >[!NOTE]
 >
@@ -140,4 +110,4 @@ Pour en savoir plus, consultez la documentation Adobe Experience Platform :
 * [Présentation du tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=fr){target="_blank"}
 * [Exploration du tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=fr#exploring-the-license-usage-dashboard){target="_blank"}
 * [Mesures disponibles](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=fr#available-metrics){target="_blank"}
-* [Expiration des données de profils pseudonymes](https://experienceleague.adobe.com/docs/experience-platform/profile/pseudonymous-profiles.html?lang=fr){target="_blank"}
+* [Expiration des données de profils pseudonymes](https://experienceleague.adobe.com/docs/experience-platform/profile/pseudonymous-profiles.html){target="_blank"}

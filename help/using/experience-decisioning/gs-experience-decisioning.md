@@ -8,25 +8,16 @@ level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/z-9FSXpQNMyy0KcGaLWgDYHqAx-BWhIEJYAq4wVqmv4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 779
-ht-degree: 72%
+source-wordcount: 811
+ht-degree: 69%
 
 ---
 
@@ -112,6 +103,10 @@ Les principales étapes pour utiliser la prise de décision sont les suivantes 
    ➡️ [Découvrez comment utiliser les politiques de décision.](create-decision.md)
 ➡️ Pour diffuser avec succès l’offre via le canal d’expérience basé sur du code, suivez les étapes d’implémentation de [cette section](../code-based/code-based-implementation-samples.md).
 
+>[!NOTE]
+>
+>Les profils qui reçoivent une décision par le biais d’un parcours ou d’une campagne sont comptabilisés dans la mesure de licence **Profils engageables** de votre organisation, ainsi que les profils engagés par le biais d’autres fonctionnalités de Journey Optimizer. [Surveiller le nombre de profils engageables](../audience/license-usage.md)
+
 ## Processus de prise de décision {#process}
 
 Le graphique ci-dessous résume le processus de prise de décision de bout en bout, de la gestion des éléments de décision à la configuration des stratégies de sélection, en passant par l’incorporation des politiques de décision dans un parcours d’expérience ou une campagne basé sur du code.
@@ -133,4 +128,4 @@ Le graphique ci-dessous résume le processus de prise de décision de bout en bo
 
 Découvrez les fonctionnalités de prise de décision dans Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475865?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)
