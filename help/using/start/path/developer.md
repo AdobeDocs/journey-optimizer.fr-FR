@@ -6,27 +6,11 @@ role: Developer
 level: Intermediate
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
 TQID: https://experienceleague.adobe.com/7fRI-CPkIeBAPjtXmDgFdyNKgB4WwEc01yKrGUXnc3U
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: d08afb72-92f6-4856-88e3-11ec34313c2fid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e9001ce2-5245-4a8e-8601-dd958009072fid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: e5e8545bef077219ff91428c9048c978184b57ec
 workflow-type: tm+mt
 source-wordcount: 3456
@@ -277,7 +261,7 @@ Les implémentations de Journey Optimizer de production gèrent régulièrement 
 
 ## Appel des API REST Journey Optimizer {#rest-apis}
 
-Outre l’implémentation de SDK et de la diffusion d’événements en continu, vous pouvez également piloter Journey Optimizer par programmation à partir de vos propres systèmes. La référence complète de l’API, les spécifications OpenAPI et les exemples de code se trouvent sur le portail de développement [&#128279;](https://developer.adobe.com/journey-optimizer-apis){target="_blank"}.
+Outre l’implémentation de SDK et de la diffusion d’événements en continu, vous pouvez également piloter Journey Optimizer par programmation à partir de vos propres systèmes. La référence complète de l’API, les spécifications OpenAPI et les exemples de code se trouvent sur le portail de développement [](https://developer.adobe.com/journey-optimizer-apis){target="_blank"}.
 
 >[!NOTE]
 >
@@ -308,7 +292,7 @@ Au-delà de la messagerie et de la limitation, Journey Optimizer expose des poin
 | Ce que vous devez faire | Référence d’API |
 | ------------------- | ------------- |
 | Exclure par programmation des adresses e-mail ou domaines de l’envoi | [API de suppression](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"} · [Gérer la liste de suppression](../../configuration/manage-suppression-list.md) |
-| Récupérer des métadonnées de parcours pour un audit ou une synchronisation externe | [API &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve){target="_blank"} |
+| Récupérer des métadonnées de parcours pour un audit ou une synchronisation externe | [API ](https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve){target="_blank"} |
 | Créer et gérer des modèles et des fragments de contenu à partir d’un pipeline externe | [API de contenu](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"} · [modèles](../../content-management/content-templates.md) · [fragments](../../content-management/fragments.md) |
 | Récupération et filtrage des campagnes d’action | [API Campaign](https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve){target="_blank"} |
 | Prévisualiser des campagnes et envoyer des BAT par programmation | [API Simulations](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"} |
@@ -332,18 +316,18 @@ Votre travail d’implémentation est lié aux autres membres de l’équipe :
 Collaborez avec des [ingénieurs de données](data-engineer.md) sur les configurations de données et d’événements. Chaque parcours qui réagit au comportement de l’utilisateur dépend des événements que vous envoyez : l’ingénieur de données définit les schémas et vous implémentez le code qui les produit.
 
 * Obtenez les [schémas XDM](../../data/get-started-schemas.md) et les structures d’événement que vous devez implémenter
-* Identifiez les événements à envoyer et le format de payload requis. Voir [&#x200B; Utilisation d’événements de parcours &#x200B;](../../event/about-events.md)
+* Identifiez les événements à envoyer et le format de payload requis. Voir [ Utilisation d’événements de parcours ](../../event/about-events.md)
 * Confirmez les champs obligatoires ou facultatifs dans chaque payload d’événement et ce qui se passe dans les parcours lorsque les champs attendus sont manquants ou incorrects (voir [Exigences de schéma](../../event/experience-event-schema.md#schema-requirements)).
-* Tester la diffusion d’événements et l’ingestion de données ensemble à l’aide d’[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=fr){target="_blank"}
+* Tester la diffusion d’événements et l’ingestion de données ensemble à l’aide d’[](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=fr){target="_blank"}
 
 >[!TAB Collaborer avec les administrateurs et administratrices]
 
 Collaborez avec les [administrateurs](administrator.md) sur les configurations d’accès et de canal. Parcours ne peut atteindre les utilisateurs et utilisatrices que par le biais des canaux configurés par l’administrateur ou l’administratrice. Coordonnez-les suffisamment tôt pour que votre travail SDK et leur configuration restent synchronisés.
 
 * Fournissez les spécifications d’API pour les [actions personnalisées](../../action/about-custom-action-configuration.md) qu’ils configureront dans Journey Optimizer
-* Demandez les autorisations nécessaires et les informations d’identification API via [&#128279;](https://developer.adobe.com){target="_blank"}
-* Coordonnez-vous sur les exigences de configuration des canaux : certificats push pour les points d’entrée [&#128279;](../../push/push-configuration.md) et Android, [Web push](../../push/push-configuration-web.md), [SMS webhook](../../mobile/mobile-webhook.md).
-* Alignez-vous sur la stratégie de sandbox et les environnements de test avant d’exécuter le mode test de parcours [&#128279;](../../building-journeys/testing-the-journey.md)
+* Demandez les autorisations nécessaires et les informations d’identification API via [](https://developer.adobe.com){target="_blank"}
+* Coordonnez-vous sur les exigences de configuration des canaux : certificats push pour les points d’entrée [](../../push/push-configuration.md) et Android, [Web push](../../push/push-configuration-web.md), [SMS webhook](../../mobile/mobile-webhook.md).
+* Alignez-vous sur la stratégie de sandbox et les environnements de test avant d’exécuter le mode test de parcours [](../../building-journeys/testing-the-journey.md)
 
 >[!TAB Collaborer avec les responsables marketing]
 
@@ -351,7 +335,7 @@ Collaborez avec des [spécialistes marketing](marketer.md) sur la conception et 
 
 * Examinez ensemble les conceptions de parcours dans [Journey Optimizer](../../building-journeys/journey.md) pour identifier les interactions utilisateur qui doivent déclencher des événements et les surfaces qui doivent être personnalisées
 * Implémentez le suivi afin que les marketeurs puissent mesurer [les performances du contenu et l’interaction client](../../reports/report-gs-cja.md)
-* Exécutez le mode test de parcours [&#128279;](../../building-journeys/testing-the-journey.md) ensemble à l’aide des profils de test pour valider le flux complet de bout en bout.
+* Exécutez le mode test de parcours [](../../building-journeys/testing-the-journey.md) ensemble à l’aide des profils de test pour valider le flux complet de bout en bout.
 * Résoudre les problèmes liés à la diffusion des messages, au rendu de la personnalisation ou aux réponses [action personnalisée](../../action/action.md)
 
 >[!ENDTABS]

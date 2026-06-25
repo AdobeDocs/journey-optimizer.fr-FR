@@ -8,30 +8,16 @@ role: Developer, Admin, User
 level: Beginner, Intermediate
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
 TQID: https://experienceleague.adobe.com/Dq8mzkfuxvcoAPI1vjq9lFHjz4Z5j9s42-kfMy59PeI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-subfeature_v2:
-  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
+subfeature_v2: id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d095671a-1355-40aa-8b5f-06c33c68080bid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
 source-wordcount: 2696
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -39,7 +25,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-**Sur cette page :** obtenez un aperçu pratique du flux de données vers et depuis Adobe Journey Optimizer, couvrant les schémas, les jeux de données, les identités, les profils et les sources de données, afin que votre équipe puisse terminer les étapes de préparation des données avant de créer des parcours et des campagnes.
+**Sur cette page :** obtenez une vue d’ensemble pratique des flux de données entrants et sortants d’Adobe Journey Optimizer, notamment les schémas, les jeux de données, les identités, les profils et les sources de données, afin que votre équipe puisse réaliser l’ensemble des étapes de préparation des données avant de créer des parcours et des campagnes.
 
 >[!ENDSHADEBOX]
 
@@ -155,7 +141,7 @@ Choisissez une identité principale pour vos clientes et clients (telle que l’
 Créez des schémas **Profil individuel XDM** pour capturer les attributs du client, tels que le nom et les coordonnées, les préférences et centres d’intérêt, ainsi que l’étape du cycle de vie ou l’état de consentement. Créez des schémas **XDM ExperienceEvent** pour capturer des données comportementales et transactionnelles telles que des événements web et d’application, des achats et des interactions hors ligne. Marquez les champs corrects en tant qu’identités et attributs de profil, le cas échéant.
 
 ➡️ [En savoir plus sur les schémas](get-started-schemas.md)\
-➡️ [Planification de l’activation des profils](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
+➡️ [Planification de l’activation des profils](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
 
 +++
 
@@ -164,8 +150,8 @@ Créez des schémas **Profil individuel XDM** pour capturer les attributs du cli
 Dans Adobe Experience Platform, créez des jeux de données basés sur vos schémas XDM et activez le profil sur n’importe quel jeu de données qui doit contribuer au profil client en temps réel. Vérifiez que les jeux de données générés par le système et créés par Journey Optimizer sont visibles dans l’espace de travail Jeux de données.
 
 ➡️ [En savoir plus sur les jeux de données](get-started-datasets.md)\
-➡️ [Planification de l’activation des profils](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}\
-➡️ [Gestion des schémas activés pour les profils](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
+➡️ [Planification de l’activation des profils](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}\
+➡️ [Gestion des schémas activés pour les profils](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
 
 +++
 
@@ -233,7 +219,7 @@ L’exemple suivant montre le fonctionnement conjoint des concepts de cette page
 
 1. Un ou une spécialiste de l’ingénierie de données crée un [schéma de profil individuel XDM](get-started-schemas.md) pour les attributs clientèle (nom, e-mail, niveau de fidélité, consentement) et un schéma XDM ExperienceEvent pour les événements d’inscription web.
 1. Des [jeux de données activés pour le profil](get-started-datasets.md) sont créés pour chaque schéma : un pour les attributs CRM et un pour les événements d’inscription.
-1. Les équipes web et mobiles diffusent les événements d’inscription via le SDK Web Adobe Experience Platform. Les données de CRM sont ingérées via un [&#x200B; connecteur source](../start/get-started-sources.md).
+1. Les équipes web et mobiles diffusent les événements d’inscription via le SDK Web Adobe Experience Platform. Les données de CRM sont ingérées via un [ connecteur source](../start/get-started-sources.md).
 1. Un administrateur ou une administratrice configure la [source de données Adobe Experience Platform](../datasource/adobe-experience-platform-data-source.md) dans Journey Optimizer et expose les champs tels que `profile.person.name.firstName`, `profile.personalEmail.address` et `profile.loyaltyTier`.
 1. Un ou une spécialiste marketing [crée un parcours de bienvenue](../building-journeys/journey-gs.md) qui écoute un événement d’inscription et utilise ces attributs de profil pour [personnaliser l’e-mail de bienvenue](../personalization/personalize.md). Journey Optimizer écrit des événements d’envoi et d’ouverture dans les jeux de données de tracking et consigne la progression du parcours dans les jeux de données d’événement d’étape de parcours.
 1. Un développeur ou une développeuse utilise le [requêteur](get-started-queries.md) pour vérifier que les événements se suivent correctement et analyse les performances (ouvertures, clics, délai d’envoi). L’équipe ajuste le parcours et le contenu en fonction de ces informations.
@@ -245,7 +231,7 @@ Ce flux illustre la manière dont les schémas, les jeux de données, les source
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **Commencer avec les schémas**
 
@@ -255,7 +241,7 @@ Découvrez comment créer des schémas XDM dans Adobe Experience Platform, ch
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Utiliser les jeux de données**
 
@@ -265,7 +251,7 @@ Découvrez comment créer des jeux de données d’événement et activés pour 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Configuration des sources de données**
 
@@ -275,7 +261,7 @@ Conseils détaillés sur la configuration de la source de données Adobe Experi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Utiliser des données Adobe Experience Platform (recherche)**
 
@@ -285,7 +271,7 @@ Découvrez comment enrichir les messages au moment de l’exécution avec des do
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Commencer avec les requêtes**
 
@@ -295,7 +281,7 @@ Utilisez le service de requête pour analyser les jeux de données Journey Opti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Commencer avec les profils**
 
@@ -305,7 +291,7 @@ Découvrez le fonctionnement du profil client en temps réel dans Journey Optim
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Tutoriel : vue d’ensemble de la configuration des données**
 
@@ -315,7 +301,7 @@ Une vidéo destinée aux débutants et débutantes sur la configuration des donn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Tutorial sur la création de jeux de données et l’ingestion de données**
 

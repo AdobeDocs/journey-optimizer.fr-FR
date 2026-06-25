@@ -52,7 +52,7 @@ ht-degree: 98%
    + Travailler efficacement {#work-efficiently}
       + [Naviguer dans l’interface](using/start/user-interface.md)
       + [Rechercher, filtrer, organiser](using/start/search-filter-categorize.md)
-      + [Questions fréquentes sur la résolution des problèmes](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [Questions fréquentes sur la résolution des problèmes](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Accessibilité](using/start/accessibility.md)
       + {hide-from-toc}[Parcours et campagnes](using/start/journeys-vs-campaigns.md)
 + Parcours {#orchestrate-journeys}
@@ -68,7 +68,7 @@ ht-degree: 98%
       + [Configurer et suivre les mesures de votre parcours](using/building-journeys/success-metrics.md)
       + [Concevoir le parcours](using/building-journeys/using-the-journey-designer.md)
       + Simulation {#simulate-journey}
-         + [Prise en main de la simulation de parcours &#x200B;](using/building-journeys/simulate-journey-gs.md)
+         + [Commencer à utiliser la simulation de parcours](using/building-journeys/simulate-journey-gs.md)
          + [Simuler votre parcours](using/building-journeys/simulate-journey.md)
       + [Tester votre parcours](using/building-journeys/testing-the-journey.md)
       + [Test à blanc du parcours](using/building-journeys/journey-dry-run.md)
@@ -235,7 +235,7 @@ ht-degree: 98%
          + [Définir des variables globales dans des campagnes orchestrées](using/orchestrated/global-variables.md)
          + [Déclencher des campagnes orchestrées à l’aide d’un signal](using/orchestrated/trigger-orchestrated-campaign.md)
 + Conflit et hiérarchisation {#conflict-prioritization}
-   + [Gestion des conflits et hiérarchisation](using/conflict-prioritization/gs-conflict-prioritization.md)
+   + [Gestion des conflits et de la priorité](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Identifier les conflits potentiels](using/conflict-prioritization/conflicts.md)
    + [Attribuer des scores de priorité](using/conflict-prioritization/priority-scores.md)
    + Définir les règles de limitation des messages et des parcours {#capping-rules}
@@ -729,7 +729,7 @@ ht-degree: 98%
          + [Créer des politiques de décision](using/experience-decisioning/create-decision-policy.md)
          + [Utiliser des politiques de décision dans les messages](using/experience-decisioning/use-decision-policy.md)
          + [Utiliser les fragments dans les politiques de décision](using/experience-decisioning/fragments-decision-policies.md)
-         + [Diffusion de décisions par lots dans le publipostage direct](using/experience-decisioning/batch-decisioning-direct-mail.md)
+         + [Prise de décision en masse dans le courrier](using/experience-decisioning/batch-decisioning-direct-mail.md)
       + [Rapports sur la prise de décision](using/experience-decisioning/cja-reporting.md)
       + [Cas d’utilisation de prise de décision](using/experience-decisioning/experience-decisioning-uc.md)
       + Collecter les données d’événement {#experience-decisioning-collect-event-data}
