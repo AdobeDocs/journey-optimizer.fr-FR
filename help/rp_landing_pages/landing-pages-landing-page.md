@@ -50,7 +50,7 @@ Accédez aux pages de destination, organisez-les et effectuez des actions telles
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Concevoir le contenu des pages de destination
 

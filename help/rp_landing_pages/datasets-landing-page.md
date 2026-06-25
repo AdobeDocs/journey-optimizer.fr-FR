@@ -30,7 +30,7 @@ Découvrez comment accéder aux jeux de données, les créer et les gérer dans 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
 
 Mécanismes de sécurisation de la durée de vie (TTL) des jeux de données
 

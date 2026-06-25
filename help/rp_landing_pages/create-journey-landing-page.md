@@ -41,7 +41,7 @@ Configurez les règles d’entrée, les paramètres temporels, la gestion des ac
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Conception de votre parcours
 

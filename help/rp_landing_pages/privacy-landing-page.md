@@ -60,7 +60,7 @@ Découvrez comment gérer les tâches du cycle de vie des données, telles que l
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Gestion du consentement
 

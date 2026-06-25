@@ -50,7 +50,7 @@ Découvrez comment gérer les identités client à l’aide du graphique d’ide
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 Tableau de bord d’utilisation des licences
 

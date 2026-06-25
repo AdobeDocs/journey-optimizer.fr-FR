@@ -71,7 +71,7 @@ Maîtrisez la création d’expressions pour les workflows dynamiques, la manipu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Cas pratiques d’utilisation d’Adobe Journey Optimizer
 

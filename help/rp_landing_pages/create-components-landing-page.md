@@ -25,7 +25,7 @@ Dans Adobe Journey Optimizer, la création de composants tels que les emplacem
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Guide de création d’emplacements pour les offres
 

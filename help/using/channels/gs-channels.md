@@ -62,7 +62,7 @@ Découvrez comment créer, configurer et optimiser des campagnes par e-mail, y c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=fr)
 
 Canal des notifications push
 

@@ -50,7 +50,7 @@ Découvrez comment tirer parti des identifiants supplémentaires pour une person
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Gestion des fuseaux horaires
 

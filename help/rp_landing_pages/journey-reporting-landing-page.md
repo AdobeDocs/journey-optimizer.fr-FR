@@ -20,7 +20,7 @@ Les rapports de parcours dans Adobe Journey Optimizer fournissent des outils p
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 Analyse des rapports de parcours
 

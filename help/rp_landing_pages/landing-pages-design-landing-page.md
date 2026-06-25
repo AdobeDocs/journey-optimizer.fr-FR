@@ -50,7 +50,7 @@ Enregistrez les pages de destination en tant que modèles et réutilisez-les pou
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Utiliser du JavaScript personnalisé dans les pages de destination
 

@@ -106,7 +106,7 @@ Incluez automatiquement les adresses des parties prenantes internes dans les dif
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=fr)
 
 Détection des conflits
 

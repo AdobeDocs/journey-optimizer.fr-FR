@@ -20,7 +20,7 @@ L’approbation des parcours et des campagnes dans Adobe Journey Optimizer gar
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Configurer et gérer l’approbation des parcours et des campagnes
 

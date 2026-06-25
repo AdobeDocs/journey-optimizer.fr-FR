@@ -20,7 +20,7 @@ Les champs d’événement d’étape hérités d’Adobe Journey Optimizer so
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Présentation des champs hérités
 
@@ -40,7 +40,7 @@ Découvrez les champs du schéma de parcours, leurs types et la manière dont il
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Champs communs pour les événements d’étape de parcours
 

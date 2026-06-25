@@ -70,7 +70,7 @@ Configurez les paramètres de suivi d’URL pour mesurer l’efficacité des cam
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Paramètres personnalisés de configuration du canal e-mail
 

@@ -45,7 +45,7 @@ Découvrez comment les modèles d’optimisation automatique utilisent des algor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Présentation des modèles d’optimisation personnalisée
 

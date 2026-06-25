@@ -20,7 +20,7 @@ Découvrez comment créer, personnaliser et optimiser des expériences web à l�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Modifier du contenu à l’aide du concepteur web
 
@@ -60,7 +60,7 @@ Apprenez à surveiller l’engagement web à l’aide de rapports et du suivi de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Création d’applications monopage dans Adobe Journey Optimizer
 
