@@ -26,10 +26,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
 workflow-type: tm+mt
-source-wordcount: 647
-ht-degree: 91%
+source-wordcount: 686
+ht-degree: 86%
 
 ---
 
@@ -87,6 +87,10 @@ Notez que les mesures varient en fonction des canaux utilisés dans votre campag
 * **[!UICONTROL Taux de clics]** : pourcentage d’utilisateurs et d’utilisatrices ayant interagi avec le message.
 
 * **[!UICONTROL Clics]** : nombre de clics sur un contenu de votre message.
+
+* **[!UICONTROL Estimation des clics]** : nombre de clics sur un contenu de votre message, à l’exclusion du trafic de robots identifiés et des interactions non humaines (NHI).
+
+* **[!UICONTROL Taux de clics estimé]** : calculé comme le nombre de clics estimés par rapport au nombre total de messages diffusés.
 
 * **[!UICONTROL Clics uniques]** : nombre de profils qui ont cliqué sur un contenu dans votre message.
 

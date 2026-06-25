@@ -30,10 +30,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
+source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
 workflow-type: tm+mt
-source-wordcount: 2332
-ht-degree: 88%
+source-wordcount: 2349
+ht-degree: 87%
 
 ---
 
@@ -233,6 +233,8 @@ Le tableau **[!UICONTROL E-mail - Statistiques de tracking]** offre un compte re
 * **[!UICONTROL Clics]** : nombre de clics sur un contenu dans vos e-mails.
 
 * **[!UICONTROL Estimation des clics]** : nombre de clics sur un contenu de votre message, à l’exclusion du trafic de robots identifiés et des interactions non humaines (NHI).
+
+* **[!UICONTROL Taux de clics estimé]** : calculé comme le nombre de clics estimés par rapport au nombre total de messages diffusés.
 
 * **[!UICONTROL Plaintes relatives aux spams]** : nombre de fois où un message a été déclaré comme spam ou courrier indésirable.
 
