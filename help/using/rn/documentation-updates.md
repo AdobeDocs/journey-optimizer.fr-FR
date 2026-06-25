@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 19a0ad24f524f51e70a6e2ec4eb784af0630a984
+source-git-commit: 6d8650fc9963c21122f84c2ffd965089f158d8ed
 workflow-type: tm+mt
-source-wordcount: 8915
+source-wordcount: 8952
 ht-degree: 90%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 90%
 Cette page répertorie toutes les dernières modifications apportées à la documentation [!DNL Journey Optimizer], en plus des mises à jour liées aux fonctionnalités et améliorations de la version mensuelle.
 
 ## Juin 2026 {#june-2026}
+
+* La page **Mode Débit élevé** a été mise à jour pour prendre en compte la disponibilité régionale étendue : la fonctionnalité est désormais disponible dans toutes les régions, à l’exception de la Suisse, pour les organisations disposant d’une licence avec le module complémentaire de messagerie transactionnelle à débit élevé. [En savoir plus](../campaigns/api-triggered-high-throughput.md)
 
 * Une nouvelle section **Profils accessibles et utilisation de licence** a été ajoutée à la page **Prise en main des profils** en tant que source unique de vérité pour ce concept. Des références ciblées ont été ajoutées dans les sections Audiences, Campagnes et Prise de décision. [En savoir plus](../audience/get-started-profiles.md#engageable-profiles)
 
