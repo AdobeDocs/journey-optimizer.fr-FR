@@ -52,7 +52,7 @@ ht-degree: 98%
    + Travailler efficacement {#work-efficiently}
       + [Naviguer dans l’interface](using/start/user-interface.md)
       + [Rechercher, filtrer, organiser](using/start/search-filter-categorize.md)
-      + [Questions fréquentes sur la résolution des problèmes](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [Questions fréquentes sur la résolution des problèmes](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Accessibilité](using/start/accessibility.md)
       + {hide-from-toc}[Parcours et campagnes](using/start/journeys-vs-campaigns.md)
 + Parcours {#orchestrate-journeys}

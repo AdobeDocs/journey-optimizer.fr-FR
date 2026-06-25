@@ -323,7 +323,7 @@ Maintenant que vous comprenez comment fonctionnent les campagnes dans [!DNL Jour
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=fr)
 
 **Planification et timing**
 
@@ -333,7 +333,7 @@ Planifiez des campagnes à des dates/heures spécifiques, paramétrez des diffus
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 **Contrôle du débit**
 
@@ -343,7 +343,7 @@ Limitez le débit des messages pour éviter une surcharge des systèmes en aval,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 **Ciblage des audiences**
 
@@ -353,7 +353,7 @@ Ciblez des audiences Adobe Experience Platform spécifiques avec précision et g
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
 
 **Workflows d’approbation**
 
@@ -363,7 +363,7 @@ Mettez en œuvre des processus de vérification et d’approbation avant la mise
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=fr)
 
 **Heures creuses**
 
@@ -373,7 +373,7 @@ Respectez les préférences des clientes et des clients en évitant de diffuser 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 **Optimisation** :
 
