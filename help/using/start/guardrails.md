@@ -24,10 +24,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4655cf2a206b613b0b668a74a8ebffed66616d91
+source-git-commit: e588992f914e67f482d6736d55c5a705da8d465f
 workflow-type: tm+mt
-source-wordcount: 4590
-ht-degree: 95%
+source-wordcount: 4606
+ht-degree: 94%
 
 ---
 
@@ -167,7 +167,7 @@ Vous pouvez choisir l’une des deux solutions suivantes :
 
 Les mécanismes de sécurisation suivants s’appliquent aux [événements](../event/about-events.md) dans vos parcours :
 
-* Journey Optimizer prend en charge un volume maximal de **5 000 événements de parcours entrants par seconde**, pour l’ensemble des sandbox. Pour en savoir plus sur cette limitation, consultez [cette page](../event/about-events.md#event-thoughput).
+* Journey Optimizer prend en charge un volume maximal de 5 000 événements de parcours entrant **par seconde** pour les événements unitaires, et de 5 000 événements de parcours entrant **par seconde** pour les événements de parcours basés sur la lecture d’audience, sur tous les sandbox. Pour en savoir plus sur cette limitation, consultez [cette page](../event/about-events.md#event-thoughput).
 * Les parcours déclenchés par un événement peuvent prendre jusqu’à **5 minutes** pour traiter la première action du parcours.
 * En ce qui concerne les événements générés par le système, les données de diffusion en continu utilisées pour initier un parcours client doivent d’abord être configurées dans Journey Optimizer pour obtenir un identifiant d’orchestration unique. Cet identifiant d’orchestration doit être ajouté à la payload de diffusion en continu entrant dans Adobe Experience Platform. Cette limitation ne s’applique pas aux événements basés sur une règle.
 * Les événements métier ne peuvent pas être utilisés conjointement avec des événements unitaires ou des activités de qualification d’audience.

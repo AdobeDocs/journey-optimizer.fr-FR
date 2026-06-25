@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
+source-git-commit: e588992f914e67f482d6736d55c5a705da8d465f
 workflow-type: tm+mt
-source-wordcount: 2183
-ht-degree: 67%
+source-wordcount: 2181
+ht-degree: 63%
 
 ---
 
@@ -140,11 +140,16 @@ Pour les événements générés par le système, le service Pipeline filtre les
 
 ## À propos du débit des événements de parcours {#event-thoughput}
 
-Adobe Journey Optimizer prend en charge un volume maximal de 5 000 événements de parcours par seconde au niveau d’une organisation, sur tous les sandbox. Ce quota s’applique à tous les événements utilisés dans les parcours en cours, qui incluent les parcours **Actifs**, de **Test à blanc**, **Fermés** et **Mis en pause**. Lorsque ce quota est atteint, les nouveaux événements sont mis en file d’attente avec un taux de traitement de 5 000 éléments par seconde. La durée maximale qu’un événement peut passer dans la file d’attente est de **24 heures**.
+Adobe Journey Optimizer applique des limites de débit distinctes par type d’événement, au niveau de l’organisation et sur tous les sandbox :
+
+* **Événements unitaires** : 5 000 événements par seconde
+* **Lecture d’événements de parcours basés sur l’audience** : 5 000 événements par seconde
+
+Ces limites s’appliquent à tous les événements utilisés dans les parcours actifs, notamment les parcours **En ligne**, **Exécution d’essai**, **Fermé** et **En pause**. Lorsqu’une limite est atteinte, les nouveaux événements sont mis en file d’attente et traités à 5 000 par seconde jusqu’à ce que la file d’attente soit vidée.
 
 Pour plus d’informations sur les taux de traitement des parcours et sur la façon dont les types de parcours affectent les débits, consultez [cette section](../building-journeys/entry-management.md#journey-processing-rate).
 
-Les types d’événements suivants sont comptabilisés dans le quota des 5 000 TPS :
+Les types d&#39;événements suivants sont comptabilisés dans ces quotas :
 
 * **Événements unitaires externes** : inclut les événements basés sur des règles et ceux générés par le système. Si un même événement brut est admissible à plusieurs définitions de règle, chaque règle admise est comptabilisée comme un événement distinct. Vous trouverez plus de détails ci-dessous.
 
