@@ -8,21 +8,15 @@ level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
 TQID: https://experienceleague.adobe.com/ooRR2Tz1Tphu4JUHgeYjfz-guj8S87NVaWKxM4jShEM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 7d1215b448da93bf4f1ff29f93e00a68921cedce
 workflow-type: tm+mt
 source-wordcount: 2404
-ht-degree: 58%
+ht-degree: 60%
 
 ---
 
@@ -85,7 +79,7 @@ Pour les expériences basées sur du code, vous pouvez ajouter une nouvelle poli
 
 +++Ajouter une politique de décision à partir du menu Prise de décision
 
-1. Cliquez sur l’icône ![](assets/do-no-localize/decisioning-icon.png) dans le volet Propriétés pour accéder au menu **[!UICONTROL Prise de décision]**.
+1. Cliquez sur l’icône ![](assets/do-not-localize/decisioning-icon.png) dans le volet Propriétés pour accéder au menu **[!UICONTROL Prise de décision]**.
 
 1. Cliquez sur le bouton **[!UICONTROL Ajouter une politique de décision]**.
 
@@ -111,7 +105,7 @@ Pour les expériences basées sur du code, vous pouvez ajouter une nouvelle poli
 
    +++Ajout d’une politique de décision à partir de l’éditeur Personalization
 
-   1. Ouvrez l’éditeur de personnalisation à l’aide de l’icône ![](assets/do-no-localize/editor-icon.svg) disponible dans le champ de l’objet ou dans tout champ du corps de l’e-mail dans lequel vous pouvez ajouter de la personnalisation.
+   1. Ouvrez l’éditeur de personnalisation à l’aide de l’icône ![](assets/do-not-localize/editor-icon.svg) disponible dans le champ de l’objet ou dans tout champ du corps de l’e-mail dans lequel vous pouvez ajouter de la personnalisation.
 
    1. Accédez au menu **[!UICONTROL Politiques de décision]** puis cliquez sur le bouton **[!UICONTROL Ajouter une politique de décision]**.
 
@@ -123,7 +117,7 @@ Pour les expériences basées sur du code, vous pouvez ajouter une nouvelle poli
 
    1. Ouvrez le Designer d’e-mail et sélectionnez n’importe quel composant dans la structure de l’e-mail.
 
-   1. Cliquez sur l’icône ![](assets/do-no-localize/decisioning-icon.png) dans le volet Propriétés pour accéder au menu **[!UICONTROL Prise de décision]**.
+   1. Cliquez sur l’icône ![](assets/do-not-localize/decisioning-icon.png) dans le volet Propriétés pour accéder au menu **[!UICONTROL Prise de décision]**.
 
    1. Cliquez sur le bouton **[!UICONTROL Ajouter une nouvelle politique]**.
 
@@ -155,7 +149,7 @@ Pour les SMS, vous pouvez ajouter une nouvelle politique de décision à l’aid
 
 +++Ajouter une politique de décision à partir de l’éditeur de personnalisation
 
-1. Ouvrez l’éditeur de personnalisation à l’aide de l’icône ![](assets/do-no-localize/editor-icon.svg) .
+1. Ouvrez l’éditeur de personnalisation à l’aide de l’icône ![](assets/do-not-localize/editor-icon.svg) .
 1. Accédez au menu **[!UICONTROL Politiques de décision]** puis cliquez sur le bouton **[!UICONTROL Ajouter une politique de décision]**.
 
    ![](assets/decision-policy-add-sms-editor.png)
@@ -164,7 +158,7 @@ Pour les SMS, vous pouvez ajouter une nouvelle politique de décision à l’aid
 
 +++Ajouter une politique de décision à partir du menu Prise de décision
 
-1. Cliquez sur l’icône ![](assets/do-no-localize/decisioning-icon.png) dans le volet Propriétés pour accéder au menu **[!UICONTROL Prise de décision]**.
+1. Cliquez sur l’icône ![](assets/do-not-localize/decisioning-icon.png) dans le volet Propriétés pour accéder au menu **[!UICONTROL Prise de décision]**.
 
 1. Cliquez sur le bouton **[!UICONTROL Ajouter une politique de décision]**.
 
@@ -178,7 +172,7 @@ Pour les notifications push, vous pouvez ajouter une nouvelle politique de déci
 
 +++Ajouter une politique de décision à partir de l’éditeur de personnalisation
 
-1. Ouvrez l’éditeur de personnalisation à l’aide de l’icône ![](assets/do-no-localize/editor-icon.svg) .
+1. Ouvrez l’éditeur de personnalisation à l’aide de l’icône ![](assets/do-not-localize/editor-icon.svg) .
 1. Accédez au menu **[!UICONTROL Politiques de décision]** puis cliquez sur le bouton **[!UICONTROL Ajouter une politique de décision]**.
 
    ![](assets/decision-policy-add-push.png)
@@ -187,7 +181,7 @@ Pour les notifications push, vous pouvez ajouter une nouvelle politique de déci
 
 +++Ajouter une politique de décision à partir du menu Prise de décision
 
-1. Cliquez sur l’icône ![](assets/do-no-localize/decisioning-icon.png) dans le volet Propriétés pour accéder au menu **[!UICONTROL Prise de décision]**.
+1. Cliquez sur l’icône ![](assets/do-not-localize/decisioning-icon.png) dans le volet Propriétés pour accéder au menu **[!UICONTROL Prise de décision]**.
 
 1. Cliquez sur le bouton **[!UICONTROL Ajouter une politique de décision]**.
 
@@ -195,7 +189,7 @@ Pour les notifications push, vous pouvez ajouter une nouvelle politique de déci
 
 >[!IMPORTANT]
 >
->Experience Decisioning avec les notifications push nécessite une version spécifique de Mobile SDK. Avant d’implémenter cette fonctionnalité, consultez les [notes de mise à jour](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"} pour identifier la version requise et vous assurer que vous avez effectué la mise à niveau en conséquence. Vous pouvez également afficher toutes les versions de SDK disponibles pour votre plateforme dans [cette section](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}.
+>La fonctionnalité Décisions pour les expériences avec les notifications push nécessite une version spécifique du SDK mobile. Avant d’implémenter cette fonctionnalité, consultez les [notes de mise à jour](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"} pour identifier la version requise et vous assurer que vous avez effectué la mise à niveau en conséquence. Vous pouvez également afficher toutes les versions du SDK disponibles pour votre plateforme dans [cette section](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}.
 
 +++
 
@@ -205,7 +199,7 @@ Pour le publipostage direct, ajoutez une politique de décision à partir de la 
 
 1. Dans la section **[!UICONTROL Champs de données]**, sélectionnez une colonne ou cliquez sur **[!UICONTROL Ajouter]** pour en créer une.
 
-1. Dans le volet de mise en forme, ouvrez l’éditeur de personnalisation à l’aide de l’icône ![](assets/do-no-localize/editor-icon.svg) .
+1. Dans le volet de mise en forme, ouvrez l’éditeur de personnalisation à l’aide de l’icône ![](assets/do-not-localize/editor-icon.svg) .
 
    ![](assets/decision-policy-dm-add.png)
 
