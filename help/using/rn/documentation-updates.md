@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
+source-git-commit: 19a0ad24f524f51e70a6e2ec4eb784af0630a984
 workflow-type: tm+mt
-source-wordcount: 8876
-ht-degree: 91%
+source-wordcount: 8915
+ht-degree: 90%
 
 ---
 
@@ -45,6 +45,8 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 
 * Une nouvelle sous-section **Affectation de chemin lors d’une rentrée de parcours** a été ajoutée à la documentation **Expérimentation de chemin**. Cela clarifie le fait que l’affectation de chemin d’accès est persistante pour un profil sur plusieurs entrées dans la même version de parcours, mais uniquement dans cette version de parcours. Les affectations sont réinitialisées lorsqu’une nouvelle version de parcours est publiée et que chaque activité d’expérimentation de chemin d’accès dans un parcours applique une affectation aléatoire indépendante. [En savoir plus](../building-journeys/path-experimentation.md#path-assignment)
 * Les références à **Adobe Experience Cloud** ont été alignées sur la marque **[!DNL Adobe CX Enterprise]** dans l’ensemble de la documentation [!DNL Journey Optimizer].
+
+* Mise à jour de la documentation sur la fonction de date **`nowWithDelta()`** afin de clarifier le comportement de fin de mois : lorsque le mois cible comporte moins de jours que le jour du mois en cours, le résultat est normalisé au dernier jour valide de ce mois. [En savoir plus](../building-journeys/functions/date-functions.md#nowWithDelta)
 
 * La page **Prise en main de la délivrabilité** a été mise à jour avec une nouvelle sous-section **Fournisseurs sans FBL par destinataire**. Il répertorie les principaux fournisseurs de boîtes aux lettres qui ne renvoient pas de plaintes contre le spam par destinataire (Gmail/Google Workspace, Apple iCloud et Corporate Microsoft 365/Exchange Online) et explique pourquoi l&#39;absence d&#39;entrée de liste de suppression est attendue pour les destinataires utilisant ces services. [En savoir plus](../reports/deliverability.md#providers-no-fbl)
 
