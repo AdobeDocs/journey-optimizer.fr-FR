@@ -26,9 +26,9 @@ subfeature_v2:
   - id: c8d5f2ce-ba44-43e9-a2bf-94a3d7d85ec3
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 278
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 86%
 
 >[!BEGINSHADEBOX]
 
-**Sur cette page :** découvrez les outils Adobe Journey Optimizer et Adobe Experience Platform de gestion des demandes de données, des journaux d’audit, du consentement et des politiques de gouvernance afin de gérer les données personnelles de manière responsable et de vous conformer aux réglementations telles que le RGPD.
+**Sur cette page :** découvrez les outils de gestion des demandes de données, de journaux d’audit, de consentement et de politiques de gouvernance d’Adobe Journey Optimizer et d’Adobe Experience Platform afin de gérer les données personnelles de manière responsable et de vous conformer aux réglementations, telles que le RGPD.
 
 >[!ENDSHADEBOX]
 

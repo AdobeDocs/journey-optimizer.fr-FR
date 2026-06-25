@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 261
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**Sur cette page :** Commencez avec le canal de messagerie in-app de Adobe Journey Optimizer pour inciter les utilisateurs et utilisatrices de l’application à envoyer des notifications qui font la promotion des fonctionnalités, des offres et de l’intégration.
+**Sur cette page :** commencer à utiliser le canal de messagerie in-app d’Adobe Journey Optimizer pour envoyer aux utilisateurs et aux utilisatrices de l’application des notifications sur les fonctionnalités, les offres et l’intégration.
 
 >[!ENDSHADEBOX]
 

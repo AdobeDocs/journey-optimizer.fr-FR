@@ -6,8 +6,8 @@ description: Profils
 redpen-status: CREATED_||_2025-08-11_20-46-38
 exl-id: 9fc17481-1983-4462-b904-4b24d69c797d
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '187'
+workflow-type: ht
+source-wordcount: '202'
 ht-degree: 100%
 
 ---
@@ -20,27 +20,27 @@ Les profils d’Adobe Journey Optimizer vous permettent de créer des vues uni
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Présentation des profils
 
-Découvrez comment créer, gérer et utiliser des profils dans Adobe Journey Optimizer afin de permettre une interaction personnalisée avec la clientèle grâce au profil client en temps réel.
+Découvrez comment créer, gérer et utiliser des profils dans Adobe Journey Optimizer afin de permettre un engagement client personnalisé grâce au profil client en temps réel.
 
-[Commencer avec les profils](../using/audience/get-started-profiles.md)
+[Prise en main des profils](../using/audience/get-started-profiles.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Création des profils de test
 
-Cette section contient des instructions détaillées sur la création de profils de test pour les tests de parcours, la prévisualisation de contenu et la vérification dans Adobe Journey Optimizer.
+Cette section contient des instructions détaillées sur la création de profils de test pour les tests de parcours, la prévisualisation de contenu et la relecture dans Adobe Journey Optimizer.
 
 [Découvrir comment créer des profils de test](../using/audience/creating-test-profiles.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Utiliser des attributs calculés
 

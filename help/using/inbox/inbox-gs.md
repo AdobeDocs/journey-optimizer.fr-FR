@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 60190d0b-d8e7-4a78-9924-d948f2769f6c
 source-git-commit: c2bb6cf702a14b4eef8f2209082e39cd73338378
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '453'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-**Sur cette page :** comprenez comment le canal de la boîte de réception maintient les messages marketing à un emplacement persistant dans votre application ou site web, afin que les utilisateurs puissent revenir pour les lire et agir sur eux à leur convenance.
+**Sur cette page :** découvrez comment le canal de boîte de réception conserve les messages marketing dans un emplacement persistant dans votre application ou site web, afin que les utilisateurs et les utilisatrices puissent revenir pour les lire et agir sur ceux-ci à leur convenance.
 
 >[!ENDSHADEBOX]
 

@@ -26,9 +26,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1523
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-**Sur cette page :** découvrez comment définir les paramètres d’e-mail dans une configuration de canal, y compris le type d’e-mail, le sous-domaine, le groupe d’adresses IP, le désabonnement de la liste, les paramètres d’en-tête, la Cci, la liste de contrôle, les reprises, le suivi des URL et l’adresse d’exécution.
+**Sur cette page :** découvrez comment définir les paramètres d’e-mail dans une configuration de canal, y compris le type d’e-mail, le sous-domaine, le groupe d’adresses IP, le désabonnement de la liste, les paramètres d’en-tête, les adresses en Cci, la liste de contrôle, les reprises, le suivi des URL et l’adresse d’exécution.
 
 >[!ENDSHADEBOX]
 

@@ -6,8 +6,8 @@ description: Configurer le canal basé sur du code
 redpen-status: CREATED_||_2025-08-11_20-41-39
 exl-id: e77acb57-66a5-49cc-b98b-84886d6736e3
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '209'
+workflow-type: ht
+source-wordcount: '250'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ La section Configurer le canal basé sur du code dans Adobe Journey Optimizer 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Conditions préalables des expériences basées sur du code
 
@@ -30,7 +30,7 @@ Découvrez les conditions préalables requises pour utiliser des expériences ba
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Surfaces des expériences basées sur du code
 
@@ -40,7 +40,7 @@ Découvrez les surfaces et leurs identifiants, leur composition et leur utilisat
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Exemples de méthodes d’implémentation
 
@@ -50,7 +50,7 @@ Recevez des conseils détaillés pour l’implémentation d’expériences côt�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Prise de décision dans les implémentations d’expériences basée sur du code
 
@@ -60,7 +60,7 @@ Découvrez comment configurer la déduplication et gérer les demandes de prise 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Créer une configuration d’expérience basée sur du code
 

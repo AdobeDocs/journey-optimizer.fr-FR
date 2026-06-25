@@ -27,9 +27,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 380
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-**Sur cette page :** consultez les journaux d’audit qui enregistrent les actions des utilisateurs sur les ressources Journey Optimizer, afin d’accroître la visibilité, de résoudre les problèmes et de démontrer la conformité aux réglementations et aux politiques de gestion des données.
+**Sur cette page :** consultez les journaux d’audit qui enregistrent les actions des utilisateurs et des utilisatrices sur les ressources Journey Optimizer pour vous permettre d’accroître la visibilité, de résoudre les problèmes et de montrer la conformité aux réglementations et aux politiques de gestion des données.
 
 >[!ENDSHADEBOX]
 
@@ -83,6 +83,6 @@ Le tableau ci-dessous présente les actions sur lesquelles les ressources Journe
 | Action personnalisée de parcours | Créer / Supprimer / Mettre à jour |
 | Source de données de parcours | Créer / Supprimer / Mettre à jour |
 | Événement de parcours | Créer / Supprimer / Mettre à jour |
-| fragment de parcours | Créer / Supprimer / Mettre à jour / Activer / Archiver |
+| Fragment de parcours | Créer / Supprimer / Mettre à jour / Activer / Archiver |
 | Règle de fréquence des messages | Créer / Supprimer / Mettre à jour |
 | Stratégie de classement | Créer / Supprimer / Mettre à jour |

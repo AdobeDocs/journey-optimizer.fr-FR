@@ -27,9 +27,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 493
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-**Sur cette page :** découvrez pourquoi et quand vous devez configurer un enregistrement DMARC pour les sous-domaines que vous avez délégués à Adobe dans Adobe Journey Optimizer afin de respecter les exigences de l’expéditeur Google et Yahoo.
+**Sur cette page :** découvrez pourquoi et quand vous devez configurer un enregistrement DMARC pour les sous-domaines que vous avez délégués à Adobe dans Adobe Journey Optimizer afin de respecter les exigences en matière d’expéditeur et d’expéditrice de Google et Yahoo.
 
 >[!ENDSHADEBOX]
 
@@ -92,6 +92,6 @@ The most recent timelines shared by Google and Yahoo! are as follows:
 
 * Découvrez DMARC dans le [Guide des bonnes pratiques en matière de délivrabilité](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=fr#about){target="_blank"}.
 * Consultez l’[annonce Google Gmail](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}.
-* Consultez l’[annonce Yahoo! &#x200B;](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}.
+* Consultez l’[annonce Yahoo! ](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}.
 
 <!--Find more guidance about these changes in the [Deliverability Best Practice Guide]-->

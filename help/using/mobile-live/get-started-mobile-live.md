@@ -25,9 +25,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 449
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**Sur cette page :** découvrez comment les activités en direct fournissent des mises à jour persistantes et en temps réel sur l’écran de verrouillage d’iPhone et l’île dynamique afin que vous puissiez maintenir l’engagement des utilisateurs pendant les événements en cours et planifier la configuration et les campagnes déclenchées par l’API nécessaires pour les envoyer avec Adobe Journey Optimizer.
+**Sur cette page :** découvrez comment les activités en direct fournissent des mises à jour persistantes et en temps réel sur l’écran de verrouillage de l’iPhone et dans Dynamic Island afin que vous puissiez maintenir l’engagement des utilisateurs et des utilisatrices pendant des événements en cours et planifier la configuration et les campagnes déclenchées par l’API nécessaires pour les envoyer via Adobe Journey Optimizer.
 
 >[!ENDSHADEBOX]
 

@@ -27,9 +27,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
 source-git-commit: 6a3cd911b8a89d83cab49eb88b05bf18616377e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 722
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-**Sur cette page :** les canaux natifs de Adobe Journey Optimizer vous permettent d’atteindre les clients par le biais d’une diffusion sortante et d’expériences entrantes. Comparez les e-mails, SMS, notifications push, Activités en direct, publipostage direct, WhatsApp, LINE, in-app, web, basés sur le code et cartes de contenu pour déterminer où chacun est pris en charge dans les parcours et les campagnes.
+**Sur cette page :** les canaux natifs d’Adobe Journey Optimizer vous permettent d’atteindre les clientes et les clients par le biais d’une diffusion sortante et d’expériences entrantes. Comparez les canaux e-mail, SMS, notifications push, activités en direct, courrier, WhatsApp, LINE, in-app, web, basé sur du code et cartes de contenu pour déterminer l’emplacement où chacun d’entre eux est pris en charge dans les parcours et les campagnes.
 
 >[!ENDSHADEBOX]
 
@@ -52,7 +52,7 @@ Les canaux de diffusion des messages sortants impliquent l’envoi de messages a
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canal e-mail
 
@@ -72,7 +72,7 @@ Découvrez comment créer, configurer et envoyer des notifications push pour iO
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Activités en direct iOS
 
@@ -82,7 +82,7 @@ Diffusez des mises à jour constantes en temps réel directement sur l’écran 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 Messages SMS/MMS/RCS
 
@@ -92,7 +92,7 @@ Découvrez comment créer, gérer et configurer des messages SMS, MMS et RCS �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 Campagnes par courrier
 
@@ -102,7 +102,7 @@ Découvrez comment créer et gérer des campagnes par courrier, notamment en exp
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 Messages WhatsApp
 
@@ -112,7 +112,7 @@ Découvrez comment intégrer et utiliser les messages WhatsApp via l’API Cloud
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg)
 
 Messages LINE
 
@@ -130,7 +130,7 @@ Avec les expériences entrantes sur les applications mobiles et le web, les clie
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Messages in-app
 
@@ -140,7 +140,7 @@ Découvrez comment configurer, concevoir et personnaliser des notifications in-a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Web
 
@@ -150,7 +150,7 @@ Découvrez comment créer, configurer et personnaliser des expériences web et i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Expérience basée sur du code
 
@@ -160,7 +160,7 @@ Découvrez les expériences basées sur du code pour diffuser du contenu personn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 Cartes de contenu
 

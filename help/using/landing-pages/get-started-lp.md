@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 2956c3df01f4b2e753111ecf54163ec4084fecf2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 781
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**Sur cette page :** les pages de destination transforment un clic d’un e-mail, d’une publicité ou d’une campagne en une destination web dédiée où les clients s’inscrivent ou se désinscrivent, gèrent leurs préférences et partagent des données de profil - ce qui vous permet d’augmenter les audiences consentantes et de capturer les données propriétaires qui alimentent la personnalisation.
+**Sur cette page :** les pages de destination transforment un clic dans un e-mail, une publicité ou une campagne en une destination web dédiée où les clientes et les clients peuvent s’inscrire ou se désinscrire, gérer leurs préférences et partager des données de profil, ce qui vous permet de développer des audiences consentantes et de capturer des données propriétaires qui alimentent la personnalisation.
 
 >[!ENDSHADEBOX]
 

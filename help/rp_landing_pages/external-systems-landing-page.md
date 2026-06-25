@@ -6,8 +6,8 @@ description: Intégrer vos parcours à des systèmes externes
 redpen-status: CREATED_||_2025-08-11_21-16-41
 exl-id: f61a2c42-f082-4eef-b890-8224357f215f
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '214'
+workflow-type: ht
+source-wordcount: '225'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ L’intégration de vos parcours à des systèmes externes dans Adobe Journey 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Bonnes pratiques d’intégration de système externe
 
@@ -30,7 +30,7 @@ Découvrez les bonnes pratiques et les directives techniques pour l’intégrati
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Vue d’ensemble de l’API Capping et guide de mise en œuvre
 
@@ -40,7 +40,7 @@ Découvrez comment créer, configurer et gérer des paramètres de limitation po
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 API Capping : guide de configuration et de gestion
 

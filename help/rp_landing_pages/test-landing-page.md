@@ -10,9 +10,9 @@ keywords: tester, valider, approuver, approbation, assurance qualité, aq, profi
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2281'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Cette page de destination vous permet de choisir la bonne approche de test en fo
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Prévisualiser, tester et valider le contenu
 
@@ -36,7 +36,7 @@ Découvrez comment prévisualiser, tester et valider du contenu personnalisé à
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Workflows d’approbation des parcours et des campagnes
 
@@ -46,7 +46,7 @@ Découvrez comment configurer, gérer et exécuter des processus d’approbation
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Tester votre parcours
 
@@ -56,7 +56,7 @@ Validez votre parcours avant de le publier en le testant avec des profils spéci
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Test à blanc du parcours
 
@@ -66,7 +66,7 @@ Effectuez un test à blanc pour simuler et valider le chemin d’exécution de v
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Surveillance et dépannage
 
@@ -76,7 +76,7 @@ Accédez à un ensemble complet de ressources de dépannage, d’alertes systèm
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Terrain de jeu de personnalisation
 
@@ -86,7 +86,7 @@ Testez les expressions de personnalisation dans un environnement sécurisé. Tes
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Expériences de contenu et tests A/B
 
@@ -96,7 +96,7 @@ Optimisez vos campagnes en testant plusieurs variations de contenu et en mesuran
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Listes de contrôle pour la surveillance des parties prenantes
 
@@ -275,7 +275,7 @@ Pour maximiser l’efficacité de vos efforts de test, suivez ces pratiques reco
 
 1. **Valider minutieusement la personnalisation** : effectuez des tests avec plusieurs [profils de test](../using/content-management/test-profiles.md) dont les valeurs d’attribut sont différentes pour confirmer le bon rendu des jetons de personnalisation et le fonctionnement des valeurs de secours. Utilisez le [terrain de jeu de personnalisation](../using/personalization/personalize.md#playground) pour tester les expressions de personnalisation et le code avec des données d’exemple avant de les appliquer à vos campagnes.
 
-1. **Tester les variations de contenu avec des exemples de données** - Utilisez [exemples de données d’entrée](../using/test-approve/simulate-sample-input.md) à partir de fichiers CSV ou JSON, une saisie manuelle ou une génération automatique d’IA pour tester jusqu’à 30 scénarios de personnalisation sans créer de nombreux profils de test.
+1. **Tester les variations de contenu avec des données d’exemple** : utilisez des [exemples de données d’entrée](../using/test-approve/simulate-sample-input.md) à partir de fichiers CSV ou JSON, de saisies manuelles, ou d’une génération automatique par IA pour tester jusqu’à 30 scénarios de personnalisation sans créer de nombreux profils de test.
 
 1. **Utiliser des listes de contrôle pour la surveillance des parties prenantes** : configurez des [listes de contrôle](../using/configuration/seed-lists.md) pour inclure automatiquement les parties prenantes internes qui recevront des copies de toutes les diffusions au moment de l’exécution à des fins de surveillance de la qualité et de vérification de la conformité (canal E-mail uniquement).
 
@@ -364,7 +364,7 @@ Familiarisez-vous avec ces concepts de test essentiels pour mieux comprendre les
 
 **[Test à blanc](../using/building-journeys/journey-dry-run.md)** : outil d’analyse d’exécution de parcours qui effectue le suivi des chemins sans envoyer de messages ni effectuer d’appels API. Cas d’utilisation : valider la logique sans consommer de ressources. [En savoir plus sur le test à blanc](../using/building-journeys/journey-dry-run.md)
 
-**[Données d’entrée d’exemple](../using/test-approve/simulate-sample-input.md)** - Fichiers CSV ou JSON, saisie manuelle ou génération automatique par IA pour tester la personnalisation. Prend en charge jusqu’à 30 variantes. [Simuler des variations de contenu](../using/test-approve/simulate-sample-input.md)
+**[Exemples de données d’entrée](../using/test-approve/simulate-sample-input.md)** : fichiers CSV ou JSON, saisie manuelle ou génération automatique par IA pour tester la personnalisation.Prend en charge jusqu’à 30 variantes. [Simuler des variations de contenu](../using/test-approve/simulate-sample-input.md)
 
 **[Listes de contrôle](../using/configuration/seed-lists.md)** : adresses e-mail des parties prenantes internes automatiquement incluses dans les diffusions réelles (et non les envois de test). Canal E-mail uniquement. Cas d’utilisation : surveillance de la qualité et conformité. [Configurer des listes de contrôle](../using/configuration/seed-lists.md)
 
@@ -386,7 +386,7 @@ Familiarisez-vous avec ces concepts de test essentiels pour mieux comprendre les
 
 >[!TAB Guides essentiels]
 
-* [Simuler des variations de contenu](../using/test-approve/simulate-sample-input.md) - Testez jusqu’à 30 scénarios de personnalisation à l’aide de fichiers CSV ou JSON, d’une saisie manuelle ou d’une génération automatique d’IA.
+* [Simuler des variations de contenu](../using/test-approve/simulate-sample-input.md) : testez jusqu’à 30 scénarios de personnalisation à l’aide de fichiers CSV ou JSON, de saisies manuelles ou d’une génération automatique par IA.
 
 * [Créer des profils de test](../using/audience/creating-test-profiles.md) : créez et gérez des profils de test pour simuler des scénarios clients. Découvrez comment marquer les profils pour les tests, définir des attributs et organiser les segments de test.
 
@@ -473,7 +473,7 @@ Découvrez comment les fonctionnalités de test sont reliées entre elles et à 
 ### Q : comment tester les campagnes déclenchées par API ?
 
 **Option 1 :** utilisez l’[API de simulation de campagne](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-&quot;_blank&quot;} pour les tests programmatiques.
-**Option 2 :**&#x200B;prévisualisez le contenu avec des profils de test dans l’interface d’utilisation.
+**Option 2 :**prévisualisez le contenu avec des profils de test dans l’interface d’utilisation.
 **Option 3 :** envoyez des épreuves aux adresses e-mail de test.
 **Bonne pratique :** combinez les trois pour une validation complète.
 

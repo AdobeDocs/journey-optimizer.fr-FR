@@ -23,9 +23,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 487
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**Sur cette page :** Découvrez comment fonctionne le canal courrier afin de générer les fichiers d’extraction que les fournisseurs tiers utilisent pour envoyer du courrier physique à vos clients.
+**Sur cette page :** découvrez comment fonctionne le canal courrier afin de générer les fichiers d’extraction que les fournisseurs tiers utilisent pour envoyer du courrier physique à vos clients et clientes.
 
 >[!ENDSHADEBOX]
 
@@ -63,7 +63,7 @@ Les principales étapes pour envoyer des messages de courrier sont les suivantes
 
 * **[Créer des courriers](create-direct-mail.md)** : découvrez comment créer des diffusions de courrier et configurer des fichiers d’extraction pour les canaux hors ligne.
 * **[Configurer le canal Courrier](direct-mail-configuration.md)** : configurez les surfaces de courrier et les configurations de routage des fichiers.
-* **[Prise de décision par lots dans le publipostage direct](../experience-decisioning/batch-decisioning-direct-mail.md)** - Utilisez la prise de décision pour personnaliser les fichiers d’extraction pour le publipostage direct ou pour exporter des données de prise de décision pour les systèmes en aval.
+* **[Prise de décision par lots dans le courrier](../experience-decisioning/batch-decisioning-direct-mail.md)** : utilisez la prise de décision pour personnaliser les fichiers d’extraction pour le courrier ou pour exporter des données de prise de décision pour les systèmes en aval.
 * **[Tester et envoyer un courrier](test-send-direct-mail.md)** : découvrez comment tester, valider et publier vos diffusions de courrier.
 * **[Tutoriels sur le courrier](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** : découvrez des tutoriels vidéo détaillés sur les fonctionnalités et les bonnes pratiques relatives au courrier.
 

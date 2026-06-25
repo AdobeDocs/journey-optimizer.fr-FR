@@ -6,8 +6,8 @@ description: Expérience basée sur du code
 redpen-status: CREATED_||_2025-08-11_20-42-30
 exl-id: 55b07a0b-b09a-47e6-8b9f-e05e2dd7b47e
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '176'
+workflow-type: ht
+source-wordcount: '205'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Les expériences basées sur du code d’Adobe Journey Optimizer vous permette
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Présentation des expériences basées sur du code
 
@@ -30,7 +30,7 @@ Découvrez les expériences basées sur du code, leurs cas d’utilisation et le
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurer les canaux basés sur du code
 
@@ -40,7 +40,7 @@ Maîtrisez la configuration et la gestion des canaux basés sur du code, y compr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Créer des expériences basées sur du code
 

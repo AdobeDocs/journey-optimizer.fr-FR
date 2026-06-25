@@ -23,9 +23,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 220cd161bdc125459ccf17fb7414ba4b4c6360bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 196
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 85%
 
 >[!BEGINSHADEBOX]
 
-**Sur cette page :** les cartes de contenu diffusent des messages personnalisés et non intrusifs directement dans vos applications mobiles et sites web, en engageant les utilisateurs dans le contexte sans interrompre ce qu’ils sont venus faire.
+**Sur cette page :** les cartes de contenu diffusent des messages personnalisés et non intrusifs directement dans vos applications mobiles et sites web, en engageant les utilisateurs et les utilisatrices dans le contexte, sans interrompre ce qu’ils sont venus faire.
 
 >[!ENDSHADEBOX]
 

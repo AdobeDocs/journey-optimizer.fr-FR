@@ -27,9 +27,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1916
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-**Sur cette page :** découvrez comment activer et configurer l’en-tête List-Unsubscribe afin que les destinataires puissent se désabonner directement de leur boîte de réception à l’aide d’une adresse de messagerie ou d’une URL de désabonnement en un clic.
+**Sur cette page :** découvrez comment activer et configurer l’en-tête List-Unsubscribe afin que les destinataires puissent se désabonner directement à partir de leur boîte de réception via une adresse de messagerie ou une URL de désabonnement en un clic.
 
 >[!ENDSHADEBOX]
 
@@ -288,7 +288,7 @@ Paramètres de requête :
 
    * Valeur analysée : *v1.xyz*
 
-Exemple d’API : https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+Exemple d’API : https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >

@@ -6,7 +6,7 @@ description: Configuration des canaux
 redpen-status: CREATED_||_2025-08-11_21-10-00
 exl-id: 4cd5f097-1c17-4cc5-90c4-bc540dc6acf4
 source-git-commit: 63669282e76672958f29f6d4a7be085cc7036ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Approfondissez les sujets à venir pour découvrir comment ces configurations fo
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Prise en main de la configuration des canaux
 
@@ -36,7 +36,7 @@ Découvrez les étapes de configuration des canaux dans Adobe Journey Optimize
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Définir et gérer les configurations des canaux
 
@@ -46,7 +46,7 @@ Suivez un guide détaillé pour créer, modifier, désactiver et surveiller les 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configuration guidée des canaux
 
@@ -66,7 +66,7 @@ Découvrez comment déléguer et configurer des sous-domaines d’e-mail pour op
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Mettre en œuvre un plan de préchauffage d’adresses IP
 
@@ -76,7 +76,7 @@ Créez et exécutez des plans de préchauffage d’adresses IP pour établir la 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Surveiller la délivrabilité et la réputation des e-mails
 

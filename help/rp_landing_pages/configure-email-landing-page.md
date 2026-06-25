@@ -6,7 +6,7 @@ description: Configurer le canal e-mail
 redpen-status: CREATED_||_2025-08-11_20-34-10
 exl-id: c9377c3c-d716-4fae-adc8-458cbe7213dd
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '285'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ La configuration du canal e-mail dans Adobe Journey Optimizer est la clé pour
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Commencer avec la configuration du canal e-mail
 
@@ -30,7 +30,7 @@ Découvrez les étapes essentielles pour configurer les fonctionnalités d’e-m
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Définir les paramètres de configuration du canal e-mail
 
@@ -40,7 +40,7 @@ Définissez des configurations de canal e-mail pour la délivrabilité, la confo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Activer et configurer le désabonnement de la liste
 
@@ -50,7 +50,7 @@ Découvrez comment activer la fonctionnalité « désabonnement de la liste »
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurer les paramètres d’en-tête des e-mails
 
@@ -60,7 +60,7 @@ Personnalisez les adresses e-mail d’expédition et de réponse, gérez les err
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Configurer le suivi des URL pour le canal e-mail
 

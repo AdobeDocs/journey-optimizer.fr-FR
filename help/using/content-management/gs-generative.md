@@ -28,9 +28,9 @@ topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
 source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1005
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-**Sur cette page :** découvrez comment accéder à l’assistant AI dans Adobe Journey Optimizer, configurer les autorisations requises et comprendre les mécanismes de sécurisation pour générer du contenu texte et d’image.
+**Sur cette page :** découvrez comment accéder à l’assistant IA dans Adobe Journey Optimizer, configurer les autorisations requises et comprendre les mécanismes de sécurisation pour générer du contenu sous forme de texte et d’images.
 
 >[!ENDSHADEBOX]
 

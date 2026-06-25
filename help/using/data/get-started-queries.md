@@ -26,9 +26,9 @@ subfeature_v2:
   - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 161
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 77%
 
 >[!BEGINSHADEBOX]
 
-**Sur cette page :** utilisez le Query Editor optimisé par Adobe Experience Platform Query Service afin de pouvoir écrire, valider et exécuter des requêtes sur vos données d’expérience client pour une analyse et une exploration des données dans Adobe Journey Optimizer.
+**Sur cette page :** utilisez l’éditeur de requêtes optimisé par le service de requête Adobe Experience Platform afin de pouvoir écrire, valider et exécuter des requêtes sur vos données d’expérience clientèle pour l’analyse et l’exploration des données dans Adobe Journey Optimizer.
 
 >[!ENDSHADEBOX]
 

@@ -8,7 +8,7 @@ version: Journey Orchestration
 exl-id: d08e8c3a-7ade-4c38-93f6-c552a44d6209
 source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: ht
-source-wordcount: '293'
+source-wordcount: '327'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ La création d’un parcours dans Adobe Journey Optimizer vous permet de conce
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Création de votre premier parcours client
 
@@ -31,7 +31,7 @@ Découvrez comment créer, concevoir, tester et publier votre premier parcours c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Définir et gérer les propriétés de parcours
 
@@ -51,7 +51,7 @@ Utilisez l’interface par glisser-déposer pour concevoir des parcours marketin
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Test de votre parcours
 
@@ -71,7 +71,7 @@ Validez vos parcours avec des données de production réelles sans contacter les
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Publication d’un parcours
 

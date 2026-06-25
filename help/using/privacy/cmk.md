@@ -29,9 +29,9 @@ subfeature_v2:
   - id: f365ec33-2b99-4b7f-b4ee-c743dd7f615f
   - id: c8d5f2ce-ba44-43e9-a2bf-94a3d7d85ec3
 source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 312
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**Sur cette page :** configurez et gérez les clés gérées par le client (CMK) afin de chiffrer vos données Adobe Journey Optimizer avec vos propres clés et de les protéger en transit et au repos.
+**Sur cette page :** configurez et gérez les clés gérées par le client ou la cliente (CMK) afin de chiffrer vos données Adobe Journey Optimizer avec vos propres clés et de les protéger lorsqu’elles sont en transit ou au repos.
 
 >[!ENDSHADEBOX]
 

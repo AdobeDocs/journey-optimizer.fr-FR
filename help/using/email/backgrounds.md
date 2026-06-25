@@ -25,9 +25,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 332
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-**Sur cette page :** découvrez comment définir les couleurs et images d’arrière-plan au niveau du corps, de la fenêtre d’affichage, de la structure et des colonnes de votre e-mail dans le Designer d’e-mail.
+**Sur cette page :** découvrez comment définir les couleurs et les images d’arrière-plan au niveau du corps, de la fenêtre d’affichage, de la structure et des colonnes de votre e-mail dans le Concepteur d’e-mail.
 
 >[!ENDSHADEBOX]
 

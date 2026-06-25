@@ -6,8 +6,8 @@ description: Approuver les parcours et les campagnes
 redpen-status: CREATED_||_2025-08-11_20-30-36
 exl-id: 88c48ccd-c3b7-4235-933b-7a08f5a8f346
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '210'
+workflow-type: ht
+source-wordcount: '226'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Découvrez comment configurer et gérer le processus d’approbation des parcour
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Création et gestion des politiques d’approbation
 
@@ -40,7 +40,7 @@ Guide détaillé sur la création, la configuration et la gestion des politiques
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Demande d’approbation des parcours et des campagnes
 
@@ -50,7 +50,7 @@ Découvrez comment demander l’approbation de parcours et de campagnes, y compr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Vérifier et approuver les demandes des parcours et des campagnes
 

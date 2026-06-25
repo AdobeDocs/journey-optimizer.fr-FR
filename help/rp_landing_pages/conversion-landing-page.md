@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_20-13-12
 exl-id: c3b49adc-40d9-40e2-8496-e3037621f522
 hide: true
 source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '288'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ La section Conversion d’Adobe Journey Optimizer vous permet de transformer d
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Fonction toBool
 
@@ -31,7 +31,7 @@ Convertissez différents types de données en valeurs booléennes à l’aide de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Fonction toDateOnly
 
@@ -41,7 +41,7 @@ Convertissez les représentations de date en un type dateOnly avec la fonction t
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Fonction toDateTime
 
@@ -51,7 +51,7 @@ Convertissez différentes entrées en une valeur date-heure à l’aide de la fo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Fonction toDateTimeOnly
 
@@ -61,7 +61,7 @@ Convertissez une valeur au format date-heure sans fuseau horaire à l’aide de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Fonction toDecimal
 
@@ -71,7 +71,7 @@ Convertissez divers types de données en valeurs décimales à l’aide de la fo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Fonction toDuration
 

@@ -29,9 +29,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1395
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-**Sur cette page :** Appliquez les politiques de consentement Adobe Experience Platform dans Journey Optimizer afin que vos communications respectent les choix de consentement de chaque client et restent conformes aux règles d’utilisation des données.
+**Sur cette page :** appliquez les politiques de consentement d’Adobe Experience Platform dans Journey Optimizer afin que vos communications respectent les choix de consentement de chaque client et cliente et restent conformes aux règles d’utilisation des données.
 
 >[!ENDSHADEBOX]
 

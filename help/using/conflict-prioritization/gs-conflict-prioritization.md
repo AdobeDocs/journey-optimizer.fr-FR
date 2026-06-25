@@ -1,5 +1,5 @@
 ---
-title: Gestion des conflits et hiérarchisation
+title: Gestion des conflits et de la priorité
 description: Découvrez comment tirer parti des outils de gestion des conflits et de hiérarchisation de Journey Optimizer.
 role: User
 level: Beginner
@@ -22,17 +22,17 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
 source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 896
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Gestion des conflits et hiérarchisation {#conflict-prioritization}
+# Gestion des conflits et de la priorité {#conflict-prioritization}
 
 >[!BEGINSHADEBOX]
 
-**Sur cette page :** Découvrez comment la détection des conflits, les scores de priorité et les ensembles de règles fonctionnent ensemble afin d’éviter les communications qui se chevauchent et de contrôler la fréquence des messages envoyés aux clients.
+**Sur cette page :** découvrez comment la détection des conflits, les scores de priorité et les ensembles de règles fonctionnent ensemble afin d’éviter le chevauchement des communications et de contrôler la fréquence des messages envoyés aux clientes et aux clients.
 
 >[!ENDSHADEBOX]
 

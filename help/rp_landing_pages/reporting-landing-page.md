@@ -6,8 +6,8 @@ description: Création de rapports
 redpen-status: CREATED_||_2025-08-11_20-54-26
 exl-id: 37e906eb-8ae0-4988-93bf-00eb135199b2
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '194'
+workflow-type: ht
+source-wordcount: '217'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ La création de rapports dans Adobe Journey Optimizer consiste à transformer 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Présentation de la création de rapports
 
@@ -30,7 +30,7 @@ Découvrez les fonctionnalités de création de rapports d’Adobe Journey Opt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Rapports dynamiques
 
@@ -40,7 +40,7 @@ Explorez les outils de création de rapports en temps réel pour mesurer et opti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Rapports complets
 
@@ -50,7 +50,7 @@ Découvrez les mesures, l’intégration à Customer Journey Analytics et les 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Rapports de parcours personnalisés
 

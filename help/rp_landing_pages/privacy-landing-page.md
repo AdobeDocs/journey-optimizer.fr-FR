@@ -6,8 +6,8 @@ description: Confidentialité
 redpen-status: CREATED_||_2025-08-11_21-20-29
 exl-id: d6c8e958-de3b-4aec-8b3b-8b0b3daa0098
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '295'
+workflow-type: ht
+source-wordcount: '319'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Les outils de confidentialité d’Adobe Journey Optimizer vous permettent de 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Vue d’ensemble de la gestion de la confidentialité
 
@@ -30,7 +30,7 @@ Découvrez comment gérer la confidentialité dans Adobe Journey Optimizer et 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Gestion des demandes d&#39;accès à des informations personnelles
 
@@ -40,7 +40,7 @@ Suivez les instructions étape par étape pour créer et gérer les demandes d�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Journaux d’audit pour les actions de l’utilisateur ou de l’utilisatrice
 
@@ -70,7 +70,7 @@ Gérez les préférences et les politiques de consentement des personnes destina
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Politiques de gouvernance des données
 

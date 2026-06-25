@@ -22,9 +22,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
 source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 533
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**Sur cette page :** Découvrez comment Journey Optimizer prend en charge les utilisateurs de toutes capacités par le biais de fonctionnalités d’accessibilité alignées sur WCAG et de raccourcis clavier, afin que vous puissiez naviguer et travailler efficacement dans l’interface.
+**Sur cette page :** découvrez comment Journey Optimizer est accessible à tous les utilisateurs et utilisatrices, quelles que soient leurs capacités, par le biais de fonctionnalités d’accessibilité alignées sur les directives WCAG et de raccourcis clavier, afin que vous puissiez naviguer et travailler efficacement dans l’interface.
 
 >[!ENDSHADEBOX]
 

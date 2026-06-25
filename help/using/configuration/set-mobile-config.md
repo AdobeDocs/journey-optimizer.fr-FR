@@ -25,9 +25,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 889
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-**Sur cette page :** Découvrez comment le workflow de configuration de canal guidé crée automatiquement les propriétés de balise, les flux de données et les configurations de canal nécessaires pour configurer les canaux mobiles et web dans Adobe Journey Optimizer.
+**Sur cette page :** découvrez comment le workflow de configuration de canal guidé crée automatiquement les propriétés de balise, les trains de données et les configurations de canal nécessaires pour configurer les canaux mobiles et web dans Adobe Journey Optimizer.
 
 >[!ENDSHADEBOX]
 
