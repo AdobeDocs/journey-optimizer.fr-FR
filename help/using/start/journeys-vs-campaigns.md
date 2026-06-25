@@ -11,12 +11,22 @@ keywords: parcours, campagne, comparaison, choisir, décision, workflow, temps r
 hide: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
 TQID: https://experienceleague.adobe.com/RWLVSULVO0idnCs5OVQR1yVvNv1G0JwP3y-3sNXQg50
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: addf009e-030a-4310-8534-776a3e62ed48id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2:
+  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: addf009e-030a-4310-8534-776a3e62ed48
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
 workflow-type: tm+mt
 source-wordcount: 1660
@@ -50,7 +60,7 @@ Ce guide vous aide à choisir entre les Parcours, les campagnes d’action et le
 
 >[!TIP]
 >
->**Règle empirique rapide :** avez-vous besoin que chaque client évolue à son propre rythme avec la logique en temps réel ? Utilisez ****. Envoyer un seul message à une audience selon un planning ? Utilisez **Campagnes d’action**. Déclencher un seul message depuis un système externe via l&#39;API ? Utilisez des **campagnes déclenchées par API** — ou un **parcours d’événement unitaire** si vous avez besoin d’une orchestration à plusieurs étapes après l’événement envoyé par l’API.
+>**Règle empirique rapide :** avez-vous besoin que chaque client évolue à son propre rythme avec la logique en temps réel ? Utilisez **&#x200B;**. Envoyer un seul message à une audience selon un planning ? Utilisez **Campagnes d’action**. Déclencher un seul message depuis un système externe via l&#39;API ? Utilisez des **campagnes déclenchées par API** — ou un **parcours d’événement unitaire** si vous avez besoin d’une orchestration à plusieurs étapes après l’événement envoyé par l’API.
 
 ## Comparaison détaillée {#detailed-comparison}
 
@@ -125,7 +135,7 @@ Suivez cet arbre de décision pour choisir la bonne approche. De nombreuses marq
 * Les activités d’attente créent un timing personnalisé.
 * L’embranchement conditionnel crée des chemins uniques par profil.
 * Écoute active intégrée : l’inaction pendant une période définie peut également déclencher l’étape suivante, et pas seulement des événements explicites. [En savoir plus sur les activités d’attente](../building-journeys/wait-activity.md)
-* Limitation de la fréquence : contrôlez la fréquence à laquelle un client peut saisir ou recevoir des messages d&#39;un parcours. [En savoir plus sur la limitation du parcours ](../conflict-prioritization/journey-capping.md)
+* Limitation de la fréquence : contrôlez la fréquence à laquelle un client peut saisir ou recevoir des messages d&#39;un parcours. [En savoir plus sur la limitation du parcours &#x200B;](../conflict-prioritization/journey-capping.md)
 * Fractionnement de l’audience par pourcentage : divisez les profils en groupes aléatoires basés sur un pourcentage pour exécuter des expériences A/B sur plusieurs chemins de parcours. [En savoir plus sur le partage en pourcentage](../building-journeys/condition-activity.md)
 * Mode test : validation de la logique de parcours et de la diffusion des messages avec des profils de test avant publication en direct. [En savoir plus sur le mode test](../building-journeys/testing-the-journey.md)
 
@@ -234,7 +244,7 @@ Tout le monde reçoit le même message en même temps.
 
 Oui. De nombreuses organisations utilisent toutes les approches pour différents scénarios :
 
-* **** pour l’engagement comportemental en temps réel
+* **&#x200B;**&#x200B;pour l’engagement comportemental en temps réel
 * **Campagnes d’action** pour les communications de diffusion planifiées
 * **Campagnes déclenchées par API** pour les messages transactionnels
 * **Campagnes orchestrées** pour les campagnes par lots complexes et gourmandes en données, consultez la section [Prise en main des campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md)
@@ -282,7 +292,7 @@ Vous souhaitez commencer à créer ? Consultez la documentation détaillée rel
 
 >[!MORELIKETHIS]
 >
->* [comparaison des types de Parcours ](../building-journeys/journey.md#journey-types-comparison)
+>* [comparaison des types de Parcours &#x200B;](../building-journeys/journey.md#journey-types-comparison)
 >* [Comparaison des types de campagne](../campaigns/get-started-with-campaigns.md#campaign-types)
 >* [FAQ sur les parcours](../building-journeys/journey-faq.md)
 >* [FAQ sur les campagnes orchestrées](../orchestrated/orchestrated-campaigns-faq.md)

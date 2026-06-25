@@ -10,12 +10,24 @@ level: Intermediate, Experienced
 keywords: événements, événement, parcours, définition, commencer
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 TQID: https://experienceleague.adobe.com/xvLSBd-rwKKNqwQNDa4D8GfFzc-ND1FkC3EdstufkIY
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
 workflow-type: tm+mt
 source-wordcount: 2183
@@ -103,7 +115,7 @@ Pour les événements **unitaires**, il existe deux types d’identifiant d’�
 
 ## Comment choisir {#choose-event-type}
 
-Utilisez les critères suivants pour sélectionner le type d’événement approprié à votre parcours. La question essentielle est la suivante : **déclenchez-vous une action pour une personne spécifique ou diffusez-vous des événements vers plusieurs profils ?** [En savoir plus sur les types de parcours ](../building-journeys/journey.md#journey-types).
+Utilisez les critères suivants pour sélectionner le type d’événement approprié à votre parcours. La question essentielle est la suivante : **déclenchez-vous une action pour une personne spécifique ou diffusez-vous des événements vers plusieurs profils ?** [En savoir plus sur les types de parcours &#x200B;](../building-journeys/journey.md#journey-types).
 
 * **Choisissez un événement unitaire** lorsque le déclencheur est lié à une personne spécifique (par exemple, un achat, un envoi de formulaire ou un jalon de fidélité). Les événements unitaires nécessitent une identité principale basée sur une personne dans le schéma et lancent immédiatement le parcours pour ce profil. [Découvrez comment configurer un événement unitaire](../event/about-creating.md).
 

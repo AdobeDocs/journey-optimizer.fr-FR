@@ -11,12 +11,22 @@ version: Journey Orchestration
 hide: true
 exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
 TQID: https://experienceleague.adobe.com/rEANha6Lppyd5vog-0kZ3aL9VvZHc9kziW-d-jiWqeA
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2: id: cce82f05-fc3c-4af7-85ff-8bba603861a7id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: cce82f05-fc3c-4af7-85ff-8bba603861a7
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
 workflow-type: tm+mt
 source-wordcount: 2295
@@ -42,7 +52,7 @@ ht-degree: 18%
 
 >[!BEGINTABS]
 
->parcours d’événement unitaires][!TAB 
+>[!TAB parcours d’événement unitaires] 
 
 **Utilisation :** expériences déclenchées par un événement en temps réel
 
@@ -50,7 +60,7 @@ Les parcours d’événement unitaire **sont déclenchés individuellement lorsq
 
 **Parfait pour : récupération après abandon de panier** intégration d’un nouveau membre, e-mails de bienvenue lorsque quelqu’un s’abonne et personnalisation après connexion.
 
-➡️ [En savoir plus sur les événements](../event/about-events.md) | [Cas d’utilisation de Message aux abonnés](message-to-subscribers-uc.md) | [Créez votre premier parcours ](journey-gs.md)
+➡️ [En savoir plus sur les événements](../event/about-events.md) | [Cas d’utilisation de Message aux abonnés](message-to-subscribers-uc.md) | [Créez votre premier parcours &#x200B;](journey-gs.md)
 
 >[!TAB Parcours de lecture d’audience]
 
@@ -60,7 +70,7 @@ Les parcours d’événement unitaire **sont déclenchés individuellement lorsq
 
 **Parfait pour : les newsletters mensuelles** les campagnes promotionnelles pour cibler les segments, les annonces de produits, les séries récurrentes de réengagement et les campagnes marketing saisonnières.
 
-➡️ [En savoir plus sur la lecture d’audience](read-audience.md) | [Prise en main des audiences](../audience/about-audiences.md) | [Créer votre premier parcours ](journey-gs.md)
+➡️ [En savoir plus sur la lecture d’audience](read-audience.md) | [Prise en main des audiences](../audience/about-audiences.md) | [Créer votre premier parcours &#x200B;](journey-gs.md)
 
 >[!TAB Parcours de qualification d’audience]
 
@@ -70,7 +80,7 @@ Les parcours d’événement unitaire **sont déclenchés individuellement lorsq
 
 **Parfait pour :** les notifications de mise à niveau de niveau VIP, les messages de célébration du premier achat, les alertes de risque d’attrition et les transitions d’étape du cycle de vie de la fidélité.
 
-➡️ [En savoir plus sur la qualification de l’audience](audience-qualification-events.md) | [Création d’audiences](../audience/creating-a-segment-definition.md) | [Création de votre premier parcours ](journey-gs.md)
+➡️ [En savoir plus sur la qualification de l’audience](audience-qualification-events.md) | [Création d’audiences](../audience/creating-a-segment-definition.md) | [Création de votre premier parcours &#x200B;](journey-gs.md)
 
 >[!TAB Parcours d’événement métier]
 
@@ -80,7 +90,7 @@ Les parcours d’événement métier **sont déclenchés par un événement au n
 
 **Parfait pour :** alertes de faible stock aux clients intéressés, annonces de vente flash, notifications de chute de prix et alertes de retour en stock de produits.
 
-➡️ [En savoir plus sur les événements métier](../event/about-creating-business.md) | [Gestion d’entrée](entry-management.md) | [Créer votre premier parcours ](journey-gs.md)
+➡️ [En savoir plus sur les événements métier](../event/about-creating-business.md) | [Gestion d’entrée](entry-management.md) | [Créer votre premier parcours &#x200B;](journey-gs.md)
 
 >[!ENDTABS]
 
