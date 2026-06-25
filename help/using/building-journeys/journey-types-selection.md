@@ -11,26 +11,16 @@ version: Journey Orchestration
 hide: true
 exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
 TQID: https://experienceleague.adobe.com/rEANha6Lppyd5vog-0kZ3aL9VvZHc9kziW-d-jiWqeA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: cce82f05-fc3c-4af7-85ff-8bba603861a7
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: cce82f05-fc3c-4af7-85ff-8bba603861a7id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
 workflow-type: tm+mt
-source-wordcount: 2289
-ht-degree: 19%
+source-wordcount: 2295
+ht-degree: 18%
 
 ---
 
@@ -52,15 +42,15 @@ ht-degree: 19%
 
 >[!BEGINTABS]
 
->[!TAB parcours d’événement unitaires] 
+>parcours d’événement unitaires][!TAB 
 
 **Utilisation :** expériences déclenchées par un événement en temps réel
 
 Les parcours d’événement unitaire **sont déclenchés individuellement lorsqu’une action spécifique se produit (achat, connexion à l’application, envoi du formulaire).** Les profils entrent un par un en temps réel, ce qui en fait l’outil idéal pour des réponses immédiates basées sur le comportement.
 
-**Parfait pour :** les confirmations de commande après l’achat, les e-mails de bienvenue lorsque quelqu’un s’abonne, les notifications de réinitialisation de mot de passe et la personnalisation après connexion.
+**Parfait pour : récupération après abandon de panier** intégration d’un nouveau membre, e-mails de bienvenue lorsque quelqu’un s’abonne et personnalisation après connexion.
 
-➡️ [En savoir plus sur les événements](../event/about-events.md) | [Cas d’utilisation de Message aux abonnés](message-to-subscribers-uc.md) | [Créez votre premier parcours &#x200B;](journey-gs.md)
+➡️ [En savoir plus sur les événements](../event/about-events.md) | [Cas d’utilisation de Message aux abonnés](message-to-subscribers-uc.md) | [Créez votre premier parcours ](journey-gs.md)
 
 >[!TAB Parcours de lecture d’audience]
 
@@ -70,7 +60,7 @@ Les parcours d’événement unitaire **sont déclenchés individuellement lorsq
 
 **Parfait pour : les newsletters mensuelles** les campagnes promotionnelles pour cibler les segments, les annonces de produits, les séries récurrentes de réengagement et les campagnes marketing saisonnières.
 
-➡️ [En savoir plus sur la lecture d’audience](read-audience.md) | [Prise en main des audiences](../audience/about-audiences.md) | [Créer votre premier parcours &#x200B;](journey-gs.md)
+➡️ [En savoir plus sur la lecture d’audience](read-audience.md) | [Prise en main des audiences](../audience/about-audiences.md) | [Créer votre premier parcours ](journey-gs.md)
 
 >[!TAB Parcours de qualification d’audience]
 
@@ -80,7 +70,7 @@ Les parcours d’événement unitaire **sont déclenchés individuellement lorsq
 
 **Parfait pour :** les notifications de mise à niveau de niveau VIP, les messages de célébration du premier achat, les alertes de risque d’attrition et les transitions d’étape du cycle de vie de la fidélité.
 
-➡️ [En savoir plus sur la qualification de l’audience](audience-qualification-events.md) | [Création d’audiences](../audience/creating-a-segment-definition.md) | [Création de votre premier parcours &#x200B;](journey-gs.md)
+➡️ [En savoir plus sur la qualification de l’audience](audience-qualification-events.md) | [Création d’audiences](../audience/creating-a-segment-definition.md) | [Création de votre premier parcours ](journey-gs.md)
 
 >[!TAB Parcours d’événement métier]
 
@@ -90,7 +80,7 @@ Les parcours d’événement métier **sont déclenchés par un événement au n
 
 **Parfait pour :** alertes de faible stock aux clients intéressés, annonces de vente flash, notifications de chute de prix et alertes de retour en stock de produits.
 
-➡️ [En savoir plus sur les événements métier](../event/about-creating-business.md) | [Gestion d’entrée](entry-management.md) | [Créer votre premier parcours &#x200B;](journey-gs.md)
+➡️ [En savoir plus sur les événements métier](../event/about-creating-business.md) | [Gestion d’entrée](entry-management.md) | [Créer votre premier parcours ](journey-gs.md)
 
 >[!ENDTABS]
 
@@ -100,7 +90,7 @@ Utilisez le tableau ci-dessous pour faire correspondre votre objectif au type de
 
 | Votre objectif | Type de parcours recommandé | Pourquoi |
 |-----------|--------------------------|-----|
-| Envoyer une confirmation de commande après l’achat | Événement unitaire | Réponse immédiate à une action individuelle |
+| Récupérer un panier abandonné | Événement unitaire | Réponse immédiate à un comportement individuel |
 | Envoyer une newsletter mensuelle aux personnes abonnées | Lecture d’audience | Communication par lots planifiée |
 | Avertir la clientèle lorsqu’elle atteint le statut VIP | Qualification d’audience | Réponse en temps réel à l’entrée d’audience en flux continu |
 | Alerter la clientèle en cas de faible stock des articles suivis | Événement métier | La condition métier affecte plusieurs personnes. |
@@ -120,7 +110,7 @@ Utilisez le tableau ci-dessous pour faire correspondre votre objectif au type de
 | **Source du déclencheur** | Action de la clientèle (achat, clic, connexion) | Planning basé sur le temps | Entrée ou sortie de l’appartenance à une audience | Condition commerciale (stock, prix) |
 | **Idéal pour** | Messages transactionnels, réponses comportementales | Campagnes marketing, newsletters, programmes récurrents | Programmes de fidélité, transitions d’étape du cycle de vie | Alertes de stock, promotions, conditions métier |
 | **À utiliser dans les cas suivants** | Réponse immédiate aux actions individuelles nécessaires | Atteindre des segments d’audience volumineux selon le planning | Réponse aux changements de statut du client en temps réel | Les événements métier affectent plusieurs clients simultanément |
-| **Exemples** | Confirmation de commande, réinitialisation du mot de passe | Newsletter mensuelle, campagne saisonnière | Mise à niveau de VIP, alerte de risque de résiliation | Alerte de stock faible, vente flash, baisse de prix |
+| **Exemples** | Récupération après abandon de panier, intégration d’un nouveau membre | Newsletter mensuelle, campagne saisonnière | Mise à niveau de VIP, alerte de risque de résiliation | Alerte de stock faible, vente flash, baisse de prix |
 | **Reprise** | Configurable | Une fois par exécution par défaut ; [Forcer une reprise sur une périodicité](read-audience.md#schedule) disponible sur les exécutions planifiées | Configurable par événement de qualification ; un profil déjà dans le parcours ne peut pas entrer à nouveau la même version | Plusieurs profils peuvent être affectés par le même événement. |
 | **Débit max** | 5 000 TPS (niveau organisation partagé avec qualification d’audience) | 20 000 TPS par sandbox | 5 000 TPS (niveau d’organisation partagé avec événement unitaire) | Événement métier : 5 000 TPS ; étape Lecture d’audience : 20 000 TPS |
 | **Exigences de données** | Schéma d’événement avec données de déclenchement | [!DNL Adobe Experience Platform] une audience | Audience de diffusion en continu (requise pour l’entrée en temps réel) ; audience par lots prise en charge, mais entrée retardée | Schéma d’événement métier |
@@ -234,7 +224,7 @@ Pour une compréhension totale, ces informations doivent être combinées avec l
 **FAQ:**
 
 * **Q : Quel type de parcours dois-je utiliser pour une newsletter mensuelle ?** — Utilisez un parcours Lecture d’audience ; il est conçu pour une communication par lots planifiée simultanée à tous les profils d’un segment ciblé.
-* **Q : Quel type de parcours gère une confirmation de commande après un achat ?** utilisez un parcours d&#39;événement unitaire qui fournit une réponse immédiate en temps réel à une action individuelle du client.
+* **Q : Quel type de parcours dois-je utiliser pour récupérer un panier abandonné ?** — Utilisez un parcours d&#39;événement unitaire ; il se déclenche immédiatement lorsque l&#39;événement d&#39;abandon se produit et répond au comportement de l&#39;individu en temps réel.
 * **Q : Puis-je exécuter des expériences de chemin A/B dans un parcours d’événement métier ?** — Non ; les expériences de chemin ne sont pas prises en charge pour les parcours d’événement métier.
 * **Q : Quelle est la différence entre un parcours d’événement unitaire et un parcours de qualification d’audience ?** — Un parcours d’événement unitaire est déclenché par une action client spécifique (par exemple, un achat) ; un parcours de qualification d’audience se déclenche lorsqu’un profil entre ou sort d’un segment d’audience en fonction de l’évaluation des critères de diffusion en continu.
 * **Q : Quels types de parcours prennent en charge la lecture incrémentielle ?** — Seuls les parcours Lecture d’audience prennent en charge la lecture incrémentielle, contrairement aux trois autres types de parcours.
