@@ -1,27 +1,27 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Gestion des conflits et hiérarchisation
-description: Gestion des conflits et hiérarchisation
+title: Gestion des conflits et de la priorité
+description: Gestion des conflits et de la priorité
 hide: true
 redpen-status: CREATED_||_2025-08-11_20-29-02
 exl-id: 02176308-efeb-49dc-88a6-bc886dc8fc9b
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '206'
+workflow-type: ht
+source-wordcount: '222'
 ht-degree: 100%
 
 ---
 
-# Gestion des conflits et hiérarchisation{#section-overview}
+# Gestion des conflits et de la priorité{#section-overview}
 
 La gestion des conflits et la hiérarchisation dans Adobe Journey Optimizer vous permettent de diffuser des communications réfléchies et opportunes en prévenant la lassitude des clients et clientes et en veillant à ce que les bons messages atteignent votre audience. Grâce à des outils tels que la détection des conflits, les scores de priorité et les jeux de règles, vous pouvez rationaliser les campagnes et les parcours afin d’éviter les chevauchements et d’équilibrer la fréquence sur l’ensemble des canaux. Que vous définissiez des limites sur la fréquence d’envoi des messages ou décidiez quelles campagnes sont prioritaires, ces fonctionnalités s’associent pour simplifier la prise de décision et optimiser votre stratégie marketing. Découvrez comment ces outils peuvent transformer vos campagnes en expériences fluides et percutantes.
 
-## Gestion des conflits et hiérarchisation
+## Gestion des conflits et de la priorité
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Commencer avec la gestion des conflits
 
@@ -31,7 +31,7 @@ Découvrez comment utiliser des outils tels que la détection des conflits, les 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Identifier les conflits potentiels
 
@@ -41,7 +41,7 @@ Découvrez des méthodes permettant de détecter et de résoudre les conflits de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Attribuer des scores de priorité aux campagnes
 
@@ -51,7 +51,7 @@ Découvrez comment attribuer des scores de priorité numériques aux parcours et
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Définir les règles de limitation des messages et des parcours
 

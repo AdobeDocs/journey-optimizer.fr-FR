@@ -5,8 +5,8 @@ title: Rôles et responsabilités
 description: Rôles et responsabilités
 redpen-status: CREATED_||_2025-08-11_20-03-47
 source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
-source-wordcount: '209'
+workflow-type: ht
+source-wordcount: '224'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ La réussite d’Adobe Journey Optimizer repose sur la collaboration d’une �
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Vue d’ensemble des rôles et responsabilités
 
@@ -30,7 +30,7 @@ Découvrez les rôles, responsabilités et dépendances clés requis pour réuss
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Prise en main en tant que spécialiste marketing
 
@@ -40,7 +40,7 @@ Cette section contient des conseils détaillés à l’attention des spécialist
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Commencer en tant qu’ingénieur ou ingénieure de données
 
@@ -50,7 +50,7 @@ Instructions détaillées pour que les ingénieures et ingénieurs de données p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Commencer en tant qu’administrateur ou administratrice système
 

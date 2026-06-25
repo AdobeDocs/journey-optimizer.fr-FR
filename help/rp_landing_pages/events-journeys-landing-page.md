@@ -6,8 +6,8 @@ description: Configuration des événements
 redpen-status: CREATED_||_2025-08-11_21-10-50
 exl-id: 4f9f480d-8c71-4486-8074-d6fa9ed828bb
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '221'
+workflow-type: ht
+source-wordcount: '251'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ La configuration des événements dans Adobe Journey Optimizer consiste à con
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Utiliser des événements de parcours
 
@@ -30,7 +30,7 @@ Découvrez les événements de parcours, leurs types, leur cycle de vie et leur 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Configurer un événement unitaire
 
@@ -40,7 +40,7 @@ Suivez un guide détaillé pour configurer des événements unitaires, y compris
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Schémas ExperienceEvent
 
@@ -50,7 +50,7 @@ Découvrez les exigences et les configurations des schémas pour l’ingestion d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Intégration d’Adobe Analytics
 
@@ -60,7 +60,7 @@ Découvrez comment intégrer des données Adobe Analytics pour automatiser les 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Configurer un événement métier
 
@@ -70,7 +70,7 @@ Cette section contient des instructions détaillées sur la configuration des é
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Envoyer des événements à l’aide d’API de streaming
 

@@ -6,7 +6,7 @@ description: Commencer à créer du contenu
 redpen-status: CREATED_||_2025-08-11_20-31-35
 exl-id: fe9456c9-50ae-442d-80d3-81b708d3494b
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '266'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ La création de contenu dans Adobe Journey Optimizer est synonyme de flexibili
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Concevoir entièrement le contenu d’un e-mail
 
@@ -30,7 +30,7 @@ Découvrez comment créer et personnaliser le contenu d’un e-mail à l’aide 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Importer du contenu d’e-mail existant
 
@@ -40,7 +40,7 @@ Importez du contenu HTML dans Adobe Journey Optimizer, ajustez les éléments 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Coder votre propre contenu d’e-mail
 
@@ -50,7 +50,7 @@ Codez manuellement le contenu de votre e-mail à l’aide d’HTML brut en mode 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Utiliser des modèles d’e-mail
 
@@ -60,7 +60,7 @@ Gagnez du temps en utilisant des modèles d’e-mail types ou personnalisés pou
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Utiliser les thèmes d’e-mail
 

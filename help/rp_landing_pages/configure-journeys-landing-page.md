@@ -6,8 +6,8 @@ description: Configuration de parcours
 redpen-status: CREATED_||_2025-08-11_21-12-10
 exl-id: 9184a695-be6a-44af-b04a-124243c5aa64
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '233'
+workflow-type: ht
+source-wordcount: '251'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ La configuration de parcours dans Adobe Journey Optimizer vous permet de crée
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Commencer avec la configuration des parcours
 
@@ -30,7 +30,7 @@ Découvrez comment configurer les sources de données, les événements et les a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Configuration des événements dans Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Découvrez comment configurer et gérer les événements qui déclenchent des pa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configuration des sources de données dans Adobe Journey Optimizer
 

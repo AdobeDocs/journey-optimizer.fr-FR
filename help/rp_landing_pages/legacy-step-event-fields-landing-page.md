@@ -6,7 +6,7 @@ description: Champs d’événement d’étape hérités
 redpen-status: CREATED_||_2025-08-11_20-53-35
 exl-id: 046a5e06-a827-4194-be1c-e6546a8da747
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '265'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Les champs d’événement d’étape hérités d’Adobe Journey Optimizer so
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Présentation des champs hérités
 
@@ -30,7 +30,7 @@ Découvrez les champs d’événement d’étape hérités dans Adobe Journey 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Vue d’ensemble des champs de parcours
 
@@ -40,7 +40,7 @@ Découvrez les champs du schéma de parcours, leurs types et la manière dont il
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Champs communs pour les événements d’étape de parcours
 
@@ -50,7 +50,7 @@ Recherchez les champs essentiels partagés entre journeyStepEvent et journeyStep
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Champs d’exécution d’action
 
@@ -60,7 +60,7 @@ Comprenez les champs liés à l’exécution d’une action dans les événement
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Champs de récupération de données
 
@@ -70,7 +70,7 @@ Découvrez les champs associés à la récupération des données lors du traite
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Champs d’identité JourneyStep
 

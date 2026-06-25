@@ -6,8 +6,8 @@ description: Campagnes déclenchées par API
 redpen-status: CREATED_||_2025-08-11_20-23-06
 exl-id: f98e85b4-8d8a-4a9a-b814-59aa3759e534
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '315'
+workflow-type: ht
+source-wordcount: '354'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Les campagnes déclenchées par API dans Adobe Journey Optimizer vous permett
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Créer et gérer des campagnes déclenchées par API
 
@@ -30,7 +30,7 @@ Découvrez comment créer, configurer et gérer des campagnes déclenchées par�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Définir les propriétés des campagnes déclenchées par API
 
@@ -40,7 +40,7 @@ Suivez les instructions détaillées pour définir les propriétés des campagne
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurer l’action de la campagne déclenchée par API
 
@@ -50,7 +50,7 @@ Découvrez comment configurer des actions, sélectionner des canaux de communica
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Modifier et personnaliser le contenu de la campagne déclenchée par API
 

@@ -6,7 +6,7 @@ description: Gérer vos parcours
 redpen-status: CREATED_||_2025-08-11_20-08-03
 exl-id: 9f74019a-9a29-40f3-8f94-253814b984c0
 source-git-commit: 0e4ee7788c6a015a63bafcb7976ac5e4696e5d7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '322'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ La gestion de vos parcours dans Adobe Journey Optimizer consiste à vous donne
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Parcourir et filtrer vos parcours
 
@@ -30,7 +30,7 @@ Découvrez comment parcourir, filtrer et gérer les parcours efficacement, y com
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Entrée de profil dans les parcours
 
@@ -40,7 +40,7 @@ Découvrez comment les profils rejoignent des parcours, notamment les règles de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Utiliser des identifiants supplémentaires dans les parcours
 
@@ -50,7 +50,7 @@ Découvrez comment tirer parti des identifiants supplémentaires pour une person
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gestion des fuseaux horaires
 
@@ -60,7 +60,7 @@ Découvrez comment configurer des fuseaux horaires fixes et définis par le prof
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Optimisation de l’heure d’envoi
 
@@ -70,7 +70,7 @@ Optimisez l’engagement des e-mails et des messages push en prédisant des heur
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Terminer votre parcours
 

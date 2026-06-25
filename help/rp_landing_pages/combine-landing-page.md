@@ -6,7 +6,7 @@ description: Cas d’utilisation inter-solutions
 redpen-status: CREATED_||_2025-08-12_00-41-19
 exl-id: df3c6e57-9f76-4ce4-ad0d-c1e3c16daa8f
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '348'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Les cas d’utilisation inter-solutions d’Adobe Journey Optimizer vous perme
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Combiner des solutions Adobe pour gérer le contenu
 
@@ -60,7 +60,7 @@ Découvrez comment redimensionner, recadrer et supprimer l’arrière-plan des r
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Utiliser des fragments de contenu AEM
 
@@ -70,7 +70,7 @@ Cette section contient des instructions détaillées pour intégrer des fragment
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Utiliser Dynamic Media
 
