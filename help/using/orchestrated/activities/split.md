@@ -12,10 +12,10 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: 9a92d14861c34446c3ccec6dea89403585c54a36
 workflow-type: tm+mt
-source-wordcount: 832
-ht-degree: 96%
+source-wordcount: 876
+ht-degree: 91%
 
 ---
 
@@ -99,6 +99,8 @@ Pour configurer l’activité **[!UICONTROL Partage]**, procédez comme suit :
    1. Cliquez sur **[!UICONTROL Créer un filtre]** pour définir des règles de filtrage à l’aide du créateur de règles, par exemple, pour sélectionner des profils avec une adresse e-mail valide.
 
       ![](../assets/orchestrated-split-1.png)
+
+   1. Dans le champ **[!UICONTROL Code segment]** , saisissez un code pour identifier le sous-ensemble dans les journaux. Ce code est stocké avec les données de profil et peut être utilisé pour suivre et mesurer les performances de chaque segment. Si rien n’est indiqué, le libellé du sous-ensemble est utilisé automatiquement.
 
    1. Pour limiter le nombre de profils sélectionnés, activez **[!UICONTROL Activer la limite]** et spécifiez un nombre ou un pourcentage.
 
