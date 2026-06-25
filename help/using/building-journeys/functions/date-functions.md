@@ -9,20 +9,15 @@ keywords: date, fonctions, expression, parcours, heure
 version: Journey Orchestration
 exl-id: 68c102c1-f1c7-44b7-893f-9a3b7e0854b6
 TQID: https://experienceleague.adobe.com/C2Z5SufckUxCNf9TsloziZS-Q3KPzmgMVNGJGiwDQ08
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 15cd7992e3263d7d2b94cf2efe50850d16e04a5d
 workflow-type: tm+mt
-source-wordcount: 1275
-ht-degree: 65%
+source-wordcount: 1384
+ht-degree: 60%
 
 ---
 
@@ -446,6 +441,12 @@ Renvoie une valeur dateTime.
 
 Renvoie une valeur dateTime il y a exactement 2 heures.
 
+`nowWithDelta(1, "months", "Asia/Tokyo")`
+
+Lorsqu’elle est évaluée le 31/01/2026, renvoie 2026/02/28T... ; lorsqu’elle est évaluée le 31/05/2026, renvoie 2026/06/30T...
+
+`nowWithDelta()` utilise l’arithmétique des mois calendaires. Si le mois cible comporte moins de jours que le jour du mois en cours, le résultat est normalisé au dernier jour valide de ce mois. La fonction n’est pas reportée au mois suivant.
+
 +++
 
 ## setHours {#setHours}
@@ -611,5 +612,6 @@ Pour une compréhension totale, ces informations doivent être combinées avec l
 * **Q : Comment puis-je obtenir le décalage horaire actuel de 2 heures dans le passé ?** — Utiliser `nowWithDelta(-2, "hours")`.
 * **Q : Qu&#39;est-ce que `updateTimeZone` fait différemment de `setHours` ?** — `updateTimeZone` conserve le même instant dans le temps, mais l&#39;exprime dans un fuseau horaire différent, tandis que `setHours` modifie en fait le composant heure de la valeur datetime.
 * **Q : Le paramètre de fuseau horaire dans `nowWithDelta` peut-il être un champ de profil ?** — Non, l&#39;ID de fuseau horaire doit être une constante de chaîne ; les références aux champs ne sont pas prises en charge.
+* **Q : Que se passe-t-il lorsque `nowWithDelta()` est utilisé avec des mois et que la date actuelle est une date de fin de mois ?** — La fonction utilise l&#39;arithmétique des mois calendaires et normalise le résultat au dernier jour valide du mois cible. Par exemple, l’ajout d’un mois au 31 janvier renvoie le 28 février (et non le 3 mars).
 
 +++
