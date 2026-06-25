@@ -26,7 +26,7 @@ subfeature_v2:
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
 source-wordcount: 573
-ht-degree: 89%
+ht-degree: 95%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**Sur cette page :** utilisez Adobe Experience Platform Privacy Service pour envoyer et gérer des demandes d’accès et de suppression de données pour Adobe Journey Optimizer, afin de pouvoir respecter les droits des titulaires de données et d’automatiser la conformité aux réglementations de confidentialité.
+**Sur cette page :** utilisez Adobe Experience Platform Privacy Service pour envoyer et gérer des demandes d’accès et de suppression de données pour Adobe Journey Optimizer, afin de pouvoir respecter les droits des titulaires de données et d’automatiser la conformité aux réglementations en matière de confidentialité.
 
 >[!ENDSHADEBOX]
 

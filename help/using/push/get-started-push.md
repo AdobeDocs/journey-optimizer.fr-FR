@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
 source-wordcount: 389
-ht-degree: 88%
+ht-degree: 95%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-**Sur cette page :** Commencez à utiliser les notifications push dans Adobe Journey Optimizer pour atteindre les utilisateurs et visiteuses web de votre application mobile par le biais de parcours et de campagnes.
+**Sur cette page :** commencez à utiliser les notifications push dans Adobe Journey Optimizer pour atteindre les utilisateurs et les utilisatrices de votre application mobile et vos visiteurs et visiteuses web par le biais de parcours et de campagnes.
 
 >[!ENDSHADEBOX]
 

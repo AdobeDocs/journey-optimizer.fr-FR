@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: 3e260764d161e63011d848e2f46de57e3488d9fa
 workflow-type: tm+mt
 source-wordcount: 1614
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-**Sur cette page :** Découvrez l’interface de Adobe Journey Optimizer (barre supérieure, page d’accueil et navigation de gauche) afin d’accéder rapidement aux fonctionnalités dont vous avez besoin.
+**Sur cette page :** découvrez l’interface d’Adobe Journey Optimizer (la barre supérieure, ma page d’accueil et la navigation à gauche) afin d’accéder rapidement aux fonctionnalités dont vous avez besoin.
 
 >[!ENDSHADEBOX]
 

@@ -37,7 +37,7 @@ topic_v2:
 source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
 workflow-type: tm+mt
 source-wordcount: 2278
-ht-degree: 70%
+ht-degree: 71%
 
 ---
 
@@ -45,14 +45,14 @@ ht-degree: 70%
 
 >[!BEGINSHADEBOX]
 
-**Sur cette page :** découvrez les principes de base des parcours dans Adobe Journey Optimizer, notamment les types de parcours, le workflow de conception, les fonctionnalités essentielles et les bonnes pratiques pour créer des expériences client personnalisées.
+**Sur cette page :** découvrez les principes de base des parcours dans Adobe Journey Optimizer, notamment les types de parcours, le workflow de conception, les fonctionnalités essentielles et les bonnes pratiques pour créer des expériences clientèle personnalisées.
 
 >[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_canvas"
 >title="Créer un parcours"
->abstract="La zone de travail par glisser-déposer orchestre les messages et les actions sur plusieurs canaux, en tirant profit des données contextuelles et du ciblage des audiences pour un impact maximal."
+>abstract="Grâce à la zone de travail permettant le glisser-déposer, vous pouvez orchestrer des messages et des actions sur plusieurs canaux, en exploitant les données contextuelles et le ciblage des audiences pour un impact optimal."
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="Créer votre premier parcours"
 
 

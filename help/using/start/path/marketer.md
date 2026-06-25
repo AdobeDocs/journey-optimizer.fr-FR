@@ -30,7 +30,7 @@ topic_v2:
 source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
 source-wordcount: 1727
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**Sur cette page :** suivez un chemin de prise en main pour les professionnels du marketing afin de créer des audiences, de concevoir du contenu et d’orchestrer des parcours et des campagnes qui offrent des expériences client personnalisées dans Journey Optimizer.
+**Sur cette page :** suivez un parcours de prise en main destiné aux spécialistes marketing afin de créer des audiences, de concevoir du contenu et d’orchestrer des parcours et des campagnes qui offrent des expériences clientèle personnalisées dans Journey Optimizer.
 
 >[!ENDSHADEBOX]
 

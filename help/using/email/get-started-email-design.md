@@ -33,7 +33,7 @@ topic_v2:
 source-git-commit: 94f6692162ca7d37cf5d9df4c0f48371bafec9fc
 workflow-type: tm+mt
 source-wordcount: 821
-ht-degree: 87%
+ht-degree: 92%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 87%
 
 >[!BEGINSHADEBOX]
 
-**Sur cette page :** découvrez comment concevoir le contenu de votre e-mail dans le Designer d’e-mail, les étapes clés pour le créer à partir de zéro, de code ou d’HTML importé, ainsi que les bonnes pratiques qui assurent le bon rendu de vos e-mails entre les clients.
+**Sur cette page :** découvrez comment concevoir le contenu de votre e-mail dans le Concepteur d’e-mail, les étapes clés pour le créer à partir de zéro, de code ou de HTML importé, ainsi que les bonnes pratiques qui assurent un bon rendu de vos e-mails pour vos différents clientes et clients.
 
 >[!ENDSHADEBOX]
 

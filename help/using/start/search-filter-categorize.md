@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
 source-wordcount: 826
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-**Sur cette page :** localisez et organisez rapidement des parcours, des campagnes et des ressources à l’aide de la recherche universelle, des filtres de liste et des balises afin de rester productif au fur et à mesure que vos projets Journey Optimizer se développent.
+**Sur cette page :** localisez et organisez rapidement les parcours, les campagnes et les ressources à l’aide de la recherche universelle, des filtres de liste et des balises afin de maintenir votre productivité au fur et à mesure que vos projets Journey Optimizer se développent.
 
 >[!ENDSHADEBOX]
 

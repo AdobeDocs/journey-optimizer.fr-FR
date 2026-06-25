@@ -17,7 +17,7 @@ subfeature_v2:
 source-git-commit: 6d8650fc9963c21122f84c2ffd965089f158d8ed
 workflow-type: tm+mt
 source-wordcount: 8952
-ht-degree: 90%
+ht-degree: 94%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 90%
 
 Cette page répertorie toutes les dernières modifications apportées à la documentation [!DNL Journey Optimizer], en plus des mises à jour liées aux fonctionnalités et améliorations de la version mensuelle.
 
-## Juin 2026 {#june-2026}
+## Juin 2026 {#june-2026}
 
 * La page **Mode Débit élevé** a été mise à jour pour prendre en compte la disponibilité régionale étendue : la fonctionnalité est désormais disponible dans toutes les régions, à l’exception de la Suisse, pour les organisations disposant d’une licence avec le module complémentaire de messagerie transactionnelle à débit élevé. [En savoir plus](../campaigns/api-triggered-high-throughput.md)
 
@@ -50,19 +50,19 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 
 * Mise à jour de la documentation sur la fonction de date **`nowWithDelta()`** afin de clarifier le comportement de fin de mois : lorsque le mois cible comporte moins de jours que le jour du mois en cours, le résultat est normalisé au dernier jour valide de ce mois. [En savoir plus](../building-journeys/functions/date-functions.md#nowWithDelta)
 
-* La page **Prise en main de la délivrabilité** a été mise à jour avec une nouvelle sous-section **Fournisseurs sans FBL par destinataire**. Il répertorie les principaux fournisseurs de boîtes aux lettres qui ne renvoient pas de plaintes contre le spam par destinataire (Gmail/Google Workspace, Apple iCloud et Corporate Microsoft 365/Exchange Online) et explique pourquoi l&#39;absence d&#39;entrée de liste de suppression est attendue pour les destinataires utilisant ces services. [En savoir plus](../reports/deliverability.md#providers-no-fbl)
+* La page **Commencer avec la délivrabilité** a été mise à jour avec la nouvelle sous-section **Fournisseurs sans FBL par destinataire**. Elle répertorie les principaux fournisseurs de messagerie qui ne renvoient pas les plaintes contre le spam par destinataire (Gmail/Google Workspace, Apple iCloud et Corporate Microsoft 365/Exchange Online) et explique pourquoi l’absence d’une entrée dans la liste de suppression est attendue pour les destinataires utilisant ces services. [En savoir plus](../reports/deliverability.md#providers-no-fbl)
 
-* **Experience Decisioning est désormais disponible pour le canal courrier.** Une nouvelle page **Prise de décision par lots dans le publipostage direct** décrit comment utiliser le moteur de prise de décision pour personnaliser les fichiers d’extraction de publipostage direct ou pour exporter des profils et leurs résultats de prise de décision en vue de les utiliser dans des systèmes en aval. Le **publipostage direct** a été ajouté en tant que canal pris en charge dans la documentation de prise de décision (Prise en main, Création d’une politique de décision, Utilisation des politiques de décision dans les messages, Prise en main des politiques de décision), y compris la possibilité de renvoyer plusieurs éléments de décision par profil via le champ **[!UICONTROL Nombre d’éléments]**. [En savoir plus](../experience-decisioning/batch-decisioning-direct-mail.md)
+* **Les décisions pour les expériences sont désormais disponibles pour le canal courrier.** Une nouvelle page **Prise de décision par lots pour le courrier** décrit comment utiliser le moteur de prise de décision pour personnaliser les fichiers d’extraction de courrier ou pour exporter des profils et leurs résultats de prise de décision en vue de les utiliser dans des systèmes en aval. Le **courrier** a été ajouté en tant que canal pris en charge dans la documentation de la prise de décision (Commencer, Créer une politique de décision, Utiliser des politiques de décision dans les messages, Commencer à utiliser des politiques de décision), y compris la possibilité de renvoyer plusieurs éléments de décision par profil via le champ **[!UICONTROL Nombre d’éléments]**. [En savoir plus](../experience-decisioning/batch-decisioning-direct-mail.md)
 
-* La documentation **Fragments de Parcours** n&#39;est plus marquée comme Disponibilité limitée. La page comprend désormais une note désambiguïsant les fragments de Parcours des fragments de contenu **[!UICONTROL fragments]** et **fragments de contenu AEM** (lien croisé à partir des trois pages), et documente la prise en charge des **outils de sandbox**, **journaux d’audit** et **balisage**. Des fragments de parcours ont également été ajoutés à la page **Prise en main des parcours**. [En savoir plus](../building-journeys/journey-fragments.md)
+* La documentation des **Fragments de parcours** n’est plus marquée comme étant en disponibilité limitée. La page comprend désormais une note distinguant les fragments de parcours des **[!UICONTROL fragments]** de contenu et des **fragments de contenu AEM** (reliant les trois pages), et documente la prise en charge des **outils de sandbox**, des **journaux d’audit** et du **balisage**. Les fragments de parcours ont également été ajoutés à la page **Commencer à utiliser les parcours**. [En savoir plus](../building-journeys/journey-fragments.md)
 
-* Mise à jour de la documentation **Sources de données externes** et **Action personnalisée** pour une authentification personnalisée. Le champ `tokenInResponse` vous permet désormais de spécifier si le `access_token` ou le `id_token` est utilisé comme informations d’authentification lorsqu’un point d’entrée renvoie les deux. Pour l’authentification personnalisée basée sur certificat, les champs `subType` et `aud` sont désormais obligatoires, l’`method` du point d’entrée du jeton doit être `POST` et les références à « Azure Entra ID » ont été remplacées par « Microsoft Entra ID ». [En savoir plus](../datasource/external-data-sources.md#certificate-credential)
+* Mise à jour de la documentation sur les **Sources de données externes** et l’**Action personnalisée** pour inclure l’authentification personnalisée. Le champ `tokenInResponse` vous permet désormais de spécifier si l’`access_token` ou l’`id_token` doit être utilisé en tant qu’information d’authentification lorsqu’un point d’entrée renvoie les deux. Pour l’authentification personnalisée basée sur un certificat, les champs `subType` et `aud` sont désormais obligatoires, la `method` du point d’entrée du jeton doit être `POST` et les références à « Azure Entra ID » ont été remplacées par « Microsoft Entra ID ». [En savoir plus](../datasource/external-data-sources.md#certificate-credential)
 
-* La page **Prise en main de Decisioning** a été mise à jour avec un graphique de processus qui résume le workflow de prise de décision de bout en bout, de la gestion des éléments de décision et de la configuration des stratégies de sélection à l&#39;incorporation de politiques de décision dans un parcours ou une campagne. [En savoir plus](../experience-decisioning/gs-experience-decisioning.md#process)
+* La page **Commencer à utiliser la prise de décision** a été mise à jour avec un graphique de processus qui résume le workflow de la prise de décision de bout en bout, de la gestion des éléments de décision et de la configuration des stratégies de sélection à l’incorporation de politiques de décision dans un parcours ou une campagne. [En savoir plus](../experience-decisioning/gs-experience-decisioning.md#process)
 
-* La documentation **En-têtes de l’expéditeur** indique désormais que les champs **[!UICONTROL Nom de l’expéditeur]** et **[!UICONTROL E-mail de l’expéditeur]** doivent tous deux être définis ou laissés vides. Dans le cas contraire, les parcours et les campagnes ne peuvent pas être publiés. [En savoir plus](../email/header-parameters.md#sender-header)
+* La documentation sur les **En-têtes d’expéditeur ou d’expéditrice** indique désormais que les champs **[!UICONTROL Nom de l’expéditeur ou de l’expéditrice]** et **[!UICONTROL E-mail de l’expéditeur ou de l’expéditrice]** doivent obligatoirement tous deux être définis ou tous deux laissés vides. Dans le cas contraire, les parcours et les campagnes ne peuvent pas être publiés. [En savoir plus](../email/header-parameters.md#sender-header)
 
-## Mai 2026 {#may-2026}
+## Mai 2026 {#may-2026}
 
 * Les limites et les bonnes pratiques relatives à l’utilisation de contenu dynamique dans des fragments visuels ont été fusionnées en une seule section **Gérer le contenu conditionnel dans les fragments** pour une meilleure lisibilité. [En savoir plus](../email/use-visual-fragments.md#fragment-dynamic-content)
 

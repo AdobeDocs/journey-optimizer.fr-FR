@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
 source-wordcount: 609
-ht-degree: 72%
+ht-degree: 78%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 72%
 
 >[!BEGINSHADEBOX]
 
-**Sur cette page :** Découvrez comment les schémas standard et relationnels de Adobe Experience Platform définissent la structure de vos données afin que vous puissiez modéliser des profils, des événements comportementaux et des entités relationnelles pour les campagnes de personnalisation et orchestrées dans Adobe Journey Optimizer.
+**Sur cette page :** découvrez comment les schémas standard et relationnels d’Adobe Experience Platform définissent la structure de vos données pour vous permettre de modéliser des profils, des événements comportementaux et des entités relationnelles pour les campagnes de personnalisation et orchestrées dans Adobe Journey Optimizer.
 
 >[!ENDSHADEBOX]
 

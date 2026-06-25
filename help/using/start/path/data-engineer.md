@@ -32,7 +32,7 @@ topic_v2:
 source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
 source-wordcount: 1072
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-**Sur cette page :** Créez les schémas, les jeux de données, les identités et les sources de données qui alimentent Adobe Journey Optimizer afin que vos équipes puissent offrir des expériences client personnalisées en temps réel.
+**Sur cette page :** créez les schémas, les jeux de données, les identités et les sources de données qui alimentent Adobe Journey Optimizer afin que vos équipes puissent offrir des expériences clientèle personnalisées en temps réel.
 
 >[!ENDSHADEBOX]
 

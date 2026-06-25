@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
 source-wordcount: 2696
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-**Sur cette page :** obtenez un aperçu pratique du flux de données vers et depuis Adobe Journey Optimizer, couvrant les schémas, les jeux de données, les identités, les profils et les sources de données, afin que votre équipe puisse terminer les étapes de préparation des données avant de créer des parcours et des campagnes.
+**Sur cette page :** obtenez une vue d’ensemble pratique des flux de données entrants et sortants d’Adobe Journey Optimizer, notamment les schémas, les jeux de données, les identités, les profils et les sources de données, afin que votre équipe puisse réaliser l’ensemble des étapes de préparation des données avant de créer des parcours et des campagnes.
 
 >[!ENDSHADEBOX]
 

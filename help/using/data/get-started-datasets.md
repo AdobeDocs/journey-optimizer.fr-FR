@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
 source-wordcount: 1326
-ht-degree: 78%
+ht-degree: 82%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 78%
 
 >[!BEGINSHADEBOX]
 
-**Sur cette page :** découvrez comment accéder aux jeux de données Adobe Experience Platform, les créer et les gérer afin de stocker et d’explorer les données qui alimentent les parcours, les campagnes et les rapports dans Adobe Journey Optimizer.
+**Sur cette page :** découvrez comment accéder aux jeux de données Adobe Experience Platform et comment les créer et les gérer pour vous permettre de stocker et d’explorer les données qui alimentent les parcours, les campagnes et les rapports dans Adobe Journey Optimizer.
 
 >[!ENDSHADEBOX]
 
@@ -80,7 +80,7 @@ Cette section répertorie les jeux de données système utilisés par [!DNL Jour
 
 * Création de rapports
 
-   * _Création de rapports - Jeu de données d’événement de retour de message_ : logs de diffusion des messages. Informations sur toutes les diffusions de messages à partir de Journey Optimizer à des fins de création de rapports et d’audiences. Les commentaires des FAI de messagerie sur les rebonds sont également enregistrés dans ce jeu de données. **Ce jeu de données utilise l’ingestion par lots. Attendez-vous à une latence des données allant jusqu’à 2 heures.**
+   * _Création de rapports - Jeu de données d’événement de retour de message_ : logs de diffusion des messages. Informations sur toutes les diffusions de messages à partir de Journey Optimizer à des fins de création de rapports et d’audiences. Les commentaires des FAI de messagerie sur les rebonds sont également enregistrés dans ce jeu de données. **Ce jeu de données utilise l’ingestion par lots. Cela entraîne une latence des données pouvant aller jusqu’à 2 heures.**
    * _Reporting – Jeu de données d’événement d’expérience de suivi d’e-mail_ : journaux d’interaction pour le canal e-mail et données contextuelles du canal WhatsApp sous le groupe de champs `whatsAppChannelContext`. Utilisé pour le reporting et la création d’audiences. Les informations stockées incluent des actions effectuées par la personne utilisatrice finale dans un e-mail (ouvertures, clics, etc..) et les interactions WhatsApp.
    * _Création de rapports - Jeu de données d’événement d’expérience de tracking de notification push_ : logs d’interaction pour le canal de notification push utilisé à des fins de création de rapports et d’audiences. Les informations stockées renseignent sur les actions effectuées par l’utilisateur final dans les notifications push.
    * _Création de rapports - Événement d’étape de parcours_ : capture tous les événements d’expérience d’étape de parcours générés à partir de Journey Optimizer pour être utilisés par des services tels que la création de rapports. Également essentiel pour la création de rapports dans Customer Journey Analytics pour l’analyse YoY. Associé à des métadonnées de parcours.
