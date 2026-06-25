@@ -23,7 +23,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
+source-git-commit: 7d1215b448da93bf4f1ff29f93e00a68921cedce
 workflow-type: tm+mt
 source-wordcount: 1266
 ht-degree: 72%
@@ -137,7 +137,7 @@ Le fichier d’extraction est requis par les opérateurs de services postaux pou
 
 1. Dans l’écran de configuration de la campagne ou du parcours, cliquez sur le bouton **[!UICONTROL Modifier le contenu]** pour configurer le contenu du fichier d’extraction.
 
-1. Pour ajouter des politiques de décision à votre message de publipostage direct, sélectionnez une colonne dans la section **[!UICONTROL Champs de données]** et ouvrez l’éditeur de personnalisation à l’aide de l’icône ![](../experience-decisioning/assets/do-no-localize/editor-icon.svg). Accédez au menu **[!UICONTROL Politiques de décision]** pour créer et insérer une politique de décision. Vous pouvez ensuite utiliser les attributs d&#39;élément de décision comme données de colonne dans le fichier d&#39;extraction.
+1. Pour ajouter des politiques de décision à votre message de publipostage direct, sélectionnez une colonne dans la section **[!UICONTROL Champs de données]** et ouvrez l’éditeur de personnalisation à l’aide de l’icône ![](../experience-decisioning/assets/do-not-localize/editor-icon.svg). Accédez au menu **[!UICONTROL Politiques de décision]** pour créer et insérer une politique de décision. Vous pouvez ensuite utiliser les attributs d&#39;élément de décision comme données de colonne dans le fichier d&#39;extraction.
 
    >[!AVAILABILITY]
    >
