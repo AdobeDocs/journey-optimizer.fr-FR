@@ -11,7 +11,7 @@ version: Campaign Orchestration
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: eb78711c68f3e38f4d15b0531a5ccfd1186a5784
 workflow-type: tm+mt
 source-wordcount: 547
 ht-degree: 22%
@@ -51,7 +51,9 @@ Utilisations standard :
 * **Messages et audiences** : extrayez uniquement les nouvelles inscriptions, les nouveaux acheteurs ou d’autres segments « nouveau depuis la dernière exécution » dans l’étape suivante (par exemple, e-mail, SMS).
 * **Exportations en cours** : envoyez uniquement des lignes nouvelles ou mises à jour aux fichiers pour les outils de création de rapports ou de BI, sans dupliquer ce que vous avez déjà exporté.
 
-Lorsqu’une exécution ne renvoie aucune ligne, la campagne orchestrée s’arrête à la **requête incrémentale**. Les activités après la requête incrémentale ne sont pas exécutées tant qu’il n’y a pas de données, lorsque la campagne s’exécute à nouveau.
+>[!IMPORTANT]
+>
+>Lorsqu’une exécution ne renvoie aucune ligne, la campagne orchestrée s’arrête à la **requête incrémentale**. Les activités après la requête incrémentale ne sont pas exécutées tant qu’il n’y a pas de données, lorsque la campagne s’exécute à nouveau.
 
 ## Configurer l’activité Requête incrémentale {#incremental-query-configuration}
 
