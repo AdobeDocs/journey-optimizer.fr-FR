@@ -23,10 +23,10 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 779
-ht-degree: 72%
+source-wordcount: 811
+ht-degree: 69%
 
 ---
 
@@ -111,6 +111,10 @@ Les principales étapes pour utiliser la prise de décision sont les suivantes 
 
    ➡️ [Découvrez comment utiliser les politiques de décision.](create-decision.md)
 ➡️ Pour diffuser avec succès l’offre via le canal d’expérience basé sur du code, suivez les étapes d’implémentation de [cette section](../code-based/code-based-implementation-samples.md).
+
+>[!NOTE]
+>
+>Les profils qui reçoivent une décision par le biais d’un parcours ou d’une campagne sont comptabilisés dans la mesure de licence **Profils engageables** de votre organisation, ainsi que les profils engagés par le biais d’autres fonctionnalités de Journey Optimizer. [Surveiller le nombre de profils engageables](../audience/license-usage.md)
 
 ## Processus de prise de décision {#process}
 

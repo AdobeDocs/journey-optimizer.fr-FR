@@ -25,10 +25,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 651
-ht-degree: 88%
+source-wordcount: 691
+ht-degree: 83%
 
 ---
 
@@ -99,6 +99,10 @@ Les audiences peuvent être générées à l’aide de différentes méthodes :
 ## Cibler les audiences dans les parcours et les campagnes {#target-audiences}
 
 Une fois vos audiences prêtes, vous pouvez les sélectionner lors de la création de parcours ou de campagnes, ce qui vous permet d’atteindre les bonnes personnes au bon moment avec les messages pertinents. [En savoir plus sur l’activation d’audience dans Journey Optimizer](target-audiences.md)
+
+>[!NOTE]
+>
+>Les profils engagés par le biais d’une activation d’audience, que ce soit dans une activité de parcours, de campagne ou de prise de décision, sont comptabilisés dans la mesure de licence **Profils engageables** de votre organisation. Chaque profil est comptabilisé une fois par sandbox sur une fenêtre dynamique de 12 mois. [Surveiller le nombre de profils engageables](license-usage.md)
 
 ## Vidéo pratique {#video}
 

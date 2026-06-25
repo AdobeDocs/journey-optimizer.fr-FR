@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 9a92d14861c34446c3ccec6dea89403585c54a36
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 8836
+source-wordcount: 8876
 ht-degree: 91%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 91%
 Cette page répertorie toutes les dernières modifications apportées à la documentation [!DNL Journey Optimizer], en plus des mises à jour liées aux fonctionnalités et améliorations de la version mensuelle.
 
 ## Juin 2026 {#june-2026}
+
+* Une nouvelle section **Profils accessibles et utilisation de licence** a été ajoutée à la page **Prise en main des profils** en tant que source unique de vérité pour ce concept. Des références ciblées ont été ajoutées dans les sections Audiences, Campagnes et Prise de décision. [En savoir plus](../audience/get-started-profiles.md#engageable-profiles)
 
 * La documentation sur les activités **Partage** a été mise à jour afin de documenter le champ **[!UICONTROL Code de segment]** disponible dans chaque paramètre de sous-ensemble, ce qui vous permet d’attribuer un identifiant unique à chaque segment d’audience à des fins de suivi et de création de rapports. [En savoir plus](../orchestrated/activities/split.md)
 

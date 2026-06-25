@@ -32,10 +32,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: f13e351c6c3851f9c031e7aa907ecc5924e0df4f
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 1653
-ht-degree: 97%
+source-wordcount: 1697
+ht-degree: 95%
 
 ---
 
@@ -190,6 +190,10 @@ Les **campagnes d’action** (également appelées campagnes planifiées) sont i
 Avant d’utiliser des campagnes, vérifiez que vous disposez des éléments suivants :
 
 * **Audiences** : des audiences doivent être disponibles dans Adobe Experience Platform avant de créer des campagnes. [Commencer à utiliser des audiences →](../audience/about-audiences.md)
+
+  >[!NOTE]
+  >
+  >Chaque profil engagé par une campagne est comptabilisé dans la mesure de licence **Profils engageables** de votre organisation (fenêtre mobile de 12 mois, comptabilisée une fois par sandbox). L’activation d’une campagne vers une nouvelle audience ou une audience importante peut entraîner une augmentation significative de ce nombre. [Surveiller le nombre de profils engageables](../audience/license-usage.md)
 
 * **Configurations de canal** : les configurations de canal (paramètres prédéfinis) doivent être créées et disponibles pour les canaux que vous souhaitez utiliser. [Paramétrer des configurations de canal →](../configuration/channel-surfaces.md)
 

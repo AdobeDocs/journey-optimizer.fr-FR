@@ -25,10 +25,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 1595
-ht-degree: 32%
+source-wordcount: 1617
+ht-degree: 30%
 
 ---
 
@@ -63,7 +63,7 @@ Pour obtenir des paires de termes à consonance similaire qui sont souvent confu
 |------|------------|
 | **Audience** | Groupe de clientes et clients qui partagent des caractéristiques ou des comportements communs, tels que « clientes et clients ayant effectué un achat au cours des 30 derniers jours » ou « membres du programme de fidélité ». Les audiences sont utilisées pour cibler des segments clients spécifiques. [En savoir plus](../audience/about-audiences.md) |
 | **Qualification d’audience** | Processus qui se produit lorsqu’un client ou une cliente rejoint ou quitte une audience. Journey Optimizer peut déclencher des actions lorsqu’une personne rejoint ou quitte une audience, assurant ainsi des communications opportunes et pertinentes. [En savoir plus](../building-journeys/audience-qualification-events.md) |
-| **Audience engageable** | Nombre de profils clients que vous pouvez contacter activement via Adobe Journey Optimizer en fonction de votre contrat de licence. Cela fait généralement référence aux profils engagés au cours des 12 derniers mois. |
+| **Profils pouvant être engagés** | Les profils clients uniques engagés par le biais de parcours, de campagnes ou d’activités de prise de décision sur une période mobile de 12 mois. Il s’agit de la mesure de licence clé pour Journey Optimizer : chaque profil est comptabilisé une fois par sandbox, quel que soit le nombre de parcours ou de campagnes qu’il entre. Surveillez le nombre à **[!UICONTROL Administration]** > **[!UICONTROL Utilisation de la licence]**. [En savoir plus](../audience/license-usage.md) |
 | **Profil de test** | Profils fictifs utilisés pour tester et prévisualiser des messages avant de les envoyer à des clientes et clients réels. Les profils de test permettent de vérifier la personnalisation, le contenu et la logique du parcours. [En savoir plus](../audience/creating-test-profiles.md) |
 
 ## Termes de contenu et de personnalisation {#content-terms}
