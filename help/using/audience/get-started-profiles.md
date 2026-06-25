@@ -25,7 +25,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: c6441f0097a75690c0546e492c39c6bb59711a16
+source-git-commit: 06c5998c241d25ab2b45f5f703dd3bdddc7e3a8a
 workflow-type: tm+mt
 source-wordcount: 778
 ht-degree: 53%
@@ -80,12 +80,6 @@ Caractéristiques principales :
 
 Surveillez à tout moment le nombre de profils engageables de votre entreprise depuis **[!UICONTROL Administration]** > **[!UICONTROL Utilisation de la licence]**. Si vous constatez un pic soudain dans le nombre de problèmes, reportez-vous à la [section Dépannage](license-usage.md#troubleshooting-engageable-profiles) pour obtenir des conseils détaillés. [En savoir plus sur le tableau de bord Utilisation des licences](license-usage.md)
 
->[!MORELIKETHIS]
->
->* [Commencer avec la gestion des données dans Journey Optimizer](../data/gs-data.md)
->* [Documentation sur le profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=fr){target="_blank"}
->* [Mécanismes de sécurisation par défaut pour les données de profil client en temps réel et la segmentation](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/guardrails){target="_blank"}
->* [Documentation sur l’ingestion de données](https://experienceleague.adobe.com/fr/docs/experience-platform/ingestion/home){target="_blank"}
 
 ## Tableau de bord des profils
 
@@ -104,3 +98,12 @@ Vous pouvez rassembler des données issues de plusieurs sources et les combiner 
 Découvrez comment Adobe Experience Platform assemble et met à jour des profils clients en temps réel et la façon dont vous pouvez y accéder et les utiliser.
 
 >[!VIDEO](https://video.tv.adobe.com/v/31639?captions=fre_fr&quality=12)
+
+
+
+>[!MORELIKETHIS]
+>
+>* [Commencer avec la gestion des données dans Journey Optimizer](../data/gs-data.md)
+>* [Documentation sur le profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=fr){target="_blank"}
+>* [Mécanismes de sécurisation par défaut pour les données de profil client en temps réel et la segmentation](https://experienceleague.adobe.com/fr/docs/experience-platform/profile/guardrails){target="_blank"}
+>* [Documentation sur l’ingestion de données](https://experienceleague.adobe.com/fr/docs/experience-platform/ingestion/home){target="_blank"}
