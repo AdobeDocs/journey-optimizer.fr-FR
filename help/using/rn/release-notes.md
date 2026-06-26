@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
+source-git-commit: d7493db6edff53d2b4f52c14d29c5c2c32604f31
 workflow-type: tm+mt
-source-wordcount: 3687
+source-wordcount: 3695
 ht-degree: 84%
 
 ---
@@ -168,6 +168,10 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées aux parcour
 
 Les fonctionnalités et améliorations suivantes ont été ajoutées aux campagnes orchestrées dans cette version.
 
+* **Personnalisation en boucle des données relationnelles** - L’éditeur de personnalisation prend désormais en charge un bloc Boucle qui effectue une itération sur les collections relationnelles, telles que les commandes, les comptes ou les réservations, et effectue le rendu d’un bloc de contenu par enregistrement dans un seul e-mail ou SMS. Les collections sont configurées par le biais du sélecteur de données à l’aide de jetons de personnalisation, sans écriture d’expression requise. [En savoir plus](../orchestrated/add-personalization.md#enrichment-collections)
+
+  Date de disponibilité : fin juin 2026
+
 +++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications.**
 
 <table>
@@ -186,10 +190,6 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées aux campagn
 </tr>
 </tbody>
 </table>
-
-* **Personnalisation en boucle des données relationnelles** - L’éditeur de personnalisation prend désormais en charge un bloc Boucle qui effectue une itération sur les collections relationnelles, telles que les commandes, les comptes ou les réservations, et effectue le rendu d’un bloc de contenu par enregistrement dans un seul e-mail ou SMS. Les collections sont configurées par le biais du sélecteur de données à l’aide de jetons de personnalisation, sans écriture d’expression requise. [En savoir plus](../orchestrated/add-personalization.md#enrichment-collections)
-
-  Date de disponibilité : fin juin 2026
 
 +++
 
@@ -353,6 +353,25 @@ Les améliorations suivantes ont été ajoutées au canal e-mail dans cette vers
 <table>
 <thead>
 <tr>
+<th><strong>Activer la réduction de la taille des e-mails</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer comprend désormais une option permettant de réduire la taille du code HTML de votre e-mail en supprimant les espaces blancs, les commentaires et le code redondant inutiles, sans affecter le rendu de l’e-mail.</p>
+<p>Cela peut améliorer la délivrabilité en évitant de dépasser les seuils de taille que certains fournisseurs de messagerie utilisent pour marquer ou rejeter les messages et peut réduire le temps de chargement pour les destinataires.</p>
+<p><img src="assets/do-not-localize/email-size-optimization.gif"></p>
+<p>Pour plus d'informations, consultez la <a href="../email/create-email.md#optimize-html-size">documentation détaillée</a>.</p>
+<p>Date de disponibilité : 26 juin 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Texte enrichi dans les champs modifiables pour les fragments</strong><br/></th>
 </tr>
 </thead>
@@ -394,23 +413,6 @@ Les améliorations suivantes ont été ajoutées au canal e-mail dans cette vers
   Date de disponibilité : 18 juin 2026
 
 +++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications.**
-
-<table>
-<thead>
-<tr>
-<th><strong>Activer la réduction de la taille des e-mails</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer comprend désormais une option permettant de réduire la taille du code HTML de votre e-mail en supprimant les espaces blancs, les commentaires et le code redondant inutiles, sans affecter le rendu de l’e-mail.</p>
-<p>Cela peut améliorer la délivrabilité en évitant de dépasser les seuils de taille que certains fournisseurs de messagerie utilisent pour marquer ou rejeter les messages et peut réduire le temps de chargement pour les destinataires.</p>
-<p>Date de disponibilité : fin juin 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
