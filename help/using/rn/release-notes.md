@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d7493db6edff53d2b4f52c14d29c5c2c32604f31
+source-git-commit: 96362514733a12fe19bb92cbda9d7b263b796172
 workflow-type: tm+mt
 source-wordcount: 3695
 ht-degree: 84%
@@ -170,7 +170,7 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées aux campagn
 
 * **Personnalisation en boucle des données relationnelles** - L’éditeur de personnalisation prend désormais en charge un bloc Boucle qui effectue une itération sur les collections relationnelles, telles que les commandes, les comptes ou les réservations, et effectue le rendu d’un bloc de contenu par enregistrement dans un seul e-mail ou SMS. Les collections sont configurées par le biais du sélecteur de données à l’aide de jetons de personnalisation, sans écriture d’expression requise. [En savoir plus](../orchestrated/add-personalization.md#enrichment-collections)
 
-  Date de disponibilité : fin juin 2026
+  Date de disponibilité : 26 juin 2026
 
 +++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications.**
 
