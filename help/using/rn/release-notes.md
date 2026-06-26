@@ -8,27 +8,15 @@ level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d7493db6edff53d2b4f52c14d29c5c2c32604f31
 workflow-type: tm+mt
-source-wordcount: 3687
+source-wordcount: 3695
 ht-degree: 84%
 
 ---
@@ -133,7 +121,7 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées aux parcour
 </table>
 
 
-* [!BADGE Obsolescence]{type=Negative} **Audiences par lots obsolètes dans le nœud Qualification d’audience** - À compter d’**août 2026**, Journey Optimizer bloquera la publication de tout parcours utilisant une audience par lots dans un nœud **Qualification d’audience**. Un avertissement de validation est déjà affiché dans la zone de travail du parcours. Les Live parcours existants ne sont pas affectés. Les parcours nouveaux, brouillons et dupliqués incluant cette configuration doivent être mis à jour avant août 2026. Utilisez une audience en flux continu dans le nœud Qualification de l’audience ou passez à une activité **Lecture d’audience**. [Découvrez comment migrer vos parcours &#x200B;](../building-journeys/aq-batch-audiences-migration.md)
+* [!BADGE Obsolescence]{type=Negative} **Audiences par lots obsolètes dans le nœud Qualification d’audience** - À compter d’**août 2026**, Journey Optimizer bloquera la publication de tout parcours utilisant une audience par lots dans un nœud **Qualification d’audience**. Un avertissement de validation est déjà affiché dans la zone de travail du parcours. Les Live parcours existants ne sont pas affectés. Les parcours nouveaux, brouillons et dupliqués incluant cette configuration doivent être mis à jour avant août 2026. Utilisez une audience en flux continu dans le nœud Qualification de l’audience ou passez à une activité **Lecture d’audience**. [Découvrez comment migrer vos parcours ](../building-journeys/aq-batch-audiences-migration.md)
 
 * **Arrêter directement un parcours en pause** - Vous pouvez désormais arrêter un parcours directement à partir de l’état **En pause**. Auparavant, un parcours en pause devait être repris en **actif** avant de pouvoir être arrêté. [En savoir plus](../building-journeys/journey-pause.md#stop-close-paused)
 
@@ -168,6 +156,10 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées aux parcour
 
 Les fonctionnalités et améliorations suivantes ont été ajoutées aux campagnes orchestrées dans cette version.
 
+* **Personnalisation en boucle des données relationnelles** - L’éditeur de personnalisation prend désormais en charge un bloc Boucle qui effectue une itération sur les collections relationnelles, telles que les commandes, les comptes ou les réservations, et effectue le rendu d’un bloc de contenu par enregistrement dans un seul e-mail ou SMS. Les collections sont configurées par le biais du sélecteur de données à l’aide de jetons de personnalisation, sans écriture d’expression requise. [En savoir plus](../orchestrated/add-personalization.md#enrichment-collections)
+
+  Date de disponibilité : fin juin 2026
+
 +++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications.**
 
 <table>
@@ -186,10 +178,6 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées aux campagn
 </tr>
 </tbody>
 </table>
-
-* **Personnalisation en boucle des données relationnelles** - L’éditeur de personnalisation prend désormais en charge un bloc Boucle qui effectue une itération sur les collections relationnelles, telles que les commandes, les comptes ou les réservations, et effectue le rendu d’un bloc de contenu par enregistrement dans un seul e-mail ou SMS. Les collections sont configurées par le biais du sélecteur de données à l’aide de jetons de personnalisation, sans écriture d’expression requise. [En savoir plus](../orchestrated/add-personalization.md#enrichment-collections)
-
-  Date de disponibilité : fin juin 2026
 
 +++
 
@@ -353,6 +341,25 @@ Les améliorations suivantes ont été ajoutées au canal e-mail dans cette vers
 <table>
 <thead>
 <tr>
+<th><strong>Activer la réduction de la taille des e-mails</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer comprend désormais une option permettant de réduire la taille du code HTML de votre e-mail en supprimant les espaces blancs, les commentaires et le code redondant inutiles, sans affecter le rendu de l’e-mail.</p>
+<p>Cela peut améliorer la délivrabilité en évitant de dépasser les seuils de taille que certains fournisseurs de messagerie utilisent pour marquer ou rejeter les messages et peut réduire le temps de chargement pour les destinataires.</p>
+<p><img src="assets/do-not-localize/email-size-optimization.gif"></p>
+<p>Pour plus d'informations, consultez la <a href="../email/create-email.md#optimize-html-size">documentation détaillée</a>.</p>
+<p>Date de disponibilité : 26 juin 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Texte enrichi dans les champs modifiables pour les fragments</strong><br/></th>
 </tr>
 </thead>
@@ -394,23 +401,6 @@ Les améliorations suivantes ont été ajoutées au canal e-mail dans cette vers
   Date de disponibilité : 18 juin 2026
 
 +++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications.**
-
-<table>
-<thead>
-<tr>
-<th><strong>Activer la réduction de la taille des e-mails</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer comprend désormais une option permettant de réduire la taille du code HTML de votre e-mail en supprimant les espaces blancs, les commentaires et le code redondant inutiles, sans affecter le rendu de l’e-mail.</p>
-<p>Cela peut améliorer la délivrabilité en évitant de dépasser les seuils de taille que certains fournisseurs de messagerie utilisent pour marquer ou rejeter les messages et peut réduire le temps de chargement pour les destinataires.</p>
-<p>Date de disponibilité : fin juin 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
