@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: e-mail, vérification de contenu, HTML, CSS, validation, rendu, qualité
-source-git-commit: f7185c276e785e1b7c7ca8d7e4f9c01add6a3383
+badge: label="Disponibilité limitée" type="Informative"
+source-git-commit: 2df5d9db31e03d4548b8ccc32c2d25293d829f1d
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 2%
+source-wordcount: '1066'
+ht-degree: 3%
 
 ---
 
@@ -22,6 +23,10 @@ ht-degree: 2%
 >id="ajo_email_content_check"
 >title="Validation du contenu de l’e-mail"
 >abstract="Les vérifications de contenu détectent automatiquement les problèmes HTML et CSS dans votre e-mail avant l’envoi. Ils signalent les balises non prises en charge, les balises div vides et les limites de taille qui peuvent interrompre le rendu dans Gmail ou Microsoft Outlook. Les problèmes apparaissent sous forme d’erreurs, d’avertissements ou d’avis d’information, avec des détails contextuels et des correctifs en un clic, le cas échéant."
+
+>[!AVAILABILITY]
+>
+>Cette fonctionnalité est en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en bénéficier.
 
 [!DNL Journey Optimizer] comprend une validation technique automatisée directement dans le Designer d’e-mail, ce qui vous permet de détecter les problèmes HTML et CSS avant l’envoi.
 
@@ -51,10 +56,8 @@ Lorsqu’aucun problème n’est détecté, le volet affiche **Aucun problème d
 
 Selon le problème, vous pouvez afficher plus de contexte, appliquer un correctif en un clic ou enregistrer votre e-mail pour actualiser un résultat de vérification.
 
-* Pour certains problèmes détectés, vous pouvez cliquer sur le bouton **[!UICONTROL Afficher les détails]** pour afficher plus de contexte. Cliquez sur **[!UICONTROL Masquer les détails]** pour réduire l’image.
-  ![Volet de vérification du contenu dans le Designer d’e-mail avec des détails](assets/content-check-details.png){width="80%"}
-* De même, vous pouvez cliquer sur le bouton **[!UICONTROL Afficher le correctif]** et appliquer un correctif en un clic, le cas échéant. Si le correctif ne peut pas être appliqué automatiquement, un message s’affiche et vous devez résoudre le problème manuellement.
-  ![Volet de vérification Contenu du Designer Email avec le bouton Appliquer le correctif](assets/content-check-fix.png){width="80%"}
+* Pour certains problèmes détectés, vous pouvez cliquer sur le bouton **[!UICONTROL Afficher les détails]** pour afficher plus de contexte. Cliquez sur **[!UICONTROL Masquer les détails]** pour réduire l’image.  ![Volet de vérification du contenu dans le Designer d’e-mail avec des détails](assets/content-check-details.png){width="80%"}
+* De même, vous pouvez cliquer sur le bouton **[!UICONTROL Afficher le correctif]** et appliquer un correctif en un clic, le cas échéant. Si le correctif ne peut pas être appliqué automatiquement, un message s’affiche et vous devez résoudre le problème manuellement.  ![Volet de vérification Contenu du Designer Email avec le bouton Appliquer le correctif](assets/content-check-fix.png){width="80%"}
 
 ### Recalcul des chèques {#recalculation}
 
