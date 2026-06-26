@@ -30,7 +30,7 @@ ht-degree: 10%
 
 >[!BEGINTABS]
 
->parcours d’événement unitaires][!TAB 
+>[!TAB parcours d’événement unitaires] 
 
 **Utilisation :** expériences déclenchées par un événement en temps réel
 
@@ -38,7 +38,7 @@ Les parcours d’événement unitaire **sont déclenchés individuellement lorsq
 
 **Parfait pour : récupération après abandon de panier** intégration d’un nouveau membre, e-mails de bienvenue lorsque quelqu’un s’abonne et personnalisation après connexion.
 
-➡️ [En savoir plus sur les événements](../event/about-events.md) | [Cas d’utilisation de Message aux abonnés](message-to-subscribers-uc.md) | [Créez votre premier parcours ](journey-gs.md)
+➡️ [En savoir plus sur les événements](../event/about-events.md) | [Cas d’utilisation de Message aux abonnés](message-to-subscribers-uc.md) | [Créez votre premier parcours &#x200B;](journey-gs.md)
 
 >[!TAB Parcours de lecture d’audience]
 
@@ -48,7 +48,7 @@ Les parcours d’événement unitaire **sont déclenchés individuellement lorsq
 
 **Parfait pour : les newsletters mensuelles** les campagnes promotionnelles pour cibler les segments, les annonces de produits, les séries récurrentes de réengagement et les campagnes marketing saisonnières.
 
-➡️ [En savoir plus sur la lecture d’audience](read-audience.md) | [Prise en main des audiences](../audience/about-audiences.md) | [Créer votre premier parcours ](journey-gs.md)
+➡️ [En savoir plus sur la lecture d’audience](read-audience.md) | [Prise en main des audiences](../audience/about-audiences.md) | [Créer votre premier parcours &#x200B;](journey-gs.md)
 
 >[!TAB Parcours de qualification d’audience]
 
@@ -58,11 +58,11 @@ Les parcours d’événement unitaire **sont déclenchés individuellement lorsq
 
 >[!CAUTION]
 >
->À compter d’**août 2026**, les parcours utilisant une audience par lots dans un nœud de qualification d’audience ne pourront pas être publiés. [Découvrez comment migrer vos parcours ](aq-batch-audiences-migration.md)
+>À compter d’**août 2026**, les parcours utilisant une audience par lots dans un nœud de qualification d’audience ne pourront pas être publiés. [Découvrez comment migrer vos parcours &#x200B;](aq-batch-audiences-migration.md)
 
 **Parfait pour :** les notifications de mise à niveau de niveau VIP, les messages de célébration du premier achat, les alertes de risque d’attrition et les transitions d’étape du cycle de vie de la fidélité.
 
-➡️ [En savoir plus sur la qualification de l’audience](audience-qualification-events.md) | [Création d’audiences](../audience/creating-a-segment-definition.md) | [Création de votre premier parcours ](journey-gs.md)
+➡️ [En savoir plus sur la qualification de l’audience](audience-qualification-events.md) | [Création d’audiences](../audience/creating-a-segment-definition.md) | [Création de votre premier parcours &#x200B;](journey-gs.md)
 
 >[!TAB Parcours d’événement métier]
 
@@ -72,7 +72,7 @@ Les parcours d’événement métier **sont déclenchés par un événement au n
 
 **Parfait pour :** alertes de faible stock aux clients intéressés, annonces de vente flash, notifications de chute de prix et alertes de retour en stock de produits.
 
-➡️ [En savoir plus sur les événements métier](../event/about-creating-business.md) | [Gestion d’entrée](entry-management.md) | [Créer votre premier parcours ](journey-gs.md)
+➡️ [En savoir plus sur les événements métier](../event/about-creating-business.md) | [Gestion d’entrée](entry-management.md) | [Créer votre premier parcours &#x200B;](journey-gs.md)
 
 >[!ENDTABS]
 
@@ -177,7 +177,7 @@ Pour une compréhension totale, ces informations doivent être combinées avec l
 * Par défaut, la rentrée du profil dans les parcours Lecture d’audience est limitée à une seule fois par exécution. Utilisez Forcer une rentrée sur une périodicité lors des exécutions planifiées pour permettre aux profils de rentrer à nouveau lors de la prochaine exécution
 * L’activité Lecture d’audience est uniquement disponible en tant qu’entrée de parcours dans les parcours d’événement Lecture d’audience et Entreprise , et non dans les parcours d’entrée Événement unitaire ou Qualification d’audience .
 * Les parcours Qualification d’audience et Lecture d’audience ne peuvent pas contenir d’activité Saut ni être la cible d’une activité Saut à partir d’un autre parcours
-* Les parcours de qualification d’audience nécessitent une audience évaluée en flux continu. À compter d’août 2026, les audiences évaluées par lots ne pourront plus être utilisées dans un nœud de qualification d’audience. Consultez le [ guide de migration](aq-batch-audiences-migration.md)
+* Les parcours de qualification d’audience nécessitent une audience évaluée en flux continu. À compter d’août 2026, les audiences évaluées par lots ne pourront plus être utilisées dans un nœud de qualification d’audience. Consultez le [&#x200B; guide de migration](aq-batch-audiences-migration.md)
 * Les parcours d’événement unitaire et de qualification d’audience partagent une limite de débit de 5 000 TPS au niveau de l’organisation. Les parcours de lecture d’audience prennent en charge jusqu’à 20 000 TPS par sandbox
 * Un profil déjà présent dans un parcours ne peut pas entrer à nouveau la même version de ce parcours, quelle que soit la configuration de reprise
 
