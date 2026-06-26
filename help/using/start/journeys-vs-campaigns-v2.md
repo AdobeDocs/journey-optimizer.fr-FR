@@ -144,7 +144,7 @@ Les trois approches prennent en charge l’ensemble complet des canaux sortants 
 
 Oui. De nombreuses organisations utilisent toutes les approches pour différents scénarios :
 
-* **** pour l’engagement comportemental en temps réel
+* **&#x200B;**&#x200B;pour l’engagement comportemental en temps réel
 * **Campagnes d’action** pour les communications planifiées ou les activations entrantes
 * **Campagnes déclenchées par API** pour les messages transactionnels
 * **Campagnes orchestrées** pour les campagnes par lots complexes et gourmandes en données, consultez la section [Prise en main des campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md)
@@ -192,7 +192,7 @@ Vous souhaitez commencer à créer ? Consultez la documentation détaillée rel
 
 >[!MORELIKETHIS]
 >
->* [comparaison des types de Parcours ](../building-journeys/journey.md#journey-types-comparison)
+>* [comparaison des types de Parcours &#x200B;](../building-journeys/journey.md#journey-types-comparison)
 >* [Comparaison des types de campagne](../campaigns/get-started-with-campaigns.md#campaign-types)
 >* [FAQ sur les parcours](../building-journeys/journey-faq.md)
 >* [FAQ sur les campagnes orchestrées](../orchestrated/orchestrated-campaigns-faq.md)
