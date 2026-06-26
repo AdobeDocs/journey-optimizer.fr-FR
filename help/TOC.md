@@ -5,9 +5,9 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: eba98c8f232c10eac9753ac40b6cd814ed9594a1
+source-git-commit: d4ed86ea2833c1753d89186a460ba24ae57773fd
 workflow-type: tm+mt
-source-wordcount: '3372'
+source-wordcount: '3383'
 ht-degree: 98%
 
 ---
@@ -52,13 +52,15 @@ ht-degree: 98%
    + Travailler efficacement {#work-efficiently}
       + [Naviguer dans l’interface](using/start/user-interface.md)
       + [Rechercher, filtrer, organiser](using/start/search-filter-categorize.md)
-      + [Questions fréquentes sur la résolution des problèmes](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [Questions fréquentes sur la résolution des problèmes](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Accessibilité](using/start/accessibility.md)
       + [Parcours et campagnes](using/start/journeys-vs-campaigns.md)
+      + {hide-from-toc}[Parcours ou campagnes - 2](using/start/journeys-vs-campaigns-v2.md)
 + Parcours {#orchestrate-journeys}
    + [Commencer avec les parcours](using/building-journeys/journey.md)
    + {hide-from-toc}[Guide de prise en main des parcours](using/building-journeys/journey-get-started.md)
    + [types de parcours : choisissez le bon](using/building-journeys/journey-types-selection.md)
+   + {hide-from-toc}[types de Parcours : choisissez le bon-2](using/building-journeys/journey-types-selection-v2.md)
    + [Questions fréquentes concernant Journey Orchestration](using/building-journeys/journey-faq.md)
    + Créer un parcours {#create-journey}
       + [Créer un parcours](/help/rp_landing_pages/create-journey-landing-page.md)
