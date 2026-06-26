@@ -8,7 +8,6 @@ role: User
 level: Beginner
 keywords: types de parcours, unitaire, lecture d’audience, qualification d’audience, événement métier, comparaison, guide de décision, choisir, sélection, temps réel, planifié, par lots, déclenché par un événement
 version: Journey Orchestration
-hide: true
 exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
 TQID: https://experienceleague.adobe.com/rEANha6Lppyd5vog-0kZ3aL9VvZHc9kziW-d-jiWqeA
 product_v2:
@@ -27,10 +26,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 875fca07f966c9812f40c8dab4ca7dc1bb9160d0
+source-git-commit: 9dd9312bb142f7fe53183ef6b139a38ff39f2e8e
 workflow-type: tm+mt
-source-wordcount: 2299
-ht-degree: 18%
+source-wordcount: 2274
+ht-degree: 19%
 
 ---
 
@@ -223,13 +222,12 @@ Pour une compréhension totale, ces informations doivent être combinées avec l
 * Les parcours Qualification d’audience et Lecture d’audience ne peuvent pas contenir d’activité Saut ni être la cible d’une activité Saut à partir d’un autre parcours
 * Les parcours de qualification d’audience nécessitent une audience évaluée en flux continu. À compter d’août 2026, les audiences évaluées par lots ne pourront plus être utilisées dans un nœud de qualification d’audience. Consultez le [&#x200B; guide de migration](aq-batch-audiences-migration.md)
 * Les parcours d’événement unitaire et de qualification d’audience partagent une limite de débit de 5 000 TPS au niveau de l’organisation. Les parcours de lecture d’audience prennent en charge jusqu’à 20 000 TPS par sandbox
-* La simulation est prise en charge pour la plupart des types de parcours, mais pas pour l’entrée d’événement métier. Consultez Limites de simulation pour les restrictions au niveau du nœud.
 * Un profil déjà présent dans un parcours ne peut pas entrer à nouveau la même version de ce parcours, quelle que soit la configuration de reprise
 
 **Terminologie:**
 
 * Nom canonique : parcours d’événement unitaire — variantes : parcours déclenché par un événement, parcours unitaire
-* Nom canonique : parcours Lecture d’audience - variantes : parcours par lots, parcours de déclenchement de segment, parcours de lecture de segment.
+* Nom canonique : Lire le parcours d’audience - variantes : parcours par lots
 * Nom canonique : parcours de qualification d’audience — variantes : parcours d’événement de qualification d’audience
 * Nom canonique : parcours d’événement métier — variantes : parcours déclenché par un événement métier
 * Ne les confondez pas : « Lire le parcours d’audience » ≠ « parcours de qualification de l’audience » — Lire l’audience traite tous les membres de l’audience par lots selon le calendrier prévu ; la qualification de l’audience répond aux changements d’appartenance individuels en temps réel (audiences en flux continu uniquement pour une entrée immédiate)

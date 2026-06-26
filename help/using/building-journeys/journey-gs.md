@@ -30,9 +30,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
+source-git-commit: 59de8d63dbddd6151859c50fe5cfc1de1ea7b686
 workflow-type: tm+mt
-source-wordcount: 2143
+source-wordcount: 2159
 ht-degree: 30%
 
 ---
@@ -90,7 +90,7 @@ Ce que vous devez configurer avant de créer dépend de la manière dont votre p
 
 | Point d&#39;entrée | À utiliser lorsque... | Entrées de profils |
 |---|---|---|
-| **[Lecture d’audience](read-audience.md)** | Vous souhaitez envoyer un message planifié ou récurrent à un ensemble défini de profils (newsletters, promotions, séries d’intégration). | Tous les profils d’une audience par lots, à la fois ou selon un planning. |
+| **[Lecture d’audience](read-audience.md)** | Vous souhaitez envoyer un message planifié ou récurrent à un ensemble défini de profils (newsletters, promotions, séries d’intégration). | Tous les profils d’une audience par lots, à la fois ou selon un planning. [En savoir plus sur les exportations d’audience et la durée](https://experienceleague.adobe.com/fr/docs/experience-platform/run-and-operate/overview){target="_blank"} |
 | **[Qualification d’audience](audience-qualification-events.md)** | Vous devez réagir en temps réel lorsqu’un profil entre ou quitte une audience (mise à niveau du niveau de fidélité, indicateur de risque d’attrition). | Un profil à la fois, dès qu’ils remplissent les critères d’une audience de diffusion en continu. |
 | **Événement unitaire** | Une action de profil déclenche une réponse immédiate (abandon de panier, envoi de formulaire, connexion à l’application). | Profil par profil, en temps réel. |
 | **[Événement métier](../event/about-creating-business.md)** | Un événement sans profil affecte plusieurs personnes à la fois (annulation de vol, réapprovisionnement des stocks, alerte de dernière minute). | Tous les profils associés à l’événement, via une étape automatique Lecture d’audience . |

@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 6d8650fc9963c21122f84c2ffd965089f158d8ed
+source-git-commit: eba98c8f232c10eac9753ac40b6cd814ed9594a1
 workflow-type: tm+mt
-source-wordcount: 8952
-ht-degree: 94%
+source-wordcount: 9055
+ht-degree: 93%
 
 ---
 
@@ -26,6 +26,10 @@ ht-degree: 94%
 Cette page répertorie toutes les dernières modifications apportées à la documentation [!DNL Journey Optimizer], en plus des mises à jour liées aux fonctionnalités et améliorations de la version mensuelle.
 
 ## Juin 2026 {#june-2026}
+
+* Une nouvelle page de **types de Parcours : choisissez la bonne** est maintenant disponible. Il compare tous les points d’entrée du parcours (Lecture d’audience, Qualification d’audience, Événement unitaire et Événement métier) avec des guides de décision et une matrice de compatibilité des fonctionnalités pour vous aider à sélectionner le type approprié à votre cas d’utilisation. [En savoir plus](../building-journeys/journey-types-selection.md)
+
+* Une nouvelle page de comparaison des campagnes **&#x200B;**&#x200B;est désormais disponible. Il compare les Parcours, les campagnes d’action et les campagnes déclenchées par API en fonction du style d’exécution, du modèle de données et du cas d’utilisation, y compris l’activation du canal entrant pour la personnalisation Edge de faible latence, la diffusion entrante multi-surface et des conseils sur l’utilisation de campagnes orchestrées (composition d’audiences ad hoc, données fédérées). [En savoir plus](../start/journeys-vs-campaigns.md)
 
 * La page **Mode Débit élevé** a été mise à jour pour prendre en compte la disponibilité régionale étendue : la fonctionnalité est désormais disponible dans toutes les régions, à l’exception de la Suisse, pour les organisations disposant d’une licence avec le module complémentaire de messagerie transactionnelle à débit élevé. [En savoir plus](../campaigns/api-triggered-high-throughput.md)
 
