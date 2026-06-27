@@ -30,7 +30,7 @@ Découvrez les rôles, responsabilités et dépendances clés requis pour réuss
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Prise en main en tant que spécialiste marketing
 

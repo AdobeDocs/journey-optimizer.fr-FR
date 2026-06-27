@@ -30,7 +30,7 @@ Découvrez les composants, les workflows et le flux de données requis pour diff
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Configuration du canal des notifications push
 
@@ -40,7 +40,7 @@ Cette section contient des instructions détaillées pour la configuration des a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Workflow de démarrage rapide de l’intégration mobile
 

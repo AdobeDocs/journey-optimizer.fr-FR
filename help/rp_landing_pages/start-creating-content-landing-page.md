@@ -20,7 +20,7 @@ La création de contenu dans Adobe Journey Optimizer est synonyme de flexibili
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Concevoir entièrement le contenu d’un e-mail
 
@@ -40,7 +40,7 @@ Importez du contenu HTML dans Adobe Journey Optimizer, ajustez les éléments 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Coder votre propre contenu d’e-mail
 
@@ -50,7 +50,7 @@ Codez manuellement le contenu de votre e-mail à l’aide d’HTML brut en mode 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Utiliser des modèles d’e-mail
 

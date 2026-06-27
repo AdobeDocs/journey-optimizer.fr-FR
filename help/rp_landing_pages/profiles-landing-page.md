@@ -20,7 +20,7 @@ Les profils d’Adobe Journey Optimizer vous permettent de créer des vues uni
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Présentation des profils
 

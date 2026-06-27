@@ -20,7 +20,7 @@ Les audiences, profils et identités d’Adobe Journey Optimizer reposent sur 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Gestion de l’audience et personnalisation
 

@@ -30,7 +30,7 @@ Découvrez comment configurer et gérer le processus d’approbation des parcour
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Création et gestion des politiques d’approbation
 
@@ -40,7 +40,7 @@ Guide détaillé sur la création, la configuration et la gestion des politiques
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Demande d’approbation des parcours et des campagnes
 
@@ -50,7 +50,7 @@ Découvrez comment demander l’approbation de parcours et de campagnes, y compr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
 
 Vérifier et approuver les demandes des parcours et des campagnes
 

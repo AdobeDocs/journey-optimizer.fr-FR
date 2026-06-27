@@ -40,7 +40,7 @@ Ajoutez des composants tels que des formulaires, personnalisez leurs styles et u
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Utiliser des modèles de page de destination
 

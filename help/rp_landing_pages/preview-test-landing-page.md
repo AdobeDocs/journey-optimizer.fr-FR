@@ -48,7 +48,7 @@ Découvrez comment sélectionner et gérer des profils de test pour prévisualis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Prévisualiser votre contenu à l’aide de profils de test
 
@@ -58,7 +58,7 @@ Guide détaillé pour la prévisualisation de contenu personnalisé à l’aide 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
 
 Envoyer des BAT à l’aide des données de profil de test
 

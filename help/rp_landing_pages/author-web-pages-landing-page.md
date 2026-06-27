@@ -30,7 +30,7 @@ Découvrez comment utiliser le concepteur web visuel dans Adobe Journey Optimi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Modifier du contenu web à l’aide de l’éditeur non visuel
 
@@ -40,7 +40,7 @@ Découvrez comment utiliser l’éditeur non visuel pour effectuer des modificat
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Gérer les modifications web dans Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Découvrez comment gérer les modifications web à l’aide du volet Modificatio
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 Surveiller vos expériences web
 

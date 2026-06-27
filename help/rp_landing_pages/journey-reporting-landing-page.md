@@ -30,7 +30,7 @@ Découvrez comment analyser et optimiser les performances des parcours à l’ai
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Rapports de parcours basés sur du code
 
@@ -50,7 +50,7 @@ Découvrez comment mesurer et évaluer l’engagement client avec les cartes de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
 
 Mesures du courrier
 
@@ -70,7 +70,7 @@ Obtenez des informations sur les performances des e-mails, l’engagement et les
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=fr)
 
 Informations sur les messages in-app
 

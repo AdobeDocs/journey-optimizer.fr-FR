@@ -20,7 +20,7 @@ Dans Adobe Journey Optimizer, la création de classements vous permet de classer
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Création et utilisation des méthodes de classement
 
@@ -30,7 +30,7 @@ Découvrez comment créer et configurer des méthodes de classement, y compris d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Utiliser le créateur de formules d’IA
 

@@ -20,7 +20,7 @@ Les jeux de données Adobe Journey Optimizer constituent la colonne vertébral
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Utilisation et gestion des jeux de données dans Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Découvrez les mécanismes de sécurisation TTL appliqués aux jeux de données 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Exporter des jeux de données Adobe Journey Optimizer
 
