@@ -20,7 +20,7 @@ La gestion de l’intégrité de vos campagnes par e-mail commence par la survei
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Gérer la liste de suppression
 
@@ -40,7 +40,7 @@ Découvrez et configurez les mécanismes de reprise pour les erreurs de rebond t
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
 
 Configurer la liste autorisée
 

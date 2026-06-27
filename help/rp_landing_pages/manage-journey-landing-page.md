@@ -30,7 +30,7 @@ Découvrez comment parcourir, filtrer et gérer les parcours efficacement, y com
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Entrée de profil dans les parcours
 
@@ -40,7 +40,7 @@ Découvrez comment les profils rejoignent des parcours, notamment les règles de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Utiliser des identifiants supplémentaires dans les parcours
 
@@ -60,7 +60,7 @@ Découvrez comment configurer des fuseaux horaires fixes et définis par le prof
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 Optimisation de l’heure d’envoi
 
@@ -70,7 +70,7 @@ Optimisez l’engagement des e-mails et des messages push en prédisant des heur
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Terminer votre parcours
 

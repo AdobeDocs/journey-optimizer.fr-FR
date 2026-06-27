@@ -20,7 +20,7 @@ Dans Adobe Journey Optimizer, les audiences vous permettent d’entrer en cont
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Commencer avec les audiences
 
@@ -30,7 +30,7 @@ Découvrez les principes de base de la gestion, de la segmentation et de l’act
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Créer et gérer des audiences
 
@@ -40,7 +40,7 @@ Découvrez les workflows avancés pour la création, la composition et l’enric
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Activer des audiences dans des campagnes et des parcours
 
@@ -50,7 +50,7 @@ Découvrez comment activer des audiences et les utiliser efficacement dans les c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Tirer profit des attributs d’enrichissement
 

@@ -30,7 +30,7 @@ Découvrez comment créer et configurer des expériences basées sur du code dan
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Utiliser des champs modifiables dans les expériences basées sur du code
 
@@ -40,7 +40,7 @@ Découvrez comment ajouter des champs modifiables aux modèles afin de permettre
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Tester des expériences basées sur du code
 
@@ -50,7 +50,7 @@ Découvrez comment prévisualiser et simuler des expériences basées sur du cod
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Publier et gérer des expériences basées sur du code
 

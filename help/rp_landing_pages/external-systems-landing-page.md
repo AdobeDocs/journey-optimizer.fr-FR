@@ -20,7 +20,7 @@ L’intégration de vos parcours à des systèmes externes dans Adobe Journey 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Bonnes pratiques d’intégration de système externe
 

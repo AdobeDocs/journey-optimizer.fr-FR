@@ -20,7 +20,7 @@ La configuration des événements dans Adobe Journey Optimizer consiste à con
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Utiliser des événements de parcours
 
@@ -30,7 +30,7 @@ Découvrez les événements de parcours, leurs types, leur cycle de vie et leur 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Configurer un événement unitaire
 
@@ -40,7 +40,7 @@ Suivez un guide détaillé pour configurer des événements unitaires, y compris
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Schémas ExperienceEvent
 
@@ -70,7 +70,7 @@ Cette section contient des instructions détaillées sur la configuration des é
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Envoyer des événements à l’aide d’API de streaming
 

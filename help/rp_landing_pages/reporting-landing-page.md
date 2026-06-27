@@ -30,7 +30,7 @@ Découvrez les fonctionnalités de création de rapports d’Adobe Journey Opt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 Rapports dynamiques
 
@@ -40,7 +40,7 @@ Explorez les outils de création de rapports en temps réel pour mesurer et opti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Rapports complets
 

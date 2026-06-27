@@ -30,7 +30,7 @@ Découvrez comment configurer les sources de données, les événements et les a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Configuration des événements dans Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Découvrez comment configurer et gérer les événements qui déclenchent des pa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Configuration des sources de données dans Adobe Journey Optimizer
 

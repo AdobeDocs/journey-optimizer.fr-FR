@@ -20,7 +20,7 @@ La création d’audiences dans Adobe Journey Optimizer vous permet de défini
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Créer des définitions de segment dans Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Découvrez comment définir les segments d’audience avec des instructions dét
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Commencer avec la composition d’audiences
 

@@ -30,7 +30,7 @@ Découvrez les champs d’événement d’étape hérités dans Adobe Journey 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 Vue d’ensemble des champs de parcours
 
@@ -50,7 +50,7 @@ Recherchez les champs essentiels partagés entre journeyStepEvent et journeyStep
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Champs d’exécution d’action
 
@@ -60,7 +60,7 @@ Comprenez les champs liés à l’exécution d’une action dans les événement
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Champs de récupération de données
 
@@ -70,7 +70,7 @@ Découvrez les champs associés à la récupération des données lors du traite
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Champs d’identité JourneyStep
 

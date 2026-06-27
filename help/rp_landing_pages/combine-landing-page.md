@@ -20,7 +20,7 @@ Les cas d’utilisation inter-solutions d’Adobe Journey Optimizer vous perme
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Combiner des solutions Adobe pour gérer le contenu
 
@@ -60,7 +60,7 @@ Découvrez comment redimensionner, recadrer et supprimer l’arrière-plan des r
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Utiliser des fragments de contenu AEM
 
@@ -70,7 +70,7 @@ Cette section contient des instructions détaillées pour intégrer des fragment
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Utiliser Dynamic Media
 

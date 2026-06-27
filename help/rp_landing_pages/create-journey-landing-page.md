@@ -21,7 +21,7 @@ La création d’un parcours dans Adobe Journey Optimizer vous permet de conce
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Création de votre premier parcours client
 
@@ -51,7 +51,7 @@ Utilisez l’interface par glisser-déposer pour concevoir des parcours marketin
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Test de votre parcours
 
@@ -71,7 +71,7 @@ Validez vos parcours avec des données de production réelles sans contacter les
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Publication d’un parcours
 
