@@ -5,7 +5,7 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d4ed86ea2833c1753d89186a460ba24ae57773fd
+source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
 workflow-type: tm+mt
 source-wordcount: '3383'
 ht-degree: 98%
@@ -52,14 +52,13 @@ ht-degree: 98%
    + Travailler efficacement {#work-efficiently}
       + [Naviguer dans l’interface](using/start/user-interface.md)
       + [Rechercher, filtrer, organiser](using/start/search-filter-categorize.md)
-      + [Questions fréquentes sur la résolution des problèmes](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [Questions fréquentes sur la résolution des problèmes](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Accessibilité](using/start/accessibility.md)
       + [Parcours et campagnes](using/start/journeys-vs-campaigns.md)
       + {hide-from-toc}[Parcours ou campagnes - 2](using/start/journeys-vs-campaigns-v2.md)
 + Parcours {#orchestrate-journeys}
    + [Commencer avec les parcours](using/building-journeys/journey.md)
    + {hide-from-toc}[Guide de prise en main des parcours](using/building-journeys/journey-get-started.md)
-   + [types de parcours : choisissez le bon](using/building-journeys/journey-types-selection.md)
    + {hide-from-toc}[types de Parcours : choisissez le bon-2](using/building-journeys/journey-types-selection-v2.md)
    + [Questions fréquentes concernant Journey Orchestration](using/building-journeys/journey-faq.md)
    + Créer un parcours {#create-journey}
@@ -90,6 +89,7 @@ ht-degree: 98%
    + Activités {#about-journey-building}
       + [Activités](/help/rp_landing_pages/about-journey-building-landing-page.md)
       + [Prise en main des activités de parcours](using/building-journeys/about-journey-activities.md)
+      + [types de parcours : choisissez le bon](using/building-journeys/journey-types-selection.md)
       + [Événements généraux](using/building-journeys/general-events.md)
       + [Événements de réaction](using/building-journeys/reaction-events.md)
       + [Qualification d’audience](using/building-journeys/audience-qualification-events.md)
