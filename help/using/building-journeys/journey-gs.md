@@ -30,9 +30,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 59de8d63dbddd6151859c50fe5cfc1de1ea7b686
+source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
 workflow-type: tm+mt
-source-wordcount: 2159
+source-wordcount: 2167
 ht-degree: 30%
 
 ---
@@ -86,7 +86,7 @@ Ce que vous devez configurer avant de créer dépend de la manière dont votre p
 
 * **Entrée basée sur un événement** — Le parcours est déclenché en temps réel lorsqu&#39;une personne effectue une action, comme un achat ou une inscription. [Configurer un événement](../event/about-events.md) pour définir le déclencheur et les données qu’il transporte.
 
-**Vous ne savez pas quel point d’entrée utiliser ?** Le tableau ci-dessous met en correspondance les cas d’utilisation les plus courants avec l’activité de départ appropriée.
+**Vous ne savez pas quel point d’entrée utiliser ?** Le tableau ci-dessous met en correspondance les cas d’utilisation les plus courants avec l’activité de départ appropriée. En savoir plus dans la matrice de sélection du type de Parcours [&#128279;](journey-types-selection.md).
 
 | Point d&#39;entrée | À utiliser lorsque... | Entrées de profils |
 |---|---|---|
