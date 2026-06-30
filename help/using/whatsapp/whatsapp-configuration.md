@@ -26,9 +26,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
+source-git-commit: 04ae3acf841462872a34a84133e9e18249a28ffb
 workflow-type: tm+mt
-source-wordcount: 1358
+source-wordcount: 1377
 ht-degree: 87%
 
 ---
@@ -132,7 +132,7 @@ Une fois vos identifiants d&#39;API WhatsApp créés avec succès, vous pouvez c
 
 >[!NOTE]
 >
->Les messages WhatsApp entrants sont capturés dans le jeu de données système _AJO Email Tracking Dataset_. Un profil doit avoir au moins un message envoyé par [!DNL Journey Optimizer] avant que les messages entrants ne soient capturés dans ce jeu de données. [En savoir plus](../data/get-started-datasets.md#system-datasets)
+>Les messages WhatsApp entrants sont capturés dans le jeu de données système _AJO Email Tracking Dataset_. Un profil doit avoir au moins un message envoyé depuis [!DNL Journey Optimizer] avant que les messages entrants ne soient capturés dans ce jeu de données. [En savoir plus](../data/get-started-datasets.md#system-datasets)
 
 Les Webhooks agissent comme le pont de communication entre la plateforme commerciale WhatsApp de Meta et Adobe Journey Optimizer, ce qui vous permet de recevoir des notifications en temps réel sur les événements de message et les interactions utilisateur.
 
@@ -208,7 +208,7 @@ Maintenant que votre Webhook est configuré, vous pouvez créer votre configurat
 
    ![](assets/whatsapp-config-3.png){width=80%}
 
-1. Saisissez le **[!UICONTROL numéro de téléphone de l’expéditeur ou de l’expéditrice]** à utiliser lors de vos communications.
+1. Saisissez le **[!UICONTROL numéro de téléphone de l’expéditeur ou de l’expéditrice]** à utiliser lors de vos communications. N’incluez pas de signe « + » avant le nombre, car cela peut empêcher le flux d’opt-out de fonctionner correctement.
 
 1. Utilisez le **[!UICONTROL Champ d’exécution WhatsApp]** pour sélectionner, parmi les attributs de profil, le numéro de téléphone à utiliser en priorité si plusieurs numéros sont disponibles dans la base de données. [En savoir plus](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
 
