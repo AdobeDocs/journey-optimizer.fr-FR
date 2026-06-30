@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2df5d9db31e03d4548b8ccc32c2d25293d829f1d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 2bd78486d0c81618cd8d0e5875adb2a10173e44d
 workflow-type: tm+mt
-source-wordcount: 3714
-ht-degree: 84%
+source-wordcount: 3606
+ht-degree: 83%
 
 ---
 
@@ -133,7 +121,7 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées aux parcour
 </table>
 
 
-* [!BADGE Obsolescence]{type=Negative} **Audiences par lots obsolètes dans le nœud Qualification d’audience** - À compter d’**août 2026**, Journey Optimizer bloquera la publication de tout parcours utilisant une audience par lots dans un nœud **Qualification d’audience**. Un avertissement de validation est déjà affiché dans la zone de travail du parcours. Les Live parcours existants ne sont pas affectés. Les parcours nouveaux, brouillons et dupliqués incluant cette configuration doivent être mis à jour avant août 2026. Utilisez une audience en flux continu dans le nœud Qualification de l’audience ou passez à une activité **Lecture d’audience**. [Découvrez comment migrer vos parcours &#x200B;](../building-journeys/aq-batch-audiences-migration.md)
+* [!BADGE Obsolescence]{type=Negative} **Audiences par lots obsolètes dans le nœud Qualification d’audience** - À compter d’**août 2026**, Journey Optimizer bloquera la publication de tout parcours utilisant une audience par lots dans un nœud **Qualification d’audience**. Un avertissement de validation est déjà affiché dans la zone de travail du parcours. Les Live parcours existants ne sont pas affectés. Les parcours nouveaux, brouillons et dupliqués incluant cette configuration doivent être mis à jour avant août 2026. Utilisez une audience en flux continu dans le nœud Qualification de l’audience ou passez à une activité **Lecture d’audience**. [Découvrez comment migrer vos parcours ](../building-journeys/aq-batch-audiences-migration.md)
 
 * **Arrêter directement un parcours en pause** - Vous pouvez désormais arrêter un parcours directement à partir de l’état **En pause**. Auparavant, un parcours en pause devait être repris en **actif** avant de pouvoir être arrêté. [En savoir plus](../building-journeys/journey-pause.md#stop-close-paused)
 
@@ -353,7 +341,7 @@ Les améliorations suivantes ont été ajoutées au canal e-mail dans cette vers
 <table>
 <thead>
 <tr>
-<th><strong>Activer la réduction de la taille des e-mails</strong><br/></th>
+<th><strong>Optimisation de la taille des e-mails</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -527,15 +515,15 @@ Les améliorations suivantes ont été apportées à l’administration et à la
 
   Date de disponibilité : 1er juin 2026
 
+<!--
++++ Coming soon — **Information below is subject to change**
 
-+++ À venir - **Les informations ci-dessous peuvent faire l’objet de modifications.**
-
-* **Liste autorisée d’adresses IP du pare-feu d’application web (WAF)** : Adobe Journey Optimizer prend désormais en charge la liste autorisée d’adresses IP du pare-feu d’application web (WAF) pour les pages de destination, ce qui permet aux entreprises de s’assurer que toutes les requêtes entrantes sont acheminées exclusivement via leur infrastructure WAF configurée. Grâce à cette amélioration, les clients et les clientes peuvent configurer Journey Optimizer pour rejeter toute demande directe qui contourne la couche WAF, afin de s’assurer que les politiques de sécurité définies dans des outils tels qu’Imperva sont appliquées de manière cohérente. Cette fonctionnalité renforce la position de sécurité des entreprises ayant des exigences strictes en matière d’accès au réseau en leur permettant de contrôler entièrement le flux de trafic vers leurs pages de destination hébergées dans AJO.
-
-  Date de disponibilité : fin juin 2026
+* **Web Application Firewall (WAF) IP whitelisting** - Adobe Journey Optimizer now supports Web Application Firewall (WAF) IP whitelisting for landing pages, enabling organizations to enforce that all incoming requests are routed exclusively through their configured WAF infrastructure. With this enhancement, customers can configure Journey Optimizer to reject any direct requests that bypass the WAF layer, ensuring that security policies defined in tools such as Imperva are consistently applied. This capability strengthens the security posture for enterprises with strict network access requirements, giving them full control over the traffic flow to their AJO-hosted landing pages.
+  
+  Availability date: Late June, 2026
 
 +++
-
+-->
 
 ### Messages mobiles (SMS, MMS, RCS et LINE) {#june-26-mobile}
 
