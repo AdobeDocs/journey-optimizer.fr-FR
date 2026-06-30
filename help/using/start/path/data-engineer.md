@@ -29,10 +29,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
+source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 1072
-ht-degree: 95%
+source-wordcount: 1103
+ht-degree: 93%
 
 ---
 
@@ -139,6 +139,7 @@ Collaborez avec les [responsables marketing](marketer.md) sur les audiences et l
 * Créez des audiences en fonction des exigences de leurs campagnes et de leurs parcours.
 * Créez des schémas relationnels pour les campagnes orchestrées.
 * Utilisez la segmentation d’entités multiples pour les cas d’utilisation avancés.
+* Lorsque les marketeurs choisissent entre les parcours et les campagnes, partagez [les Parcours par rapport aux campagnes](../journeys-vs-campaigns.md) ainsi que [les types de Parcours : choisissez le bon](../../building-journeys/journey-types-selection.md) pour les aider à choisir l&#39;architecture de données appropriée pour leur cas d&#39;utilisation
 
 >[!ENDTABS]
 

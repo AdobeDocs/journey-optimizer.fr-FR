@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d4be496be65eef2c9cab727804f762350957223a
+source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 2483
-ht-degree: 29%
+source-wordcount: 2545
+ht-degree: 28%
 
 ---
 
@@ -88,26 +88,22 @@ Suivez cet arbre de décision pour choisir la bonne approche. De nombreuses marq
 
 ### Étape 1 : quelle est votre exigence d’exécution ?
 
-**Réponses individuelles en temps réel au comportement des clients ?**
-→ **Utiliser des Parcours**
+**Réactions individuelles en temps réel au comportement de la clientèle ?→** Utiliser des Parcours **
 * Les profils doivent progresser à leur propre rythme.
 * Logique conditionnelle basée sur le comportement
 * Le contexte en temps réel est essentiel.
 
-**Diffusion simple d’un message à une audience à une heure planifiée ?**
-→ **Utiliser des campagnes d’action**
+**Diffusion simple d’un message à une audience à une heure planifiée ?→** Utiliser des campagnes d’action **
 * Tous les profils reçoivent le message simultanément.
 * Envois planifiés ou récurrents
 * Aucune logique complexe à plusieurs étapes n’est nécessaire.
 
-**Message immédiat déclenché par un système externe ?**
-→ **utiliser des campagnes déclenchées par API** (message unique) **ou un parcours d’événement unitaire** (orchestration à plusieurs étapes)
+**Message immédiat déclenché par un système externe ?→** utiliser des campagnes déclenchées par API **(message unique)** ou un parcours d’événement unitaire **(orchestration à plusieurs étapes)
 * Déclenché à la demande via un appel API : les campagnes diffusent un message ; les parcours unitaires ingèrent l&#39;événement via l&#39;ingestion [Experience Platform](../event/additional-steps-to-send-events-to-journey.md) et exécutent un flux de parcours complet
 * Personnalisation basée sur la payload
 * Choisissez des campagnes lorsqu’aucune logique à plusieurs étapes n’est nécessaire
 
-**Workflow par lots complexe avec segmentation avancée, données multi-entités ou nombre exact de pré-envois ?**
-→ **Utiliser des campagnes orchestrées** — Consultez [Prise en main des campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md) pour obtenir des conseils détaillés.
+**Workflow par lots complexe avec segmentation avancée, données multi-entités ou nombre exact de pré-envois ?→** Utiliser des campagnes orchestrées **— Consultez [Prise en main des campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md) pour obtenir des conseils détaillés.
 
 >[!NOTE]
 >
@@ -152,7 +148,7 @@ Customer B: Abandoned cart → Wait 2 hours → Already purchased → End immedi
 
 Chaque personne voit sa propre chronologie de parcours en fonction de ses actions.
 
-[En savoir plus sur les parcours](../building-journeys/journey.md)
+[En savoir plus sur les Parcours &#x200B;](../building-journeys/journey.md) | [types de Parcours : choisissez le bon](../building-journeys/journey-types-selection.md)
 
 ### Campagnes : diffusion simple par lots ou déclenchée
 
@@ -292,11 +288,13 @@ Oui. Les audiences créées dans [!DNL Adobe Experience Platform] peuvent être 
 Vous souhaitez commencer à créer ? Consultez la documentation détaillée relative à l’approche choisie :
 
 * **[Prise en main des Parcours](../building-journeys/journey.md)** - types de Parcours, concepteur et workflow
+* **[types de Parcours : choisissez le bon](../building-journeys/journey-types-selection.md)** - Événement unitaire, Lecture d’audience, qualification d’audience et événement métier.
 * **[Prise en main des campagnes](../campaigns/get-started-with-campaigns.md)** - Campagnes déclenchées par une action et une API
 * **[Prise en main des campagnes orchestrées](../orchestrated/gs-orchestrated-campaigns.md)** - Workflows de zone de travail par lots avec des données multi-entités (conseils distincts)
 
 >[!MORELIKETHIS]
 >
+>* [types de Parcours : choisissez le bon](../building-journeys/journey-types-selection.md)
 >* [comparaison des types de Parcours &#x200B;](../building-journeys/journey.md#journey-types-comparison)
 >* [Comparaison des types de campagne](../campaigns/get-started-with-campaigns.md#campaign-types)
 >* [FAQ sur les parcours](../building-journeys/journey-faq.md)

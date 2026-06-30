@@ -27,10 +27,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
+source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 1727
-ht-degree: 96%
+source-wordcount: 1737
+ht-degree: 94%
 
 ---
 
@@ -145,7 +145,7 @@ Pour commencer à créer des expériences, suivez les étapes essentielles suiva
 
 ### Orchestration de campagnes
 
-* **Choisissez la bonne approche** : [comparez les types de parcours](../../building-journeys/journey.md#journey-types) pour des expériences en temps réel déclenchées par un comportement ou les [types de campagnes](../../campaigns/get-started-with-campaigns.md#campaign-types) pour des campagnes planifiées et par lots.
+* **Choisir la bonne approche** : consultez la section [Parcours par rapport aux campagnes](../journeys-vs-campaigns.md) pour choisir entre l’orchestration en temps réel et la diffusion planifiée, puis [types de Parcours : choisissez le bon](../../building-journeys/journey-types-selection.md) pour choisir le bon type de parcours
 * **Définissez des objectifs de campagne clairs** : établissez des objectifs avant de concevoir des workflows à plusieurs étapes.
 * **Commencez avec des audiences pilotes** : validez les quantités et la logique de segmentation avant de travailler à grande échelle.
 * **Utilisez les données relationnelles** : utilisez la segmentation d’entités multiples pour connecter les données client aux comptes, aux achats et aux abonnements pour un ciblage précis.
