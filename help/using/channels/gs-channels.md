@@ -21,10 +21,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0f73733f190ea27ada776ee27228730684f84bea
+source-git-commit: aeba428ed2890e334da72d34c0f9e8d748dee282
 workflow-type: tm+mt
-source-wordcount: 718
-ht-degree: 99%
+source-wordcount: 716
+ht-degree: 98%
 
 ---
 
@@ -89,11 +89,11 @@ Découvrez comment créer, gérer et configurer des messages SMS, MMS et RCS �
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=fr)
 
-Campagnes par courrier
+Courrier
 
 Découvrez comment créer et gérer des campagnes par courrier, notamment en exportant des fichiers d’extraction pour les fournisseurs tiers et en veillant au respect du consentement des utilisateurs et utilisatrices.
 
-[En savoir plus sur les campagnes par courrier](../../rp_landing_pages/direct-mail-landing-page.md)
+[En savoir plus sur le courrier](../../rp_landing_pages/direct-mail-landing-page.md)
 :::
 
 :::

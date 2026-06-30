@@ -9,10 +9,10 @@ role: Admin, User
 level: Beginner
 keywords: parcours optimizer, package, licence, campagnes, parcours, canaux, prise de décision, sortant, mobile, web, modulaire, sms, mms, whatsapp, modules complémentaires, select, prime, ultimate, hérité
 hide: true
-source-git-commit: ef26246dd1bcd820bab1f226c3564a600ac5b506
+source-git-commit: 006ebca44d2dd0ba2c4bd95a67444506d97daabf
 workflow-type: tm+mt
-source-wordcount: '1992'
-ht-degree: 2%
+source-wordcount: '1993'
+ht-degree: 3%
 
 ---
 
@@ -27,13 +27,11 @@ ht-degree: 2%
 
 [!DNL Adobe Journey Optimizer] utilise un modèle d’emballage modulaire. Commencez par l’offre de base qui correspond à votre cas d’utilisation principal, puis ajoutez les canaux et les fonctionnalités avancées dont vous avez besoin.
 
+La disponibilité des packages et des fonctionnalités incluses peut varier en fonction de votre accord, des modules complémentaires sélectionnés et de la disponibilité régionale. Contactez votre représentant Adobe pour obtenir des détails spécifiques à votre organisation.
+
 >[!TIP]
 >
 >**Vous ne savez pas sur quel modèle vous vous trouvez ?** Si vous avez acheté [!DNL Adobe Journey Optimizer] dans le cadre du modèle d’emballage modulaire, les offres de base et les modules complémentaires décrits sur cette page s’appliquent à vous. Si vous voyez **Sélectionner**, **Prime** ou **Ultimate** référencé dans votre contrat, c’est un modèle de package hérité. Contactez votre représentant Adobe pour confirmer vos droits actuels.
-
->[!NOTE]
->
->La disponibilité des packages et des fonctionnalités incluses peut varier en fonction de votre accord, des modules complémentaires sélectionnés et de la disponibilité régionale. Contactez votre représentant Adobe pour obtenir des détails spécifiques à votre organisation.
 
 ## Réponses rapides {#quick-answers}
 
@@ -77,13 +75,13 @@ Trois offres de base sont disponibles. Chacune correspond à une manière diffé
 
 | | Journey Optimizer - Campagnes | JOURNEY OPTIMIZER - PARCOURS | Journey Optimizer - Campagnes et Parcours |
 |--|:-----------------------------:|:----------------------------:|:----------------------------------------:|
-| [Orchestration par lots basée sur les audiences](../campaigns/get-started-with-campaigns.md) | ✓ | Limité ¹ | ✓ |
+| [Orchestration par lots basée sur les audiences](../campaigns/get-started-with-campaigns.md) | ✓ | Limité <sup> 1</sup> | ✓ |
 | [Orchestration basée sur les événements en temps réel](../building-journeys/journey-gs.md) | — | ✓ | ✓ |
 | Messages transactionnels (e-mail, push, SMS) | ✓ | ✓ | ✓ |
 | [Modules complémentaires de canal disponibles](#channel-addons) | ✓ | ✓ | ✓ |
 | [Module complémentaire Prise de décision disponible](#decisioning-addon) | ✓ | ✓ | ✓ |
 
-¹ Dans **Journey Optimizer - Parcours**, l’orchestration basée sur les audiences n’est prise en charge que dans les cas d’utilisation de parcours, et non comme des campagnes par lots autonomes.
+<sup>1</sup> Dans **Journey Optimizer - Parcours**, l’orchestration basée sur les audiences n’est prise en charge que dans les cas d’utilisation de parcours, et non comme des campagnes par lots autonomes.
 
 ## Étape 2 — Ajoutez les canaux dont vous avez besoin {#channel-addons}
 
