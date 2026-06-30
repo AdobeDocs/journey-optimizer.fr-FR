@@ -21,12 +21,8 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c13ff12d-60f1-49cd-833a-d43359628223
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
+source-git-commit: 0f73733f190ea27ada776ee27228730684f84bea
 workflow-type: tm+mt
 source-wordcount: 1040
 ht-degree: 24%
@@ -41,15 +37,15 @@ ht-degree: 24%
 
 >[!ENDSHADEBOX]
 
->[!IMPORTANT]
->
->Si c’est la première fois que vous créez des messages mobiles, vérifiez que le canal Message mobile a été configuré. [En savoir plus](mobile-configuration.md)
-
 Utilisez [!DNL Journey Optimizer] pour envoyer des messages mobiles à vos clients sur trois canaux, **SMS**, **MMS** et **RCS**, à partir d’un seul éditeur SMS/MMS/RCS où vous pouvez créer, personnaliser et prévisualiser votre contenu.
 
 * **SMS (Short Message Service)** : envoyez des messages texte uniquement de 160 caractères maximum, pris en charge sur tous les appareils mobiles.
 * **MMS (Multimedia Message Service)** : enrichissez vos messages avec des images, des vidéos, des clips audio et des GIF, ainsi que jusqu’à 1 600 caractères de texte. [En savoir plus sur les limitations des MMS](../start/guardrails.md#sms-guardrails)
 * **RCS (Rich Communication Services)**:Deliver contenu interactif de marque directement dans l’application de messagerie native de vos clients, sans téléchargement d’application supplémentaire requis.
+
+>[!IMPORTANT]
+>
+>Si c’est la première fois que vous créez des messages mobiles, vérifiez que le canal Message mobile a été configuré. [En savoir plus](mobile-configuration.md)
 
 Les messages mobiles peuvent être créés et envoyés dans un parcours ou dans une campagne à l’aide de l’action Message mobile :
 
