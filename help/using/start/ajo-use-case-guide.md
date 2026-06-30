@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: parcours optimizer, cas d’utilisation, guide de décision, quelle fonctionnalité, commencer, objectifs pour les professionnels de la santé, tutoriels
-source-git-commit: 49146a29a474a240ca1fdb10b2a6ef175f44f595
+source-git-commit: bcf3f322bad0602d0cc2cffc41229eacdcfe93e1
 workflow-type: tm+mt
-source-wordcount: '3141'
-ht-degree: 31%
+source-wordcount: '3224'
+ht-degree: 30%
 
 ---
 
@@ -187,8 +187,7 @@ Chaque flux de démarrage ci-dessous est un ensemble court d’étapes axées su
 
 ### Bienvenue aux nouveaux clients {#flow-welcome}
 
-**Vous allez créer :** une série de bienvenue automatisée qui accueille chaque nouvel abonné et encourage les inactifs.
-**Idéal pour les spécialistes marketing :** · **Fonctionnalité :** parcours déclenché par un événement
+**Vous allez créer :** une série de bienvenue automatisée qui accueille chaque nouvel abonné et encourage les inactifs.**Idéal pour les spécialistes marketing :** · **Fonctionnalité :** parcours déclenché par un événement
 
 1. Confirmez que vos [profils et audiences unifiés](../audience/get-started-profiles.md) reçoivent l’événement d’inscription.
 1. [Créez votre premier parcours &#x200B;](../building-journeys/journey-gs.md) et utilisez l’événement d’inscription comme entrée.
@@ -199,8 +198,7 @@ Chaque flux de démarrage ci-dessous est un ensemble court d’étapes axées su
 
 ### Récupérer les paniers abandonnés {#flow-cart}
 
-**Vous allez créer :** un flux de récupération automatisé qui rappelle aux clients les éléments laissés derrière.
-**Idéal pour les spécialistes marketing :** · **Fonctionnalité :** parcours déclenché par un événement
+**Vous allez créer :** un flux de récupération automatisé qui rappelle aux clients les éléments laissés derrière.**Idéal pour les spécialistes marketing :** · **Fonctionnalité :** parcours déclenché par un événement
 
 1. Assurez-vous que l’événement d’abandon de panier atteint Journey Optimizer (contactez votre [équipe de données](../data/gs-data.md) si nécessaire).
 1. [Création d’un parcours &#x200B;](../building-journeys/journey-gs.md) déclenché par l’événement d’abandon.
@@ -211,8 +209,7 @@ Chaque flux de démarrage ci-dessous est un ensemble court d’étapes axées su
 
 ### Envoi de messages transactionnels {#flow-transactional}
 
-**Vous allez créer :** confirmations de commande à la demande, d’expédition ou de rendez-vous déclenchées par un système externe.
-**Idéal pour** spécialistes marketing et développeurs · **Fonctionnalité :** Campagne déclenchée par un système externe
+**Vous allez créer :** confirmations de commande à la demande, d’expédition ou de rendez-vous déclenchées par un système externe.**Idéal pour** spécialistes marketing et développeurs · **Fonctionnalité :** Campagne déclenchée par un système externe
 
 1. Examinez le fonctionnement des campagnes [déclenchées par un système externe](../campaigns/api-triggered-campaigns.md) et la payload attendue.
 1. Concevez le modèle de message et [personnalisez](../personalization/personalize.md)-le avec les détails de la transaction.
@@ -222,8 +219,7 @@ Chaque flux de démarrage ci-dessous est un ensemble court d’étapes axées su
 
 ### Lancer une campagne avec des tests de contenu {#flow-campaign}
 
-**Vous allez créer :** une promotion planifiée qui sélectionne automatiquement le contenu le plus performant.
-**Idéal pour les professionnels du marketing** · **Fonctionnalité :** Campagne planifiée + expérimentation de contenu
+**Vous allez créer :** une promotion planifiée qui sélectionne automatiquement le contenu le plus performant.**Idéal pour les professionnels du marketing** · **Fonctionnalité :** Campagne planifiée + expérimentation de contenu
 
 1. [Commencez avec des campagnes](../campaigns/get-started-with-campaigns.md) et définissez votre audience.
 1. Utilisez [génération de contenu](../content-management/gs-generative.md) pour brouiller l’objet et copier les variations.
@@ -233,8 +229,7 @@ Chaque flux de démarrage ci-dessous est un ensemble court d’étapes axées su
 
 ### Personnaliser les offres par client {#flow-offers}
 
-**Vous allez créer :** une décision qui affiche la meilleure offre pour chaque client.
-**Idéal pour les professionnels du marketing** · **Fonctionnalité : prise de décision**
+**Vous allez créer :** une décision qui affiche la meilleure offre pour chaque client.**Idéal pour les professionnels du marketing** · **Fonctionnalité : prise de décision**
 
 1. [Commencez avec Offer Decisioning](../offers/get-started/starting-offer-decisioning.md) et créez vos offres et vos règles d&#39;éligibilité.
 1. Ajoutez la décision à un message de parcours ou de campagne [&#128279;](../building-journeys/journey-gs.md).
@@ -345,6 +340,8 @@ Parcourez le contenu vidéo traité par rubrique. Chaque onglet fournit des lien
 | Basé sur le comportement, à plusieurs étapes, chaque client évolue à son propre rythme | Parcours |
 | Message simple planifié ou déclenché par API à une audience | Campaign |
 | Workflow par lots complexe avec segmentation d’entités multiples | Campagne orchestrée |
+
+Pour une comparaison détaillée avec une arborescence de décision et des tableaux des fonctionnalités, consultez la section [Parcours par rapport aux campagnes : choisissez la bonne approche](journeys-vs-campaigns.md). Une fois que vous avez choisi les Parcours, consultez les [types de Parcours : choisissez celui qui vous convient](../building-journeys/journey-types-selection.md) entre les parcours d’événement unitaire, de lecture d’audience, de qualification d’audience et d’événement métier.
 
 ## Vous n&#39;êtes pas sûr ? {#not-sure}
 
