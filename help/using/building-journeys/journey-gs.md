@@ -30,7 +30,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
+source-git-commit: 5970d29e1ab6f0abbae0a9ff22d89656f135c3c8
 workflow-type: tm+mt
 source-wordcount: 2167
 ht-degree: 30%
@@ -117,13 +117,15 @@ Pour créer un parcours à plusieurs étapes, procédez comme suit :
 
 1. Modifiez le volet de configuration du parcours pour définir le nom du parcours et ses propriétés. Découvrez comment définir les propriétés de votre parcours sur [cette page](journey-properties.md).
 
-   >[!TIP]
-   >
-   >**Quel type de parcours dois-je choisir ?** Si vous découvrez Journey Optimizer, commencez avec un parcours basé sur les audiences à l’aide d’une activité **[!UICONTROL Lecture d’audience]**. Il ne nécessite aucune configuration d’événement préalable et est le moyen le plus simple de vous familiariser avec la zone de travail. Pour les expériences déclenchées par un événement en temps réel (par exemple, en réaction à un achat ou à un envoi de formulaire), configurez d’abord un événement et utilisez une entrée basée sur un événement. Prêt à aller plus loin ? [Découvrez tous les types de parcours et leurs règles d’entrée](entry-management.md#types-of-journeys).
-
    ![Panneau des propriétés du parcours avec les paramètres et les options de configuration](assets/jo-properties.png)
 
 Vous pouvez ensuite commencer à concevoir votre parcours.
+
+>[!TIP]
+>
+>**Quel type de parcours dois-je choisir ?**
+>
+>Si vous découvrez Journey Optimizer, commencez avec un parcours basé sur les audiences à l’aide d’une activité **[!UICONTROL Lecture d’audience]**. Il ne nécessite aucune configuration d’événement préalable et est le moyen le plus simple de vous familiariser avec la zone de travail. Pour les expériences déclenchées par un événement en temps réel (par exemple, en réaction à un achat ou à un envoi de formulaire), configurez d’abord un événement et utilisez une entrée basée sur un événement. Prêt à aller plus loin ? [Découvrez tous les types de parcours et leurs règles d’entrée](entry-management.md#types-of-journeys).
 
 ## Concevoir le parcours {#jo-design}
 
