@@ -11,26 +11,13 @@ keywords: parcours, premier, commencer, démarrage rapide, audience, événement
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/7zNDOi2SUTyttgR6I1iOYQb61ejxpqLYznweU8alnPw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: c1579802-ddd4-4214-8a91-97b2066abe11id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5970d29e1ab6f0abbae0a9ff22d89656f135c3c8
 workflow-type: tm+mt
 source-wordcount: 2167
 ht-degree: 30%
@@ -86,11 +73,11 @@ Ce que vous devez configurer avant de créer dépend de la manière dont votre p
 
 * **Entrée basée sur un événement** — Le parcours est déclenché en temps réel lorsqu&#39;une personne effectue une action, comme un achat ou une inscription. [Configurer un événement](../event/about-events.md) pour définir le déclencheur et les données qu’il transporte.
 
-**Vous ne savez pas quel point d’entrée utiliser ?** Le tableau ci-dessous met en correspondance les cas d’utilisation les plus courants avec l’activité de départ appropriée. En savoir plus dans la matrice de sélection du type de Parcours [&#128279;](journey-types-selection.md).
+**Vous ne savez pas quel point d’entrée utiliser ?** Le tableau ci-dessous met en correspondance les cas d’utilisation les plus courants avec l’activité de départ appropriée. En savoir plus dans la matrice de sélection du type de Parcours [](journey-types-selection.md).
 
 | Point d&#39;entrée | À utiliser lorsque... | Entrées de profils |
 |---|---|---|
-| **[Lecture d’audience](read-audience.md)** | Vous souhaitez envoyer un message planifié ou récurrent à un ensemble défini de profils (newsletters, promotions, séries d’intégration). | Tous les profils d’une audience par lots, à la fois ou selon un planning. [En savoir plus sur les exportations d’audience et la durée](https://experienceleague.adobe.com/fr/docs/experience-platform/run-and-operate/overview){target="_blank"} |
+| **[Lecture d’audience](read-audience.md)** | Vous souhaitez envoyer un message planifié ou récurrent à un ensemble défini de profils (newsletters, promotions, séries d’intégration). | Tous les profils d’une audience par lots, à la fois ou selon un planning. [En savoir plus sur les exportations d’audience et la durée](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/overview){target="_blank"} |
 | **[Qualification d’audience](audience-qualification-events.md)** | Vous devez réagir en temps réel lorsqu’un profil entre ou quitte une audience (mise à niveau du niveau de fidélité, indicateur de risque d’attrition). | Un profil à la fois, dès qu’ils remplissent les critères d’une audience de diffusion en continu. |
 | **Événement unitaire** | Une action de profil déclenche une réponse immédiate (abandon de panier, envoi de formulaire, connexion à l’application). | Profil par profil, en temps réel. |
 | **[Événement métier](../event/about-creating-business.md)** | Un événement sans profil affecte plusieurs personnes à la fois (annulation de vol, réapprovisionnement des stocks, alerte de dernière minute). | Tous les profils associés à l’événement, via une étape automatique Lecture d’audience . |
@@ -117,13 +104,15 @@ Pour créer un parcours à plusieurs étapes, procédez comme suit :
 
 1. Modifiez le volet de configuration du parcours pour définir le nom du parcours et ses propriétés. Découvrez comment définir les propriétés de votre parcours sur [cette page](journey-properties.md).
 
-   >[!TIP]
-   >
-   >**Quel type de parcours dois-je choisir ?** Si vous découvrez Journey Optimizer, commencez avec un parcours basé sur les audiences à l’aide d’une activité **[!UICONTROL Lecture d’audience]**. Il ne nécessite aucune configuration d’événement préalable et est le moyen le plus simple de vous familiariser avec la zone de travail. Pour les expériences déclenchées par un événement en temps réel (par exemple, en réaction à un achat ou à un envoi de formulaire), configurez d’abord un événement et utilisez une entrée basée sur un événement. Prêt à aller plus loin ? [Découvrez tous les types de parcours et leurs règles d’entrée](entry-management.md#types-of-journeys).
-
    ![Panneau des propriétés du parcours avec les paramètres et les options de configuration](assets/jo-properties.png)
 
 Vous pouvez ensuite commencer à concevoir votre parcours.
+
+>[!TIP]
+>
+>**Quel type de parcours dois-je choisir ?**
+>
+>Si vous découvrez Journey Optimizer, commencez avec un parcours basé sur les audiences à l’aide d’une activité **[!UICONTROL Lecture d’audience]**. Il ne nécessite aucune configuration d’événement préalable et est le moyen le plus simple de vous familiariser avec la zone de travail. Pour les expériences déclenchées par un événement en temps réel (par exemple, en réaction à un achat ou à un envoi de formulaire), configurez d’abord un événement et utilisez une entrée basée sur un événement. Prêt à aller plus loin ? [Découvrez tous les types de parcours et leurs règles d’entrée](entry-management.md#types-of-journeys).
 
 ## Concevoir le parcours {#jo-design}
 
