@@ -7,29 +7,15 @@ role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
 TQID: https://experienceleague.adobe.com/XJ8i9eeM9AIlEiMMNAPyzjqIGJi2EXlxEMj0K6KseUM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
-  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-  - id: e240d5e8-8393-4b76-8a3d-9e53a2f7306c
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 6a3cd911b8a89d83cab49eb88b05bf18616377e7
-workflow-type: ht
-source-wordcount: 722
-ht-degree: 100%
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c618a0dc-1818-4c6d-9916-0d92e6796f24id: cb1f1586-9fb4-4de2-8332-02cebb88d42did: e240d5e8-8393-4b76-8a3d-9e53a2f7306cid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 0f73733f190ea27ada776ee27228730684f84bea
+workflow-type: tm+mt
+source-wordcount: 718
+ht-degree: 99%
 
 ---
 
@@ -52,7 +38,7 @@ Les canaux de diffusion des messages sortants impliquent l’envoi de messages a
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canal e-mail
 
@@ -62,7 +48,7 @@ Découvrez comment créer, configurer et optimiser des campagnes par e-mail, y c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Canal des notifications push
 
@@ -72,7 +58,7 @@ Découvrez comment créer, configurer et envoyer des notifications push pour iO
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Activités en direct iOS
 
@@ -82,17 +68,17 @@ Diffusez des mises à jour constantes en temps réel directement sur l’écran 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
-Messages SMS/MMS/RCS
+Messages mobiles
 
 Découvrez comment créer, gérer et configurer des messages SMS, MMS et RCS à des fins marketing et de transactions, y compris la conformité et la personnalisation.
 
-[En savoir plus sur les messages SMS/MMS/RCS](../../rp_landing_pages/sms-landing-page.md)
+[En savoir plus sur les messages mobiles](../mobile/get-started-mobile.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 Campagnes par courrier
 
@@ -102,7 +88,7 @@ Découvrez comment créer et gérer des campagnes par courrier, notamment en exp
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 Messages WhatsApp
 
@@ -112,7 +98,7 @@ Découvrez comment intégrer et utiliser les messages WhatsApp via l’API Cloud
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg)
 
 Messages LINE
 
@@ -130,7 +116,7 @@ Avec les expériences entrantes sur les applications mobiles et le web, les clie
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Messages in-app
 
@@ -140,7 +126,7 @@ Découvrez comment configurer, concevoir et personnaliser des notifications in-a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Web
 
@@ -150,7 +136,7 @@ Découvrez comment créer, configurer et personnaliser des expériences web et i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Expérience basée sur du code
 
@@ -160,7 +146,7 @@ Découvrez les expériences basées sur du code pour diffuser du contenu personn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 Cartes de contenu
 
