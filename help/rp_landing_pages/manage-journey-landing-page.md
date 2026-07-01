@@ -5,10 +5,10 @@ title: Gérer vos parcours
 description: Gérer vos parcours
 redpen-status: CREATED_||_2025-08-11_20-08-03
 exl-id: 9f74019a-9a29-40f3-8f94-253814b984c0
-source-git-commit: 0e4ee7788c6a015a63bafcb7976ac5e4696e5d7a
-workflow-type: ht
-source-wordcount: '322'
-ht-degree: 100%
+source-git-commit: 2eb9660084d1a875a70f0ef0794e9edae0dbca18
+workflow-type: tm+mt
+source-wordcount: '326'
+ht-degree: 93%
 
 ---
 
@@ -24,13 +24,13 @@ La gestion de vos parcours dans Adobe Journey Optimizer consiste à vous donne
 
 Parcourir et filtrer vos parcours
 
-Découvrez comment parcourir, filtrer et gérer les parcours efficacement, y compris les mesures du tableau de bord des parcours, les vues de calendrier et les processus de duplication.
+Découvrez comment parcourir, filtrer, organiser les parcours dans des dossiers et gérer efficacement les parcours, y compris les mesures du tableau de bord des parcours, les vues de calendrier et les processus de duplication.
 
 [Explorer la gestion des parcours](../using/building-journeys/journey-ui.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Entrée de profil dans les parcours
 
@@ -40,7 +40,7 @@ Découvrez comment les profils rejoignent des parcours, notamment les règles de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Utiliser des identifiants supplémentaires dans les parcours
 
@@ -50,7 +50,7 @@ Découvrez comment tirer parti des identifiants supplémentaires pour une person
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gestion des fuseaux horaires
 
@@ -60,7 +60,7 @@ Découvrez comment configurer des fuseaux horaires fixes et définis par le prof
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Optimisation de l’heure d’envoi
 
@@ -70,7 +70,7 @@ Optimisez l’engagement des e-mails et des messages push en prédisant des heur
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Terminer votre parcours
 

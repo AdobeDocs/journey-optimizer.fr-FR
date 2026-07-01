@@ -12,10 +12,10 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 2eb9660084d1a875a70f0ef0794e9edae0dbca18
 workflow-type: tm+mt
-source-wordcount: 2066
-ht-degree: 68%
+source-wordcount: 2122
+ht-degree: 66%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 68%
 
 ## Tableau de bord des parcours {#dashboard-jo}
 
-Dans la section du menu GESTION DES PARCOURS, cliquez sur **[!UICONTROL Parcours]**. Deux onglets sont disponibles : **[!UICONTROL Vue d’ensemble]** et **[!UICONTROL Parcourir]**.
+Dans la section du menu GESTION DES PARCOURS, cliquez sur **[!UICONTROL Parcours]**. Trois onglets dédiés sont disponibles : **[!UICONTROL Aperçu]** (tableau de bord), **[!UICONTROL Parcourir]** (liste et calendrier) et **[!UICONTROL Vue Dossiers]** (organiser les parcours dans des dossiers).
 
 ### Vue d’ensemble des parcours
 
@@ -53,7 +53,7 @@ L’onglet **[!UICONTROL Vue d’ensemble]** affiche un tableau de bord avec les
 
 ### Liste des parcours
 
-L’onglet **[!UICONTROL Parcourir]** affiche la liste des parcours existants. Vous pouvez rechercher des parcours, utiliser des filtres et effectuer des actions de base sur chaque élément. Vous pouvez par exemple dupliquer ou supprimer un élément.
+L’onglet **[!UICONTROL Parcourir]** affiche la liste des parcours existants. Vous pouvez rechercher des parcours, les utiliser et effectuer des actions de base sur chaque élément. Vous pouvez par exemple dupliquer ou supprimer un élément.
 
 ![Tableau de bord de parcours mettant en surbrillance l’onglet Parcourir](assets/journeys-browse.png)
 
@@ -109,6 +109,15 @@ Pour naviguer dans le calendrier des parcours :
 
    ![liste des campagnes avec le volet d’informations ouvert](assets/journey-calendar-4.png)
 
+### Vue Dossiers {#journeys-folders}
+
+Ouvrez la vue des dossiers parcours avec l’icône **[!UICONTROL Afficher les dossiers]** dans la liste des parcours ou utilisez l’onglet **[!UICONTROL Vue des dossiers]**. [Découvrez comment utiliser les dossiers](../start/search-filter-categorize.md#organize-folders)
+
+![](assets/folders-view-journeys.png)
+
+>[!AVAILABILITY]
+>
+>La disponibilité des dossiers pour les parcours est limitée. Pour connaître le statut de la version actuelle, consultez le cycle de publication de [](../rn/releases.md).
 
 ## Filtrer vos parcours {#journey-filter}
 
@@ -214,7 +223,7 @@ Pour une compréhension totale, ces informations doivent être combinées avec l
 
 * **Tableau de bord des Parcours** : interface principale des parcours avec un onglet Aperçu affichant les mesures clés et un onglet Parcourir répertoriant tous les parcours. *(spécifique au produit)*
 * **Taux de rejet** : ratio de profils non éligibles à l’entrée dans le parcours (par exemple, en raison d’un espace de noms incorrect ou de règles de reprise) par rapport au total des profils qui ont tenté d’entrée au cours des dernières 24 heures. *(spécifique au produit)*
-* Vue Calendrier des Parcours **&#x200B;**&#x200B;: représentation visuelle du calendrier hebdomadaire des parcours actifs et planifiés, accessible en cliquant sur l’icône de calendrier dans la liste des parcours. *(spécifique au produit)*
+* Vue Calendrier des Parcours **** : représentation visuelle du calendrier hebdomadaire des parcours actifs et planifiés, accessible en cliquant sur l’icône de calendrier dans la liste des parcours. *(spécifique au produit)*
 * **Mise en pause en bloc** : opération qui met en pause plusieurs parcours dynamiques à la fois (jusqu’à 10 par opération) de la liste parcours. *(spécifique au produit)*
 
 **Mécanismes de sécurisation :**
