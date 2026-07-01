@@ -117,7 +117,7 @@ Ouvrez la vue des dossiers parcours avec l’icône **[!UICONTROL Afficher les d
 
 >[!AVAILABILITY]
 >
->La disponibilité des dossiers pour les parcours est limitée. Pour connaître le statut de la version actuelle, consultez le cycle de publication de [](../rn/releases.md).
+>La disponibilité des dossiers pour les parcours est limitée. Pour connaître le statut de la version actuelle, consultez le cycle de publication de [&#128279;](../rn/releases.md).
 
 ## Filtrer vos parcours {#journey-filter}
 
@@ -223,7 +223,7 @@ Pour une compréhension totale, ces informations doivent être combinées avec l
 
 * **Tableau de bord des Parcours** : interface principale des parcours avec un onglet Aperçu affichant les mesures clés et un onglet Parcourir répertoriant tous les parcours. *(spécifique au produit)*
 * **Taux de rejet** : ratio de profils non éligibles à l’entrée dans le parcours (par exemple, en raison d’un espace de noms incorrect ou de règles de reprise) par rapport au total des profils qui ont tenté d’entrée au cours des dernières 24 heures. *(spécifique au produit)*
-* Vue Calendrier des Parcours **** : représentation visuelle du calendrier hebdomadaire des parcours actifs et planifiés, accessible en cliquant sur l’icône de calendrier dans la liste des parcours. *(spécifique au produit)*
+* Vue Calendrier des Parcours **&#x200B;**&#x200B;: représentation visuelle du calendrier hebdomadaire des parcours actifs et planifiés, accessible en cliquant sur l’icône de calendrier dans la liste des parcours. *(spécifique au produit)*
 * **Mise en pause en bloc** : opération qui met en pause plusieurs parcours dynamiques à la fois (jusqu’à 10 par opération) de la liste parcours. *(spécifique au produit)*
 
 **Mécanismes de sécurisation :**
