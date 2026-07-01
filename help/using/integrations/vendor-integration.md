@@ -11,9 +11,9 @@ keywords: intégration, fournisseur, tiers
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: bfb28a935dffca7c381fe72339abc840d2ab297b
+source-git-commit: c9ba757a58aaef0a55f6d2e24259bc8b86ff1f75
 workflow-type: tm+mt
-source-wordcount: 10185
+source-wordcount: 10209
 ht-degree: 6%
 
 ---
@@ -1209,9 +1209,7 @@ Adobe Target comprend des recommandations et des API de diffusion pour les expé
 
 Les cas d’utilisation standard incluent l’injection de recommandations dans les expériences que vous créez dans Journey Optimizer et l’alignement des clés avec le contexte du profil ou d’Experience Platform.
 
-<!--
-➡️ After you activate the integration, learn how to [use Adobe Target data in message templates](integrations-personalization.md#use-adobe-target-in-templates).
--->
+➡️ Une fois l’intégration activée, découvrez comment [ajouter l’intégration dans la création de contenu](integrations-personalization.md#apply-integration-personalization) et [utiliser les données Adobe Target dans les modèles de message](integrations-personalization.md#use-adobe-target-in-templates).
 
 >[!ENDSHADEBOX]
 
