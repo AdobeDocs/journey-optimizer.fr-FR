@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 keywords: intégration, fournisseur, tiers
 subfeature_v2: []
-feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 source-git-commit: c9ba757a58aaef0a55f6d2e24259bc8b86ff1f75
 workflow-type: tm+mt
 source-wordcount: 10209
@@ -459,7 +460,7 @@ Le tableau ci-dessous répertorie les exemples de valeurs pour cette demande d�
 
 +++ Exemples de champs d’intégration
 
-Exemple de modèle : `https://{pim-host}/api/rest/v1/products-uuid/{uuid}` avec `Accept: application/json`. Voir [ API Akeneo ](https://api.akeneo.com/){target="_blank"}.
+Exemple de modèle : `https://{pim-host}/api/rest/v1/products-uuid/{uuid}` avec `Accept: application/json`. Voir [&#x200B; API Akeneo &#x200B;](https://api.akeneo.com/){target="_blank"}.
 
 | Champ | Valeur |
 | --- | --- |
@@ -925,7 +926,7 @@ Le tableau ci-dessous répertorie les exemples de valeurs pour cette demande d�
 
 +++ Exemples de champs d’intégration
 
-Utilisez l’opération GET Loyalty Management **profil de membre** documentée pour la version de l’API de votre organisation. Les chemins incluent le programme et les identifiants des membres. Voir [Développeurs ](https://developer.salesforce.com/){target="_blank"}.
+Utilisez l’opération GET Loyalty Management **profil de membre** documentée pour la version de l’API de votre organisation. Les chemins incluent le programme et les identifiants des membres. Voir [Développeurs &#x200B;](https://developer.salesforce.com/){target="_blank"}.
 
 | Champ | Valeur |
 | --- | --- |
