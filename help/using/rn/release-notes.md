@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2bd78486d0c81618cd8d0e5875adb2a10173e44d
+source-git-commit: 2eb9660084d1a875a70f0ef0794e9edae0dbca18
 workflow-type: tm+mt
-source-wordcount: 3606
+source-wordcount: 3602
 ht-degree: 83%
 
 ---
@@ -219,7 +219,7 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées à la prise
 
   Date de disponibilité : 18 juin 2026
 
-+++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications.**
++++ Bientôt disponible : **les informations ci-dessous peuvent faire l’objet de modifications.**
 
 * **Attributs d’élément dynamiques** : les attributs personnalisés d’éléments de décision peuvent désormais être personnalisés au moment de la diffusion à l’aide des données de profils, contextuelles et d’audience. Cela supprime la nécessité de conserver des offres en double pour les variations de contenu mineures, ce qui permet aux spécialistes marketing de gérer un plus petit nombre d’éléments de décision plus flexibles.
 
@@ -253,7 +253,7 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées à la gesti
 </table>
 
 
-+++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications.**
++++ Bientôt disponible : **les informations ci-dessous peuvent faire l’objet de modifications.**
 
 <table>
 <thead>
@@ -463,7 +463,7 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées à la gesti
 </tbody>
 </table>
 
-+++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications.**
++++ Bientôt disponible : **les informations ci-dessous peuvent faire l’objet de modifications.**
 
 <table>
 <thead>
@@ -555,11 +555,9 @@ Les améliorations suivantes seront apportées à la messagerie mobile dans cett
 
 ### Améliorations de l’opérabilité {#june-26-usability}
 
-+++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications.**
+* **Dossiers pour les Parcours** - Vous pouvez désormais organiser vos parcours en **dossiers** pour améliorer la navigation et la gestion dans l’interface. [En savoir plus](../building-journeys/journey-ui.md#journeys-folders)
 
-* **Dossiers pour les parcours et les campagnes** : vous pouvez désormais organiser vos parcours et vos campagnes en **dossiers** pour améliorer la navigation et la gestion dans l’interface.
-
-+++
+  Date de disponibilité : 30 juin 2026
 
 <!--
 +++ Coming soon — **Information below is subject to change.**
