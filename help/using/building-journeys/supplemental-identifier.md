@@ -277,7 +277,7 @@ Corps de la requête (défini sur `expressActivation: true`) :
 >
 >`expressActivation` valeur par défaut est `false`. Elle doit être définie au moment de la création de l’audience et ne peut pas être modifiée après la création. L’activation express est activée par défaut pour toutes les audiences de composition d’audiences fédérées et ne nécessite pas cet indicateur.
 
-Pour en savoir plus, consultez la [documentation sur la création d’une API d’audience externe](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"}.
+Pour en savoir plus, consultez la [documentation sur la création d’une API d’audience externe](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"}.
 
 +++
 
