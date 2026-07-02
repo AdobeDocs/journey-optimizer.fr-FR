@@ -9,26 +9,16 @@ role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
 TQID: https://experienceleague.adobe.com/cwg-nGPftYg6UgVSKXZPdW6DZr4-m5UM5Wqzfx3w028
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 69ba57a83a35331f05d782588a26f7f45579c180
 workflow-type: tm+mt
 source-wordcount: 1658
-ht-degree: 76%
+ht-degree: 84%
 
 ---
 
@@ -86,23 +76,23 @@ Pour rendre des parties d’un fragment visuel modifiables, procédez comme suit
 >
 >Lorsque les **libellé** et **URL** d’un composant de bouton sont rendus modifiables dans un fragment, les rapports de suivi affichent l’URL au lieu du libellé du bouton. [En savoir plus sur le tracking](../email/message-tracking.md)
 
-## Activation de l’édition de texte enrichi dans un fragment visuel personnalisable {#rich-text-visual}
+## Activer la modification de texte enrichi dans un fragment visuel personnalisable {#rich-text-visual}
 
 >[!CONTEXTUALHELP]
 >id="ajo_editable_fragment_compatibility"
 >title="Fragment hérité"
->abstract="Les champs modifiables de ce fragment sont en mode texte uniquement. Cela signifie que vous ne pouvez saisir que du texte brut lorsque vous modifiez ce fragment dans des e-mails. Les options de mise en forme complètes telles que le gras, l’italique, les liens hypertexte et les sauts de ligne ne sont pas prises en charge. Cliquez sur <b>Activer</b> pour autoriser le texte enrichi dans les champs modifiables lors de l’utilisation du fragment dans un e-mail."
+>abstract="Les champs modifiables de ce fragment sont en mode texte uniquement. Cela signifie que vous ne pouvez saisir que du texte brut lors de la modification de ce fragment dans les e-mails. Les options de formatage complet telles que le gras, l’italique, les liens hypertexte et les sauts de ligne ne sont pas prises en charge. Cliquez sur <b>Activer</b> pour autoriser le texte enrichi dans les champs modifiables lors de l’utilisation du fragment dans un e-mail."
 
 >[!CONTEXTUALHELP]
 >id="ajo_editable_field_compatibility"
 >title="Fragment hérité"
->abstract="Ce champ modifiable est en mode texte uniquement. Options de mise en forme complètes (gras, italique, hyperliens, sauts de ligne, etc.) ne sont pas disponibles tant que le fragment n’a pas été mis à niveau vers le mode texte enrichi. Accédez aux paramètres du corps du fragment et cliquez sur <b>Activer</b> pour déverrouiller le texte enrichi dans les champs modifiables."
+>abstract="Ce champ modifiable est en mode texte uniquement. Les options de formatage complet (gras, italique, liens hypertexte, sauts de ligne, etc.) ne sont pas disponibles tant que le fragment n’a pas été mis à niveau vers le mode de texte enrichi. Accédez aux paramètres du corps du fragment et cliquez sur <b>Activer</b> pour déverrouiller le texte enrichi dans les champs modifiables."
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personnaliser des champs modifiables dans un fragment"
 
 >[!CONTEXTUALHELP]
 >id="ac_editable_fragment_compatibility"
 >title="Fragment hérité"
->abstract="Les champs modifiables de ce fragment sont en mode texte uniquement. Options de mise en forme complètes (gras, italique, hyperliens, sauts de ligne, etc.) ne sont pas disponibles tant que le fragment n’a pas été mis à niveau vers le mode texte enrichi. Pour déverrouiller ce mode, ouvrez l’éditeur de fragments et cliquez sur <b>Activer</b>."
+>abstract="Les champs modifiables de ce fragment sont en mode texte uniquement. Les options de formatage complet (gras, italique, liens hypertexte, sauts de ligne, etc.) ne sont pas disponibles tant que le fragment n’a pas été mis à niveau vers le mode de texte enrichi. Pour déverrouiller ce mode, ouvrez l’éditeur de fragments et cliquez sur <b>Activer</b>."
 >additional-url="https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personnaliser des champs modifiables dans un fragment"
 
 Le texte enrichi <!--— including bold, italic, line breaks, and hyperlinks —--> est désormais pris en charge de manière native dans les fragments visuels personnalisables.
@@ -263,5 +253,5 @@ When adding the fragment to your email, you can now edit the rich text content a
 
 This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464370/?captions=fre_fr&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
 -->

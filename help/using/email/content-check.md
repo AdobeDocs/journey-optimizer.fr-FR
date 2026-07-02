@@ -12,17 +12,17 @@ badge: label="Disponibilité limitée" type="Informative"
 source-git-commit: 2df5d9db31e03d4548b8ccc32c2d25293d829f1d
 workflow-type: tm+mt
 source-wordcount: '1066'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
 
-# Vérification de contenu dans le Designer Email {#content-check}
+# Vérification du contenu dans le Concepteur d’e-mail {#content-check}
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_content_check"
->title="Validation du contenu de l’e-mail"
->abstract="Les vérifications de contenu détectent automatiquement les problèmes HTML et CSS dans votre e-mail avant l’envoi. Ils signalent les balises non prises en charge, les balises div vides et les limites de taille qui peuvent interrompre le rendu dans Gmail ou Microsoft Outlook. Les problèmes apparaissent sous forme d’erreurs, d’avertissements ou d’avis d’information, avec des détails contextuels et des correctifs en un clic, le cas échéant."
+>title="Valider le contenu de votre e-mail"
+>abstract="Les vérifications de contenu détectent automatiquement les problèmes HTML et CSS dans votre e-mail avant l’envoi. Elles signalent les balises non prises en charge, les éléments div vides et les limites de taille qui peuvent interrompre le rendu dans Gmail ou Microsoft Outlook. Les problèmes apparaissent sous forme d’erreurs, d’avertissements ou de notifications d’informations, avec des détails contextuels et des correctifs en un clic, le cas échéant."
 
 >[!AVAILABILITY]
 >
