@@ -9,16 +9,16 @@ level: Intermediate
 source-git-commit: b519bcd5489c441e7f22cb47783d8b99a58c2442
 workflow-type: tm+mt
 source-wordcount: '500'
-ht-degree: 1%
+ht-degree: 27%
 
 ---
 
-# Générer un rapport d’utilisation des SMS {#sms-usage-report}
+# Générer un rapport d’utilisation SMS {#sms-usage-report}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_usage_metrics"
->title="Mesures d’utilisation des SMS"
->abstract="Générer des rapports d&#39;utilisation des SMS pour réconcilier le volume des messages avec la facturation fournisseur. Les rapports répertorient les nombres de messages terminés par un téléphone mobile (MT) et de messages mobiles (MO) pour chaque numéro de téléphone ou code court, agrégés par jour."
+>title="Mesures d’utilisation SMS"
+>abstract="Générez des rapports d’utilisation des SMS pour faire correspondre le volume des messages avec la facturation des fournisseurs. Les rapports répertorient la quantité de messages envoyés (MT) et reçus (MO) pour chaque numéro de téléphone ou code court, agrégés par jour."
 
 >[!BEGINSHADEBOX]
 
@@ -38,22 +38,22 @@ Pour afficher les mesures d’utilisation, un administrateur doit :
 
 Ces étapes nécessitent l’autorisation **[!UICONTROL Gérer les paramètres SMS]**. [En savoir plus sur les autorisations](../administration/high-low-permissions.md#administration-permissions).
 
-## Configuration et affichage des rapports d’utilisation des SMS {#configure-sms-usage-report}
+## Configurer et afficher des rapports d’utilisation SMS {#configure-sms-usage-report}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_usage_report_name"
 >title="Nom du rapport"
->abstract="Saisissez un libellé qui vous aidera à reconnaître ce rapport dans la liste ultérieurement, par exemple la révision de facturation de mai 2026."
+>abstract="Saisissez un libellé qui vous aidera à reconnaître ce rapport dans la liste à l’avenir, par exemple « vérification de la facturation de mai 2026 »."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_usage_credential"
->title="Informations d’identification SMS"
->abstract="Sélectionnez les informations d’identification de l’API Sinch dont le trafic d’envoi et de réception doit apparaître dans ce rapport. Pour ajouter ou mettre à jour des informations d’identification, accédez à **Administration** > **Canaux** > **Informations d’identification de l’API**, puis choisissez **Fournisseur SMS** > **Sinch MMS**."
+>title="Informations d’identification pour les SMS"
+>abstract="Sélectionnez les informations d’identification de l’API Sinch dont le trafic d’envoi et de réception doit apparaître dans ce rapport. Pour ajouter ou mettre à jour des informations d’identification, accédez à **Administration** > **Canaux** > **Informations d’identification de l’API**, puis choisissez **Fournisseur de SMS** > **Sinch MMS**."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_usage_start_date"
 >title="Date de début"
->abstract="Premier jour de la période à inclure dans le rapport. Les données d’utilisation ne sont disponibles que pour les 90 derniers jours."
+>abstract="Premier jour de la période à inclure dans le rapport. Les données d’utilisation ne sont disponibles que pour les 90 derniers jours."
 
 Les rapports d’utilisation des SMS présentent le volume d’origine mobile (MO) et le volume d’extrémité mobile (MT) par numéro court afin de prendre en charge la réconciliation entre l’activité de facturation du fournisseur et l’activité de messagerie dans Journey Optimizer.
 
@@ -67,7 +67,7 @@ Les rapports d’utilisation des SMS présentent le volume d’origine mobile (M
 
    * **[!UICONTROL Nom du rapport]** : saisissez un libellé qui vous aide à reconnaître votre rapport.
    * **[!UICONTROL Informations d’identification SMS]** : sélectionnez les informations d’identification de l’API **Sinch MMS** que vous avez précédemment créées pour les rapports d’utilisation des SMS.
-   * **[!UICONTROL Date de début]** et **[!UICONTROL Date de fin]** : permet de définir la période du rapport. Les données d’utilisation ne sont disponibles que pour les 90 derniers jours.
+   * **[!UICONTROL Date de début]** et **[!UICONTROL Date de fin]** : permet de définir la période du rapport. Les données d’utilisation ne sont disponibles que pour les 90 derniers jours.
 
      ![](assets/usage_report_2.png)
 
