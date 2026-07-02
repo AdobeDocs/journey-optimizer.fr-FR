@@ -27,9 +27,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: fdddc1053c86ac91128a9cefd2288c7f7c4ea10b
 workflow-type: tm+mt
-source-wordcount: 2025
+source-wordcount: 2009
 ht-degree: 95%
 
 ---
@@ -122,8 +122,6 @@ Pour votre expérience de contenu, vous pouvez choisir entre trois types d’exp
 
 1. Lors de la configuration d’une expérience utilisant le canal in-app ou web et du choix de **[!UICONTROL Clics entrants]**, **[!UICONTROL Clics entrants uniques]**, **[!UICONTROL Pages vues]** ou **[!UICONTROL Mesures des pages vues uniques]**, le champ **[!UICONTROL Dimensions]** vous permet de suivre et de surveiller précisément les clics et les vues sur des pages spécifiques.
 
-   ![](assets/content_experiment_20.png)
-
 1. Si vous avez créé une campagne déclenchée par API, sélectionnez **[!UICONTROL Expérience A/B]** dans le menu déroulant **[!UICONTROL Type d’expérience]**.
 
 1. Cliquez sur **[!UICONTROL Ajouter un traitement]** pour créer autant de nouveaux traitements que nécessaire.
@@ -149,8 +147,6 @@ Pour votre expérience de contenu, vous pouvez choisir entre trois types d’exp
    ![](assets/content_experiment_12.png)
 
 1. Vous pouvez ensuite choisir d’attribuer un pourcentage précis à chaque **[!UICONTROL Traitement]** ou simplement activer le bouton (bascule) **[!UICONTROL Répartir proportionnellement]**.
-
-   ![](assets/content_experiment_13.png)
 
 1. Activez l’expérience avec mise à l’échelle automatique pour déployer automatiquement la variation gagnante de votre expérience. [Découvrir comment mettre à l’échelle le gagnant](#scale-winner)
 
@@ -240,7 +236,7 @@ Notez que l’expérience Apporter votre propre bandit manchot n’est disponibl
 
 ## Concevoir vos traitements {#treatment-experiment}
 
-1. Dans la fenêtre **[!UICONTROL Modifier le contenu]**, sélectionnez votre traitement B pour modifier le contenu.
+1. Dans l’onglet **[!UICONTROL Contenu]**, sélectionnez votre traitement B pour modifier le contenu.
 
    Pour ce traitement, nous choisissons de ne pas spécifier l’offre dans la **[!UICONTROL ligne d’objet]**.
 
@@ -250,15 +246,14 @@ Notez que l’expérience Apporter votre propre bandit manchot n’est disponibl
 
    ![](assets/content_experiment_9.png)
 
-1. Après avoir conçu vos traitements, cliquez sur **[!UICONTROL Autres actions]** pour accéder aux options relatives à vos traitements : **[!UICONTROL Renommer]**, **[!UICONTROL Dupliquer]** et **[!UICONTROL Supprimer]**.
-
-   ![](assets/content_experiment_7.png)
-
-1. Si nécessaire, accédez au menu **[!UICONTROL Paramètres d’expérience]** pour modifier la configuration de vos traitements.
+1. Si nécessaire, dans l’onglet **[!UICONTROL Action]**, accédez au menu **[!UICONTROL Paramètres d’expérience]** pour modifier la configuration de vos traitements.
 
    ![](assets/content_experiment_19.png)
 
-1. Une fois le contenu de votre message défini, utilisez l’une des méthodes de simulation suivantes pour contrôler le rendu de votre diffusion et vérifier les paramètres de personnalisation : cliquez sur **[!UICONTROL Simuler du contenu]** pour tester les variations de contenu avec des exemples de données d’entrée ou la génération automatique d’IA, ou cliquez sur **[!UICONTROL Simuler du contenu]**, puis sélectionnez **[!UICONTROL Simuler du contenu (profils AEP)]** dans la liste déroulante pour prévisualiser avec des profils de test. [En savoir plus](../content-management/preview-test.md)
+1. Une fois le contenu de votre message défini, utilisez l’une des méthodes de simulation pour contrôler le rendu de votre diffusion et vérifier les paramètres de personnalisation :
+
+   * Cliquez sur **[!UICONTROL Simuler du contenu]** pour tester les variations de contenu avec des exemples de données d’entrée ou la génération automatique d’IA.
+   * Cliquez sur **[!UICONTROL Simuler du contenu]** puis sélectionnez **[!UICONTROL Simuler du contenu (profils AEP)]** dans la liste déroulante pour prévisualiser le contenu avec des profils de test. [En savoir plus](../content-management/preview-test.md)
 
 Après avoir paramétré votre expérimentation, vous pouvez suivre le succès de votre diffusion avec votre rapport. [En savoir plus](../reports/campaign-global-report-cja-experimentation.md)
 
