@@ -8,10 +8,10 @@ exl-id: e742c04e-2987-4466-84af-bdaf4d714552
 feature_v2: []
 subfeature_v2:
   - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
 workflow-type: tm+mt
-source-wordcount: 508
-ht-degree: 84%
+source-wordcount: 539
+ht-degree: 80%
 
 ---
 
@@ -29,6 +29,8 @@ Vous pouvez envoyer des BAT à l’aide de l’une des méthodes de simulation :
 
 * Cliquez sur **[!UICONTROL Simuler du contenu]** puis sélectionnez **[!UICONTROL Simuler du contenu (profils AEP)]** dans la liste déroulante pour envoyer des BAT avec des profils de test.
 * Cliquez sur **[!UICONTROL Simuler du contenu]** pour envoyer des BAT pour les variations de contenu créées avec des exemples de données d’entrée ou la génération automatique d’IA. [Découvrez comment simuler des variations de contenu.](../test-approve/simulate-sample-input.md#proofs)
+
+Pour les campagnes déclenchées par API et Action (planifiée), vous pouvez également envoyer des BAT par programmation à l’aide de l’API [Simulations](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"}. Cette fonctionnalité n’est pas prise en charge pour les campagnes orchestrées.
 
 ## À lire impérativement {#must-read}
 

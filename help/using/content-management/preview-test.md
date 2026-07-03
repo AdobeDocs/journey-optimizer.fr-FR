@@ -8,10 +8,10 @@ exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 feature_v2: []
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
-workflow-type: ht
-source-wordcount: 606
-ht-degree: 100%
+source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
+workflow-type: tm+mt
+source-wordcount: 637
+ht-degree: 96%
 
 ---
 
@@ -37,7 +37,7 @@ Une fois votre contenu défini, vous pouvez le prévisualiser avant d’envoyer 
 
 Vous pouvez également envoyer des diffusions de test de vos e-mails à des destinataires ou à des personnes abonnées spécifiques à des fins de test et de validation, et vérifier la façon dont ils s’affichent sur les clients populaires de bureau, mobiles et web. Vous pouvez également évaluer les aspects généraux de la qualité du contenu, tels que la lisibilité et l’efficacité. [En savoir plus sur la validation de la qualité du contenu](brands-score.md#validate-quality)
 
-Toutes ces actions peuvent être effectuées à l’aide du bouton **[!UICONTROL Simuler du contenu]** accessible à partir de l’écran d’édition du contenu de votre message ou à partir des concepteurs d’e-mail et web pour les canaux e-mail et web.Cliquez sur **[!UICONTROL Simuler du contenu]** pour tester des variations de contenu à l’aide d’exemples de données d’entrée.Pour prévisualiser à l’aide de profils de test, envoyer des BAT ou vérifier le rendu des e-mails, sélectionnez **[!UICONTROL Simuler du contenu (profils AEP)]** dans la liste déroulante.
+Toutes ces actions peuvent être effectuées à l’aide du bouton **[!UICONTROL Simuler du contenu]** accessible à partir de l’écran d’édition du contenu de votre message ou à partir des concepteurs d’e-mail et web pour les canaux e-mail et web. Cliquez sur **[!UICONTROL Simuler du contenu]** pour tester des variations de contenu à l’aide d’exemples de données d’entrée. Pour prévisualiser à l’aide de profils de test, envoyer des BAT ou vérifier le rendu des e-mails, sélectionnez **[!UICONTROL Simuler du contenu (profils AEP)]** dans la liste déroulante.
 
 ![](../email/assets/email-preview-button.png)
 
@@ -66,6 +66,8 @@ Journey Optimizer propose deux expériences pour tester votre contenu :
   Tous les attributs de profil utilisés dans votre contenu pour la personnalisation sont automatiquement détectés par le système et peuvent être utilisés pour vos tests afin de créer plusieurs variantes.
 
   ➡️ [Simuler les variations de contenu](../test-approve/simulate-sample-input.md)
+
+Pour les campagnes déclenchées par API et Action (planifiée), vous pouvez également envoyer des BAT par programmation à l’aide de l’API [Simulations](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"}. Cette fonctionnalité n’est pas prise en charge pour les campagnes orchestrées.
 
 ## À lire absolument
 

@@ -27,9 +27,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e5e8545bef077219ff91428c9048c978184b57ec
+source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
 workflow-type: tm+mt
-source-wordcount: 3456
+source-wordcount: 3490
 ht-degree: 54%
 
 ---
@@ -312,7 +312,12 @@ Au-delà de la messagerie et de la limitation, Journey Optimizer expose des poin
 | Créer et gérer des modèles et des fragments de contenu à partir d’un pipeline externe | [API de contenu](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"} · [modèles](../../content-management/content-templates.md) · [fragments](../../content-management/fragments.md) |
 | Récupération et filtrage des campagnes d’action | [API Campaign](https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve){target="_blank"} |
 | Prévisualiser des campagnes et envoyer des BAT par programmation | [API Simulations](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"} |
-| Valider les jeux de données et déclencher l’exécution de campagnes orchestrées | [Validation des jeux de données](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} · [Déclencheur](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} · [Activation des jeux de données](../../orchestrated/manual-schema.md) |
+
+>[!NOTE]
+>
+>L’API Simulations est disponible pour les campagnes déclenchées par l’API et les campagnes d’action (planifiées). Elle n’est **pas prise en charge pour les campagnes orchestrées** : utilisez plutôt le workflow d’aperçu et de BAT dans l’interface utilisateur des campagnes orchestrées.
+
+| Valider les jeux de données et déclencher l’exécution de campagnes orchestrées | [Validation des jeux de données](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} · [Déclencheur](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} · [Activer les jeux de données](../../orchestrated/manual-schema.md) |
 
 ## Ressources supplémentaires {#additional-resources}
 
