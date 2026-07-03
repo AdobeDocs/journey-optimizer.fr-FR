@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 3e260764d161e63011d848e2f46de57e3488d9fa
+source-git-commit: 39612a9e2db22b063efb48b0eab093fa72105ed3
 workflow-type: tm+mt
-source-wordcount: 1614
-ht-degree: 99%
+source-wordcount: 1648
+ht-degree: 97%
 
 ---
 
@@ -410,4 +410,9 @@ L’assistant IA offre une aide instantanée et des informations opérationnelle
 >abstract="L’activité **Chargement de fichier** est une activité de **ciblage**. Utilisez-la pour charger un fichier CSV ou TXT dans la zone de travail de campagne orchestrée et vous en servir comme audience de campagne. Les données de fichier sont utilisées au moment de l’exécution et ne sont pas conservées en tant que jeu de données Adobe Experience Platform. Les lignes sont rapprochées des destinataires existants à l’aide d’une colonne d’identité et d’une dimension de ciblage."
 
 
+<!-- OC - LINE ACTIVITY -->
 
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_line"
+>title="Activité Ligne"
+>abstract="L&#39;activité **Line** permet d&#39;ajouter une action LINE à votre campagne orchestrée. Créez du contenu personnalisé, allant du texte et des autocollants aux images, vidéos, emplacements et messages Flex, pour interagir avec les clients sur LINE."
