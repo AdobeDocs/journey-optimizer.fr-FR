@@ -50,7 +50,7 @@ Découvrez comment importer des audiences par le biais de fichiers CSV et mapper
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
 
 Composition d’audiences fédérées
 

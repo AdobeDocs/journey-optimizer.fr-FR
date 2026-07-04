@@ -58,7 +58,7 @@ Découvrez comment concevoir et personnaliser des notifications push avec des m�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Prévisualiser, valider et envoyer des notifications push
 

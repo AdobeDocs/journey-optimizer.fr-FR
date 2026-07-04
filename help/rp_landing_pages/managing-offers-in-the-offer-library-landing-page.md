@@ -45,7 +45,7 @@ Tutoriel détaillé sur la création d’offres de secours pour les clientes et 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Création et gestion de collections d’offres
 

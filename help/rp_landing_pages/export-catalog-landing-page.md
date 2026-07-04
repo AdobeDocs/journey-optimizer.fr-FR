@@ -35,7 +35,7 @@ Découvrez comment exporter votre catalogue d’offres sous forme de jeu de donn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Accéder au catalogue d’offres exporté
 

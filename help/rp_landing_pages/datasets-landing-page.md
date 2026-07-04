@@ -50,7 +50,7 @@ Découvrez comment exporter des jeux de données vers des destinations d’espac
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Adobe Journey Optimizer : exemples de requêtes de jeux de données
 

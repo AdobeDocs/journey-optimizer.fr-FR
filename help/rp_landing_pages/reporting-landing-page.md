@@ -20,7 +20,7 @@ La création de rapports dans Adobe Journey Optimizer consiste à transformer 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=fr)
 
 Présentation de la création de rapports
 
@@ -50,7 +50,7 @@ Découvrez les mesures, l’intégration à Customer Journey Analytics et les 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Rapports de parcours personnalisés
 

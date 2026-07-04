@@ -30,7 +30,7 @@ Découvrez comment créer et personnaliser le contenu d’un e-mail à l’aide 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Importer du contenu d’e-mail existant
 
@@ -60,7 +60,7 @@ Gagnez du temps en utilisant des modèles d’e-mail types ou personnalisés pou
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Utiliser les thèmes d’e-mail
 

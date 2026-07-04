@@ -30,7 +30,7 @@ Découvrez les principes de base des pages de destination, leurs fonctionnalité
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Créer et publier des pages de destination
 

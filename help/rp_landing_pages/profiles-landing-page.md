@@ -30,7 +30,7 @@ Découvrez comment créer, gérer et utiliser des profils dans Adobe Journey O
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Création des profils de test
 
@@ -40,7 +40,7 @@ Cette section contient des instructions détaillées sur la création de profils
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Utiliser des attributs calculés
 

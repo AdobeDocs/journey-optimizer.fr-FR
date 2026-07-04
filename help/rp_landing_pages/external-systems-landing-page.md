@@ -30,7 +30,7 @@ Découvrez les bonnes pratiques et les directives techniques pour l’intégrati
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Vue d’ensemble de l’API Capping et guide de mise en œuvre
 
@@ -40,7 +40,7 @@ Découvrez comment créer, configurer et gérer des paramètres de limitation po
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 API Capping : guide de configuration et de gestion
 
