@@ -30,7 +30,7 @@ Découvrez comment Adobe Journey Optimizer se connecte à d’autres solutions
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
 
 Utiliser les API Adobe Journey Optimizer
 

@@ -30,7 +30,7 @@ Découvrez comment contrôler la délivrabilité des e-mails en gérant les list
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Gérer les listes de reprises et de suppression
 

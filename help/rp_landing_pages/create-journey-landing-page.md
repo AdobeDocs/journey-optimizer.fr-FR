@@ -31,7 +31,7 @@ Découvrez comment créer, concevoir, tester et publier votre premier parcours c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Définir et gérer les propriétés de parcours
 

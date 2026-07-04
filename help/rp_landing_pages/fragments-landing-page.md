@@ -60,7 +60,7 @@ Découvrez comment rendre des champs spécifiques modifiables dans des fragments
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Gestion des fragments de contenu
 

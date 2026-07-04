@@ -40,7 +40,7 @@ Comprenez et analysez les mesures d’engagement dans les expériences basées s
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Engagement des cartes de contenu
 

@@ -30,7 +30,7 @@ Découvrez les principes de base de la création et de la gestion de modèles de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Accéder aux modèles et les gérer
 

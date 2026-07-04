@@ -30,7 +30,7 @@ Découvrez les principes de base de la prise de décision dans Adobe Journey O
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=fr)
 
 Mécanismes de sécurisation et limitations de la prise de décision
 

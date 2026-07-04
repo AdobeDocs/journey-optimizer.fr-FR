@@ -21,7 +21,7 @@ Dans Adobe Journey Optimizer, les parcours vous permettent de créer des parco
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Commencer avec les parcours Adobe Journey Optimizer
 
@@ -31,7 +31,7 @@ Découvrez comment créer des parcours clients en temps réel et à plusieurs é
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Guide complet de création et de gestion des parcours
 

@@ -50,7 +50,7 @@ Découvrez les exigences et les configurations des schémas pour l’ingestion d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=fr)
 
 Intégration d’Adobe Analytics
 
@@ -60,7 +60,7 @@ Découvrez comment intégrer des données Adobe Analytics pour automatiser les 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Configurer un événement métier
 

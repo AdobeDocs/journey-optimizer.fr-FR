@@ -65,7 +65,7 @@ Suivez un guide détaillé pour créer, gérer et configurer des offres et des d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=fr)
 
 Utilisation du chargement personnalisé d’audiences pour la prise de décision
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizer vous permet de communiquer avec votre audience sur Wha
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Prise en main de la messagerie WhatsApp
 
@@ -30,7 +30,7 @@ Découvrez comment intégrer WhatsApp à Adobe Journey Optimizer, y compris le
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=fr)
 
 Configuration du canal WhatsApp
 

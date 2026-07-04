@@ -61,7 +61,7 @@ Transformez les types de données avec des fonctions de conversion permettant de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=fr)
 
 Fonctions de date dans Adobe Journey Optimizer
 
@@ -71,7 +71,7 @@ Découvrez comment manipuler et évaluer les valeurs de date et d’heure à l�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
 
 Fonctions de liste dans Adobe Journey Optimizer
 

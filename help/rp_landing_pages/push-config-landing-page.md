@@ -20,7 +20,7 @@ Les notifications push dans Adobe Journey Optimizer vous permettent de communi
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=fr)
 
 Flux de données et configuration des notifications push
 

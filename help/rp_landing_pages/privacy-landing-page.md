@@ -30,7 +30,7 @@ Découvrez comment gérer la confidentialité dans Adobe Journey Optimizer et 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
 Gestion des demandes d&#39;accès à des informations personnelles
 
