@@ -8,18 +8,42 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: AEM, fragments de contenu, administration, référentiel, authentification, auteur, publication
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: b7d613c888f67333a4baedfe1605c5ac4f32b18d
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+source-git-commit: f6b0ff4c4d46f3ac9f80d6fcf00191b7489d2eae
 workflow-type: tm+mt
-source-wordcount: 557
-ht-degree: 0%
+source-wordcount: 709
+ht-degree: 10%
 
 ---
 
 # Configuration de l’accès au référentiel Adobe Experience Manager {#aem-admin-settings}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_content_fragment_configuration"
+>title="« Configuration de Adobe Experience Manager"
+>abstract="Connectez un sandbox à un référentiel Adobe Experience Manager en définissant l’accès de création uniquement ou de publication, les domaines personnalisés et l’authentification, afin que les marketeurs puissent utiliser les fragments de contenu Adobe Experience Manager dans leurs parcours et campagnes."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_configure_instance"
+>title="Configuration des instances"
+>abstract="Sélectionnez le type de configuration d’instance approprié à votre configuration. </br>Configuration de création uniquement : utilisez des fragments de contenu de l’instance de création AEM. La configuration de l’instance de publication et les mises à jour en direct ne sont pas prises en charge.</br>Configuration de l’instance de publication : configurez les paramètres de l’instance de publication. Vous pouvez éventuellement activer « Envoyer le jeton à l’instance de publication » pour fournir les informations d’identification du service pour l’authentification."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_send_token"
+>title="Envoyer le jeton à l’instance de publication"
+>abstract="Lorsqu’ils sont activés, les informations d’identification de service sont envoyées pour authentifier les requêtes à l’instance de publication. Saisissez un JSON d’informations d’identification de service valide ci-dessous."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_service_credential"
+>title="Coller le JSON d’informations d’identification de service"
+>abstract="Collez le fichier JSON d’informations d’identification du service Adobe Experience Manager. Il sera automatiquement formaté et validé."
+>additional-url=""
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_custom_domain"
+>title="Domaine personnalisé"
+>abstract="Facultatif. Indiquez un domaine personnalisé si « your-publish-instance.adobeaemcloud.com » est bloqué lors de la récupération du contenu pour votre organisation."
 
 >[!BEGINSHADEBOX]
 
@@ -119,4 +143,4 @@ Lorsque vous enregistrez cette configuration, Journey Optimizer la stocke pour c
 
 Découvrez comment les administrateurs configurent les paramètres du référentiel Adobe Experience Manager Managed Services dans Journey Optimizer afin que les marketeurs puissent utiliser les fragments de contenu dans les parcours et les campagnes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3492531?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3492529?quality=12)
