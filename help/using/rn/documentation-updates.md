@@ -8,8 +8,12 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+feature_v2:
+  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2:
+  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
+  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
+  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: 2f3a44b2366119c84e52861db09054f22d55623d
 workflow-type: tm+mt
 source-wordcount: 9109
@@ -27,7 +31,7 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 
 * Une nouvelle page de **types de Parcours : choisissez la bonne** est maintenant disponible. Il compare tous les points d’entrée du parcours (Lecture d’audience, Qualification d’audience, Événement unitaire et Événement métier) avec des guides de décision et une matrice de compatibilité des fonctionnalités pour vous aider à sélectionner le type approprié à votre cas d’utilisation. [En savoir plus](../building-journeys/journey-types-selection.md)
 
-* Une nouvelle page de comparaison des campagnes **** est désormais disponible. Il compare les Parcours, les campagnes d’action et les campagnes déclenchées par API en fonction du style d’exécution, du modèle de données et du cas d’utilisation, y compris l’activation du canal entrant pour la personnalisation Edge de faible latence, la diffusion entrante multi-surface et des conseils sur l’utilisation de campagnes orchestrées (composition d’audiences ad hoc, données fédérées). [En savoir plus](../start/journeys-vs-campaigns.md)
+* Une nouvelle page de comparaison des campagnes **&#x200B;**&#x200B;est désormais disponible. Il compare les Parcours, les campagnes d’action et les campagnes déclenchées par API en fonction du style d’exécution, du modèle de données et du cas d’utilisation, y compris l’activation du canal entrant pour la personnalisation Edge de faible latence, la diffusion entrante multi-surface et des conseils sur l’utilisation de campagnes orchestrées (composition d’audiences ad hoc, données fédérées). [En savoir plus](../start/journeys-vs-campaigns.md)
 
 * La page **Mode Débit élevé** a été mise à jour pour prendre en compte la disponibilité régionale étendue : la fonctionnalité est désormais disponible dans toutes les régions, à l’exception de la Suisse, pour les organisations disposant d’une licence avec le module complémentaire de messagerie transactionnelle à débit élevé. [En savoir plus](../campaigns/api-triggered-high-throughput.md)
 
@@ -509,7 +513,7 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 
 ## Avril 2025 {#apr-2025}
 
-* Le chapitre Configuration est désormais divisé en trois chapitres : [Configuration des canaux](../configuration/get-started-configuration.md), [Configuration de parcours ](../configuration/about-data-sources-events-actions.md) et [Connexion des systèmes](../configuration/ajo-apis.md).
+* Le chapitre Configuration est désormais divisé en trois chapitres : [Configuration des canaux](../configuration/get-started-configuration.md), [Configuration de parcours &#x200B;](../configuration/about-data-sources-events-actions.md) et [Connexion des systèmes](../configuration/ajo-apis.md).
 * Ajout d’une note d’avertissement concernant l’utilisation d’événements d’expérience dans des expressions et conditions de parcours. [En savoir plus](../building-journeys/expression/expressionadvanced.md#discovering-the-interface)
 * Ajout d’une note sur la page Configuration du courrier concernant le stockage temporaire du fichier de sortie. [En savoir plus](../direct-mail/direct-mail-configuration.md)
 * Ajout d’une astuce dans la section Éditeur d’expression avancé du parcours à propos des instructions de format de condition. [En savoir plus](../building-journeys/expression/expressionadvanced.md)
