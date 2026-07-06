@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: eba98c8f232c10eac9753ac40b6cd814ed9594a1
+source-git-commit: 2f3a44b2366119c84e52861db09054f22d55623d
 workflow-type: tm+mt
-source-wordcount: 9055
-ht-degree: 93%
+source-wordcount: 9109
+ht-degree: 92%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 93%
 Cette page répertorie toutes les dernières modifications apportées à la documentation [!DNL Journey Optimizer], en plus des mises à jour liées aux fonctionnalités et améliorations de la version mensuelle.
 
 ## Juin 2026 {#june-2026}
+
+* La page **Vérifier et envoyer un message de publipostage direct** a été mise à jour afin de clarifier le délai d’exportation du publipostage direct et le comportement par lots, y compris le planning fixe d’exportation UTC de 4 heures, les raisons pour lesquelles plusieurs fichiers peuvent être générés en une seule journée, lorsque l’**[!UICONTROL Mettre à jour le profil]** s’exécute dans les parcours et des recommandations pour les scénarios d’un fichier par jour. [En savoir plus](../direct-mail/test-send-direct-mail.md#dm-export-timing)
 
 * Une nouvelle page de **types de Parcours : choisissez la bonne** est maintenant disponible. Il compare tous les points d’entrée du parcours (Lecture d’audience, Qualification d’audience, Événement unitaire et Événement métier) avec des guides de décision et une matrice de compatibilité des fonctionnalités pour vous aider à sélectionner le type approprié à votre cas d’utilisation. [En savoir plus](../building-journeys/journey-types-selection.md)
 

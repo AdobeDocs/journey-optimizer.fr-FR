@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
+source-git-commit: 2f3a44b2366119c84e52861db09054f22d55623d
 workflow-type: tm+mt
-source-wordcount: 605
-ht-degree: 60%
+source-wordcount: 829
+ht-degree: 45%
 
 ---
 
@@ -82,6 +82,29 @@ Lorsque votre campagne de publipostage direct est prête, effectuez la configura
 Une fois l’envoi effectué, vous pouvez mesurer l’impact de votre campagne ou de votre parcours par publipostage direct dans les rapports. Pour plus d’informations sur les rapports de publipostage direct, reportez-vous aux sections suivantes :
 * [Rapport de campagne par courrier](../reports/campaign-global-report-cja-direct.md)
 * [Rapport de parcours de courrier](../reports/journey-global-report-cja-direct.md)
+
+## Comprendre le timing des exportations et la génération des fichiers {#dm-export-timing}
+
+Les exportations de publipostage direct s’exécutent sur des cycles UTC fixes de 4 heures à **02:01**, **06:01**, **10:01**, **14:01**, **18:01** et **22:01**.
+
+Les profils sont inclus dans le cycle d’exportation *suivant* une fois qu’ils ont atteint l’activité Publipostage direct . Cela signifie que la création du fichier est basée sur le moment où les profils arrivent au nœud Publipostage direct, et non pas sur la date d’activation de la campagne ou du parcours pour la première fois.
+
+* **Pourquoi pouvez-vous recevoir plusieurs fichiers en une journée** - Si les profils atteignent l’activité Publipostage direct dans différentes fenêtres de 4 heures, Journey Optimizer génère des fichiers d’exportation distincts pour chaque fenêtre. C’est un comportement normal.
+
+  Par exemple :
+
+   * Les profils arrivant avant **14:01** sont exportés à **14:01**.
+   * Les profils arrivant de **14:02** à **18:01** sont exportés à **18:01**.
+
+  Cela ne duplique pas les profils, mais les regroupe par fenêtre d’arrivée.
+
+* **Planning de l&#39;activité Mettre à jour le profil** - Dans les parcours, l&#39;activité **[!UICONTROL Mettre à jour le profil]** s&#39;exécute immédiatement au moment de l&#39;exécution du parcours lorsqu&#39;un profil atteint cette activité. Il n’attend pas le cycle d’exportation du publipostage direct.
+
+* **Recommandations pour les scénarios d’un fichier par jour** - Si vous avez besoin d’un fichier par jour, envisagez les options suivantes :
+
+   * **fréquence de routage sur 24 heures** : garantit un fichier par jour, mais introduit une latence de diffusion.
+   * **Attendre le moment de la journée** : peut aligner les profils dans la même fenêtre d’exportation, mais les résultats dépendent du timing du parcours.
+   * **fréquence de routage sur 4 heures** : fournit la latence la plus faible, mais peut générer plusieurs fichiers par jour.
 
 ## Gérer le consentement relatif au courrier {#dm-consent-management}
 
