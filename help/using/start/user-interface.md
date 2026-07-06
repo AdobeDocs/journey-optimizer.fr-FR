@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 39612a9e2db22b063efb48b0eab093fa72105ed3
+source-git-commit: f6b0ff4c4d46f3ac9f80d6fcf00191b7489d2eae
 workflow-type: tm+mt
-source-wordcount: 1648
-ht-degree: 97%
+source-wordcount: 1515
+ht-degree: 96%
 
 ---
 
@@ -368,31 +368,6 @@ L’assistant IA offre une aide instantanée et des informations opérationnelle
 >title="Paramètres d’en-tête"
 >abstract="Dans cette section, vous pouvez configurer des en-têtes personnalisés supplémentaires à envoyer avec chaque requête de webhook."
 
->[!CONTEXTUALHELP]
->id="ajo_admin_aem_content_fragment_configuration"
->title="Aide à la configuration AEM"
->abstract="En savoir plus sur la création et la gestion d’une configuration"
-
->[!CONTEXTUALHELP]
->id="ajo_admin_aem_configure_instance"
->title="Configuration des instances"
->abstract="Sélectionnez le type de configuration d’instance approprié à votre configuration. </br>Configuration de création uniquement : utilisez des fragments de contenu de l’instance de création AEM. La configuration de l’instance de publication et les mises à jour en direct ne sont pas prises en charge.</br>Configuration de l’instance de publication : configurez les paramètres de l’instance de publication. Vous pouvez éventuellement activer « Envoyer le jeton à l’instance de publication » pour fournir les informations d’identification du service pour l’authentification."
-
->[!CONTEXTUALHELP]
->id="ajo_admin_aem_send_token"
->title="Envoyer le jeton à l’instance de publication"
->abstract="Dès l’activation, les informations d’identification de service sont envoyées pour authentifier les requêtes à l’instance de publication. Fournissez un JSON d’informations d’identification de service valide ci-dessous."
-
->[!CONTEXTUALHELP]
->id="ajo_admin_aem_service_credential"
->title="Coller le JSON d’informations d’identification de service"
->abstract="Collez le JSON d’informations d’identification de service AEM après les avoir créées en suivant la documentation du compte technique public. Il sera automatiquement formaté et validé."
->additional-url=""
-
->[!CONTEXTUALHELP]
->id="ajo_admin_aem_custom_domain"
->title="Domaine personnalisé"
->abstract="Facultatif. Fournissez un domaine personnalisé si publish-p16552-e147195.adobeaemcloud.com ne peut pas récupérer de contenu pour votre organisation."
 
 <!-- JOURNEYS - EXPRESSION ASSISTANT -->
 
