@@ -10,25 +10,16 @@ level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
 TQID: https://experienceleague.adobe.com/4GZKFKOx-D-RT1mssiV5vpmZQSJGVbGMro8Q-suhtPE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 2f3a44b2366119c84e52861db09054f22d55623d
 workflow-type: tm+mt
-source-wordcount: 605
-ht-degree: 60%
+source-wordcount: 829
+ht-degree: 45%
 
 ---
 
@@ -73,7 +64,7 @@ Avant d’activer la campagne de publipostage direct, assurez-vous que la campag
 
 ![Examinez et activez l’écran affichant les alertes de validation des campagnes de publipostage direct](assets/direct-mail-review.png){width="800" align="center"}
 
-Lorsque votre campagne de publipostage direct est prête, effectuez la configuration de votre [parcours &#x200B;](../building-journeys/journey-gs.md) ou [campagne](../campaigns/create-campaign.md) pour l’envoyer.
+Lorsque votre campagne de publipostage direct est prête, effectuez la configuration de votre [parcours ](../building-journeys/journey-gs.md) ou [campagne](../campaigns/create-campaign.md) pour l’envoyer.
 
 >[!NOTE]
 >
@@ -82,6 +73,29 @@ Lorsque votre campagne de publipostage direct est prête, effectuez la configura
 Une fois l’envoi effectué, vous pouvez mesurer l’impact de votre campagne ou de votre parcours par publipostage direct dans les rapports. Pour plus d’informations sur les rapports de publipostage direct, reportez-vous aux sections suivantes :
 * [Rapport de campagne par courrier](../reports/campaign-global-report-cja-direct.md)
 * [Rapport de parcours de courrier](../reports/journey-global-report-cja-direct.md)
+
+## Comprendre le timing des exportations et la génération des fichiers {#dm-export-timing}
+
+Les exportations de publipostage direct s’exécutent sur des cycles UTC fixes de 4 heures à **02:01**, **06:01**, **10:01**, **14:01**, **18:01** et **22:01**.
+
+Les profils sont inclus dans le cycle d’exportation *suivant* une fois qu’ils ont atteint l’activité Publipostage direct . Cela signifie que la création du fichier est basée sur le moment où les profils arrivent au nœud Publipostage direct, et non pas sur la date d’activation de la campagne ou du parcours pour la première fois.
+
+* **Pourquoi pouvez-vous recevoir plusieurs fichiers en une journée** - Si les profils atteignent l’activité Publipostage direct dans différentes fenêtres de 4 heures, Journey Optimizer génère des fichiers d’exportation distincts pour chaque fenêtre. C’est un comportement normal.
+
+  Par exemple :
+
+   * Les profils arrivant avant **14:01** sont exportés à **14:01**.
+   * Les profils arrivant de **14:02** à **18:01** sont exportés à **18:01**.
+
+  Cela ne duplique pas les profils, mais les regroupe par fenêtre d’arrivée.
+
+* **Planning de l&#39;activité Mettre à jour le profil** - Dans les parcours, l&#39;activité **[!UICONTROL Mettre à jour le profil]** s&#39;exécute immédiatement au moment de l&#39;exécution du parcours lorsqu&#39;un profil atteint cette activité. Il n’attend pas le cycle d’exportation du publipostage direct.
+
+* **Recommandations pour les scénarios d’un fichier par jour** - Si vous avez besoin d’un fichier par jour, envisagez les options suivantes :
+
+   * **fréquence de routage sur 24 heures** : garantit un fichier par jour, mais introduit une latence de diffusion.
+   * **Attendre le moment de la journée** : peut aligner les profils dans la même fenêtre d’exportation, mais les résultats dépendent du timing du parcours.
+   * **fréquence de routage sur 4 heures** : fournit la latence la plus faible, mais peut générer plusieurs fichiers par jour.
 
 ## Gérer le consentement relatif au courrier {#dm-consent-management}
 
