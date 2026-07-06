@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3b047112c11396b0a7806478100093225ca7dbb3
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 489dd8a0d063a1d39840eb086243f3a023b10b88
 workflow-type: tm+mt
-source-wordcount: 3295
-ht-degree: 83%
+source-wordcount: 2698
+ht-degree: 79%
 
 ---
 
@@ -152,7 +140,7 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées aux parcour
 </table>
 
 
-* [!BADGE Obsolescence]{type=Negative} **Audiences par lots obsolètes dans le nœud Qualification d’audience** - À compter d’**août 2026**, Journey Optimizer bloquera la publication de tout parcours utilisant une audience par lots dans un nœud **Qualification d’audience**. Un avertissement de validation est déjà affiché dans la zone de travail du parcours. Les Live parcours existants ne sont pas affectés. Les parcours nouveaux, brouillons et dupliqués incluant cette configuration doivent être mis à jour avant août 2026. Utilisez une audience en flux continu dans le nœud Qualification de l’audience ou passez à une activité **Lecture d’audience**. [Découvrez comment migrer vos parcours &#x200B;](../building-journeys/aq-batch-audiences-migration.md)
+* [!BADGE Obsolescence]{type=Negative} **Audiences par lots obsolètes dans le nœud Qualification d’audience** - À compter d’**août 2026**, Journey Optimizer bloquera la publication de tout parcours utilisant une audience par lots dans un nœud **Qualification d’audience**. Un avertissement de validation est déjà affiché dans la zone de travail du parcours. Les Live parcours existants ne sont pas affectés. Les parcours nouveaux, brouillons et dupliqués incluant cette configuration doivent être mis à jour avant août 2026. Utilisez une audience en flux continu dans le nœud Qualification de l’audience ou passez à une activité **Lecture d’audience**. [Découvrez comment migrer vos parcours ](../building-journeys/aq-batch-audiences-migration.md)
 
 * **Arrêter directement un parcours en pause** - Vous pouvez désormais arrêter un parcours directement à partir de l’état **En pause**. Auparavant, un parcours en pause devait être repris en **actif** avant de pouvoir être arrêté. [En savoir plus](../building-journeys/journey-pause.md#stop-close-paused)
 
@@ -241,69 +229,6 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées à la gesti
 </tr>
 </tbody>
 </table>
-
-+++ Bientôt disponible : **les informations ci-dessous peuvent faire l’objet de modifications.**
-
-<table>
-<thead>
-<tr>
-<th><strong>Améliorations apportées aux fragments de contenu Adobe Experience Manager dans Journey Optimizer</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Cette version comprend plusieurs améliorations pour rendre les <strong>fragments de contenu Adobe Experience Manager</strong> plus utilisables, gouvernables et prêts pour la production dans les workflows de création de Journey Optimizer :</p>
-<ul>
-<li>Journey Optimizer prend désormais en charge la récupération de fragments de contenu à partir de plusieurs configurations Adobe Experience Manager, y compris dans les niveaux de création, de publication et de publication authentifiée.</li>
-<li>Une fois qu’un fragment est sélectionné, son contexte est conservé tout au long du message, ce qui permet aux auteurs et aux autrices de réutiliser les champs de fragments dans les blocs de contenu sans avoir à les sélectionner à nouveau.</li>
-<li>Une nouvelle page de liste dédiée aux fragments de contenu a été ajoutée dans Journey Optimizer pour une meilleure gestion du cycle de vie. Les utilisateurs et les utilisatrices peuvent identifier les fragments non synchronisés et déclencher des synchronisations manuelles pour les garder à jour.</li>
-<li>La prise en charge des paramètres régionaux et des variations permet désormais aux spécialistes marketing de travailler de manière intentionnelle avec d’autres versions du même fragment de contenu.</li>
-<li>Vous disposez désormais d’une certaine flexibilité quant à la manière dont Adobe Journey Optimizer accède à votre contenu Adobe Experience Manager. Cette version apporte la possibilité de <strong>changer de référentiel source</strong> pour les fragments de contenu utilisés dans vos parcours et campagnes.</li>
-<li>Désormais compatible avec <b>Managed Services</b>, vous pouvez afficher des fragments de contenu Adobe Experience Manager, y accéder et les utiliser directement dans Journey Optimizer à des fins de personnalisation. Il vous suffit d’ajouter votre URL de référentiel Adobe Experience Manager Managed Services dans les paramètres de configuration pour les configurer de manière permanente.</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Intégration de l’assistant IA à Adobe Experience Manager Asset Essentials</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>L’assistant IA récupère désormais automatiquement les <b>images approuvées par la marque</b> directement à partir d’Adobe Experience Manager Assets lors de la génération d’e-mails, de pages web et de notifications push. Cela élimine la nécessité d’une recherche manuelle dans Assets ou de recourir à des solutions de secours d’IA génériques, en s’assurant que chaque élément visuel correspond parfaitement et est conforme à la marque.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Améliorations de l’assistant IA pour la génération de contenu</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Cette version améliore l’expérience de génération de contenu de l’<strong>assistant IA</strong> avec une modification d’images plus puissante, une extraction de marque plus fiable et une prise en charge de l’authenticité du contenu dans le flux d’images :</p>
-<ul>
-<li>La <strong>modification d’images par l’IA</strong> est désormais disponible dans le flux de génération d’images et inclut la prise en charge de modèles Firefly tiers, afin que vous puissiez affiner les images sources sans quitter l’assistant.</li>
-<li>L’<strong>extraction du signal de marque</strong> offre des résultats de meilleure qualité. Lorsque les pages sélectionnées ne comportent pas suffisamment de signal, des systèmes de compensation améliorés ajoutent désormais les couleurs, la typographie, les directives d’écriture, ainsi que d’autres attributs de marque.</li>
-<li>L’<strong>extraction de marque basée sur le web</strong> est plus fiable. L’amélioration de la gestion du délai d’expiration empêche les pages lentes, les fenêtres contextuelles et les bannières de cookies de bloquer l’extraction.</li>
-<li>L’<strong>authenticité du contenu</strong> est désormais prise en charge dans le flux d’images. Cette version corrige également les problèmes de chargement des images de référence et améliore la gestion des images sans manifeste C2PA existant.</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-+++
 
 
 ### Canal E-mail {#june-26-email}
@@ -410,18 +335,19 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées à la gesti
 </tbody>
 </table>
 
-+++ Bientôt disponible : **les informations ci-dessous peuvent faire l’objet de modifications.**
+<!--
++++ Coming soon — **Information below is subject to change.**
 
 <table>
 <thead>
 <tr>
-<th><strong>Intégration de l’assistant IA à Adobe Experience Manager Asset Essentials</strong><br/></th>
+<th><strong>AI assistant integration with Adobe Experience Manager Asset Essentials</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>L’assistant IA récupère désormais automatiquement les <b>images approuvées par la marque</b> directement à partir d’Adobe Experience Manager Assets lors de la génération d’e-mails, de pages web et de notifications push. Cela élimine la nécessité d’une recherche manuelle dans Assets ou de recourir à des solutions de secours d’IA génériques, en s’assurant que chaque élément visuel correspond parfaitement et est conforme à la marque.</p>
+<p>The AI Assistant now automatically fetches <b>brand-approved images</b> directly from your Adobe Experience Manager Assets when generating Emails, Web pages, and Push notifications. This eliminates the need to manually search the Assets or rely on generic AI fallbacks, ensuring every visual is perfectly accurate and brand-compliant.</p>
 </td>
 </tr>
 </tbody>
@@ -430,18 +356,18 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées à la gesti
 <table>
 <thead>
 <tr>
-<th><strong>Améliorations de l’assistant IA pour la génération de contenu</strong><br/></th>
+<th><strong>AI Assistant for content generation enhancements</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Cette version améliore l’expérience de génération de contenu de l’<strong>assistant IA</strong> avec une modification d’images plus puissante, une extraction de marque plus fiable et une prise en charge de l’authenticité du contenu dans le flux d’images :</p>
+<p>This release improves the <strong>AI Assistant</strong> content generation experience with stronger image editing, more reliable brand extraction, and content authenticity support in the image flow:</p>
 <ul>
-<li>La <strong>modification d’images par l’IA</strong> est désormais disponible dans le flux de génération d’images et inclut la prise en charge de modèles Firefly tiers, afin que vous puissiez affiner les images sources sans quitter l’assistant.</li>
-<li>L’<strong>extraction du signal de marque</strong> offre des résultats de meilleure qualité. Lorsque les pages sélectionnées ne comportent pas suffisamment de signal, des systèmes de compensation améliorés ajoutent désormais les couleurs, la typographie, les directives d’écriture, ainsi que d’autres attributs de marque.</li>
-<li>L’<strong>extraction de marque basée sur le web</strong> est plus fiable. L’amélioration de la gestion du délai d’expiration empêche les pages lentes, les fenêtres contextuelles et les bannières de cookies de bloquer l’extraction.</li>
-<li>L’<strong>authenticité du contenu</strong> est désormais prise en charge dans le flux d’images. Cette version corrige également les problèmes de chargement des images de référence et améliore la gestion des images sans manifeste C2PA existant.</li>
+<li><strong>AI image editing</strong> is now available in the image generation flow, including Firefly third-party model support, so you can refine source images without leaving the assistant.</li>
+<li><strong>Brand signal extraction</strong> delivers higher-quality results. When selected pages lack sufficient signal, improved fallbacks now populate colors, typography, writing guidelines, and other brand attributes.</li>
+<li><strong>Web-based brand extraction</strong> is more reliable. Improved timeout handling helps prevent slow pages, popups, and cookie banners from blocking extraction.</li>
+<li><strong>Content authenticity (CAI)</strong> is now supported in the image flow. This release also fixes reference image upload issues and improves handling for images without an existing C2PA manifest.</li>
 </ul>
 </td>
 </tr>
@@ -449,6 +375,7 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées à la gesti
 </table>
 
 +++
+-->
 
 ### Création de rapports {#june-26-reporting}
 
