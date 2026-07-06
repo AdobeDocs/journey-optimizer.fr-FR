@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2eb9660084d1a875a70f0ef0794e9edae0dbca18
+source-git-commit: 3b047112c11396b0a7806478100093225ca7dbb3
 workflow-type: tm+mt
-source-wordcount: 3602
+source-wordcount: 3295
 ht-degree: 83%
 
 ---
@@ -47,6 +47,25 @@ ht-degree: 83%
 >[!NOTE]
 >
 >Les fonctionnalités répertoriées dans ces notes de mise à jour incluent une **date de disponibilité** indiquant le moment auquel chaque modification devient accessible dans votre environnement. Des entrées dans les accordéons **Bientôt disponible** sont attendues dans les prochains jours ou les prochaines semaines. Les informations de cette section peuvent faire l’objet de modifications.
+
+## Mises à jour de juillet 2026 {#july-26-updates}
+
+<table>
+<thead>
+<tr>
+<th><strong>Ciblage basé sur des fichiers dans des campagnes orchestrées</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Les campagnes orchestrées prennent désormais en charge le chargement d’un fichier <strong>CSV ou TXT</strong> directement dans la zone de travail de campagne en tant qu’audience de ciblage, sans avoir à ingérer le fichier dans Adobe Experience Platform au préalable. Les données du fichier sont utilisées au moment de l’exécution et ne sont pas conservées en tant que jeu de données Adobe Experience Platform. Lors de la configuration de fichiers, vous pouvez définir des mappages de colonnes, des types de données, une gestion des NULL et des politiques d’erreur par colonne. Les lignes dont la validation a échoué sont rejetées et consignées avant l’exécution de la campagne, ce qui permet de garder l’audience propre sans pré-traitement manuel. Cela est particulièrement adapté aux envois ad hoc ou aux campagnes de liste de partenaires pour lesquelles la création d’un pipeline d’ingestion complet n’est pas pratique.</p>
+<p>Pour plus d'informations, consultez la <a href="../orchestrated/activities/load-file.md">documentation détaillée</a>.</p>
+<p> Date de disponibilité : 6 juillet 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Notes de mise à jour du 26 juin {#june-26-rn}
 
@@ -158,7 +177,7 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées aux parcour
   Date de disponibilité : 18 juin 2026. Cette fonctionnalité sera progressivement déployée dans toutes les régions au cours des prochains jours.
 
 
-+++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications.**
++++ Bientôt disponible : **les informations ci-dessous peuvent faire l’objet de modifications.**
 
 * **Dates de début et de fin dans l’en-tête du parcours** : lorsque les dates de début et/ou de fin sont configurées pour un parcours actif, elles sont désormais affichées dans l’**en-tête du parcours** à côté du badge de statut actif. Le libellé affiché s’adapte si une date est à venir ou est déjà dépassée.
 
@@ -171,27 +190,6 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées aux campagn
 * **Personnalisation en boucle des données relationnelles** - L’éditeur de personnalisation prend désormais en charge un bloc Boucle qui effectue une itération sur les collections relationnelles, telles que les commandes, les comptes ou les réservations, et effectue le rendu d’un bloc de contenu par enregistrement dans un seul e-mail ou SMS. Les collections sont configurées par le biais du sélecteur de données à l’aide de jetons de personnalisation, sans écriture d’expression requise. [En savoir plus](../orchestrated/add-personalization.md#enrichment-collections)
 
   Date de disponibilité : 26 juin 2026
-
-+++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications.**
-
-<table>
-<thead>
-<tr>
-<th><strong>Ciblage basé sur des fichiers dans des campagnes orchestrées</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Les campagnes orchestrées prennent désormais en charge le chargement d’un fichier <strong>CSV ou TXT</strong> directement dans la zone de travail de campagne en tant qu’audience de ciblage, sans avoir à ingérer le fichier dans Adobe Experience Platform au préalable. Les données du fichier sont utilisées au moment de l’exécution et ne sont pas conservées en tant que jeu de données Adobe Experience Platform. Lors de la configuration de fichiers, vous pouvez définir des mappages de colonnes, des types de données, une gestion des NULL et des politiques d’erreur par colonne. Les lignes dont la validation a échoué sont rejetées et consignées avant l’exécution de la campagne, ce qui permet de garder l’audience propre sans pré-traitement manuel. Cela est particulièrement adapté aux envois ad hoc ou aux campagnes de liste de partenaires pour lesquelles la création d’un pipeline d’ingestion complet n’est pas pratique.</p>
-<p>Cette fonctionnalité est disponible uniquement pour un nombre limité d’organisations (disponibilité limitée). Pour en bénéficier, contactez votre représentant ou représentante Adobe.</p>
-<p> Date de disponibilité : 30 juin 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-+++
 
 ### Prise de décision {#june-26-decisioning}
 
@@ -219,14 +217,6 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées à la prise
 
   Date de disponibilité : 18 juin 2026
 
-+++ Bientôt disponible : **les informations ci-dessous peuvent faire l’objet de modifications.**
-
-* **Attributs d’élément dynamiques** : les attributs personnalisés d’éléments de décision peuvent désormais être personnalisés au moment de la diffusion à l’aide des données de profils, contextuelles et d’audience. Cela supprime la nécessité de conserver des offres en double pour les variations de contenu mineures, ce qui permet aux spécialistes marketing de gérer un plus petit nombre d’éléments de décision plus flexibles.
-
-  Date de disponibilité : fin juin 2026
-
-+++
-
 ### Gestion de contenu {#june-26-content}
 
 Les fonctionnalités et améliorations suivantes ont été ajoutées à la gestion de contenu dans cette version.
@@ -252,29 +242,7 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées à la gesti
 </tbody>
 </table>
 
-
 +++ Bientôt disponible : **les informations ci-dessous peuvent faire l’objet de modifications.**
-
-<table>
-<thead>
-<tr>
-<th><strong>Simuler des variations de contenu - Mise à jour de l’expérience et de la génération de variantes par IA</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Deux mises à jour sont désormais disponibles pour le workflow <strong>Simuler du contenu</strong> :</p>
-<ul>
-<li><strong>Nouveau chemin par défaut</strong> : désormais, cliquez sur <strong>Simuler du contenu</strong> pour ouvrir l’expérience <strong>Simuler des variations de contenu</strong> par défaut. À partir d’un même écran, vous pouvez ajouter un exemple d’entrée manuellement ou à partir d’un fichier CSV/JSON, réutiliser des utilisateurs et utilisatrices simulés, prévisualiser le rendu et envoyer des BAT. Pour prévisualiser le contenu avec des profils de test Adobe Experience Platform, envoyer des BAT avec des données de profil de test ou vérifier le rendu de la réception des e-mails et les rapports de spam, cliquez sur <strong>Simuler du contenu</strong>, puis sélectionnez <strong>Simuler du contenu (profils AEP)</strong> dans la liste déroulante.</li>
-<li><strong>Variantes de contenu générées par l’IA</strong> : dans l’expérience <strong>Simuler des variations de contenu</strong>, cliquez sur <strong>Générer</strong> pour utiliser l’IA pour créer automatiquement des variantes de contenu. Le système analyse votre message, détecte les champs de personnalisation et les branches conditionnelles et renseigne des valeurs réalistes afin que vous puissiez valider le rendu sans avoir à créer manuellement chaque variante.</li>
-</ul>
-<p>Pour plus d'informations, consultez la <a href="../test-approve/simulate-sample-input.md">documentation détaillée</a>.</p>
-<p>Date de disponibilité : fin juin 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -338,7 +306,7 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées à la gesti
 +++
 
 
-### Canal e-mail {#june-26-email}
+### Canal E-mail {#june-26-email}
 
 Les améliorations suivantes ont été ajoutées au canal e-mail dans cette version.
 
@@ -391,7 +359,7 @@ Les améliorations suivantes ont été ajoutées au canal e-mail dans cette vers
 <table>
 <thead>
 <tr>
-<th><strong>Vérification de contenu dans le Designer Email</strong><br/></th>
+<th><strong>Vérification du contenu dans le Concepteur d’e-mail</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -412,27 +380,6 @@ Les améliorations suivantes ont été ajoutées au canal e-mail dans cette vers
 * **Convertisseur d’image vers HTML amélioré** : une nouvelle version du convertisseur d’image vers HTML est désormais disponible et offre une précision améliorée pour la génération HTML. Cette mise à jour utilise des modèles LLM de niveau supérieur pour fournir une sortie HTML plus précise et plus fiable à partir d’entrées sous forme d’image.
 
   Date de disponibilité : 18 juin 2026
-
-+++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications.**
-
-<table>
-<thead>
-<tr>
-<th><strong>Modules dans le Concepteur d’e-mail</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Le Concepteur d’e-mail comprend désormais une bibliothèque de modules de disposition prêts à l’emploi, tels que des en-têtes, des cartes de produits, des blocs d’informations et des pieds de page, que vous pouvez faire glisser directement dans la zone de travail de votre e-mail.</p>
-<p>Chaque module est préconfiguré avec des propriétés modifiables (image, titre, texte, bouton, liens) et peut être entièrement personnalisé via l’interface WYSIWYG, ce qui accélère la création d’e-mails sans que vous ayez à créer des structures à partir de zéro.</p>
-<p>Date de disponibilité : fin juin 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-+++
 
 ### Contenu et intégrations {#june-26-integration}
 
@@ -547,7 +494,7 @@ Les améliorations suivantes seront apportées à la messagerie mobile dans cett
 
 * **Estimation des clics pour le rapport SMS** - Une nouvelle mesure Estimation des clics est désormais disponible dans les Parcours, les campagnes et les rapports Canal pour les e-mails et les SMS. Cette mesure exclut le trafic identifié de robots et d’interactions non humaines afin de fournir une vue plus claire de l’engagement réel de la clientèle. La mesure Clics existante reste disponible et continue d’indiquer le nombre total de clics.
 
-+++ Prochainement — **Les informations ci-dessous peuvent faire l’objet de modifications.**
++++ Bientôt disponible : **les informations ci-dessous peuvent faire l’objet de modifications.**
 
 * **Canal LINE - Modifications de création** : l’interface d’utilisation du canal LINE a été mise à niveau avec des fonctionnalités avancées de création de messages. Cette version apporte la prise en charge de **plusieurs formats de message**, notamment Texte, Image, Image, Plan d’image, Carrousel et Flex (éditeur JSON), ainsi que les prévisualisations des appareils en temps réel. Les utilisateurs et les utilisatrices peuvent désormais gérer des messages groupés comportant jusqu’à 5 messages dans un ordre spécifique (avec des commandes d’ajout, de suppression et de réorganisation) et tirer parti de l&#39;éditeur de personnalisation intégré pour une messagerie dynamique et approuvée.
 
