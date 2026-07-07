@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: CNIL, tracking, pixel, e-mail, consentement, opt-out, confidentialité
-source-git-commit: 66b0ca498ae2b39575ed57118739234d1f54c887
+source-git-commit: b55af0fe5510f37049713fe8d0b7a2ac73516323
 workflow-type: tm+mt
 source-wordcount: '1466'
 ht-degree: 1%
@@ -24,9 +24,7 @@ ht-degree: 1%
 
 >[!ENDSHADEBOX]
 
->[!NOTE]
->
->Cette page est fournie à titre d’information uniquement. Il ne s&#39;agit pas d&#39;un avis juridique et ne garantit pas votre conformité avec la loi applicable. Les fonctionnalités du produit Adobe Journey Optimizer décrites ci-dessous sont des éléments de base qui, configurés et utilisés de manière appropriée, peuvent prendre en charge une implémentation conforme. Chaque client est responsable de déterminer et de respecter ses obligations en vertu de la loi applicable.
+Cette page est fournie à titre d’information uniquement. Il ne s&#39;agit pas d&#39;un avis juridique et ne garantit pas votre conformité avec la loi applicable. Les fonctionnalités du produit Adobe Journey Optimizer décrites ci-dessous sont des éléments de base qui, configurés et utilisés de manière appropriée, peuvent prendre en charge une implémentation conforme. Chaque client est responsable de déterminer et de respecter ses obligations en vertu de la loi applicable.
 
 ## Vue d’ensemble {#overview}
 
@@ -38,11 +36,11 @@ Alors que la CNIL et d’autres organismes de réglementation clarifient les con
 
 Adobe Journey Optimizer fournit des contrôles qui peuvent aider les clients à gérer le suivi des ouvertures au niveau de la diffusion. Il incombe aux clients de déterminer leurs propres obligations de conformité en vertu des conseils de la CNIL et d’autres lois applicables, mais ces fonctionnalités peuvent soutenir les efforts de conformité des clients.
 
-## Qu’est-ce qu’un pixel de tracking e-mail ? {#tracking-pixel}
+### Qu’est-ce qu’un pixel de tracking e-mail ? {#tracking-pixel}
 
 Un pixel de tracking d’e-mail est une image transparente 1x1 incorporée dans l’HTML d’un e-mail. Lorsque le client de messagerie du destinataire charge cette image, le pixel envoie un ping à un serveur qui enregistre des données telles qu’une date et une heure, un type d’appareil, un client de messagerie et parfois une adresse IP pour un emplacement approximatif. Ce journal est ensuite lié à l’enregistrement d’un destinataire, ce qui permet aux spécialistes marketing de voir si un e-mail est ouvert.
 
-## Service clientèle {#support}
+### Service clientèle {#support}
 
 Les clients qui demandent de l’aide pour mettre en œuvre les modifications décrites ci-dessus peuvent interagir avec leur écosystème Adobe existant. Pour toute question technique sur les fonctionnalités Adobe référencées, contactez votre responsable du succès client ou votre gestionnaire de compte technique.
 
