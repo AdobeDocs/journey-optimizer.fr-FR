@@ -5,7 +5,7 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3203d6e4c48314d0f361a492fe8a71ef4a23f1b5
+source-git-commit: 958f85bb600cc3534070c77ef3ad1c76d4ce4d2d
 workflow-type: tm+mt
 source-wordcount: '3421'
 ht-degree: 97%
@@ -53,7 +53,7 @@ ht-degree: 97%
    + Travailler efficacement {#work-efficiently}
       + [Naviguer dans l’interface](using/start/user-interface.md)
       + [Rechercher, filtrer, organiser](using/start/search-filter-categorize.md)
-      + [Questions fréquentes sur la résolution des problèmes](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [Questions fréquentes sur la résolution des problèmes](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Accessibilité](using/start/accessibility.md)
       + [Parcours ou campagnes](using/start/journeys-vs-campaigns.md)
       + {hide-from-toc}[Parcours ou campagnes - 2](using/start/journeys-vs-campaigns-v2.md)
@@ -222,7 +222,7 @@ ht-degree: 97%
          + [Enrichissement](using/orchestrated/activities/enrichment.md)
          + [Branchement](using/orchestrated/activities/fork.md)
          + [Requête incrémentale](using/orchestrated/activities/incremental-query.md)
-         + {hide-from-toc}[Charger le fichier](using/orchestrated/activities/load-file.md)
+         + [Chargement de fichier](using/orchestrated/activities/load-file.md)
          + [Lecture d’audience](using/orchestrated/activities/read-audience.md)
          + [Réconciliation](using/orchestrated/activities/reconciliation.md)
          + [Enregistrer l’audience](using/orchestrated/activities/save-audience.md)
