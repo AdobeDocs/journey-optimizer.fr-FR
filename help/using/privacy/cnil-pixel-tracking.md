@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: CNIL, tracking, pixel, e-mail, consentement, opt-out, confidentialité
-source-git-commit: 9ecd8953d7bdd2fe78c28be104fbb954c263338a
+source-git-commit: dc428295d1916580c1b15eacce987696f178668b
 workflow-type: tm+mt
 source-wordcount: '1464'
 ht-degree: 1%
@@ -154,4 +154,3 @@ AJO has no native equivalent of Campaign v8's "lastPixelRefusalDate" field or re
 ### Création de rapports {#reporting}
 
 Le reporting sur les e-mails de Adobe Journey Optimizer fournit des mesures d’ouverture et de clic via les rapports [dynamiques](../reports/live-report.md) et [rapports Customer Journey Analytics](../reports/report-gs-cja.md). Lorsque le suivi **[!UICONTROL Ouvertures d’e-mails]** est désactivé pour un message, les données ouvertes ne sont pas collectées pour cette diffusion ; les rapports ne reflètent que les clics et d’autres signaux d’engagement.
-
