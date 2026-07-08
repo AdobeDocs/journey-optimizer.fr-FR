@@ -12,10 +12,10 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
+source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
-source-wordcount: 971
-ht-degree: 89%
+source-wordcount: 981
+ht-degree: 85%
 
 ---
 
@@ -33,7 +33,7 @@ Une fois que vous avez [créé une campagne orchestrée](gs-campaign-creation.md
 
 À ce stade de la configuration, la zone de travail de la campagne orchestrée comporte une icône de démarrage, qui représente le début de votre campagne orchestrée. Pour ajouter votre première activité, cliquez sur le bouton **+** associé à l’icône de démarrage.
 
-La liste des activités pouvant être ajoutées à la zone de travail de la campagne orchestrée s’affiche. Les activités disponibles dépendent de votre position dans la zone de travail de la campagne orchestrée. Par exemple, lorsque vous ajoutez votre première activité pour démarrer votre campagne orchestrée en ciblant une audience, fractionner le chemin de campagne orchestrée ou définir une activité **Attente** pour retarder l’exécution de la campagne. D’autres choix s’offrent à vous après une activité **Créer une audience** : vous pouvez affiner votre cible avec des activités de ciblage, envoyer une diffusion à votre audience avec des activités de canal ou organiser le processus de la campagne orchestrée avec des activités de contrôle de flux.
+La liste des activités pouvant être ajoutées à la zone de travail de la campagne orchestrée s’affiche. Les activités disponibles dépendent de votre position dans la zone de travail de la campagne orchestrée. Par exemple, lorsque vous ajoutez votre première activité, vous pouvez démarrer votre campagne orchestrée en définissant une audience (par exemple, avec **Créer une audience**, **Lecture d’audience** ou **Chargement de fichier**), en fractionnant le chemin de campagne orchestré ou en définissant une activité **Attente** pour retarder l’exécution de la campagne orchestrée. D’autres choix s’offrent à vous après une activité **Créer une audience** : vous pouvez affiner votre cible avec des activités de ciblage, envoyer une diffusion à votre audience avec des activités de canal ou organiser le processus de la campagne orchestrée avec des activités de contrôle de flux.
 
 ![](assets/orchestrated-start.png){zoomable="yes"}
 

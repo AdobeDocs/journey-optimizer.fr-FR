@@ -13,9 +13,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
-source-wordcount: 1687
+source-wordcount: 1697
 ht-degree: 5%
 
 ---
@@ -35,11 +35,11 @@ ht-degree: 5%
 
 L’activité **[!UICONTROL Chargement de fichier]** est une activité **[!UICONTROL Gestion des données]**. Utilisez-la pour travailler avec des profils et des données stockés dans un fichier externe. Il prend en charge le **ciblage basé sur des fichiers** dans les campagnes orchestrées lorsque votre liste de destinataires provient d’un système externe (par exemple, une exportation CRM ou un fichier de partenaire) et que vous souhaitez exécuter une campagne sans créer d’abord un pipeline d’ingestion Adobe Experience Platform complet.
 
+Lors de la configuration de fichiers, vous pouvez définir des mappages de colonnes, des types de données, une gestion des NULL et des politiques d’erreur par colonne. Les lignes dont la validation a échoué sont rejetées et consignées avant l’exécution de la campagne, ce qui permet de garder l’audience propre sans pré-traitement manuel.
+
 >[!AVAILABILITY]
 >
->L’activité **Chargement de fichier** est disponible dans **Disponibilité limitée** pour un ensemble d’organisations. Pour obtenir l’accès, contactez votre représentant ou représentante Adobe. Pour connaître les phases de disponibilité, consultez le cycle de publication de [&#128279;](../../rn/releases.md).
->
->L’activité ne peut actuellement pas être utilisée avec **Healthcare Shield**.
+>L’activité **Charger le fichier** n’est actuellement pas disponible pour être utilisée avec **Healthcare Shield**.
 
 ## Autorisations {#permissions}
 

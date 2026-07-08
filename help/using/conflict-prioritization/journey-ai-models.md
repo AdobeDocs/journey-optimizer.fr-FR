@@ -11,14 +11,14 @@ feature_v2:
   - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
 subfeature_v2:
   - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
+source-git-commit: 959b50c98e32afb2b3fa52692697cd75833932be
 workflow-type: tm+mt
-source-wordcount: 686
+source-wordcount: 701
 ht-degree: 16%
 
 ---
 
-# Utilisation des modèles d’IA pour classer les parcours {#journey-ai-models}
+# Utiliser les modèles d’IA pour classer les parcours {#journey-ai-models}
 
 >[!BEGINSHADEBOX]
 
@@ -29,6 +29,8 @@ ht-degree: 16%
 >[!AVAILABILITY]
 >
 >Cette fonctionnalité est actuellement en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
+>
+>Les modèles d’IA ne sont disponibles que pour les organisations qui ont acheté le module complémentaire **Decisioning**.
 
 [!DNL Adobe Journey Optimizer] vous permet de contrôler les parcours qu’un profil peut entrer lorsqu’ils sont qualifiés pour plus que ce que le système autorise. Pour ce faire, vous pouvez utiliser [ensembles de règles](rule-sets.md) pour définir des limites sur l’entrée de parcours ou la simultanéité. Lorsqu’un profil est éligible à plus de parcours que la limite ne le permet, la priorité attribuée à chaque parcours détermine les parcours sélectionnés.
 

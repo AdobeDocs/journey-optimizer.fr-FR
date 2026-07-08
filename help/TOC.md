@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 006ebca44d2dd0ba2c4bd95a67444506d97daabf
+source-git-commit: 958f85bb600cc3534070c77ef3ad1c76d4ce4d2d
 workflow-type: tm+mt
-source-wordcount: '3383'
-ht-degree: 98%
+source-wordcount: '3421'
+ht-degree: 97%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 98%
    + [Mises à jour de la documentation](using/rn/documentation-updates.md)
    + {hide-from-toc}[Amélioration de la zone de travail de parcours](using/rn/new-canvas.md)
    + {hide-from-toc}[Migration des audiences par lots depuis la qualification d’audience](using/building-journeys/aq-batch-audiences-migration.md)
+   + {hide-from-toc}[Conseil CNIL sur les pixels de tracking email](using/privacy/cnil-pixel-tracking.md)
 + Commencer {#get-started}
    + [Commencer ici](/help/rp_landing_pages/get-started-landing-page.md)
    + [hub d’intégration](using/start/onboarding-hub.md)
@@ -221,7 +222,7 @@ ht-degree: 98%
          + [Enrichissement](using/orchestrated/activities/enrichment.md)
          + [Branchement](using/orchestrated/activities/fork.md)
          + [Requête incrémentale](using/orchestrated/activities/incremental-query.md)
-         + {hide-from-toc}[Charger le fichier](using/orchestrated/activities/load-file.md)
+         + [Chargement de fichier](using/orchestrated/activities/load-file.md)
          + [Lecture d’audience](using/orchestrated/activities/read-audience.md)
          + [Réconciliation](using/orchestrated/activities/reconciliation.md)
          + [Enregistrer l’audience](using/orchestrated/activities/save-audience.md)
@@ -335,11 +336,13 @@ ht-degree: 98%
    + Canal in-app {#in-app}
       + [Canal in-app](/help/rp_landing_pages/in-app-landing-page.md)
       + [Commencer avec les notifications in-app](using/in-app/get-started-in-app.md)
-      + [Conditions préalables pour le canal in-app](using/in-app/inapp-configuration.md)
       + [Créer un message mobile in-app](using/in-app/create-in-app.md)
       + [Créer un message web in-app](using/in-app/create-in-app-web.md)
       + [Concevoir votre contenu in-app](using/in-app/design-in-app.md)
       + [Vérifier et envoyer votre notification in-app](using/in-app/send-in-app.md)
+      + Configurer le canal in-app {#configure-inapp}
+         + [Configuration et conditions préalables du canal in-app](using/in-app/inapp-configuration.md)
+         + [Configuration de la messagerie web in-app dans Web SDK](using/in-app/web-in-app-messaging.md)
    + Canal des notifications push {#push}
       + [Canal des notifications push](/help/rp_landing_pages/push-landing-page.md)
       + [Commencer avec les notifications push](using/push/get-started-push.md)
@@ -360,7 +363,7 @@ ht-degree: 98%
       + [Gérer les opt-out pour les messages mobiles](using/mobile/mobile-opt-out.md)
       + [Configurer des sous-domaines SMS](using/mobile/mobile-subdomains.md)
       + [Bonnes pratiques pour l’optimisation des coûts des SMS](using/mobile/mobile-cost-optimization.md)
-      + [Générer un rapport d’utilisation des SMS](using/mobile/sms-usage-report.md)
+      + [Générer un rapport d’utilisation SMS](using/mobile/sms-usage-report.md)
       + Configurer le canal mobile {#configure-mobile}
          + [Commencer avec la configuration mobile](using/mobile/mobile-configuration.md)
          + [Configurer le fournisseur Sinch](using/mobile/mobile-configuration-sinch.md)
@@ -391,7 +394,10 @@ ht-degree: 98%
          + [Utiliser l’éditeur non visuel](using/web/web-non-visual-editor.md)
          + [Gérer les modifications](using/web/manage-web-modifications.md)
          + [Surveiller vos expériences web](using/web/monitor-web-experiences.md)
+      + Applications monopages et Web SDK {#web-sdk}
          + [Créer des applications monopage](using/web/web-spa.md)
+         + [Implémentation d’applications monopages](using/web/web-spa-implementation.md)
+         + [Journey Optimizer avec Experience Platform Web SDK](using/web/web-sdk.md)
    + Expérience basée sur du code {#code-based-experience}
       + [Expérience basée sur du code](/help/rp_landing_pages/code-based-experience-landing-page.md)
       + [Commencer avec le canal basé sur du code](using/code-based/get-started-code-based.md)
@@ -506,6 +512,7 @@ ht-degree: 98%
       + [Créer un fragment](using/content-management/create-fragments.md)
       + [Enregistrer du contenu existant en tant que fragment](using/content-management/save-fragments.md)
       + [Fragments personnalisables](using/content-management/customizable-fragments.md)
+      + [Fragments dynamiques](using/content-management/dynamic-fragments.md)
       + [Gérer les fragments](using/content-management/manage-fragments.md)
       + {hide-from-toc}[Ajouter des attributs contextuels aux fragments publiés](using/content-management/manage-fragments-contextual-attributes.md)
    + Contenu dynamique {#dynamic}

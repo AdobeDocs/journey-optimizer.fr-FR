@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: f8905d41c1ec293d453f3f3992c4f91b94c3357f
 workflow-type: tm+mt
 source-wordcount: 366
-ht-degree: 79%
+ht-degree: 92%
 
 ---
 
@@ -50,7 +50,7 @@ Pour améliorer davantage la surveillance de l’expérience web, vous pouvez é
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_click_tracking"
 >title="Utiliser le suivi des clics"
->abstract="Effectuez le suivi des clics sur n’importe quel élément de votre page web pour surveiller les interactions utilisateur. Sélectionnez un élément, choisissez **Cliquer sur l’élément de suivi** dans le menu contextuel, puis ajoutez un libellé significatif. Les données suivies apparaissent dans vos rapports web, ce qui vous aide à comprendre comment les utilisateurs interagissent avec votre contenu."
+>abstract="Effectuez le suivi des clics sur n’importe quel élément de votre page web pour surveiller les interactions utilisateur. Sélectionnez un élément, choisissez **Élément de suivi des clics** dans le menu contextuel, puis ajoutez un libellé explicite. Les données suivies apparaissent dans vos rapports web, ce qui vous aide à comprendre comment les utilisateurs et utilisatrices interagissent avec votre contenu."
 
 Le designer web vous permet de sélectionner n’importe quel élément de votre site web et d’effectuer le suivi des clics sur cet élément.
 

@@ -26,10 +26,10 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 4a7f98ce24af02658620485840d11190c0954c09
 workflow-type: tm+mt
-source-wordcount: 1068
-ht-degree: 97%
+source-wordcount: 1158
+ht-degree: 90%
 
 ---
 
@@ -48,6 +48,29 @@ Le SDK web Experience Platform prend en charge l’interrogation des solutions
 Vous pouvez mettre en œuvre la gestion des décisions de deux façons différentes à l’aide du [SDK web de Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr#vue-d%E2%80%99ensemble-des-vid%C3%A9os). La première est destinée aux développeurs et nécessite des connaissances en matière de sites web et de programmation. L’autre méthode consiste à utiliser l’interface utilisateur d’Adobe Experience Platform pour configurer les offres. Seul un petit script à référencer dans l’en-tête de la page HTML sera nécessaire.
 
 Pour plus d’informations sur la diffusion d’offres personnalisées à l’aide du SDK web Adobe Experience Platform, consultez la documentation Adobe Experience Platform sur la [gestion des décisions](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=fr#activation-de-l%E2%80%99offer-decisioning).
+
+### Portées de décision {#decision-scopes}
+
+Une portée de décision est la chaîne codée en Base64 d’un objet JSON contenant les identifiants d’activité et d’emplacement que le service Offer Decisioning doit utiliser pour proposer des offres.
+
+*JSON de la portée de décision :*
+
+```json
+{
+  "activityId":"xcore:offer-activity:11cfb1fa93381aca",
+  "placementId":"xcore:offer-placement:1175009612b0100c"
+}
+```
+
+*Chaîne codée en Base64 de la portée de décision :*
+
+```json
+"eyJhY3Rpdml0eUlkIjoieGNvcmU6b2ZmZXItYWN0aXZpdHk6MTFjZmIxZmE5MzM4MWFjYSIsInBsYWNlbWVudElkIjoieGNvcmU6b2ZmZXItcGxhY2VtZW50OjExNzUwMDk2MTJiMDEwMGMifQ=="
+```
+
+>[!TIP]
+>
+>Vous pouvez copier la valeur de la portée de décision à partir de la page **Présentation des activités** de l’interface utilisateur.
 
 ## SDK web Adobe Experience Platform {#aep-web-sdk}
 
@@ -277,6 +300,99 @@ let offerImageURL = offer['image'];
 
 document.getElementById("offerDescription").innerHTML = offerDescription;
 document.getElementById('offerImage').src = offerImageURL;
+```
+
+### Valeurs de plusieurs portées de décision {#multiple-decision-scopes}
+
+Vous pouvez également envoyer plusieurs portées de décision en un seul appel `sendEvent`. Dans cet exemple, la réponse renvoie une proposition pour chaque portée demandée.
+
+**Exemple**:
+
+```javascript
+alloy("sendEvent", {
+    "decisionScopes":
+    [
+    "eyJhY3Rpdml0eUlkIjoieGNvcmU6b2ZmZXItYWN0aXZpdHk6MTFjZmIxZmE5MzM4MWFjYSIsInBsYWNlbWVudElkIjoieGNvcmU6b2ZmZXItcGxhY2VtZW50OjExNzUwMDk2MTJiMDEwMGMifQ==",
+    "eyJhY3Rpdml0eUlkIjoieGNvcmU6b2ZmZXItYWN0aXZpdHk6MTIyMjA4YjNhODc0MDU1OCIsInBsYWNlbWVudElkIjoieGNvcmU6b2ZmZXItcGxhY2VtZW50OjEyMjIwNDUyOTUxNGEyYzAifQ=="
+    ]
+});
+```
+
+La réponse contient une entrée de payload par étendue résolue :
+
+```json
+{
+    "requestId": "94c4f2f1-9218-43ce-afd3-eb0d853c5174",
+    "handle": [
+        {
+            "payload": [
+                {
+                    "id": "a2804dfb-a0ec-4df9-8311-59d3ecdeb642",
+                    "scope": "eyJhY3Rpdml0eUlkIjoieGNvcmU6b2ZmZXItYWN0aXZpdHk6MTFjZmIxZmE5MzM4MTEyMyIsInBsYWNlbWVudElkIjoieGNvcmU6b2ZmZXItcGxhY2VtZW50OjExNzUwMDk2MTJiMDExMjMifQ==",
+                    "activity": {
+                        "id": "xcore:offer-activity:11cfb1fa93381123",
+                        "etag": "1"
+                    },
+                    "placement": {
+                        "id": "xcore:offer-placement:1175009612b01123",
+                        "etag": "3"
+                    },
+                    "items": [
+                        {
+                            "id": "xcore:personalized-offer:11e36d4a22954123",
+                            "schema": "https://ns.adobe.com/experience/offer-management/content-component-text",
+                            "etag": "2",
+                            "data": {
+                                "id": "xcore:personalized-offer:11e36d4a22954123",
+                                "format": "text/text",
+                                "language": [
+                                    "en"
+                                ],
+                                "content": "20% Off on shipping",
+                                "characteristics": {
+                                    "foo2": "bar2"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "a2804dfb-a0ec-4df9-8311-59d3ecdeb642",
+                    "scope": "eyJhY3Rpdml0eUlkIjoieGNvcmU6b2ZmZXItYWN0aXZpdHk6MTFjZmIxZmE5MzM4MWFjYSIsInBsYWNlbWVudElkIjoieGNvcmU6b2ZmZXItcGxhY2VtZW50OjExNzUwMDk2MTJiMDEwMGMifQ==",
+                    "activity": {
+                        "id": "xcore:offer-activity:11cfb1fa93381aca",
+                        "etag": "2"
+                    },
+                    "placement": {
+                        "id": "xcore:offer-placement:1175009612b0100c",
+                        "etag": "1"
+                    },
+                    "items": [
+                        {
+                            "id": "xcore:personalized-offer:11e36d4a2295415d",
+                            "schema": "https://ns.adobe.com/experience/offer-management/content-component-imagelink",
+                            "etag": "1",
+                            "data": {
+                                "id": "xcore:personalized-offer:11e36d4a2295415d",
+                                "format": "image/png",
+                                "language": [
+                                    "en"
+                                ],
+                                "deliveryURL": "https://image.jpeg",
+                                "characteristics": {
+                                    "foo": "bar",
+                                    "foo1": "bar1"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "type": "personalization:decisions",
+            "eventIndex": 0
+        }
+    ]
+}
 ```
 
 <!--

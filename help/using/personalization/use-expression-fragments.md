@@ -24,10 +24,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: 8c3b899a9e1f4fbe5f951798337870f66beb1523
 workflow-type: tm+mt
-source-wordcount: 1346
-ht-degree: 95%
+source-wordcount: 1402
+ht-degree: 92%
 
 ---
 
@@ -227,6 +227,12 @@ Pour personnaliser les champs, procédez comme suit :
    ![](../content-management/assets/fragment-expression-use.png)
 
 Un exemple montrant comment ajouter des champs modifiables dans des fragments d’expression et remplacer leurs valeurs lors de la création d’un e-mail est disponible dans [cette section](../content-management/customizable-fragments.md#example).
+
+## Utiliser la résolution de fragment dynamique {#dynamic-resolution}
+
+Au lieu d’incorporer de manière statique un ID de fragment au moment de la conception, vous pouvez résoudre l’ID de fragment de manière dynamique au moment de l’exécution par destinataire. Cela permet à différents profils de recevoir des blocs de contenu entièrement différents au sein d’une même campagne ou d’un même parcours, en fonction des attributs de profil, des recherches de jeux de données ou des données contextuelles.
+
+[Découvrez comment utiliser les fragments dynamiques](../content-management/dynamic-fragments.md)
 
 ## Rompre l’héritage {#break-inheritance}
 
