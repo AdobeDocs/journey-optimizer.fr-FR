@@ -66,7 +66,7 @@ Avant de référencer un fragment de manière dynamique, il doit être publié d
 
 >[!NOTE]
 >
->Vous pouvez récupérer tous les identifiants de fragment publiés par programmation à l’aide de l’API `GET /fragments`. Consultez la documentation des API Journey Optimizer [](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"} pour plus d’informations.
+>Vous pouvez récupérer tous les identifiants de fragment publiés par programmation à l’aide de l’API `GET /fragments`. Consultez la documentation des API Journey Optimizer [&#128279;](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"} pour plus d’informations.
 
 ## Étape 2 : créez le message avec une référence de fragment dynamique {#author-message}
 
@@ -122,7 +122,7 @@ Si vous utilisez l’approche de recherche de jeu de données, mettez à jour le
 
 1. Pour chaque style ou variante (par exemple, `style1`, `style2`), renseignez la colonne `fragmentId` avec l’identifiant de fragment correspondant.
 
-1. Assurez-vous que le jeu de données est ingéré dans Adobe Experience Platform et [ activé pour la recherche](../data/lookup-aep-data.md).
+1. Assurez-vous que le jeu de données est ingéré dans Adobe Experience Platform et [&#x200B; activé pour la recherche](../data/lookup-aep-data.md).
 
 1. Vérifiez que tous les attributs de profil référencés dans le fragment dynamique sont capturés dans le message ou dans un fragment statique afin d’empêcher tout rendu vide au moment de l’exportation.
 
@@ -176,7 +176,7 @@ Avant d’activer la campagne, utilisez l’API de vérification de campagne pou
 
 1. Si le contenu du fragment est manquant ou incorrect, vérifiez que l’identifiant du fragment est valide, que le fragment est publié et que tous les attributs de profil requis sont présents.
 
-Pour plus d&#39;informations sur l&#39;API Campaign, consultez la documentation des API Journey Optimizer [](https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve){target="_blank"}.
+Pour plus d&#39;informations sur l&#39;API Campaign, consultez la documentation des API Journey Optimizer [&#128279;](https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve){target="_blank"}.
 
 ## Mécanismes de sécurisation et limitations {#guardrails}
 

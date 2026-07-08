@@ -43,7 +43,7 @@ Reportez-vous à la page [Configuration de l’extension de balise Web SDK](http
 
 Après avoir [installé](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html#install-the-web-sdk-tag-extension){target="_blank"} l’extension de balise Web SDK, suivez les étapes ci-dessous pour configurer l’extension pour la messagerie web in-app.
 
-Dans la section ****, cochez l&#39;option **[!UICONTROL Activer le stockage de personnalisation]**. Cette option permet au SDK Web de suivre les expériences qui ont été vues par l’utilisateur ou l’utilisatrice à travers les chargements de page.
+Dans la section **&#x200B;**, cochez l&#39;option **[!UICONTROL Activer le stockage de personnalisation]**. Cette option permet au SDK Web de suivre les expériences qui ont été vues par l’utilisateur ou l’utilisatrice à travers les chargements de page.
 
 ![Image illustrant l’option de stockage de la personnalisation dans la page de configuration de l’extension de balise.](assets/enable-personalization-storage.png)
 
@@ -74,7 +74,7 @@ Reportez-vous aux sections suivantes pour configurer l’extension de balise Web
 
    ![Image illustrant l’écran Modifier la règle.](assets/add-action.png)
 
-1. Dans la partie droite de l’écran, dans la section ****, activez l’option **[!UICONTROL Rendre les décisions de personnalisation visuelle]**.
+1. Dans la partie droite de l’écran, dans la section **&#x200B;**, activez l’option **[!UICONTROL Rendre les décisions de personnalisation visuelle]**.
 
    ![Image illustrant l’écran de configuration de la personnalisation.](assets/render-visual-personalization.png)
 

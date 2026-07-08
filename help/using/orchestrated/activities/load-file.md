@@ -5,10 +5,14 @@ title: Utiliser l'activité Chargement de fichier
 description: Découvrez comment utiliser l’activité Chargement de fichier pour cibler une audience de campagne orchestrée à partir d’un fichier CSV ou TXT sans ingérer le fichier dans Adobe Experience Platform
 exl-id: a7c3e891-4f2d-4b8e-9c1a-6e8f0d3b2a41
 version: Campaign Orchestration
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2:
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
 source-wordcount: 1697
@@ -39,7 +43,7 @@ Lors de la configuration de fichiers, vous pouvez définir des mappages de colon
 
 ## Autorisations {#permissions}
 
-Pour utiliser l’activité **[!UICONTROL Chargement de fichier]** dans une campagne orchestrée, les utilisateurs doivent disposer des autorisations appropriées. Les deux autorisations sont disponibles sous **** > **[!UICONTROL Adobe Journey Optimizer]** > **[!UICONTROL Campagnes orchestrées]** dans l’interface utilisateur des autorisations.
+Pour utiliser l’activité **[!UICONTROL Chargement de fichier]** dans une campagne orchestrée, les utilisateurs doivent disposer des autorisations appropriées. Les deux autorisations sont disponibles sous **&#x200B;**&#x200B;> **[!UICONTROL Adobe Journey Optimizer]** > **[!UICONTROL Campagnes orchestrées]** dans l’interface utilisateur des autorisations.
 
 * **[!UICONTROL Afficher le fichier dans les campagnes orchestrées]** — Accorde un accès en lecture seule. Les utilisateurs disposant de cette autorisation peuvent prévisualiser les résultats d’une campagne orchestrée contenant une activité **[!UICONTROL Chargement de fichier]**, mais ne peuvent pas ajouter l’activité ni charger de fichier.
 * **[!UICONTROL Gérer le fichier dans les campagnes orchestrées]** — Obligatoire pour ajouter une activité **[!UICONTROL Charger le fichier]** à la zone de travail de campagne et charger des fichiers. Attribuez cette autorisation à tout utilisateur devant créer ou configurer une activité **[!UICONTROL Chargement de fichier]**.
@@ -62,7 +66,7 @@ Avant de pouvoir ajouter une activité **[!UICONTROL Chargement de fichier]** à
 
 ### Créer une dimension cible de type fichier {#file-target-dimension}
 
-Un Dimension cible de profil ]**de type**[!UICONTROL  Fichier ]**permet aux campagnes orchestrées de résoudre les destinataires à partir d’un fichier chargé au lieu d’un schéma Adobe Experience Platform.**[!UICONTROL  Il définit l’espace de noms d’identité et le champ d’identifiant utilisés lorsque l’audience du fichier est traitée lors de l’exécution de la campagne.
+Un Dimension cible de profil **de type**&#x200B;[!UICONTROL &#x200B; Fichier &#x200B;]&#x200B;**permet aux campagnes orchestrées de résoudre les destinataires à partir d’un fichier chargé au lieu d’un schéma Adobe Experience Platform.** Il définit l’espace de noms d’identité et le champ d’identifiant utilisés lorsque l’audience du fichier est traitée lors de l’exécution de la campagne.
 
 Créez une dimension cible à partir de **[!UICONTROL Administration]** > **[!UICONTROL Configurations]** > **[!UICONTROL Dimension Target Campaign]**. [En savoir plus sur les dimensions cibles](../target-dimension.md)
 
@@ -84,7 +88,7 @@ Créez une configuration de canal dédiée qui utilise la dimension cible de typ
 
 1. Sous **[!UICONTROL Détails d’exécution]**, sélectionnez l’onglet **[!UICONTROL Campagnes orchestrées]** et activez la configuration des campagnes orchestrées.
 
-1. Dans le champ Dimension cible du profil ]**, sélectionnez la dimension cible de type fichier créée à l’étape précédente.**[!UICONTROL 
+1. Dans le champ Dimension cible du profil **, sélectionnez la dimension cible de type fichier créée à l’étape précédente.**
 
 1. Renseignez les champs de configuration de canal restants et enregistrez-les. [En savoir plus sur les configurations de canal pour les campagnes orchestrées](../channel-config.md)
 

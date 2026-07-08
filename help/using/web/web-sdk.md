@@ -30,7 +30,7 @@ Pour commencer à utiliser [!DNL Adobe Journey Optimizer], procédez comme suit.
 1. Parcourez les [conditions préalables](web-prerequisites.md), en particulier :
    * Configurez des [!DNL Adobe Experience Cloud Visual Editing Helper].
    * Activez la [!DNL Adobe Journey Optimizer] dans votre [flux de données](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=fr){target="_blank"}.
-   * Activez l’option [!UICONTROL  Politique de fusion Active-On-Edge ].
+   * Activez l’option [!UICONTROL &#x200B; Politique de fusion Active-On-Edge &#x200B;].
 
 1. Ajoutez l’option `renderDecisions` à vos événements. Définissez `renderDecisions` sur `true` pour le rendu automatique des propositions de contenu Journey Optimizer diffusées sur les surfaces de vos pages web.
 
@@ -83,7 +83,7 @@ Pour commencer à utiliser [!DNL Adobe Journey Optimizer], procédez comme suit.
 
 ## Rendu du contenu personnalisé {#rendering-personalized-content}
 
-Pour plus d’informations sur le rendu de contenu personnalisé](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/rendering-personalization-content.html){target="_blank"} consultez la documentation de Adobe Experience Platform Web SDK [.
+Pour plus d’informations sur le rendu de contenu personnalisé[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/rendering-personalization-content.html){target="_blank"} consultez la documentation de Adobe Experience Platform Web SDK .
 
 Les propositions Adobe Journey Optimizer pour les surfaces web sont traitées de la même manière que les propositions de portée de décision `__view__`. Plus précisément, lorsque `renderDecisions` option est définie sur `true` dans la commande `sendEvent`, elle est automatiquement rendue par le SDK Web.
 
