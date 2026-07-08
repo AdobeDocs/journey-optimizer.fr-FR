@@ -6,20 +6,13 @@ description: En savoir plus sur les mécanismes de sécurisation et les limitati
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ViPJaOPo-AT-naQqq-PaPw-BI5YupYuYAEy56AUEp2A
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
-source-wordcount: 756
+source-wordcount: 763
 ht-degree: 12%
 
 ---
@@ -88,13 +81,7 @@ Vous trouverez ci-dessous les mécanismes de sécurisation et les limitations lo
 
 * **Clés primaires composites** - La prise en charge des clés primaires composites avec les flux de chargement de fichiers n’est pas disponible pour le moment.
 
-## Limitations des activités {#activities-limitations}
-
-* **Limite des activités de canal** - Une campagne orchestrée prend en charge un maximum de 10 activités de canal (e-mail, SMS, notification push ou courrier). Seules les activités de canal sont prises en compte dans cette limite. Les activités de ciblage et de contrôle de flux ne sont pas prises en compte (par exemple, Créer une audience, Attendre, Fractionner, Enrichir, Réconcilier, Branchement, Fin ou Test).
-
-  Si vous dépassez la limite lors de l’enregistrement ou de la publication, l’opération échoue. Pour respecter la limite, réduisez le nombre d’activités de canal ou répartissez la diffusion des messages sur plusieurs campagnes orchestrées.
-
-* **Limite des activités du canevas** - Le nombre d’activités sur un canevas de campagne orchestré est limité à 500. Cette limite s’applique à tous les types d’activité sur la zone de travail. Il est distinct de la limite des activités de canal appliquée lors de la publication. Pour des raisons de maintenabilité et de performances, maintenez les workflows de moins de 100 activités en pratique.
+## Audiences
 
 * **Attributs scalaires uniquement** - Seuls les attributs scalaires sont pris en charge dans les définitions d’audience. Les mappages et les tableaux ne sont pas autorisés.
 
@@ -108,9 +95,19 @@ Vous trouverez ci-dessous les mécanismes de sécurisation et les limitations lo
 
 * **Optimisation de l’audience** - L’optimisation est vivement recommandée lorsque vous travaillez avec des définitions d’audience volumineuses ou complexes afin d’assurer les performances.
 
-* **Les audiences enregistrées sont statiques** - Les activités d’audience enregistrées sont statiques ; elles reflètent les données disponibles au moment de l’exécution de la campagne.
+* **Audiences enregistrées**
+
+   * **Les audiences enregistrées sont statiques** - Les activités d’audience enregistrées sont statiques ; elles reflètent les données disponibles au moment de l’exécution de la campagne.
 
 * **Aucun ajout à une audience enregistrée** - L’ajout à une activité Audience enregistrée n’est pas pris en charge. Toute modification nécessite un remplacement complet de l’audience.
+
+## Limitations des activités {#activities-limitations}
+
+* **Limite des activités de canal** - Une campagne orchestrée prend en charge un maximum de 10 activités de canal (e-mail, SMS, notification push ou courrier). Seules les activités de canal sont prises en compte dans cette limite. Les activités de ciblage, de gestion des données et de contrôle de flux ne sont pas comptabilisées (par exemple, création d’audience, chargement de fichier, attente, partage, enrichissement, réconciliation, branchement, fin ou test).
+
+  Si vous dépassez la limite lors de l’enregistrement ou de la publication, l’opération échoue. Pour respecter la limite, réduisez le nombre d’activités de canal ou répartissez la diffusion des messages sur plusieurs campagnes orchestrées.
+
+* **Limite des activités du canevas** - Le nombre d’activités sur un canevas de campagne orchestré est limité à 500. Cette limite s’applique à tous les types d’activité sur la zone de travail. Il est distinct de la limite des activités de canal appliquée lors de la publication. Pour des raisons de maintenabilité et de performances, maintenez les workflows de moins de 100 activités en pratique.
 
 ## Limitations des canaux
 

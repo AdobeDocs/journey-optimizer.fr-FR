@@ -6,18 +6,14 @@ description: Découvrir comment utiliser des activités de campagne orchestrée
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/OUKBJeSTaPJKav-NNCCxKZ8esY-62JkdRMmcwoJpZJ0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 77cddc86596959e06b20154c1e51c6b84375b39b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
-source-wordcount: 551
-ht-degree: 78%
+source-wordcount: 628
+ht-degree: 68%
 
 ---
 
@@ -29,11 +25,10 @@ ht-degree: 78%
 
 >[!ENDSHADEBOX]
 
-Les activités de campagnes orchestrées sont regroupées en trois catégories. Selon le contexte, les activités disponibles peuvent différer.
-
-Toutes les activités sont présentées dans les sections ci-dessous :
+Les activités de campagne orchestrées sont regroupées en plusieurs catégories. Selon le contexte, les activités disponibles peuvent différer. Toutes les activités sont présentées dans les sections ci-dessous :
 
 * [Activités de ciblage](#targeting)
+* [Activités de Data Management](#data-management)
 * [Activités de canal](#channel)
 * [Activités de contrôle de flux](#flow-control)
 
@@ -45,7 +40,7 @@ Toutes les activités sont présentées dans les sections ci-dessous :
 
 ## Mécanismes de sécurisation et limitations {#activity-guardrails}
 
-* **Limite des activités de canal** - Une campagne orchestrée prend en charge un maximum de 10 activités de canal au moment de la publication (e-mail, SMS, notification push ou courrier). Les activités de ciblage et de contrôle de flux ne sont pas prises en compte dans cette limite.
+* **Limite des activités de canal** - Une campagne orchestrée prend en charge un maximum de 10 activités de canal au moment de la publication (e-mail, SMS, notification push ou courrier). Les activités de ciblage, de gestion des données et de contrôle de flux ne sont pas prises en compte dans cette limite.
 
 * **Limite des activités de la zone de travail** - Le nombre d’activités sur la zone de travail est limité à 500. Pour des raisons de maintenabilité et de performances, maintenez les workflows de moins de 100 activités en pratique.
 
@@ -66,6 +61,14 @@ Les activités de ciblage disponibles sont les suivantes :
 * [Enrichissement](enrichment.md) : définissez des données supplémentaires à traiter dans votre campagne orchestrée. Avec cette activité, vous pouvez utiliser la transition entrante et configurer l’activité pour ajouter des données supplémentaires à la transition sortante.
 * [Réconciliation](reconciliation.md) : définissez le lien entre les données de Journey Optimizer et les données d’une table de travail, par exemple les données chargées à partir d’un fichier externe.
 * [Partage](split.md) : segmentez la population entrante en plusieurs sous-ensembles.
+
+## Activités de Data Management {#data-management}
+
+Ces activités vous permettent d’utiliser des données stockées dans des fichiers externes et de les rendre disponibles pour le ciblage, la personnalisation ou les activités en aval sur la zone de travail.
+
+Les activités de Data Management disponibles sont les suivantes :
+
+* [Chargement de fichier](load-file.md) (disponibilité limitée) : chargez un fichier CSV ou TXT sur la zone de travail et utilisez-le pour définir l’audience de la campagne (ciblage basé sur les fichiers) sans ingérer le fichier dans Adobe Experience Platform au préalable. Pour obtenir l’accès, contactez votre représentant ou représentante Adobe.
 
 ## Activités de canal {#channel}
 
