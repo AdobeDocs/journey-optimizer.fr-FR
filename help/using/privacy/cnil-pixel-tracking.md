@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: CNIL, tracking, pixel, e-mail, consentement, opt-out, confidentialité
-source-git-commit: b55af0fe5510f37049713fe8d0b7a2ac73516323
+source-git-commit: 9ecd8953d7bdd2fe78c28be104fbb954c263338a
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1464'
 ht-degree: 1%
 
 ---
@@ -64,11 +64,10 @@ Adobe Journey Optimizer permet aux spécialistes marketing de contrôler le suiv
 * **[!UICONTROL Ouvertures d’e-mails]** : contrôle si le pixel de suivi d’ouverture est inclus dans l’e-mail. Cette option est activée par défaut.
 * **[!UICONTROL Clics sur l’e-mail]** : contrôle le suivi des clics sur les liens. Cette option est également activée par défaut.
 
-Pour désactiver le suivi des ouvertures pour un e-mail spécifique, désélectionnez l’option **[!UICONTROL Ouvertures d’e-mails]** lors de la création de votre message. Lorsqu’elle est désactivée, cette option empêche la collecte des données de suivi des ouvertures pour cette diffusion. Pour les organisations qui envoient des messages à des abonnés français, passez en revue les paramètres de suivi des ouvertures pour tous les parcours et campagnes actifs avant la date d’application.
+Pour désactiver le suivi des ouvertures pour un e-mail spécifique, désélectionnez l’option **[!UICONTROL Ouvertures d’e-mails]** lors de la création de votre message. Lorsqu’elle est désactivée, cette option empêche la collecte des données de suivi des ouvertures pour cette diffusion. Pour les organisations incluses dans la portée, passez en revue les paramètres de suivi des ouvertures pour tous les parcours et campagnes actifs avant la date d’application.
 
 <!--
-EDITORIAL NOTE – ENGINEERING CONFIRMATION NEEDED before publish:
-Clarify whether unchecking "Email opens" fully removes the 1x1 tracking pixel from the delivered HTML, or whether the pixel is still present in the HTML but open data is suppressed at the data processing layer only. The current wording ("prevents open tracking data from being collected") is intentionally neutral. If the pixel is removed: update to state this explicitly. If the pixel remains but data is not processed: reword to make that distinction clear, to avoid misleading customers seeking CNIL compliance.
+Unclear whether unchecking "Email opens" fully removes the 1x1 tracking pixel from the delivered HTML, or whether the pixel is still present in the HTML but open data is suppressed at the data processing layer only. The current wording ("prevents open tracking data from being collected") is intentionally neutral as engineering wasn't able to clarify.
 -->
 
 [Découvrez comment suivre vos messages](../email/message-tracking.md)
@@ -149,8 +148,7 @@ L’API REST de suppression Journey Optimizer fournit un contrôle programmatiqu
 [Découvrez comment gérer la liste de suppression](../configuration/manage-suppression-list.md)
 
 <!--
-EDITORIAL NOTE – ENGINEERING CONFIRMATION NEEDED before publish:
-AJO has no native equivalent of Campaign v8's "lastPixelRefusalDate" field or re-solicitation typology rule. If re-solicitation governance for pixel consent refusal is required, customers would likely need to: (a) create a custom XDM date field to capture the pixel refusal date, and (b) build an AEP audience that filters out profiles where that date falls within the last six months, then use that audience as a suppression filter in campaigns/journeys. Confirm with Engineering: (1) whether this guidance should be included in this article, and (2) whether any native AJO improvements are planned in this area.
+AJO has no native equivalent of Campaign v8's "lastPixelRefusalDate" field or re-solicitation typology rule. If re-solicitation governance for pixel consent refusal is required, customers would likely need to: (a) create a custom XDM date field to capture the pixel refusal date, and (b) build an AEP audience that filters out profiles where that date falls within the last six months, then use that audience as a suppression filter in campaigns/journeys.
 -->
 
 ### Création de rapports {#reporting}
