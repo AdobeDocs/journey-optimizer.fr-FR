@@ -35,13 +35,13 @@ Lorsque vous configurez la messagerie Web In-App, vous devez inclure la directiv
 default-src  blob:;
 ```
 
-Pour plus d’informations sur la configuration d’une CSP, consultez la [documentation sur la collecte de données](https://experienceleague.adobe.com/docs/experience-platform/edge/use-cases/configuring-a-csp.html){target="_blank"}.
+Pour plus d’informations sur la configuration d’une CSP, consultez la [documentation sur la collecte de données](https://experienceleague.adobe.com/docs/experience-platform/edge/use-cases/configuring-a-csp.html?lang=fr){target="_blank"}.
 
 ## Configuration de la messagerie Web In-App à l’aide de l’extension de balise Web SDK {#tag-extension}
 
 Reportez-vous à la page [Configuration de l’extension de balise Web SDK](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration){target="_blank"} pour savoir où trouver les paramètres décrits ci-dessous.
 
-Après avoir [installé](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html#install-the-web-sdk-tag-extension){target="_blank"} l’extension de balise Web SDK, suivez les étapes ci-dessous pour configurer l’extension pour la messagerie web in-app.
+Après avoir [installé](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=fr#install-the-web-sdk-tag-extension){target="_blank"} l’extension de balise Web SDK, suivez les étapes ci-dessous pour configurer l’extension pour la messagerie web in-app.
 
 Dans la section **&#x200B;**, cochez l&#39;option **[!UICONTROL Activer le stockage de personnalisation]**. Cette option permet au SDK Web de suivre les expériences qui ont été vues par l’utilisateur ou l’utilisatrice à travers les chargements de page.
 
@@ -172,7 +172,7 @@ Dans cet exemple, le contenu de personnalisation s’affiche lorsqu’un utilisa
 
 Vous pouvez choisir d’afficher des messages in-app aux utilisateurs et utilisatrices pour un nombre défini de fois, ou à chaque fois qu’ils ou elles visitent une page, via l’option de configuration `personalizationStorageEnabled`.
 
-Dans la configuration [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html){target="_blank"} définissez l’option `personalizationStorageEnabled` en fonction de vos besoins :
+Dans la configuration [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=fr){target="_blank"} définissez l’option `personalizationStorageEnabled` en fonction de vos besoins :
 
 * `personalizationStorageEnabled: true` déclenche le message in-app avec la fréquence que vous avez définie dans votre [campagne](create-in-app-web.md#configure-inapp).
 * `personalizationStorageEnabled: false` déclenche le message in-app à chaque chargement de page.

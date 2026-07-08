@@ -41,7 +41,7 @@ Pour commencer à utiliser [!DNL Adobe Journey Optimizer], procédez comme suit.
    })
    ```
 
-1. Vous pouvez éventuellement spécifier des surfaces supplémentaires dans vos événements. Par défaut, le Web SDK génère automatiquement la surface web de la page web active et l’inclut dans la requête envoyée à Edge Network. Si nécessaire, des surfaces supplémentaires peuvent être incluses dans la requête en les spécifiant dans l’option `personalization.surfaces` de la commande `sendEvent` ou dans la configuration correspondante **[!UICONTROL Surfaces]** [[!UICONTROL Événement d’envoi] de l’action](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/action-types.html#send-event){target="_blank"} de l’extension Web SDK.
+1. Vous pouvez éventuellement spécifier des surfaces supplémentaires dans vos événements. Par défaut, le Web SDK génère automatiquement la surface web de la page web active et l’inclut dans la requête envoyée à Edge Network. Si nécessaire, des surfaces supplémentaires peuvent être incluses dans la requête en les spécifiant dans l’option `personalization.surfaces` de la commande `sendEvent` ou dans la configuration correspondante **[!UICONTROL Surfaces]** [[!UICONTROL Événement d’envoi] de l’action](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/action-types.html?lang=fr#send-event){target="_blank"} de l’extension Web SDK.
 
    ```javascript
    alloy("sendEvent", {
@@ -79,11 +79,11 @@ Pour commencer à utiliser [!DNL Adobe Journey Optimizer], procédez comme suit.
    }
    ```
 
-1. Comme pour d’autres fonctionnalités de personnalisation, vous pouvez ajouter un **[fragment de code de masquage préalable](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/manage-flicker.html){target="_blank"}** pour ne masquer que certaines parties de la page lors de la récupération d’expériences.
+1. Comme pour d’autres fonctionnalités de personnalisation, vous pouvez ajouter un **[fragment de code de masquage préalable](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/manage-flicker.html?lang=fr){target="_blank"}** pour ne masquer que certaines parties de la page lors de la récupération d’expériences.
 
 ## Rendu du contenu personnalisé {#rendering-personalized-content}
 
-Pour plus d’informations sur le rendu de contenu personnalisé[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/rendering-personalization-content.html){target="_blank"} consultez la documentation de Adobe Experience Platform Web SDK .
+Pour plus d’informations sur le rendu de contenu personnalisé[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/rendering-personalization-content.html?lang=fr){target="_blank"} consultez la documentation de Adobe Experience Platform Web SDK .
 
 Les propositions Adobe Journey Optimizer pour les surfaces web sont traitées de la même manière que les propositions de portée de décision `__view__`. Plus précisément, lorsque `renderDecisions` option est définie sur `true` dans la commande `sendEvent`, elle est automatiquement rendue par le SDK Web.
 
@@ -124,6 +124,6 @@ Exemple de proposition de contenu Journey Optimizer :
 
 ## Débogage {#debugging}
 
-Pour déboguer les implémentations de la personnalisation Adobe Journey Optimizer, utilisez [débogage Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/debugging.html){target="_blank"}. [!DNL Adobe Journey Optimizer] traces de débogage sont disponibles lors du dépannage à l’aide de [[!DNL Adobe Experience Platform Assurance]](https://developer.adobe.com/client-sdks/documentation/platform-assurance/). Recherchez les événements comportant le préfixe `AJO:`.
+Pour déboguer les implémentations de la personnalisation Adobe Journey Optimizer, utilisez [débogage Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/debugging.html?lang=fr){target="_blank"}. [!DNL Adobe Journey Optimizer] traces de débogage sont disponibles lors du dépannage à l’aide de [[!DNL Adobe Experience Platform Assurance]](https://developer.adobe.com/client-sdks/documentation/platform-assurance/). Recherchez les événements comportant le préfixe `AJO:`.
 
 ![assurance-ajo-trace](assets/assurance-ajo-trace.png)
