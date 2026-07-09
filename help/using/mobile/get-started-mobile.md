@@ -108,7 +108,7 @@ Les conditions préalables suivantes sont requises pour utiliser RCS dans Journe
 
 ## Ressources supplémentaires {#additional-resources}
 
-Parcourez les rubriques ci-dessous pour en savoir plus sur la messagerie mobile dans Journey Optimizer. Consultez également la [&#x200B; présentation des SMS/MMS/RCS](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/mobile-learning-hub/mobile-channels-overview/sms-mms-rcs-overview){target="_blank"} dans le Mobile Learning Hub pour découvrir d’autres cas d’utilisation et bonnes pratiques.
+Parcourez les rubriques ci-dessous pour en savoir plus sur la messagerie mobile dans Journey Optimizer. Consultez également la [&#x200B; présentation des SMS/MMS/RCS](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/mobile-learning-hub/mobile-channels-overview/sms-mms-rcs-overview){target="_blank"} dans le Mobile Learning Hub pour découvrir d’autres cas d’utilisation et bonnes pratiques.
 
 +++Guides de configuration
 
