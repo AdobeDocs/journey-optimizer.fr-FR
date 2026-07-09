@@ -9,12 +9,11 @@ badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 subfeature_v2: []
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 7ced44f92f816d83d9a9ad667b4322dcb5930741
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+source-git-commit: 05ad3d2af373c7eeb26bb8c789edfb2c864f5bca
 workflow-type: tm+mt
-source-wordcount: 1369
-ht-degree: 5%
+source-wordcount: 1552
+ht-degree: 4%
 
 ---
 
@@ -61,6 +60,8 @@ Le serveur MCP [!DNL Adobe Journey Optimizer] vous permet d’inspecter, de rés
 * **Repérer les problèmes dès le début** — Faites apparaître les campagnes arrêtées, les brouillons orphelins et les problèmes de configuration des canaux au moment où vous posez la question, afin que votre équipe puisse agir rapidement.
 * **Collaborer autour des données actives** — Les spécialistes du marketing, les responsables de campagne et les parties prenantes peuvent tous interroger les mêmes données de [!DNL Adobe Journey Optimizer] actives par l’intermédiaire de leur assistant d’IA, ce qui facilite l’alignement, la prise de décision et le déplacement entre les différentes parties.
 * **Auditer votre portfolio d’orchestration** — Examiner le statut complet des campagnes sans analyser le JSON ni passer d’un écran de produit à l’autre.
+* **Vérification des détails de configuration du canal** — Vérifiez les domaines de l’expéditeur, les paramètres de désabonnement et les groupes d’adresses IP avant d’utiliser une configuration de canal dans un parcours ou une campagne.
+* **Confirmer les politiques de gouvernance** — Identifiez les actions marketing et les politiques de gouvernance associées à une configuration de canal.
 
 ## Outils disponibles {#mcp-tools}
 
@@ -72,7 +73,6 @@ Les outils suivants sont exposés par le serveur MCP [!DNL Adobe Journey Optimiz
 |---|---|
 | **Liste des campagnes** | Parcourez vos campagnes marketing [!DNL Adobe Journey Optimizer]. Prend en charge le filtrage par statut (BROUILLON, ACTIF, ARRÊTÉ, TERMINÉ). |
 | **Obtenir la campagne** | Récupérez des détails complets et la configuration d’une campagne spécifique par identifiant, y compris le ciblage de l’audience, le planning, le canal et les paramètres de contenu. |
-| **Liste des configurations de canal** | Affichez les paramètres prédéfinis de surface et les paramètres de branding pour les canaux e-mail, SMS, notification push ou WhatsApp. |
 
 **outils de Parcours**
 
@@ -81,6 +81,16 @@ Les outils suivants sont exposés par le serveur MCP [!DNL Adobe Journey Optimiz
 | **Obtenir tous les Parcours** | Parcourez tous les parcours de votre sandbox [!DNL Adobe Journey Optimizer]. |
 | **Obtenir un Parcours** | Récupérez des détails complets sur un parcours spécifique par ID, y compris son embranchement, ses conditions et ses actions. |
 | **Visualiser vos parcours** | Effectuez le rendu de vos parcours à l’aide d’outils interactifs afin d’explorer leur structure et leur flux visuellement. |
+
+**Outils de configuration des canaux**
+
+| Outil | Description |
+|---|---|
+| **Liste des configurations de canal** | Filtrez les configurations des canaux par nom, statut (brouillon, actif, archivé, désactivé) ou type de canal sur tous les canaux AJO : e-mail, message mobile, notification push, WhatsApp, publipostage direct, messagerie in-app, web, expérience basée sur le code, cartes de contenu, LINE, activité en direct. |
+| **Obtenir la configuration du canal** | Récupérez les détails de configuration complets d’un canal spécifique, y compris les adresses d’expéditeur/destinataire, les sous-domaines, les pools d’adresses IP et les paramètres de désabonnement. |
+| **Liste des ressources de configuration** | Liste des ressources de prise en charge référencées par les configurations de canal, telles que les informations d’identification push, les sous-domaines de messagerie, les pools d’adresses IP, les informations d’identification SMS, les informations d’identification WhatsApp, le routage du courrier, les paramètres du canal LINE et le registre des activités en direct. |
+| **Obtenir la ressource de configuration** | Récupérez les détails complets d’une ressource de configuration unique par type et ID. |
+| **Liste des actions marketing** | Répertoriez les actions marketing disponibles pour l’application des politiques de gouvernance des données. |
 
 >[!NOTE]
 >
@@ -98,8 +108,9 @@ Les exemples suivants montrent comment interagir avec le serveur MCP [!DNL Adobe
 | **Audience et ciblage** | Quelle audience est ciblée dans la campagne/le parcours [ID] ? / Quelles sont les règles d&#39;éligibilité définies sur la campagne/le parcours [ID] ? |
 | **Planning et minutage** | Quand l’exécution de la campagne [ID] est-elle planifiée ? / La campagne [ID] est-elle une opération unique d’envoi ou récurrente ? |
 | **Dépannage** | Pourquoi l’identifiant de campagne [ID] n’est-il pas envoyé ? / Vérifiez la configuration de la campagne [ID] pour tout problème. |
-| **Configuration du canal** | Quels préréglages de canal sont disponibles dans mon sandbox ? / Afficher toutes mes configurations de canal e-mail. |
+| **Configuration du canal** | Quels préréglages de canal sont disponibles dans mon sandbox ? / Afficher toutes mes configurations de canal e-mail. / Est-ce que j&#39;ai des configurations WhatsApp configurées ? / Quelle adresse d’expéditeur et à quoi répondre sont configurées pour ma configuration d’e-mail marketing ? |
 | **Audit des canaux** | Quelles configurations de canal sont manquantes ou incomplètes ? / Combien de configurations de canal ai-je sur tous les canaux ? |
+| **Gouvernance** | Quelles actions marketing sont disponibles dans mon sandbox ? |
 
 ## Conditions préalables {#mcp-prerequisites}
 
@@ -136,7 +147,7 @@ Le serveur MCP [!DNL Adobe Journey Optimizer] est actuellement disponible pour *
 
 +++À quels objets de [!DNL Adobe Journey Optimizer] puis-je accéder via MCP ?
 
-Vous pouvez accéder aux informations sur les campagnes, les parcours, les offres et les sandbox. Les opérations sont en lecture seule (récupération des API) ; les opérations d’écriture ne sont pas prises en charge dans la version actuelle.
+Vous pouvez accéder aux campagnes, aux parcours, aux offres, aux configurations de canal, aux ressources de configuration et aux informations sur le sandbox. Les opérations sont en lecture seule (récupération des API) ; les opérations d’écriture ne sont pas prises en charge dans la version actuelle.
 +++
 
 +++Ai-je besoin d’un accès développeur pour utiliser le serveur MCP [!DNL Adobe Journey Optimizer] ?
