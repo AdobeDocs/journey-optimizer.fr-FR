@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 489dd8a0d063a1d39840eb086243f3a023b10b88
+source-git-commit: d61f15e630592fa21ac2667fffa4d215a7baf6e1
 workflow-type: tm+mt
-source-wordcount: 2698
-ht-degree: 79%
+source-wordcount: 2765
+ht-degree: 78%
 
 ---
 
@@ -50,6 +50,8 @@ ht-degree: 79%
 
 ## Mises à jour de juillet 2026 {#july-26-updates}
 
+### Nouvelles fonctionnalités {#july-26-new-capabilities}
+
 <table>
 <thead>
 <tr>
@@ -66,6 +68,12 @@ ht-degree: 79%
 </tr>
 </tbody>
 </table>
+
+### Améliorations {#july-26-improvements}
+
+* **Nouveaux outils du serveur MCP AJO** - Le serveur MCP [!DNL Adobe Journey Optimizer] propose désormais cinq **outils de configuration de canal** en lecture seule supplémentaires. Vous pouvez ainsi interroger les configurations de canal, les ressources de prise en charge et les actions marketing directement à partir de l’assistant d’IA. Vous pouvez désormais utiliser **Répertorier les configurations de canal** (sur tous les canaux AJO), **Obtenir la configuration du canal**, **Répertorier les ressources de configuration**, **Obtenir la ressource de configuration** et **Répertorier les actions marketing**. [En savoir plus](../integrations/ajo-mcp.md#mcp-tools)
+
+  Date de disponibilité : 9 juillet 2026
 
 ## Notes de mise à jour du 26 juin {#june-26-rn}
 
