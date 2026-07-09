@@ -34,10 +34,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
+source-git-commit: 2472bfde2c99dff384b11c66613370d369344f39
 workflow-type: tm+mt
-source-wordcount: 2325
-ht-degree: 70%
+source-wordcount: 2334
+ht-degree: 68%
 
 ---
 
@@ -207,7 +207,7 @@ Utilisez le concepteur de parcours pour créer votre flux :
 Testez toujours votre parcours pour détecter les problèmes avant que les clientes et clients ne les rencontrent :
 
 * Utilisez le **mode test** pour simuler le parcours avec des profils de test.
-* Utilisez un **test à blanc** pour prévisualiser l’exécution du parcours sans affecter les données réelles ou envoyer des messages.
+* Utilisez **exécution d’essai** pour exécuter le parcours par rapport aux données de production réelles sans envoyer de communications ni mettre à jour les profils
 * Vérifiez que toutes les conditions, tous les messages et toutes les actions fonctionnent comme prévu.
 * Vérifiez les délais, les flux de données et la personnalisation.
 
@@ -345,7 +345,7 @@ Gérez les audiences globales avec des ajustements de fuseau horaire automatique
 
 **Mode test et test à blanc**
 
-Validez les parcours avec des profils de test avant la mise en ligne et prévisualisez l’exécution sans affecter les données réelles.
+Validez les parcours avec des profils de test avant la mise en ligne et prévisualisez l’exécution à l’aide de données de production réelles sans envoyer de communications ni mettre à jour les profils.
 
 [Utiliser un test à blanc](journey-dry-run.md)
 :::
