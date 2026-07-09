@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: cd4321060d1b35b4d0f173d0388d0a9f0ae7c74a
+source-git-commit: c74010a3eb90a194017992ead37e41e750d90610
 workflow-type: tm+mt
-source-wordcount: 9227
+source-wordcount: 9262
 ht-degree: 91%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 91%
 Cette page répertorie toutes les dernières modifications apportées à la documentation [!DNL Journey Optimizer], en plus des mises à jour liées aux fonctionnalités et améliorations de la version mensuelle.
 
 ## Juillet 2026 {#july-2026}
+
+* La documentation **Optimisation de l’heure d’envoi** a été mise à jour afin de prendre en compte la nouvelle limite **[!UICONTROL Envoyer dans les prochaines heures]** de **2 à 100 heures** (auparavant 1 à 168) et de documenter les régions Hub AEP prises en charge pour cette fonctionnalité. [En savoir plus](../building-journeys/send-time-optimization.md#use-send-time-optimization)
 
 * Les pages **Modèle d’optimisation personnalisé** ont été mises à jour pour refléter les dernières améliorations du modèle, couvrant le fonctionnement du modèle d’ensemble, les exigences du jeu de données, les cas d’utilisation, les hypothèses clés et le comportement de démarrage à froid. Pour en savoir plus, consultez les sections [Experience Decisioning](../experience-decisioning/ranking/personalized-optimization-model.md) et [Offer Decisioning](../offers/ranking/personalized-optimization-model.md).
 
