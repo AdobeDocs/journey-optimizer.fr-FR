@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
-workflow-type: ht
-source-wordcount: 986
-ht-degree: 100%
+source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
+workflow-type: tm+mt
+source-wordcount: 1246
+ht-degree: 79%
 
 ---
 
@@ -55,13 +55,35 @@ Avec la fonctionnalité d’**expérience basée sur le code**, vous pouvez déf
 
 ➡️ Un cas d’utilisation complet montrant comment utiliser des expériences de contenu pour comparer des décisions avec le canal d’expérience basée sur du code est présenté dans [cette section](../experience-decisioning/experience-decisioning-uc.md).
 
+## Cas d’utilisation {#use-cases}
+
+Le canal basé sur le code fonctionne mieux lorsque votre cas d’utilisation dépasse ce qu’un éditeur visuel peut prendre en charge et que vous disposez de ressources de développement pour créer et gérer l’implémentation.
+
+| Avantage | Pourquoi | Exemples de cas d’utilisation |
+| --- | --- | --- |
+| Personnalisation approfondie | Prend en charge une logique complexe et des données en temps réel au-delà de ce que les éditeurs visuels exposent | Personalization piloté par l’inventaire en temps réel ou le contexte utilisateur |
+| Intégration avec des systèmes externes | Le contenu peut être composé à l’aide de données provenant de systèmes externes | Promotions basées sur la météo, offres basées sur l’inventaire en temps réel |
+| Workflows conditionnels avancés à plusieurs étapes | Non limité aux actions prédéfinies des canaux visuels | Logique de prise de décision en plusieurs étapes sur les points de contact |
+| Dépasser les limites de la plateforme | Permet aux développeurs de créer des éléments interactifs personnalisés | Composants d’interface utilisateur personnalisés non pris en charge par les canaux prêts à l’emploi |
+| Amélioration de la flexibilité des campagnes | Le contenu et la logique sont définis par votre propre mise en œuvre | Propriétés numériques découplées, basées sur l’API ou hors navigateur |
+
+## Quand ne pas utiliser {#when-not-to-use}
+
+Le canal basé sur le code nécessite des efforts de développement. Il ne s’agit donc pas du bon choix pour chaque scénario. Prenons un autre canal dans les situations suivantes :
+
+* Votre campagne est rapide ou simple et peut être créée avec un canal sans code, tel que le web ou l’in-app, sans effort de développement
+* Vous ne disposez pas de ressources de développement ni d’environnement de test pour créer et valider une implémentation personnalisée
+* Votre calendrier ou votre budget est limité pour le développement personnalisé, car les expériences basées sur le code nécessitent une planification plus préalable.
+* La messagerie standard correspond déjà aux fonctionnalités de canal intégrées, ce qui rend le développement personnalisé inutile
+* La maintenance à long terme du code personnalisé pose problème, car les surfaces et les implémentations ont besoin de l’aide continue des développeurs
+
 ## Quand utiliser un canal basé sur le code ou d’autres canaux {#code-based-vs-other-channels}
 
 ### Canaux basés sur le code et autres canaux
 
 Quand utiliser le canal basé sur le code plutôt que d’autres canaux [!DNL Journey Optimizer] ?
 
-* Vous pouvez envisager d’utiliser des expériences basées sur du code lorsque votre propriété numérique n’est pas accessible par le biais d’un navigateur web ou d’une application mobile, dans des cas où vous pouvez probablement mieux utiliser le [canal web](../web/get-started-web.md){target="_blank"} [!DNL Journey Optimizer] ou le canal de ](../../rp_landing_pages/in-app-landing-page.md){target="_blank"}messagerie in-app[ [!DNL Journey Optimizer].
+* Vous pouvez envisager d’utiliser des expériences basées sur du code lorsque votre propriété numérique n’est pas accessible par le biais d’un navigateur web ou d’une application mobile, dans des cas où vous pouvez probablement mieux utiliser le [canal web](../web/get-started-web.md){target="_blank"} [!DNL Journey Optimizer] ou le canal de [&#128279;](../../rp_landing_pages/in-app-landing-page.md){target="_blank"}messagerie in-app [!DNL Journey Optimizer].
 
 <!--* You can use the code-based channel as an alternative to the [!DNL Journey Optimizer] web channel if your website cannot be loaded into the [web designer](../web/web-visual-editor.md){target="_blank"} visual editor or if you cannot use the [browser extension](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} that powers visual authoring for web channel.-->
 
@@ -133,4 +155,5 @@ Les étapes clés pour créer et diffuser une expérience basée sur du code son
 * **[Tester des expériences basées sur du code](test-code-based.md)** ; découvrez comment prévisualiser et tester vos expériences basées sur du code avant de les publier.
 * **[Exemples d’implémentation](code-based-implementation-samples.md)** ; explorez des exemples de code et des modèles d’implémentation pour divers cas d’utilisation.
 * **[Tutoriels sur les expériences basées sur du code](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/channels/code-based-experience-channel/create-a-code-based-experience-campaign){target="_blank"}** ; consultez des tutoriels vidéo détaillés sur les fonctionnalités basées sur du code et les bonnes pratiques.
+
 

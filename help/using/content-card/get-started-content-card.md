@@ -22,10 +22,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 220cd161bdc125459ccf17fb7414ba4b4c6360bb
-workflow-type: ht
-source-wordcount: 196
-ht-degree: 100%
+source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
+workflow-type: tm+mt
+source-wordcount: 427
+ht-degree: 47%
 
 ---
 
@@ -69,8 +69,29 @@ Grâce à cette fonctionnalité, les spécialistes du marketing peuvent présent
 </td>
 </tr></table>
 
+## Cas d’utilisation
+
+Les cartes de contenu fonctionnent mieux lorsque vous souhaitez qu’un message reste disponible pour que les utilisateurs et utilisatrices puissent agir à leur propre rythme, plutôt que de les interrompre dès son arrivée.
+
+| Avantage | Pourquoi | Exemples de cas d’utilisation |
+| --- | --- | --- |
+| Visibilité persistante | Les cartes restent dans l’application ou le site web jusqu’à ce que l’utilisateur les rejette | Promotions en cours, fonctionnalités mises en avant que les utilisateurs peuvent revoir |
+| Diffusion non intrusive | S’intègre dans l’interface au lieu d’interrompre l’utilisateur | Mises à jour passives affichées avec d’autres contenus |
+| Fonctionne sans opt-in push | Diffusé in-app ou sur site, indépendamment du consentement de notification push | Atteindre les utilisateurs et utilisatrices qui ont désactivé les notifications push |
+| Messagerie riche visuellement | Prend en charge les boutons Media et call-to-action | Projecteurs du produit avec des images et un bouton « Shop now » |
+
+## Quand ne pas utiliser
+
+Les cartes de contenu sont destinées au contenu que les utilisateurs et utilisatrices peuvent afficher à leur propre rythme. Elles ne sont donc pas adaptées à chaque scénario. Prenons un autre canal dans les situations suivantes :
+
+* Le message est une alerte urgente, car les utilisateurs et utilisatrices peuvent ne pas ouvrir l’application ou le site web à temps pour voir la carte
+* Les utilisateurs cibles sont inactifs, car les cartes de contenu s’affichent uniquement dans l’application ou le site web et les utilisateurs inactifs ne les verront jamais
+* Le contenu est sensible ou nécessite une gestion sécurisée qu’une carte visible et persistante ne peut pas garantir
+* Le message nécessite un call to action urgent, tel qu’une vente flash, où une notification push ou un e-mail déclencherait une action plus rapide
+
 ## Ressources supplémentaires
 
 * **[Cartes de contenu dans les pages de destination](content-card-lp.md)** ; découvrez comment implémenter des cartes de contenu dans les pages de destination pour améliorer l’engagement.
 * **[Rapports sur les cartes de contenu](content-card-report.md)** ; suivez et analysez les performances des cartes de contenu avec des mesures et des informations détaillées.
 * **[Tutoriels sur les cartes de contenu](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/channels/content-cards/create-content-cards){target="_blank"}** ; découvrez des tutoriels vidéo détaillés sur les fonctionnalités et les bonnes pratiques relatives aux cartes de contenu.
+

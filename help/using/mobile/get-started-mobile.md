@@ -22,10 +22,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: c13ff12d-60f1-49cd-833a-d43359628223
-source-git-commit: 0f73733f190ea27ada776ee27228730684f84bea
+source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
 workflow-type: tm+mt
-source-wordcount: 1040
-ht-degree: 24%
+source-wordcount: 1314
+ht-degree: 19%
 
 ---
 
@@ -53,6 +53,26 @@ Les messages mobiles peuvent être créés et envoyés dans un parcours ou dans 
 
 * Dans une **campagne**:Create une campagne, sélectionnez Message mobile comme action, définissez les paramètres de base, puis modifiez le contenu du message. Découvrez comment créer une [campagne d’action](../campaigns/campaign-action.md#action-campaign-action), une [campagne déclenchée par API](../campaigns/api-triggered-campaigns.md) ou une [campagne orchestrée](../orchestrated/create-orchestrated-campaign.md#create).
 
+## Cas d’utilisation {#use-cases}
+
+Les SMS, MMS et RCS fonctionnent mieux lorsque vous devez atteindre les utilisateurs de manière fiable, qu’ils disposent de votre application ou d’une connexion Internet disponible.
+
+| Avantage | Pourquoi | Exemples de cas d’utilisation |
+| --- | --- | --- |
+| Portée et immédiateté maximales | Aucune application ni connexion Internet requise pour recevoir le message | Atteindre les utilisateurs sans avoir installé une application pour smartphone |
+| Visibilité garantie | Les SMS ont des taux d’ouverture supérieurs à 90 % | Codes OTP, rappels de rendez-vous, notifications de diffusion |
+| Contenu riche via MMS/RCS | Ajoute des images, des vidéos et des éléments interactifs au-delà du texte brut | Promotions de marque, catalogues de produits |
+| Toucher les utilisateurs sans accès à l’application | Fonctionne pour les destinataires qui n’ont pas installé ou ouvert votre application | Réengager les utilisateurs d&#39;applications obsolètes, intégrer les clients non-app |
+| Appels à l’action urgents | Distribué directement sur un appareil que les utilisateurs vérifient fréquemment | Ventes Flash, alertes de fraude, avis de panne de service |
+| Superposition avec d’autres canaux | Complète les notifications push, les e-mails et la messagerie in-app pour une couverture plus large | Parcours multicanaux avec SMS comme canal de secours |
+
+## Quand ne pas utiliser {#when-not-to-use}
+
+Les SMS, MMS et RCS ne sont pas toujours les choix les plus efficaces ou les plus appropriés. Prenons un autre canal dans les situations suivantes :
+
+* Le coût est un problème lorsque les volumes d’envoi sont élevés, car les SMS et les MMS sont facturés par message et les coûts par message s’additionnent rapidement à grande échelle
+* Le contenu est long ou complexe et mieux adapté aux e-mails, avec une mise en forme plus riche et un texte plus long
+* Les destinataires n’ont pas explicitement accepté, ce qui entraîne des risques juridiques et de conformité dans la plupart des régions et des réglementations en matière de messagerie
 
 ## Principales fonctionnalités {#key-features}
 
@@ -88,7 +108,7 @@ Les conditions préalables suivantes sont requises pour utiliser RCS dans Journe
 
 ## Ressources supplémentaires {#additional-resources}
 
-Parcourez les rubriques ci-dessous pour en savoir plus sur la messagerie mobile dans Journey Optimizer.
+Parcourez les rubriques ci-dessous pour en savoir plus sur la messagerie mobile dans Journey Optimizer. Consultez également la [&#x200B; présentation des SMS/MMS/RCS](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/mobile-learning-hub/mobile-channels-overview/sms-mms-rcs-overview){target="_blank"} dans le Mobile Learning Hub pour découvrir d’autres cas d’utilisation et bonnes pratiques.
 
 +++Guides de configuration
 
