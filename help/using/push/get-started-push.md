@@ -9,24 +9,16 @@ role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
 TQID: https://experienceleague.adobe.com/S-3ZtTNfgZGEFChfjaXPihxGWpdkWacrWF9AWc-AyZY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
 workflow-type: tm+mt
-source-wordcount: 389
-ht-degree: 95%
+source-wordcount: 651
+ht-degree: 57%
 
 ---
 
@@ -57,6 +49,8 @@ Utilisez les onglets dédiés pour définir les paramètres de notification push
 >[!NOTE]
 >
 >Alors que **[!DNL Journey Optimizer]** offre des moyens permettant de gérer les désinscriptions des e-mails et des SMS, les notifications push ne nécessitent aucune action de votre part, car les destinataires peuvent annuler leur abonnement depuis leurs appareils. Par exemple, lors du téléchargement ou de l’utilisation de votre application, les destinataires peuvent choisir d’arrêter les notifications. De même, ces personnes peuvent modifier les paramètres de notification par le biais du système d’exploitation mobile ou des paramètres du navigateur web. Pour vérifier le statut de consentement push d’un profil dans la visionneuse de profils AEP, consultez [Vérification du statut d’opt-out push](../privacy/opt-out.md#push-opt-out-status).
+
+</br>
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -94,3 +88,26 @@ Utilisez les onglets dédiés pour définir les paramètres de notification push
 <p>
 </td>
 </tr></table>
+
+## Cas d’utilisation
+
+Les notifications push fonctionnent mieux lorsque vous devez atteindre les utilisateurs rapidement et directement sur leur appareil, sans qu’ils soient obligés d’être dans votre application ou de vérifier leur boîte de réception.
+
+| Avantage | Pourquoi | Exemples de cas d’utilisation |
+| --- | --- | --- |
+| Mises à jour sensibles à l’heure | Diffusé instantanément, même lorsque les utilisateurs n’utilisent pas activement votre application | Alertes de retard de vol, changements d&#39;état des commandes, dernières nouvelles |
+| Réengagement | Invite les utilisateurs à revenir à votre application après une période d&#39;inactivité | Rappels d’abandon de panier, campagnes de reconquête |
+| Réduction des coûts par rapport aux SMS | Pas de frais par opérateur de messagerie, contrairement aux SMS | Notifications promotionnelles ou transactionnelles à volume élevé |
+| Contenu riche et interactif | Prend en charge les images, les boutons d’action et les liens profonds | Promotions de produits avec boutons de commande, aperçus de médias riches |
+| Fonctionnalités natives de l’appareil | Exploite les fonctionnalités au niveau du système d’exploitation qui ne sont pas disponibles pour d’autres canaux. | Alertes de vibrations, badges d’icône d’application, déclencheurs d’emplacement géoréférencés |
+| Probabilité d’opt-in élevée | Les utilisateurs sont invités à activer l’application dès son installation ou son premier lancement | Flux d’intégration, campagnes d’engagement du premier jour |
+
+## Quand ne pas utiliser
+
+Les notifications push ne conviennent pas à tous les messages. Prenons un autre canal dans les situations suivantes :
+
+* Votre audience a un faible taux d’opt-in aux notifications push ou a montré une résistance aux notifications, car le message peut ne jamais leur atteindre
+* Le message nécessite du contenu de forme longue, ce qui améliore le traitement des e-mails et permet une mise en forme plus détaillée
+* Le contenu est sensible ou privé et ne doit pas être visible sur un écran de verrouillage, où toute personne proche de l’appareil pourrait le voir
+* La plupart de vos utilisateurs accèdent à votre service à partir d’un bureau plutôt que d’une application mobile, où la portée des notifications push est limitée ou inexistante
+

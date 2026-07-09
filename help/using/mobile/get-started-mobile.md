@@ -9,23 +9,16 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 TQID: https://experienceleague.adobe.com/Ev0xJ86fpweQxgf-VjGUEl4ebk6BdzhVof2BgiMR9EM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c13ff12d-60f1-49cd-833a-d43359628223
-source-git-commit: 0f73733f190ea27ada776ee27228730684f84bea
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c13ff12d-60f1-49cd-833a-d43359628223
+source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
 workflow-type: tm+mt
-source-wordcount: 1040
-ht-degree: 24%
+source-wordcount: 1314
+ht-degree: 19%
 
 ---
 
@@ -49,10 +42,30 @@ Utilisez [!DNL Journey Optimizer] pour envoyer des messages mobiles à vos clien
 
 Les messages mobiles peuvent être créés et envoyés dans un parcours ou dans une campagne à l’aide de l’action Message mobile :
 
-* Dans un Parcours **&#x200B;**&#x200B;: ajoutez une action Message mobile à votre parcours, définissez les paramètres de base, puis composez votre contenu dans le volet Actions de message mobile à droite. [Découvrez comment créer un parcours.](../building-journeys/journey-gs.md)
+* Dans un Parcours **** : ajoutez une action Message mobile à votre parcours, définissez les paramètres de base, puis composez votre contenu dans le volet Actions de message mobile à droite. [Découvrez comment créer un parcours.](../building-journeys/journey-gs.md)
 
 * Dans une **campagne**:Create une campagne, sélectionnez Message mobile comme action, définissez les paramètres de base, puis modifiez le contenu du message. Découvrez comment créer une [campagne d’action](../campaigns/campaign-action.md#action-campaign-action), une [campagne déclenchée par API](../campaigns/api-triggered-campaigns.md) ou une [campagne orchestrée](../orchestrated/create-orchestrated-campaign.md#create).
 
+## Cas d’utilisation {#use-cases}
+
+Les SMS, MMS et RCS fonctionnent mieux lorsque vous devez atteindre les utilisateurs de manière fiable, qu’ils disposent de votre application ou d’une connexion Internet disponible.
+
+| Avantage | Pourquoi | Exemples de cas d’utilisation |
+| --- | --- | --- |
+| Portée et immédiateté maximales | Aucune application ni connexion Internet requise pour recevoir le message | Atteindre les utilisateurs sans avoir installé une application pour smartphone |
+| Visibilité garantie | Les SMS ont des taux d’ouverture supérieurs à 90 % | Codes OTP, rappels de rendez-vous, notifications de diffusion |
+| Contenu riche via MMS/RCS | Ajoute des images, des vidéos et des éléments interactifs au-delà du texte brut | Promotions de marque, catalogues de produits |
+| Toucher les utilisateurs sans accès à l’application | Fonctionne pour les destinataires qui n’ont pas installé ou ouvert votre application | Réengager les utilisateurs d&#39;applications obsolètes, intégrer les clients non-app |
+| Appels à l’action urgents | Distribué directement sur un appareil que les utilisateurs vérifient fréquemment | Ventes Flash, alertes de fraude, avis de panne de service |
+| Superposition avec d’autres canaux | Complète les notifications push, les e-mails et la messagerie in-app pour une couverture plus large | Parcours multicanaux avec SMS comme canal de secours |
+
+## Quand ne pas utiliser {#when-not-to-use}
+
+Les SMS, MMS et RCS ne sont pas toujours les choix les plus efficaces ou les plus appropriés. Prenons un autre canal dans les situations suivantes :
+
+* Le coût est un problème lorsque les volumes d’envoi sont élevés, car les SMS et les MMS sont facturés par message et les coûts par message s’additionnent rapidement à grande échelle
+* Le contenu est long ou complexe et mieux adapté aux e-mails, avec une mise en forme plus riche et un texte plus long
+* Les destinataires n’ont pas explicitement accepté, ce qui entraîne des risques juridiques et de conformité dans la plupart des régions et des réglementations en matière de messagerie
 
 ## Principales fonctionnalités {#key-features}
 
@@ -88,7 +101,7 @@ Les conditions préalables suivantes sont requises pour utiliser RCS dans Journe
 
 ## Ressources supplémentaires {#additional-resources}
 
-Parcourez les rubriques ci-dessous pour en savoir plus sur la messagerie mobile dans Journey Optimizer.
+Parcourez les rubriques ci-dessous pour en savoir plus sur la messagerie mobile dans Journey Optimizer. Consultez également la [ présentation des SMS/MMS/RCS](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/mobile-learning-hub/mobile-channels-overview/sms-mms-rcs-overview){target="_blank"} dans le Mobile Learning Hub pour découvrir d’autres cas d’utilisation et bonnes pratiques.
 
 +++Guides de configuration
 
@@ -154,7 +167,7 @@ Découvrez comment incorporer des SMS dans vos parcours et campagnes client :
 
 **La messagerie RCS native est-elle disponible avec Twilio ou Infobip ?**
 
-Non. Le concepteur RCS natif de Journey Optimizer n’est pas disponible lors de l’utilisation de fournisseurs SMS tiers tels que Twilio ou Infobip. Les messages RCS peuvent toutefois être envoyés via une [&#x200B; intégration de fournisseur personnalisé &#x200B;](mobile-configuration-custom.md).
+Non. Le concepteur RCS natif de Journey Optimizer n’est pas disponible lors de l’utilisation de fournisseurs SMS tiers tels que Twilio ou Infobip. Les messages RCS peuvent toutefois être envoyés via une [ intégration de fournisseur personnalisé ](mobile-configuration-custom.md).
 
 **Pourquoi acheter des SMS avec RCS ?**
 
@@ -186,7 +199,7 @@ Découvrez comment configurer, créer et inclure des SMS dans vos parcours clien
 
 +++Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3422694?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -196,7 +209,7 @@ Découvrez les fonctionnalités complètes de messagerie mobile qu’Adobe Jour
 
 +++Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3430372?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -206,6 +219,6 @@ Découvrez comment configurer et envoyer des messages RCS interactifs d’une ma
 
 +++Regarder la vidéo
 
->[!VIDEO](https://video.tv.adobe.com/v/3464757?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
