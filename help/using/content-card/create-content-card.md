@@ -11,9 +11,9 @@ feature_v2:
 subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
+source-git-commit: 5aebf0eb8a010d371b7542d5f203a11442d42600
 workflow-type: tm+mt
-source-wordcount: 1785
+source-wordcount: 1794
 ht-degree: 80%
 
 ---
@@ -40,6 +40,8 @@ Cette page explique comment créer une carte de contenu et définir son contenu,
 >[!IMPORTANT]
 >
 >Par défaut, le bouton Fermer masque la carte. Pour ajouter d’autres fonctionnalités, vous pouvez définir manuellement des règles de rejet ou de disqualification.
+>
+>Les règles de disqualification nécessitent la version 2.28.0 ou une version ultérieure de Web SDK.
 
 >[!BEGINTABS]
 
