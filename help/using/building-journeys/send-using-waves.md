@@ -12,9 +12,9 @@ keywords: vagues, lots, planning, parcours, lecture d’audience, délivrabilit�
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 76fd78f66bc69b228b794bcd129a48b65028c1cb
 workflow-type: tm+mt
-source-wordcount: 1554
+source-wordcount: 1707
 ht-degree: 1%
 
 ---
@@ -130,6 +130,19 @@ L’envoi de vagues vous permet de contrôler le moment et le nombre de messages
 +++ Puis-je attribuer différents segments ou critères à des vagues individuelles ?
 
 Vous pouvez uniquement définir la taille et la durée des vagues. La même audience traverse le parcours. Vous ne pouvez pas attribuer différents segments ou critères à des vagues individuelles.
+
++++
+
++++ L’audience est-elle réévaluée avant chaque vague ou est-elle corrigée au début du parcours ?
+
+L’audience est **évaluée une fois** lorsque le parcours est déclenché. Un instantané des profils admissibles est pris à ce stade et utilisé pour toutes les vagues. L’appartenance à l’audience n’est pas réévaluée avant chaque vague suivante.
+
+Toutefois, les attributs **de profil) sont lus au moment de chaque traitement de vague** et non au début du parcours. Cela signifie que pour les vagues qui se propagent sur plusieurs jours :
+
+* Les attributs Personalization (par exemple, le prénom ou le niveau de fidélité d’un profil) reflètent l’état du profil au moment de l’exécution de la vague.
+* **Les contrôles de consentement et de suppression sont appliqués au moment de l’envoi pour chaque vague.** Si un profil se désinscrit entre deux vagues, il ne recevra pas de messages des vagues suivantes.
+
+En résumé : *qui* est inclus dans le parcours est fixe au départ, mais *les données utilisées pour les envoyer à ces profils* reflète leur état actuel lors du traitement de leur vague.
 
 +++
 

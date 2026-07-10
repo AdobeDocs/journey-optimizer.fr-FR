@@ -24,10 +24,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: a2519d68e847dd9866ed385a21e405dc6157730b
 workflow-type: tm+mt
-source-wordcount: 507
-ht-degree: 79%
+source-wordcount: 601
+ht-degree: 74%
 
 ---
 
@@ -79,9 +79,12 @@ L’utilisation de [!DNL Journey Optimizer] avec [!DNL Customer Journey Analytic
 
 * **Dans les rapports [!DNL Journey Optimizer], la mesure Envoyé comprend également la mesure Reprise.**
 
-  **[!UICONTROL Reprises]** ne sera pas inclus dans la mesure **[!UICONTROL Envoyé]** dans [!DNL Customer Journey Analytics]. Par conséquent, les mesures [!DNL Customer Journey Analytics] **[!UICONTROL Envoyé]** afficheront des valeurs inférieures à [!DNL Journey Optimizer]. Toutefois, les données de reprise convergent vers la mesure **[!UICONTROL Messages envoyés avec succès]** ou **[!UICONTROL Rebonds]**.
-Pour réduire les incohérences, utilisez des périodes qui datent d’une semaine ou même d’avant.
+  **[!UICONTROL Les Reprises]** ne seront pas incluses dans la mesure **[!UICONTROL Envoyé]** dans [!DNL Customer Journey Analytics]. Par conséquent, les mesures **[!UICONTROL Envoyé]** de [!DNL Customer Journey Analytics] afficheront des valeurs inférieures à [!DNL Journey Optimizer]. Toutefois, les données de reprise convergent vers la mesure **[!UICONTROL Messages envoyés avec succès]** ou **[!UICONTROL Rebonds.]** Pour réduire les incohérences, utilisez des périodes qui datent d’une semaine ou même d’avant.
 
 * **Les rapports sont alimentés à partir d’une autre source de données.**
 
   Cela peut entraîner de incohérences de 1 à 2 % des données entre les produits.
+
+* **Un jeu de données a récemment été ajouté à la connexion de rapport.**
+
+  Le renvoi historique automatique d’un jeu de données nouvellement ajouté peut prendre quelques jours. Jusqu’à ce qu’il soit terminé, les rapports historiques pour ce jeu de données peuvent s’afficher comme incomplets ou nuls, même si les nouvelles données arrivent déjà correctement. Notez qu’il s’agit d’un comportement attendu, et non d’une perte de données.

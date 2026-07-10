@@ -24,10 +24,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+source-git-commit: df9b087753c7e217ca7dfacbe15581466edec200
 workflow-type: tm+mt
-source-wordcount: 875
-ht-degree: 95%
+source-wordcount: 922
+ht-degree: 90%
 
 ---
 
@@ -117,11 +117,13 @@ Pour modifier un enregistrement PTR avec un sous-domaine délégué à Adobe à 
 
    ![](assets/ptr-record-subdomain-confirm.png)
 
-   >[!NOTE]
+1. Si vous recevez le message « Veuillez d’abord créer un DNS direct, puis réessayer », procédez comme suit :
+   * Vérifiez auprès du fournisseur DNS si l’enregistrement DNS direct a bien été créé.
+   * Les enregistrements sur les serveurs DNS peuvent ne pas se synchroniser immédiatement. Patientez quelques minutes, puis réessayez.
+
+   >[!WARNING]
    >
-   >Si vous recevez le message « Veuillez d’abord créer un DNS direct, puis réessayer », procédez comme suit :
-   >   * Vérifiez auprès du fournisseur DNS si l’enregistrement DNS direct a bien été créé.
-   >   * Les enregistrements sur les serveurs DNS peuvent ne pas se synchroniser immédiatement. Patientez quelques minutes, puis réessayez.
+   >Lors de l’ajout d’un nouvel enregistrement DNS direct pour le nouveau sous-domaine sur votre plateforme d’hébergement, ne supprimez pas l’enregistrement DNS direct pour l’ancien sous-domaine tant que le déplacement n’est pas terminé. La suppression de l’ancien enregistrement avant la fin du processus entraîne l’échec de la modification de l’enregistrement PTR.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour confirmer vos modifications. Notez que les champs **[!UICONTROL IP]** et **[!UICONTROL enregistrement PTR]** ne peuvent pas être modifiés.
 

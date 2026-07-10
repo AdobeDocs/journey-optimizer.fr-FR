@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c74010a3eb90a194017992ead37e41e750d90610
+source-git-commit: df9b087753c7e217ca7dfacbe15581466edec200
 workflow-type: tm+mt
-source-wordcount: 9262
-ht-degree: 91%
+source-wordcount: 9416
+ht-degree: 89%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 91%
 Cette page répertorie toutes les dernières modifications apportées à la documentation [!DNL Journey Optimizer], en plus des mises à jour liées aux fonctionnalités et améliorations de la version mensuelle.
 
 ## Juillet 2026 {#july-2026}
+
+* Un avertissement a été ajouté à la page **Modifier les enregistrements PTR** pour informer les clients que lors de l’ajout d’un nouvel enregistrement DNS direct à leur plateforme, l’enregistrement DNS direct de l’ancien sous-domaine ne doit pas être supprimé tant que le déplacement n’est pas terminé, car cela entraînerait l’échec de la modification. [En savoir plus](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
+
+* Les pages **Envoyer à l’aide de vagues** ont été mises à jour afin de clarifier le comportement de réévaluation de l’audience entre les vagues : l’appartenance à l’audience est fixe au moment de l’activation (instantané), mais les attributs de profil et le consentement sont évalués au moment de chaque processus de vague. Cela signifie que les opt-outs qui se produisent entre les vagues sont respectés. Pour en savoir plus, consultez les sections FAQ sur les [parcours &#x200B;](../building-journeys/send-using-waves.md#faq) et les [campagnes](../campaigns/send-using-waves.md#faq).
+
+* La page **Gouvernance des données** a été mise à jour afin de clarifier le fait que l’application de la politique DULE s’applique uniquement aux champs d’attribut de profil **&#x200B;**. Les champs basés sur un événement (attributs de contexte tels que les champs d’événement de parcours) ne sont pas pris en charge : les libellés appliqués à ces champs dans l’interface utilisateur ne restreignent pas l’utilisation des données. [En savoir plus](../action/action-privacy.md)
 
 * La documentation **Optimisation de l’heure d’envoi** a été mise à jour afin de prendre en compte la nouvelle limite **[!UICONTROL Envoyer dans les prochaines heures]** de **2 à 100 heures** (auparavant 1 à 168) et de documenter les régions Hub AEP prises en charge pour cette fonctionnalité. [En savoir plus](../building-journeys/send-time-optimization.md#use-send-time-optimization)
 

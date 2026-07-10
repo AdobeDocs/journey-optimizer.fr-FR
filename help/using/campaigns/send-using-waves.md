@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: f7479fa1-474b-479d-8c98-f6cee5865a38
   - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+source-git-commit: 76fd78f66bc69b228b794bcd129a48b65028c1cb
 workflow-type: tm+mt
-source-wordcount: 813
-ht-degree: 2%
+source-wordcount: 966
+ht-degree: 1%
 
 ---
 
@@ -132,6 +132,19 @@ L’envoi de vagues vous permet de contrôler le moment et le nombre de messages
 +++ Puis-je attribuer différents segments ou critères à des vagues individuelles ?
 
 Vous pouvez uniquement définir la taille et la durée des vagues. La sélection des destinataires est la même pour l’ensemble de la campagne ; vous ne pouvez pas affecter différents segments ou critères à des vagues individuelles.
+
++++
+
++++ L’audience est-elle réévaluée avant chaque vague ou est-elle corrigée au début de la campagne ?
+
+L’audience est **évaluée une fois** lorsque la campagne est activée. Un instantané des profils admissibles est pris à ce stade et utilisé pour toutes les vagues. L’appartenance à l’audience n’est pas réévaluée avant chaque vague suivante.
+
+Cependant, les attributs de profil **sont lus au moment du traitement de chaque vague** et non au moment de l’activation de la campagne. Cela signifie que pour les vagues qui se propagent sur plusieurs jours :
+
+* Les attributs Personalization (par exemple, le prénom ou le niveau de fidélité d’un profil) reflètent l’état du profil au moment de l’exécution de la vague.
+* **Les contrôles de consentement et de suppression sont appliqués au moment de l’envoi pour chaque vague.** Si un profil se désinscrit entre deux vagues, il ne recevra pas de messages des vagues suivantes.
+
+En résumé : *qui* est inclus dans la campagne est corrigé au départ, mais *les données utilisées pour les envoyer à ces profils* reflètent leur état actuel lors du traitement de leur vague.
 
 +++
 
