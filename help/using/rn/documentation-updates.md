@@ -8,8 +8,12 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+feature_v2:
+  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2:
+  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
+  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
+  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: df9b087753c7e217ca7dfacbe15581466edec200
 workflow-type: tm+mt
 source-wordcount: 9416
@@ -25,9 +29,9 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 
 * Un avertissement a été ajouté à la page **Modifier les enregistrements PTR** pour informer les clients que lors de l’ajout d’un nouvel enregistrement DNS direct à leur plateforme, l’enregistrement DNS direct de l’ancien sous-domaine ne doit pas être supprimé tant que le déplacement n’est pas terminé, car cela entraînerait l’échec de la modification. [En savoir plus](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
 
-* Les pages **Envoyer à l’aide de vagues** ont été mises à jour afin de clarifier le comportement de réévaluation de l’audience entre les vagues : l’appartenance à l’audience est fixe au moment de l’activation (instantané), mais les attributs de profil et le consentement sont évalués au moment de chaque processus de vague. Cela signifie que les opt-outs qui se produisent entre les vagues sont respectés. Pour en savoir plus, consultez les sections FAQ sur les [parcours ](../building-journeys/send-using-waves.md#faq) et les [campagnes](../campaigns/send-using-waves.md#faq).
+* Les pages **Envoyer à l’aide de vagues** ont été mises à jour afin de clarifier le comportement de réévaluation de l’audience entre les vagues : l’appartenance à l’audience est fixe au moment de l’activation (instantané), mais les attributs de profil et le consentement sont évalués au moment de chaque processus de vague. Cela signifie que les opt-outs qui se produisent entre les vagues sont respectés. Pour en savoir plus, consultez les sections FAQ sur les [parcours &#x200B;](../building-journeys/send-using-waves.md#faq) et les [campagnes](../campaigns/send-using-waves.md#faq).
 
-* La page **Gouvernance des données** a été mise à jour afin de clarifier le fait que l’application de la politique DULE s’applique uniquement aux champs d’attribut de profil ****. Les champs basés sur un événement (attributs de contexte tels que les champs d’événement de parcours) ne sont pas pris en charge : les libellés appliqués à ces champs dans l’interface utilisateur ne restreignent pas l’utilisation des données. [En savoir plus](../action/action-privacy.md)
+* La page **Gouvernance des données** a été mise à jour afin de clarifier le fait que l’application de la politique DULE s’applique uniquement aux champs d’attribut de profil **&#x200B;**. Les champs basés sur un événement (attributs de contexte tels que les champs d’événement de parcours) ne sont pas pris en charge : les libellés appliqués à ces champs dans l’interface utilisateur ne restreignent pas l’utilisation des données. [En savoir plus](../action/action-privacy.md)
 
 * La documentation **Optimisation de l’heure d’envoi** a été mise à jour afin de prendre en compte la nouvelle limite **[!UICONTROL Envoyer dans les prochaines heures]** de **2 à 100 heures** (auparavant 1 à 168) et de documenter les régions Hub AEP prises en charge pour cette fonctionnalité. [En savoir plus](../building-journeys/send-time-optimization.md#use-send-time-optimization)
 
@@ -43,7 +47,7 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 
 * Une nouvelle page de **types de Parcours : choisissez la bonne** est maintenant disponible. Il compare tous les points d’entrée du parcours (Lecture d’audience, Qualification d’audience, Événement unitaire et Événement métier) avec des guides de décision et une matrice de compatibilité des fonctionnalités pour vous aider à sélectionner le type approprié à votre cas d’utilisation. [En savoir plus](../building-journeys/journey-types-selection.md)
 
-* Une nouvelle page de comparaison des campagnes **** est désormais disponible. Il compare les Parcours, les campagnes d’action et les campagnes déclenchées par API en fonction du style d’exécution, du modèle de données et du cas d’utilisation, y compris l’activation du canal entrant pour la personnalisation Edge de faible latence, la diffusion entrante multi-surface et des conseils sur l’utilisation de campagnes orchestrées (composition d’audiences ad hoc, données fédérées). [En savoir plus](../start/journeys-vs-campaigns.md)
+* Une nouvelle page de comparaison des campagnes **&#x200B;**&#x200B;est désormais disponible. Il compare les Parcours, les campagnes d’action et les campagnes déclenchées par API en fonction du style d’exécution, du modèle de données et du cas d’utilisation, y compris l’activation du canal entrant pour la personnalisation Edge de faible latence, la diffusion entrante multi-surface et des conseils sur l’utilisation de campagnes orchestrées (composition d’audiences ad hoc, données fédérées). [En savoir plus](../start/journeys-vs-campaigns.md)
 
 * La page **Mode Débit élevé** a été mise à jour pour prendre en compte la disponibilité régionale étendue : la fonctionnalité est désormais disponible dans toutes les régions, à l’exception de la Suisse, pour les organisations disposant d’une licence avec le module complémentaire de messagerie transactionnelle à débit élevé. [En savoir plus](../campaigns/api-triggered-high-throughput.md)
 
@@ -525,7 +529,7 @@ Cette page répertorie toutes les dernières modifications apportées à la docu
 
 ## Avril 2025 {#apr-2025}
 
-* Le chapitre Configuration est désormais divisé en trois chapitres : [Configuration des canaux](../configuration/get-started-configuration.md), [Configuration de parcours ](../configuration/about-data-sources-events-actions.md) et [Connexion des systèmes](../configuration/ajo-apis.md).
+* Le chapitre Configuration est désormais divisé en trois chapitres : [Configuration des canaux](../configuration/get-started-configuration.md), [Configuration de parcours &#x200B;](../configuration/about-data-sources-events-actions.md) et [Connexion des systèmes](../configuration/ajo-apis.md).
 * Ajout d’une note d’avertissement concernant l’utilisation d’événements d’expérience dans des expressions et conditions de parcours. [En savoir plus](../building-journeys/expression/expressionadvanced.md#discovering-the-interface)
 * Ajout d’une note sur la page Configuration du courrier concernant le stockage temporaire du fichier de sortie. [En savoir plus](../direct-mail/direct-mail-configuration.md)
 * Ajout d’une astuce dans la section Éditeur d’expression avancé du parcours à propos des instructions de format de condition. [En savoir plus](../building-journeys/expression/expressionadvanced.md)
