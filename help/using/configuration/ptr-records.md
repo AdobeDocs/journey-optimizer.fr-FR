@@ -10,24 +10,15 @@ level: Experienced
 keywords: sous-domaine, PTR, enregistrements, DNS, domaine, courrier
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 TQID: https://experienceleague.adobe.com/sdx-XnJMWY5UAkd9-O2Rayjoww3CfeCAgGQgarO2TlY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: df9b087753c7e217ca7dfacbe15581466edec200
 workflow-type: tm+mt
-source-wordcount: 875
-ht-degree: 95%
+source-wordcount: 922
+ht-degree: 90%
 
 ---
 
@@ -117,11 +108,13 @@ Pour modifier un enregistrement PTR avec un sous-domaine délégué à Adobe à 
 
    ![](assets/ptr-record-subdomain-confirm.png)
 
-   >[!NOTE]
+1. Si vous recevez le message « Veuillez d’abord créer un DNS direct, puis réessayer », procédez comme suit :
+   * Vérifiez auprès du fournisseur DNS si l’enregistrement DNS direct a bien été créé.
+   * Les enregistrements sur les serveurs DNS peuvent ne pas se synchroniser immédiatement. Patientez quelques minutes, puis réessayez.
+
+   >[!WARNING]
    >
-   >Si vous recevez le message « Veuillez d’abord créer un DNS direct, puis réessayer », procédez comme suit :
-   >   * Vérifiez auprès du fournisseur DNS si l’enregistrement DNS direct a bien été créé.
-   >   * Les enregistrements sur les serveurs DNS peuvent ne pas se synchroniser immédiatement. Patientez quelques minutes, puis réessayez.
+   >Lors de l’ajout d’un nouvel enregistrement DNS direct pour le nouveau sous-domaine sur votre plateforme d’hébergement, ne supprimez pas l’enregistrement DNS direct pour l’ancien sous-domaine tant que le déplacement n’est pas terminé. La suppression de l’ancien enregistrement avant la fin du processus entraîne l’échec de la modification de l’enregistrement PTR.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour confirmer vos modifications. Notez que les champs **[!UICONTROL IP]** et **[!UICONTROL enregistrement PTR]** ne peuvent pas être modifiés.
 
