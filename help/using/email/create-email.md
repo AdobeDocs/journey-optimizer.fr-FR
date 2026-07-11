@@ -31,10 +31,10 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cc7ab9c3a9e29e47019d0c6759d328b750a0b544
+source-git-commit: f19aef75aeac9be8e400528b5e587545268d7607
 workflow-type: tm+mt
-source-wordcount: 1866
-ht-degree: 55%
+source-wordcount: 1883
+ht-degree: 53%
 
 ---
 
@@ -214,9 +214,13 @@ Deux types d’alertes peuvent avoir lieu :
 >[!CONTEXTUALHELP]
 >id="ajo_email_minification"
 >title="Réduire la taille du HTML"
->abstract="Activez cette option pour compresser le HTML de votre e-mail lors de la publication en supprimant les espaces blancs, les mises en retrait et les commentaires non indispensables. Cela permet d’éviter l’écrêtage d’e-mails dans des clients tels que Gmail, qui tronque les messages de plus de 100 Ko. Notez que lorsque vous utilisez des e-mails multilingues, cette option est activée par défaut pour tous les paramètres régionaux."
+>abstract="Activez cette option pour compresser votre HTML d’e-mail lors de la publication en supprimant les espaces et la mise en retrait inutiles. Cela permet d’éviter l’écrêtage d’e-mails dans des clients tels que Gmail, qui tronque les messages de plus de 100 Ko. Notez que lorsque vous utilisez des e-mails multilingues, cette option est activée par défaut pour tous les paramètres régionaux."
 
-[!DNL Journey Optimizer] vous permet de compresser votre version d’HTML par e-mail pendant le processus de publication en supprimant les espaces inutiles, la mise en retrait et les commentaires non indispensables. Conserver une petite taille pour HTML vous permet d’effectuer les opérations suivantes :
+[!DNL Journey Optimizer] vous permet de compresser votre version d’HTML par e-mail pendant le processus de publication en supprimant les espaces et les retraits inutiles. Conserver une petite taille pour HTML vous permet d’effectuer les opérations suivantes :
+
+>[!NOTE]
+>
+>La suppression des commentaires HTML non indispensables fait également partie de l’optimisation, mais cette fonctionnalité a été temporairement désactivée à compter du 10 juillet 2026.
 
 * Évitez de **couper les e-mails** — certains clients comme Gmail tronquent les messages de plus de 100 Ko, empêchant les destinataires de voir le contenu complet.
 * Améliorer le **temps de chargement des emails** dans la boîte de réception du destinataire.
