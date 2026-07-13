@@ -147,4 +147,4 @@ Lorsque vous enregistrez cette configuration, Journey Optimizer la stocke pour c
 
 Découvrez comment les administrateurs configurent les paramètres du référentiel Adobe Experience Manager Managed Services dans Journey Optimizer afin que les marketeurs puissent utiliser les fragments de contenu dans les parcours et les campagnes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3492529?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3492531?captions=fre_fr&quality=12)
