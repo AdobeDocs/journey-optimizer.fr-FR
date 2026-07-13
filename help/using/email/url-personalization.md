@@ -9,12 +9,11 @@ role: User
 level: Intermediate, Experienced
 keywords: url, lien, personnalisation, tracking, codage, accolades
 feature_v2: []
-subfeature_v2:
-  - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+subfeature_v2: id: c41e8697-e629-4c38-96b3-564faaa17acf
+source-git-commit: 9100276ed3a6d3487cf27b9b70f2e0dfaf35f62c
 workflow-type: tm+mt
-source-wordcount: 430
-ht-degree: 23%
+source-wordcount: 570
+ht-degree: 17%
 
 ---
 
@@ -73,9 +72,15 @@ Journey Optimizer prend également en charge la personnalisation de l’URL **en
 <a href="https://{{profile.social.baseUrl}}/profile" />
 ```
 
->[!IMPORTANT]
+>[!CAUTION]
 >
->Pour activer la personnalisation complète ou de base de l’URL, contactez Adobe et fournissez votre liste de domaines acceptés. Cela est nécessaire pour éviter les redirections non sécurisées.
+>* Pour activer la personnalisation complète ou de base de l’URL, contactez Adobe et fournissez votre liste de domaines acceptés. Cela est nécessaire pour éviter les redirections non sécurisées.
+>
+>* Les URL générées dynamiquement (où l’intégralité de l’URL ou du domaine de base est résolue à partir d’un attribut de profil au moment de l’envoi) présentent une limitation de suivi connue : Journey Optimizer ne peut pas effectuer le suivi fiable des clics pour ces liens et **les données de clics peuvent ne pas apparaître dans les rapports de parcours ou de campagne**. Cela se produit, car la redirection de tracking est appliquée au moment de la conception, avant que l’URL finale ne soit connue. Lorsque la valeur résolue diffère par destinataire, la chaîne de redirection se rompt et les clics ne sont pas enregistrés. En outre, l’URL résolue doit commencer par `http` ou `https` pour chaque destinataire ; si ce n’est pas le cas, le suivi de ce lien est silencieusement ignoré. Pour maintenir un suivi des clics fiable, utilisez l’une des approches suivantes :
+>
+>   * Utilisez une URL de base fixe et ajoutez uniquement des paramètres personnalisés (par exemple, `https://www.example.com/page?uid={{profile.person.crmid}}`).
+>   
+>   * Prégénérez une URL personnalisée par destinataire, stockez-la en tant qu’attribut de profil et référencez-la dans le contenu de votre e-mail.
 
 ## Personnaliser les paramètres de tracking d’URL {#personalize-url-tracking-parameters}
 
