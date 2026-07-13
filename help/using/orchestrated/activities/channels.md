@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
+source-git-commit: 28dd04657790cca441bf67e555e3a85e63cb2dde
 workflow-type: tm+mt
-source-wordcount: 1815
-ht-degree: 52%
+source-wordcount: 1877
+ht-degree: 50%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 52%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_target"
 >title="Target"
->abstract="Espace réservé pour la section Cible"
+>abstract="La section **[!UICONTROL Cible]** définit la cible de la diffusion pour cette activité de canal. Utilisez **[!UICONTROL Dimension cible]** pour sélectionner la dimension cible qui s’applique à cet envoi. Choisissez ensuite **[!UICONTROL Un message par profil]** pour envoyer un seul message par personne ou **[!UICONTROL Un message par dimension secondaire]** pour envoyer un message par dimension secondaire admissible (par exemple, un e-mail par vol lorsque le même voyageur a plusieurs vols correspondants)."
 
 <!--
 UNUSED IDs in BJ

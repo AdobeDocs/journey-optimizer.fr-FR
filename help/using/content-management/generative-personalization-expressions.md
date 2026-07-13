@@ -12,9 +12,9 @@ feature_v2: []
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
   - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: f46a758de27bcc49e7c370dac7bd8108d17803b5
 workflow-type: tm+mt
-source-wordcount: 1113
+source-wordcount: 1540
 ht-degree: 4%
 
 ---
@@ -29,8 +29,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->Avant de commencer à utiliser cette fonctionnalité, lisez les [Mécanismes de sécurisation et limites](gs-generative.md#generative-guardrails) associés.
-></br>
+>Avant de commencer à utiliser cette fonctionnalité, lisez la section connexe [Mécanismes de sécurisation et limitations](gs-generative.md#generative-guardrails).
 >
 >Vous devez accepter un [contrat d’utilisation](https://www.adobe.com/fr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) avant de pouvoir utiliser l’Assistant IA dans Journey Optimizer. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
@@ -41,7 +40,7 @@ L’[!UICONTROL assistant AI] vous permet de générer une nouvelle personnalisa
 * **[!UICONTROL Éditeur Personalization]** — l&#39;endroit où l&#39;éditeur est disponible sur plusieurs canaux (objet, corps et autres champs qui l&#39;ouvrent). Il s’agit du chemin général de la personnalisation assistée par l’IA. Pour savoir où et comment ouvrir l’éditeur, voir [&#x200B; Ajouter une personnalisation &#x200B;](../personalization/personalization-build-expressions.md#where).
 * **Barre d’outils Designer d’e-mail** — lorsque vous créez des e-mails dans le Designer d’e-mail, sélectionnez un composant et utilisez **[!UICONTROL Ajouter une expression]** dans la barre d’outils contextuelle pour ouvrir l’assistant dans une boîte à outils sans ouvrir l’éditeur complet au préalable. Ce point d’entrée n’est pas disponible en dehors de la création d’e-mails. Voir [Générer à partir du Designer d’e-mail](#generate-email-designer).
 
-Pour en savoir plus sur la configuration et les langages de l’assistant AI, voir [Prise en main de l’assistant AI](gs-generative.md). Pour connaître les concepts de personnalisation, voir [Prise en main de la personnalisation](../personalization/personalize.md). Pour obtenir des idées rapides, voir [Bonnes pratiques d’invite d’IA](ai-assistant-prompting-guide.md).
+Pour en savoir plus sur la configuration et les langages de l’assistant AI, voir [Prise en main de l’assistant AI](gs-generative.md). Pour connaître les concepts de personnalisation, voir [Prise en main de la personnalisation](../personalization/personalize.md). Pour écrire des invites qui produisent des expressions utilisables, voir [Écrire des invites efficaces pour les expressions de personnalisation](#prompt-best-practices). Pour obtenir des idées d’invite de génération de contenu (ton, style, marque), consultez [Bonnes pratiques d’invite d’IA](ai-assistant-prompting-guide.md).
 
 Selon le contexte de votre campagne ou de votre parcours, l’assistant peut utiliser les données et construire les éléments déjà exposés par [!UICONTROL l’éditeur de Personalization] par exemple les attributs de profil, l’appartenance à un segment, les fonctions d’assistance et les sources de personnalisation associées.
 
@@ -145,3 +144,37 @@ Dans le Designer d’e-mail, vous pouvez utiliser l’assistant [!UICONTROL AI] 
    * Affinez l’expression dans l’éditeur complet. Cliquez sur l’icône ![Modifier](assets/do-not-localize/Smock_Edit_18_N.svg "Modifier") pour ouvrir l’éditeur **[!UICONTROL Personalization]**.
 
 1. Lorsque le résultat vous convient, cliquez sur **[!UICONTROL Insérer]** pour ajouter l’expression à votre contenu.
+
+## Écrire des invites efficaces pour les expressions de personnalisation {#prompt-best-practices}
+
+Les invites d&#39;expressions de personnalisation diffèrent des invites de génération de contenu, qui sont centrées sur le ton, le style et la marque. Étant donné que l’assistant crée une logique de modèle qui se résout par rapport aux données de profil et contextuelles, votre invite doit décrire cette logique avec précision. Partez de l’expérience client que vous souhaitez fournir, puis exprimez-la en termes que l’assistant peut traduire en expression.
+
+Une invite efficace définit généralement quatre éléments :
+
+* **Source de données** — Attribut de profil, données contextuelles, segment, offre ou autre ressource à évaluer. Incluez le chemin d’accès exact du champ lorsque vous le connaissez, par exemple `profile.person.name.firstName`.
+* **Condition** : logique à appliquer, par exemple si une valeur existe ou correspond à un critère spécifique.
+* **Sortie** — Éléments à afficher lorsque la condition est remplie, y compris le format requis.
+* **Secours** — Ce qui s&#39;affiche lorsque les données sont manquantes ou que la condition n&#39;est pas remplie.
+
+Par exemple, une demande pour *prendre la date de renouvellement du client, ajouter une année, la formater en MM/jj/aa et n&#39;afficher rien lorsque la date de renouvellement est manquante* fournit une source de données, une transformation, un format de sortie et un basculement ; tout ce dont l&#39;assistant a besoin pour produire une expression utilisable.
+
+### Recommandations {#prompt-recommendations}
+
+Pour obtenir les résultats les plus pertinents :
+
+* Veillez à ce que chaque invite soit axée sur une seule règle de personnalisation au lieu de combiner plusieurs règles non liées dans une seule demande.
+* Référencez uniquement les champs, fragments, offres et jeux de données qui existent dans votre environnement. L’assistant fonctionne avec ce que l’éditeur expose et ne crée pas de sources de données pour vous.
+* Décrivez le comportement de secours pour les données facultatives ou potentiellement manquantes, de sorte que l’expression soit résolue correctement pour chaque profil.
+* Indiquez explicitement la structure de sortie attendue lorsqu’elle est importante (par exemple, les clés qu’un payload d’offre doit renvoyer au format JSON).
+* Lorsque vous modifiez du code existant, fournissez uniquement l’expression appropriée comme contexte au lieu d’un message entier, et utilisez **[!UICONTROL Expliquer]** pour comprendre le code avant d’appliquer un **[!UICONTROL Correctif]** ou une autre modification.
+
+## Exigences en matière de données et de configuration {#requirements}
+
+L&#39;assistant génère des expressions à partir des ressources que l&#39;éditeur de Personalization  expose déjà, de sorte que les données sous-jacentes doivent être configurées et disponibles. Si une invite ne renvoie pas d’expression utilisable, confirmez que :
+
+* le champ que vous avez référencé appartient à un schéma actif dans votre environnement,
+* tout fragment que vous souhaitez réutiliser est publié,
+* tout jeu de données utilisé pour une recherche est activé pour les recherches, et
+* votre demande porte sur la personnalisation de modèle plutôt que sur une autre tâche.
+
+Lorsque la configuration est correcte, affinez l’invite en clarifiant la source de données, la condition, la sortie et la version de secours, puis générez à nouveau.
