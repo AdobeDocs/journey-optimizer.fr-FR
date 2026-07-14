@@ -23,7 +23,7 @@ level_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: a75b1b46facd53f42fdfd812cc719d26909d9d5e
 workflow-type: tm+mt
 source-wordcount: 411
 ht-degree: 100%
@@ -42,7 +42,7 @@ ht-degree: 100%
 >abstract="Une offre de secours est l’offre par défaut affichée lorsqu’un utilisateur final n’est pas éligible à l’une des offres personnalisées."
 
 >[!CONTEXTUALHELP]
->id="ajo_decisioning_fallback_offer_details "
+>id="ajo_decisioning_fallback_offer_details"
 >title="Détails de l’offre de secours"
 >abstract="Indiquez le nom de l’offre de secours. Vous pouvez également y associer un ou plusieurs qualificatifs de collection, ce qui vous permettra de rechercher et d’organiser plus facilement la bibliothèque des offres."
 
