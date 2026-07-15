@@ -11,27 +11,16 @@ keywords: parcours, configuration, propriétés
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/fDzEwuisEjAKvpIs9SKoz-9IIJXJQ-md9FlCbWQOJz8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 99edb847dc2282460f5cec8491e971702f6bf872
 workflow-type: tm+mt
-source-wordcount: 4990
-ht-degree: 55%
+source-wordcount: 4991
+ht-degree: 56%
 
 ---
 
@@ -65,7 +54,7 @@ Vous pouvez effectuer les actions suivantes :
 * Sélectionner les [fuseaux horaires](#timezone) des parcours et des profils.
 * Choisir des [dates de début et de fin](#dates) personnalisées.
 * Définir une [durée de temporisation](#timeout) dans les activités de parcours (pour les personnes chargées de l’administration uniquement).
-* Surveillez la [&#x200B; taille actuelle de la payload du parcours &#x200B;](#journey-payload-size) pour éviter les erreurs de publication
+* Surveillez la [ taille actuelle de la payload du parcours ](#journey-payload-size) pour éviter les erreurs de publication
 * Surveiller les conflits et gérer la priorité des parcours à l’aide des [outils de gestion des conflits](#conflict).
 
 ![Volet de configuration des propriétés du parcours avec paramètres généraux et options avancées](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
@@ -147,13 +136,13 @@ Pour attribuer des libellés d’utilisation des données personnalisés au parc
 
 Le champ **[!UICONTROL Taille actuelle de la payload du parcours]** du panneau des propriétés du parcours affiche la taille actuelle de la payload de votre parcours par rapport à la limite configurée, par exemple, *1,5 Mo (sur 2 Mo)*. Cet indicateur en lecture seule est visible à n’importe quelle étape de la création de parcours.
 
-![Indicateur de taille de la payload du parcours actuel dans le panneau des propriétés du parcours &#x200B;](assets/journey-payload-size.png){width="50%" zoomable="yes"}
+![Indicateur de taille de la payload du parcours actuel dans le panneau des propriétés du parcours ](assets/journey-payload-size.png){width="50%" zoomable="yes"}
 
 Utilisez ces informations pour surveiller la complexité de votre parcours avant publication. Si la taille de la payload approche ou dépasse la limite, la publication du parcours échoue. Pour réduire la taille, pensez à simplifier la logique du parcours ou à réduire le nombre d’activités.
 
 La limite par défaut est de 4 Mo. Contactez l’assistance clientèle d’Adobe si vous devez demander une limite supérieure pour votre organisation.
 
-Pour plus d&#39;informations sur les seuils, les messages d&#39;avertissement et d&#39;erreur, ainsi que les étapes de dépannage, reportez-vous aux sections Validation de la taille de la payload du Parcours [&#128279;](../start/guardrails.md#journey-payload-size) et [&#x200B; Mécanismes de sécurisation du parcours général](../start/guardrails.md#journeys-guardrails-journeys).
+Pour plus d&#39;informations sur les seuils, les messages d&#39;avertissement et d&#39;erreur, ainsi que les étapes de dépannage, reportez-vous aux sections Validation de la taille de la payload du Parcours [](../start/guardrails.md#journey-payload-size) et [ Mécanismes de sécurisation du parcours général](../start/guardrails.md#journeys-guardrails-journeys).
 
 ## Fuseaux horaires des parcours et des profils {#timezone}
 
@@ -437,7 +426,7 @@ Les mécanismes de sécurisation suivants s’appliquent lors de l’utilisation
 
 * [Guide des critères d’entrée et de sortie de parcours](entry-exit-criteria-guide.md) : guide complet avec des exemples réels et des bonnes pratiques.
 * [Gestion des entrées de profil](entry-management.md) : configurez la manière dont les profils rejoignent les parcours.
-* [Comment se terminent les parcours &#x200B;](end-journey.md) : comprenez la fin naturelle des parcours.
+* [Comment se terminent les parcours ](end-journey.md) : comprenez la fin naturelle des parcours.
 * [Mettre en pause un parcours avec des critères de sortie d’attribut de profil](journey-pause.md#journey-exit-criteria) : utilisez des critères de sortie lors de la mise en pause des parcours.
 
 ## Planning du parcours {#schedule}
@@ -446,7 +435,7 @@ La section **[!UICONTROL Planifier]** n’est disponible que lorsqu’une activi
 
 >[!TIP]
 >
->Lors de la planification du parcours, vous pouvez également configurer l’envoi de vagues pour diffuser des actions de parcours par lots au fil du temps. [Découvrez comment envoyer à l’aide de vagues dans les parcours &#x200B;](send-using-waves.md)
+>Lors de la planification du parcours, vous pouvez également configurer l’envoi de vagues pour diffuser des actions de parcours par lots au fil du temps. [Découvrez comment envoyer à l’aide de vagues dans les parcours ](send-using-waves.md)
 
 
 ## Gestion des conflits {#conflict}
@@ -465,7 +454,7 @@ La section **[!UICONTROL Gestion des conflits]** dans les propriétés du parcou
 
 **Où puis-je trouver les propriétés d’un parcours ?**
 
-Les propriétés se trouvent dans le rail droit de la zone de travail du parcours. Ils apparaissent par défaut lors de la création d’un parcours. Pour un parcours existant, cliquez sur l’icône en forme de crayon en regard du nom du parcours pour l’ouvrir. Pour les parcours en direct, le panneau affiche uniquement la date de publication et le nom de l’utilisateur ou de l’utilisatrice qui a publié le parcours. Voir [Accès aux propriétés d’un parcours &#x200B;](#access-properties).
+Les propriétés se trouvent dans le rail droit de la zone de travail du parcours. Ils apparaissent par défaut lors de la création d’un parcours. Pour un parcours existant, cliquez sur l’icône en forme de crayon en regard du nom du parcours pour l’ouvrir. Pour les parcours en direct, le panneau affiche uniquement la date de publication et le nom de l’utilisateur ou de l’utilisatrice qui a publié le parcours. Voir [Accès aux propriétés d’un parcours ](#access-properties).
 
 **Puis-je modifier les propriétés d’un parcours en direct ?**
 
@@ -477,15 +466,15 @@ La plupart des propriétés sont en lecture seule une fois qu’un parcours est 
 
 **Combien de temps un profil peut-il rester dans un parcours ?**
 
-Un [délai d’expiration global du parcours &#x200B;](#global_timeout) arrête un profil **91 jours** après son entrée ; le parcours d’un individu ne peut pas durer plus longtemps. Ce délai d’expiration ne s’affiche pas dans l’interface et ne peut pas être modifié. Les données de profil étant supprimées après 91 jours, le blocage de reprise ne peut pas être garanti au-delà de cette période. Consultez également la section [Comment les parcours se terminent](end-journey.md#journey-finished-definition).
+Un [délai d’expiration global du parcours ](#global_timeout) arrête un profil **91 jours** après son entrée ; le parcours d’un individu ne peut pas durer plus longtemps. Ce délai d’expiration ne s’affiche pas dans l’interface et ne peut pas être modifié. Les données de profil étant supprimées après 91 jours, le blocage de reprise ne peut pas être garanti au-delà de cette période. Consultez également la section [Comment les parcours se terminent](end-journey.md#journey-finished-definition).
 
 **Pourquoi la publication de mon parcours échoue-t-elle en raison de la taille de la payload ?**
 
-L’indicateur **[!UICONTROL Taille actuelle de la payload du parcours]** affiche la payload de votre parcours par rapport à la limite configurée (4 Mo par défaut). Si la payload approche ou dépasse la limite, la publication échoue. Réduisez la taille en simplifiant la logique du parcours ou en réduisant le nombre d’activités, ou contactez l’assistance clientèle d’Adobe pour demander une limite plus élevée. Voir les sections [Taille de la payload de Parcours &#x200B;](#journey-payload-size) [Validation de la taille de la payload de Parcours &#x200B;](../start/guardrails.md#journey-payload-size) et [Mécanismes de sécurisation généraux du parcours &#x200B;](../start/guardrails.md#journeys-guardrails-journeys).
+L’indicateur **[!UICONTROL Taille actuelle de la payload du parcours]** affiche la payload de votre parcours par rapport à la limite configurée (4 Mo par défaut). Si la payload approche ou dépasse la limite, la publication échoue. Réduisez la taille en simplifiant la logique du parcours ou en réduisant le nombre d’activités, ou contactez l’assistance clientèle d’Adobe pour demander une limite plus élevée. Voir les sections [Taille de la payload de Parcours ](#journey-payload-size) [Validation de la taille de la payload de Parcours ](../start/guardrails.md#journey-payload-size) et [Mécanismes de sécurisation généraux du parcours ](../start/guardrails.md#journeys-guardrails-journeys).
 
 **Quelle politique de fusion mon parcours utilise-t-il ?**
 
-Cela dépend du type de parcours : [Lecture d’audience](read-audience.md) et [Qualification de l’audience](audience-qualification-events.md) les parcours utilisent la politique de fusion de l’audience, [événement unitaire](../event/about-events.md) les parcours utilisent la politique de fusion par défaut et [événement métier](../event/about-creating-business.md) les parcours utilisent la politique de fusion de l’audience ciblée dans l’activité Lecture d’audience suivante. La même politique de fusion s’applique à l’ensemble du parcours. Si une politique de fusion d’audience est mise à jour, tout parcours actif référençant cette audience doit être republié ou dupliqué. Voir [&#x200B; Politique de fusion &#x200B;](#merge-policies).
+Cela dépend du type de parcours : [Lecture d’audience](read-audience.md) et [Qualification de l’audience](audience-qualification-events.md) les parcours utilisent la politique de fusion de l’audience, [événement unitaire](../event/about-events.md) les parcours utilisent la politique de fusion par défaut et [événement métier](../event/about-creating-business.md) les parcours utilisent la politique de fusion de l’audience ciblée dans l’activité Lecture d’audience suivante. La même politique de fusion s’applique à l’ensemble du parcours. Si une politique de fusion d’audience est mise à jour, tout parcours actif référençant cette audience doit être republié ou dupliqué. Voir [ Politique de fusion ](#merge-policies).
 
 **Quelle est la différence entre le délai d’expiration de parcours de 91 jours et le créneau de rapport de 91 jours ?**
 
@@ -495,20 +484,26 @@ Il s’agit de concepts distincts. La temporisation globale de **[parcours](#glo
 
 * [Gestion de l’entrée des profils](entry-management.md) - Configurer la manière dont les profils entrent et rentrent dans les parcours
 * [Guide des critères d’entrée et de sortie de parcours](entry-exit-criteria-guide.md) : guide complet avec des exemples réels et des bonnes pratiques.
-* [Fin des parcours &#x200B;](end-journey.md) - Comprendre la fin naturelle du parcours et la sortie du profil
-* [Suspendre un parcours &#x200B;](journey-pause.md) - Suspendre et reprendre les parcours avec les critères de sortie d’attribut de profil
+* [Fin des parcours ](end-journey.md) - Comprendre la fin naturelle du parcours et la sortie du profil
+* [Suspendre un parcours ](journey-pause.md) - Suspendre et reprendre les parcours avec les critères de sortie d’attribut de profil
 * [Gestion des fuseaux horaires](timezone-management.md) - Configuration des fuseaux horaires de parcours et de profil
 * [Gestion et hiérarchisation des conflits](../conflict-prioritization/conflicts.md) - Identifiez et résolvez les conflits entre les parcours et les campagnes
 
-+++ Référence des connaissances sur l’IA
+## Référence rapide {#quick-reference}
 
 Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
 
 Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
 
-* **TL;DR:** Cette page explique comment configurer et gérer tous les paramètres globaux d’un parcours, y compris les règles d’entrée, les fuseaux horaires, les dates de début et de fin, le comportement du délai d’expiration, les critères de sortie, la taille de la payload et la gestion des conflits.
+>[!BEGINTABS]
 
-**Intentions:**
+>[!TAB Vue d’ensemble]
+
+**TL;DR**
+
+Cette page explique comment configurer et gérer tous les paramètres globaux d’un parcours, y compris les règles d’entrée, les fuseaux horaires, les dates de début et de fin, le comportement du délai d’expiration, les critères de sortie, la taille de la payload et la gestion des conflits.
+
+**Intentions**
 
 * Configurer des règles d’entrée et de reprise de parcours pour les profils
 * Définir les dates de début et de fin pour contrôler quand les profils peuvent entrer dans un parcours ou en sortir
@@ -517,7 +512,7 @@ Pour une compréhension totale, ces informations doivent être combinées avec l
 * Surveiller la taille de la payload du parcours pour éviter les échecs de publication
 * Résoudre les conflits et attribuer des scores de priorité aux parcours et aux campagnes
 
-**Glossaire:**
+>[!TAB Glossaire]
 
 * **Propriétés du Parcours** : panneau des paramètres globaux (rail de droite) qui contrôle le nom, les règles d’entrée, le fuseau horaire, les dates, le délai d’expiration, la taille de la payload et la gestion des conflits pour un parcours. *(spécifique au produit)*
 * **Période d’attente de reprise** : durée minimale pendant laquelle un profil doit attendre avant d’être autorisé à rejoindre à nouveau un parcours unitaire ; 90 jours au maximum. *(spécifique au produit)*
@@ -529,7 +524,13 @@ Pour une compréhension totale, ces informations doivent être combinées avec l
 * **Taille de la payload du Parcours** : taille actuelle de la payload de définition du parcours par rapport à la limite configurée ; dépassement de la limite de publication des blocs. *(spécifique au produit)*
 * **OLAC (Object Level Access Control)** : modèle d’autorisation qui limite l’accès à des parcours individuels à l’aide de libellés d’utilisation des données.
 
-**Mécanismes de sécurisation :**
+>[!TAB  Terminologie ]
+
+* **Nom canonique :** Propriétés du Parcours — Acronyme : aucune — Variantes : Paramètres du parcours, panneau de configuration du parcours
+* **Synonymes :** « Délai d’expiration du parcours global » = « TTL » = « Time-to-Live »
+* **À ne pas confondre :** « délai d’expiration global du parcours (91 jours) » ≠ « fenêtre de création de rapports (~91 jours) » — le délai d’expiration limite la durée de profil individuel dans un parcours ; le délai de création de rapports est une limite d’affichage de l’interface utilisateur pour les données d’analyse
+
+>[!TAB Mécanismes de sécurisation et limitations]
 
 * La période d’attente de reprise maximale est de 90 jours
 * La temporisation globale du parcours est de 91 jours ; au-delà de cette période, les données de profil sont supprimées et le profil est quitté
@@ -541,19 +542,30 @@ Pour une compréhension totale, ces informations doivent être combinées avec l
 * Politiques de fusion incohérentes dans une publication de bloc de parcours ; les incohérences dans la personnalisation des messages ne déclenchent pas d’alerte
 * Pour les parcours en direct, le panneau Propriétés affiche uniquement la date de publication et le nom de l’éditeur
 
-**Terminologie:**
+>[!TAB FAQ]
 
-* Nom canonique : propriétés du Parcours — Acronyme : none — variantes : paramètres du parcours, panneau de configuration du parcours
-* Synonymes : « délai d’expiration du parcours global » = « TTL » = « Time-to-Live »
-* Ne confondez pas : « délai d’expiration global du parcours (91 jours) » ≠ « fenêtre de création de rapports (~91 jours) » : le délai d’expiration limite la durée de profil individuel dans un parcours ; le délai de création de rapports est une limite d’affichage de l’interface utilisateur pour les données d’analyse
+**Q : Combien de temps un profil peut-il rester dans un parcours ?**
 
-**FAQ:**
+Un maximum de 91 jours (délai d’expiration global du parcours) ; au-delà de cette période, le profil est automatiquement quitté et ses données sont supprimées.
 
-* **Q : Combien de temps un profil peut-il rester dans un parcours ?** : 91 jours au maximum (délai d’expiration global du parcours) ; au-delà de cette période, le profil est automatiquement quitté et ses données sont supprimées.
-* **Q : Puis-je modifier les propriétés du parcours lorsque le parcours est actif ?** — Pour les parcours en direct, le panneau Propriétés affiche uniquement la date de publication et le nom de l&#39;éditeur ; les modifications structurelles nécessitent une nouvelle version.
-* **Q : Que se passe-t-il lorsque plusieurs critères de sortie sont configurés ?** — Ils sont évalués de haut en bas avec une logique OR à chaque étape du parcours ; un profil se ferme lorsqu’un critère est satisfait.
-* **Q : Comment empêcher un profil de rejoindre à nouveau un parcours ?** — Décochez l&#39;option « Autoriser une reprise » dans les propriétés de parcours ; cela convient aux expériences ponctuelles telles qu&#39;une offre cadeau.
-* **Q : Quelle est la différence entre le délai d’expiration du parcours et la date de fin ?** — La date de fin arrête toutes les nouvelles entrées et quitte automatiquement les profils actifs à cette date spécifique ; la temporisation globale de 91 jours s’applique par profil à partir du moment où il entre, quelle que soit la date de fin du parcours.
-* **Q : Comment la politique de fusion est-elle déterminée pour un parcours ?** — Cela dépend du type de parcours : les parcours Lecture d&#39;audience et Qualification d&#39;audience utilisent la politique de fusion de l&#39;audience ; les parcours d&#39;événement unitaire utilisent la politique de fusion par défaut ; les parcours d&#39;événement métier utilisent la politique de fusion de l&#39;audience ciblée dans l&#39;activité Lecture d&#39;audience suivante.
+**Q : Puis-je modifier les propriétés du parcours lorsque le parcours est actif ?**
 
-+++
+Pour les parcours en direct, le panneau des propriétés affiche uniquement la date de publication et le nom de l’éditeur ; les modifications structurelles nécessitent une nouvelle version.
+
+**Q : Que se passe-t-il lorsque plusieurs critères de sortie sont configurés ?**
+
+Ils sont évalués de haut en bas avec une logique OR à chaque étape du parcours ; un profil se ferme lorsqu’un critère est rempli.
+
+**Q : Comment empêcher un profil de rejoindre à nouveau un parcours ?**
+
+Décochez l’option « Autoriser une reprise » dans les propriétés de parcours. Elle est adaptée aux expériences ponctuelles telles qu’une offre de cadeau.
+
+**Q : Quelle est la différence entre le délai d’expiration du parcours et la date de fin ?**
+
+La date de fin arrête toutes les nouvelles entrées et quitte automatiquement les profils actifs à cette date spécifique ; la temporisation globale de 91 jours s’applique par profil à partir du moment où il entre, quelle que soit la date de fin du parcours.
+
+**Q : Comment la politique de fusion est-elle déterminée pour un parcours ?**
+
+Cela dépend du type de parcours : les parcours Lecture d’audience et Qualification de l’audience utilisent la politique de fusion de l’audience. Les parcours d’événement unitaire utilisent la politique de fusion par défaut. Les parcours d’événement métier utilisent la politique de fusion de l’audience ciblée dans l’activité Lecture d’audience suivante.
+
+>[!ENDTABS]
