@@ -11,12 +11,23 @@ keywords: test, parcours, vérification, erreur, dépannage
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/J9pg9Bw--ksizTh2itQnPu3uo54eoPj9ocgxwTgrLhE
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: d08afb72-92f6-4856-88e3-11ec34313c2fid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
+  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 8d9c09a7be3757624c72a0a9d2739d0dbb48adeb
 workflow-type: tm+mt
 source-wordcount: 3541
@@ -71,7 +82,7 @@ Consultez ces notes avant d’exécuter des tests dans votre parcours.
 * **Flexibilité de réactivation** : vous pouvez activer et désactiver le mode test autant de fois que nécessaire.
 * **Désactivation automatique** : les Parcours qui restent inactifs en mode test pendant **plus d’une semaine** quittent automatiquement le mode test et reviennent au statut Brouillon. Aucun contenu de parcours n’est perdu ; seule la session du mode test se termine.
 * **Modification et publication** : lorsque le mode test est actif, vous ne pouvez pas modifier le parcours. Cependant, vous pouvez publier directement le parcours, sans avoir à désactiver le mode test au préalable.
-* **Diffusion des messages** - En mode test, les messages sont envoyés aux boîtes de réception des profils de test à l’aide du même pipeline de diffusion que la production. Cela diffère de l’[exécution d’essai de Parcours ](journey-dry-run.md), qui simule l’exécution de parcours sans diffuser de messages ou déclencher des actions de canal réelles. Aucune des deux méthodes ne reproduit tous les aspects d’un envoi dynamique ; utilisez un environnement d’évaluation pour une validation complète de bout en bout.
+* **Diffusion des messages** - En mode test, les messages sont envoyés aux boîtes de réception des profils de test à l’aide du même pipeline de diffusion que la production. Cela diffère de l’[exécution d’essai de Parcours &#x200B;](journey-dry-run.md), qui simule l’exécution de parcours sans diffuser de messages ou déclencher des actions de canal réelles. Aucune des deux méthodes ne reproduit tous les aspects d’un envoi dynamique ; utilisez un environnement d’évaluation pour une validation complète de bout en bout.
 
 ### Exécution
 
@@ -146,7 +157,7 @@ Utilisez ce tableau pour diagnostiquer automatiquement les échecs de mode test 
 | Symptôme | Cause probable | Résolution |
 | --- | --- | --- |
 | L’événement est envoyé avec succès, mais le profil n’apparaît jamais dans le journal du parcours | Incompatibilité de l&#39;espace de noms dans l&#39;identifiant du profil — la valeur de l&#39;espace de noms ne correspond pas à l&#39;espace de noms défini dans le schéma d&#39;événement | Vérifiez le format de l&#39;identifiant : `@{<EventName>.identityMap.entry('<NamespaceName>').first().id}`. `<NamespaceName>` doit correspondre exactement au schéma d’événement (sensible à la casse). Voir les [Conditions préalables](#trigger-events-prerequisites). |
-| Événements acceptés (réponse 200) mais le parcours ne se déclenche jamais ; le journal affiche `DISPATCHER DISCARD #16 — unqualified on journey version enablements` | La date de début du parcours est définie dans le futur ; les événements de test sont ignorés silencieusement en dehors de la fenêtre de date active | Définissez temporairement la date de début du parcours sur avant l’heure actuelle. Restaurez-le avant de le publier. Voir les [dates de parcours ](journey-properties.md#dates). |
+| Événements acceptés (réponse 200) mais le parcours ne se déclenche jamais ; le journal affiche `DISPATCHER DISCARD #16 — unqualified on journey version enablements` | La date de début du parcours est définie dans le futur ; les événements de test sont ignorés silencieusement en dehors de la fenêtre de date active | Définissez temporairement la date de début du parcours sur avant l’heure actuelle. Restaurez-le avant de le publier. Voir les [dates de parcours &#x200B;](journey-properties.md#dates). |
 | La lecture du parcours d’audience affiche un journal d’évaluation de segments par lots, mais aucune entrée de profil | L’évaluation des segments par lot est consignée séparément des entrées de profil individuelles. Le journal par lot ne confirme pas que les profils sont entrés dans le parcours | Patientez jusqu’à la fin de la fenêtre de traitement par lots. Pour le retour d’informations du journal en temps réel, testez-le avec un parcours d’événement unitaire. |
 | Le mode Test ne peut pas être activé ; erreur `ERR_MODEL_RULES_16` | L’événement n’inclut pas d’espace de noms d’identité, obligatoire lorsque le parcours utilise une action de canal | Ajoutez un [espace de noms d’identité](../audience/get-started-identity.md) à la configuration de l’événement. |
 
