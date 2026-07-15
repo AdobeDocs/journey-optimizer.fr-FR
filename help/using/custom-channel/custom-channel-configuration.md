@@ -36,7 +36,7 @@ Pour créer une configuration de canal pour un canal personnalisé, procédez co
 
    Saisissez la valeur de chaque paramètre. Vous pouvez utiliser l’éditeur de personnalisation pour injecter des valeurs dynamiques (par exemple, un identifiant utilisateur résolu à partir du profil). Vous pouvez ainsi personnaliser la requête de chaque destinataire en fonction de ses données de profil.
 
-   ![ Paramètres dynamiques ](assets/custom_channel_config_dynamic_parameters.png){width="100%"}
+   ![&#x200B; Paramètres dynamiques &#x200B;](assets/custom_channel_config_dynamic_parameters.png){width="100%"}
 
 1. Si des champs de payload sont activés pour le canal personnalisé lorsque la case **[!UICONTROL Configuration du canal]** est cochée, ces champs s’affichent dans la section **[!UICONTROL Configuration de la payload]**. [En savoir plus](create-custom-channel.md#payload-configuration)
 

@@ -62,7 +62,7 @@ Pour valider une diffusion de bout en bout avant l’activation, envoyez un BAT 
 
 Le résultat du BAT s’affiche en utilisant les mêmes modèles de validation que la relecture des e-mails : les champs obligatoires, les incohérences de type et les erreurs de validation de schéma sont affichés avant l’envoi du BAT.
 
-En savoir plus sur l’envoi de BAT dans [campagnes](../campaigns/create-campaign.md#send-proof) et [parcours ](../building-journeys/testing-the-journey.md).
+En savoir plus sur l’envoi de BAT dans [campagnes](../campaigns/create-campaign.md#send-proof) et [parcours &#x200B;](../building-journeys/testing-the-journey.md).
 
 ## Test en mode parcours {#test-journey}
 

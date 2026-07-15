@@ -30,7 +30,7 @@ La section **Créateur de canaux** est l’interface centrale pour définir de n
 
 >[!IMPORTANT]
 >
->Pour accéder au Créateur de canaux, créer et gérer des canaux personnalisés, vous devez disposer des autorisations **Afficher les canaux personnalisés** et **Gérer les canaux personnalisés** accordées. <!--[Learn more](../administration/high-low-permissions.md)--> Découvrez comment gérer les autorisations dans [ cette section ](../administration/permissions.md).
+>Pour accéder au Créateur de canaux, créer et gérer des canaux personnalisés, vous devez disposer des autorisations **Afficher les canaux personnalisés** et **Gérer les canaux personnalisés** accordées. <!--[Learn more](../administration/high-low-permissions.md)--> Découvrez comment gérer les autorisations dans [&#x200B; cette section &#x200B;](../administration/permissions.md).
 
 ## Accéder aux canaux personnalisés et les gérer {#access-channel-builder}
 
@@ -46,7 +46,7 @@ Pour accéder au **Créateur de canaux** et gérer vos canaux personnalisés, pr
 
 1. Vous pouvez filtrer les canaux personnalisés par statut (**Brouillon**, **Actif** ou **Archivé**), par auteur et par nom.
 
-1. Pour modifier un canal, cliquez sur son nom dans l’inventaire, apportez vos modifications et enregistrez-le. Pour les canaux actifs, vous ne pouvez modifier que certains champs. En [ plus](#test-activate).
+1. Pour modifier un canal, cliquez sur son nom dans l’inventaire, apportez vos modifications et enregistrez-le. Pour les canaux actifs, vous ne pouvez modifier que certains champs. En [&#x200B; plus](#test-activate).
 
    >[!CAUTION]
    >
@@ -62,7 +62,7 @@ Pour créer un canal personnalisé, procédez comme suit.
 
 1. Cliquez sur le bouton **[!UICONTROL Créer un canal personnalisé]** pour ouvrir le formulaire de création de canal. Commencez par définir les paramètres généraux de votre canal personnalisé.
 
-   ![ Paramètres généraux ](assets/custom_channel_properties.png){width="70%"}
+   ![&#x200B; Paramètres généraux &#x200B;](assets/custom_channel_properties.png){width="70%"}
 
 1. Dans la section **[!UICONTROL Propriétés]** , saisissez un **[!UICONTROL Nom]** pour votre canal personnalisé. Ce nom apparaît dans la zone de travail des parcours, le sélecteur d’actions de campagne et la liste des canaux des campagnes orchestrées.
 
@@ -105,7 +105,7 @@ Vous devez configurer le point d’entrée , qui est l’URL HTTP de votre syst�
 
    <!--At minimum, `Content-Type` and `Charset` are available as default headers.-->
 
-   ![ Configuration des en-têtes ](assets/custom_channel_endpoint_headers.png)
+   ![&#x200B; Configuration des en-têtes &#x200B;](assets/custom_channel_endpoint_headers.png)
 
    Pour chaque en-tête, vous pouvez définir si sa valeur est :
 
