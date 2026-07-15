@@ -10,23 +10,16 @@ level: Intermediate
 keywords: expression, éditeur, assistants, cas d’utilisation, personnalisation
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 TQID: https://experienceleague.adobe.com/93bIkfyck5u-tQNGr7jGRORQiTa3gaMHn4H5RP-dpYo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+source-git-commit: 2016539d8a34850e2730dbb2e1499739a04d88c0
 workflow-type: tm+mt
-source-wordcount: 1289
-ht-degree: 81%
+source-wordcount: 1712
+ht-degree: 61%
 
 ---
 
@@ -96,7 +89,7 @@ Le contenu du panier est une information contextuelle provenant du parcours. Par
 1. Sur la page d’accueil du concepteur d’e-mail, cliquez sur le composant HTML dans lequel vous souhaitez ajouter le prénom du client.
 1. Dans la barre d’outils contextuelle, cliquez sur **[!UICONTROL Afficher le code source]**.
 
-   ![Barre d’outils contextuelle avec l’option Afficher le code source &#x200B;](assets/personalization-uc-helpers-3.png)
+   ![Barre d’outils contextuelle avec l’option Afficher le code source ](assets/personalization-uc-helpers-3.png)
 
 1. Dans la fenêtre **[!UICONTROL Modifier le code HTML]**, ajoutez la fonction de chaîne `upperCase` :
    1. Dans le menu de gauche, sélectionnez **[!UICONTROL Fonctions d’assistance]**.
@@ -142,7 +135,7 @@ Cette étape illustre l’itération sur les données d’événement. Pour obte
 1. Sur la page d&#39;accueil du concepteur d’e-mail, cliquez sur le composant HTML dans lequel vous souhaitez répertorier le contenu du panier.
 1. Dans la barre d’outils contextuelle, cliquez sur **[!UICONTROL Afficher le code source]**.
 
-   ![Barre d’outils contextuelle avec l’option Afficher le code source &#x200B;](assets/personalization-uc-helpers-3.png)
+   ![Barre d’outils contextuelle avec l’option Afficher le code source ](assets/personalization-uc-helpers-3.png)
 
 1. Dans la fenêtre **[!UICONTROL Modifier le code HTML]**, ajoutez la fonction helper `each` :
    1. Dans le menu de gauche, sélectionnez **[!UICONTROL Fonctions d’assistance]**.
@@ -239,7 +232,7 @@ Cette étape illustre l’itération sur les données d’événement. Pour obte
 1. Sur la page d&#39;accueil du concepteur d’e-mail, cliquez sur le composant HTML dans lequel vous souhaitez insérer la note.
 1. Dans la barre d’outils contextuelle, cliquez sur **[!UICONTROL Afficher le code source]**.
 
-   ![Barre d’outils contextuelle avec l’option Afficher le code source &#x200B;](assets/personalization-uc-helpers-3.png)
+   ![Barre d’outils contextuelle avec l’option Afficher le code source ](assets/personalization-uc-helpers-3.png)
 
 1. Dans la fenêtre **[!UICONTROL Modifier le code HTML]**, ajoutez la fonction helper `if` :
    1. Dans le menu de gauche, sélectionnez **[!UICONTROL Fonctions d’assistance]**.
@@ -255,7 +248,7 @@ Cette étape illustre l’itération sur les données d’événement. Pour obte
       {%/if%}
       ```
 
-      ![&#x200B; Éditeur d’expression avec le modèle d’assistance if &#x200B;](assets/personalization-uc-helpers-12.png)
+      ![ Éditeur d’expression avec le modèle d’assistance if ](assets/personalization-uc-helpers-12.png)
 
 1. Supprimez cette condition de l’expression :
 
@@ -289,7 +282,7 @@ Cette étape illustre l’itération sur les données d’événement. Pour obte
       {%/if%}
       ```
 
-      ![&#x200B; Éditeur d’expression avec jeton de nom productListItems dans la condition if &#x200B;](assets/personalization-uc-helpers-13.png)
+      ![ Éditeur d’expression avec jeton de nom productListItems dans la condition if ](assets/personalization-uc-helpers-13.png)
 
 1. Modifiez l’expression :
    1. Dans l&#39;éditeur d&#39;expression, indiquez le nom du produit après le jeton `name`.
@@ -366,4 +359,66 @@ Cette étape illustre l’itération sur les données d’événement. Pour obte
 
 Découvrez comment utiliser les fonctions d’assistance.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416644?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
+
+## Référence rapide {#quick-reference}
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+>[!BEGINTABS]
+
+>[!TAB Vue d’ensemble]
+
+**TL;DR**
+
+Cette page décrit un cas d’utilisation d’e-mail d’abandon de panier à l’aide de trois fonctions d’assistance (`upperCase`, `each` et `if`) pour afficher le prénom d’un client ou d’une cliente en majuscules, répertorier les articles du panier et insérer une note d’expédition spécifique au produit de manière conditionnelle.
+
+**Intentions**
+
+* Créez un événement de parcours dont le schéma inclut le tableau `productListItems`
+* Insérer le prénom d’un client en majuscules à l’aide de `{%= upperCase(profile.person.name.firstName) %}`
+* Répertorier les éléments du panier en effectuant une itération sur `context.journey.events.event_ID.productListItems` avec `{{#each}}`
+* Afficher une note spécifique au produit de manière conditionnelle à l’aide de `{%#if context.journey.events.\`event_ID\`.productListItems.name = « product_name » %}`
+* Testez le parcours en mode test à l’aide d’un profil de test avec une payload d’événement, puis publiez
+
+>[!TAB Glossaire]
+
+* **`upperCase`** : fonction de chaîne PQL qui convertit une chaîne en majuscules ; appelée avec `{%= upperCase(string) %}`. *(spécifique au produit)*
+* **`each`helper** : un helper de bloc Handlebars (`{{#each array as |alias|}} ... {{/each}}`) qui effectue une itération sur un tableau tel que `productListItems`. *(spécifique au produit)*
+* **`if`helper** : un helper de bloc conditionnel (`{%#if condition%} ... {%else%} ... {%/if%}`) qui effectue le rendu du contenu uniquement lorsque la condition spécifiée est vraie.
+* **`productListItems`** : tableau XDM standard représentant le contenu du panier, avec des champs incluant `name`, `quantity` et `priceTotal`. *(spécifique au produit)*
+* **Mode test** : fonctionnalité de parcours qui permet d’envoyer des messages de test aux adresses de profil de test pour vérifier le comportement du parcours et des messages avant la publication. *(spécifique au produit)*
+
+>[!TAB  Terminologie ]
+
+* **Nom canonique :** e-mail d’abandon de panier — variantes : cas d’utilisation d’abandon de panier
+* **Ne pas confondre :** `context.journey.events.event_ID.productListItems` (tableau provenant de l’événement, accessible via les attributs contextuels) ≠ attributs `profile.*` (provenant du profil, toujours disponibles)
+
+>[!TAB Mécanismes de sécurisation et limitations]
+
+* Les attributs contextuels (y compris les données d’événement de parcours) ne sont disponibles dans l’éditeur de personnalisation qu’une fois le message placé dans un parcours qui inclut l’événement approprié.
+* Le mode test ne fonctionne qu’avec les profils de test.
+
+>[!TAB FAQ]
+
+**Q : Quelles fonctions d’assistance sont utilisées dans ce cas d’utilisation ?**
+
+Trois : `upperCase` (effectue le rendu du prénom en majuscules), `each` (effectue une itération sur le tableau d’articles du panier) et `if` (affiche de manière conditionnelle une note d’expédition spécifique au produit).
+
+**Q : D’où proviennent les données d’articles du panier dans l’expression de personnalisation ?**
+
+À partir du tableau de `productListItems` de l’événement de parcours, accessible via les attributs contextuels sur `context.journey.events.event_ID.productListItems`.
+
+**Q : Les attributs contextuels peuvent-ils être utilisés avant de placer le message dans un parcours ?**
+
+Non. Les attributs contextuels ne sont disponibles dans l’éditeur de personnalisation qu’une fois le message placé dans un parcours qui inclut l’événement approprié.
+
+**Q : Comment tester l’e-mail avec les données du panier ?**
+
+Activez le bouton bascule **Test** du parcours, cliquez sur **Déclencher un événement**, saisissez les valeurs d’entrée dans la fenêtre Configuration de l’événement, puis cliquez sur **Envoyer**. L’e-mail est envoyé à l’adresse du profil de test.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: 801d75d6 -->
