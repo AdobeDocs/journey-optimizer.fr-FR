@@ -6,12 +6,11 @@ role: User
 level: Beginner
 exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+source-git-commit: 8d9c09a7be3757624c72a0a9d2739d0dbb48adeb
 workflow-type: tm+mt
-source-wordcount: 308
-ht-degree: 82%
+source-wordcount: 352
+ht-degree: 72%
 
 ---
 
@@ -29,6 +28,8 @@ ht-degree: 82%
 >abstract="Utilisez des profils de test pour prévisualiser et tester votre contenu. Si vous avez ajouté des champs personnalisés, vous pouvez vérifier leur affichage à l’aide des données de profil de test."
 
 Les profils de test sont des destinataires supplémentaires, qui ne correspondent pas aux critères de ciblage définis. [En savoir plus sur la création de profils de test](../audience/creating-test-profiles.md)
+
+Avant de sélectionner des profils de test, assurez-vous que l’espace de noms d’identité que vous prévoyez d’utiliser correspond à l’espace de noms sous lequel vos profils de test sont stockés dans Adobe Experience Platform (par exemple, **E-mail** ou **Téléphone**). Une incohérence empêche la résolution correcte des profils de test dans le champ de recherche.
 
 Avant d’utiliser des profils de test pour tester votre contenu, vous devez d’abord les sélectionner. Pour ce faire, procédez comme suit :
 
