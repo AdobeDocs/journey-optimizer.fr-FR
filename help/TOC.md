@@ -5,10 +5,10 @@ user-guide-title: Guide de Journey Optimizer
 user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux clients des expériences connectées, contextuelles et personnalisées
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 958f85bb600cc3534070c77ef3ad1c76d4ce4d2d
+source-git-commit: c40641c63a5ec361d80475c0ffdf282db5a16424
 workflow-type: tm+mt
-source-wordcount: '3421'
-ht-degree: 97%
+source-wordcount: '3467'
+ht-degree: 96%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 97%
    + Travailler efficacement {#work-efficiently}
       + [Naviguer dans l’interface](using/start/user-interface.md)
       + [Rechercher, filtrer, organiser](using/start/search-filter-categorize.md)
-      + [Questions fréquentes sur la résolution des problèmes](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [Questions fréquentes sur la résolution des problèmes](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Accessibilité](using/start/accessibility.md)
       + [Parcours ou campagnes](using/start/journeys-vs-campaigns.md)
       + {hide-from-toc}[Parcours ou campagnes - 2](using/start/journeys-vs-campaigns-v2.md)
@@ -449,6 +449,18 @@ ht-degree: 97%
       + Configurer le canal d’activité en direct {#configure}
          + [Configurer une activité en direct dans Journey Optimizer](using/mobile-live/mobile-live-configuration.md)
          + [Configurer l’intégration du SDK de l’activité en direct](using/mobile-live/mobile-live-configuration-sdk.md)
+   + Canaux personnalisés {#custom-channel}
+      + {hide-from-toc}[Prise en main des canaux personnalisés](using/custom-channel/get-started-custom-channel.md)
+      + Configuration de canaux personnalisés {#configure-custom-channel}
+         + {hide-from-toc}[Configurer vos canaux personnalisés](using/custom-channel/configure-custom-channel.md)
+         + {hide-from-toc}[Créer un canal personnalisé](using/custom-channel/create-custom-channel.md)
+         + {hide-from-toc}[Gérer les informations d’identification d’API](using/custom-channel/custom-channel-api-credentials.md)
+         + {hide-from-toc}[Déléguer un sous-domaine](using/custom-channel/custom-channel-subdomains.md)
+         + {hide-from-toc}[Créer une configuration de canal](using/custom-channel/custom-channel-configuration.md)
+      + Création d’expériences de canal personnalisé {#create-custom-channel-experiences}
+         + {hide-from-toc}[Créer une expérience de canal personnalisée](using/custom-channel/create-custom-experience.md)
+         + {hide-from-toc}[Tester votre expérience de canal personnalisé](using/custom-channel/test-custom-channel.md)
+      + {hide-from-toc}[Surveillance des canaux personnalisés](using/custom-channel/monitor-custom-channel.md)
 + Gestion de contenu {#content-management}
    + [Gestion de contenu](/help/rp_landing_pages/content-management-landing-page.md)
    + Personnalisation {#personalization}
