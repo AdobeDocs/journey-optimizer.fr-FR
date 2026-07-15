@@ -8,14 +8,12 @@ level: Experienced
 hide: true
 badge: label="Disponibilité limitée" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 1292
-ht-degree: 97%
+source-wordcount: 2044
+ht-degree: 61%
 
 ---
 
@@ -236,3 +234,81 @@ Utilisez le menu Attributs contextuels > Train de données > Événement pour 
 Actuellement, non. Cette fonctionnalité sera prise en charge à l’avenir.
 
 +++
+
+## Référence rapide {#quick-reference}
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+>[!BEGINTABS]
+
+>[!TAB Vue d’ensemble]
+
+**TL;DR**
+
+Cette page explique comment configurer une action pour un point d’entrée externe et utiliser l’assistant `externalDataLookup` dans l’éditeur de personnalisation pour récupérer dynamiquement ces données au moment de l’exécution afin de personnaliser le contenu du canal entrant.
+
+**Intentions**
+
+* Configuration d&#39;une Action définissant un point d&#39;entrée externe (URL, méthode HTTP, paramètres, schémas de requête/réponse)
+* Insérer l&#39;assistant `externalDataLookup` dans une expression de personnalisation pour une action entrante
+* Transmettez les paramètres d’en-tête de variable, de requête, de payload ou de chemin au point d’entrée externe au moment de l’appel
+* Accéder aux données récupérées via l’alias de résultat à l’aide d’expressions de personnalisation et de fonctions helper
+* Gérez les délais d’expiration et les erreurs avec gracieusement les modèles de contenu de secours
+* Déboguer les problèmes de recherche externe à l’aide d’Adobe Experience Platform Assurance
+
+>[!TAB Glossaire]
+
+* **externalDataLookup** : fonction d’assistance dans l’éditeur de personnalisation qui récupère dynamiquement les données d’un point d’entrée externe configuré au moment de la demande, pour une utilisation dans la personnalisation de contenu de canal entrant. *(spécifique au produit)*
+* **Action** : objet de configuration dans Journey Optimizer (Administration > Configurations) qui définit un point d’entrée externe : URL, méthode HTTP, paramètres d’en-tête/de requête, schéma de corps POST et schéma de réponse. Obligatoire avant d’utiliser `externalDataLookup`. *(spécifique au produit)*
+* **variable result** : alias arbitraire attribué dans l’appel `externalDataLookup` ; utilisé pour référencer tous les champs de la réponse récupérée dans les expressions de personnalisation suivantes.
+* **Canaux entrants** : canaux où le contenu est diffusé à la demande lorsqu’un utilisateur ouvre une surface (expérience basée sur le code, web, message in-app). *(spécifique au produit)*
+* **AEP Edge Network** : infrastructure qui reçoit les demandes de personnalisation et déclenche l’appel de recherche de données externes au moment de l’exécution.
+
+>[!TAB  Terminologie ]
+
+* **Nom canonique :** externalDataLookup — variantes : recherche de données externe, assistant de recherche de données externe, assistant de recherche de données externe
+* **Synonymes :** « externalDataLookup » = « assistant de recherche de données externes »
+* **Ne pas confondre :** `actionId` (ID de l’action configurée, identifiant le point d’entrée externe) ≠ `result` (alias des données de réponse récupérées) ≠ noms de paramètres (valeurs de variable transmises au point d’entrée au moment de l’appel)
+* **Ne pas confondre :** utilisation de `externalDataLookup` dans une action de personnalisation entrante (récupère les données de manière dynamique au moment de la demande Edge Network) ≠ utilisation d’une action personnalisée dans une activité de parcours (récupère le contenu dans un flux de parcours)
+
+>[!TAB Mécanismes de sécurisation et limitations]
+
+* La fonctionnalité est en disponibilité limitée, disponible uniquement pour un ensemble d’organisations.
+* Délai d’expiration par défaut pour les appels de point d’entrée externe : 300 ms (par défaut ; contactez votre représentant Adobe pour augmenter ce délai pour un point d’entrée spécifique).
+* La navigation dans les schémas de réponse n’est pas prise en charge dans l’éditeur de personnalisation. Journey Optimizer ne valide pas les références aux attributs JSON de la réponse utilisée dans les expressions.
+* Types de données pris en charge pour les paramètres de variable de payload : `String`, `Integer`, `Decimal`, `Boolean`, `listString`, `listInt`, `listInteger`, `listDecimal`.
+* La substitution de variables dans les paramètres d’assistance `externalDataLookup` n’est actuellement pas prise en charge.
+* Les chemins d’URL dynamiques ne sont actuellement pas pris en charge.
+* Les options d’authentification de la configuration Action ne sont actuellement pas prises en charge par `externalDataLookup`. Utilisez les champs d’en-tête pour l’autorisation basée sur les clés API ou en texte brut comme solution de contournement.
+* Les modifications apportées à une configuration d’action ne sont pas répercutées dans les campagnes ou les parcours actifs qui l’utilisent ; copiez ou modifiez les campagnes ou les parcours actifs pour appliquer les modifications.
+* Le rendu multipasse est pris en charge.
+* Actuellement, Journey Optimizer ne met pas en cache les réponses de point d’entrée externe.
+* Le point d’entrée externe doit pouvoir gérer au moins autant de charge et de débit simultanés que le trafic entrant envoyé à AEP Edge Network pour la surface donnée.
+
+>[!TAB FAQ]
+
+**Q : Que se passe-t-il si le point d’entrée externe expire ou renvoie une erreur ?**
+
+La variable résultante sera vide. Les références d’attribut dans le résultat s’affichent comme vides et les itérations du tableau ne renvoient aucun élément. Utilisez des modèles de contenu de secours, tels que des `?: "none found"` pour des attributs uniques ou des `{%#if result%}…{%else%}…{%/if%}` pour des blocs de contenu entiers, pour gérer ces cas de manière élégante.
+
+**Q : Comment transmettre un attribut contextuel de la requête en tant que paramètre à une recherche de données externe ?**
+
+Utilisez le menu Attributs contextuels > Flux de données > Événement dans l’éditeur de personnalisation pour parcourir le schéma d’événement d’expérience et insérer l’attribut approprié en tant que valeur de paramètre, par exemple : `query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute`.
+
+**Q : Journey Optimizer met-il en cache les réponses des points d’entrée externes ?**
+
+Actuellement, non. La mise en cache sera prise en charge à l’avenir.
+
+**Q : Comment déboguer les problèmes liés à externalDataLookup ?**
+
+Utilisez Adobe Experience Platform Assurance. Démarrez une session Assurance, lancez un appel Journey Optimizer à partir de votre implémentation web ou mobile et utilisez la vue Edge Delivery pour inspecter le bloc customActions à la recherche de détails relatifs au délai d’expiration ou à l’erreur.
+
+**Q : Puis-je utiliser l’authentification dans la configuration de l’action avec externalDataLookup ?**
+
+Les options d’authentification de la configuration Action ne sont actuellement pas prises en charge. Pour une autorisation en texte brut ou basée sur une clé API, spécifiez les informations d’identification comme champs d’en-tête dans la configuration de l’action.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: a3ce801a -->

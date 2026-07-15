@@ -10,15 +10,12 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: expression, éditeur, à propos, commencer
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: e51e8901-97d9-4f7d-a835-503025a90e32
-  - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: e51e8901-97d9-4f7d-a835-503025a90e32id: ac5d9310-7772-40fb-9d78-864562e1bfd6
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 1592
-ht-degree: 91%
+source-wordcount: 2328
+ht-degree: 62%
 
 ---
 
@@ -57,7 +54,7 @@ Vous pouvez également l’ajouter à d’autres sections de votre contenu. Par 
 
 +++Concepteur d’e-mail
 
-Lors de la modification du contenu d’un e-mail dans la Designer d’e-mail[&#128279;](../email/get-started-email-design.md), vous pouvez personnaliser la plupart des éléments de texte à l’aide de l’icône dans la barre d’outils contextuelle.
+Lors de la modification du contenu d’un e-mail dans la Designer d’e-mail](../email/get-started-email-design.md), vous pouvez personnaliser la plupart des éléments de texte à l’aide de l’icône dans la barre d’outils contextuelle.[
 
 ![](assets/perso_insert.png)
 
@@ -93,7 +90,7 @@ Le volet de navigation vous permet de sélectionner la source pour la personnali
 
 * **[!UICONTROL Attributs de profil]** : répertorie toutes les références associées au schéma de profil décrit dans la [documentation du modèle de données Adobe Experience Platform (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr){target="_blank"}.
 * **[!UICONTROL Attributs cibles]** : ce dossier est spécifique aux campagnes orchestrées. Il contient des attributs calculés directement dans la zone de travail de la campagne. [Découvrez comment ajouter une personnalisation dans les campagnes orchestrées.](../orchestrated/add-personalization.md)
-* **[!UICONTROL Audiences]** : répertorie toutes les audiences créées dans le service de segmentation d’Adobe Experience Platform. En savoir plus dans la documentation sur la segmentation de Adobe Experience Platform [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target="_blank"}.
+* **[!UICONTROL Audiences]** : répertorie toutes les audiences créées dans le service de segmentation d’Adobe Experience Platform. En savoir plus dans la documentation sur la segmentation de Adobe Experience Platform [](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=fr){target="_blank"}.
 * **[!UICONTROL Décisions d’offre]** : répertorie toutes les offres associées à un emplacement spécifique. Sélectionnez l’emplacement, puis insérez les offres dans votre contenu. Pour obtenir une documentation complète sur la gestion des offres, consultez [cette section](../offers/get-started/starting-offer-decisioning.md).
 * **[!UICONTROL Attributs contextuels]** : lorsqu’une activité d’action de canal (e-mail, notification push, SMS) est utilisée dans un parcours ou une campagne, des attributs contextuels liés aux événements et aux propriétés sont disponibles pour la personnalisation. Un exemple de personnalisation utilisant les attributs contextuels est présenté dans [cette section](personalization-use-case.md). De plus, les réponses d’action personnalisée peuvent être utilisées pour la personnalisation. [Découvrez comment utiliser des réponses d’action personnalisée dans des canaux natifs](../action/action-response.md#response-in-channels).
 
@@ -275,3 +272,77 @@ HTML : contenu<br/></td>
 </table>
 
 +++
+
+## Référence rapide {#quick-reference}
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+>[!BEGINTABS]
+
+>[!TAB Vue d’ensemble]
+
+**TL;DR**
+
+Cette page explique comment utiliser l’éditeur de personnalisation de Journey Optimizer pour sélectionner, créer, personnaliser et valider des expressions de personnalisation à partir de sources comprenant des attributs de profil, des audiences, des décisions d’offre et des attributs contextuels.
+
+**Intentions**
+
+* Découvrez où la personnalisation peut être ajoutée dans Journey Optimizer (messages, Designer e-mail, URL, configuration des e-mails, offres)
+* Sélectionner la source de personnalisation appropriée pour une expression
+* Ajouter des attributs et créer des expressions dans l’espace de travail de l’éditeur
+* Utiliser les outils de l’éditeur : Rechercher/Remplacer, Saisie automatique, Valider, Pilules, Enregistrer en tant que fragment
+* Utiliser les fonctionnalités du volet de navigation : fonctions d’assistance, favoris, conditions, fragments
+* Valider les expressions et résoudre les erreurs courantes
+
+>[!TAB Glossaire]
+
+* **Éditeur Personalization** : outil d’interface utilisateur central dans Journey Optimizer pour créer, personnaliser et valider les expressions de personnalisation ; disponible partout où la personnalisation peut être définie. *(spécifique au produit)*
+* **Sources Personalization** : catégories de données disponibles pour la création d’expressions : attributs de profil, attributs de cible, audiences, décisions d’offre et attributs contextuels.
+* **Attributs contextuels** : données spécifiques au Parcours ou à la campagne (événements, propriétés, réponses d’action personnalisée) disponibles pour personnalisation uniquement lorsqu’une action de canal est utilisée dans un parcours ou une campagne. *(spécifique au produit)*
+* **Pilules** : mode d’affichage de l’éditeur de personnalisation qui effectue le rendu des chemins d’accès aux attributs longs en tant que jetons compacts cliquables pour une meilleure lisibilité. Disponible uniquement pour les attributs de profil, les attributs contextuels et Dynamic Media. *(spécifique au produit)*
+* **Saisie automatique** : fonctionnalité d’éditeur qui suggère et complète automatiquement le code au fur et à mesure que vous le tapez ; disponible uniquement pour les formats HTML et Texte, et prenant uniquement en charge les attributs de profil et de contexte. *(spécifique au produit)*
+* **Fragment d’expression** : composant d’expression de personnalisation réutilisable pouvant être référencé dans les campagnes et les parcours. *(spécifique au produit)*
+* **Texte de secours** : chaîne par défaut affichée lorsqu’un attribut de profil de type chaîne est vide pour un profil donné ; configuré par attribut via « Insérer avec un texte de secours ».
+
+>[!TAB  Terminologie ]
+
+* **Nom canonique :** éditeur de personnalisation
+* **Ne les confondez pas :** l’éditeur Personalization (utilisé pour créer des expressions de contenu dans les messages, les e-mails, les notifications push et les offres, prend en charge les barres de contrôle et la syntaxe PQL) ≠ l’éditeur d’expression avancé (utilisé dans le parcours pour les conditions sur les sources de données et les informations d’événement, les activités d’attente personnalisées et le mappage des paramètres d’action) fournit des fonctions intégrées et des opérateurs différents de ceux de l’éditeur de personnalisation.
+* **Ne pas confondre :** Attributs de profil (basés sur un schéma XDM, disponibles dans tous les contextes) ≠ Attributs contextuels (spécifiques au parcours/à la campagne, disponibles uniquement dans ce contexte) ≠ Attributs de cible (campagnes orchestrées uniquement)
+* **À ne pas confondre :** Saisie automatique pour HTML/Texte (suggère la saisie semi-automatique des attributs de personnalisation) ≠ la saisie semi-automatique du code HTML natif (la valeur par défaut de l’éditeur lorsque le bouton (bascule) est désactivé)
+
+>[!TAB Mécanismes de sécurisation et limitations]
+
+* La saisie automatique est disponible uniquement pour les formats HTML et Texte ; elle prend uniquement en charge les attributs de profil et de contexte.
+* Le mode d’affichage des pilules n’est disponible que pour les attributs de profil, les attributs contextuels et Dynamic Media.
+* La personnalisation de l’URL est disponible uniquement pour les types de lien externe, Lien de désinscription et Lien d’opt-out.
+* Par défaut, le volet Attributs affiche uniquement les attributs renseignés ; activez l’option « Afficher uniquement les attributs renseignés » pour afficher tous les attributs de schéma.
+* L’utilisation du modèle d’offre ne doit contenir que des attributs de profil ; les attributs autres que de profil dans une décision entraînent une erreur de validation.
+
+>[!TAB FAQ]
+
+**Q : Où la personnalisation peut-elle être ajoutée dans Journey Optimizer ?**
+
+Dans n’importe quel champ contenant l’icône d’ajout de personnalisation, y compris l’objet de l’e-mail, les champs de notification push (titre, corps, son personnalisé, badges, données personnalisées), les éléments textuels du Designer d’e-mail, les URL (lien externe, lien de désinscription, désinscription), les sous-domaines/en-têtes/paramètres de suivi des URL de configuration d’e-mail et les représentations de type texte d’offre.
+
+**Q : Quelles sont les sources de personnalisation disponibles ?**
+
+Attributs de profil, Attributs de cible (campagnes orchestrées uniquement), Audiences, Décisions d’offre et Attributs contextuels (événements de parcours/campagne et réponses d’action personnalisée).
+
+**Q : Comment une expression est-elle validée ?**
+
+La validation s’exécute automatiquement lorsque vous cliquez sur Ajouter pour fermer l’éditeur. Vous pouvez également le déclencher manuellement à l’aide du bouton Valider . Les erreurs courantes sont les suivantes : chemin d’accès introuvable (champ absent du schéma), non-correspondance de type (itération d’une chaîne sous forme de tableau), syntaxe Handlebars non valide et définition de segment non valide.
+
+**Q : Que fait l&#39;option Pilules ?**
+
+Il rend les chemins d’accès aux attributs longs sous la forme de jetons compacts cliquables pour une meilleure lisibilité dans l’éditeur. Disponible uniquement pour les attributs de profil, les attributs contextuels et Dynamic Media.
+
+**Q : Pourquoi est-ce que je ne vois que certains attributs dans le volet des attributs ?**
+
+Par défaut, le volet affiche uniquement les attributs renseignés. Sélectionnez l’icône des paramètres au-dessus du champ de recherche et désactivez « Afficher uniquement les attributs renseignés » pour afficher tous les attributs de schéma.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: 54973b31 -->

@@ -9,14 +9,12 @@ role: Developer
 level: Intermediate
 keywords: expression, éditeur, condition, règles
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: a757b957-83f3-4a4d-9775-a93854f84f77
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 666
-ht-degree: 89%
+source-wordcount: 1255
+ht-degree: 48%
 
 ---
 
@@ -110,3 +108,74 @@ Vous pouvez supprimer une règle conditionnelle à tout moment à l’aide du bo
 ![](assets/conditions-open.png)
 
 Les règles conditionnelles enregistrées dans la bibliothèque ne peuvent pas être modifiées. Cependant, vous pouvez toujours les utiliser pour créer de nouvelles règles. Pour ce faire, ouvrez la règle conditionnelle, apportez les modifications souhaitées, puis enregistrez-la dans la bibliothèque. [Découvrez comment enregistrer une condition dans la bibliothèque.](#save)
+
+## Référence rapide {#quick-reference}
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+>[!BEGINTABS]
+
+>[!TAB Vue d’ensemble]
+
+**TL;DR**
+
+Cette page explique comment créer des règles conditionnelles à partir d’attributs de profil, d’événements contextuels et d’audiences dans l’éditeur de personnalisation, et comment les enregistrer dans la bibliothèque pour les réutiliser dans le contenu du message.
+
+**Intentions**
+
+* Accédez au créateur de règles conditionnelles à partir de l’éditeur de personnalisation ou du Designer d’e-mail
+* Créez une règle conditionnelle en combinant les attributs de profil, l’appartenance à l’audience et les champs de parcours contextuels
+* Ajouter une règle conditionnelle à un message pour créer du contenu dynamique
+* Enregistrer une règle conditionnelle dans la bibliothèque de conditions pour la réutiliser dans l’ensemble de l’organisation
+* Modifier ou supprimer une règle conditionnelle enregistrée
+
+>[!TAB Glossaire]
+
+* **Règle conditionnelle** : ensemble de règles qui définit le contenu à afficher dans les messages, en fonction de critères tels que les attributs de profil, l’appartenance à une audience ou les événements contextuels. *(spécifique au produit)*
+* **Bibliothèque de conditions** : référentiel partagé au sein d’une organisation où les règles conditionnelles enregistrées sont stockées et accessibles à tous les utilisateurs. *(spécifique au produit)*
+* **Contenu dynamique** : contenu du message dont l’affichage est régi par des règles conditionnelles. *(spécifique au produit)*
+* **Champs contextuels** : champs spécifiques au Parcours disponibles dans le créateur de règles lorsqu’un message est utilisé dans un parcours ; les règles utilisant ces champs ne peuvent pas être enregistrées dans la bibliothèque.
+* **Profils individuels XDM** : attributs de profil associés au schéma du modèle de données d’expérience (XDM) défini dans Adobe Experience Platform, disponibles en tant que critères de règle.
+
+>[!TAB  Terminologie ]
+
+* **Nom canonique : règle conditionnelle** — variantes : condition, conditions, règle de contenu conditionnelle
+* **Synonymes :** « règle conditionnelle » = « condition » (comme indiqué dans l’interface utilisateur)
+* **À ne pas confondre :** onglet « Profil » (contient à la fois les attributs Audiences et les sous-sections Profils individuels XDM) ≠ onglet « Audiences » (répertorie toutes les audiences générées à partir des définitions de segment dans le service AEP Segmentation)
+* **Ne pas confondre :** « enregistrer une condition » (stocker une règle dans la bibliothèque partagée) ≠ « créer une condition » (créer une règle dans l’éditeur)
+
+>[!TAB Mécanismes de sécurisation et limitations]
+
+* Les règles conditionnelles qui utilisent des attributs contextuels de parcours ne peuvent pas être enregistrées dans la bibliothèque de conditions.
+* Seuls les utilisateurs disposant de l’autorisation **Gérer les éléments de bibliothèque** peuvent enregistrer ou supprimer des règles conditionnelles de la bibliothèque.
+* Les conditions enregistrées sont partagées et accessibles à tous les utilisateurs et utilisatrices de l’organisation.
+* Les règles conditionnelles enregistrées dans la bibliothèque ne peuvent pas être modifiées directement. Ouvrez la règle, apportez les modifications souhaitées et enregistrez-la dans la bibliothèque.
+* Les noms de variantes ne doivent utiliser que des caractères alphanumériques (A-Z, a-z, 0-9) ; des caractères spéciaux tels que `<`, `>`, `=`, `{`, `}` peuvent entraîner l’interruption ou le masquage de composants par l’éditeur de modèles.
+
+>[!TAB FAQ]
+
+**Q : Quels critères puis-je utiliser pour créer une règle conditionnelle ?**
+
+Attributs de profil, appartenance à l’audience et champs de parcours contextuels (lorsque le message est utilisé dans un parcours).
+
+**Q : Puis-je enregistrer une règle conditionnelle qui utilise des attributs contextuels de parcours ?**
+
+Non. Les règles conditionnelles qui utilisent des attributs contextuels de parcours ne peuvent pas être enregistrées dans la bibliothèque de conditions.
+
+**Q : Qui peut enregistrer ou supprimer des règles conditionnelles dans la bibliothèque ?**
+
+Seuls les utilisateurs disposant de l’autorisation **Gérer les éléments de bibliothèque** peuvent enregistrer ou supprimer des règles conditionnelles.
+
+**Q : Puis-je modifier une règle conditionnelle déjà enregistrée dans la bibliothèque ?**
+
+Les règles conditionnelles enregistrées dans la bibliothèque ne peuvent pas être modifiées directement. Vous pouvez ouvrir une règle enregistrée, apporter les modifications souhaitées et l’enregistrer dans la bibliothèque.
+
+**Q : Existe-t-il des restrictions sur le nommage des variantes de contenu conditionnel ?**
+
+Oui. Les noms de variantes ne doivent contenir que des caractères alphanumériques (A-Z, a-z, 0-9). Les caractères spéciaux tels que `<`, `>`, `=`, `{` `}` peuvent entraîner l’interruption ou le masquage des composants par l’éditeur de modèles.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: f375658d -->

@@ -10,24 +10,16 @@ level: Intermediate
 keywords: expression, éditeur, handlebars, itération, tableaux, contexte, personnalisation
 exl-id: 1a7c490f-6490-4785-a44d-bddd5482754d
 TQID: https://experienceleague.adobe.com/fOnI9VWpgrFCfUhnvkaiK-Ecsa-LOn8YJpdWZNnQilY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: f0577040-fadd-46a1-b0ae-9c7f828bb2da
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: f0577040-fadd-46a1-b0ae-9c7f828bb2da
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 3126
-ht-degree: 96%
+source-wordcount: 3893
+ht-degree: 77%
 
 ---
 
@@ -99,7 +91,7 @@ context.journey.events.<event_ID>.<fieldPath>
 >context.journey.events.`1697323153`.fieldName
 >```
 >
->Pour plus d’informations et pour obtenir un exemple complet incluant le formatage de dates à partir d’horodatages d’événement, voir [&#x200B; Formatage d’un horodatage à partir d’un événement contextuel](../personalization/functions/dates.md#format-date).
+>Pour plus d’informations et pour obtenir un exemple complet incluant le formatage de dates à partir d’horodatages d’événement, voir [ Formatage d’un horodatage à partir d’un événement contextuel](../personalization/functions/dates.md#format-date).
 
 ### Exemple : articles dans le panier à partir d’un événement
 
@@ -1064,10 +1056,87 @@ Utilisez le [mode test de parcours](../building-journeys/testing-the-journey.md)
 
 **Principes de base de la personnalisation :** [Commencer avec la personnalisation](personalize.md) | [Ajouter une personnalisation](personalization-build-expressions.md) | [Syntaxe de personnalisation](personalization-syntax.md) | [Fonctions de l’assistant](functions/helpers.md) | [Créer des règles conditionnelles](create-conditions.md)
 
-**Configuration du parcours :** [À propos des événements](../event/about-events.md) | [Configurer des actions personnalisées](../action/about-custom-action-configuration.md) | [Transmettre des collections dans des paramètres d’action personnalisée](../building-journeys/collections.md#passing-collection) | [Utiliser des réponses d’appel API dans les actions personnalisées](../action/action-response.md) | [Résoudre les problèmes liés aux actions personnalisées](../action/troubleshoot-custom-action.md) | [Utiliser des données Adobe Experience Platform dans les parcours](../building-journeys/dataset-lookup.md) | [Utiliser des identifiants supplémentaires dans les parcours](../building-journeys/supplemental-identifier.md) | [Mécanismes de sécurisation et limitations](../start/guardrails.md) | [Tester votre parcours &#x200B;](../building-journeys/testing-the-journey.md)
+**Configuration du parcours :** [À propos des événements](../event/about-events.md) | [Configurer des actions personnalisées](../action/about-custom-action-configuration.md) | [Transmettre des collections dans des paramètres d’action personnalisée](../building-journeys/collections.md#passing-collection) | [Utiliser des réponses d’appel API dans les actions personnalisées](../action/action-response.md) | [Résoudre les problèmes liés aux actions personnalisées](../action/troubleshoot-custom-action.md) | [Utiliser des données Adobe Experience Platform dans les parcours](../building-journeys/dataset-lookup.md) | [Utiliser des identifiants supplémentaires dans les parcours](../building-journeys/supplemental-identifier.md) | [Mécanismes de sécurisation et limitations](../start/guardrails.md) | [Tester votre parcours ](../building-journeys/testing-the-journey.md)
 
 **Fonctions d’expression de parcours :** [Éditeur d’expression avancé](../building-journeys/expression/expressionadvanced.md) | [Fonctions de gestion des collections](../building-journeys/expression/collection-management-functions.md) (first, all, last) | [Fonctions de liste](../building-journeys/functions/list-functions.md) (serializeList, filter, sort) | [Fonctions de tableau](../personalization/functions/arrays-list.md) (head, tail)
 
 **Cas d’utilisation de la personnalisation :** [E-mail d’abandon de panier](personalization-use-case-helper-functions.md) | [Notification de statut de la commande](personalization-use-case.md)
 
 **Conception de message :** [Commencer avec la conception d’e-mails](../email/get-started-email-design.md) | [Créer des notifications push](../push/create-push.md) | [Créer des SMS](../mobile/create-mobile-message.md) | [Prévisualiser et tester votre contenu](../content-management/preview-test.md)
+
+## Référence rapide {#quick-reference}
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+>[!BEGINTABS]
+
+>[!TAB Vue d’ensemble]
+
+**TL;DR**
+
+Cette page explique comment utiliser la syntaxe Handlebars `{{#each}}` pour faire une boucle sur des tableaux à partir de sources contextuelles (événements, réponses d’action personnalisée, recherches de jeux de données et propriétés techniques) dans la personnalisation des messages. Elle explique également comment utiliser des tableaux dans la syntaxe d’expression de parcours lors de la configuration d’activités de parcours.
+
+**Intentions**
+
+* Effectuez une itération sur les données du tableau d’événements (par exemple, éléments de panier, éléments de commande) dans la personnalisation des messages à l’aide de `{{#each}}`
+* Effectuez une itération sur des tableaux de réponse d’action personnalisée (par exemple, des recommandations de produit) dans les messages
+* Itérer sur les tableaux de résultats de recherche de jeu de données dans les messages
+* Combiner des données provenant de plusieurs sources contextuelles dans un seul message personnalisé
+* Transmettre des valeurs de tableau aux paramètres d’action personnalisés à l’aide de la syntaxe d’expression de parcours
+* Utilisation de tableaux comme clés de recherche dans les activités de recherche de jeu de données
+* Appliquez les bonnes pratiques pour les basculements de tableau vides, les noms de variable, les performances et la portée des fragments d’expression
+
+>[!TAB Glossaire]
+
+* **Handlebars** : langage de modèle utilisé dans la personnalisation de message Journey Optimizer pour l’itération (`{{#each}}`) et le rendu conditionnel (`{{#if}}`). *(spécifique au produit)*
+* **`{{#each}}`helper** : syntaxe Handlebars pour effectuer une itération sur un tableau ; chaque itération expose l’élément actif via une variable nommée (par exemple, `|product|`). *(spécifique au produit)*
+* **Données contextuelles** : données disponibles au moment de l’envoi du message à partir de sources de parcours (événements, réponses d’action personnalisée, recherches de jeux de données et propriétés techniques de parcours), par opposition aux attributs de profil statiques. *(spécifique au produit)*
+* **`currentEventField`** : référence utilisée dans les expressions de parcours (et non dans Handlebars) pour faire référence à chaque élément d’un tableau d’événements lors des opérations de filtrage ou de mappage.
+* **`currentActionField`** : utilisé dans les expressions de parcours pour faire référence à chaque élément d’une collection de réponses d’action personnalisée.
+* **`currentDataPackField`** : utilisé dans les expressions de parcours pour faire référence à chaque élément d’une collection de sources de données.
+* **`serializeList`** : fonction d’expression de parcours qui convertit une liste de valeurs en une chaîne délimitée (séparée par des virgules, par exemple), utilisable comme paramètre de requête.
+* **Identifiant supplémentaire** : identifiant au niveau du parcours qui distingue les instances de parcours simultanées déclenchées par le même profil. Il est utilisé pour filtrer un tableau selon l’élément correspondant à l’instance active.
+
+>[!TAB  Terminologie ]
+
+* **Nom canonique :** itération Handlebars — variantes : boucle `{{#each}}`, chaque boucle, itération de tableau
+* **Ne pas confondre :** la syntaxe `{{#each}}` Handlebars (utilisée dans le contenu du message pour l’itération et l’affichage) ≠ la syntaxe d’expression de parcours (utilisée dans la configuration de l’activité de parcours - utilise des fonctions telles que `first`, `all`, `serializeList`)
+* **Ne pas confondre :** `currentEventField` (expressions de parcours sur des tableaux d’événements) ≠ `currentActionField` (collections de réponses d’action personnalisée) ≠ `currentDataPackField` (collections de sources de données)
+* **Ne les confondez pas :** `@index` / `@first` / `@last` (variables spéciales Handlebars, disponibles uniquement dans les boucles `{{#each}}` dans le contenu des messages) ≠ fonctions `first` / `head` (fonctions d’expression de parcours pour extraire des éléments uniques, utilisées dans la configuration de l’activité de parcours)
+
+>[!TAB Mécanismes de sécurisation et limitations]
+
+* Les parcours ne peuvent pas créer de boucles dynamiques dans lesquelles un nœud d’action s’exécute plusieurs fois par élément de tableau, ceci afin d’éviter des problèmes de performances. Transmettez plutôt le tableau entier ou une liste sérialisée à une seule action personnalisée.
+* Conserver les payloads d’événement inférieures à 50 Ko au total.
+* Les payloads de réponse d’action personnalisée doivent être sous 100KB.
+* Limitez le nombre de clés de recherche de jeu de données et d’entités renvoyées pour les performances.
+* Les fragments d’expression ne peuvent pas recevoir de variables de portée boucle (par exemple, l’élément d’itération `{{#each}}` actuel) en tant que paramètres. Il s’agit d’une limitation connue. Utilisez plutôt des variables globales ou une logique intégrée.
+* Les identifiants d’événement numériques doivent être placés entre accents graves dans les chemins d’expression (par exemple, `` context.journey.events.`1697323153`.fieldName ``) ; en l’absence d’accents graves, l’analyseur PQL génère une erreur de syntaxe.
+
+>[!TAB FAQ]
+
+**Q : Quelle est la différence entre la syntaxe Handlebars et la syntaxe d’expression de parcours lorsque vous utilisez des tableaux ?**
+
+Handlebars `{{#each}}` est utilisé dans le contenu du message pour l’itération et l’affichage. La syntaxe de l&#39;expression de parcours, qui utilise des fonctions telles que `first`, `all` et `serializeList`, est utilisée dans la configuration de l&#39;activité de parcours (par exemple, les paramètres d&#39;une action personnalisée, les conditions). Il s’agit de syntaxes distinctes utilisées dans différents contextes.
+
+**Q : Puis-je boucler un nœud d’action de parcours afin qu’il s’exécute une fois par élément de tableau ?**
+
+Non. Les parcours ne peuvent pas créer de boucles dynamiques qui exécutent un nœud d’action plusieurs fois par élément. Au lieu de cela, transmettez le tableau entier ou une liste sérialisée à une seule action personnalisée qui traite tous les éléments ou utilise l’agrégation externe.
+
+**Q : Puis-je transmettre l’élément de boucle actif à un fragment d’expression dans une boucle `{{#each}}` ?**
+
+Non. Les fragments d’expression ne peuvent pas recevoir de variables de boucle en tant que paramètres. Utilisez des variables globales définies en dehors de la boucle ou incluez la logique de personnalisation directement dans la boucle au lieu d’utiliser un fragment.
+
+**Q : Comment afficher le contenu de secours lorsqu’un tableau est vide ?**
+
+Utilisez la clause `{{else}}` dans le bloc `{{#each}}` . Le contenu à l’intérieur du `{{else}}` est rendu lorsque le tableau ne comporte aucun élément.
+
+**Q : Que signifient `@index`, `@first` et `@last` dans une boucle `{{#each}}` ?**
+
+Il s’agit de variables Handlebars spéciales disponibles uniquement dans les boucles `{{#each}}` dans le contenu du message : `@index` est l’index d’itération actuel basé sur 0, `@first` est vrai pour la première itération et `@last` est vrai pour la dernière itération.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: f85f9dea -->
