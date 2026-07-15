@@ -44,7 +44,7 @@ Content here.
 - Les noms d’onglets sont titre-casse, courts (1-3 mots)
 - Ligne vierge avant `>[!BEGINTABS]` et après `>[!ENDTABS]`
 
----
+&#x200B;---
 
 ## Workflow
 
@@ -96,7 +96,7 @@ Avant l’ajout, reliez la revendication de section générée par la revendicat
 
 **Règle de correction :** en cas d’échec d’une vérification, corrigez le contenu **avant** lors de l’ajout. Enregistrez chaque correction dans le rapport Étape 5.
 
----
+&#x200B;---
 
 ### Étape 4 — Ajouter la section
 
@@ -114,7 +114,7 @@ Ce commentaire permet aux outils et aux rédacteurs à venir de détecter le mom
 - Fichiers ignorés + raison (contient déjà une section / vide / page d’index)
 - Tous les avertissements de validation générés lors de l’étape 2
 
----
+&#x200B;---
 
 ## Règles de génération de contenu
 
@@ -229,7 +229,7 @@ Les réponses doivent utiliser les mêmes choix de verbe et de substantif que le
 - N’inventez **pas** contenu non pris en charge par la page.
 - N’utilisez **pas** les termes imprécis suivants, sauf s’ils apparaissent mot pour mot dans le corps de la page : « synthétique », « fausses données », « sans données réelles », « inversé », « restauration » (lors de la description des transitions d’état de produit)
 
----
+&#x200B;---
 
 ## Liste de contrôle de validation de post-génération
 
@@ -252,7 +252,7 @@ Exécutez cette liste de contrôle sur chaque section avant l’ajout. Signalez 
 
 Si une vérification échoue, corrigez la section avant d’ajouter . Enregistrez la correction dans le rapport Étape 4.
 
----
+&#x200B;---
 
 ## Responsabilité de synchronisation
 
@@ -265,7 +265,7 @@ La section Référence rapide est une dérivée du corps de page à un moment do
 
 Le commentaire de synchronisation ajouté après la section (`<!-- ai-section-version -->`) est le signal : si le contenu du fichier précédant la section a changé depuis que ce hachage a été écrit, la section est candidate à la révision.
 
----
+&#x200B;---
 
 ## Modèle complet
 

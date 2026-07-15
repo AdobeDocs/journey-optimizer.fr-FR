@@ -5,8 +5,11 @@ feature: Personalization
 topic: Personalization
 role: Developer
 level: Experienced
-feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876eid: ac5d9310-7772-40fb-9d78-864562e1bfd6
+feature_v2:
+  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2:
+  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+  - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
 source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
 source-wordcount: 1524
@@ -28,7 +31,7 @@ Pour obtenir une référence complète des fonctions disponibles, voir [Fonction
 
 >[!TIP]
 >
->Avant de copier des exemples, passez en revue les [bonnes pratiques de ](personalization-syntax.md#best-practices) afin d’éviter les erreurs de syntaxe les plus courantes.
+>Avant de copier des exemples, passez en revue les [bonnes pratiques de &#x200B;](personalization-syntax.md#best-practices) afin d’éviter les erreurs de syntaxe les plus courantes.
 
 ## Recettes de date et d’heure {#date-time-recipes}
 
@@ -360,7 +363,7 @@ Non. `{{#each}}` est disponible uniquement dans le contenu de personnalisation d
 
 **Q : Comment référencer un champ dont le nom contient un trait d’union ?**
 
-Encapsulez la clé avec trait d’union en accolade inverse dans une expression PQL : `{%= profile.events.\`order-total\` > 100 %}`. Backticks are not supported in plain Handlebars interpolation — use a `{% let %}` variable comme étape intermédiaire si nécessaire.
+Encapsulez la clé avec trait d’union en accolade inverse dans une expression PQL : `{%= profile.events.\`order-total\` > 100 %&rbrace;`. Backticks are not supported in plain Handlebars interpolation — use a `{% let %}&grave; variable comme étape intermédiaire si nécessaire.
 
 **Q : Pourquoi `topN` a-t-il besoin de `{% let %}` avant une `{{#each}}` boucle ?**
 
