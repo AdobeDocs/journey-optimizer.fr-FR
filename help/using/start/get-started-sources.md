@@ -143,7 +143,7 @@ Pour plus d’informations sur la configuration et la gestion des sources, consu
 Maintenant que vous comprenez ce que sont les sources et pourquoi elles sont importantes :
 
 * Explorez le [catalogue de sources](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=fr#sources-catalog){target="_blank"} pour trouver des connecteurs pour vos systèmes.
-* Découvrir comment [créer une connexion source](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home){target="_blank"}
-* Comprendre [le mappage et la transformation des données](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home){target="_blank"}
+* Découvrir comment [créer une connexion source](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home){target="_blank"}
+* Comprendre [le mappage et la transformation des données](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home){target="_blank"}
 * Découvrir comment [utiliser des données importées dans les parcours](../building-journeys/journey-gs.md)
 * Consultez la présentation [Prise en main de la gestion des données](../data/gs-data.md) pour comprendre comment les sources s’intègrent dans la configuration des données pour Journey Optimizer.

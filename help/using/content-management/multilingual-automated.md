@@ -192,7 +192,7 @@ Dans cette section, vous pouvez définir vos différents paramètres régionaux 
 
    1. Dans la collecte de données Adobe Experience Platform, accédez à vos propriétés de balise.
 
-   1. Accédez au menu **[!UICONTROL Règles]** et créez une règle. Vous trouverez des informations détaillées sur la création de règles dans [!DNL Adobe Experience Platform] documentation [Collecte de données](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules){target="_blank"}
+   1. Accédez au menu **[!UICONTROL Règles]** et créez une règle. Vous trouverez des informations détaillées sur la création de règles dans [!DNL Adobe Experience Platform] documentation [Collecte de données](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/ui/rules){target="_blank"}
 
    1. Dans la section **[!UICONTROL SI]** de la règle, ajoutez un événement configuré comme ci-dessous :
 
