@@ -10,27 +10,15 @@ keywords: rentrée, parcours, profil, récurrent
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/li1WSyhVKq58N-FiTEL51gX-u911JVyZXcnBZtwNhDE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 2472bfde2c99dff384b11c66613370d369344f39
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 48d26b4669ef3fad87fd05d61ec187b7445d00a8
 workflow-type: tm+mt
-source-wordcount: 1875
-ht-degree: 54%
+source-wordcount: 2175
+ht-degree: 46%
 
 ---
 
@@ -116,6 +104,35 @@ Après la période de rentrée, les profils peuvent rejoindre à nouveau le parc
 Due to the 30-day journey timeout, when journey reentrance is not allowed, we cannot make sure the reentrance blocking will work more than 91 days. Indeed, as we remove all information about persons who entered the journey 91 days after they enter, we cannot know the person entered previously, more than 91 days ago. 
 -->
 
+### Rentrée dans les versions de parcours {#reentrance-versions}
+
+Un profil ne peut pas être actif dans le même parcours plusieurs fois en même temps, y compris entre les versions actives de ce parcours.
+
+Les paramètres de reprise sont configurés sur la version de parcours actuelle, mais [!DNL Journey Optimizer] vérifie également si le profil est déjà actif dans une autre version active du même parcours. Si le profil est toujours en cours d’exécution dans une version antérieure, une nouvelle entrée est bloquée jusqu’à la fin de cette instance active ou la suppression du profil.
+
+La publication d’une nouvelle version de parcours ne déplace pas les profils en cours vers la nouvelle version. Les profils qui ont déjà accédé à une version précédente restent dans cette version jusqu’à ce qu’ils quittent le parcours. S’ils redeviennent éligibles ultérieurement, ils saisissent la dernière version active.
+
+**Exemple**
+
+Pour comprendre le fonctionnement du blocage de versions croisées, tenez compte de la séquence suivante :
+
+1. La version 1 d’un parcours est active et un profil y accède.
+1. Vous publiez la version 2 du même parcours.
+1. Si le profil est toujours actif dans la version 1, il ne peut pas démarrer une nouvelle instance active dans la version 2 en même temps.
+1. Une fois que le profil a quitté l’instance précédente, il peut entrer à nouveau la dernière version active, sous réserve de la configuration de rentrée du parcours.
+
+>[!WARNING]
+>
+>**Pourquoi est-ce que je vois `exportedsegment_existinginstance` ?**
+>
+>Si le `exportedsegment_existinginstance` d’erreur s’affiche, cela signifie généralement que le profil a déjà une instance active dans le même parcours. Cela se produit le plus souvent lorsqu’une entrée récurrente ou répétée tente de démarrer alors que le profil est toujours actif dans une autre instance de ce parcours, y compris une version active antérieure.
+>
+>Lors de la résolution de cette erreur, vérifiez les points suivants :
+>
+>* Si le profil est toujours en cours dans une autre version active du parcours.
+>* Si une exécution récurrente précédente est toujours active.
+>* Si la conception de parcours inclut de longues attentes ou d’autres activités qui maintiennent les profils actifs pendant une période prolongée.
+
 ## Parcours métier {#entry-business}
 
 <!--
@@ -150,8 +167,8 @@ After 91 days, a Read audience journey switches to the **Finished** status. This
 
 * [Guide des critères d’entrée et de sortie de parcours](entry-exit-criteria-guide.md) : guide complet avec des exemples réels et des bonnes pratiques.
 * [Configurer les critères de sortie](journey-properties.md#exit-criteria) : définissez quand les profils doivent quitter votre parcours.
-* [Terminer un parcours &#x200B;](end-journey.md) : comprenez comment les parcours se ferment et se terminent.
-* [Cas d’utilisation de parcours &#x200B;](jo-use-cases.md) : consultez des exemples complets avec des configurations d’entrée et de sortie.
+* [Terminer un parcours ](end-journey.md) : comprenez comment les parcours se ferment et se terminent.
+* [Cas d’utilisation de parcours ](jo-use-cases.md) : consultez des exemples complets avec des configurations d’entrée et de sortie.
 
 +++ Référence des connaissances sur l’IA
 
