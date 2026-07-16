@@ -24,9 +24,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e588992f914e67f482d6736d55c5a705da8d465f
+source-git-commit: fa7bbe1ed725874467ac3bb6c7e432b3afda52b5
 workflow-type: tm+mt
-source-wordcount: 4606
+source-wordcount: 4612
 ht-degree: 94%
 
 ---
@@ -171,7 +171,7 @@ Les mécanismes de sécurisation suivants s’appliquent aux [événements](../e
 * Les parcours déclenchés par un événement peuvent prendre jusqu’à **5 minutes** pour traiter la première action du parcours.
 * En ce qui concerne les événements générés par le système, les données de diffusion en continu utilisées pour initier un parcours client doivent d’abord être configurées dans Journey Optimizer pour obtenir un identifiant d’orchestration unique. Cet identifiant d’orchestration doit être ajouté à la payload de diffusion en continu entrant dans Adobe Experience Platform. Cette limitation ne s’applique pas aux événements basés sur une règle.
 * Les événements métier ne peuvent pas être utilisés conjointement avec des événements unitaires ou des activités de qualification d’audience.
-* Un seul événement peut être référencé par un maximum de 25 parcours **&#x200B;**&#x200B;à tout moment. Lorsque cette limite est atteinte, la publication de tout parcours supplémentaire qui utilise cet événement est bloquée.
+* Un seul événement peut être référencé par un maximum de 25 parcours **&#x200B;**&#x200B;à tout moment, sur tous les parcours actifs et fermés. Lorsque cette limite est atteinte, la publication de tout parcours supplémentaire qui utilise cet événement est bloquée.
 * Un seul schéma XDM peut être référencé par un maximum de 100 événements **à la fois sur tous les parcours actifs et fermés.** Lorsque cette limite est atteinte, la publication de tout parcours avec un nœud d’événement qui fait référence à ce schéma est bloquée.
 * Les parcours unitaires (qui commencent par un événement ou une qualification d’audience) incluent un mécanisme de sécurisation qui empêche les parcours d’être déclenchés par erreur plusieurs fois pour le même événement. La rentrée des profils est temporairement bloquée par défaut pendant **5 minutes**. Par exemple, si un événement déclenche un parcours à 12:01 pour un profil spécifique et qu’un autre événement se produit à 12:03 (qu’il s’agisse du même événement ou d’un autre déclenchant le même parcours), ce parcours ne reprendra pas pour ce profil.
 * Journey Optimizer exige que les événements soient diffusés en continu vers Data Collection Core Service (DCCS) pour pouvoir déclencher un parcours. Les événements ingérés par lot, les événements insérés via **Query Service**, ou les événements provenant de jeux de données Journey Optimizer internes (commentaires des messages, tracking e-mail, etc.) ne peuvent pas être utilisés pour déclencher un parcours. Pour les cas d’utilisation où vous ne pouvez pas obtenir d’événements en flux continu, vous devez créer une audience basée sur ces événements et utiliser l’activité **Lecture d’audience** à la place. La qualification d’audience peut techniquement être utilisée. Cette méthode n’est toutefois pas recommandée, car elle peut entraîner des défis en aval en fonction des actions utilisées.

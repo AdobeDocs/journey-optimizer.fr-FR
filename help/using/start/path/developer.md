@@ -27,10 +27,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
+source-git-commit: cf815079d67f4a41c3647c6a6e381ef5f1c44e51
 workflow-type: tm+mt
 source-wordcount: 3490
-ht-degree: 54%
+ht-degree: 53%
 
 ---
 
@@ -119,7 +119,7 @@ Web SDK (`alloy.js`) est une bibliothèque JavaScript unique qui remplace l’en
 
 1. **Configurer les flux de données** : créez et configurez un train de données dans [!DNL Adobe Experience Platform Data Collection] avec Journey Optimizer activé. En savoir plus dans la [documentation sur les trains de données](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=fr){target="_blank"}.
 
-1. **Activer les notifications push web** (facultatif) : les notifications push web sont désormais disponibles. Configurez la [propriété pushNotifications](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/pushnotifications){target="_blank"} dans votre configuration du SDK web et utilisez la [commande sendPushSubscription](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/sendpushsubscription){target="_blank"} pour enregistrer les abonnements aux notifications push. [En savoir plus sur la configuration de notifications push web](../../push/push-configuration-web.md).
+1. **Activer les notifications push web** (facultatif) : les notifications push web sont désormais disponibles. Configurez la [propriété pushNotifications](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/js/commands/configure/pushnotifications){target="_blank"} dans votre configuration du SDK web et utilisez la [commande sendPushSubscription](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/js/commands/sendpushsubscription){target="_blank"} pour enregistrer les abonnements aux notifications push. [En savoir plus sur la configuration de notifications push web](../../push/push-configuration-web.md).
 
 ### Implémenter des expériences basées sur du code (SDK Web)
 

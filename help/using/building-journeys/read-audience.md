@@ -32,10 +32,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: ae3057d928fa84e9ee3dbf4a3109aed30f64b8a8
 workflow-type: tm+mt
-source-wordcount: 4780
-ht-degree: 50%
+source-wordcount: 5162
+ht-degree: 46%
 
 ---
 
@@ -236,6 +236,14 @@ Par défaut, les parcours sont configurés pour une seule exécution. Pour défi
 
 Pour les parcours récurrents, des options spécifiques sont disponibles pour vous permettre de gérer l’entrée des profils dans le parcours. Développez les sections ci-dessous pour plus d’informations sur chaque option.
 
+>[!NOTE]
+>
+>**Utilisation des instantanés d’audience**
+>
+>Chaque exécution Lecture d’audience utilise l’appartenance à l’audience disponible au moment de l’exécution. Pour les audiences par lots, [!DNL Journey Optimizer] lit à partir du dernier instantané d’audience par lots disponible. Il ne recalcule pas l’audience en temps réel au démarrage du parcours.
+>
+>Pour les parcours récurrents, chaque occurrence utilise l’instantané disponible pour cette occurrence. Si vous souhaitez que le parcours attende la dernière évaluation d’audience par lots avant de s’exécuter, activez **[!UICONTROL Déclencher après l’évaluation d’audience par lots]**.
+
 ![Options récurrentes de lecture d’audience : lecture incrémentielle, forcer une reprise, déclencher après le lot](assets/read-audience-options.png)
 
 +++**[!UICONTROL Lecture incrémentielle]**
@@ -253,7 +261,9 @@ Pour minimiser le risque de profils manquants :
 
 >[!CAUTION]
 >
->Si vous ciblez une [&#x200B; audience de chargement personnalisée &#x200B;](../audience/about-audiences.md#about-segments) dans votre parcours, les profils ne sont récupérés que lors de la première périodicité lorsque cette option est activée dans un parcours récurrent. Ces audiences sont corrigées.
+>Pour les [audiences de chargement personnalisées](../audience/custom-upload.md) (chargement CSV) et d’autres audiences externes (par exemple, la composition d’audiences fédérées), la **[!UICONTROL lecture incrémentielle]** n’est pas prise en charge fonctionnellement aujourd’hui. À chaque périodicité, l’**audience entière** est traitée, quel que soit le paramètre de basculement de lecture incrémentielle.
+>
+>Pour contrôler les entrées récurrentes, utilisez [Forcer une reprise sur la périodicité](#schedule).
 
 +++
 
@@ -264,6 +274,30 @@ Cette option permet de faire en sorte que tous les profils toujours présents da
 Par exemple, si vous avez une attente de 2 jours dans un parcours récurrent quotidien, l’activation de cette option déplace les profils vers l’exécution de parcours suivante. Cela se produit le lendemain, qu’ils se trouvent ou non dans l’audience d’exécution suivante.
 
 Si la durée de vie de vos profils dans ce parcours peut être supérieure à la fréquence de périodicité, n’activez pas cette option pour vous assurer que les profils puissent terminer leur parcours.
+
++++
+
++++**Comment fonctionnent [!UICONTROL la lecture incrémentielle] et [!UICONTROL Forcer une reprise sur une périodicité]**
+
+Ces deux options contrôlent différentes parties de l’exécution du parcours :
+
+* **[!UICONTROL Lecture incrémentielle]** contrôle **quels profils sont sélectionnés dans l’audience** pour la prochaine exécution récurrente.
+* **[!UICONTROL Forcer une reprise sur une périodicité]** contrôle **ce qui se passe pour les profils toujours actifs dans le parcours** au début de la prochaine exécution périodique.
+
+Utilisez le tableau ci-dessous pour comprendre le comportement combiné lors de l’exécution suivante.
+
+| [!UICONTROL Lecture incrémentielle] | [!UICONTROL Forcer une rentrée sur une périodicité] | Comportement lors de la prochaine exécution |
+| ------------------------------ | ------------------------------------------- | ------------------------ |
+| Désactivé | Désactivé | [!DNL Journey Optimizer] lit l’audience complète de cette exécution. Les profils toujours actifs dans le parcours ne sont pas réinitialisés automatiquement. |
+| Le | Désactivé | [!DNL Journey Optimizer] lit uniquement les profils qui ont été ajoutés à l’audience depuis la dernière exécution. Les profils toujours actifs dans le parcours ne sont pas réinitialisés automatiquement. |
+| Désactivé | Le | [!DNL Journey Optimizer] supprime les participants actifs de l’exécution du parcours en cours avant de démarrer la prochaine exécution, puis lit à nouveau l’audience complète. Cela permet aux profils de repartir à zéro à la nouvelle occurrence. |
+| Le | Le | [!DNL Journey Optimizer] supprime les participants actifs de l’exécution du parcours en cours avant de démarrer la prochaine exécution, puis lit uniquement les profils qui ont été ajoutés à l’audience depuis la dernière exécution. Forcer une reprise permet de réinitialiser la participation active au parcours, mais la lecture incrémentielle limite toujours la sélection aux membres de l’audience nouvellement ajoutés. |
+
+En d’autres termes, **[!UICONTROL Forcer une reprise sur une périodicité] ne désactive pas [!UICONTROL Lecture incrémentielle]**. Si les deux options sont activées, les profils sont supprimés de leur instance de parcours principale avant le début de l’occurrence suivante, mais l’occurrence suivante sélectionne toujours uniquement les membres de l’audience considérés comme nouveaux depuis la dernière exécution.
+
+>[!IMPORTANT]
+>
+>Un profil supprimé par **[!UICONTROL Forcer une reprise sur une périodicité]** n’est pas automatiquement traité comme un nouveau membre d’audience pour la **[!UICONTROL lecture incrémentielle]**. La sélection de l’audience dépend toujours du fait que le profil a été ou non récemment ajouté à l’audience depuis la dernière exécution.
 
 +++
 

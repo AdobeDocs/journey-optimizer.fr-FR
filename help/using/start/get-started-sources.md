@@ -25,10 +25,10 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
-workflow-type: ht
-source-wordcount: 724
-ht-degree: 100%
+source-git-commit: 451d24a7d30c00aa2ad5528f1dbf3bb775b3258d
+workflow-type: tm+mt
+source-wordcount: 726
+ht-degree: 96%
 
 ---
 
@@ -95,6 +95,11 @@ Journey Optimizer prend en charge différents types de sources pour se connecte
 * Salesforce
 * Salesforce Marketing Cloud
 
+**Fidélité et récompenses :**
+* Talon.One
+* Capillaire
+* Kobie
+
 ➡️ Voir la liste complète dans le [catalogue des sources Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=fr#sources-catalog){target="_blank"}
 
 ## Avant de commencer {#prerequisites}
@@ -138,7 +143,7 @@ Pour plus d’informations sur la configuration et la gestion des sources, consu
 Maintenant que vous comprenez ce que sont les sources et pourquoi elles sont importantes :
 
 * Explorez le [catalogue de sources](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=fr#sources-catalog){target="_blank"} pour trouver des connecteurs pour vos systèmes.
-* Découvrir comment [créer une connexion source](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html?lang=fr){target="_blank"}
-* Comprendre [le mappage et la transformation des données](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html?lang=fr){target="_blank"}
+* Découvrir comment [créer une connexion source](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home){target="_blank"}
+* Comprendre [le mappage et la transformation des données](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/home){target="_blank"}
 * Découvrir comment [utiliser des données importées dans les parcours](../building-journeys/journey-gs.md)
 * Consultez la présentation [Prise en main de la gestion des données](../data/gs-data.md) pour comprendre comment les sources s’intègrent dans la configuration des données pour Journey Optimizer.

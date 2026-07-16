@@ -11,9 +11,9 @@ keywords: test, parcours, vérification, erreur, dépannage
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 1d7a11990a82622e219a9cfef4ddd89d439477da
+source-git-commit: 191cb8542e0cfb24c3afef6ea173f952591b1b75
 workflow-type: tm+mt
-source-wordcount: 2904
+source-wordcount: 2909
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Sur n’importe quel parcours de **[!UICONTROL Simulation]**, **[!UICONTROL Simu
 
    >[!NOTE]
    >
-   >Les champs d’e-mail et de téléphone d’exécution préremplis proviennent de l’adresse e-mail et du numéro de téléphone de votre profil utilisateur Adobe IMS.
+   >Les champs d’e-mail et de téléphone d’exécution préremplis proviennent de valeurs précédemment utilisées dans la simulation de parcours et mises en cache dans votre navigateur.
 
    ![Étape de mise à jour de la simulation rapide des valeurs avec remplacement du temps d’attente et champs d’e-mail et de téléphone du BAT](assets/quick-simulation-3.png)
 
@@ -99,7 +99,7 @@ Les utilisateurs simulés sont des entités temporaires de type profil que vous 
 
    >[!NOTE]
    >
-   >Les champs d’e-mail et de téléphone sont préremplis à partir de votre profil utilisateur Adobe IMS.
+   >Les champs d’e-mail et de téléphone sont préremplis à partir des valeurs précédemment utilisées dans la simulation de parcours et mises en cache dans votre navigateur.
 
    ![&#x200B; Boîte de dialogue Générer des utilisateurs simulés avec les champs d’e-mail et de téléphone d’exécution et bouton Générer &#x200B;](assets/simulate-generate.png)
 

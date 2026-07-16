@@ -23,10 +23,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: 2016539d8a34850e2730dbb2e1499739a04d88c0
 workflow-type: tm+mt
-source-wordcount: 1289
-ht-degree: 81%
+source-wordcount: 1712
+ht-degree: 61%
 
 ---
 
@@ -367,3 +367,65 @@ Cette étape illustre l’itération sur les données d’événement. Pour obte
 Découvrez comment utiliser les fonctions d’assistance.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3416644?captions=fre_fr&quality=12)
+
+## Référence rapide {#quick-reference}
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+>[!BEGINTABS]
+
+>[!TAB Vue d’ensemble]
+
+**TL;DR**
+
+Cette page décrit un cas d’utilisation d’e-mail d’abandon de panier à l’aide de trois fonctions d’assistance (`upperCase`, `each` et `if`) pour afficher le prénom d’un client ou d’une cliente en majuscules, répertorier les articles du panier et insérer une note d’expédition spécifique au produit de manière conditionnelle.
+
+**Intentions**
+
+* Créez un événement de parcours dont le schéma inclut le tableau `productListItems`
+* Insérer le prénom d’un client en majuscules à l’aide de `{%= upperCase(profile.person.name.firstName) %}`
+* Répertorier les éléments du panier en effectuant une itération sur `context.journey.events.event_ID.productListItems` avec `{{#each}}`
+* Afficher une note spécifique au produit de manière conditionnelle à l’aide de `{%#if context.journey.events.\`event_ID\`.productListItems.name = « product_name » %&rbrace;&grave;
+* Testez le parcours en mode test à l’aide d’un profil de test avec une payload d’événement, puis publiez
+
+>[!TAB Glossaire]
+
+* **`upperCase`** : fonction de chaîne PQL qui convertit une chaîne en majuscules ; appelée avec `{%= upperCase(string) %}`. *(spécifique au produit)*
+* **`each`helper** : un helper de bloc Handlebars (`{{#each array as |alias|}} ... {{/each}}`) qui effectue une itération sur un tableau tel que `productListItems`. *(spécifique au produit)*
+* **`if`helper** : un helper de bloc conditionnel (`{%#if condition%} ... {%else%} ... {%/if%}`) qui effectue le rendu du contenu uniquement lorsque la condition spécifiée est vraie.
+* **`productListItems`** : tableau XDM standard représentant le contenu du panier, avec des champs incluant `name`, `quantity` et `priceTotal`. *(spécifique au produit)*
+* **Mode test** : fonctionnalité de parcours qui permet d’envoyer des messages de test aux adresses de profil de test pour vérifier le comportement du parcours et des messages avant la publication. *(spécifique au produit)*
+
+>[!TAB  Terminologie ]
+
+* **Nom canonique :** e-mail d’abandon de panier — variantes : cas d’utilisation d’abandon de panier
+* **Ne pas confondre :** `context.journey.events.event_ID.productListItems` (tableau provenant de l’événement, accessible via les attributs contextuels) ≠ attributs `profile.*` (provenant du profil, toujours disponibles)
+
+>[!TAB Mécanismes de sécurisation et limitations]
+
+* Les attributs contextuels (y compris les données d’événement de parcours) ne sont disponibles dans l’éditeur de personnalisation qu’une fois le message placé dans un parcours qui inclut l’événement approprié.
+* Le mode test ne fonctionne qu’avec les profils de test.
+
+>[!TAB FAQ]
+
+**Q : Quelles fonctions d’assistance sont utilisées dans ce cas d’utilisation ?**
+
+Trois : `upperCase` (effectue le rendu du prénom en majuscules), `each` (effectue une itération sur le tableau d’articles du panier) et `if` (affiche de manière conditionnelle une note d’expédition spécifique au produit).
+
+**Q : D’où proviennent les données d’articles du panier dans l’expression de personnalisation ?**
+
+À partir du tableau de `productListItems` de l’événement de parcours, accessible via les attributs contextuels sur `context.journey.events.event_ID.productListItems`.
+
+**Q : Les attributs contextuels peuvent-ils être utilisés avant de placer le message dans un parcours ?**
+
+Non. Les attributs contextuels ne sont disponibles dans l’éditeur de personnalisation qu’une fois le message placé dans un parcours qui inclut l’événement approprié.
+
+**Q : Comment tester l’e-mail avec les données du panier ?**
+
+Activez le bouton bascule **Test** du parcours, cliquez sur **Déclencher un événement**, saisissez les valeurs d’entrée dans la fenêtre Configuration de l’événement, puis cliquez sur **Envoyer**. L’e-mail est envoyé à l’adresse du profil de test.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: 801d75d6 -->

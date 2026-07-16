@@ -22,10 +22,10 @@ feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 123
-ht-degree: 78%
+source-wordcount: 364
+ht-degree: 27%
 
 ---
 
@@ -56,3 +56,50 @@ Si vous ne souhaitez plus voir un élément dans votre liste de favoris, vous po
 <!--
 ![](assets/favorite-remove.png)
 -->
+
+## Référence rapide {#quick-reference}
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+>[!BEGINTABS]
+
+>[!TAB Vue d’ensemble]
+
+**TL;DR**
+
+Cette page explique comment ajouter des attributs fréquemment utilisés au menu Favoris dans l’éditeur de personnalisation, y accéder pour une réutilisation rapide et les supprimer lorsque cela n’est plus nécessaire.
+
+**Intentions**
+
+* Ajouter un attribut de personnalisation au menu Favoris pour un accès rapide
+* Accédez aux attributs des favoris à partir du menu Favoris dans le volet gauche de l’éditeur
+* Supprimer un attribut de la liste des favoris
+
+>[!TAB Glossaire]
+
+* **Menu Favoris** : section dédiée dans le volet de navigation de gauche de l’éditeur de personnalisation, qui permet d’accéder rapidement aux attributs marqués comme favoris par l’utilisateur, ce qui accélère la création d’expressions. *(spécifique au produit)*
+
+>[!TAB  Terminologie ]
+
+* **Nom canonique :** Favoris — variantes : menu des favoris, favoris des attributs, attributs favoris
+* **Nom canonique :** Favoris — variantes : menu des favoris, attributs des favoris
+
+>[!TAB FAQ]
+
+**Q : Comment ajouter un attribut aux favoris ?**
+
+Cliquez sur le menu représentant des points de suspension en regard de l’attribut dans le volet de navigation et sélectionnez **Ajouter aux favoris**.
+
+**Q : Où puis-je trouver mes attributs favoris ?**
+
+Dans le menu **Favoris** dans le volet gauche de l’éditeur de personnalisation.
+
+**Q : Comment supprimer un attribut des favoris ?**
+
+Dans le menu **Favoris** du volet de gauche, supprimez l’élément des favoris.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: 44d87d52 -->

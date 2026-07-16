@@ -32,10 +32,10 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: 41e34973cb3213e08442bead6d1f1bb00af00921
 workflow-type: tm+mt
-source-wordcount: 2002
-ht-degree: 49%
+source-wordcount: 2330
+ht-degree: 46%
 
 ---
 
@@ -94,6 +94,8 @@ Lors du test à blanc, le parcours s’exécute en mode simulation, en appliquan
    * Si un nœud **Réaction** est utilisé avec un ou plusieurs nœuds d’**événement unitaire** en parallèle, les profils passeront toujours par l’événement de réaction.
    * Si un nœud **Réaction** est utilisé avec un ou plusieurs nœuds d’**événement de réaction** en parallèle, les profils passeront toujours par le premier dans la zone de travail (celui en haut).
 
+* Les activités **Lecture d’audience** dont l’heure d’exécution est planifiée (quotidienne, hebdomadaire ou mensuelle) ne suivent pas l’heure configurée dans le parcours. Le planning est ancré au moment où l’exécution d’essai a été activée. Par exemple, si votre parcours est configuré pour s’exécuter tous les jours à 10 heures du matin, mais que vous activez l’exécution d’essai à 8 heures du matin, toutes les lectures planifiées suivantes au cours de l’exécution d’essai s’exécutent à 8 heures du matin.
+
 >[!CAUTION]
 >
 >* Les autorisations de démarrage d’un test à blanc sont limitées aux utilisateurs et aux utilisatrices disposant de l’autorisation de haut niveau **[!DNL Publish journeys]**. Les autorisations d’arrêt d’un test à blanc sont limitées aux utilisateurs et aux utilisatrices disposant de l’autorisation de haut niveau **[!DNL Manage journeys]**. Pour en savoir plus sur la gestion des droits d’accès des utilisateurs et des utilisatrices [!DNL Journey Optimizer], consultez [cette section](../administration/permissions-overview.md).
@@ -145,7 +147,7 @@ Les parcours de test à blanc peuvent également être arrêtés manuellement. P
 
 1. Ouvrez le parcours de test à blanc à arrêter.
 1. Sélectionnez le bouton **[!UICONTROL Fermer]** pour terminer le test.
-Les liens vers les rapports des 24 dernières heures et à toute heure sont disponibles dans l’écran de confirmation.
+Les liens vers les rapports des 24 dernières heures ou de la durée entière sont disponibles dans l’écran de confirmation.
 
    ![Arrêter l’exécution du test à blanc du parcours](assets/dry-run-stop.png){width="50%"}
 
@@ -158,8 +160,8 @@ Les liens vers les rapports des 24 dernières heures et à toute heure sont disp
 * Les parcours en mode Test à blanc sont comptabilisés dans le quota des parcours actifs.
 * Les parcours en mode Test à blanc n’ont aucune incidence sur les règles métier.
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
-* Les actions **Saut** ne sont pas activées dans l’exécution d’essai.
-Lorsqu’un parcours source déclenche un événement **Jump** vers un événement de destination, cet événement de saut ne s’applique pas à une version de parcours d’exécution d’essai. Par exemple, si la dernière version d’un parcours est en Exécution d’essai et que la version précédente est **En direct**, l’événement de saut ignorerait la version en Exécution d’essai et ne s’appliquerait qu’à la version **En direct**.
+* Les actions **Saut** ne sont pas activées dans le test à blanc.
+Lorsqu’un parcours source déclenche un événement de **saut** vers un parcours de destination, cet événement de saut ne s’applique pas à une version de parcours de test à blanc. Par exemple, si la dernière version d’un parcours est en test à blanc et que la version précédente est **active**, l’événement de saut ignorerait la version en test à blanc et ne s’appliquerait qu’à la version **active**.
 
 ## Événements d’étape de parcours et essai {#journey-step-events}
 
@@ -209,6 +211,10 @@ Non. Les données de rapport ne sont disponibles que lorsque l’Exécution d’
 
 L’exécution d’essai génère **stepEvents** marqué d’un `inDryRun` et d’un `dryRunID`. Lors de l’analyse des mesures de rapports de parcours avec [!DNL Adobe Experience Platform] Query Service, excluez les événements d’étape où `inDryRun` est `true` (incluez uniquement les événements où `inDryRun` est `null` ou `false`).
 
+**L’heure d’exécution planifiée d’une activité Lecture d’audience change-t-elle dans l’exécution d’essai ?**
+
+Oui. Pour les parcours utilisant une activité **Lecture d’audience** avec une heure planifiée (quotidienne, hebdomadaire ou mensuelle), l’exécution d’essai ancre la planification au moment où l’exécution d’essai a été activée, et non à l’heure configurée dans le parcours. Par exemple, si le parcours est configuré pour s’exécuter à 10 heures du matin mais que vous activez l’exécution d’essai à 8 heures du matin, toutes les lectures quotidiennes pendant l’exécution d’essai s’exécutent à 8 heures du matin.
+
 ## Vidéo pratique {#dry-run-video}
 
 Découvrez comment exécuter un test à blanc de vos parcours dans cette vidéo.
@@ -245,6 +251,7 @@ Pour une compréhension totale, ces informations doivent être combinées avec l
 * Les nœuds de réaction ne sont pas exécutés lors de l’exécution d’essai ; les profils se ferment correctement, avec des règles de priorité pour les branches unitaires et de réaction parallèles
 * Les données de rapport ne sont disponibles que lorsque l’exécution d’essai est active ; une fois arrêtée, les données ne sont plus accessibles
 * Les parcours en mode Test à blanc n’ont aucune incidence sur les règles métier.
+* Pour les parcours utilisant une activité **Lecture d’audience** avec une heure planifiée (quotidienne, hebdomadaire ou mensuelle), l’exécution d’essai ne suit pas le planning de parcours configuré — le planning est ancré au moment où l’exécution d’essai a été activée (par exemple, parcours défini à 10 h, Exécution d’essai activée à 8 h → toutes les lectures pendant l’exécution d’essai s’exécutent à 8 h)
 
 **Terminologie:**
 * Nom canonique : Parcours Exécution d’essai — Acronyme : aucun — variantes : mode Exécution d’essai, mode de publication Exécution d’essai
@@ -257,5 +264,6 @@ Pour une compréhension totale, ces informations doivent être combinées avec l
 * **Q : Comment exclure les données d’exécution d’essai de mes requêtes d’analyse de parcours ?** — Filtrez les événements d’étape où `inDryRun` est `true` ; incluez uniquement les événements où `inDryRun` est `null` ou `false`.
 * **Q : Les profils sont-ils comptabilisés par rapport à des limites au cours d’une exécution d’essai ?** — Oui ; les profils sont comptabilisés dans les profils engageables et le parcours d’essai est comptabilisé dans le quota de parcours en direct.
 * **Q : Puis-je activer les activités d’attente et les appels de source de données externe pendant une exécution d’essai ?** — Les deux sont désactivés par défaut, mais vous pouvez choisir de les activer ou de les désactiver lors de l’activation de l’Exécution d’essai.
+* **Q : L’exécution d’essai respecte-t-elle le temps d’exécution planifié configuré dans un parcours Lecture d’audience ?** — Non. L’essai ancre le planning à l’heure d’activation, et non à l’heure de parcours configurée. Si le parcours est configuré pour s’exécuter à 10 heures du matin, mais que l’exécution d’essai est activée à 8 heures du matin, toutes les lectures planifiées pendant l’exécution d’essai s’exécutent à 8 heures du matin.
 
 +++

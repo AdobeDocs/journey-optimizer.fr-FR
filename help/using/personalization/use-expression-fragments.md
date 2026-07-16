@@ -24,10 +24,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 8c3b899a9e1f4fbe5f951798337870f66beb1523
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 1402
-ht-degree: 92%
+source-wordcount: 2174
+ht-degree: 60%
 
 ---
 
@@ -245,4 +245,79 @@ Cependant, vous pouvez également coller le contenu d’un fragment d’expressi
 Dans ce cas, l’héritage du fragment d’origine est rompu. Le contenu du fragment est copié dans l’éditeur et les modifications ne sont plus synchronisées.
 
 Il devient un élément autonome qui n’est plus lié au fragment d’origine. Vous pouvez le modifier comme tout autre élément de votre code.
+
+## Référence rapide {#quick-reference}
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+>[!BEGINTABS]
+
+>[!TAB Vue d’ensemble]
+
+**TL;DR**
+
+Cette page explique comment insérer, personnaliser et gérer des fragments d’expression dans l’éditeur de personnalisation, y compris des variables implicites, l’utilisation de fragments dans des boucles, des champs modifiables, une résolution dynamique et la rupture de l’héritage.
+
+**Intentions**
+
+* Insérer un fragment d’expression à partir du menu Fragments et comprendre la propagation automatique des modifications
+* Utiliser des variables implicites : variables d’entrée (déclarées en dehors du fragment, utilisées à l’intérieur) et variables de sortie (déclarées à l’intérieur du fragment, utilisées dans le contenu du message environnant)
+* Utiliser les fragments d&#39;expression dans les boucles : tirer parti des variables globales pour l&#39;accès aux fragments ; comprendre les limites de la transmission de variables de boucle en tant que paramètres.
+* Remplacer les champs modifiables dans un fragment personnalisable à l’aide de la syntaxe `<fieldId>="<value>"`
+* Résoudre dynamiquement les identifiants de fragment au moment de l’exécution en fonction des attributs de profil, des recherches de jeux de données ou des données contextuelles
+* Rompre l’héritage en collant le contenu du fragment directement dans l’éditeur
+
+>[!TAB Glossaire]
+
+* **Fragment d’expression** : composant d’expression de personnalisation réutilisable référencé par un identifiant dans les campagnes et les parcours. Les modifications apportées au fragment se propagent automatiquement à tout le contenu qui y fait référence. *(spécifique au produit)*
+* **Variables implicites** : variables qui étendent la fonctionnalité du fragment ; variables d’entrée (déclarées dans le contenu de la campagne/du parcours, consommées dans le fragment) et variables de sortie (déclarées dans le fragment, disponibles dans le contenu du message environnant). *(spécifique au produit)*
+* **Variable d’entrée** : variable déclarée en dehors du fragment (dans le contenu de campagne ou de parcours) que le fragment peut référencer et utiliser en interne.
+* **Variable de sortie** : variable déclarée ou calculée à l’intérieur d’un fragment qui devient disponible pour être utilisée dans le contenu du message environnant après l’appel du fragment.
+* **Champs modifiables** : les variables de fragment exposées pour permettre à l’utilisateur qui insère de remplacer les valeurs par défaut à l’aide de la syntaxe `<fieldId>="<value>"`, sans modifier la source du fragment. *(spécifique au produit)*
+* **Résolution de fragment dynamique** : possibilité de résoudre un identifiant de fragment au moment de l’exécution (en fonction des attributs de profil, des recherches de jeux de données ou des données contextuelles) plutôt que d’incorporer un identifiant de fragment statique au moment de la conception. *(spécifique au produit)*
+* **Rompre l’héritage** : en utilisant l’option « Coller le fragment » du menu contextuel, le contenu du fragment est copié dans l’éditeur en tant qu’élément autonome qui ne se synchronise plus avec le fragment d’origine. *(spécifique au produit)*
+
+>[!TAB  Terminologie ]
+
+* **Nom canonique : fragment d’expression** — variantes : fragment, fragment d’expression
+* **Synonymes :** « identifiant du fragment » = identifiant utilisé pour référencer le fragment dans les expressions
+* **Ne pas confondre :** insérer un fragment par ID (référencé ; les modifications se propagent automatiquement à tout le contenu) ≠ rompre l’héritage/coller le fragment (contenu copié dans l’éditeur ; élément autonome, plus lié à l’original)
+* **Ne pas confondre :** variables d’entrée (déclarées en dehors du fragment, consommées à l’intérieur) ≠ variables de sortie (déclarées à l’intérieur du fragment, consommées à l’extérieur dans le contenu du message environnant)
+* **Ne pas confondre :** le brouillon de fragment (peut être ajouté au contenu, mais bloque la publication du parcours/de la campagne jusqu’à ce qu’il soit approuvé) ≠ le fragment actif (entièrement publié ; sûr pour les parcours et les campagnes actifs).
+
+>[!TAB Mécanismes de sécurisation et limitations]
+
+* Il est possible d’ajouter un maximum de 30 fragments dans une diffusion donnée.
+* Les fragments ne peuvent être imbriqués que jusqu’à un seul niveau.
+* Un parcours ou une campagne ne peut pas être activé ou publié s’il contient un fragment avec le statut Brouillon . Les brouillons de fragments doivent être approuvés avant d’être publiés.
+* Les fragments d’expression ne peuvent pas recevoir de variables de boucle (l’élément d’itération `{{#each}}` actuel) en tant que paramètres. Il s’agit d’une limitation connue. Utilisez des variables globales ou une logique intégrée comme solution.
+* Si un fragment contenant plusieurs sauts de ligne est utilisé dans du contenu de SMS ou de notification push, les sauts de ligne sont conservés ; testez le contenu avant l’envoi.
+
+>[!TAB FAQ]
+
+**Q : Combien de fragments peut-on ajouter dans une seule diffusion ?**
+
+Jusqu’à 30 fragments.
+
+**Q : Les fragments peuvent-ils être imbriqués dans d’autres fragments ?**
+
+Oui, mais uniquement jusqu’à 1 niveau d’imbrication.
+
+**Q : Que se passe-t-il si j’utilise un fragment de brouillon dans un parcours ou une campagne ?**
+
+Vous pouvez ajouter un Brouillon de fragment au contenu, mais vous ne pouvez pas activer ni publier le parcours ou la campagne tant que le fragment n’a pas été approuvé et que son statut n’est pas passé à Actif.
+
+**Q : Un fragment d’expression peut-il recevoir l’élément de boucle actuel (par exemple, `product` dans `{{#each}}`) en tant que paramètre ?**
+
+Non. Les fragments d’expression ne peuvent pas recevoir de variables de boucle en tant que paramètres. Utilisez des variables globales déclarées en dehors de la boucle (auxquelles le fragment peut accéder) ou incluez la logique de personnalisation directement dans la boucle au lieu d’utiliser un fragment.
+
+**Q : Qu’est-ce que la rupture de l’héritage et quand dois-je l’utiliser ?**
+
+La rupture de l’héritage signifie que vous utilisez « Coller le fragment » à partir du menu contextuel pour copier directement le contenu du fragment dans l’éditeur. Le contenu collé devient un élément autonome qui ne se synchronise plus avec le fragment d’origine. Utilisez-le lorsque vous devez personnaliser le contenu au-delà de ce que les champs modifiables permettent, sachant que les modifications futures du fragment d’origine ne se propageront pas à cette copie.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: 64745ff0 -->
 

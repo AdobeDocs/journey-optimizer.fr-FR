@@ -26,10 +26,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 617d0a90751c28b033d6c010c5314cb489da9d4a
+source-git-commit: 6c7377396eb135e310fc04dbc5946db467461e23
 workflow-type: tm+mt
-source-wordcount: 1559
-ht-degree: 92%
+source-wordcount: 1607
+ht-degree: 89%
 
 ---
 
@@ -76,6 +76,16 @@ Cliquez sur le bouton **[!UICONTROL Plus d’actions]** en regard de chaque frag
 * Déplacez le fragment vers un dossier. [En savoir plus](#folders)
 
 ![](assets/fragment-list-more-actions.png)
+
+### Raccourcis de lancement rapide {#quick-launch-fragments}
+
+À partir du bouton **[!UICONTROL Autres actions]** en regard de chaque fragment, les raccourcis de lancement rapide suivants sont également disponibles :
+
+* **[!UICONTROL Modifier]** — Ouvrez directement l&#39;éditeur de fragments.
+* **[!UICONTROL Ouvrir]** — Ouvrez l&#39;écran Détails et aperçu du fragment.
+* **[!UICONTROL Ignorer le brouillon]** — Ignorez le brouillon actuel et revenez à la dernière version publiée.
+
+![](assets/fragment-quick-launch.png)
 
 ### Actions en masse {#bulk-actions-fragments}
 

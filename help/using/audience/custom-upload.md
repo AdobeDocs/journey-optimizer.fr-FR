@@ -21,10 +21,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+source-git-commit: 22d6cddf35fa26a5fd3f0eddc74ed15faf9d6503
 workflow-type: tm+mt
-source-wordcount: 177
-ht-degree: 75%
+source-wordcount: 183
+ht-degree: 58%
 
 ---
 
@@ -40,13 +40,13 @@ Le portail Audience d’Adobe Experience Platform permet d’importer une audi
 
 Pendant le processus de chargement personnalisé, spécifiez l’attribut CSV à utiliser comme identité et l’identité de profil à laquelle il correspond. Cela établit un lien entre les données de l’audience et le profil. Si le fichier CSV contient une valeur d’identité introuvable dans le profil, un nouveau profil est créé avec cette valeur d’identité.
 
->[!NOTE]
->
->Pour les audiences de chargement personnalisé, si l’option « Lecture incrémentielle » est activée dans un parcours récurrent, les profils ne sont récupérés que lors de la première périodicité, car ces audiences sont fixes.
-
 ![](assets/import-audience.png)
 
 Vous trouverez des informations détaillées sur l’importation d’audiences dans Adobe Experience Platform [documentation du service de segmentation](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}.
+
+>[!NOTE]
+>
+>Pour les audiences de chargement personnalisées (chargement CSV) et d’autres audiences externes, la **[!UICONTROL lecture incrémentielle]** n’est pas prise en charge fonctionnellement aujourd’hui. À chaque périodicité, l’**audience entière** est récupérée, quel que soit le paramètre de basculement de lecture incrémentielle.
 
 Découvrez comment charger des audiences au format CSV dans cette vidéo :
 

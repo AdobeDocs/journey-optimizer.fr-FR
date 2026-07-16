@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: 8d9c09a7be3757624c72a0a9d2739d0dbb48adeb
 workflow-type: tm+mt
-source-wordcount: 3075
-ht-degree: 54%
+source-wordcount: 3541
+ht-degree: 47%
 
 ---
 
@@ -82,12 +82,13 @@ Consultez ces notes avant d’exécuter des tests dans votre parcours.
 * **Flexibilité de réactivation** : vous pouvez activer et désactiver le mode test autant de fois que nécessaire.
 * **Désactivation automatique** : les Parcours qui restent inactifs en mode test pendant **plus d’une semaine** quittent automatiquement le mode test et reviennent au statut Brouillon. Aucun contenu de parcours n’est perdu ; seule la session du mode test se termine.
 * **Modification et publication** : lorsque le mode test est actif, vous ne pouvez pas modifier le parcours. Cependant, vous pouvez publier directement le parcours, sans avoir à désactiver le mode test au préalable.
+* **Diffusion des messages** - En mode test, les messages sont envoyés aux boîtes de réception des profils de test à l’aide du même pipeline de diffusion que la production. Cela diffère de l’[exécution d’essai de Parcours &#x200B;](journey-dry-run.md), qui simule l’exécution de parcours sans diffuser de messages ou déclencher des actions de canal réelles. Aucune des deux méthodes ne reproduit tous les aspects d’un envoi dynamique ; utilisez un environnement d’évaluation pour une validation complète de bout en bout.
 
 ### Exécution
 
-* **Comportement de partage** : lorsque le parcours atteint un partage, la branche supérieure est toujours sélectionnée. Réorganisez les branches si vous souhaitez tester un autre chemin.
+* **Comportement de partage** - Lorsque le parcours atteint un partage, la branche supérieure est toujours sélectionnée en mode test. Cela ne reflète pas le chemin sélectionné statistiquement pendant l’exécution en direct. Réorganisez les branches si vous souhaitez tester un autre chemin.
 * **Synchronisation des événements** - Si le parcours comprend plusieurs événements, déclenchez chaque événement en séquence. L’envoi d’un événement trop tôt (avant la fin du premier nœud d’attente) ou trop tard (après la temporisation configurée) ignore l’événement. Le profil sera alors envoyé à un chemin de temporisation. Vérifiez toujours que les références aux champs de payload d&#39;événement restent valides en envoyant la payload dans la fenêtre définie.
-* **Fenêtre de date active** - Assurez-vous que la fenêtre [dates/heure de début et de fin](journey-properties.md#dates) configurée pour le parcours inclut l’heure actuelle lors du lancement du mode test. Dans le cas contraire, les événements de test déclenchés sont ignorés silencieusement. Pour en savoir plus sur le dépannage de ce problème, consultez [cette page](troubleshooting-execution.md#troubleshooting-test-transitions).
+* **Fenêtre de date active** - Assurez-vous que la fenêtre [dates/heure de début et de fin](journey-properties.md#dates) configurée pour le parcours inclut l’heure actuelle lors du lancement du mode test. Dans le cas contraire, les événements de test déclenchés sont ignorés silencieusement avec le message du journal `DISPATCHER DISCARD #16 — unqualified on journey version enablements`. Pour contourner ce problème lors du test, définissez temporairement la date de début du parcours à une heure antérieure au moment actuel, puis restaurez-la avant de la publier. Pour en savoir plus sur le dépannage de ce problème, consultez [cette page](troubleshooting-execution.md#troubleshooting-test-transitions).
 * **Événements de réaction** : pour les événements de réaction avec une temporisation, le temps d’attente minimum et par défaut est de 40 secondes.
 * **Jeux de données de test** : les événements déclenchés en mode test sont stockés dans des jeux de données dédiés libellés comme suit : `JOtestmode - <schema of your event>`
 * **Infrastructure partagée** : le mode test s’exécute sur la même infrastructure que la production. Pendant les périodes de trafic élevé, vous pouvez remarquer des retards dans les envois d’e-mails ou le traitement des événements. Dans ce cas, vérifiez les tableaux de bord de trafic de la plateforme ou réessayez vos tests en dehors des heures de pointe.
@@ -149,6 +150,17 @@ Pour valider le parcours de bout en bout :
 >* L’identifiant de profil que vous avez saisi est marqué comme profil de test dans [!DNL Adobe Experience Platform].
 >* Les dates de début et de fin configurées du parcours incluent l’heure actuelle. Les événements déclenchés en dehors de cette fenêtre sont ignorés silencieusement. [En savoir plus](troubleshooting-execution.md#troubleshooting-test-transitions).
 
+## Dépannage du mode test {#troubleshoot-test-mode}
+
+Utilisez ce tableau pour diagnostiquer automatiquement les échecs de mode test courants avant d’ouvrir un ticket d’assistance.
+
+| Symptôme | Cause probable | Résolution |
+| --- | --- | --- |
+| L’événement est envoyé avec succès, mais le profil n’apparaît jamais dans le journal du parcours | Incompatibilité de l&#39;espace de noms dans l&#39;identifiant du profil — la valeur de l&#39;espace de noms ne correspond pas à l&#39;espace de noms défini dans le schéma d&#39;événement | Vérifiez le format de l&#39;identifiant : `@{<EventName>.identityMap.entry('<NamespaceName>').first().id}`. `<NamespaceName>` doit correspondre exactement au schéma d’événement (sensible à la casse). Voir les [Conditions préalables](#trigger-events-prerequisites). |
+| Événements acceptés (réponse 200) mais le parcours ne se déclenche jamais ; le journal affiche `DISPATCHER DISCARD #16 — unqualified on journey version enablements` | La date de début du parcours est définie dans le futur ; les événements de test sont ignorés silencieusement en dehors de la fenêtre de date active | Définissez temporairement la date de début du parcours sur avant l’heure actuelle. Restaurez-le avant de le publier. Voir les [dates de parcours &#x200B;](journey-properties.md#dates). |
+| La lecture du parcours d’audience affiche un journal d’évaluation de segments par lots, mais aucune entrée de profil | L’évaluation des segments par lot est consignée séparément des entrées de profil individuelles. Le journal par lot ne confirme pas que les profils sont entrés dans le parcours | Patientez jusqu’à la fin de la fenêtre de traitement par lots. Pour le retour d’informations du journal en temps réel, testez-le avec un parcours d’événement unitaire. |
+| Le mode Test ne peut pas être activé ; erreur `ERR_MODEL_RULES_16` | L’événement n’inclut pas d’espace de noms d’identité, obligatoire lorsque le parcours utilise une action de canal | Ajoutez un [espace de noms d’identité](../audience/get-started-identity.md) à la configuration de l’événement. |
+
 ## Déclencher vos événements {#firing_events}
 
 >[!CONTEXTUALHELP]
@@ -164,6 +176,12 @@ Utilisez le bouton **[!UICONTROL Déclencher un événement]** pour configurer u
 Vous devez, au préalable, savoir quels profils sont marqués comme profils de test dans [!DNL Adobe Experience Platform]. En effet, le mode test n’autorise ces profils que dans le parcours.
 
 L’événement doit contenir un identifiant. L’identifiant attendu dépend de la configuration de l’événement. Il peut s’agir d’un ECID ou d’une adresse e-mail, par exemple. La valeur de cette clé doit être ajoutée dans le champ **Identifiant du profil**.
+
+La valeur **Identifiant de profil** doit correspondre exactement à l&#39;identité stockée dans le schéma d&#39;événement. Le format utilisé pour référencer une identité dans la payload d&#39;événement est le suivant :
+
+`@{<EventName>.identityMap.entry('<NamespaceName>').first().id}`
+
+Remplacez `<NamespaceName>` par l’espace de noms exactement comme défini dans votre schéma d’événement (par exemple, `Email` ou `Phone`). Une incohérence entre les espaces de noms entraîne un **abandon silencieux** : l’événement est accepté et renvoie une réponse de succès, mais le profil n’entre jamais dans le parcours et aucune erreur n’est visible dans l’interface utilisateur. Si un profil n’apparaît pas dans les journaux de test après le déclenchement d’un événement, vérifiez que l’espace de noms dans votre **Identifiant de profil** correspond exactement à l’espace de noms du schéma d’événement.
 
 Si votre parcours ne parvient pas à activer le mode test avec l’erreur `ERR_MODEL_RULES_16`, assurez-vous que l’événement utilisé inclut un [espace de noms d’identité](../audience/get-started-identity.md) lors de l’utilisation d’une action de canal.
 
@@ -237,6 +255,10 @@ Le nombre d’individus (techniquement appelés instances) actuellement à l’i
 * _enrichedData_ : données récupérées par le parcours si le parcours utilise des sources de données.
 * _transitionHistory_ : liste des étapes suivies par la personne. Pour les événements, le payload s’affiche.
 * _actionExecutionErrors_ : informations sur les erreurs qui se sont produites.
+
+>[!NOTE]
+>
+>Le journal de test affiche uniquement les entrées pour les **événements d’entrée de profil unitaire**. Si vous testez un parcours Lecture d’audience , le journal d’évaluation des segments par lot est distinct du journal des entrées de profil individuel. Un segment par lot en cours d’évaluation ne confirme pas que les profils individuels ont progressé tout au long des étapes de parcours. Si aucune entrée de profil n’apparaît après le déclenchement d’un parcours Lecture d’audience, attendez que la fenêtre de traitement par lots se termine avant de tirer des conclusions.
 
 Voici les différents statuts du parcours d’une personne :
 

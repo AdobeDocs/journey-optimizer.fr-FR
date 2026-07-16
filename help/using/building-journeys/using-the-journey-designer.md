@@ -32,10 +32,10 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 300b4c714f797971749706e0269f61174d1fe91e
 workflow-type: tm+mt
-source-wordcount: 2271
-ht-degree: 67%
+source-wordcount: 2469
+ht-degree: 66%
 
 ---
 
@@ -86,6 +86,21 @@ Par défaut, les champs en lecture seule sont masqués. Pour afficher les champs
 Selon le statut du parcours, vous pouvez effectuer différentes actions à l’aide des boutons disponibles dans le coin supérieur droit : **[!UICONTROL Publier]**, **[!UICONTROL Dupliquer]**, **[!UICONTROL Supprimer]**, **[!UICONTROL Mode test]**, **[!UICONTROL Gérer l’accès]**, **[!UICONTROL Alertes]**. Ces boutons s&#39;affichent lorsqu&#39;aucune activité n&#39;est sélectionnée. Certains boutons s&#39;affichent en fonction du contexte. Le bouton de journal du mode test s&#39;affiche lorsque le mode test est activé.
 
 ![Boutons d’action de parcours : Publier, Dupliquer, Supprimer, Mode Test, Gérer l’accès, Alertes](assets/journey41.png)
+
+## Nouvelle expérience de l’interface de parcours {#canvas-capabilities}
+
+Une **nouvelle interface utilisateur** est disponible pour la zone de travail de parcours, conçue pour s’adapter aux cas d’utilisation les plus complexes :
+
+* **Performances** — Gère efficacement les parcours volumineux avec de nombreuses étapes et branches.
+* **Disposition automatique** — Organise automatiquement les activités pour une meilleure lisibilité.
+* **Création guidée** — Offre une expérience de création structurée pour vous aider à créer des parcours facilement et efficacement.
+
+![](assets/journey-new-canvas.png)
+
+Pour passer à la nouvelle expérience, cliquez sur le bouton **[!UICONTROL Nouvelle expérience]** dans la zone de travail du parcours. Une fois activé, ce paramètre est enregistré au niveau du parcours. Par conséquent, le parcours s’ouvrira par défaut dans la nouvelle expérience lors des visites ultérieures. Pour revenir en arrière, cliquez sur le bouton **[!UICONTROL Ancienne expérience]**.
+
+![](assets/journey-new-experience-switch.png){width="50%" align="center" zoomable="yes"}
+
 
 ## Démarrage de votre parcours {#start-your-journey}
 
@@ -167,12 +182,12 @@ Vous pouvez copier une ou plusieurs activités d&#39;un parcours et les coller s
 Pour copier/coller des activités, procédez comme suit :
 
 1. Ouvrez un parcours.
-1. Sélectionnez les activités à copier en déplaçant la souris tout en cliquant dessus. Vous pouvez également cliquer sur chaque activité tout en appuyant sur la touche **Ctrl/Commande**. Utilisez **Ctrl/Commande + A** pour sélectionner toutes les activités.
+1. Sélectionnez les activités à copier en déplaçant la souris tout en cliquant dessus. Vous pouvez également cliquer sur chaque activité tout en appuyant sur la touche **Ctrl/Commande**. Utilisez **Ctrl/Commande + A** pour sélectionner toutes les activités.
    ![Sélection de plusieurs activités à copier dans le parcours](assets/copy-paste1.png)
-1. Appuyez sur **Ctrl/Commande + C**.
-Si vous ne souhaitez copier qu&#39;une seule activité, vous pouvez cliquer dessus et utiliser l&#39;icône **Copier** en haut à gauche du volet de configuration de l&#39;activité.
+1. Appuyez sur **Ctrl/Commande + C**.
+Si vous ne souhaitez copier qu’une seule activité, vous pouvez cliquer dessus et utiliser l’icône **Copier** en haut à gauche du volet de configuration de l’activité.
    ![Icône Copier dans le volet de configuration de l’activité](assets/copy-paste2.png)
-1. Dans n’importe quel parcours, appuyez sur **Ctrl/Commande + V** pour coller les activités sans les lier à un nœud existant. Les activités collées sont placées dans le même ordre. Une fois collées, les activités restent sélectionnées pour que vous puissiez facilement les déplacer. Vous pouvez également placer le curseur sur un espace réservé vide et cliquer sur **Ctrl/Commande + V**. Les activités collées seront liées au nœud.
+1. Dans un parcours quelconque, appuyez sur **Ctrl/Commande + V** pour coller les activités sans les lier à un nœud existant. Les activités collées sont placées dans le même ordre. Une fois collées, les activités restent sélectionnées pour que vous puissiez facilement les déplacer. Vous pouvez également placer le curseur sur un espace réservé vide et cliquer sur **Ctrl/Commande + V**. Les activités collées seront liées au nœud.
    ![Activités collées dans la zone de travail du parcours prêtes à être connectées](assets/copy-paste3.png)
 
 +++ Référence des connaissances sur l’IA

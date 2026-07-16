@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Surveillance des performances des défis de fidélité
-description: Découvrez comment utiliser les tableaux de bord de reporting des défis de fidélité pour effectuer le suivi des performances des défis et des mesures de tâches dans Adobe Journey Optimizer.
+description: Découvrez comment utiliser les tableaux de bord de reporting des défis de fidélité pour suivre les performances et les informations sur les défis dans Adobe Journey Optimizer.
 feature: Journeys
 topic: Content Management
 role: User
@@ -13,10 +13,10 @@ mini-toc-levels: 1
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: 61005da7b43e9b21ab720bbb1ef86317345137cd
 workflow-type: tm+mt
-source-wordcount: 543
-ht-degree: 3%
+source-wordcount: 586
+ht-degree: 4%
 
 ---
 
@@ -58,66 +58,73 @@ ht-degree: 3%
 >
 >Cette fonctionnalité est actuellement en version bêta **privée**. Pour plus d’informations sur le cycle de publication et les phases de disponibilité, consultez le [cycle de publication de Journey Optimizer](../rn/releases.md).
 
-La création de rapports sur les défis de fidélité fournit des tableaux de bord au niveau du défi afin que vous puissiez suivre des mesures clés telles que les performances d’audience funnel, les taux d’achèvement des tâches, l’émission de récompenses et l’impact sur le chiffre d’affaires. Toutes les données sont sourcées à partir d’Adobe Customer Journey Analytics et présentées dans une interface personnalisée spécialement conçue à cet effet.
+Utilisez la création de rapports sur les défis de fidélité pour voir comment vos défis se comportent. Vérifiez qui s’inscrit, qui relève les défis et combien de revenus génère votre programme, le tout en un seul endroit. Les données proviennent d’Adobe Customer Journey Analytics.
+
+Pour ouvrir les tableaux de bord de rapports, accédez à **[!UICONTROL Défis de fidélité (Beta)]** dans Journey Optimizer, puis sélectionnez **[!UICONTROL Rapports de fidélité]** dans le volet de navigation de gauche.
+
+L’interface de création de rapports comporte deux onglets :
+
+* **[Rapports](#reports-view)** : chiffres et graphiques pour vos défis.
+* **[Insights](#insights-cards)** : cartes qui mettent en évidence ce qui mérite votre attention en ce moment.
+
+## Vue Rapports {#reports-view}
+
+L’onglet **Rapports** vous donne un aperçu des performances de votre programme pour la période sélectionnée. Utilisez le sélecteur de date en haut de la page et sélectionnez le bouton **[!UICONTROL Appliquer le filtre]** pour modifier la période de création des rapports et afficher les nombres et les graphiques mis à jour.
+
+![](assets/reporting-challenge-key.png)
+
+La zone **Mesures clés** présente quatre chiffres en un coup d’œil. Chaque mesure affiche également un pourcentage de modification par rapport à la période précédente.
+
+* **Membres du programme de fidélité** : nombre de membres du programme de fidélité actifs au cours de la période.
+* **Inscriptions au défi** : nombre de fois où les membres se sont inscrits à un défi.
+* **Chiffre d’affaires** : chiffre d’affaires total lié à l’activité de défi.
+* **Taux d’achèvement moyen** : pourcentage de membres inscrits qui ont terminé au moins un défi.
+
+Le panneau **Dernières informations** sur la droite affiche les informations les plus récentes générées par l’IA depuis votre programme. Sélectionnez **[!UICONTROL Afficher tout]** pour ouvrir l’onglet **Insights** complet.
+
+Sous les mesures clés, la section **Défis** vous donne deux vues de l’activité de défi.
+
+![](assets/reporting-challenge-challenges.png)
+
+* **Engagement du défi** : un calendrier indiquant le nombre de membres qui ont commencé, qui sont en cours et qui ont terminé les défis au cours de la période.
+* **Rapports de défis** : un tableau de tous vos défis avec des détails tels que le type, les tâches, le statut et les numéros d’inscription. Utilisez la barre de recherche pour trouver un défi spécifique. Sélectionnez un défi pour afficher son rapport complet avec les tendances d’engagement et les détails de performance.
+
+  +++Exemple de rapport de défi
+
+  ![](assets/reporting-challenge-report.png)
+
+  +++
+
+## Onglet Informations {#insights-cards}
+
+L’onglet **Insights** affiche les cartes générées par l’IA qui signalent les anomalies, les tendances et les opportunités de votre programme de fidélité. Chaque carte représente une observation unique et est classée en fonction de son importance par rapport aux données actuelles de votre programme.
+
+![](assets/reporting-insights.png)
+
+Un horodatage **Dernière explorée** en haut à droite indique la date du dernier traitement des données de votre programme par le moteur insight.
+
+### Actions de carte {#insight-card-actions}
+
+Chaque carte comporte un menu ![](assets/do-not-localize/Smock_More_18_N.svg) avec deux actions :
+
+* **Ignorer** : supprime définitivement la carte de la liste des insights.
+* **Répéter** : masque temporairement la carte. Optez pour une sieste pendant **1 jour** **3 jours** ou **7 jours**. La carte réapparaît à la fin de la période de réveil.
 
 <!--
-A direct **Analyze in CJA** button will be added to the reporting interface before the feature reaches general availability.
+### Priority badges {#insight-badges}
+
+Each card has a priority badge — **High**, **Medium**, or **Low** — based on how significant the underlying signal is relative to your current program data. These levels are relative: there are always a few **High** cards, even in a quiet week. **High** means "most relevant right now", not that a fixed threshold was crossed.
 -->
 
-## Accès aux rapports de fidélité {#access-reports}
+### Balises de catégorie {#insight-category-tags}
 
-Pour ouvrir les tableaux de bord de rapports de fidélité, accédez à **[!UICONTROL Défis de fidélité (Beta)]** dans Journey Optimizer, puis sélectionnez **[!UICONTROL Rapports de fidélité]** dans le volet de navigation de gauche.
+Chaque carte comporte une **balise de catégorie** qui identifie la partie de votre programme à laquelle insight se rapporte.
 
-![](assets/reporting-home.png)
-
-L’interface de création de rapports propose trois vues, chacune offrant un niveau de détail différent. La **[Présentation](#overview)** affiche un résumé de tous vos défis actifs. En dessous, deux onglets permettent de basculer entre des vues plus granulaires :
-
-* **[Défis](#challenges-view)** : une répartition par défi avec une fonctionnalité d’analyse en profondeur,
-* **[Tâches](#tasks-view)** : vue au niveau de la tâche des mesures de chiffre d’affaires et d’achèvement.
-
-Vous pouvez ajuster la période de tous les modes à l’aide du sélecteur de date situé en haut de la page. Des paramètres prédéfinis de date standard sont également disponibles.
-
-![](assets/reporting-date.png)
-
-## Vue d’ensemble {#overview}
-
-La page **Aperçu** affiche les mesures agrégées pour tous les défis actifs pour la période sélectionnée.
-
-![](assets/reporting-overview.png)
-
-Le haut de la page affiche les mesures suivantes :
-
-**Membres du programme de fidélité** - Nombre de membres du programme de fidélité actifs pendant la période sélectionnée.
-**Inscriptions au défi** - Nombre total de nouvelles inscriptions au défi pour tous les défis.
-**Chiffre d’affaires** - Chiffre d’affaires total lié à l’activité Défi pendant la période.
-**Taux d’achèvement moyen** - Pourcentage de clients inscrits qui ont terminé au moins un défi.
-
-En dessous de ces mesures, une chronologie **Engagement quotidien au défi** montre l’évolution de la participation au défi au cours de la période, en traçant trois séries :
-
-* Les clients qui **ont commencé** un défi,
-* Clients ayant passé au statut **en cours**,
-* Les clients qui **ont terminé** un défi.
-
-## Vue Défis {#challenges-view}
-
-L’onglet **Défis** répartit les performances par défi individuel. Chaque défi est répertorié avec des colonnes clés telles que Type, Statut, Inscription, Achèvement, etc. La liste est triée par date de dernière modification et affiche dix défis à la fois. Utilisez le bouton **Suivant** en bas pour continuer la navigation.
-
-![](assets/reporting-challenges-tab.png)
-
-Sélectionnez un défi dans la liste pour ouvrir sa vue détaillée. Le rapport comprend plusieurs blocs de mesures tels que le chiffre d’affaires total, l’inscription, le taux d’achèvement et des graphiques de tendances, ainsi qu’une répartition quotidienne.
-
-+++Exemple de rapport de défi
-
-![](assets/reporting-challenge-report.png)
-
-+++
-
-## Vue Tâches {#tasks-view}
-
-L’onglet **Tâches** fournit une vue des performances des tâches sur plusieurs défis. Vous pouvez basculer entre les tâches principales par chiffre d’affaires et les tâches principales par achèvement pour vous concentrer sur la mesure qui vous intéresse le plus.
-
-L’onglet met également en surbrillance les 6 premières tâches par chiffre d’affaires, ce qui donne un aperçu rapide des tâches qui génèrent le plus de valeur.
-
-Sous le graphique en radar, une liste de tâches affiche chaque tâche avec des colonnes clés telles que les Achèvements, le Chiffre d’affaires et les défis auxquels chaque tâche appartient. La liste est triée par chiffre d’affaires et affiche dix tâches à la fois. Utilisez le bouton **Suivant** pour continuer la navigation.
-
-![](assets/reporting-task-report.png)
+| Catégorie | Ce qu’il couvre |
+| --- | --- |
+| **À l&#39;échelle du programme** | État général et performances de votre programme de fidélité |
+| **Niveau** | Bénéficiez de taux, de déplacement et de répartition entre les niveaux de membres. |
+| **Défi** | Activité, taux d’achèvement et anomalies pour un défi spécifique ou entre plusieurs défis |
+| **Produit** | Performances du catalogue de produits, y compris les vues, les rachats et les tendances au niveau du catalogue |
+| **Cycle de vie du membre** | Comment les membres progressent par étapes d’inscription, d’engagement et d’attrition |
+| **tendance** | Modèles temporels tels que les cycles hebdomadaires, les pics saisonniers ou les inversions de tendance |

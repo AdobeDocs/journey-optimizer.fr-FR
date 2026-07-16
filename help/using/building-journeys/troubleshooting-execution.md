@@ -26,10 +26,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 8d9c09a7be3757624c72a0a9d2739d0dbb48adeb
 workflow-type: tm+mt
-source-wordcount: 2993
-ht-degree: 48%
+source-wordcount: 3051
+ht-degree: 44%
 
 ---
 
@@ -100,14 +100,14 @@ Si les profils de test ne progressent pas dans votre parcours en mode test ou si
 
 Si les profils de test rejoignent le parcours mais ne progressent pas au-delà de l’étape initiale, vérifiez les points suivants :
 
-* **Date de début du parcours** : la cause la plus courante est lorsque la date de début du parcours est définie dans le futur. Les profils de test sont immédiatement ignorés si l’heure actuelle se situe en dehors de la fenêtre [dates/heure de début et de fin](journey-properties.md#dates) configurée du parcours. Pour résoudre ce problème :
+* **Date de début du parcours** : la cause la plus courante est lorsque la date de début du parcours est définie dans le futur. Les profils de test sont immédiatement ignorés si l’heure actuelle se situe en dehors de la fenêtre [dates/heure de début et de fin](journey-properties.md#dates) configurée du parcours, produisant l’entrée de journal : `DISPATCHER DISCARD #16 — unqualified on journey version enablements`. Pour résoudre ce problème :
    * Vérifiez que la date de début du parcours n’est pas définie dans le futur.
    * Assurez-vous que l’heure actuelle se situe dans la fenêtre de date active du parcours.
-   * Si nécessaire, mettez à jour les propriétés du parcours pour ajuster la date de début.
+   * Si nécessaire, définissez temporairement la date de début à une heure antérieure au moment actuel pour le test, puis restaurez-la avant de la publier
 
 * **Configuration du profil de test** - Vérifiez que le profil est correctement marqué comme profil de test dans [!DNL Adobe Experience Platform]. Pour plus d’informations, voir [Créer des profils de test](../audience/creating-test-profiles.md).
 
-* **Espace de noms d’identité** : assurez-vous que l’espace de noms d’identité utilisé dans la configuration d’événement correspond à l’espace de noms de votre profil de test.
+* **Incompatibilité des espaces de noms d’identité** - Une incohérence des espaces de noms entraîne un abandon silencieux : l’événement est accepté et renvoie une réponse de succès, mais le profil n’entre jamais dans le parcours et aucune erreur n’est visible dans l’interface utilisateur. Assurez-vous que l’espace de noms dans l’**Identifiant de profil** correspond exactement à l’espace de noms défini dans le schéma d’événement (sensible à la casse). Pour plus d’informations, voir [&#x200B; Format d’expression d’identifiant de profil &#x200B;](testing-the-journey.md#trigger-events-prerequisites).
 
 ### Indicateurs de transition à valeur nulle
 
@@ -125,7 +125,7 @@ Si vous rencontrez des problèmes de transition persistants :
 
 >[!NOTE]
 >
->N’oubliez pas que les événements envoyés en dehors de la fenêtre de date active du parcours sont ignorés silencieusement, sans message d’erreur. Commencez toujours par vérifier votre configuration du timing du parcours lors du dépannage de la progression du profil de test.
+>Les événements envoyés en dehors de la fenêtre de date active du parcours sont silencieusement ignorés avec la `DISPATCHER DISCARD #16 — unqualified on journey version enablements` d’entrée de journal et aucune erreur d’interface utilisateur. Commencez toujours par vérifier votre configuration du timing du parcours lors du dépannage de la progression du profil de test.
 
 ## Vérifier comment les gens naviguent dans le parcours {#checking-how-people-navigate-through-the-journey}
 

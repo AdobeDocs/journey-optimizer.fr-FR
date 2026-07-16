@@ -24,10 +24,10 @@ feature_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: f0577040-fadd-46a1-b0ae-9c7f828bb2da
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 784
-ht-degree: 89%
+source-wordcount: 1335
+ht-degree: 52%
 
 ---
 
@@ -124,3 +124,72 @@ Une fois qu’un jeu de données a été activé pour la personnalisation de la 
 
 
    ![](assets/aep-data-sample.png)
+
+## Référence rapide {#quick-reference}
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+>[!BEGINTABS]
+
+>[!TAB Vue d’ensemble]
+
+**TL;DR**
+
+Cette page explique comment utiliser la fonction d’assistance `datasetLookup` dans l’éditeur de personnalisation de Journey Optimizer pour récupérer des champs des jeux de données d’enregistrement Adobe Experience Platform et les incorporer dans la personnalisation des messages.
+
+**Intentions**
+
+* Activer un jeu de données d’enregistrement AEP pour la personnalisation de la recherche
+* Ajoutez la fonction d’assistance `datasetLookup` à une expression de personnalisation
+* Configurez la fonction avec un identifiant de jeu de données, une clé de jointure, un alias de résultat et un indicateur obligatoire.
+* Référencer les champs de jeux de données récupérés dans les expressions de personnalisation à l’aide de l’alias de résultat
+* Tester du contenu personnalisé à l’aide du flux de contenu Simuler
+
+>[!TAB Glossaire]
+
+* **datasetLookup** : fonction d’assistance dans l’éditeur de personnalisation qui récupère les valeurs de champ d’un jeu de données d’enregistrement AEP en se connectant sur une clé spécifiée. *(spécifique au produit)*
+* **Jeu de données d’enregistrement** : type de jeu de données Adobe Experience Platform contenant des données au niveau de l’enregistrement qui peuvent être activées pour la personnalisation de la recherche. *(spécifique au produit)*
+* **Personnalisation de la recherche** : processus de récupération de champs d’un jeu de données d’enregistrement AEP au moment de l’envoi pour personnaliser le contenu du message. *(spécifique au produit)*
+* **paramètre result** : alias arbitraire attribué dans l’appel `datasetLookup` ; utilisé pour référencer toutes les valeurs de champ récupérées dans les expressions suivantes (par exemple, `{{result.fieldId}}`).
+* **paramètre obligatoire** : indicateur booléen dans `datasetLookup` qui contrôle si la diffusion du message nécessite qu’une clé correspondante soit trouvée dans le jeu de données.
+
+>[!TAB  Terminologie ]
+
+* **Nom canonique :** datasetLookup — variantes : recherche de jeu de données, assistant de recherche de jeu de données, fonction d’assistance à la recherche de jeu de données
+* **Synonymes:** « datasetLookup » = « fonction d’assistance de recherche de jeu de données »
+* **Ne le confondez pas :** « datasetId » (identifiant du jeu de données AEP) ≠ « id » (la colonne source utilisée pour se joindre à l’identité principale du jeu de données) ≠ « result » (alias permettant de référencer les valeurs de champ récupérées)
+
+>[!TAB Mécanismes de sécurisation et limitations]
+
+* La fonctionnalité est en disponibilité limitée ; elle n’est pas encore disponible pour tous les clients.
+* La fonction d’assistance `datasetLookup` dans les fragments d’expression est disponible uniquement pour un nombre limité de clientes et clients. Contactez votre représentant Adobe pour obtenir l’accès.
+* Les jeux de données doivent être explicitement activés pour la personnalisation de la recherche avant de pouvoir être utilisés avec `datasetLookup`.
+* Conservez un nombre de champs récupérés par appel de `datasetLookup` inférieur à 50 pour éviter tout impact sur le débit (limite recommandée : aucune limite stricte n’est indiquée sur la page).
+
+>[!TAB FAQ]
+
+**Q : Quelle est la fonction d’assistance `datasetLookup` ?**
+
+Il s’agit d’une fonction d’assistance dans l’éditeur de personnalisation qui récupère les valeurs de champ des jeux de données d’enregistrement Adobe Experience Platform, ce qui vous permet d’incorporer ces données dans la personnalisation des messages.
+
+**Q : Que se passe-t-il si `required=false` et aucune clé correspondante n’est trouvée dans le jeu de données ?**
+
+Le message peut toujours être diffusé. Il est recommandé de tenir compte des valeurs de secours ou par défaut dans le contenu de votre message lors de l’utilisation de `required=false`.
+
+**Q : Que se passe-t-il si `required=true` et aucune clé correspondante n’est trouvée ?**
+
+Le message ne sera diffusé que si une clé correspondante est trouvée dans le jeu de données.
+
+**Q : Où puis-je trouver l’identifiant du jeu de données et les identifiants de champ nécessaires à la syntaxe ?**
+
+Les identifiants des jeux de données peuvent être récupérés dans l’interface utilisateur de Adobe Experience Platform sous Jeux de données. Les identifiants de champ sont visibles lors de la prévisualisation d’un jeu de données et de la navigation dans le schéma d’enregistrement dans l’interface utilisateur d’AEP.
+
+**Q : Comment tester le contenu qui utilise `datasetLookup` ?**
+
+Utilisez le bouton **Simuler du contenu** pour tester avec des exemples de données d’entrée ou la génération automatique de l’IA, ou sélectionnez **Simuler du contenu (profils AEP)** dans la liste déroulante pour prévisualiser avec des profils de test.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: 89d99e47 -->

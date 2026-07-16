@@ -24,10 +24,10 @@ topic_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 559
-ht-degree: 93%
+source-wordcount: 1086
+ht-degree: 48%
 
 ---
 
@@ -132,3 +132,65 @@ Pour ce cas d&#39;utilisation, les conditions préalables suivantes doivent êtr
 La vidéo ci-dessous présente un cas d’utilisation similaire en exploitant les données contextuelles d’un parcours pour personnaliser un e-mail.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428528?captions=fre_fr&quality=12)
+
+## Référence rapide {#quick-reference}
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+>[!BEGINTABS]
+
+>[!TAB Vue d’ensemble]
+
+**TL;DR**
+
+Cette page présente un cas d’utilisation de notification push de statut de commande associant trois types de personnalisations : un champ de profil, une décision d’offre et des données de parcours contextuelles, en un seul message.
+
+**Intentions**
+
+* Création d’un parcours avec un événement de commande et une activité d’action Push
+* Ajoutez la personnalisation basée sur les profils (prénom du client) au titre push
+* Ajoutez une personnalisation des données contextuelles (numéro de commande, nom de l’élément, progression de la commande) à partir de l’événement de parcours
+* Ajouter la personnalisation de la décision d’offre au corps push
+* Tester le parcours en mode test et le publier
+
+>[!TAB Glossaire]
+
+* **Personnalisation des profils** : Personalization en fonction d’un champ de profil tel que le prénom, accessible via des attributs de `profile.*`. *(spécifique au produit)*
+* **Décision d’offre** : Personalization basé sur des variables de gestion des décisions, insérées à partir du menu Décisions d’offre dans l’éditeur de personnalisation. *(spécifique au produit)*
+* **Personnalisation contextuelle** : Personalization basée sur les données du parcours - champs d’événement (par exemple, numéro de commande, nom de l’élément, progression de la commande) et propriétés du parcours (par exemple, identifiant du parcours, erreurs). Disponible uniquement lorsqu’un parcours a transmis des données contextuelles au message. *(spécifique au produit)*
+* **Propriétés du Parcours** : champs techniques liés au parcours pour un profil donné, tels que l’ID du parcours ou les erreurs rencontrées, accessibles sous Attributs contextuels > Journey Orchestration. *(spécifique au produit)*
+
+>[!TAB  Terminologie ]
+
+* **Nom canonique :** personnalisation contextuelle — variantes : personnalisation basée sur le contexte, personnalisation contextuelle de parcours
+* **Synonymes :** « Journey Orchestration » (libellé de l’interface utilisateur sous le menu Attributs contextuels) = source de données de parcours contextuel
+* **Ne pas confondre :** Personnalisation du profil (valeurs de champ de profil statiques, toujours disponibles) ≠ Personnalisation contextuelle (données d&#39;événement et de propriétés de parcours, uniquement disponibles une fois que le contexte de parcours a été transmis au message) ≠ Personnalisation de la décision d&#39;offre (variables de gestion des décisions)
+
+>[!TAB Mécanismes de sécurisation et limitations]
+
+* Les attributs contextuels ne sont disponibles dans l’éditeur de personnalisation que si un parcours a transmis des données contextuelles au message.
+* Le mode test ne fonctionne qu’avec les profils de test ; l’identifiant de profil saisi dans la configuration d’événement doit correspondre à un profil de test existant.
+
+>[!TAB FAQ]
+
+**Q : Quels trois types de personnalisation sont combinés dans ce cas d’utilisation ?**
+
+La personnalisation de profil (prénom du client ou de la cliente provenant de l’adresse `profile.*`), la personnalisation des données contextuelles (numéro de commande, nom de l’élément et progression de la commande à partir de l’événement de parcours) et la personnalisation des décisions d’offre (une offre de gestion des décisions insérée dans le corps).
+
+**Q : D’où viennent les attributs contextuels dans l’éditeur de personnalisation ?**
+
+Les attributs contextuels proviennent d’événements placés avant l’activité d’action de canal dans le parcours, ainsi que des propriétés techniques du parcours. Ils apparaissent dans l’éditeur de personnalisation sous Attributs contextuels > Journey Orchestration > Événements (champs d’événement) ou Propriétés du Parcours (métadonnées du parcours).
+
+**Q : Quelles sont les conditions préalables pour ce cas d’utilisation ?**
+
+Un événement de commande doit être configuré avec les champs de numéro de commande, de statut et de nom d&#39;article, et une décision doit exister dans la gestion des décisions.
+
+**Q : Comment tester la notification push dans ce cas d’utilisation ?**
+
+Cliquez sur le bouton Test dans le parcours, puis sur « Déclencher un événement » et saisissez les valeurs d’événement dans la fenêtre Configuration de l’événement . Le mode test ne fonctionne qu’avec les profils de test. L’identifiant du profil doit correspondre à un profil de test existant.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: ae5284c7 -->

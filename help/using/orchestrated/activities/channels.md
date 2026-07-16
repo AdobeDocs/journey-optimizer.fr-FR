@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 28dd04657790cca441bf67e555e3a85e63cb2dde
+source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
 workflow-type: tm+mt
-source-wordcount: 1877
-ht-degree: 50%
+source-wordcount: 1972
+ht-degree: 48%
 
 ---
 
@@ -69,13 +69,19 @@ UNUSED IDs in BJ
 >title="Activité Courrier"
 >abstract="L’activité Courrier facilite l’envoi de courrier depuis votre campagne orchestrée pour les messages ponctuels et récurrents. Elle permet d’automatiser le processus de génération du fichier d’extraction requis par les fournisseurs de services postaux. Vous pouvez combiner des activités de canal dans la zone de travail de campagne orchestrée afin de créer des campagnes cross-canal pouvant déclencher des actions en fonction du comportement de la clientèle et des données."
 
-[!DNL Adobe Journey Optimizer] vous permet d’automatiser et d’exécuter des campagnes sur plusieurs canaux (e-mail, SMS, notifications push et courrier) pour les messages marketing et transactionnels. Vous pouvez combiner ces activités de canal dans la zone de travail de campagne afin de créer des campagnes orchestrées cross-canal. Ces campagnes peuvent déclencher des actions en fonction du comportement et des données des clients.
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_custom"
+>title="Activité de canal personnalisée"
+>abstract="L’activité Canal personnalisé vous permet d’envoyer des messages par le biais de systèmes tiers ou d’intégrations personnalisées au sein de votre campagne orchestrée. Il vous permet de déclencher des processus de diffusion externes, tels que des plateformes partenaires ou des outils de messagerie propriétaires, en exportant les données d’audience vers un système externe. Vous pouvez combiner des activités de canal personnalisées avec d’autres activités de canal dans la zone de travail de campagne afin de créer des campagnes cross-canal qui impliquent les clients sur des points de contact natifs et personnalisés."
+
+[!DNL Adobe Journey Optimizer] vous permet d’automatiser et d’exécuter des campagnes sur plusieurs canaux (e-mail, SMS, notifications push, publipostage direct et personnalisé) pour les messages marketing et transactionnels. Vous pouvez combiner ces activités de canal dans la zone de travail de campagne afin de créer des campagnes orchestrées cross-canal. Ces campagnes peuvent déclencher des actions en fonction du comportement et des données des clients.
 
 Par exemple :
 
 * Envoyez une série de bienvenue par e-mail, SMS, notification push et courrier.
 * Diffusez un e-mail de suivi après l’achat.
 * Envoyez des vœux d’anniversaire personnalisés par SMS.
+* Déclenchez un message via un canal personnalisé lorsqu’un client abandonne son panier.
 
 Grâce aux activités de canal, vous pouvez créer des campagnes personnalisées et complètes qui impliquent la clientèle sur plusieurs points de contact et génèrent des conversions.
 
@@ -180,7 +186,7 @@ Passez à l’onglet **[!UICONTROL Contenu]** pour créer votre message. Les ét
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
 <td><a href="../../email/create-email.md"><img alt="E-mail" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../../email/create-email.md"><strong>Créer un e-mail</strong></a></td>
 <td><a href="../../mobile/create-mobile-message.md"><img alt="sms" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../mobile/create-mobile-message.md"><strong>Créer un SMS</strong></a></td>
-<td><a href="../../push/create-push.md"><img alt="notification push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Créer une notification push</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="Courrier" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>Créer un courrier</strong></a></td>
+<td><a href="../../push/create-push.md"><img alt="notification push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Créer une notification push</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="Courrier" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>Créer un courrier</strong></a></td><td><a href="../../custom-channel/create-custom-channel.md"><img alt="canal personnalisé" src="../../channels/assets/do-not-localize/web.jpg"></a><br/><a href="../../custom-channel/create-custom-experience.md"><strong>Création d’une action personnalisée</strong></a></td>
 </tr></table>
 
 ### Ajouter une personnalisation {#add-personalization}
@@ -238,6 +244,22 @@ Pour définir le contrôle du débit, procédez comme suit :
 >[!IMPORTANT]
 >
 >Lors de la définition d’un taux de diffusion, la durée maximale d’exécution d’une audience de campagne est de 12 heures. Si le taux de diffusion est défini sur une valeur qui ne permet pas d’envoyer le message à toute l’audience dans le délai de 12 heures, les profils restants seront exclus de la campagne. Le nombre de ces profils exclus apparaît dans le rapport de campagne.
+
+<!--
+## Example: cross-channel campaign with a custom channel {#example-custom}
+
+The following example shows an Orchestrated campaign that combines native and custom channels to re-engage lapsed customers.
+
+The campaign targets customers who have not made a purchase in the last 90 days:
+
+1. A **Build audience** activity filters profiles with no purchase in the last 90 days.
+1. A **Split** activity divides the audience into two groups:
+   * **Group A** — customers with a known email address receive a re-engagement email with a personalized discount offer.
+   * **Group B** — customers without an email address, or those who did not open the email after 3 days, are routed to a **Custom channel** activity that triggers a message through a third-party messaging platform (for example, a WhatsApp Business provider or an in-house notification system).
+1. Both branches converge on a **Wait** activity, then a follow-up **SMS** is sent to all profiles who still have not converted.
+
+This pattern lets you extend your campaign reach beyond native channels and engage customers on the platforms they are most active on, without requiring a separate campaign workflow.
+-->
 
 ## Étapes suivantes {#next}
 

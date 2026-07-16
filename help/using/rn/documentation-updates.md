@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: df9b087753c7e217ca7dfacbe15581466edec200
+source-git-commit: eef9b6b37edd1722fb9894b18e1504496c70a142
 workflow-type: tm+mt
-source-wordcount: 9416
-ht-degree: 89%
+source-wordcount: 9685
+ht-degree: 87%
 
 ---
 
@@ -26,6 +26,13 @@ ht-degree: 89%
 Cette page répertorie toutes les dernières modifications apportées à la documentation [!DNL Journey Optimizer], en plus des mises à jour liées aux fonctionnalités et améliorations de la version mensuelle.
 
 ## Juillet 2026 {#july-2026}
+
+* La page **Vérification du contenu** a été mise à jour avec une nouvelle section **À propos d’HTML et de la taille du fichier CSS** qui explique ce qui est inclus dans l’estimation du temps de création (structure d’HTML, CSS intégré, jetons de personnalisation, fragments, blocs conditionnels et références d’image), pourquoi l’estimation diffère de la taille diffusée et ce que les avertissements de taille signifient pour les auteurs. [En savoir plus](../email/content-check.md#size-estimation)
+
+* La page **Créer des campagnes de préchauffage d’adresses IP** a été mise à jour afin de clarifier que les règles de ciblage peuvent être appliquées aux campagnes de préchauffage d’adresses IP et de documenter le comportement d’évaluation : l’appartenance à une audience est fixe au moment de l’activation de l’exécution (segmentation par lots quotidienne), tandis que les attributs de profil sont lus au moment de l’exécution à partir des données par lots les plus récemment ingérées. [En savoir plus](../configuration/ip-warmup-campaign.md)
+* La page **Terminer un parcours** a été mise à jour afin de clarifier le délai d’arrêt automatique pour les parcours Lecture d’audience non récurrents : une mémoire tampon de sécurité d’environ **96 heures (~4 jours)** après l’exécution planifiée, pendant laquelle le parcours peut rester en **état actif** avant de passer à **Arrêté** lors de la prochaine passe de l’analyseur. La page indique désormais également que les parcours basés sur les vagues, y compris les cas d’utilisation de l’optimisation de l’heure d’envoi, sont exclus de cet arrêt automatique et respectent plutôt le délai d’expiration standard de 91 jours du parcours. [En savoir plus](../building-journeys/end-journey.md#auto-stop-non-recurring)
+
+* Les pages **Chargement personnalisé** et **Lecture d’audience** ont été corrigées afin de clarifier le comportement de lecture incrémentielle pour les audiences externes/personnalisées (y compris le chargement de fichiers CSV et la composition d’audience fédérée) : la lecture incrémentielle n’est pas prise en charge fonctionnellement pour ces types d’audience aujourd’hui, et l’audience complète est traitée à chaque périodicité, quel que soit le paramètre de basculement Lecture incrémentielle . Les conseils recoupent désormais les contrôles de périodicité, y compris **Forcer une reprise sur une périodicité**. [En savoir plus sur le chargement personnalisé](../audience/custom-upload.md) et [En savoir plus sur la planification de la lecture d’audience](../building-journeys/read-audience.md#schedule)
 
 * Un avertissement a été ajouté à la page **Modifier les enregistrements PTR** pour informer les clients que lors de l’ajout d’un nouvel enregistrement DNS direct à leur plateforme, l’enregistrement DNS direct de l’ancien sous-domaine ne doit pas être supprimé tant que le déplacement n’est pas terminé, car cela entraînerait l’échec de la modification. [En savoir plus](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
 

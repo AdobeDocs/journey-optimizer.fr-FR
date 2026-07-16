@@ -20,10 +20,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 6c7377396eb135e310fc04dbc5946db467461e23
 workflow-type: tm+mt
-source-wordcount: 923
-ht-degree: 64%
+source-wordcount: 1018
+ht-degree: 54%
 
 ---
 
@@ -108,13 +108,26 @@ Pour parcourir facilement vos modèles de contenu, utilisez des dossiers pour mi
 
 ## Modifier et supprimer des modèles de contenu {#edit}
 
-* Pour modifier le contenu d’un modèle, cliquez sur l’élément de votre choix dans la liste, puis effectuez les modifications souhaitées. Vous pouvez également modifier les propriétés du modèle de contenu en cliquant sur le bouton de modification en regard du nom du modèle.
+À partir du bouton **[!UICONTROL Autres actions]** en regard de chaque modèle, vous pouvez accéder aux raccourcis et actions suivants :
 
-  ![](assets/content-template-edit.png)
+* **[!UICONTROL Modifier les détails]** — Modifiez le nom, la description et les balises du modèle.
+* **[!UICONTROL Simuler du contenu]** — Prévisualisez et testez le contenu du modèle.
+* **[!UICONTROL Supprimer]** — Supprimez le modèle.
 
-* Pour supprimer un modèle, sélectionnez le bouton **[!UICONTROL Plus d’actions]** situé en regard du modèle souhaité et sélectionnez **[!UICONTROL Supprimer]**.
+Pour les modèles d’e-mail, les raccourcis supplémentaires suivants sont disponibles :
 
-  ![](assets/content-template-list-delete.png)
+* **[!UICONTROL Modifier l&#39;objet]** — Mettez rapidement à jour l&#39;objet de l&#39;e-mail.
+* **[!UICONTROL Modifier le corps de l’e-mail]** — Ouvrez le concepteur d’e-mail pour modifier le contenu du modèle.
+* **[!UICONTROL Afficher l&#39;épreuve]** — Affichez une épreuve du modèle d&#39;e-mail.
+* **[!UICONTROL Envoyer un BAT]** — Envoyez un BAT du modèle aux destinataires désignés.
+* **[!UICONTROL Rapport sur les courriers indésirables]** — Analysez le modèle par rapport aux filtres de courrier indésirable.
+* **[!UICONTROL Rendre l’e-mail]** — Prévisualisez le rendu de l’e-mail sur différents clients de messagerie.
+
+![](assets/content-template-quick-launch.png)
+
+Pour modifier le contenu complet d’un modèle, cliquez sur l’élément de votre choix dans la liste et apportez les modifications souhaitées. Vous pouvez également modifier les propriétés du modèle de contenu en cliquant sur le bouton de modification en regard du nom du modèle.
+
+    ![](assets/content-template-edit.png)
 
 >[!NOTE]
 >

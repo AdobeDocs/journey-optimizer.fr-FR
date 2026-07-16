@@ -28,10 +28,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 99edb847dc2282460f5cec8491e971702f6bf872
 workflow-type: tm+mt
-source-wordcount: 4990
-ht-degree: 55%
+source-wordcount: 4991
+ht-degree: 56%
 
 ---
 
@@ -500,15 +500,21 @@ Il s’agit de concepts distincts. La temporisation globale de **[parcours](#glo
 * [Gestion des fuseaux horaires](timezone-management.md) - Configuration des fuseaux horaires de parcours et de profil
 * [Gestion et hiérarchisation des conflits](../conflict-prioritization/conflicts.md) - Identifiez et résolvez les conflits entre les parcours et les campagnes
 
-+++ Référence des connaissances sur l’IA
+## Référence rapide {#quick-reference}
 
 Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
 
 Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
 
-* **TL;DR:** Cette page explique comment configurer et gérer tous les paramètres globaux d’un parcours, y compris les règles d’entrée, les fuseaux horaires, les dates de début et de fin, le comportement du délai d’expiration, les critères de sortie, la taille de la payload et la gestion des conflits.
+>[!BEGINTABS]
 
-**Intentions:**
+>[!TAB Vue d’ensemble]
+
+**TL;DR**
+
+Cette page explique comment configurer et gérer tous les paramètres globaux d’un parcours, y compris les règles d’entrée, les fuseaux horaires, les dates de début et de fin, le comportement du délai d’expiration, les critères de sortie, la taille de la payload et la gestion des conflits.
+
+**Intentions**
 
 * Configurer des règles d’entrée et de reprise de parcours pour les profils
 * Définir les dates de début et de fin pour contrôler quand les profils peuvent entrer dans un parcours ou en sortir
@@ -517,7 +523,7 @@ Pour une compréhension totale, ces informations doivent être combinées avec l
 * Surveiller la taille de la payload du parcours pour éviter les échecs de publication
 * Résoudre les conflits et attribuer des scores de priorité aux parcours et aux campagnes
 
-**Glossaire:**
+>[!TAB Glossaire]
 
 * **Propriétés du Parcours** : panneau des paramètres globaux (rail de droite) qui contrôle le nom, les règles d’entrée, le fuseau horaire, les dates, le délai d’expiration, la taille de la payload et la gestion des conflits pour un parcours. *(spécifique au produit)*
 * **Période d’attente de reprise** : durée minimale pendant laquelle un profil doit attendre avant d’être autorisé à rejoindre à nouveau un parcours unitaire ; 90 jours au maximum. *(spécifique au produit)*
@@ -529,7 +535,13 @@ Pour une compréhension totale, ces informations doivent être combinées avec l
 * **Taille de la payload du Parcours** : taille actuelle de la payload de définition du parcours par rapport à la limite configurée ; dépassement de la limite de publication des blocs. *(spécifique au produit)*
 * **OLAC (Object Level Access Control)** : modèle d’autorisation qui limite l’accès à des parcours individuels à l’aide de libellés d’utilisation des données.
 
-**Mécanismes de sécurisation :**
+>[!TAB  Terminologie ]
+
+* **Nom canonique :** Propriétés du Parcours — Acronyme : aucune — Variantes : Paramètres du parcours, panneau de configuration du parcours
+* **Synonymes :** « Délai d’expiration du parcours global » = « TTL » = « Time-to-Live »
+* **À ne pas confondre :** « délai d’expiration global du parcours (91 jours) » ≠ « fenêtre de création de rapports (~91 jours) » — le délai d’expiration limite la durée de profil individuel dans un parcours ; le délai de création de rapports est une limite d’affichage de l’interface utilisateur pour les données d’analyse
+
+>[!TAB Mécanismes de sécurisation et limitations]
 
 * La période d’attente de reprise maximale est de 90 jours
 * La temporisation globale du parcours est de 91 jours ; au-delà de cette période, les données de profil sont supprimées et le profil est quitté
@@ -541,19 +553,30 @@ Pour une compréhension totale, ces informations doivent être combinées avec l
 * Politiques de fusion incohérentes dans une publication de bloc de parcours ; les incohérences dans la personnalisation des messages ne déclenchent pas d’alerte
 * Pour les parcours en direct, le panneau Propriétés affiche uniquement la date de publication et le nom de l’éditeur
 
-**Terminologie:**
+>[!TAB FAQ]
 
-* Nom canonique : propriétés du Parcours — Acronyme : none — variantes : paramètres du parcours, panneau de configuration du parcours
-* Synonymes : « délai d’expiration du parcours global » = « TTL » = « Time-to-Live »
-* Ne confondez pas : « délai d’expiration global du parcours (91 jours) » ≠ « fenêtre de création de rapports (~91 jours) » : le délai d’expiration limite la durée de profil individuel dans un parcours ; le délai de création de rapports est une limite d’affichage de l’interface utilisateur pour les données d’analyse
+**Q : Combien de temps un profil peut-il rester dans un parcours ?**
 
-**FAQ:**
+Un maximum de 91 jours (délai d’expiration global du parcours) ; au-delà de cette période, le profil est automatiquement quitté et ses données sont supprimées.
 
-* **Q : Combien de temps un profil peut-il rester dans un parcours ?** : 91 jours au maximum (délai d’expiration global du parcours) ; au-delà de cette période, le profil est automatiquement quitté et ses données sont supprimées.
-* **Q : Puis-je modifier les propriétés du parcours lorsque le parcours est actif ?** — Pour les parcours en direct, le panneau Propriétés affiche uniquement la date de publication et le nom de l&#39;éditeur ; les modifications structurelles nécessitent une nouvelle version.
-* **Q : Que se passe-t-il lorsque plusieurs critères de sortie sont configurés ?** — Ils sont évalués de haut en bas avec une logique OR à chaque étape du parcours ; un profil se ferme lorsqu’un critère est satisfait.
-* **Q : Comment empêcher un profil de rejoindre à nouveau un parcours ?** — Décochez l&#39;option « Autoriser une reprise » dans les propriétés de parcours ; cela convient aux expériences ponctuelles telles qu&#39;une offre cadeau.
-* **Q : Quelle est la différence entre le délai d’expiration du parcours et la date de fin ?** — La date de fin arrête toutes les nouvelles entrées et quitte automatiquement les profils actifs à cette date spécifique ; la temporisation globale de 91 jours s’applique par profil à partir du moment où il entre, quelle que soit la date de fin du parcours.
-* **Q : Comment la politique de fusion est-elle déterminée pour un parcours ?** — Cela dépend du type de parcours : les parcours Lecture d&#39;audience et Qualification d&#39;audience utilisent la politique de fusion de l&#39;audience ; les parcours d&#39;événement unitaire utilisent la politique de fusion par défaut ; les parcours d&#39;événement métier utilisent la politique de fusion de l&#39;audience ciblée dans l&#39;activité Lecture d&#39;audience suivante.
+**Q : Puis-je modifier les propriétés du parcours lorsque le parcours est actif ?**
 
-+++
+Pour les parcours en direct, le panneau des propriétés affiche uniquement la date de publication et le nom de l’éditeur ; les modifications structurelles nécessitent une nouvelle version.
+
+**Q : Que se passe-t-il lorsque plusieurs critères de sortie sont configurés ?**
+
+Ils sont évalués de haut en bas avec une logique OR à chaque étape du parcours ; un profil se ferme lorsqu’un critère est rempli.
+
+**Q : Comment empêcher un profil de rejoindre à nouveau un parcours ?**
+
+Décochez l’option « Autoriser une reprise » dans les propriétés de parcours. Elle est adaptée aux expériences ponctuelles telles qu’une offre de cadeau.
+
+**Q : Quelle est la différence entre le délai d’expiration du parcours et la date de fin ?**
+
+La date de fin arrête toutes les nouvelles entrées et quitte automatiquement les profils actifs à cette date spécifique ; la temporisation globale de 91 jours s’applique par profil à partir du moment où il entre, quelle que soit la date de fin du parcours.
+
+**Q : Comment la politique de fusion est-elle déterminée pour un parcours ?**
+
+Cela dépend du type de parcours : les parcours Lecture d’audience et Qualification de l’audience utilisent la politique de fusion de l’audience. Les parcours d’événement unitaire utilisent la politique de fusion par défaut. Les parcours d’événement métier utilisent la politique de fusion de l’audience ciblée dans l’activité Lecture d’audience suivante.
+
+>[!ENDTABS]

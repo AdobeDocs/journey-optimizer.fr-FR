@@ -23,10 +23,10 @@ topic_v2:
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
   - id: e51e8901-97d9-4f7d-a835-503025a90e32
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 715
-ht-degree: 89%
+source-wordcount: 1262
+ht-degree: 50%
 
 ---
 
@@ -123,3 +123,67 @@ Les étapes de création de variantes d’un composant de contenu dans le concep
 1. Pour supprimer une variante, cliquez sur l’icône Plus d’actions située en regard de la variante souhaitée et sélectionnez **[!UICONTROL Supprimer]**.
 
    ![](assets/conditions-delete.png)
+
+## Référence rapide {#quick-reference}
+
+Cette section contient des connaissances structurées destinées à soutenir l’interprétation, la récupération et la réponse aux questions liées à ce sujet.
+
+Pour une compréhension totale, ces informations doivent être combinées avec la documentation de cette page. Aucune des sources n’est conçue pour être autonome. La page décrit la fonctionnalité, tandis que cette section fournit un contexte supplémentaire qui permet de clarifier la terminologie, l’intention, l’applicabilité et les contraintes.
+
+>[!BEGINTABS]
+
+>[!TAB Vue d’ensemble]
+
+**TL;DR**
+
+Cette page explique comment utiliser des règles conditionnelles pour ajouter du contenu dynamique aux messages, soit par le biais de balises d’expression dans l’éditeur de personnalisation, soit en tant que variantes de composant de contenu dans le Designer d’e-mail.
+
+**Intentions**
+
+* Ajouter du contenu dynamique aux expressions de personnalisation à l’aide de balises conditionnelles `{%if%}`/`{%/if%}`
+* Prévisualiser plusieurs variantes de contenu dynamique à l’aide de la simulation
+* Activation du contenu conditionnel sur un composant de contenu Designer d’e-mail
+* Créer plusieurs variantes de composant chacune liée à une règle conditionnelle
+* Gérer la variante par défaut affichée lorsqu’aucune condition n’est remplie au moment de l’envoi
+
+>[!TAB Glossaire]
+
+* **Contenu dynamique** : contenu du message qui varie en fonction des règles conditionnelles. Un contenu différent est affiché selon que les conditions définies sont remplies au moment de l’envoi. *(spécifique au produit)*
+* **Contenu conditionnel** : une fonctionnalité de Designer d’e-mail qui applique des règles conditionnelles à un composant de contenu, ce qui crée plusieurs variantes d’affichage. *(spécifique au produit)*
+* **Variante par défaut** : contenu affiché pour un composant lorsqu’aucune des règles conditionnelles définies n’est remplie lors de l’envoi du message. *(spécifique au produit)*
+* **`{%if%}`/ `{%/if%}` balises** : syntaxe d’expression de l’éditeur de Personalization utilisée pour encapsuler des blocs de contenu qui s’affichent uniquement lorsqu’une règle conditionnelle est remplie.
+
+>[!TAB  Terminologie ]
+
+* **Nom canonique :** contenu dynamique — variantes : contenu conditionnel, contenu personnalisé
+* **Synonymes :** « contenu conditionnel » (libellé de l’interface utilisateur de Designer d’e-mail) = « contenu dynamique » (terme général utilisé dans l’ensemble)
+* **Ne pas confondre :** l’ajout de contenu dynamique dans les expressions (à l’aide de balises `{%if%}` dans l’éditeur de personnalisation) ≠ l’ajout de contenu dynamique dans les e-mails (création de variantes de composants dans le Designer d’e-mail - deux workflows distincts)
+* **Ne pas confondre :** « Variante par défaut » (affichée lorsqu’aucune règle conditionnelle n’est remplie) ≠ une variante nommée (chacune associée à une règle conditionnelle spécifique)
+
+>[!TAB Mécanismes de sécurisation et limitations]
+
+* Les variantes de contenu conditionnel sont évaluées par rapport aux règles associées dans l’ordre dans lequel elles sont affichées. La variante par défaut est toujours affichée si aucune autre condition n’est remplie.
+* Lors de la simulation ou du rendu de BAT pour les e-mails avec plusieurs variantes conditionnelles, Journey Optimizer peut nécessiter davantage de temps de traitement. Envisagez de réduire le nombre de variantes ou de simplifier les règles conditionnelles en cas de dépassements de délai ou d’erreurs.
+* Si le rendu du Designer d’e-mail échoue après l’ajout de blocs conditionnels, vérifiez que la syntaxe de chaque condition est correcte et qu’il n’existe aucune instruction en double ou conflictuelle.
+
+>[!TAB FAQ]
+
+**Q : Que se passe-t-il si aucune des conditions définies n’est remplie lors de l’envoi du message ?**
+
+Le composant de contenu affiche le contenu défini dans la Variante par défaut .
+
+**Q : Dans quel ordre les variantes de contenu conditionnel sont-elles évaluées ?**
+
+Les variantes sont évaluées par rapport aux règles associées dans l’ordre dans lequel elles sont affichées. La variante par défaut est toujours affichée si aucune autre condition n’est remplie.
+
+**Q : Où le contenu dynamique peut-il être ajouté dans Journey Optimizer ?**
+
+Dans tous les champs où la personnalisation peut être ajoutée (notamment les objets, les liens, le contenu des notifications push et les représentations d&#39;offres de type texte) via l&#39;éditeur de personnalisation et dans les composants de contenu de Designer d&#39;e-mail via des variantes conditionnelles.
+
+**Q : Que dois-je faire si le rendu du Designer d’e-mail échoue après l’ajout de blocs conditionnels ?**
+
+Vérifiez que la syntaxe de chaque condition est correcte et qu&#39;il n&#39;existe aucune instruction en double ou conflictuelle. Si les problèmes persistent, recréez les sections problématiques dans un nouveau modèle et testez chaque bloc conditionnel de manière incrémentielle.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: e6005d80 -->

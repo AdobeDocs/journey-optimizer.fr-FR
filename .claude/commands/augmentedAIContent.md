@@ -1,32 +1,48 @@
 ---
-source-git-commit: c81615909e033d52fbed56f0195467a3e346a4be
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 1%
+source-wordcount: '1406'
+ht-degree: 0%
 
 ---
 # augmentedAIContent
 
-Ajoute un accordéon Assistant d’IA généré automatiquement à la fin d’un ou de plusieurs fichiers Markdown dans le référentiel de documentation de Journey Optimizer.
+Ajoute une section **Référence rapide** générée automatiquement à la fin d’un ou de plusieurs fichiers Markdown dans le référentiel de documentation Journey Optimizer.
 
 ## Référentiel cible
 
 `help/using/` (relatif à la racine du référentiel)
 
-## Syntaxe de l&#39;accordéon (Experience League)
+## Syntaxe des sections et des onglets (Experience League)
+
+### En-tête de section
 
 ```
-+++Title of the accordion
+## Quick reference {#quick-reference}
+```
+
+### Onglets
+
+```
+>[!BEGINTABS]
+
+>[!TAB Tab name]
 
 Content here — any standard markdown is valid.
 
-+++
+>[!TAB Another tab]
+
+Content here.
+
+>[!ENDTABS]
 ```
 
 **Règles:**
-- `+++Title` sur une ligne — le titre suit immédiatement `+++`
-- `+++` seul sur une ligne ferme l’accordéon
-- Ligne vierge avant le `+++` d&#39;ouverture et après le `+++` de fermeture
+
+- `>[!BEGINTABS]` et `>[!ENDTABS]` chacun sur leur propre ligne, entourés de lignes vides
+- `>[!TAB Name]` sur sa propre ligne, suivie d’une ligne vide avant le contenu
+- Les noms d’onglets sont titre-casse, courts (1-3 mots)
+- Ligne vierge avant `>[!BEGINTABS]` et après `>[!ENDTABS]`
 
 &#x200B;---
 
@@ -46,71 +62,103 @@ Si un dossier est indiqué, répertoriez les fichiers `.md` trouvés et confirme
 
 1. **Lire le fichier** dans son intégralité.
 2. **Comprendre le sujet de la page** — quelle fonctionnalité, quel concept ou quelle tâche couvre-t-il ?
-3. **Générez le contenu de l’accordéon** à l’aide des règles de génération de contenu ci-dessous.
+3. **Générez le contenu de la section** à l’aide des règles de génération de contenu ci-dessous.
 4. **Exécutez la liste de contrôle de validation de post-génération** (voir ci-dessous) — ne la ignorez pas.
-5. **Vérifiez** si un accordéon d’IA existe déjà à la fin (recherchez les `+++AI Knowledge Reference` près de la fin). Si oui, demandez à l’utilisateur : remplacer ou ignorer ?
+5. **Vérifiez** si une section Référence rapide existe déjà à la fin (recherchez des `## Quick reference` près de la fin). Si oui, demandez à l’utilisateur : remplacer ou ignorer ?
 
-### Étape 3 — Ajouter l&#39;accordéon
+### Étape 3 — Vérifier chaque réclamation par rapport au corps de la page
+
+Avant l’ajout, reliez la revendication de section générée par la revendication. Cette étape est **obligatoire et ne peut pas être ignorée**, même pour les fichiers courts. Corrigez tout échec avant de passer à l’étape 4.
+
+**Terminologie et libellés**
+
+- [ ] Chaque terme, libellé et nom d’interface utilisateur de la section s’affiche dans le corps de la page ; il n’est pas importé d’une autre page ni déduit de la connaissance générale du produit
+- [ ] Aucun synonyme n’est répertorié, sauf si les deux formulaires apparaissent sur la page
+- [ ] Chaque entrée « Ne pas confondre » fait référence uniquement aux concepts mentionnés sur cette page
+
+**Mécanismes de sécurisation et limites**
+
+- [ ] Chaque valeur numérique correspond exactement au corps de la page
+- [ ] Une limite est appelée **hard** uniquement si le corps de la page utilise ce mot ou implique clairement que le système l’applique (par exemple, « ne peut pas dépasser », « maximum ... autorisé », « seulement ... pris en charge »)
+- [ ] Une limite est appelée **recommandée** uniquement si le corps de la page utilise ce mot ou un équivalent (« pour de meilleures performances », « recommandée »)
+- [ ] Si le corps de la page ne contient aucun qualificateur, la section n’en contient aucun. N’en créez pas
+- [ ] Pas de méta-commentaire sur ce que la page source dit ou ne dit pas (par exemple, « aucun nombre spécifique n’est indiqué sur cette page »)
+
+**Définitions de glossaire**
+
+- [ ] Aucune définition ne contient de détails techniques absents du corps de la page
+- [ ] Aucune entrée ne développe cette fonctionnalité à l’aide d’informations provenant d’autres pages du jeu de documentation
+
+**réponses aux questions fréquentes**
+
+- [ ] Chaque détail spécifique (coût de l’interface utilisateur, noms des boutons, noms des champs, séquences d’étapes) est indiqué dans le corps de la page, mais pas déduit ni importé d’autres pages
+- [ ] Aucune réponse introduit des informations que le corps de la page ne traite pas
+
+**Règle de correction :** en cas d’échec d’une vérification, corrigez le contenu **avant** lors de l’ajout. Enregistrez chaque correction dans le rapport Étape 5.
+
+&#x200B;---
+
+### Étape 4 — Ajouter la section
 
 Utilisez le bloc d’ouverture fixe et le modèle complet définis dans la **Règles de génération de contenu** ci-dessous. Ajoutez à la toute fin du fichier, suivi immédiatement du commentaire de synchronisation :
 
 ```
-<!-- ai-accordion-version: 1 | source-hash: [first 8 chars of MD5 of file content before accordion] -->
+<!-- ai-section-version: 1 | source-hash: [first 8 chars of MD5 of file content before section] -->
 ```
 
-Ce commentaire permet aux outils et aux rédacteurs à venir de détecter le moment où le corps de la page a dérivé de l’accordéon. Ne modifiez aucun autre contenu.
+Ce commentaire permet aux outils et aux rédacteurs à venir de détecter le moment où le corps de la page a dévié de la section. Ne modifiez aucun autre contenu.
 
-### Étape 4 — Rapport
+### Étape 5 — Rapport
 
 - Fichiers modifiés ✓
-- Fichiers ignorés + raison (contient déjà un accordéon / vide / page d’index)
+- Fichiers ignorés + raison (contient déjà une section / vide / page d’index)
 - Tous les avertissements de validation générés lors de l’étape 2
 
 &#x200B;---
 
 ## Règles de génération de contenu
 
-Analysez la page et générez les sections ci-dessous **dans l’ordre** sous forme de listes à puces Markdown. Ignorer les sections où aucun contenu significatif ne peut être extrait.
+Analysez la page et générez les onglets ci-dessous **dans l’ordre**. Ignorer complètement un onglet si aucun contenu significatif ne peut être extrait pour lui.
 
-### Titre de l&#39;accordéon et ouverture fixe — mot à mot, ne pas modifier
+### En-tête de section et ouverture fixe — mot à mot, ne pas modifier
 
-Chaque accordéon doit commencer par ce bloc exact. Copiez-le en l’état ; ne paraphrasez pas, ne condensez pas et ne réorganisez pas :
+Chaque section de référence rapide doit commencer par ce bloc exact. Copiez-le en l’état ; ne paraphrasez pas, ne condensez pas et ne réorganisez pas :
 
 ```
-+++ AI Knowledge Reference
+## Quick reference {#quick-reference}
 
 This section contains structured knowledge intended to support interpretation, retrieval, and question answering related to this topic.
 
 For complete understanding, this information should be combined with the documentation on this page. Neither source is intended to stand alone; the page describes the feature, while this section provides additional context that helps disambiguate terminology, intent, applicability, and constraints.
 ```
 
-Les sections de contenu générées suivent immédiatement après ces deux paragraphes.
+Le bloc `>[!BEGINTABS]` suit immédiatement après ces deux paragraphes.
 
-### 1. TL;DR
+### Onglet 1 — Aperçu
 
-Résumé en une phrase de ce que la page enseigne ou permet.
-
-```
-- **TL;DR:** [one sentence]
-```
-
-### &#x200B;2. Intentions
-
-3 à 6 choses qu’un utilisateur ou une utilisatrice peut accomplir après avoir lu cette page.
+TL d’une phrase ; résumé de la reprise après sinistre de ce que la page enseigne ou permet, suivi de 3 à 6 choses qu’un utilisateur ou une utilisatrice peut accomplir après avoir lu cette page.
 
 ```
-**Intents:**
-- [action]
-- [action]
+>[!TAB Overview]
+
+**TL;DR**
+
+[one sentence]
+
+**Intents**
+
+* [action]
+* [action]
 ```
 
-### &#x200B;3. Glossaire
+### Onglet 2 — Glossaire
 
 Termes clés spécifiques à cette page/fonctionnalité avec des définitions courtes. Signalez les termes spécifiques au produit.
 
 ```
-**Glossary:**
-- **[Term]**: [definition] *(product-specific)*
+>[!TAB Glossary]
+
+* **[Term]**: [definition] *(product-specific)*
 ```
 
 N’incluez que les termes relatifs à cette page. N’utilisez pas de termes marketing génériques.
@@ -123,47 +171,52 @@ Si la page couvre une forme quelconque de test, de prévisualisation ou d’exé
 
 Incluez uniquement les modes présents dans la page. Copiez le terme « produit précis » du corps de la page — ne remplacez ni « profils synthétiques », ni « fausses données », ni « sans données réelles » par l’un de ces termes.
 
-### &#x200B;4. Mécanismes de sécurisation
-
-Limites, conditions préalables, autorisations ou contraintes mentionnées sur la page.
-
-```
-**Guardrails:**
-- [guardrail]
-```
-
-**Règles de précision du mécanisme de sécurisation — obligatoire :**
-
-- **Qualifiez chaque limite numérique** qu’elle soit recommandée ou stricte. Exemple : « Maximum 10 recherches de jeux de données par message (limite stricte) » et non « Maximum 10 recherches de jeux de données ».
-- **Qualifiez chaque chiffre de débit ou de débit** avec sa portée. Exemple : « Limite de 150 000 messages/heure TPS (par sandbox) » et non « Limite de 150 000 messages/heure ».
-- **Vérifiez chaque mécanisme de sécurisation par rapport au corps de la page** avant de l’inclure. Si la page indique 10 et que l’accordéon indique 5, l’accordéon est erroné. Le corps de la page fait autorité.
-- **Ne déduisez pas les mécanismes de sécurisation** qui ne sont pas indiqués sur la page. Si une contrainte existe mais n’est pas indiquée sur la page, omettez-la.
-
-### &#x200B;5. Terminologie
+### Onglet 3 — Terminologie
 
 Noms canoniques, acronymes, variantes acceptées, synonymes, désambiguation. Principalement pour la normalisation des pipelines d’IA.
 
 ```
-**Terminology:**
-- Canonical name: [name] — Acronym: [acronym] — variants: [list]
-- Synonyms: "[term A]" = "[term B]"
-- Do not confuse: "[term]" ≠ "[other term]"
+>[!TAB Terminology]
+
+* **Canonical name:** [name] — Acronym: [acronym] — variants: [list]
+* **Synonyms:** "[term A]" = "[term B]"
+* **Do not confuse:** "[term]" ≠ "[other term]"
 ```
 
 **Règle de précision du statut et du cycle de vie :**
 Lorsque la page décrit un cycle de vie (statuts de parcours, statuts de message, statuts de campagne, etc.), copiez les libellés de statut exacts à partir du corps de la page. Ne paraphrase pas. Utilisez les entrées « Ne pas confondre » pour distinguer les statuts qui partagent un mot racine mais ont une signification distincte. Exemple :
 
 ```
-- Do not confuse: "Stop" (user-initiated action) ≠ "Stopped" (resulting status) ≠ "Close" (action on Live journey allowing in-progress profiles to finish) ≠ "Closed" (resulting status)
+* Do not confuse: "Stop" (user-initiated action) ≠ "Stopped" (resulting status) ≠ "Close" (action on Live journey allowing in-progress profiles to finish) ≠ "Closed" (resulting status)
 ```
 
-### &#x200B;6. Questions fréquentes
+### Onglet 4 — Mécanismes de sécurisation et limites
 
-3 à 6 questions qu’un utilisateur peut poser, avec des réponses courtes.
+Limites, conditions préalables, autorisations ou contraintes mentionnées sur la page.
 
 ```
-**FAQ:**
-- **Q: [question]** — [short answer]
+>[!TAB Guardrails & Limitations]
+
+* [guardrail]
+```
+
+**Règles de précision du mécanisme de sécurisation — obligatoire :**
+
+- **Qualifiez chaque limite numérique** qu’elle soit recommandée ou stricte. Exemple : « Maximum 10 recherches de jeux de données par message (limite stricte) » et non « Maximum 10 recherches de jeux de données ».
+- **Qualifiez chaque chiffre de débit ou de débit** avec sa portée. Exemple : « Limite de 150 000 messages/heure TPS (par sandbox) » et non « Limite de 150 000 messages/heure ».
+- **Vérifiez chaque mécanisme de sécurisation par rapport au corps de la page** avant de l’inclure. Si la page dit 10 et que l&#39;article dit 5, l&#39;article est erroné. Le corps de la page fait autorité.
+- **Ne déduisez pas les mécanismes de sécurisation** qui ne sont pas indiqués sur la page. Si une contrainte existe mais n’est pas indiquée sur la page, omettez-la.
+
+### Onglet 5 — FAQ
+
+3 à 6 questions qu’un utilisateur peut poser, avec des réponses courtes. Mettez en forme chaque sous la forme d’un en-tête de question en gras suivi d’une réponse au paragraphe.
+
+```
+>[!TAB FAQ]
+
+**Q: [question]**
+
+[short answer]
 ```
 
 **Règle de précision des questions fréquentes :**
@@ -180,10 +233,11 @@ Les réponses doivent utiliser les mêmes choix de verbe et de substantif que le
 
 ## Liste de contrôle de validation de post-génération
 
-Exécutez cette liste de contrôle sur chaque accordéon avant de l’ajouter. Signalez tout échec à l’utilisateur avant de continuer.
+Exécutez cette liste de contrôle sur chaque section avant l’ajout. Signalez tout échec à l’utilisateur avant de continuer.
 
 ### Vérification du mécanisme de sécurisation
-- [ ] Chaque valeur numérique de l’accordéon existe mot pour mot ou peut être dérivée du corps de la page
+
+- [ ] Chaque valeur numérique de la section existe mot pour mot ou peut être dérivée du corps de la page
 - [ ] Chaque limite est qualifiée comme recommandée ou stricte
 - [ ] Chaque chiffre de débit inclut sa portée (sandbox/organisation/instance)
 
@@ -196,55 +250,68 @@ Exécutez cette liste de contrôle sur chaque accordéon avant de l’ajouter. S
 - [ ] glossaire ne contient pas de termes marketing génériques sans rapport avec la page
 - [ ] réponses aux questions fréquentes n’introduisent pas d’informations absentes de la page
 
-Si une vérification échoue, corrigez l’accordéon avant de l’ajouter. Enregistrez la correction dans le rapport Étape 4.
+Si une vérification échoue, corrigez la section avant d’ajouter . Enregistrez la correction dans le rapport Étape 4.
 
 &#x200B;---
 
 ## Responsabilité de synchronisation
 
-L’accordéon est une dérivée du corps de la page à un moment donné. Il doit être traité comme faisant partie de la page.
+La section Référence rapide est une dérivée du corps de page à un moment donné. Il doit être traité comme faisant partie de la page.
 
 **Lorsque le corps de la page est mis à jour (PR de version, corrections, etc.) :**
-- Si la mise à jour modifie un mécanisme de sécurisation, une limite, un libellé d’état ou un mode de validation décrit dans l’accordéon, → régénérer ou mettre à jour manuellement l’accordéon dans la même requête de tirage.
-- Si la mise à jour n’est pas liée au contenu de l’accordéon (par exemple, les étapes de la procédure, les mises à jour des captures d’écran), → l’accordéon peut rester inchangé, mais passez-le brièvement en revue.
 
-Le commentaire de synchronisation ajouté après l’accordéon (`<!-- ai-accordion-version -->`) est le signal : si le contenu du fichier précédant l’accordéon a changé depuis que ce hachage a été écrit, l’accordéon est candidat à la révision.
+- Si la mise à jour modifie un mécanisme de sécurisation, une limite, un libellé d’état ou un mode de validation décrit dans la section , → régénérer ou mettre à jour manuellement la section dans la même requête de tirage.
+- Si la mise à jour n’est pas liée au contenu de la section (par exemple, les étapes de la procédure, les mises à jour des captures d’écran), → la section peut rester inchangée, mais passez-la en revue brièvement.
+
+Le commentaire de synchronisation ajouté après la section (`<!-- ai-section-version -->`) est le signal : si le contenu du fichier précédant la section a changé depuis que ce hachage a été écrit, la section est candidate à la révision.
 
 &#x200B;---
 
 ## Modèle complet
 
 ```markdown
-+++ AI Knowledge Reference
+## Quick reference {#quick-reference}
 
 This section contains structured knowledge intended to support interpretation, retrieval, and question answering related to this topic.
 
 For complete understanding, this information should be combined with the documentation on this page. Neither source is intended to stand alone; the page describes the feature, while this section provides additional context that helps disambiguate terminology, intent, applicability, and constraints.
 
-- **TL;DR:** [one sentence]
+>[!BEGINTABS]
 
-**Intents:**
-- [intent]
+>[!TAB Overview]
 
-**Glossary:**
-- **[Term]**: [definition]
+**TL;DR**
 
-**Guardrails:**
-- [guardrail — type: recommended|hard — scope: sandbox|org]
+[one sentence]
 
-**Terminology:**
-- Canonical name: [name] — Acronym: [acronym] — variants: [variants]
-- Synonyms: "[a]" = "[b]"
-- Do not confuse: "[x]" ≠ "[y]"
+**Intents**
 
-**FAQ:**
-- **Q: [question]** — [short answer]
+* [intent]
 
-+++
-<!-- ai-accordion-version: 1 | source-hash: [hash] -->
+>[!TAB Glossary]
+
+* **[Term]**: [definition] *(product-specific)*
+
+>[!TAB Terminology]
+
+* **Canonical name:** [name] — Acronym: [acronym] — variants: [variants]
+* **Synonyms:** "[a]" = "[b]"
+* **Do not confuse:** "[x]" ≠ "[y]"
+
+>[!TAB Guardrails & Limitations]
+
+* [guardrail — type: recommended|hard — scope: sandbox|org]
+
+>[!TAB FAQ]
+
+**Q: [question]**
+
+[short answer]
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: [hash] -->
 ```
-
-&#x200B;---
 
 ## Remarques
 
