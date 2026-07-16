@@ -10,29 +10,16 @@ level: Beginner
 keywords: commencer, démarrer, contenu, expérience
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 TQID: https://experienceleague.adobe.com/q96rm5B-8RTB7CkEfTt47tCau7P7Moe8c4bNRoroobw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: bc543dba-f0db-4234-b5da-877a5c1664e2
-  - id: ea4139d9-3405-4b34-ad6e-c3ca120cc269
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: bc543dba-f0db-4234-b5da-877a5c1664e2id: ea4139d9-3405-4b34-ad6e-c3ca120cc269id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: cf815079d67f4a41c3647c6a6e381ef5f1c44e51
 workflow-type: tm+mt
-source-wordcount: 2099
-ht-degree: 97%
+source-wordcount: 2097
+ht-degree: 96%
 
 ---
 
@@ -192,7 +179,7 @@ Dans cette section, vous pouvez définir vos différents paramètres régionaux 
 
    1. Dans la collecte de données Adobe Experience Platform, accédez à vos propriétés de balise.
 
-   1. Accédez au menu **[!UICONTROL Règles]** et créez une règle. Vous trouverez des informations détaillées sur la création de règles dans [!DNL Adobe Experience Platform] documentation [Collecte de données](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
+   1. Accédez au menu **[!UICONTROL Règles]** et créez une règle. Vous trouverez des informations détaillées sur la création de règles dans [!DNL Adobe Experience Platform] documentation [Collecte de données](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules){target="_blank"}
 
    1. Dans la section **[!UICONTROL SI]** de la règle, ajoutez un événement configuré comme ci-dessous :
 
