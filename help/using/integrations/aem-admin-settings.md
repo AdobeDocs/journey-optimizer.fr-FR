@@ -8,11 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: AEM, fragments de contenu, administration, référentiel, authentification, auteur, publication
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: df67813c8055cde92be0e3c10f56a5c5f5783c1e
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+source-git-commit: 82575d60e216fde6271222fee3c5868e20e3b41d
 workflow-type: tm+mt
 source-wordcount: 709
 ht-degree: 10%
@@ -28,10 +26,9 @@ ht-degree: 10%
 
 >[!ENDSHADEBOX]
 
-
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_content_fragment_configuration"
->title="« Configuration de Adobe Experience Manager"
+>title="Configuration de Adobe Experience Manager"
 >abstract="Connectez un sandbox à un référentiel Adobe Experience Manager en définissant l’accès de création uniquement ou de publication, les domaines personnalisés et l’authentification, afin que les marketeurs puissent utiliser les fragments de contenu Adobe Experience Manager dans leurs parcours et campagnes."
 
 >[!CONTEXTUALHELP]
@@ -147,4 +144,4 @@ Lorsque vous enregistrez cette configuration, Journey Optimizer la stocke pour c
 
 Découvrez comment les administrateurs configurent les paramètres du référentiel Adobe Experience Manager Managed Services dans Journey Optimizer afin que les marketeurs puissent utiliser les fragments de contenu dans les parcours et les campagnes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3492531?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3492529?quality=12)
