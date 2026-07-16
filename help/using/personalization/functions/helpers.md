@@ -6,7 +6,8 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+feature_v2:
+  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2: []
 source-git-commit: cfd54ee08abb8ef6dbeaeb8ca079e0d19cd329a5
 workflow-type: tm+mt
