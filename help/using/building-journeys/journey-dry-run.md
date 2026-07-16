@@ -219,7 +219,7 @@ Oui. Pour les parcours utilisant une activité **Lecture d’audience** avec une
 
 Découvrez comment exécuter un test à blanc de vos parcours dans cette vidéo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464684/?captions=fre_fr&learn=on&enablevpops)
 
 +++ Référence des connaissances sur l’IA
 
