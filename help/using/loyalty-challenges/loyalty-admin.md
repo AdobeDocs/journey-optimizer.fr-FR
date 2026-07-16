@@ -13,10 +13,10 @@ mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: 61005da7b43e9b21ab720bbb1ef86317345137cd
 workflow-type: tm+mt
-source-wordcount: 1642
-ht-degree: 20%
+source-wordcount: 1855
+ht-degree: 18%
 
 ---
 
@@ -83,11 +83,26 @@ Pour ouvrir l’interface de configuration, sélectionnez le menu **[!UICONTROL 
 >title="Paramètres globaux"
 >abstract="Les paramètres globaux définissent la configuration au niveau de l’organisation pour les défis de fidélité, y compris l’espace de noms d’identité utilisé pour identifier les membres à travers les événements et défis."
 
-Ouvrez l’onglet **[!UICONTROL Paramètres globaux]** et sélectionnez le menu déroulant Adobe Experience Platform [espace de noms d’identité](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/namespaces) pour les défis de fidélité dans l’**[!UICONTROL espace de noms]**. Cet espace de noms doit correspondre à la manière dont les profils membres sont identifiés dans vos données .
+Ouvrez l’onglet **[!UICONTROL Paramètres globaux]** pour configurer les paramètres globaux pour les défis de fidélité.
 
 ![](assets/admin-global-settings.png)
 
-➡️ [Découvrez comment utiliser les espaces de noms d’identité](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/namespaces){target="_blank"}
+* Dans la section **[!UICONTROL Configuration de l’organisation]**, sélectionnez le Adobe Experience Platform [Espace de noms d’identité](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/namespaces) pour les défis de fidélité. Cet espace de noms doit correspondre à la manière dont les profils membres sont identifiés dans vos données .
+
+  ➡️ [Découvrez comment utiliser les espaces de noms d’identité](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/namespaces){target="_blank"}
+
+* Utilisez la section **[!UICONTROL Reporting]** pour définir la mesure de priorité de votre organisation pour le tableau de bord des informations de fidélité. Ce paramètre détermine les informations sur lesquelles vous insistez dans votre flux, ce qui vous permet de vous concentrer sur la mesure la plus importante pour votre entreprise.
+
+  Sélectionnez l’une des options d’indicateurs de performance clés suivantes :
+
+   * **[!UICONTROL Chiffre d’affaires]** — Hiérarchisez les informations relatives aux transactions monétaires et à la performance des ventes
+   * **[!UICONTROL Engagement]** — Hiérarchiser les informations relatives à l&#39;activité et à la participation des membres
+   * **[!UICONTROL Remboursements]** — Hiérarchisez les informations relatives aux taux de remboursement des récompenses et à l’activité
+   * **[!UICONTROL Conversions]** — Hiérarchisez les informations relatives aux mesures de conversion et à l’atteinte des objectifs
+
+  Lorsque vous sélectionnez un indicateur de performance clé, les informations liées à cette mesure reçoivent un coup de pouce de notation, ce qui les fait monter en haut du flux. Cela signifie que les informations les plus pertinentes pour l’indicateur de performance clé sélectionné apparaissent en premier. Aucun insight n’est masqué : l’ensemble de votre flux insight continue de s’afficher, classé par importance, avec vos indicateurs de performance clés sélectionnés prioritaires par rapport aux autres mesures. Ce paramètre affecte uniquement le classement des informations dans le flux et ne modifie pas le fonctionnement de votre programme de fidélité ni l’évaluation des défis. Vous pouvez modifier votre sélection d’indicateurs de performance clés à tout moment et le flux d’insight redéfinit les priorités du prochain cycle d’actualisation afin de refléter votre nouvelle priorité.
+
+  Pour plus d’informations sur les informations de fidélité et la surveillance des performances, consultez [Surveillance des performances des défis de fidélité](loyalty-reporting.md).
 
 ## Fournisseurs de récompenses {#reward-providers}
 
