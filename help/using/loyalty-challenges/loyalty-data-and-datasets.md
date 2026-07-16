@@ -13,10 +13,10 @@ mini-toc-levels: 1
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: 56b57f083d747726847c0a3e658cd4ff4921fc81
 workflow-type: tm+mt
-source-wordcount: 538
-ht-degree: 5%
+source-wordcount: 613
+ht-degree: 9%
 
 ---
 
@@ -64,15 +64,27 @@ Les défis de fidélité reposent sur Adobe Experience Platform pour l’identit
 
 Contactez votre administrateur Adobe pour la configuration du programme Journey Optimizer ou configurez l’exécution des récompenses et le mappage des événements dans le menu **[!UICONTROL Administrateur de fidélité]**. [Découvrez comment configurer les défis de fidélité](loyalty-admin.md). Pour les points d’entrée REST et l’authentification, consultez la [référence de l’API Loyalty Challenges](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}.
 
+## Connecteurs de fidélité via les sources {#loyalty-connectors-sources}
+
+Si vos données de fidélité sont gérées dans une plateforme de récompenses externe, vous pouvez les ingérer dans Adobe Experience Platform à l’aide de connecteurs **Sources**, puis les utiliser dans les défis de fidélité.
+
+Les connecteurs de fidélité et de récompenses répertoriés dans la documentation de Journey Optimizer incluent :
+
+* **Talon.One**
+* **Capillaire**
+* **Kobie**
+
+Pour l’intégration et la configuration de bout en bout du connecteur, consultez [Prise en main des connecteurs source](../start/get-started-sources.md) et le [catalogue de sources Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=fr#sources-catalog){target="_blank"}.
+
 ## Données Adobe Experience Platform {#aep-data}
 
 ### Attributs de profil {#profile-attributes}
 
 Mettez les audiences, la personnalisation et les profils d’utilisation de rapports au défi dans la classe **[!DNL XDM Individual Profile]**. Alignez l’identité [espace de noms](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/namespaces){target="_blank"} que vous utilisez pour les défis de fidélité sur la manière dont les membres sont identifiés dans vos données de profil et sur l’espace de noms sélectionné dans **[!UICONTROL paramètres globaux]** dans le menu **[!UICONTROL Administration du programme de fidélité]**.
 
-Pour les attributs de fidélité standard sur le profil (points, niveau, programme, statut et champs associés), utilisez le groupe de champs de schéma Experience Platform **[Détails de fidélité](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}**. Ce groupe de champs définit l’objet `loyalty` et ses propriétés (par exemple `points`, `tier`, `program` et `status`).
+Pour les attributs de fidélité standard sur le profil (points, niveau, programme, statut et champs associés), utilisez le groupe de champs de schéma Experience Platform **[Détails de fidélité](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}**. Ce groupe de champs définit l’objet `loyalty` et ses propriétés (par exemple `points`, `tier`, `program` et `status`).
 
-➡️ [Groupe de champs de schéma Détails de fidélité](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
+➡️ [Groupe de champs de schéma Détails de fidélité](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
 
 ### Événements d’expérience {#experience-events}
 
