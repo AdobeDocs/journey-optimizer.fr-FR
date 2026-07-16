@@ -438,7 +438,7 @@ Pour obtenir la liste complète des mécanismes de sécurisation de lecture d’
 * [Tester un parcours &#x200B;](testing-the-journey.md) - Validez la logique de parcours à l’aide de profils de test avant la mise en ligne.
 * [Publier un parcours &#x200B;](../building-journeys/publish-journey.md) - Activez votre parcours et surveillez son exécution initiale.
 * [Envoyer un message aux abonnés](message-to-subscribers-uc.md) - Cas pratique de bout en bout : ciblez une liste d’abonnements avec un parcours Lecture d’audience, de la configuration à la diffusion.
-* [Bonnes pratiques pour la lecture de parcours d’audience](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445){target="_blank"} - blog de la communauté couvrant les pièges courants, les incohérences de comptage et les bonnes pratiques éprouvées.
+* [Bonnes pratiques pour la lecture de parcours d’audience](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445?profile.language=fr){target="_blank"} - blog de la communauté couvrant les pièges courants, les incohérences de comptage et les bonnes pratiques éprouvées.
 
 ## Vidéo pratique {#video}
 
