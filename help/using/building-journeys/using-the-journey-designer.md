@@ -11,31 +11,16 @@ keywords: conception, zone de travail, parcours, interface, glisser, déposer
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Mn8oR-jsUTbkXoohAgCulA-SBY8xRVy75z6H7j9ETvE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e57d1da4-32c2-4cc6-945c-9feb219156ffid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 300b4c714f797971749706e0269f61174d1fe91e
 workflow-type: tm+mt
-source-wordcount: 2271
-ht-degree: 67%
+source-wordcount: 2469
+ht-degree: 66%
 
 ---
 
@@ -87,6 +72,21 @@ Selon le statut du parcours, vous pouvez effectuer différentes actions à l’a
 
 ![Boutons d’action de parcours : Publier, Dupliquer, Supprimer, Mode Test, Gérer l’accès, Alertes](assets/journey41.png)
 
+## Nouvelle expérience de l’interface de parcours {#canvas-capabilities}
+
+Une **nouvelle interface utilisateur** est disponible pour la zone de travail de parcours, conçue pour s’adapter aux cas d’utilisation les plus complexes :
+
+* **Performances** — Gère efficacement les parcours volumineux avec de nombreuses étapes et branches.
+* **Disposition automatique** — Organise automatiquement les activités pour une meilleure lisibilité.
+* **Création guidée** — Offre une expérience de création structurée pour vous aider à créer des parcours facilement et efficacement.
+
+![](assets/journey-new-canvas.png)
+
+Pour passer à la nouvelle expérience, cliquez sur le bouton **[!UICONTROL Nouvelle expérience]** dans la zone de travail du parcours. Une fois activé, ce paramètre est enregistré au niveau du parcours. Par conséquent, le parcours s’ouvrira par défaut dans la nouvelle expérience lors des visites ultérieures. Pour revenir en arrière, cliquez sur le bouton **[!UICONTROL Ancienne expérience]**.
+
+![](assets/journey-new-experience-switch.png){width="50%" align="center" zoomable="yes"}
+
+
 ## Démarrage de votre parcours {#start-your-journey}
 
 Lorsque vous concevez votre parcours, la première question que vous devez vous poser est la suivante : comment les profils vont-ils rejoindre le parcours ?
@@ -119,7 +119,7 @@ Les activités d’orchestration sont des conditions différentes qui permettent
 
 Dans les activités d’orchestration, utilisez l’activité **Lecture d’audience** pour définir votre parcours d’écoute d’une audience [!DNL Adobe Experience Platform]. [En savoir plus sur l’activité Lecture d’audience](read-audience.md).
 
-Utilisez **Fragments de Parcours** pour insérer des jeux réutilisables de nœuds de parcours préconfigurés directement dans la zone de travail. Les fragments aident les équipes à rester cohérentes et à se déplacer plus rapidement en évitant de reconstruire la même logique (telle que les contrôles d’éligibilité, le routage de canal ou les séquences de bienvenue) à partir de zéro. [En savoir plus sur les fragments de Parcours &#x200B;](journey-fragments.md).
+Utilisez **Fragments de Parcours** pour insérer des jeux réutilisables de nœuds de parcours préconfigurés directement dans la zone de travail. Les fragments aident les équipes à rester cohérentes et à se déplacer plus rapidement en évitant de reconstruire la même logique (telle que les contrôles d’éligibilité, le routage de canal ou les séquences de bienvenue) à partir de zéro. [En savoir plus sur les fragments de Parcours ](journey-fragments.md).
 
 Les autres activités vous permettent d’ajouter des conditions à votre parcours afin de définir plusieurs chemins, de définir un délai d’attente avant l’exécution de l’activité suivante, ou de terminer votre parcours. [En savoir plus sur les activités d’orchestration](about-journey-activities.md#orchestration-activities).
 
@@ -167,12 +167,12 @@ Vous pouvez copier une ou plusieurs activités d&#39;un parcours et les coller s
 Pour copier/coller des activités, procédez comme suit :
 
 1. Ouvrez un parcours.
-1. Sélectionnez les activités à copier en déplaçant la souris tout en cliquant dessus. Vous pouvez également cliquer sur chaque activité tout en appuyant sur la touche **Ctrl/Commande**. Utilisez **Ctrl/Commande + A** pour sélectionner toutes les activités.
+1. Sélectionnez les activités à copier en déplaçant la souris tout en cliquant dessus. Vous pouvez également cliquer sur chaque activité tout en appuyant sur la touche **Ctrl/Commande**. Utilisez **Ctrl/Commande + A** pour sélectionner toutes les activités.
    ![Sélection de plusieurs activités à copier dans le parcours](assets/copy-paste1.png)
-1. Appuyez sur **Ctrl/Commande + C**.
-Si vous ne souhaitez copier qu&#39;une seule activité, vous pouvez cliquer dessus et utiliser l&#39;icône **Copier** en haut à gauche du volet de configuration de l&#39;activité.
+1. Appuyez sur **Ctrl/Commande + C**.
+Si vous ne souhaitez copier qu’une seule activité, vous pouvez cliquer dessus et utiliser l’icône **Copier** en haut à gauche du volet de configuration de l’activité.
    ![Icône Copier dans le volet de configuration de l’activité](assets/copy-paste2.png)
-1. Dans n’importe quel parcours, appuyez sur **Ctrl/Commande + V** pour coller les activités sans les lier à un nœud existant. Les activités collées sont placées dans le même ordre. Une fois collées, les activités restent sélectionnées pour que vous puissiez facilement les déplacer. Vous pouvez également placer le curseur sur un espace réservé vide et cliquer sur **Ctrl/Commande + V**. Les activités collées seront liées au nœud.
+1. Dans un parcours quelconque, appuyez sur **Ctrl/Commande + V** pour coller les activités sans les lier à un nœud existant. Les activités collées sont placées dans le même ordre. Une fois collées, les activités restent sélectionnées pour que vous puissiez facilement les déplacer. Vous pouvez également placer le curseur sur un espace réservé vide et cliquer sur **Ctrl/Commande + V**. Les activités collées seront liées au nœud.
    ![Activités collées dans la zone de travail du parcours prêtes à être connectées](assets/copy-paste3.png)
 
 +++ Référence des connaissances sur l’IA

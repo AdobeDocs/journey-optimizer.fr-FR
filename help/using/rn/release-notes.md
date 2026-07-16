@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Notes de mise à jour d’Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 709457e3a823c56785b4046dc2e5032a802f8b5c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5201f92a07a911fe1fbbb5b6adeb4c63841c1dc3
 workflow-type: tm+mt
-source-wordcount: 2884
-ht-degree: 78%
+source-wordcount: 3059
+ht-degree: 74%
 
 ---
 
@@ -95,6 +83,32 @@ ht-degree: 78%
 * **Nouveaux outils du serveur MCP AJO** - Le serveur MCP [!DNL Adobe Journey Optimizer] propose désormais cinq **outils de configuration de canal** en lecture seule supplémentaires. Vous pouvez ainsi interroger les configurations de canal, les ressources de prise en charge et les actions marketing directement à partir de l’assistant d’IA. Vous pouvez désormais utiliser **Répertorier les configurations de canal** (sur tous les canaux AJO), **Obtenir la configuration du canal**, **Répertorier les ressources de configuration**, **Obtenir la ressource de configuration** et **Répertorier les actions marketing**. [En savoir plus](../integrations/ajo-mcp.md#mcp-tools)
 
   Date de disponibilité : 9 juillet 2026
+
+
+### Améliorations de l’opérabilité {#july-26-usability}
+
+Les améliorations d’utilisation suivantes ont été publiées en juillet 2026.
+
+#### Gestion de contenu
+
+* **Raccourcis de lancement rapide dans l’inventaire des fragments** - Vous pouvez désormais accéder rapidement aux actions courantes à partir de la liste des fragments à l’aide du bouton **[!UICONTROL Plus d’actions]**. Les raccourcis disponibles incluent la modification du fragment, l’ouverture de ses détails et l’abandon de la version préliminaire. [En savoir plus](../content-management/manage-fragments.md#quick-launch-fragments)
+
+  ![](../content-management/assets/fragment-quick-launch.png)
+
+* **Raccourcis de lancement rapide dans l’inventaire des modèles** - Le bouton **[!UICONTROL Plus d’actions]** de la liste Modèles de contenu permet désormais d’accéder rapidement aux actions courantes : modifier les détails du modèle, simuler du contenu et supprimer un modèle. Pour les modèles d’e-mail, des raccourcis supplémentaires vous permettent de modifier l’objet et le corps de l’e-mail, d’afficher ou d’envoyer un BAT, d’exécuter un rapport de spam et de générer l’e-mail. [En savoir plus](../content-management/access-content-templates.md#quick-launch-templates)
+
+  ![](../content-management/assets/content-template-quick-launch.png)
+
+#### Parcours
+
+Une **nouvelle interface utilisateur** a été introduite pour la zone de travail de parcours, offrant des performances améliorées pour les parcours volumineux, une mise en page automatique pour une meilleure lisibilité et une expérience de création guidée.
+
+![](../building-journeys/assets/journey-new-canvas.png)
+
+Pour passer à la nouvelle interface utilisateur, cliquez sur le bouton **[!UICONTROL Nouvelle expérience]**. Ce paramètre est enregistré au niveau du parcours, de sorte que le parcours s’ouvre à nouveau dans la nouvelle expérience par défaut. Pour annuler, cliquez sur **[!UICONTROL Ancienne expérience]**. [En savoir plus](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
+
+![](../building-journeys/assets/journey-new-experience-switch.png){width="50%" align="center" zoomable="yes"}
+
 
 ## Notes de mise à jour du 26 juin {#june-26-rn}
 
@@ -181,7 +195,7 @@ Les fonctionnalités et améliorations suivantes ont été ajoutées aux parcour
 </table>
 
 
-* [!BADGE Obsolescence]{type=Negative} **Audiences par lots obsolètes dans le nœud Qualification d’audience** - À compter d’**août 2026**, Journey Optimizer bloquera la publication de tout parcours utilisant une audience par lots dans un nœud **Qualification d’audience**. Un avertissement de validation est déjà affiché dans la zone de travail du parcours. Les Live parcours existants ne sont pas affectés. Les parcours nouveaux, brouillons et dupliqués incluant cette configuration doivent être mis à jour avant août 2026. Utilisez une audience en flux continu dans le nœud Qualification de l’audience ou passez à une activité **Lecture d’audience**. [Découvrez comment migrer vos parcours &#x200B;](../building-journeys/aq-batch-audiences-migration.md)
+* [!BADGE Obsolescence]{type=Negative} **Audiences par lots obsolètes dans le nœud Qualification d’audience** - À compter d’**août 2026**, Journey Optimizer bloquera la publication de tout parcours utilisant une audience par lots dans un nœud **Qualification d’audience**. Un avertissement de validation est déjà affiché dans la zone de travail du parcours. Les Live parcours existants ne sont pas affectés. Les parcours nouveaux, brouillons et dupliqués incluant cette configuration doivent être mis à jour avant août 2026. Utilisez une audience en flux continu dans le nœud Qualification de l’audience ou passez à une activité **Lecture d’audience**. [Découvrez comment migrer vos parcours ](../building-journeys/aq-batch-audiences-migration.md)
 
 * **Arrêter directement un parcours en pause** - Vous pouvez désormais arrêter un parcours directement à partir de l’état **En pause**. Auparavant, un parcours en pause devait être repris en **actif** avant de pouvoir être arrêté. [En savoir plus](../building-journeys/journey-pause.md#stop-close-paused)
 
