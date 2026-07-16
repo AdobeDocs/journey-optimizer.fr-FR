@@ -11,10 +11,10 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: e12c7cdc7b90507913b1a0ebd3eb0ee74007f95b
+source-git-commit: 43b78122a37fc6e8bcbcc3da12200bc2c0bcd7d4
 workflow-type: tm+mt
-source-wordcount: '2203'
-ht-degree: 14%
+source-wordcount: '2272'
+ht-degree: 12%
 
 ---
 
@@ -166,6 +166,10 @@ Configurez la manière dont les membres s’inscrivent, le moment où la progres
 
    * **[!UICONTROL Nombre de fois qu’il peut être terminé]** : lorsque la répétition est activée, spécifiez le nombre de fois qu’un membre peut terminer le défi.
 
+* **[!UICONTROL Conditions d’achèvement]** *(défis standard uniquement)* :
+
+   * **[!UICONTROL Terminer dans une seule transaction]** : lorsqu’elle est activée, les clients doivent terminer toutes les tâches dans une seule transaction. Lorsqu’elles sont désactivées, les tâches peuvent être effectuées sur des transactions distinctes.
+
 ### Métadonnées personnalisées {#custom-metadata}
 
 Dans la section **[!UICONTROL Métadonnées personnalisées]**, sélectionnez **[!UICONTROL Ajouter une paire clé/valeur]** pour ajouter des métadonnées personnalisées. Utilisez des métadonnées pour le suivi ou l’intégration à des systèmes externes.
@@ -278,28 +282,31 @@ Pour configurer quand et comment les récompenses sont diffusées :
 
    +++
 
-Après avoir configuré la structure du défi avec des tâches et des récompenses, concevez les cartes de contenu pour afficher le défi aux clients.
+Après avoir configuré la structure du défi avec des tâches et des récompenses, vous pouvez éventuellement configurer la manière dont le défi est représenté aux clients. Si vous n’avez pas besoin de contenu de défi, ignorez cette étape et passez directement à [Configurer la messagerie](#configure-messaging).
 
-## Configurer les cartes de contenu {#configure-content-cards}
+## Configurer le contenu du défi (facultatif) {#configure-content-cards}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_content"
 >title="Contenu"
->abstract="Configurez la carte de contenu qui représente votre défi sur les appareils des clientes et clients et affiche les informations sur le défi, la progression et les récompenses. Saisissez le nom de la carte, sélectionnez une configuration des canaux afin que la diffusion utilise les paramètres techniques appropriés (par exemple, les en-têtes, le sous-domaine ou les applications mobiles), puis sélectionnez Modifier le contenu pour concevoir et personnaliser l’expérience de la carte."
+>abstract="Configurez la manière dont votre défi est représenté dans les emplacements où les membres du programme de fidélité accèdent aux défis et suivent leur progression. Utilisez Ajouter une action pour choisir la carte Contenu afin d’afficher une expérience de style carte ou une expérience basée sur du code afin de diffuser du contenu via votre propre implémentation personnalisée."
 
-Les cartes de contenu représentent visuellement votre défi sur les appareils des clients, en affichant les informations sur le défi, la progression et les récompenses. [En savoir plus sur les cartes de contenu](../content-card/create-content-card.md).
+L’onglet **[!UICONTROL Contenu]** contrôle la manière dont le défi est représenté aux emplacements où les membres du programme de fidélité accèdent aux défis et suivent leur progression.
 
-Pour configurer les cartes de contenu en fonction de votre défi :
+Pour configurer le contenu du défi :
 
-1. Accédez à l’onglet **[!UICONTROL Contenu]** et saisissez un **[!UICONTROL Nom]** pour la carte de contenu.
+1. Accédez à l’onglet **[!UICONTROL Contenu]** et cliquez sur **[!UICONTROL Ajouter une action]**.
 
-1. Sélectionnez la **[!UICONTROL Configuration du canal]**. Les configurations de canal contiennent tous les paramètres techniques relatifs à l’envoi de messages, tels que les paramètres d’en-tête, le sous-domaine, les applications mobiles, etc. [En savoir plus sur les configurations de canal](../configuration/channel-surfaces.md).
+1. Choisissez le type d&#39;action :
 
-1. Sélectionnez **[!UICONTROL Modifier le contenu]** pour concevoir votre carte de contenu. [Découvrez comment concevoir et personnaliser des cartes de contenu](../content-card/design-content-card.md).
+   * **[!UICONTROL Carte de contenu]** : affiche le défi sous la forme d’une expérience de style carte sur les appareils des clients. Sélectionnez une **[!UICONTROL configuration de canal]** et cliquez sur **[!UICONTROL Modifier le contenu]** pour concevoir et personnaliser la carte. [En savoir plus sur les cartes de contenu](../content-card/create-content-card.md).
+   * **[!UICONTROL Expérience basée sur le code]** : fournit du contenu complexe par le biais de votre propre implémentation personnalisée à l’aide du canal basé sur le code Journey Optimizer. Sélectionnez une **[!UICONTROL Configuration du canal]** et cliquez sur **[!UICONTROL Modifier le contenu]** pour définir le contenu. [En savoir plus sur les expériences basées sur du code](../code-based/create-code-based.md).
 
    ![](assets/challenge-create-content.png)
 
-Après avoir configuré la carte de contenu, configurez la messagerie pour impliquer les clients tout au long du cycle de vie du défi.
+   Vous pouvez ajouter plusieurs actions pour représenter le défi sur différentes surfaces.
+
+Après avoir configuré le contenu, configurez la messagerie pour impliquer les clients tout au long du cycle de vie du défi.
 
 ### Configurer les messages {#configure-messaging}
 
@@ -342,13 +349,13 @@ Le lancement d’un défi nécessite **trois étapes** : (1) publier le défi, (
 
    ![](assets/challenge-create-generate-journey.png)
 
-1. Journey Optimizer crée automatiquement un parcours au statut « Brouillon ». Le parcours apparaît dans votre inventaire de parcours avec le format de nom *« Parcours : [Nom du défi]«*. [En savoir plus sur l’inventaire des parcours &#x200B;](../building-journeys/journey-ui.md).
+1. Journey Optimizer crée automatiquement un parcours au statut « Brouillon ». Le parcours apparaît dans votre inventaire de parcours avec le format de nom *« Parcours : [Nom du défi]«*. [En savoir plus sur l’inventaire des parcours ](../building-journeys/journey-ui.md).
 
    ![](assets/challenge-create-journey.png)
 
-1. Ouvrez le parcours et publiez-le. Le parcours démarrera automatiquement à la date de début du défi que vous avez spécifiée et diffusera le contenu et les messages en fonction de votre configuration. [Découvrez comment publier un parcours &#x200B;](../building-journeys/publish-journey.md).
+1. Ouvrez le parcours et publiez-le. Le parcours démarrera automatiquement à la date de début du défi que vous avez spécifiée et diffusera le contenu et les messages en fonction de votre configuration. [Découvrez comment publier un parcours ](../building-journeys/publish-journey.md).
 
-1. Une fois votre défi lancé, surveillez les KPI du programme, les résultats des défis et les mesures au niveau de la tâche dans les [rapports de défi de fidélité](loyalty-reporting.md). Vous pouvez également surveiller la diffusion des messages dans le rapport de parcours [&#128279;](../reports/journey-global-report-cja.md).
+1. Une fois votre défi lancé, surveillez les KPI du programme, les résultats des défis et les mesures au niveau de la tâche dans les [rapports de défi de fidélité](loyalty-reporting.md). Vous pouvez également surveiller la diffusion des messages dans le rapport de parcours [](../reports/journey-global-report-cja.md).
 
 >[!NOTE]
 >
