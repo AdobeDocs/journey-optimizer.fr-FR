@@ -32,7 +32,7 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 300b4c714f797971749706e0269f61174d1fe91e
+source-git-commit: 2b5248d7f364eb3c9505d2e844f4b8ab9dce1dac
 workflow-type: tm+mt
 source-wordcount: 2469
 ht-degree: 66%
@@ -99,7 +99,7 @@ Une **nouvelle interface utilisateur** est disponible pour la zone de travail de
 
 Pour passer à la nouvelle expérience, cliquez sur le bouton **[!UICONTROL Nouvelle expérience]** dans la zone de travail du parcours. Une fois activé, ce paramètre est enregistré au niveau du parcours. Par conséquent, le parcours s’ouvrira par défaut dans la nouvelle expérience lors des visites ultérieures. Pour revenir en arrière, cliquez sur le bouton **[!UICONTROL Ancienne expérience]**.
 
-![](assets/journey-new-experience-switch.png){width="50%" align="center" zoomable="yes"}
+![](assets/journey-new-experience-switch.png)
 
 
 ## Démarrage de votre parcours {#start-your-journey}

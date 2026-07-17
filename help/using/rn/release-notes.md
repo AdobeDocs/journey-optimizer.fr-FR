@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5201f92a07a911fe1fbbb5b6adeb4c63841c1dc3
+source-git-commit: cc7181975bf21a8464dca60422b045e0f047b511
 workflow-type: tm+mt
-source-wordcount: 3059
+source-wordcount: 3064
 ht-degree: 74%
 
 ---
@@ -119,7 +119,9 @@ Une **nouvelle interface utilisateur** a été introduite pour la zone de travai
 
 Pour passer à la nouvelle interface utilisateur, cliquez sur le bouton **[!UICONTROL Nouvelle expérience]**. Ce paramètre est enregistré au niveau du parcours, de sorte que le parcours s’ouvre à nouveau dans la nouvelle expérience par défaut. Pour annuler, cliquez sur **[!UICONTROL Ancienne expérience]**. [En savoir plus](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
 
-![](../building-journeys/assets/journey-new-experience-switch.png){width="50%" align="center" zoomable="yes"}
+![](../building-journeys/assets/journey-new-experience-switch.png)
+
+Date de disponibilité : 16 juillet 2026
 
 
 ## Notes de mise à jour du 26 juin {#june-26-rn}
