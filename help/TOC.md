@@ -6,7 +6,7 @@ user-guide-description: Utilisez Journey Optimizer pour créer et proposer aux 
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 'null'
+source-git-commit: aa6fdb91c641674aaf716ae4059fb1c48cbe96c3
 workflow-type: tm+mt
 source-wordcount: '3467'
 ht-degree: 96%
@@ -54,7 +54,7 @@ ht-degree: 96%
    + Travailler efficacement {#work-efficiently}
       + [Naviguer dans l’interface](using/start/user-interface.md)
       + [Rechercher, filtrer, organiser](using/start/search-filter-categorize.md)
-      + [Questions fréquentes sur la résolution des problèmes](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [Questions fréquentes sur la résolution des problèmes](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Accessibilité](using/start/accessibility.md)
       + [Parcours ou campagnes](using/start/journeys-vs-campaigns.md)
       + {hide-from-toc}[Parcours ou campagnes - 2](using/start/journeys-vs-campaigns-v2.md)
